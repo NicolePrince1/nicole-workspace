@@ -39,6 +39,15 @@
 - The `gws` CLI (v0.8.1) doesn't natively support service account subject impersonation, so we use the token helper approach.
 - Gmail has ~15 messages, Drive has files including "Nicole Prince Control" doc.
 
+## Google Analytics
+
+- GA4 skill built at `skills/google-analytics/` with report runner and property discovery scripts
+- Token helper at `/data/.openclaw/secrets/gws-analytics-token.js`
+- Needs analytics scopes added to domain-wide delegation: `analytics.readonly` and `analytics`
+- Needs Analytics Data API and Admin API enabled in GCP project `oviond-workspace-cli`
+- GA4 property ID TBD — will discover via admin API once scopes are authorized
+- nicole@oviond.com needs viewer/editor access on the GA4 property
+
 ## Google Ads
 
 - Oviond Google Ads account: 290-615-4258 (under manager account 638-795-6297)
