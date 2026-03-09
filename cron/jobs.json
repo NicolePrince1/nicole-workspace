@@ -3,31 +3,67 @@
   "jobs": [
     {
       "id": "weekly-metrics-monday",
-      "schedule": "0 7 * * 1",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 7 * * 1"
+      },
       "task": "Pull weekly metrics for Chris. Run GA4 traffic + signups, MailerLite new subscribers + automation stats, GSC keyword movements, Meta ads spend. Format as a clean Slack summary. Compare to previous week. Send to Chris on Slack.",
-      "channel": "slack",
-      "target": "UDXMTJXGT"
+      "target": "UDXMTJXGT",
+      "state": {
+        "nextRunAtMs": 1773644400000
+      },
+      "name": "Cron: 0 7 * * 1",
+      "enabled": true,
+      "wakeMode": "now",
+      "sessionTarget": "main"
     },
     {
       "id": "monthly-growth-report",
-      "schedule": "0 7 1 * *",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 7 1 * *"
+      },
       "task": "First of the month: Pull full monthly growth report. MRR from Stripe (if available), GA traffic by channel, trial signups, conversion rates, MailerLite automation performance, SEO rankings, ad performance. Compare month-over-month. Update STRATEGY doc with learnings. Send summary to Chris on Slack.",
-      "channel": "slack",
-      "target": "UDXMTJXGT"
+      "target": "UDXMTJXGT",
+      "state": {
+        "nextRunAtMs": 1775026800000
+      },
+      "name": "Cron: 0 7 1 * *",
+      "enabled": true,
+      "wakeMode": "now",
+      "sessionTarget": "main"
     },
     {
       "id": "google-ads-api-check",
-      "schedule": "0 10 12 3 *",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 10 12 3 *"
+      },
       "task": "Check if Google Ads API Basic Access has been approved. Run: node /data/.openclaw/workspace/skills/google-ads/scripts/ads_query.js \"SELECT customer.descriptive_name FROM customer LIMIT 1\" — if it works, notify Chris that Google Ads is live. If still rejected, set another reminder for 3 days later.",
-      "channel": "slack",
-      "target": "UDXMTJXGT"
+      "target": "UDXMTJXGT",
+      "state": {
+        "nextRunAtMs": 1773309600000
+      },
+      "name": "Cron: 0 10 12 3 *",
+      "enabled": true,
+      "wakeMode": "now",
+      "sessionTarget": "main"
     },
     {
       "id": "seo-friday-check",
-      "schedule": "0 12 * * 5",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 12 * * 5"
+      },
       "task": "Friday SEO check: Pull GSC data for the week. Compare top keyword positions to previous week. Flag any significant ranking changes (up or down 5+ positions). Check if our target pages (client-onboarding-checklist, digital-marketing-reporting, free-ai-tools) moved. Save findings to memory/seo-weekly/.",
-      "channel": "slack",
-      "target": "UDXMTJXGT"
+      "target": "UDXMTJXGT",
+      "state": {
+        "nextRunAtMs": 1773403200000
+      },
+      "name": "Cron: 0 12 * * 5",
+      "enabled": true,
+      "wakeMode": "now",
+      "sessionTarget": "main"
     }
   ]
 }
