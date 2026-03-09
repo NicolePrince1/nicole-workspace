@@ -26,6 +26,19 @@
 - Do not store raw Stripe keys in tracked files or git.
 - Preferred long-term setup: place the key in OpenClaw Envars as `STRIPE_SECRET_KEY`.
 
+## Google Workspace
+
+- nicole@oviond.com is my Google Workspace email address.
+- Connected via service account with domain-wide delegation (project: oviond-workspace-cli).
+- Service account: nicole-workspace@oviond-workspace-cli.iam.gserviceaccount.com
+- Credentials stored at `/data/.openclaw/secrets/gws-service-account.json` (gitignored).
+- Token helper: `/data/.openclaw/secrets/gws-token.js` — generates impersonated OAuth tokens.
+- Wrapper: `gws-nicole` — drop-in replacement for `gws` that auto-injects the token.
+- Or in scripts: `export GOOGLE_WORKSPACE_CLI_TOKEN=$(node /data/.openclaw/secrets/gws-token.js)`
+- Authorized scopes: gmail.modify, gmail.send, calendar, drive, spreadsheets, documents, contacts.readonly, tasks.
+- The `gws` CLI (v0.8.1) doesn't natively support service account subject impersonation, so we use the token helper approach.
+- Gmail has ~15 messages, Drive has files including "Nicole Prince Control" doc.
+
 ## Current Stripe learnings
 
 - My first API probe confirmed access but did not yet reconstruct trustworthy MRR.

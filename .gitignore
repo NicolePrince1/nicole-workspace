@@ -20,3 +20,4 @@ db/**
 !cron/jobs.json
 !openclaw.json
 !.gitignore
+secrets/
