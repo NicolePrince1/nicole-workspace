@@ -22,6 +22,10 @@
       "google:default": {
         "provider": "google",
         "mode": "api_key"
+      },
+      "anthropic:default": {
+        "provider": "anthropic",
+        "mode": "api_key"
       }
     }
   },
@@ -35,7 +39,8 @@
           "alias": "GPT"
         },
         "openai-codex/gpt-5.3-codex": {},
-        "openai-codex/gpt-5.4": {}
+        "openai-codex/gpt-5.4": {},
+        "anthropic/claude-opus-4-6": {}
       },
       "workspace": "/data/.openclaw/workspace",
       "compaction": {
@@ -96,6 +101,14 @@
     "tailscale": {
       "mode": "off",
       "resetOnExit": false
+    },
+    "trustedProxies": [
+      "127.0.0.1"
+    ],
+    "controlUi": {
+      "allowedOrigins": [
+        "https://openclaw-railway-template-production-3ee7.up.railway.app"
+      ]
     }
   },
   "skills": {
