@@ -41,7 +41,6 @@
         "openai-codex/gpt-5.3-codex": {},
         "openai-codex/gpt-5.4": {},
         "anthropic/claude-opus-4-6": {},
-        "google/gemini-3-flash-preview": {},
         "google/gemini-3.1-flash-lite-preview": {}
       },
       "workspace": "/data/.openclaw/workspace",
