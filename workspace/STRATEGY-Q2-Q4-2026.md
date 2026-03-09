@@ -139,6 +139,19 @@ The MailerLite groups 3.6 (Ready to Upgrade - Annual), 3.7 (Ready to Upgrade - C
 
 ---
 
+## Tech Stack & Migration Strategy (March 2026)
+
+### Pivot to Loops.so
+- **Decision:** Moving from MailerLite to Loops.so for email automation.
+- **Why:** Loops is API-first and SaaS-native; removes manual UI drag-and-drop bottlenecks. Allows full programmatic control of onboarding, activation, and churn sequences.
+- **End-to-End Migration Strategy:**
+    1. **Infrastructure (Days 1-2):** Set up Loops.so account, configure DNS (SPF/DKIM/DMARC), map Stripe data to custom fields.
+    2. **Logic Migration (Days 3-5):** Re-engineer 15-day trial sequence (behavior-driven triggers, not just time-based).
+    3. **Content Sync (Days 6-7):** Insert new copy from audit into Loops templates.
+    4. **Cutover (Day 8):** Shadow run, then activate.
+
+---
+
 ## Operational Cadence
 
 ### Daily (Automated / Heartbeat)
