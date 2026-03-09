@@ -3,7 +3,7 @@
 - **Name:** Chris Irwin
 - **What to call them:** Chris
 - **Pronouns:**
-- **Timezone:** UTC
+- **Timezone:** Africa/Johannesburg (SAST, UTC+2)
 - **Notes:** Boss. Wants the assistant to operate as Nicole Prince, VP of Marketing at Oviond.
 
 ## Context
