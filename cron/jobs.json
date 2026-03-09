@@ -3,45 +3,99 @@
   "jobs": [
     {
       "id": "weekly-metrics-monday",
-      "schedule": "0 7 * * 1",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 7 * * 1"
+      },
       "task": "Weekly Monday report for Chris. Pull: 1) Stripe MRR from last 7 days invoices vs prior 7 days, new trials, past_due count, paused count. 2) GA4 sessions + signups by channel, week-over-week. 3) MailerLite trial group size, automation performance. 4) GSC top keyword position changes. 5) Meta ads spend + results. Format as clean Slack summary with trends (up/down arrows). Update memory/weekly-reports/ with the data. Send to Chris on Slack.",
-      "channel": "slack",
-      "target": "UDXMTJXGT"
+      "target": "UDXMTJXGT",
+      "state": {
+        "nextRunAtMs": 1773644400000
+      },
+      "name": "Cron: 0 7 * * 1",
+      "enabled": true,
+      "wakeMode": "now",
+      "sessionTarget": "main"
     },
     {
       "id": "monthly-growth-report",
-      "schedule": "0 7 1 * *",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 7 1 * *"
+      },
       "task": "First of month growth report. Full month analysis: 1) MRR from Stripe invoices — month total, growth rate, ARPU. 2) Funnel metrics — visitors, trials, conversions, churn. 3) Channel performance — organic, direct, paid, social, email. 4) SEO — ranking changes for target keywords. 5) Email — automation stats, campaign performance. 6) Ads — spend, CAC, ROAS. 7) Update STRATEGY-Q2-Q4-2026.md with actuals vs targets and adjust plan. Send summary to Chris on Slack.",
-      "channel": "slack",
-      "target": "UDXMTJXGT"
+      "target": "UDXMTJXGT",
+      "state": {
+        "nextRunAtMs": 1775026800000
+      },
+      "name": "Cron: 0 7 1 * *",
+      "enabled": true,
+      "wakeMode": "now",
+      "sessionTarget": "main"
     },
     {
       "id": "google-ads-api-check",
-      "schedule": "0 8 12 3 *",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 12 3 *"
+      },
       "task": "Check if Google Ads API Basic Access has been approved. Test query: node /data/.openclaw/workspace/skills/google-ads/scripts/ads_query.js 'SELECT customer.descriptive_name FROM customer LIMIT 1'. If it works, notify Chris that Google Ads is live. If still rejected, set another reminder for 3 days later.",
-      "channel": "slack",
-      "target": "UDXMTJXGT"
+      "target": "UDXMTJXGT",
+      "state": {
+        "nextRunAtMs": 1773302400000
+      },
+      "name": "Cron: 0 8 12 3 *",
+      "enabled": true,
+      "wakeMode": "now",
+      "sessionTarget": "main"
     },
     {
       "id": "seo-friday-check",
-      "schedule": "0 12 * * 5",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 12 * * 5"
+      },
       "task": "Friday SEO check. Pull GSC data for the week vs prior week. Compare top 20 non-brand keyword positions. Flag any movement >3 positions (up or down). Check target pages: client-onboarding-checklist, digital-marketing-reporting, free-ai-tools, content-social-media-marketing. Save to memory/seo-weekly/YYYY-MM-DD.json. Only message Chris if significant changes found.",
-      "channel": "slack",
-      "target": "UDXMTJXGT"
+      "target": "UDXMTJXGT",
+      "state": {
+        "nextRunAtMs": 1773403200000
+      },
+      "name": "Cron: 0 12 * * 5",
+      "enabled": true,
+      "wakeMode": "now",
+      "sessionTarget": "main"
     },
     {
       "id": "trial-conversion-wednesday",
-      "schedule": "0 9 * * 3",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 3"
+      },
       "task": "Mid-week trial check. Pull: 1) Current trial count from MailerLite group 1.1. 2) New trials started this week (MailerLite API, subscribers created in last 7 days in trial group). 3) Stripe trialing count. 4) Any trials expiring in next 3 days? Compare to last week. If trial-to-paid conversion rate drops below 10%, flag to Chris with analysis.",
-      "channel": "slack",
-      "target": "UDXMTJXGT"
+      "target": "UDXMTJXGT",
+      "state": {
+        "nextRunAtMs": 1773219600000
+      },
+      "name": "Cron: 0 9 * * 3",
+      "enabled": true,
+      "wakeMode": "now",
+      "sessionTarget": "main"
     },
     {
       "id": "strategy-self-review",
-      "schedule": "0 8 1,15 * *",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 1,15 * *"
+      },
       "task": "Bi-monthly strategy self-review. Read STRATEGY-Q2-Q4-2026.md. Check: 1) Are we on track vs the MRR trajectory? 2) Which plays are working, which aren't? 3) Any new data that changes priorities? 4) Update the strategy doc with learnings and adjusted actions. 5) Write a brief update to memory/strategy-reviews/. Only message Chris if the plan needs significant changes.",
-      "channel": "slack",
-      "target": "UDXMTJXGT"
+      "target": "UDXMTJXGT",
+      "state": {
+        "nextRunAtMs": 1773561600000
+      },
+      "name": "Cron: 0 8 1,15 * *",
+      "enabled": true,
+      "wakeMode": "now",
+      "sessionTarget": "main"
     }
   ]
 }
