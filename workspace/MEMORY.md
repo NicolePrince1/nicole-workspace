@@ -39,6 +39,20 @@
 - The `gws` CLI (v0.8.1) doesn't natively support service account subject impersonation, so we use the token helper approach.
 - Gmail has ~15 messages, Drive has files including "Nicole Prince Control" doc.
 
+## Google Ads
+
+- Oviond Google Ads account: 290-615-4258 (under manager account 638-795-6297)
+- Developer token: `z7adyM4vUm79lJCxNi0Ydg` (currently Test Account level — Basic Access application submitted 2026-03-09)
+- nicole@oviond.com has been added as a user on the Ads account
+- Service account impersonation works for the `adwords` scope
+- GCP project `oviond-workspace-cli` (480335022137) has Google Ads API enabled
+- Blocker: developer token needs Basic Access approval to hit production accounts (PROJECT_DISABLED error until then)
+- Skill framework built at `skills/google-ads/` with GAQL query runner and mutate scripts
+- Token helper at `/data/.openclaw/secrets/gws-ads-token.js`
+- Cron reminder set for 2026-03-12 to check if access is approved
+- The first developer token Chris gave (`oyZpQqJIpp3QdYanw-JtZA`) was wrong — the real one is `z7adyM4vUm79lJCxNi0Ydg`
+- There's also a BizSage Google Ads sub-account (687-473-0709) under the manager
+
 ## Current Stripe learnings
 
 - My first API probe confirmed access but did not yet reconstruct trustworthy MRR.

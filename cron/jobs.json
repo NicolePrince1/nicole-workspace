@@ -1,4 +1,12 @@
 {
   "version": 1,
-  "jobs": []
+  "jobs": [
+    {
+      "id": "google-ads-api-check",
+      "schedule": "0 10 12 3 *",
+      "task": "Check if Google Ads API Basic Access has been approved. Run: node /data/.openclaw/workspace/skills/google-ads/scripts/ads_query.js \"SELECT customer.descriptive_name FROM customer LIMIT 1\" — if it works, notify Chris on Slack that Google Ads is live and ready. If still rejected, set another reminder for 3 days later.",
+      "channel": "slack",
+      "target": "UDXMTJXGT"
+    }
+  ]
 }
