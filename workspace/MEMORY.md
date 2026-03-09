@@ -45,8 +45,8 @@
 - Token helper at `/data/.openclaw/secrets/gws-analytics-token.js`
 - Needs analytics scopes added to domain-wide delegation: `analytics.readonly` and `analytics`
 - Needs Analytics Data API and Admin API enabled in GCP project `oviond-workspace-cli`
-- GA4 property ID TBD — will discover via admin API once scopes are authorized
-- nicole@oviond.com needs viewer/editor access on the GA4 property
+- GA4 property: "Oviond Website + App" — Property ID: 432527276 (Account: Oviond, 109663738)
+- All scopes working, APIs enabled, nicole@oviond.com has access — fully operational
 
 ## Google Ads
 
