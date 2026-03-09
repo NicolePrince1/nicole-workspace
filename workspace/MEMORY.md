@@ -39,6 +39,20 @@
 - The `gws` CLI (v0.8.1) doesn't natively support service account subject impersonation, so we use the token helper approach.
 - Gmail has ~15 messages, Drive has files including "Nicole Prince Control" doc.
 
+## Meta (Facebook + Instagram)
+
+- System User: Nicole Prince (ID: 61584969418636) — Admin access, non-expiring token
+- Business Manager ID: 287659180931920
+- Facebook Page: OVIOND (ID: 1700329636926546) — 798 followers, full control
+- Instagram: @ovionddigital (ID: 17841415739993320) — 85 followers, 3 posts
+- Ad Account: act_286631686227626 (Oviond, currency: ZAR)
+- Pixel: Oviond 2024
+- Domain: oviond.com verified
+- Token stored at `/data/.openclaw/secrets/meta-token.txt` (gitignored)
+- Active campaign: "Remarketing USA" (Traffic objective, R350/day)
+- 2 paused campaigns: "Remarketing Top Countries" (Sales), "United States - Free Trial Remarketing" (Leads, R300/day)
+- Skill at `skills/meta/`
+
 ## Google Analytics
 
 - GA4 skill built at `skills/google-analytics/` with report runner and property discovery scripts
