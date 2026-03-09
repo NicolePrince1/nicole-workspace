@@ -32,7 +32,7 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "openai-codex/gpt-5.4"
+        "primary": "google/gemini-3.1-flash-lite-preview"
       },
       "models": {
         "openai/gpt-5.1-codex": {
