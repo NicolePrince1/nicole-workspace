@@ -39,6 +39,18 @@
 - The `gws` CLI (v0.8.1) doesn't natively support service account subject impersonation, so we use the token helper approach.
 - Gmail has ~15 messages, Drive has files including "Nicole Prince Control" doc.
 
+## MailerLite
+
+- API key stored in env var `MAILER_LITE` (added via AlphaClaw Envars)
+- Skill at `skills/mailerlite/`
+- Account has ~9,000+ subscribers across lifecycle segments
+- 20+ groups organized by lifecycle stage (trial, paying, lapsed, dormant, LTD)
+- 10+ automations running (trial onboarding, expired reactivation, paying customer nurture, reactivation, churn recovery)
+- Rich custom fields synced from Stripe (customer_id, plan, status, usage metrics)
+- Key insight: account is heavily automation-driven, only 1 sent campaign vs 10+ automations
+- Largest segments: Dormant (2,644), Reach-out-then-unsub (3,179), Lapsed (1,916), LTD users (1,027)
+- Top automation by volume: "101 - Reactivate or Scrub" (31,316 sends)
+
 ## Meta (Facebook + Instagram)
 
 - System User: Nicole Prince (ID: 61584969418636) — Admin access, non-expiring token
