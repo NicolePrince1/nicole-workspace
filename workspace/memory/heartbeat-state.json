@@ -1,10 +1,35 @@
 {
   "lastChecks": {
-    "trial_health": null,
-    "revenue_pulse": null,
-    "seo_movement": null,
-    "email_health": null,
-    "ad_spend": null
+    "trial_health": 1773122611,
+    "revenue_pulse": 1773122907,
+    "seo_movement": 1773088740,
+    "email_health": 1773122611,
+    "ad_spend": 1773079740
+  },
+  "lastMetrics": {
+    "trial_health": {
+      "trial_group_active_count": 47,
+      "near_expiry_count_next_3_5_days": 12
+    },
+    "revenue_pulse": {
+      "current_7d_paid_invoice_count": 100,
+      "current_7d_paid_invoice_amount": 4426.6,
+      "prior_7d_paid_invoice_count": 151,
+      "prior_7d_paid_invoice_amount": 12250.61,
+      "delta_amount": -7824.01,
+      "delta_pct": -63.87,
+      "past_due_subscriptions": 18
+    },
+    "email_health": {
+      "flagged_automations": [
+        {
+          "name": "101 - Oviond Reactivate or Scrub",
+          "bounce_rate": 0.050102184186997,
+          "open_rate": 0.25852599310257,
+          "sent": 31316
+        }
+      ]
+    }
   },
   "lastWeeklyReport": null,
   "lastMonthlyReport": null
