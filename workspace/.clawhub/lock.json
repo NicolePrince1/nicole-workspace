@@ -1,9 +1,9 @@
 {
   "version": 1,
   "skills": {
-    "agent-browser": {
-      "version": "0.2.0",
-      "installedAt": 1773132058707
+    "browser-use": {
+      "version": "1.0.2",
+      "installedAt": 1773132690792
     }
   }
 }
