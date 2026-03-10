@@ -1,15 +1,16 @@
 {
   "lastChecks": {
-    "trial_health": 1773122611,
+    "trial_health": 1773144248,
     "revenue_pulse": 1773122907,
-    "seo_movement": 1773088740,
-    "email_health": 1773122611,
-    "ad_spend": 1773079740
+    "seo_movement": 1773130320,
+    "email_health": 1773144248,
+    "ad_spend": 1773132240
   },
   "lastMetrics": {
     "trial_health": {
       "trial_group_active_count": 47,
-      "near_expiry_count_next_3_5_days": 12
+      "near_expiry_count_next_3_5_days": null,
+      "note": "Active count remains 47; near-expiry count not recomputed in this pass."
     },
     "revenue_pulse": {
       "current_7d_paid_invoice_count": 100,
@@ -24,11 +25,84 @@
       "flagged_automations": [
         {
           "name": "101 - Oviond Reactivate or Scrub",
-          "bounce_rate": 0.050102184186997,
-          "open_rate": 0.25852599310257,
+          "bounce_rate": 0.0501,
+          "open_rate": 0.25853,
           "sent": 31316
         }
       ]
+    },
+    "seo_movement": {
+      "baseline_available": false,
+      "note": "No saved seo-weekly baseline was present, so no movement comparison was possible on this pass.",
+      "top_non_brand_queries": [
+        {
+          "query": "digital marketing report",
+          "position": 7.68465736810188,
+          "impressions": 1649,
+          "clicks": 8
+        },
+        {
+          "query": "pros and cons of influencer marketing",
+          "position": 1.9078947368421053,
+          "impressions": 152,
+          "clicks": 8
+        },
+        {
+          "query": "advantages and disadvantages of influencer marketing",
+          "position": 2.439655172413793,
+          "impressions": 116,
+          "clicks": 6
+        },
+        {
+          "query": "ai tools for digital marketing free",
+          "position": 4.272727272727273,
+          "impressions": 55,
+          "clicks": 6
+        },
+        {
+          "query": "digital marketing ai tools free",
+          "position": 5.111111111111111,
+          "impressions": 54,
+          "clicks": 5
+        },
+        {
+          "query": "ai tools for digital marketing",
+          "position": 20.675524475524476,
+          "impressions": 715,
+          "clicks": 4
+        },
+        {
+          "query": "pillars of digital marketing",
+          "position": 3.9302325581395348,
+          "impressions": 258,
+          "clicks": 4
+        },
+        {
+          "query": "social media content",
+          "position": 9.332494370115247,
+          "impressions": 7549,
+          "clicks": 4
+        },
+        {
+          "query": "website performance report template",
+          "position": 18.692307692307693,
+          "impressions": 195,
+          "clicks": 4
+        }
+      ]
+    },
+    "ad_spend": {
+      "week_start": "2026-03-09",
+      "week_end": "2026-03-10",
+      "campaigns": [
+        {
+          "campaign_name": "Remarketing USA",
+          "spend": 485.2,
+          "landing_page_views": 3,
+          "cost_per_landing_page_view": 161.733333
+        }
+      ],
+      "flagged_campaigns": []
     }
   },
   "lastWeeklyReport": null,
