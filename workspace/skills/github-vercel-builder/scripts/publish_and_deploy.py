@@ -154,6 +154,7 @@ def collect_files(project_dir: Path):
 def create_vercel_deployment(project_name: str, project_dir: Path, team_slug: str, *, sha: str, repo_url: str, branch: str, git_name: str, git_email: str):
     payload = {
         "name": project_name,
+        "public": True,
         "files": collect_files(project_dir),
         "projectSettings": {
             "framework": None,
@@ -265,6 +266,7 @@ def main():
             "url": final_url,
             "readyState": ready.get("readyState") or ready.get("state"),
             "projectId": ready.get("projectId"),
+            "public": ready.get("public", deployment.get("public")),
         },
     }
     print(json.dumps(result, indent=2))
