@@ -54,8 +54,9 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ### Stripe
 
 - Preferred secret location: OpenClaw Envars as `STRIPE_SECRET_KEY`.
-- Local Stripe analysis skill lives at `skills/stripe-reader/`.
-- Helper script: `skills/stripe-reader/scripts/stripe_snapshot.py`.
+- Stripe is not one of the workspace-local skills.
+- The managed Stripe analysis skill lives under the managed root at `/data/.openclaw/skills/stripe-reader/`.
+- Helper script: `/data/.openclaw/skills/stripe-reader/scripts/stripe_snapshot.py`.
 - Current access supports billing reads such as subscriptions, customers, and invoices, but not `/account`.
 
 ### MailerLite
