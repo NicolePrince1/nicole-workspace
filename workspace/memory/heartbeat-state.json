@@ -1,16 +1,16 @@
 {
   "lastChecks": {
-    "trial_health": 1773144248,
+    "trial_health": 1773154980,
     "revenue_pulse": 1773145980,
     "seo_movement": 1773145980,
-    "email_health": 1773144248,
+    "email_health": 1773154980,
     "ad_spend": 1773145980
   },
   "lastMetrics": {
     "trial_health": {
-      "trial_group_active_count": 47,
+      "trial_group_active_count": 48,
       "near_expiry_count_next_3_5_days": null,
-      "note": "Active count remains 47; near-expiry count not recomputed in this pass."
+      "note": "Active trial group count is 48 now."
     },
     "revenue_pulse": {
       "status": "unverified",
