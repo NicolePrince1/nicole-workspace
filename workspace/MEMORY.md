@@ -19,25 +19,22 @@
 
 ## Stripe context
 
-- Chris provided a restricted Stripe key for read-only analysis.
+- Stripe access exists for read-only billing analysis.
 - I created a reusable local skill at `skills/stripe-reader/` with a packaged artifact at `skills/dist/stripe-reader.skill`.
 - The Stripe helper script is `skills/stripe-reader/scripts/stripe_snapshot.py`.
-- The key works for billing reads like subscriptions, customers, and invoices, but does not have permission for `/account`.
+- Current access works for billing reads like subscriptions, customers, and invoices, but not `/account`.
 - Do not store raw Stripe keys in tracked files or git.
-- Preferred long-term setup: place the key in OpenClaw Envars as `STRIPE_SECRET_KEY`.
+- Preferred long-term setup: keep the key in OpenClaw Envars as `STRIPE_SECRET_KEY`.
 
 ## Google Workspace
 
-- nicole@oviond.com is my Google Workspace email address.
-- Connected via service account with domain-wide delegation (project: oviond-workspace-cli).
-- Service account: nicole-workspace@oviond-workspace-cli.iam.gserviceaccount.com
-- Credentials stored at `/data/.openclaw/secrets/gws-service-account.json` (gitignored).
-- Token helper: `/data/.openclaw/secrets/gws-token.js` — generates impersonated OAuth tokens.
-- Wrapper: `gws-nicole` — drop-in replacement for `gws` that auto-injects the token.
-- Or in scripts: `export GOOGLE_WORKSPACE_CLI_TOKEN=$(node /data/.openclaw/secrets/gws-token.js)`
-- Authorized scopes: gmail.modify, gmail.send, calendar, drive, spreadsheets, documents, contacts.readonly, tasks.
-- The `gws` CLI (v0.8.1) doesn't natively support service account subject impersonation, so we use the token helper approach.
-- Gmail has ~15 messages, Drive has files including "Nicole Prince Control" doc.
+- `nicole@oviond.com` is my Google Workspace email address.
+- Google Workspace is connected via service-account impersonation with domain-wide delegation in project `oviond-workspace-cli`.
+- Credentials and token helpers live in gitignored secret storage under `/data/.openclaw/secrets/`.
+- Wrapper: `gws-nicole` — drop-in replacement for `gws` that injects an impersonated token.
+- Authorized scopes include Gmail, Calendar, Drive, Sheets, Docs, Contacts, and Tasks.
+- The `gws` CLI does not natively support service-account subject impersonation, so the local wrapper/helper approach is used.
+- Gmail and Drive access were verified; Drive includes the "Nicole Prince Control" doc.
 
 ## MailerLite
 
@@ -53,40 +50,37 @@
 
 ## Meta (Facebook + Instagram)
 
-- System User: Nicole Prince (ID: 61584969418636) — Admin access, non-expiring token
-- Business Manager ID: 287659180931920
-- Facebook Page: OVIOND (ID: 1700329636926546) — 798 followers, full control
-- Instagram: @ovionddigital (ID: 17841415739993320) — 85 followers, 3 posts
-- Ad Account: act_286631686227626 (Oviond, currency: ZAR)
-- Pixel: Oviond 2024
-- Domain: oviond.com verified
-- Token stored at `/data/.openclaw/secrets/meta-token.txt` (gitignored)
-- Active campaign: "Remarketing USA" (Traffic objective, R350/day)
-- 2 paused campaigns: "Remarketing Top Countries" (Sales), "United States - Free Trial Remarketing" (Leads, R300/day)
-- Skill at `skills/meta/`
+- Meta access is configured for Oviond’s Facebook, Instagram, and Ads assets.
+- Access token material is stored in gitignored secret storage under `/data/.openclaw/secrets/`.
+- Facebook Page: OVIOND.
+- Instagram: `@ovionddigital`.
+- Ad account uses ZAR.
+- Pixel: Oviond 2024.
+- Domain: `oviond.com` is verified.
+- Active campaign at last check: "Remarketing USA" (Traffic objective, R350/day).
+- Two paused campaigns at last check: "Remarketing Top Countries" and "United States - Free Trial Remarketing".
+- Skill at `skills/meta/`.
 
 ## Google Analytics
 
-- GA4 skill built at `skills/google-analytics/` with report runner and property discovery scripts
-- Token helper at `/data/.openclaw/secrets/gws-analytics-token.js`
-- Needs analytics scopes added to domain-wide delegation: `analytics.readonly` and `analytics`
-- Needs Analytics Data API and Admin API enabled in GCP project `oviond-workspace-cli`
-- GA4 property: "Oviond Website + App" — Property ID: 432527276 (Account: Oviond, 109663738)
-- All scopes working, APIs enabled, nicole@oviond.com has access — fully operational
+- GA4 skill built at `skills/google-analytics/` with report runner and property discovery scripts.
+- Token helper material lives in gitignored secret storage under `/data/.openclaw/secrets/`.
+- Analytics scopes were added to the domain-wide delegation setup.
+- Analytics Data API and Admin API are enabled in project `oviond-workspace-cli`.
+- GA4 property: "Oviond Website + App".
+- The Google Analytics setup is fully operational for `nicole@oviond.com`.
 
 ## Google Ads
 
-- Oviond Google Ads account: 290-615-4258 (under manager account 638-795-6297)
-- Developer token: `z7adyM4vUm79lJCxNi0Ydg` (currently Test Account level — Basic Access application submitted 2026-03-09)
-- nicole@oviond.com has been added as a user on the Ads account
-- Service account impersonation works for the `adwords` scope
-- GCP project `oviond-workspace-cli` (480335022137) has Google Ads API enabled
-- Blocker: developer token needs Basic Access approval to hit production accounts (PROJECT_DISABLED error until then)
-- Skill framework built at `skills/google-ads/` with GAQL query runner and mutate scripts
-- Token helper at `/data/.openclaw/secrets/gws-ads-token.js`
-- Cron reminder set for 2026-03-12 to check if access is approved
-- The first developer token Chris gave (`oyZpQqJIpp3QdYanw-JtZA`) was wrong — the real one is `z7adyM4vUm79lJCxNi0Ydg`
-- There's also a BizSage Google Ads sub-account (687-473-0709) under the manager
+- Oviond’s Google Ads setup is connected under the main manager account, with an additional BizSage sub-account also present.
+- The Google Ads developer token exists in secret storage and must not be written into tracked workspace files.
+- `nicole@oviond.com` has been added as a user on the Ads account.
+- Service-account impersonation works for the `adwords` scope.
+- Google Ads API is enabled in project `oviond-workspace-cli`.
+- Current blocker: the developer token still needs Basic Access approval before production account access works cleanly (`PROJECT_DISABLED` until then).
+- Skill framework built at `skills/google-ads/` with GAQL query runner and mutate scripts.
+- Token helper material lives in gitignored secret storage under `/data/.openclaw/secrets/`.
+- Cron reminder set for 2026-03-12 to check whether access has been approved.
 
 ## Current Stripe learnings
 
