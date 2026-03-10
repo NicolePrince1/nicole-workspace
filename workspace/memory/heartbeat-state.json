@@ -1,10 +1,10 @@
 {
   "lastChecks": {
     "trial_health": 1773144248,
-    "revenue_pulse": 1773122907,
-    "seo_movement": 1773130320,
+    "revenue_pulse": 1773145980,
+    "seo_movement": 1773145980,
     "email_health": 1773144248,
-    "ad_spend": 1773132240
+    "ad_spend": 1773145980
   },
   "lastMetrics": {
     "trial_health": {
@@ -13,13 +13,9 @@
       "note": "Active count remains 47; near-expiry count not recomputed in this pass."
     },
     "revenue_pulse": {
-      "current_7d_paid_invoice_count": 100,
-      "current_7d_paid_invoice_amount": 4426.6,
-      "prior_7d_paid_invoice_count": 151,
-      "prior_7d_paid_invoice_amount": 12250.61,
-      "delta_amount": -7824.01,
-      "delta_pct": -63.87,
-      "past_due_subscriptions": 18
+      "status": "unverified",
+      "note": "recheck attempted at heartbeat",
+      "error": "Missing STRIPE_SECRET_KEY in this runtime; cannot compute fresh paid invoices/past_due from runtime."
     },
     "email_health": {
       "flagged_automations": [
@@ -32,66 +28,12 @@
       ]
     },
     "seo_movement": {
+      "status": "deferred",
       "baseline_available": false,
-      "note": "No saved seo-weekly baseline was present, so no movement comparison was possible on this pass.",
-      "top_non_brand_queries": [
-        {
-          "query": "digital marketing report",
-          "position": 7.68465736810188,
-          "impressions": 1649,
-          "clicks": 8
-        },
-        {
-          "query": "pros and cons of influencer marketing",
-          "position": 1.9078947368421053,
-          "impressions": 152,
-          "clicks": 8
-        },
-        {
-          "query": "advantages and disadvantages of influencer marketing",
-          "position": 2.439655172413793,
-          "impressions": 116,
-          "clicks": 6
-        },
-        {
-          "query": "ai tools for digital marketing free",
-          "position": 4.272727272727273,
-          "impressions": 55,
-          "clicks": 6
-        },
-        {
-          "query": "digital marketing ai tools free",
-          "position": 5.111111111111111,
-          "impressions": 54,
-          "clicks": 5
-        },
-        {
-          "query": "ai tools for digital marketing",
-          "position": 20.675524475524476,
-          "impressions": 715,
-          "clicks": 4
-        },
-        {
-          "query": "pillars of digital marketing",
-          "position": 3.9302325581395348,
-          "impressions": 258,
-          "clicks": 4
-        },
-        {
-          "query": "social media content",
-          "position": 9.332494370115247,
-          "impressions": 7549,
-          "clicks": 4
-        },
-        {
-          "query": "website performance report template",
-          "position": 18.692307692307693,
-          "impressions": 195,
-          "clicks": 4
-        }
-      ]
+      "note": "No saved seo-weekly baseline available for position delta comparison this pass."
     },
     "ad_spend": {
+      "status": "unverified",
       "week_start": "2026-03-09",
       "week_end": "2026-03-10",
       "campaigns": [
@@ -102,7 +44,8 @@
           "cost_per_landing_page_view": 161.733333
         }
       ],
-      "flagged_campaigns": []
+      "flagged_campaigns": [],
+      "note": "CPA remained below $200 in last available sample."
     }
   },
   "lastWeeklyReport": null,
