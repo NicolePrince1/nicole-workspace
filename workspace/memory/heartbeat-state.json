@@ -1,16 +1,16 @@
 {
   "lastChecks": {
-    "trial_health": 1773154980,
+    "trial_health": 1773172980,
     "revenue_pulse": 1773145980,
     "seo_movement": 1773145980,
-    "email_health": 1773154980,
+    "email_health": 1773172980,
     "ad_spend": 1773145980
   },
   "lastMetrics": {
     "trial_health": {
       "trial_group_active_count": 48,
       "near_expiry_count_next_3_5_days": null,
-      "note": "Active trial group count is 48 now."
+      "note": "Active trial group count remains 48."
     },
     "revenue_pulse": {
       "status": "unverified",
@@ -22,7 +22,7 @@
         {
           "name": "101 - Oviond Reactivate or Scrub",
           "bounce_rate": 0.0501,
-          "open_rate": 0.25853,
+          "open_rate": 0.2585,
           "sent": 31316
         }
       ]
