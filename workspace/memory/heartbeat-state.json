@@ -1,51 +1,141 @@
 {
   "lastChecks": {
-    "trial_health": 1773172980,
-    "revenue_pulse": 1773145980,
-    "seo_movement": 1773145980,
-    "email_health": 1773172980,
-    "ad_spend": 1773145980
+    "trial_health": 1773470940,
+    "revenue_pulse": 1773331454,
+    "seo_movement": 1773333255,
+    "email_health": 1773470940,
+    "ad_spend": 1773338651
   },
   "lastMetrics": {
     "trial_health": {
       "trial_group_active_count": 48,
-      "near_expiry_count_next_3_5_days": null,
-      "note": "Active trial group count remains 48."
+      "previous_trial_group_active_count": 45,
+      "trend": "up",
+      "trend_delta": 3,
+      "near_expiry_count_next_2_days": 1,
+      "near_expiry_sample": [
+        {
+          "email": "puntotattoopartners@gmail.com",
+          "days_left": 1.49,
+          "trialing": "true",
+          "status": "trialing",
+          "current_period_end": "2026-03-15T18:31:21Z"
+        }
+      ],
+      "note": "Trial Users group checked via MailerLite groups + group subscribers endpoints."
     },
     "revenue_pulse": {
       "status": "unverified",
-      "note": "recheck attempted at heartbeat",
-      "error": "Missing STRIPE_SECRET_KEY in this runtime; cannot compute fresh paid invoices/past_due from runtime."
+      "note": "Stripe snapshot still unavailable in this runtime.",
+      "error": "Missing STRIPE_SECRET_KEY"
+    },
+    "seo_movement": {
+      "status": "ok",
+      "top10": [
+        {
+          "query": "ovinoid",
+          "clicks": 19,
+          "impressions": 24,
+          "ctr": 0.7916666666666666,
+          "position": 1
+        },
+        {
+          "query": "pros and cons of influencer marketing",
+          "clicks": 9,
+          "impressions": 152,
+          "ctr": 0.05921052631578947,
+          "position": 1.9276315789473686
+        },
+        {
+          "query": "digital marketing report",
+          "clicks": 7,
+          "impressions": 1596,
+          "ctr": 0.0043859649122807015,
+          "position": 7.678571428571429
+        },
+        {
+          "query": "advantages and disadvantages of influencer marketing",
+          "clicks": 6,
+          "impressions": 107,
+          "ctr": 0.056074766355140186,
+          "position": 2.5327102803738315
+        },
+        {
+          "query": "ai tools for digital marketing free",
+          "clicks": 5,
+          "impressions": 50,
+          "ctr": 0.1,
+          "position": 4.08
+        },
+        {
+          "query": "digital marketing ai tools free",
+          "clicks": 5,
+          "impressions": 56,
+          "ctr": 0.08928571428571429,
+          "position": 4.857142857142858
+        },
+        {
+          "query": "pillars of digital marketing",
+          "clicks": 5,
+          "impressions": 273,
+          "ctr": 0.018315018315018316,
+          "position": 3.8424908424908426
+        },
+        {
+          "query": "ai tools for digital marketing",
+          "clicks": 4,
+          "impressions": 683,
+          "ctr": 0.005856515373352855,
+          "position": 20.40117130307467
+        },
+        {
+          "query": "ovion",
+          "clicks": 4,
+          "impressions": 168,
+          "ctr": 0.023809523809523808,
+          "position": 5.273809523809524
+        },
+        {
+          "query": "website performance report template",
+          "clicks": 4,
+          "impressions": 186,
+          "ctr": 0.021505376344086023,
+          "position": 19.510752688172044
+        }
+      ],
+      "flagged_position_drops_gt3": [],
+      "baseline_available": true,
+      "baseline_file": "memory/seo-weekly/latest.json",
+      "note": "Compared against baseline in memory/seo-weekly/latest.json; no drops >3."
     },
     "email_health": {
+      "status": "attention",
       "flagged_automations": [
         {
           "name": "101 - Oviond Reactivate or Scrub",
-          "bounce_rate": 0.0501,
-          "open_rate": 0.2585,
-          "sent": 31316
+          "bounce_rate": 0.050102184186997,
+          "open_rate": 0.25852599310257,
+          "sent": 31316,
+          "reason": "bounce_rate_above_5_percent"
         }
-      ]
-    },
-    "seo_movement": {
-      "status": "deferred",
-      "baseline_available": false,
-      "note": "No saved seo-weekly baseline available for position delta comparison this pass."
+      ],
+      "error": null,
+      "note": "MailerLite automations checked; only one automation currently breaches the bounce/open thresholds."
     },
     "ad_spend": {
-      "status": "unverified",
-      "week_start": "2026-03-09",
-      "week_end": "2026-03-10",
+      "status": "ok",
+      "week_start": "2026-03-08",
+      "week_end": "2026-03-12",
       "campaigns": [
         {
           "campaign_name": "Remarketing USA",
-          "spend": 485.2,
-          "landing_page_views": 3,
-          "cost_per_landing_page_view": 161.733333
+          "spend": 1675.86,
+          "landing_page_views": 10,
+          "cost_per_landing_page_view": 167.586
         }
       ],
       "flagged_campaigns": [],
-      "note": "CPA remained below $200 in last available sample."
+      "note": "Meta Ads current-week pulled successfully."
     }
   },
   "lastWeeklyReport": null,
