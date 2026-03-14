@@ -1,41 +1,67 @@
 ---
 name: stripe-reader
-description: Read and analyze Stripe billing data for SaaS reporting. Use when the user wants Stripe revenue, customers, subscriptions, MRR approximations, churn investigation, plan mix, failed payments, or billing diagnostics. Prefer this skill for read-only Stripe analysis and recurring finance snapshots.
+description: Read and analyze Stripe billing data for SaaS reporting. Use when the user wants current MRR, revenue, new customer signups, paid acquisition, plan mix, delinquency, cancellations, or recurring billing diagnostics from Stripe in read-only mode.
 ---
 
-Use Stripe in read-only mode.
+Use Stripe in **read-only** mode via the bundled analytics script.
 
-## Workflow
+## Default rule
 
-1. Require a Stripe secret or restricted key in the environment as `STRIPE_SECRET_KEY` unless the user explicitly provides a temporary key for one-off testing.
-2. Prefer the bundled script `scripts/stripe_snapshot.py` for fast account snapshots.
-3. For deeper analysis, extend from the script or call Stripe REST endpoints with the same auth pattern.
-4. Do not commit live keys, paste them into tracked files, or echo full secrets back to the user.
-5. Summarize findings in business language: MRR trend, active subscriptions, delinquency risk, plan mix, and notable account movements.
+Do not rely on ad hoc first-page Stripe reads or the old snapshot logic.
+Use `scripts/stripe_analytics.py` as the canonical Stripe workflow.
+
+## Environment
+
+The script accepts either:
+- `STRIPE_SECRET_KEY`
+- `STRIPE`
+
+It normalizes those internally. Do not print or store raw keys.
+
+## Core workflow
+
+1. Run the analytics script in the smallest mode that answers the question.
+2. Prefer `snapshot` for a full overview.
+3. Use specific modes for focused answers.
+4. Summarize results in business language after reading the JSON.
+5. Keep Stripe usage read-only.
 
 ## Commands
 
-Quick snapshot:
+Full snapshot:
 
 ```bash
-python3 /data/.openclaw/skills/stripe-reader/scripts/stripe_snapshot.py
+python3 /data/.openclaw/skills/stripe-reader/scripts/stripe_analytics.py snapshot
 ```
 
-Use a temporary key for one-off testing without persisting it:
+Focused modes:
 
 ```bash
-STRIPE_SECRET_KEY=sk_live_or_rk_live python3 /data/.openclaw/skills/stripe-reader/scripts/stripe_snapshot.py
+python3 /data/.openclaw/skills/stripe-reader/scripts/stripe_analytics.py mrr
+python3 /data/.openclaw/skills/stripe-reader/scripts/stripe_analytics.py signups
+python3 /data/.openclaw/skills/stripe-reader/scripts/stripe_analytics.py revenue
+python3 /data/.openclaw/skills/stripe-reader/scripts/stripe_analytics.py plans
+python3 /data/.openclaw/skills/stripe-reader/scripts/stripe_analytics.py delinquency
 ```
 
-## Outputs
+## What it returns
 
-The script returns a compact JSON snapshot with:
+The rebuilt analytics path is designed to answer:
+- estimated current MRR
+- subscription status counts
+- customer signups this month vs last
+- paid customer acquisition this month vs last
+- paid invoice revenue this month vs last
+- plan mix
+- delinquent subscriptions and invoice status mix
+- current data-quality notes about the calculation path
 
-- account id
-- default currency
-- active and trialing subscription counts
-- customer count estimate (first page)
-- invoice status sample
-- recent MRR estimate from active/trialing subscriptions using recurring line items on the first 100 subscriptions
+## Metric discipline
 
-Treat MRR as directional unless a full pagination pass or warehouse source confirms it.
+Read `references/metrics.md` when you need the exact metric definitions or want to explain caveats.
+
+## Guardrails
+
+- Read-only only.
+- Do not create, update, refund, cancel, or delete Stripe objects through this skill.
+- If a metric looks suspicious, inspect the JSON and explain the limitation instead of bluffing.
