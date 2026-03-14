@@ -28,6 +28,7 @@
 - Google Ads access is configured, but production usage is currently blocked until Basic Access approval for the developer token is granted.
 - MailerLite is heavily automation-driven and is an important lifecycle marketing system for Oviond.
 - Meta access is configured for Oviond’s Facebook, Instagram, and Ads assets.
+- Oviond design capability should be built as a skill-led operating system: Nicole as art director/QA, a dedicated Oviond design skill as the reusable brain, and Gemini/Nano Banana as the rendering layer.
 
 ## Pointers
 
