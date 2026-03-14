@@ -94,6 +94,15 @@ Mix in relevant exclusions:
 - no weak contrast on white
 - no crowded multi-message layouts
 
+## Text handling modes
+
+Pick one explicitly in the prompt package:
+- **Text-free:** no meaningful in-image copy; visual concept only
+- **Overlay-safe:** leave obvious clean zones for later headline/subhead/button overlay
+- **Short-copy in-image:** only for very short, easy-to-validate text
+
+Default to **Text-free** or **Overlay-safe** for web heroes, ads, and premium brand visuals unless the model has already proven reliable on that exact output type.
+
 ## Prompt packaging standard
 
 Before generation, produce:
@@ -101,3 +110,4 @@ Before generation, produce:
 - **Negative constraints**
 - **Variation A/B/C notes**
 - **Placement reminder**
+- **Chosen text handling mode**

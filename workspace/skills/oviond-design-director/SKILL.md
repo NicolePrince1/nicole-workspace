@@ -63,8 +63,17 @@ Do **not** treat the image model as the creative director.
    - negative constraints
    - 2-4 variation angles
 
+   Before generation, decide whether the output should be:
+   - **text-free / text-light concept art**
+   - **layout concept with clear overlay zones**
+   - **in-image text asset** (only when short text is acceptable)
+
+   Default toward text-free or overlay-friendly compositions unless there is a strong reason to trust the model with text.
+
 5. **Generate and review**
    Use the installed Gemini/Nano Banana generation path for renders. Generate a small batch first, then review against the QA checklist. Reject weak outputs quickly.
+
+   Read `references/demo-learnings.md` when refining from previous Oviond runs.
 
 6. **Refine deliberately**
    Iterate by changing one of these at a time:

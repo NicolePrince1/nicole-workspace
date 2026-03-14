@@ -19,6 +19,8 @@ Reject if:
 - the model introduced weird artifacts
 - it looks generic or off-brand
 - it depends on tiny text to work
+- the model mangled spelling or copy in a way that hurts credibility
+- the composition should clearly have been text-free or overlay-led instead of forcing in-image copy
 
 ## Paid ad checklist
 
