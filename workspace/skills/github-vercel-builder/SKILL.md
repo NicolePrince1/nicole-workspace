@@ -22,7 +22,7 @@ Ask before any of these:
 
 Default to:
 - private GitHub repos
-- preview/shareable deployments unless the user explicitly wants production semantics
+- public immediately viewable Vercel share URLs unless the user explicitly wants production semantics
 - simple stacks over clever stacks
 
 ## Project selection
@@ -98,5 +98,6 @@ When finished, report:
 - stack used
 - GitHub repo URL
 - live Vercel URL
+- confirmation that the Vercel URL is immediately viewable without requiring Vercel login
 - any assumptions you made
 - the next obvious improvement, if there is one

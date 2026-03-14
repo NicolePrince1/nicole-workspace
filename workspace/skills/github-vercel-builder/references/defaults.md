@@ -31,7 +31,7 @@ Recommended minimum files for every project:
 ## Deployment defaults
 
 - Default deployment path: deploy the built project directory directly to Vercel via API
-- Return a shareable URL after each deploy
+- Return a public immediately viewable shareable URL after each deploy
 - Prefer preview/shareable deployments for experiments
 - Use production semantics only when the user explicitly wants that behavior
 
@@ -49,3 +49,8 @@ Get approval before:
 - DNS changes
 - paid integrations
 - destructive repo rewrites
+
+## Handoff standard
+
+- GitHub repos are private by default unless the user explicitly asks for public.
+- The Vercel URL handed to the user must be directly viewable without needing to log into Vercel.
