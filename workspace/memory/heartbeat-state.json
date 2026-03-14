@@ -4,7 +4,7 @@
     "revenue_pulse": 1773490200,
     "seo_movement": 1773490200,
     "email_health": 1773486480,
-    "ad_spend": 1773473220
+    "ad_spend": 1773490320
   },
   "lastMetrics": {
     "trial_health": {
@@ -139,9 +139,9 @@
       "campaigns": [
         {
           "campaign_name": "Remarketing USA",
-          "spend": 2251.6,
-          "landing_page_views": 16,
-          "cost_per_landing_page_view": 140.725
+          "spend": 2276.38,
+          "landing_page_views": 17,
+          "cost_per_landing_page_view": 133.90470588235294
         }
       ],
       "flagged_campaigns": [],
