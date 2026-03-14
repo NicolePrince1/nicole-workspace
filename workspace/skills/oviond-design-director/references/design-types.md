@@ -52,13 +52,20 @@ Rules:
 
 ## Blog featured image
 
-Goal: make content look polished and relevant.
+Goal: make content look polished, relevant, and recognizably Oviond.
 
 Rules:
 - simpler than an ad
 - concept should map cleanly to article theme
 - avoid sensational thumbnail energy
 - keep styles reusable across a content series
+- default toward **product-preview blog covers** rather than purely abstract covers when possible
+- preferred visual territory for Oviond blog covers:
+  - layered report architecture
+  - emerging UI from white space
+  - elegant detail windows / cropped UI moments
+- keep the UI believable, clean, and spacious rather than cluttered
+- leave safe room for headline overlay or short validated in-image text
 
 ## Email banner / lifecycle asset
 

@@ -4,6 +4,20 @@ Use these notes as the starting operating heuristics for future Oviond design ru
 
 ## Round 1 findings
 
+### Locked blog-cover direction
+
+Chris selected product-preview directions **2, 3, and 4** as the best visual territory and said this is how Oviond blog covers should look.
+
+That means Oviond blog covers should bias toward:
+- premium product-led abstraction
+- layered report architecture
+- emerging UI from white space
+- elegant detail windows / cropped product moments
+- light, spacious compositions with believable reporting UI
+
+Avoid treating blog covers as pure abstract texture when a product-preview treatment can better anchor the brand.
+
+
 ### 1. The model is better at visual direction than final copy fidelity
 
 Observed in the first website hero demo:
