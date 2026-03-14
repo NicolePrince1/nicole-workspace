@@ -23,7 +23,9 @@ Changes to env vars are made through the **Envars** tab (`https://openclaw-railw
 
 ### Google Workspace
 
-Google Workspace is connected via the **General** tab (`https://openclaw-railway-template-production-3ee7.up.railway.app#general`). The user provides OAuth client credentials from Google Cloud Console, then authorizes access to the services they need (Gmail, Calendar, Drive, Sheets, Docs, Tasks, Contacts, Meet).
+Google Workspace is live for this workspace. Current access is working via service-account impersonation of `nicole@oviond.com` through the installed `gog` CLI wrapper at `/usr/local/bin/gws-nicole`.
+
+Use the **General** tab (`https://openclaw-railway-template-production-3ee7.up.railway.app#general`) for connection status and re-authorization when needed, but prefer the working local CLI skill for actual Gmail / Calendar / Drive / Docs / Contacts tasks.
 
 ## Git Discipline
 
@@ -51,4 +53,4 @@ Webhook transform files must follow this convention:
 
 ## Available Google Accounts
 
-No Google accounts are currently configured.
+- `nicole@oviond.com` — live via delegated impersonation through `gws-nicole`

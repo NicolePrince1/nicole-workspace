@@ -39,7 +39,6 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ### Google Workspace
 
-- The bootstrap note saying no Google accounts are configured is stale.
 - Live access is working via service-account impersonation of `nicole@oviond.com` through `gws-nicole`.
 - Verified on 2026-03-10:
   - Gmail profile resolves for `nicole@oviond.com`
@@ -49,7 +48,6 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 - Token helper: `/data/.openclaw/secrets/gws-token.js`
 - Credentials and helper material live in gitignored secret storage under `/data/.openclaw/secrets/`.
 - Use `gws-nicole` as the local wrapper when Workspace access is needed.
-- This is a local clarification note only; the AlphaClaw-managed bootstrap text should be corrected through the product-owned regeneration path, not by editing managed bootstrap files directly.
 
 ### Stripe
 
