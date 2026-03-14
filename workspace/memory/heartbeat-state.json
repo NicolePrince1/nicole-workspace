@@ -1,10 +1,10 @@
 {
   "lastChecks": {
     "trial_health": 1773470940,
-    "revenue_pulse": 1773331454,
-    "seo_movement": 1773333255,
+    "revenue_pulse": 1773475260,
+    "seo_movement": 1773471060,
     "email_health": 1773470940,
-    "ad_spend": 1773338651
+    "ad_spend": 1773473220
   },
   "lastMetrics": {
     "trial_health": {
@@ -25,88 +25,98 @@
       "note": "Trial Users group checked via MailerLite groups + group subscribers endpoints."
     },
     "revenue_pulse": {
-      "status": "unverified",
-      "note": "Stripe snapshot still unavailable in this runtime.",
-      "error": "Missing STRIPE_SECRET_KEY"
+      "status": "attention",
+      "last_7_days_paid_revenue": 4354.18,
+      "last_7_days_paid_invoices": 149,
+      "prior_7_days_paid_revenue": 9774.2,
+      "prior_7_days_paid_invoices": 151,
+      "delta_revenue": -5420.02,
+      "delta_invoices": -2,
+      "past_due_count": 13,
+      "note": "Stripe paid invoices pulled for rolling 7-day windows; revenue is materially down versus the prior 7 days, while past_due remains below the alert threshold of 20."
     },
     "seo_movement": {
       "status": "ok",
       "top10": [
         {
           "query": "ovinoid",
-          "clicks": 19,
-          "impressions": 24,
-          "ctr": 0.7916666666666666,
+          "clicks": 3,
+          "impressions": 3,
+          "ctr": 1,
           "position": 1
         },
         {
-          "query": "pros and cons of influencer marketing",
-          "clicks": 9,
-          "impressions": 152,
-          "ctr": 0.05921052631578947,
-          "position": 1.9276315789473686
+          "query": "ovion",
+          "clicks": 3,
+          "impressions": 42,
+          "ctr": 0.07142857142857142,
+          "position": 5.166666666666667
         },
         {
-          "query": "digital marketing report",
-          "clicks": 7,
-          "impressions": 1596,
-          "ctr": 0.0043859649122807015,
-          "position": 7.678571428571429
-        },
-        {
-          "query": "advantages and disadvantages of influencer marketing",
-          "clicks": 6,
-          "impressions": 107,
-          "ctr": 0.056074766355140186,
-          "position": 2.5327102803738315
-        },
-        {
-          "query": "ai tools for digital marketing free",
-          "clicks": 5,
-          "impressions": 50,
-          "ctr": 0.1,
-          "position": 4.08
+          "query": "dashboard marketing excel",
+          "clicks": 2,
+          "impressions": 12,
+          "ctr": 0.16666666666666666,
+          "position": 11.25
         },
         {
           "query": "digital marketing ai tools free",
-          "clicks": 5,
-          "impressions": 56,
-          "ctr": 0.08928571428571429,
-          "position": 4.857142857142858
+          "clicks": 2,
+          "impressions": 10,
+          "ctr": 0.2,
+          "position": 3.1
+        },
+        {
+          "query": "drip client dashboard",
+          "clicks": 2,
+          "impressions": 26,
+          "ctr": 0.07692307692307693,
+          "position": 6.8076923076923075
+        },
+        {
+          "query": "ovoind",
+          "clicks": 2,
+          "impressions": 6,
+          "ctr": 0.3333333333333333,
+          "position": 7.833333333333333
         },
         {
           "query": "pillars of digital marketing",
-          "clicks": 5,
-          "impressions": 273,
-          "ctr": 0.018315018315018316,
-          "position": 3.8424908424908426
+          "clicks": 2,
+          "impressions": 53,
+          "ctr": 0.03773584905660377,
+          "position": 2
         },
         {
-          "query": "ai tools for digital marketing",
-          "clicks": 4,
-          "impressions": 683,
-          "ctr": 0.005856515373352855,
-          "position": 20.40117130307467
+          "query": "ad report template",
+          "clicks": 1,
+          "impressions": 81,
+          "ctr": 0.012345679012345678,
+          "position": 6.91358024691358
         },
         {
-          "query": "ovion",
-          "clicks": 4,
-          "impressions": 168,
-          "ctr": 0.023809523809523808,
-          "position": 5.273809523809524
+          "query": "ads report",
+          "clicks": 1,
+          "impressions": 50,
+          "ctr": 0.02,
+          "position": 2.02
         },
         {
-          "query": "website performance report template",
-          "clicks": 4,
-          "impressions": 186,
-          "ctr": 0.021505376344086023,
-          "position": 19.510752688172044
+          "query": "algorithm meaning social media",
+          "clicks": 1,
+          "impressions": 162,
+          "ctr": 0.006172839506172839,
+          "position": 1
         }
       ],
       "flagged_position_drops_gt3": [],
       "baseline_available": true,
       "baseline_file": "memory/seo-weekly/latest.json",
-      "note": "Compared against baseline in memory/seo-weekly/latest.json; no drops >3."
+      "window": {
+        "startDate": "2026-03-08",
+        "endDate": "2026-03-14"
+      },
+      "note": "Compared against baseline in memory/seo-weekly/latest.json; no position drops greater than 3 among overlapping queries in this check."
     },
     "email_health": {
       "status": "attention",
@@ -125,17 +135,17 @@
     "ad_spend": {
       "status": "ok",
       "week_start": "2026-03-08",
-      "week_end": "2026-03-12",
+      "week_end": "2026-03-14",
       "campaigns": [
         {
           "campaign_name": "Remarketing USA",
-          "spend": 1675.86,
-          "landing_page_views": 10,
-          "cost_per_landing_page_view": 167.586
+          "spend": 2251.6,
+          "landing_page_views": 16,
+          "cost_per_landing_page_view": 140.725
         }
       ],
       "flagged_campaigns": [],
-      "note": "Meta Ads current-week pulled successfully."
+      "note": "Meta Ads current-week pulled successfully; no campaign breached the R200 LPV CPA threshold."
     }
   },
   "lastWeeklyReport": null,
