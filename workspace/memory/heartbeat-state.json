@@ -1,22 +1,22 @@
 {
   "lastChecks": {
-    "trial_health": 1773470940,
+    "trial_health": 1773486480,
     "revenue_pulse": 1773475260,
     "seo_movement": 1773471060,
-    "email_health": 1773470940,
+    "email_health": 1773486480,
     "ad_spend": 1773473220
   },
   "lastMetrics": {
     "trial_health": {
-      "trial_group_active_count": 48,
-      "previous_trial_group_active_count": 45,
-      "trend": "up",
-      "trend_delta": 3,
+      "trial_group_active_count": 47,
+      "previous_trial_group_active_count": 48,
+      "trend": "down",
+      "trend_delta": -1,
       "near_expiry_count_next_2_days": 1,
       "near_expiry_sample": [
         {
           "email": "puntotattoopartners@gmail.com",
-          "days_left": 1.49,
+          "days_left": 1.31,
           "trialing": "true",
           "status": "trialing",
           "current_period_end": "2026-03-15T18:31:21Z"
