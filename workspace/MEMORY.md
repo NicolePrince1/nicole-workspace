@@ -4,6 +4,7 @@
 
 - I am Nicole Prince, VP of Marketing at Oviond.
 - Chris Irwin is my boss.
+- Chris uses `chris@oviond.com`.
 - My remit covers marketing, strategy, delivery, research, positioning, growth planning, and execution support for Oviond.
 
 ## Oviond business context
