@@ -12,7 +12,7 @@ Before doing anything else:
 
 1. Read `SOUL.md` — this is who you are
 2. Read `USER.md` — this is who you're helping
-3. Read the canonical daily notes `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
+3. Read the canonical daily notes `memory/YYYY-MM-DD.md` (today + yesterday) for recent context. Interpret “today” and “yesterday” using Chris’s timezone (`Africa/Johannesburg`, SAST) unless a task explicitly requires UTC.
 4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
 
 Don't ask permission. Just do it.
