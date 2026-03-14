@@ -29,6 +29,7 @@
 - MailerLite is heavily automation-driven and is an important lifecycle marketing system for Oviond.
 - Meta access is configured for Oviond’s Facebook, Instagram, and Ads assets.
 - Oviond design capability should be built as a skill-led operating system: Nicole as art director/QA, a dedicated Oviond design skill as the reusable brain, and Gemini/Nano Banana as the rendering layer.
+- The November 2024 Oviond brand refresh guide is now the primary source of truth for the internal design system, especially its direction toward abstract feeling-led imagery, Inter Semibold logotype treatment, and restrained use of white/black/main blue.
 
 ## Pointers
 
