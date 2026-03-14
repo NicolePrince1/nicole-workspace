@@ -39,15 +39,11 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ### Google Workspace
 
-- Live access is working via service-account impersonation of `nicole@oviond.com` through `gws-nicole`.
-- Verified on 2026-03-10:
-  - Gmail profile resolves for `nicole@oviond.com`
-  - Primary Calendar is accessible
-  - Google Drive file listing works, including the `Nicole Prince Control` doc
 - Wrapper path: `/usr/local/bin/gws-nicole`
 - Token helper: `/data/.openclaw/secrets/gws-token.js`
 - Credentials and helper material live in gitignored secret storage under `/data/.openclaw/secrets/`.
 - Use `gws-nicole` as the local wrapper when Workspace access is needed.
+- Durable platform/access status belongs in `MEMORY.md`; keep this section for local operator mechanics only.
 
 ### Stripe
 
@@ -55,7 +51,7 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 - Stripe is not one of the workspace-local skills.
 - The managed Stripe analysis skill lives under the managed root at `/data/.openclaw/skills/stripe-reader/`.
 - Helper script: `/data/.openclaw/skills/stripe-reader/scripts/stripe_snapshot.py`.
-- Current access supports billing reads such as subscriptions, customers, and invoices, but not `/account`.
+- Capability/access posture belongs in `MEMORY.md`; keep this section for local secret/path notes only.
 
 ### MailerLite
 
@@ -78,7 +74,7 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 - Local skill lives at `skills/google-ads/`.
 - Token/helper material lives in gitignored secret storage under `/data/.openclaw/secrets/`.
 - Project: `oviond-workspace-cli`.
-- Current blocker: developer token Basic Access approval is still pending for production account usage.
+- Durable access/blocker status belongs in `MEMORY.md`; keep this section for local skill and helper references only.
 
 ---
 
