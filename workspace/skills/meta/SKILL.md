@@ -18,8 +18,8 @@ Manage Oviond's Facebook Page, Instagram, and Ad Account via the Meta Graph API 
 
 - **Business Manager ID:** 287659180931920
 - **System User:** Nicole Prince (ID: 61584969418636)
-- **Facebook Page:** OVIOND (ID: 1700329636926546) — 798 followers, Software category
-- **Instagram:** @ovionddigital (ID: 17841415739993320) — 85 followers, 3 posts
+- **Facebook Page:** OVIOND (ID: 1700329636926546)
+- **Instagram:** @ovionddigital (ID: 17841415739993320)
 - **Ad Account:** act_286631686227626 (Oviond, currency: ZAR)
 - **Pixel:** Oviond 2024
 - **Dataset:** Oviond 2024
@@ -167,28 +167,20 @@ curl -s "https://graph.facebook.com/v21.0/act_286631686227626/insights?fields=im
 curl -s "https://graph.facebook.com/v21.0/act_286631686227626/insights?fields=impressions,clicks,spend,actions&breakdowns=publisher_platform&time_range={\"since\":\"$(date -d '30 days ago' +%Y-%m-%d)\",\"until\":\"$(date +%Y-%m-%d)\"}&access_token=$TOKEN"
 ```
 
-## Current Campaigns
-
-| Campaign | Status | Objective | Budget |
-|----------|--------|-----------|--------|
-| Remarketing USA | ACTIVE | Traffic | R350/day |
-| Remarketing Top Countries | PAUSED | Sales | — |
-| United States - Free Trial Remarketing | PAUSED | Leads | R300/day |
-
-Note: Currency is ZAR (South African Rand). daily_budget is in cents (35000 = R350).
+Note: Currency is ZAR (South African Rand). `daily_budget` is returned in cents (35000 = R350).
 
 ## Output Formatting (Slack)
 
 ```
 *Facebook Ads Performance (Last 30 Days)*
 
-• *Remarketing USA* — R2,450 spend, 12,300 impressions, 450 clicks, 3.6% CTR
-• *Free Trial Remarketing* — PAUSED
+• *Campaign A* — RX spend, Y impressions, Z clicks, N% CTR
+• *Campaign B* — STATUS
 
 *Page Stats:*
-• *Followers:* 798
-• *Recent reach:* X impressions
-• *Engagement:* X interactions
+• *Followers:* X
+• *Recent reach:* Y impressions
+• *Engagement:* Z interactions
 ```
 
 ## Safety Rules

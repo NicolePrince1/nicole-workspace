@@ -29,26 +29,11 @@ Rate limit: 120 requests/minute
 
 **Important:** URL-encode bracket characters in query params. Use `%5B` for `[` and `%5D` for `]`.
 
-## Account Overview
+## Account Shape
 
-- **Subscribers:** ~9,000+ across all statuses
-- **Groups:** 20+ lifecycle-based segments (trial, paying, lapsed, dormant, LTD, reactivation)
-- **Automations:** 10+ active workflows (trial onboarding, expired reactivation, paying customer onboarding, churn recovery, reactivation series)
-- **Campaigns:** Primarily automation-driven; 1 sent campaign, 1 draft
-- **Forms:** 1 popup (exit intent)
-
-### Key Groups (Lifecycle Segments)
-
-| Group | Purpose | Active |
-|-------|---------|--------|
-| 1.1. Trial Users (0-15 Days) | Active trialing users | ~46 |
-| 2.1. Trial Expired - Reactivation (16-68 Days) | Win-back expired trials | ~248 |
-| 3.1. Paying Customer Onboarding (0-30 Days) | New customer nurture | ~23 |
-| 3.2. Active Paying Customers - All | Current paying base | ~350 |
-| 4.1. Lapsed Customer - Reactivation | Cancelled/stale trial recovery | ~1,916 |
-| 5.1. Lifetime Free Users | LTD users | ~1,027 |
-| 6.1. Dormant Contacts | Cold contacts | ~2,644 |
-| 102 - Reach out Then Unsubscribe | Cleanup segment | ~3,179 |
+- MailerLite is used as a lifecycle email system with subscribers, groups, automations, campaigns, and forms.
+- Expect lifecycle-oriented segments for trial, paying, lapsed, dormant, LTD, and reactivation flows.
+- Treat counts and current segment sizes as live data to query at runtime, not as durable skill guidance.
 
 ## API Endpoints
 
@@ -186,18 +171,17 @@ curl -X POST -H "Authorization: Bearer $MAILER_LITE" -H "Content-Type: applicati
   }'
 ```
 
-## Key Automations
+## Key Automation Types
 
-| Automation | Sends | Purpose |
-|-----------|-------|---------|
-| 101 - Reactivate or Scrub | 31,316 | Main reactivation/cleanup flow |
-| 1.1. Trialling Simplified (15 Days) | 10,765 | Trial onboarding sequence |
-| 7 Email Reactivation Series Nov 2025 | 14,251 | Reactivation campaign |
-| 1.2. Trial Expired Re-Engagement | 8,732 | Expired trial win-back |
-| Black Friday 2025 | 6,649 | Seasonal promo |
-| 3.1. Paying Customer Onboarding | 2,186 | New customer nurture |
-| Trialing Users 3-Step Reward | 1,762 | Trial incentive sequence |
-| 4.1. LTD Client Limit Upgrade | 1,142 | LTD upsell flow |
+Common automation categories to inspect:
+- trial onboarding
+- expired trial re-engagement
+- paying customer onboarding
+- churn recovery / reactivation
+- seasonal or promotional sequences
+- LTD upsell or upgrade flows
+
+Query current automation names, statuses, and send volumes at runtime instead of relying on fixed examples in the skill body.
 
 ## Subscriber Custom Fields
 
@@ -220,19 +204,19 @@ This means we can segment by subscription status, usage, plan type — very powe
 *MailerLite Overview*
 
 *Lifecycle Groups:*
-• Trial Users (0-15 days) — 46 active
-• Active Paying — 350 active
-• Lapsed — 1,916 (reactivation opportunity)
-• LTD Users — 1,027
-• Dormant — 2,644
+• Trial Users — X active
+• Active Paying — Y active
+• Lapsed — Z (reactivation opportunity)
+• LTD Users — N
+• Dormant — M
 
 *Recent Campaign:*
-• LTD Upgrade Accelerator — 5,635 sent, 15.4% open, 4.8% click ✅
+• Campaign Name — X sent, Y% open, Z% click
 
 *Top Automations:*
-• Trial Onboarding (15 days) — 10,765 sent
-• Reactivate or Scrub — 31,316 sent
-• Trial Expired Win-back — 8,732 sent
+• Trial onboarding — X sent
+• Reactivation flow — Y sent
+• Expired trial win-back — Z sent
 ```
 
 ## Safety Rules

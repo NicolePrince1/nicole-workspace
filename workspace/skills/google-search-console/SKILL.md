@@ -150,31 +150,6 @@ Query all keywords, then programmatically bucket by position:
 - Position 11-20: Page 2 (low-hanging fruit!)
 - Position 21+: Deep
 
-## Current SEO Snapshot (as of 2026-03-09)
-
-**Top Brand Queries:**
-- "oviond" — 596 clicks, pos 1.8, 62.9% CTR
-- "oviond login" — 16 clicks, pos 1.0, 94.1% CTR
-- "oviond pricing" — 11 clicks, pos 1.0, 68.8% CTR
-
-**Top Non-Brand Queries:**
-- "digital marketing report" — 8 clicks, 1,707 impr, pos 7.6 (page 1!)
-- "pros and cons of influencer marketing" — 8 clicks, 155 impr, pos 1.9
-- "ai tools for digital marketing free" — 6 clicks, 56 impr, pos 4.2
-
-**Top Content Pages:**
-- Homepage — 730 clicks, 28.7K impressions
-- Influencer marketing pros/cons — 97 clicks, 12.7K impressions
-- Excel marketing dashboard templates — 87 clicks, 13.9K impressions
-- Client onboarding checklist — 76 clicks, 40.4K impressions (huge impression volume!)
-- Free AI tools for agencies — 50 clicks, 14.4K impressions
-
-**Key Opportunities:**
-- "client onboarding checklist" page has 40K impressions but only 76 clicks (pos 18.1) — move to page 1 = massive traffic lift
-- "content in social media marketing" — 30K impressions, 36 clicks (pos 12.3) — page 2, close to page 1
-- "importance of paid advertising" — 13.7K impressions, 14 clicks (pos 24.4) — needs work but high volume
-- "digital marketing reporting" — 13.5K impressions, 24 clicks (pos 14.5) — core topic, should rank top 5
-
 ## Response Fields
 
 Each row in the API response contains:
@@ -196,12 +171,12 @@ Each row in the API response contains:
 *SEO Overview — oviond.com (Last 30 Days)*
 
 *Top Non-Brand Keywords:*
-• "digital marketing report" — 8 clicks, 1,707 impr, pos 7.6 🎯
-• "ai tools for digital marketing" — 6 clicks, 56 impr, pos 4.2
-• "client onboarding checklist" — 4 clicks, 40K impr, pos 18.1 ⚠️ (huge opportunity)
+• "keyword one" — X clicks, Y impr, pos Z 🎯
+• "keyword two" — X clicks, Y impr, pos Z
+• "keyword three" — X clicks, Y impr, pos Z ⚠️
 
 *Quick Wins (High impressions, position 8-20):*
-• /client-onboarding-checklist/ — 40K impr, pos 18 → optimize for page 1
-• /content-in-social-media-marketing/ — 30K impr, pos 12 → close to page 1
-• /digital-marketing-reporting-explained/ — 13.5K impr, pos 14.5
+• /page-one/ — X impr, pos Y → optimize for page 1
+• /page-two/ — X impr, pos Y → close to page 1
+• /page-three/ — X impr, pos Y
 ```
