@@ -2,7 +2,7 @@
   "lastChecks": {
     "trial_health": 1774447140,
     "revenue_pulse": 1774447380,
-    "seo_movement": 1773490200,
+    "seo_movement": 1774447620,
     "email_health": 1774447140,
     "ad_spend": 1773490320
   },
@@ -97,84 +97,84 @@
       "status": "ok",
       "top10": [
         {
-          "query": "ovinoid",
-          "clicks": 3,
-          "impressions": 3,
-          "ctr": 1,
-          "position": 1
+          "query": "client onboarding checklist",
+          "clicks": 2,
+          "impressions": 213,
+          "ctr": 0.009389671361502348,
+          "position": 11.624413145539906
         },
         {
-          "query": "ovion",
-          "clicks": 3,
-          "impressions": 42,
+          "query": "digital marketing agency onboarding process",
+          "clicks": 2,
+          "impressions": 5,
+          "ctr": 0.4,
+          "position": 2.6
+        },
+        {
+          "query": "ai marketing free",
+          "clicks": 1,
+          "impressions": 40,
+          "ctr": 0.025,
+          "position": 5.425
+        },
+        {
+          "query": "ai tools for digital marketing free",
+          "clicks": 1,
+          "impressions": 14,
           "ctr": 0.07142857142857142,
-          "position": 5.166666666666667
+          "position": 3.0714285714285716
+        },
+        {
+          "query": "automated marketing reports",
+          "clicks": 1,
+          "impressions": 70,
+          "ctr": 0.014285714285714285,
+          "position": 21.771428571428572
+        },
+        {
+          "query": "content meaning social media",
+          "clicks": 1,
+          "impressions": 497,
+          "ctr": 0.002012072434607646,
+          "position": 4.597585513078471
         },
         {
           "query": "dashboard marketing excel",
-          "clicks": 2,
-          "impressions": 12,
-          "ctr": 0.16666666666666666,
-          "position": 11.25
-        },
-        {
-          "query": "digital marketing ai tools free",
-          "clicks": 2,
-          "impressions": 10,
-          "ctr": 0.2,
-          "position": 3.1
-        },
-        {
-          "query": "drip client dashboard",
-          "clicks": 2,
-          "impressions": 26,
-          "ctr": 0.07692307692307693,
-          "position": 6.8076923076923075
-        },
-        {
-          "query": "ovoind",
-          "clicks": 2,
-          "impressions": 6,
-          "ctr": 0.3333333333333333,
-          "position": 7.833333333333333
-        },
-        {
-          "query": "pillars of digital marketing",
-          "clicks": 2,
-          "impressions": 53,
-          "ctr": 0.03773584905660377,
-          "position": 2
-        },
-        {
-          "query": "ad report template",
           "clicks": 1,
-          "impressions": 81,
-          "ctr": 0.012345679012345678,
-          "position": 6.91358024691358
+          "impressions": 4,
+          "ctr": 0.25,
+          "position": 5.5
         },
         {
-          "query": "ads report",
+          "query": "digital marketing pillars",
           "clicks": 1,
-          "impressions": 50,
-          "ctr": 0.02,
-          "position": 2.02
+          "impressions": 30,
+          "ctr": 0.03333333333333333,
+          "position": 1.8333333333333335
         },
         {
-          "query": "algorithm meaning social media",
+          "query": "digital marketing with ai free",
           "clicks": 1,
-          "impressions": 162,
-          "ctr": 0.006172839506172839,
-          "position": 1
+          "impressions": 4,
+          "ctr": 0.25,
+          "position": 1.75
+        },
+        {
+          "query": "disadvantages of influencer marketing",
+          "clicks": 1,
+          "impressions": 9,
+          "ctr": 0.1111111111111111,
+          "position": 6.0
         }
       ],
       "flagged_position_drops_gt3": [],
       "baseline_available": true,
       "baseline_file": "memory/seo-weekly/latest.json",
       "window": {
-        "startDate": "2026-03-08",
-        "endDate": "2026-03-14"
+        "startDate": "2026-03-16",
+        "endDate": "2026-03-22"
       },
-      "note": "Compared against baseline in memory/seo-weekly/latest.json; no position drops greater than 3 among overlapping queries in this check."
+      "note": "Compared against the prior baseline in memory/seo-weekly/latest.json; no position drops greater than 3 among overlapping queries. Refreshed latest.json for the next weekly comparison."
     },
     "email_health": {
       "status": "attention",
