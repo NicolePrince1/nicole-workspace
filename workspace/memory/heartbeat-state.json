@@ -1,7 +1,7 @@
 {
   "lastChecks": {
     "trial_health": 1774447140,
-    "revenue_pulse": 1773490200,
+    "revenue_pulse": 1774447380,
     "seo_movement": 1773490200,
     "email_health": 1774447140,
     "ad_spend": 1773490320
@@ -84,14 +84,14 @@
     },
     "revenue_pulse": {
       "status": "attention",
-      "last_7_days_paid_revenue": 4523.18,
-      "last_7_days_paid_invoices": 148,
-      "prior_7_days_paid_revenue": 9377.18,
+      "last_7_days_paid_revenue": 4074.64,
+      "last_7_days_paid_invoices": 86,
+      "prior_7_days_paid_revenue": 7715.77,
       "prior_7_days_paid_invoices": 139,
-      "delta_revenue": -4854.0,
-      "delta_invoices": 9,
-      "past_due_count": 13,
-      "note": "Stripe paid invoices pulled for rolling 7-day windows; revenue remains materially down versus the prior 7 days, while past_due remains below the alert threshold of 20."
+      "delta_revenue": -3641.13,
+      "delta_invoices": -53,
+      "past_due_count": 34,
+      "note": "Stripe paid invoices pulled for rolling 7-day windows via the Stripe analytics skill helpers; revenue is down materially versus the prior 7 days and past_due is above the alert threshold of 20."
     },
     "seo_movement": {
       "status": "ok",
