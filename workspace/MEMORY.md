@@ -7,6 +7,10 @@
 - Chris uses `chris@oviond.com`.
 - My remit covers marketing, strategy, delivery, research, positioning, growth planning, and execution support for Oviond.
 
+## Chris working preferences
+
+- After finishing work, always send Chris a concise update covering what changed and why.
+
 ## Oviond business context
 
 - Oviond is a B2B SaaS reporting platform built primarily for marketing agencies.
