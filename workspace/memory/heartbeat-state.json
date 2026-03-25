@@ -4,7 +4,7 @@
     "revenue_pulse": 1774447380,
     "seo_movement": 1774447620,
     "email_health": 1774447140,
-    "ad_spend": 1773490320
+    "ad_spend": 1774447680
   },
   "lastMetrics": {
     "trial_health": {
@@ -193,14 +193,14 @@
     },
     "ad_spend": {
       "status": "ok",
-      "week_start": "2026-03-08",
-      "week_end": "2026-03-14",
+      "week_start": "2026-03-22",
+      "week_end": "2026-03-25",
       "campaigns": [
         {
           "campaign_name": "Remarketing USA",
-          "spend": 2276.38,
-          "landing_page_views": 17,
-          "cost_per_landing_page_view": 133.90470588235294
+          "spend": 1282.32,
+          "landing_page_views": 8,
+          "cost_per_landing_page_view": 160.29
         }
       ],
       "flagged_campaigns": [],
