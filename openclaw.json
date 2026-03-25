@@ -15,10 +15,6 @@
         "provider": "openai",
         "mode": "api_key"
       },
-      "openai-codex:codex-cli": {
-        "provider": "openai-codex",
-        "mode": "oauth"
-      },
       "google:default": {
         "provider": "google",
         "mode": "api_key"
@@ -26,6 +22,10 @@
       "anthropic:default": {
         "provider": "anthropic",
         "mode": "api_key"
+      },
+      "openai-codex:codex-cli": {
+        "provider": "openai-codex",
+        "mode": "oauth"
       }
     }
   },
@@ -58,7 +58,13 @@
     "profile": "full"
   },
   "messages": {
-    "ackReactionScope": "group-mentions"
+    "ackReactionScope": "group-mentions",
+    "tts": {
+      "provider": "openai",
+      "openai": {
+        "speed": 1.2
+      }
+    }
   },
   "commands": {
     "native": "auto",
