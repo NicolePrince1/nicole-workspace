@@ -1,192 +1,145 @@
 ---
 name: meta
-description: "Manage Oviond's Meta presence — Facebook Page, Instagram, Facebook/Instagram Ads, and Pixel. Post content, read insights, manage ad campaigns, analyze performance."
-metadata:
-  {
-    "openclaw":
-      {
-        "emoji": "📱",
-      },
-  }
+description: Manage Oviond's Meta presence across Facebook Page, Instagram, and Facebook/Instagram Ads. Use when auditing Meta access, diagnosing reporting issues, pulling ad/account/platform/creative performance, reviewing Page or Instagram activity, planning optimizations, or safely preparing and applying campaign/ad set/ad/social changes.
 ---
 
 # Meta Skill — Oviond
 
-Manage Oviond's Facebook Page, Instagram, and Ad Account via the Meta Graph API v21.0.
+Operate Oviond's Meta stack with reusable scripts instead of ad hoc curl snippets.
 
-## Account Details
+Default Oviond mapping:
+- business manager: `287659180931920`
+- system user: `61584969418636`
+- Facebook Page: `1700329636926546`
+- Instagram account: `17841415739993320`
+- ad account: `act_286631686227626`
+- currency: `ZAR`
+- domain: `oviond.com`
 
-- **Business Manager ID:** 287659180931920
-- **System User:** Nicole Prince (ID: 61584969418636)
-- **Facebook Page:** OVIOND (ID: 1700329636926546)
-- **Instagram:** @ovionddigital (ID: 17841415739993320)
-- **Ad Account:** act_286631686227626 (Oviond, currency: ZAR)
-- **Pixel:** Oviond 2024
-- **Dataset:** Oviond 2024
-- **Domain:** oviond.com
+## Core workflow
 
-## Authentication
+### 1) Diagnose access first
+
+Before trusting reporting or attempting changes, run:
 
 ```bash
-TOKEN=$(cat /data/.openclaw/secrets/meta-token.txt)
-# System user token — does not expire
+python3 /data/.openclaw/workspace/skills/meta/scripts/meta_doctor.py
 ```
 
-All API calls use: `https://graph.facebook.com/v21.0/`
+This verifies:
+- ad account access
+- campaign listing
+- recent ads insights
+- Page token retrieval
+- Facebook Page reads
+- Instagram reads
+- ad pixel listing
 
-## Facebook Page Operations
+Do not bluff around auth issues. If this fails, read `references/errors.md`.
 
-### Post to Page
+### 2) Pull reporting with the bundled reporter
+
+Use `meta_report.py` for reusable reporting instead of inventing raw Graph API calls.
+
+Quick examples:
+
 ```bash
-curl -X POST "https://graph.facebook.com/v21.0/1700329636926546/feed" \
-  -d "message=Your post text here" \
-  -d "access_token=$TOKEN"
+python3 /data/.openclaw/workspace/skills/meta/scripts/meta_report.py overview --days 7
+python3 /data/.openclaw/workspace/skills/meta/scripts/meta_report.py insights campaign --days 30 --sort spend
+python3 /data/.openclaw/workspace/skills/meta/scripts/meta_report.py breakdown campaign publisher_platform --days 30
+python3 /data/.openclaw/workspace/skills/meta/scripts/meta_report.py action-types campaign --days 30
+python3 /data/.openclaw/workspace/skills/meta/scripts/meta_report.py page-overview --limit 5
+python3 /data/.openclaw/workspace/skills/meta/scripts/meta_report.py instagram-overview --limit 5
 ```
 
-### Post with Link
+When the KPI is specific, pass the exact action type:
+
 ```bash
-curl -X POST "https://graph.facebook.com/v21.0/1700329636926546/feed" \
-  -d "message=Check this out" \
-  -d "link=https://oviond.com/blog/article" \
-  -d "access_token=$TOKEN"
+python3 /data/.openclaw/workspace/skills/meta/scripts/meta_report.py overview --days 14 --primary-action-type landing_page_view
+python3 /data/.openclaw/workspace/skills/meta/scripts/meta_report.py insights ad --days 14 --sort cost_per_primary_action --primary-action-type offsite_conversion.custom.936973485167575
 ```
 
-### Post with Image
+If you do not know the conversion key yet, run `action-types` first.
+
+### 3) Prepare changes with preview → validate → apply
+
+All writes should go through `meta_mutate.py` with a JSON spec.
+
+Preview only:
+
 ```bash
-curl -X POST "https://graph.facebook.com/v21.0/1700329636926546/photos" \
-  -F "message=Caption here" \
-  -F "source=@/path/to/image.jpg" \
-  -F "access_token=$TOKEN"
+python3 /data/.openclaw/workspace/skills/meta/scripts/meta_mutate.py preview ./spec.json
 ```
 
-### Get Recent Posts
+Validate when supported:
+
 ```bash
-curl -s "https://graph.facebook.com/v21.0/1700329636926546/posts?fields=message,created_time,shares,likes.summary(true),comments.summary(true)&limit=10&access_token=$TOKEN"
+python3 /data/.openclaw/workspace/skills/meta/scripts/meta_mutate.py validate ./spec.json
 ```
 
-### Page Insights
+Apply for real:
+
 ```bash
-# Page-level metrics (last 28 days)
-curl -s "https://graph.facebook.com/v21.0/1700329636926546/insights?metric=page_impressions,page_engaged_users,page_fan_adds,page_views_total&period=day&since=$(date -d '28 days ago' +%Y-%m-%d)&until=$(date +%Y-%m-%d)&access_token=$TOKEN"
+python3 /data/.openclaw/workspace/skills/meta/scripts/meta_mutate.py apply ./spec.json --yes-apply
 ```
 
-## Instagram Operations
+Supported operation families:
+- campaign create/update
+- ad set create/update
+- ad creative create
+- ad create/update
+- Facebook Page post/photo publish
+- Instagram media container + publish
 
-### Post to Instagram (Image)
-```bash
-# Step 1: Create media container
-curl -X POST "https://graph.facebook.com/v21.0/17841415739993320/media" \
-  -d "image_url=https://example.com/image.jpg" \
-  -d "caption=Your caption #hashtag" \
-  -d "access_token=$TOKEN"
+## Scripts
 
-# Step 2: Publish (use creation_id from step 1)
-curl -X POST "https://graph.facebook.com/v21.0/17841415739993320/media_publish" \
-  -d "creation_id={CREATION_ID}" \
-  -d "access_token=$TOKEN"
-```
+### `scripts/meta_common.py`
 
-### Post to Instagram (Carousel)
-```bash
-# Step 1: Create each media item
-curl -X POST "https://graph.facebook.com/v21.0/17841415739993320/media" \
-  -d "image_url=https://example.com/image1.jpg" \
-  -d "is_carousel_item=true" \
-  -d "access_token=$TOKEN"
-# Repeat for each image...
+Shared helpers for:
+- token loading
+- Graph API requests
+- page-token retrieval
+- pagination
+- action-array flattening
+- date-window handling
 
-# Step 2: Create carousel container
-curl -X POST "https://graph.facebook.com/v21.0/17841415739993320/media" \
-  -d "media_type=CAROUSEL" \
-  -d "children={ID1},{ID2},{ID3}" \
-  -d "caption=Carousel caption" \
-  -d "access_token=$TOKEN"
+### `scripts/meta_doctor.py`
 
-# Step 3: Publish
-curl -X POST "https://graph.facebook.com/v21.0/17841415739993320/media_publish" \
-  -d "creation_id={CAROUSEL_CONTAINER_ID}" \
-  -d "access_token=$TOKEN"
-```
+Purpose:
+- verify access before reporting or writes
+- catch the Page-token issue automatically
+- confirm the core Oviond Meta asset map still works
 
-### Instagram Insights
-```bash
-# Account insights
-curl -s "https://graph.facebook.com/v21.0/17841415739993320/insights?metric=impressions,reach,profile_views,follower_count&period=day&since=$(date -d '28 days ago' +%Y-%m-%d)&until=$(date +%Y-%m-%d)&access_token=$TOKEN"
+### `scripts/meta_report.py`
 
-# Media insights (per post)
-curl -s "https://graph.facebook.com/v21.0/{MEDIA_ID}/insights?metric=impressions,reach,engagement,saved&access_token=$TOKEN"
-```
+Purpose:
+- run reusable ad/account/social reporting
+- flatten action arrays into analysis-friendly JSON
+- compare current period vs previous period
+- support platform, audience, geo, and placement breakdowns
+- surface custom-conversion action types
 
-### Get Recent Instagram Posts
-```bash
-curl -s "https://graph.facebook.com/v21.0/17841415739993320/media?fields=id,caption,timestamp,like_count,comments_count,media_type,permalink&limit=10&access_token=$TOKEN"
-```
+### `scripts/meta_mutate.py`
 
-## Facebook/Instagram Ads
+Purpose:
+- preview mutation payloads safely
+- use server-side `validate_only` where supported
+- require explicit opt-in for live writes
+- force ads objects to `PAUSED` unless `--allow-active` is passed
 
-### List Campaigns
-```bash
-curl -s "https://graph.facebook.com/v21.0/act_286631686227626/campaigns?fields=name,status,objective,daily_budget,lifetime_budget,start_time,stop_time&limit=25&access_token=$TOKEN"
-```
+## Guardrails
 
-### Campaign Performance (Last 30 Days)
-```bash
-curl -s "https://graph.facebook.com/v21.0/act_286631686227626/insights?fields=campaign_name,impressions,clicks,spend,cpc,cpm,ctr,actions,cost_per_action_type&time_range={\"since\":\"$(date -d '30 days ago' +%Y-%m-%d)\",\"until\":\"$(date +%Y-%m-%d)\"}&level=campaign&access_token=$TOKEN"
-```
+- Diagnose access before trusting data.
+- Prefer `meta_report.py` over raw curl for repeatable analysis.
+- Treat Page endpoints differently from ad-account endpoints; Page reads/publishes use a page token.
+- Do not apply risky writes without preview and explicit approval.
+- Keep new ads objects paused until copy, creative, targeting, budget, and tracking are reviewed.
+- Be explicit about the denominator when discussing CPA.
 
-### Ad Set Performance
-```bash
-curl -s "https://graph.facebook.com/v21.0/act_286631686227626/insights?fields=adset_name,campaign_name,impressions,clicks,spend,cpc,actions,cost_per_action_type&time_range={\"since\":\"$(date -d '30 days ago' +%Y-%m-%d)\",\"until\":\"$(date +%Y-%m-%d)\"}&level=adset&access_token=$TOKEN"
-```
+## References
 
-### Ad Performance
-```bash
-curl -s "https://graph.facebook.com/v21.0/act_286631686227626/insights?fields=ad_name,adset_name,campaign_name,impressions,clicks,spend,cpc,actions&time_range={\"since\":\"$(date -d '30 days ago' +%Y-%m-%d)\",\"until\":\"$(date +%Y-%m-%d)\"}&level=ad&access_token=$TOKEN"
-```
-
-### Pause/Enable a Campaign
-```bash
-# Pause
-curl -X POST "https://graph.facebook.com/v21.0/{CAMPAIGN_ID}" \
-  -d "status=PAUSED" \
-  -d "access_token=$TOKEN"
-
-# Enable
-curl -X POST "https://graph.facebook.com/v21.0/{CAMPAIGN_ID}" \
-  -d "status=ACTIVE" \
-  -d "access_token=$TOKEN"
-```
-
-### Audience Breakdown
-```bash
-curl -s "https://graph.facebook.com/v21.0/act_286631686227626/insights?fields=impressions,clicks,spend,actions&breakdowns=age,gender&time_range={\"since\":\"$(date -d '30 days ago' +%Y-%m-%d)\",\"until\":\"$(date +%Y-%m-%d)\"}&access_token=$TOKEN"
-```
-
-### Platform Breakdown (Facebook vs Instagram)
-```bash
-curl -s "https://graph.facebook.com/v21.0/act_286631686227626/insights?fields=impressions,clicks,spend,actions&breakdowns=publisher_platform&time_range={\"since\":\"$(date -d '30 days ago' +%Y-%m-%d)\",\"until\":\"$(date +%Y-%m-%d)\"}&access_token=$TOKEN"
-```
-
-Note: Currency is ZAR (South African Rand). `daily_budget` is returned in cents (35000 = R350).
-
-## Output Formatting (Slack)
-
-```
-*Facebook Ads Performance (Last 30 Days)*
-
-• *Campaign A* — RX spend, Y impressions, Z clicks, N% CTR
-• *Campaign B* — STATUS
-
-*Page Stats:*
-• *Followers:* X
-• *Recent reach:* Y impressions
-• *Engagement:* Z interactions
-```
-
-## Safety Rules
-
-- **Always confirm before posting** to Facebook or Instagram
-- **Always confirm before changing** ad campaign status or budgets
-- **Draft posts first** — show the user what will be posted before publishing
-- Page token is embedded in the API response — use it for page-level operations
-- System user token does not expire — no refresh needed
+- `references/metrics.md` — metric definitions and action-type discipline
+- `references/reporting-playbook.md` — repeatable audit/reporting command set
+- `references/mutation-patterns.md` — JSON spec shapes and write workflows
+- `references/operating-rhythm.md` — daily/weekly/monthly operating cadence
+- `references/errors.md` — common failures and how to recover
