@@ -1,25 +1,34 @@
 {
   "lastChecks": {
-    "trial_health": 1773486480,
+    "trial_health": 1773494280,
     "revenue_pulse": 1773490200,
     "seo_movement": 1773490200,
-    "email_health": 1773486480,
+    "email_health": 1773494280,
     "ad_spend": 1773490320
   },
   "lastMetrics": {
     "trial_health": {
-      "trial_group_active_count": 47,
-      "previous_trial_group_active_count": 48,
+      "status": "attention",
+      "trial_group_active_count": 46,
+      "previous_trial_group_active_count": 47,
       "trend": "down",
       "trend_delta": -1,
-      "near_expiry_count_next_2_days": 1,
+      "trialing_true_count_in_group": 38,
+      "near_expiry_count_next_2_days": 2,
       "near_expiry_sample": [
         {
-          "email": "puntotattoopartners@gmail.com",
-          "days_left": 1.31,
+          "email": "hoyoj97217@faxzu.com",
+          "days_left": 0.23,
           "trialing": "true",
           "status": "trialing",
-          "current_period_end": "2026-03-15T18:31:21Z"
+          "current_period_end": "2026-03-25T18:52:36Z"
+        },
+        {
+          "email": "sb_sec_test_1@proton.me",
+          "days_left": 1.07,
+          "trialing": "true",
+          "status": "trialing",
+          "current_period_end": "2026-03-26T15:03:30Z"
         }
       ],
       "note": "Trial Users group checked via MailerLite groups + group subscribers endpoints."
@@ -124,7 +133,7 @@
         {
           "name": "101 - Oviond Reactivate or Scrub",
           "bounce_rate": 0.050102184186997,
-          "open_rate": 0.25852599310257,
+          "open_rate": 0.25874952101162,
           "sent": 31316,
           "reason": "bounce_rate_above_5_percent"
         }
