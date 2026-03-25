@@ -25,7 +25,7 @@
 - Next Stripe analysis work should focus on full pagination, paid-vs-trial separation, plan mix, paused/reactivation opportunity, and churn-risk views.
 - Google Workspace is connected for Nicole via domain-wide delegated impersonation.
 - Google Analytics is operational for Oviond.
-- Google Ads access is configured, but production usage is currently blocked until Basic Access approval for the developer token is granted.
+- Google Ads production access is still blocked, but the correct path is now confirmed: service-account-first, not Workspace-style delegation. On 2026-03-25 the Google Ads skill was rebuilt, the service account and Google Ads API enablement were verified, and live calls still returned `PROJECT_DISABLED` for Cloud project `480335022137`; a Google support ticket is pending before Ads-side access can be finished.
 - MailerLite is heavily automation-driven and is an important lifecycle marketing system for Oviond.
 - Meta access is configured for Oviond’s Facebook, Instagram, and Ads assets.
 - Oviond design capability should be built as a skill-led operating system: Nicole as art director/QA, a dedicated Oviond design skill as the reusable brain, and Gemini/Nano Banana as the rendering layer.
