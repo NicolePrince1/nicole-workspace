@@ -1,60 +1,124 @@
 #!/usr/bin/env node
-// Google Ads GAQL Query Runner
-// Usage: node ads_query.js "SELECT ... FROM ... WHERE ..."
-// Env: GOOGLE_ADS_TOKEN (or auto-generates), GOOGLE_ADS_DEVELOPER_TOKEN
+const fs = require('fs');
+const {
+  DEFAULTS,
+  buildSuggestions,
+  getDeveloperToken,
+  printJson,
+  resolveAccessToken,
+  searchStream,
+  stripCustomerId,
+  summarizeGoogleAdsError,
+} = require('./lib/google_ads');
 
-const https = require('https');
-const { execSync } = require('child_process');
+function parseArgs(argv) {
+  const args = {
+    customerId: DEFAULTS.customerId,
+    loginCustomerId: DEFAULTS.loginCustomerId,
+    apiVersion: DEFAULTS.apiVersion,
+    format: 'json',
+    query: null,
+    file: null,
+    help: false,
+  };
 
-const CUSTOMER_ID = '2906154258';
-const LOGIN_CUSTOMER_ID = '6387956297';
-const API_VERSION = 'v21';
+  const positional = [];
+  for (let i = 0; i < argv.length; i += 1) {
+    const arg = argv[i];
+    if (arg === '--customer-id') args.customerId = stripCustomerId(argv[++i]);
+    else if (arg === '--login-customer-id') args.loginCustomerId = stripCustomerId(argv[++i]);
+    else if (arg === '--api-version') args.apiVersion = argv[++i];
+    else if (arg === '--format') args.format = argv[++i];
+    else if (arg === '--query') args.query = argv[++i];
+    else if (arg === '--file') args.file = argv[++i];
+    else if (arg === '--help' || arg === '-h') args.help = true;
+    else positional.push(arg);
+  }
 
-// Get token
-const token = process.env.GOOGLE_ADS_TOKEN ||
-  execSync('node /data/.openclaw/secrets/gws-ads-token.js', { encoding: 'utf8' });
+  if (!args.query && !args.file && positional.length) {
+    args.query = positional.join(' ');
+  }
 
-// Get developer token
-const devToken = process.env.GOOGLE_ADS_DEVELOPER_TOKEN || 'z7adyM4vUm79lJCxNi0Ydg';
-
-const query = process.argv[2];
-if (!query) {
-  console.error('Usage: node ads_query.js "GAQL query"');
-  process.exit(1);
+  return args;
 }
 
-const body = JSON.stringify({ query, pageSize: 10000 });
+function usage() {
+  return [
+    'Usage: node ads_query.js "SELECT ..."',
+    '   or: node ads_query.js --file ./query.sql [--customer-id 2906154258] [--login-customer-id 6387956297] [--format json|pretty]',
+    '',
+    'Runs a Google Ads GAQL query using searchStream so larger reports do not require manual pagination.',
+  ].join('\n');
+}
 
-const req = https.request({
-  hostname: 'googleads.googleapis.com',
-  path: `/${API_VERSION}/customers/${CUSTOMER_ID}/googleAds:search`,
-  method: 'POST',
-  headers: {
-    'Authorization': `Bearer ${token}`,
-    'developer-token': devToken,
-    'login-customer-id': LOGIN_CUSTOMER_ID,
-    'Content-Type': 'application/json',
-    'Content-Length': Buffer.byteLength(body),
-  },
-}, res => {
-  let data = '';
-  res.on('data', d => data += d);
-  res.on('end', () => {
-    try {
-      const parsed = JSON.parse(data);
-      if (parsed.error) {
-        console.error(JSON.stringify(parsed.error, null, 2));
-        process.exit(1);
-      }
-      // Format results
-      const results = parsed.results || [];
-      console.log(JSON.stringify({ totalResults: results.length, results }, null, 2));
-    } catch (e) {
-      console.error('Failed to parse response:', data.substring(0, 500));
-      process.exit(1);
-    }
+function renderPretty(results) {
+  return results.map((row, index) => `${index + 1}. ${JSON.stringify(row)}`).join('\n');
+}
+
+(async function main() {
+  const args = parseArgs(process.argv.slice(2));
+  if (args.help) {
+    process.stdout.write(`${usage()}\n`);
+    return;
+  }
+
+  const query = args.query || (args.file ? fs.readFileSync(args.file, 'utf8') : '').trim();
+  if (!query) {
+    process.stderr.write(`${usage()}\n`);
+    process.exit(1);
+  }
+
+  const developerToken = getDeveloperToken();
+  const tokenInfo = await resolveAccessToken();
+  const result = await searchStream({
+    query,
+    customerId: args.customerId,
+    loginCustomerId: args.loginCustomerId,
+    token: tokenInfo.token,
+    developerToken,
+    apiVersion: args.apiVersion,
   });
-});
 
-req.write(body);
-req.end();
+  if (result.response.statusCode < 200 || result.response.statusCode >= 300) {
+    const summary = summarizeGoogleAdsError(result.response);
+    const payload = {
+      ok: false,
+      query,
+      customerId: args.customerId,
+      loginCustomerId: args.loginCustomerId,
+      tokenSource: tokenInfo.source,
+      error: summary,
+      nextActions: buildSuggestions(summary, {
+        customerId: args.customerId,
+        loginCustomerId: args.loginCustomerId,
+        serviceAccountEmail: tokenInfo.serviceAccount?.email,
+        projectId: tokenInfo.serviceAccount?.projectId,
+        projectNumber: tokenInfo.serviceAccount?.projectNumber,
+      }),
+    };
+    printJson(payload);
+    process.exit(1);
+  }
+
+  const payload = {
+    ok: true,
+    query,
+    customerId: args.customerId,
+    loginCustomerId: args.loginCustomerId,
+    tokenSource: tokenInfo.source,
+    totalRows: result.results.length,
+    totalBatches: result.batches.length,
+    fieldMask: result.fieldMask,
+    results: result.results,
+  };
+
+  if (args.format === 'pretty') {
+    process.stdout.write(`Rows: ${payload.totalRows}\n`);
+    process.stdout.write(`${renderPretty(payload.results)}\n`);
+  } else {
+    printJson(payload);
+  }
+})().catch(error => {
+  process.stderr.write(`${error.stack || error.message}\n`);
+  process.exit(1);
+});

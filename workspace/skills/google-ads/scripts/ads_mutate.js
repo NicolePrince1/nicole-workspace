@@ -1,77 +1,114 @@
 #!/usr/bin/env node
-// Google Ads Mutate Operations Runner
-// Usage: node ads_mutate.js <resource_type> <operations_json_file>
-// Example: node ads_mutate.js campaigns ./pause_campaign.json
-// Env: GOOGLE_ADS_TOKEN (or auto-generates), GOOGLE_ADS_DEVELOPER_TOKEN
-
-const https = require('https');
 const fs = require('fs');
-const { execSync } = require('child_process');
+const {
+  DEFAULTS,
+  buildSuggestions,
+  getDeveloperToken,
+  printJson,
+  mutate,
+  resolveAccessToken,
+  stripCustomerId,
+  summarizeGoogleAdsError,
+} = require('./lib/google_ads');
 
-const CUSTOMER_ID = '2906154258';
-const LOGIN_CUSTOMER_ID = '6387956297';
-const API_VERSION = 'v21';
+function parseArgs(argv) {
+  const args = {
+    customerId: DEFAULTS.customerId,
+    loginCustomerId: DEFAULTS.loginCustomerId,
+    apiVersion: DEFAULTS.apiVersion,
+    validateOnly: true,
+    partialFailure: true,
+    responseContentType: 'MUTABLE_RESOURCE',
+  };
 
-// Get token
-const token = process.env.GOOGLE_ADS_TOKEN ||
-  execSync('node /data/.openclaw/secrets/gws-ads-token.js', { encoding: 'utf8' });
+  const positional = [];
+  for (let i = 0; i < argv.length; i += 1) {
+    const arg = argv[i];
+    if (arg === '--customer-id') args.customerId = stripCustomerId(argv[++i]);
+    else if (arg === '--login-customer-id') args.loginCustomerId = stripCustomerId(argv[++i]);
+    else if (arg === '--api-version') args.apiVersion = argv[++i];
+    else if (arg === '--validate-only') args.validateOnly = true;
+    else if (arg === '--apply') args.validateOnly = false;
+    else if (arg === '--partial-failure') args.partialFailure = true;
+    else if (arg === '--no-partial-failure') args.partialFailure = false;
+    else if (arg === '--response-content-type') args.responseContentType = argv[++i];
+    else if (arg === '--help' || arg === '-h') args.help = true;
+    else positional.push(arg);
+  }
 
-const devToken = process.env.GOOGLE_ADS_DEVELOPER_TOKEN || 'z7adyM4vUm79lJCxNi0Ydg';
-
-const resourceType = process.argv[2];
-const opsFile = process.argv[3];
-
-if (!resourceType || !opsFile) {
-  console.error('Usage: node ads_mutate.js <resource_type> <operations_json_file>');
-  console.error('Resource types: campaigns, adGroups, adGroupCriteria, campaignBudgets');
-  process.exit(1);
+  args.resourceType = positional[0];
+  args.operationsFile = positional[1];
+  return args;
 }
 
-const operations = JSON.parse(fs.readFileSync(opsFile, 'utf8'));
-const body = JSON.stringify(operations);
-
-// Map resource types to API endpoints
-const endpoints = {
-  campaigns: 'campaigns:mutate',
-  adGroups: 'adGroups:mutate',
-  adGroupCriteria: 'adGroupCriteria:mutate',
-  adGroupAds: 'adGroupAds:mutate',
-  campaignBudgets: 'campaignBudgets:mutate',
-  biddingStrategies: 'biddingStrategies:mutate',
-};
-
-const endpoint = endpoints[resourceType];
-if (!endpoint) {
-  console.error(`Unknown resource type: ${resourceType}`);
-  console.error(`Valid types: ${Object.keys(endpoints).join(', ')}`);
-  process.exit(1);
+function usage() {
+  return [
+    'Usage: node ads_mutate.js <resourceType> <operations.json> [--validate-only|--apply]',
+    '',
+    'Examples:',
+    '  node ads_mutate.js campaigns ./pause-campaign.json --validate-only',
+    '  node ads_mutate.js campaignBudgets ./budget-change.json --apply',
+    '',
+    'Default mode is validate-only for safety.',
+  ].join('\n');
 }
 
-const req = https.request({
-  hostname: 'googleads.googleapis.com',
-  path: `/${API_VERSION}/customers/${CUSTOMER_ID}/${endpoint}`,
-  method: 'POST',
-  headers: {
-    'Authorization': `Bearer ${token}`,
-    'developer-token': devToken,
-    'login-customer-id': LOGIN_CUSTOMER_ID,
-    'Content-Type': 'application/json',
-    'Content-Length': Buffer.byteLength(body),
-  },
-}, res => {
-  let data = '';
-  res.on('data', d => data += d);
-  res.on('end', () => {
-    try {
-      const parsed = JSON.parse(data);
-      console.log(JSON.stringify(parsed, null, 2));
-      if (parsed.error) process.exit(1);
-    } catch (e) {
-      console.error('Failed to parse response:', data.substring(0, 500));
-      process.exit(1);
-    }
+(async function main() {
+  const args = parseArgs(process.argv.slice(2));
+  if (args.help || !args.resourceType || !args.operationsFile) {
+    process.stdout.write(`${usage()}\n`);
+    if (!args.help) process.exit(1);
+    return;
+  }
+
+  const operations = JSON.parse(fs.readFileSync(args.operationsFile, 'utf8'));
+  const developerToken = getDeveloperToken();
+  const tokenInfo = await resolveAccessToken();
+
+  const response = await mutate({
+    resourceType: args.resourceType,
+    operations,
+    customerId: args.customerId,
+    loginCustomerId: args.loginCustomerId,
+    token: tokenInfo.token,
+    developerToken,
+    apiVersion: args.apiVersion,
+    validateOnly: args.validateOnly,
+    partialFailure: args.partialFailure,
+    responseContentType: args.responseContentType,
   });
-});
 
-req.write(body);
-req.end();
+  if (response.statusCode < 200 || response.statusCode >= 300 || response.body?.error) {
+    const summary = summarizeGoogleAdsError(response);
+    printJson({
+      ok: false,
+      mode: args.validateOnly ? 'validate-only' : 'apply',
+      resourceType: args.resourceType,
+      customerId: args.customerId,
+      loginCustomerId: args.loginCustomerId,
+      tokenSource: tokenInfo.source,
+      error: summary,
+      nextActions: buildSuggestions(summary, {
+        customerId: args.customerId,
+        loginCustomerId: args.loginCustomerId,
+        serviceAccountEmail: tokenInfo.serviceAccount?.email,
+        projectId: tokenInfo.serviceAccount?.projectId,
+        projectNumber: tokenInfo.serviceAccount?.projectNumber,
+      }),
+    });
+    process.exit(1);
+  }
+
+  printJson({
+    ok: true,
+    mode: args.validateOnly ? 'validate-only' : 'apply',
+    resourceType: args.resourceType,
+    customerId: args.customerId,
+    loginCustomerId: args.loginCustomerId,
+    tokenSource: tokenInfo.source,
+    response: response.body,
+  });
+})().catch(error => {
+  process.stderr.write(`${error.stack || error.message}\n`);
+  process.exit(1);
+});
