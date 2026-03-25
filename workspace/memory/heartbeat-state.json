@@ -1,34 +1,83 @@
 {
   "lastChecks": {
-    "trial_health": 1773494280,
+    "trial_health": 1774447140,
     "revenue_pulse": 1773490200,
     "seo_movement": 1773490200,
-    "email_health": 1773494280,
+    "email_health": 1774447140,
     "ad_spend": 1773490320
   },
   "lastMetrics": {
     "trial_health": {
       "status": "attention",
       "trial_group_active_count": 46,
-      "previous_trial_group_active_count": 47,
-      "trend": "down",
-      "trend_delta": -1,
+      "previous_trial_group_active_count": 46,
+      "trend": "flat",
+      "trend_delta": 0,
       "trialing_true_count_in_group": 38,
-      "near_expiry_count_next_2_days": 2,
+      "dirty_nontrial_count_in_group": 8,
+      "dirty_status_breakdown": {
+        "trialing": 38,
+        "trial_expired": 4,
+        "canceled": 1,
+        "active": 2,
+        "missing": 1
+      },
+      "near_expiry_count_next_5_days": 12,
+      "near_expiry_breakdown_next_5_days": {
+        "no_integration_no_report": 10,
+        "has_report": 1,
+        "integration_no_report": 1
+      },
       "near_expiry_sample": [
         {
           "email": "hoyoj97217@faxzu.com",
-          "days_left": 0.23,
+          "days_left": 0.2,
           "trialing": "true",
           "status": "trialing",
-          "current_period_end": "2026-03-25T18:52:36Z"
+          "current_period_end": "2026-03-25T18:52:36Z",
+          "integrations_present": false,
+          "reports_count": 0,
+          "bucket": "no_integration_no_report"
         },
         {
           "email": "sb_sec_test_1@proton.me",
-          "days_left": 1.07,
+          "days_left": 1.04,
           "trialing": "true",
           "status": "trialing",
-          "current_period_end": "2026-03-26T15:03:30Z"
+          "current_period_end": "2026-03-26T15:03:30Z",
+          "integrations_present": false,
+          "reports_count": 0,
+          "bucket": "no_integration_no_report"
+        },
+        {
+          "email": "hotabel405@faxzu.com",
+          "days_left": 2.1,
+          "trialing": "true",
+          "status": "trialing",
+          "current_period_end": "2026-03-27T16:17:06Z",
+          "integrations_present": false,
+          "reports_count": 0,
+          "bucket": "no_integration_no_report"
+        },
+        {
+          "email": "lesediobedient@gmail.com",
+          "days_left": 2.16,
+          "trialing": "true",
+          "status": "trialing",
+          "current_period_end": "2026-03-27T17:45:53Z",
+          "integrations_present": false,
+          "reports_count": 0,
+          "bucket": "no_integration_no_report"
+        },
+        {
+          "email": "jonathan@integratto.com.mx",
+          "days_left": 2.27,
+          "trialing": "true",
+          "status": "trialing",
+          "current_period_end": "2026-03-27T20:27:19Z",
+          "integrations_present": true,
+          "reports_count": 1,
+          "bucket": "has_report"
         }
       ],
       "note": "Trial Users group checked via MailerLite groups + group subscribers endpoints."
@@ -132,6 +181,7 @@
       "flagged_automations": [
         {
           "name": "101 - Oviond Reactivate or Scrub",
+          "enabled": false,
           "bounce_rate": 0.050102184186997,
           "open_rate": 0.25874952101162,
           "sent": 31316,
@@ -139,7 +189,7 @@
         }
       ],
       "error": null,
-      "note": "MailerLite automations checked; only one automation currently breaches the bounce/open thresholds."
+      "note": "MailerLite automations checked; only one automation currently breaches the bounce/open thresholds, and it remains disabled."
     },
     "ad_spend": {
       "status": "ok",
