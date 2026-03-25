@@ -10,7 +10,7 @@
       "task": "Weekly Monday report for Chris. Pull: 1) Stripe MRR from last 7 days invoices vs prior 7 days, new trials, past_due count, paused count. 2) GA4 sessions + signups by channel, week-over-week. 3) MailerLite trial group size, automation performance. 4) GSC top keyword position changes. 5) Meta ads spend + results. Format as clean Slack summary with trends (up/down arrows). Update memory/weekly-reports/ with the data. Send to Chris on Slack.",
       "target": "UDXMTJXGT",
       "state": {
-        "nextRunAtMs": 1773644400000
+        "nextRunAtMs": 1774854000000
       },
       "name": "Cron: 0 7 * * 1",
       "enabled": true,
@@ -42,7 +42,7 @@
       "task": "Check if Google Ads API Basic Access has been approved. Test query: node /data/.openclaw/workspace/skills/google-ads/scripts/ads_query.js 'SELECT customer.descriptive_name FROM customer LIMIT 1'. If it works, notify Chris that Google Ads is live. If still rejected, set another reminder for 3 days later.",
       "target": "UDXMTJXGT",
       "state": {
-        "nextRunAtMs": 1773302400000
+        "nextRunAtMs": 1804838400000
       },
       "name": "Cron: 0 8 12 3 *",
       "enabled": true,
@@ -58,7 +58,7 @@
       "task": "Friday SEO check. Pull GSC data for the week vs prior week. Compare top 20 non-brand keyword positions. Flag any movement >3 positions (up or down). Check target pages: client-onboarding-checklist, digital-marketing-reporting, free-ai-tools, content-social-media-marketing. Save to memory/seo-weekly/YYYY-MM-DD.json. Only message Chris if significant changes found.",
       "target": "UDXMTJXGT",
       "state": {
-        "nextRunAtMs": 1773403200000
+        "nextRunAtMs": 1774612800000
       },
       "name": "Cron: 0 12 * * 5",
       "enabled": true,
@@ -74,7 +74,7 @@
       "task": "Mid-week trial check. Pull: 1) Current trial count from MailerLite group 1.1. 2) New trials started this week (MailerLite API, subscribers created in last 7 days in trial group). 3) Stripe trialing count. 4) Any trials expiring in next 3 days? Compare to last week. If trial-to-paid conversion rate drops below 10%, flag to Chris with analysis.",
       "target": "UDXMTJXGT",
       "state": {
-        "nextRunAtMs": 1773219600000
+        "nextRunAtMs": 1775034000000
       },
       "name": "Cron: 0 9 * * 3",
       "enabled": true,
@@ -90,12 +90,40 @@
       "task": "Bi-monthly strategy self-review. Read STRATEGY-Q2-Q4-2026.md. Check: 1) Are we on track vs the MRR trajectory? 2) Which plays are working, which aren't? 3) Any new data that changes priorities? 4) Update the strategy doc with learnings and adjusted actions. 5) Write a brief update to memory/strategy-reviews/. Only message Chris if the plan needs significant changes.",
       "target": "UDXMTJXGT",
       "state": {
-        "nextRunAtMs": 1773561600000
+        "nextRunAtMs": 1775030400000
       },
       "name": "Cron: 0 8 1,15 * *",
       "enabled": true,
       "wakeMode": "now",
       "sessionTarget": "main"
+    },
+    {
+      "id": "a3a2822b-65b3-499c-9dfe-e28964534e94",
+      "name": "Meta ads 2-day operating check",
+      "enabled": true,
+      "createdAtMs": 1774445011422,
+      "updatedAtMs": 1774445011422,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 */2 * *",
+        "tz": "Africa/Johannesburg",
+        "staggerMs": 0
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Meta ads operating check for Chris.\n\nRun every time this job fires:\n1) Diagnose access first with: python3 /data/.openclaw/workspace/skills/meta/scripts/meta_doctor.py\n2) Audit these live campaigns in account act_286631686227626:\n   - Remarketing USA (control) — 120234146733660563\n   - Remarketing USA - Free Trial Test — 120242845828470563\n3) Check campaign, ad set, and ad review/delivery states. Flag rejected, limited, paused, pending-review, or zero-delivery issues.\n4) Pull performance for last 2 days, last 7 days, and since launch of the test. Compare control vs test on spend, clicks, CTR, landing_page_view, cost per landing_page_view, and any visible signup / Customer Signs Up conversion signal.\n5) Check platform split and ad-level split. Identify obvious winners/losers.\n6) Safe adjustments you are allowed to make without asking Chris:\n   - fix obvious non-creative configuration issues blocking delivery\n   - pause broken/rejected ads\n   - pause obvious waste if an ad has meaningful spend and is clearly underperforming its sibling (for example 2x+ worse LPV CPA after enough data)\n   - keep the control and test both running unless one is clearly broken\n7) Do NOT automatically increase budgets. If the test is starting to work, tell Chris it looks ready for a budget increase.\n8) Do NOT launch brand-new campaigns or new creative concepts from scratch in this recurring job.\n9) Send Chris a concise update in normal assistant voice:\n   - what happened\n   - current winner / loser\n   - any changes you made\n   - whether the test looks ready for budget expansion yet\nIf nothing needed changing, still send a short check-in."
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "telegram",
+        "to": "5810523015",
+        "accountId": "default"
+      },
+      "state": {
+        "nextRunAtMs": 1774594800000
+      }
     }
   ]
 }
