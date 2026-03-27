@@ -10,6 +10,7 @@
 ## Chris working preferences
 
 - After finishing work, always send Chris a concise update covering what changed and why.
+- When Chris sends a voice note, always reply with both a text response and a voice note response. Treat this as a standing requirement, not an occasional preference.
 
 ## Oviond business context
 
