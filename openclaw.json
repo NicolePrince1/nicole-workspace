@@ -62,7 +62,8 @@
     "tts": {
       "provider": "openai",
       "openai": {
-        "speed": 1.2
+        "voice": "coral",
+        "speed": 1.25
       }
     }
   },

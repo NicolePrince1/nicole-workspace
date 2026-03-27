@@ -11,6 +11,7 @@
 
 - After finishing work, always send Chris a concise update covering what changed and why.
 - When Chris sends a voice note, always reply with both a text response and a voice note response. Treat this as a standing requirement, not an occasional preference.
+- Voice-note replies should use a nice female voice by default, currently OpenAI `coral`, at slightly faster speed (`1.25`) unless Chris asks otherwise.
 
 ## Oviond business context
 

@@ -37,6 +37,12 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ## Current Local Setup Notes
 
+### TTS
+
+- Default provider: OpenAI TTS via `messages.tts` in `openclaw.json`.
+- Preferred default voice for Chris voice-note replies: `coral`.
+- Preferred default speed for Chris voice-note replies: `1.25`.
+
 ### Google Workspace
 
 - Wrapper path: `/usr/local/bin/gws-nicole`
@@ -72,9 +78,8 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ### Google Ads
 
 - Local skill lives at `skills/google-ads/`.
-- Token/helper material lives in gitignored secret storage under `/data/.openclaw/secrets/`.
 - Project: `oviond-workspace-cli`.
-- Durable access/blocker status belongs in `MEMORY.md`; keep this section for local skill and helper references only.
+- Keep this section to local helper/path mechanics only; auth state and blockers belong in `skills/google-ads/SKILL.md`, with only a short durable summary in `MEMORY.md`.
 
 ---
 
