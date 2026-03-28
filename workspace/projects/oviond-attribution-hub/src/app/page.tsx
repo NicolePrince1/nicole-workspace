@@ -3,12 +3,43 @@ import { getDashboardData } from "@/lib/dashboard";
 
 export const dynamic = "force-dynamic";
 
-function formatLabel(value: string) {
-  return value.replace(/_/g, " ");
+function pct(value: number) {
+  return `${(value * 100).toFixed(0)}%`;
 }
 
-function percent(value: number) {
-  return `${(value * 100).toFixed(0)}%`;
+function money(value: number) {
+  return new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+    maximumFractionDigits: 0,
+  }).format(value);
+}
+
+function formatDateTime(value: string | null) {
+  if (!value) {
+    return "—";
+  }
+
+  return new Intl.DateTimeFormat("en-ZA", {
+    dateStyle: "medium",
+    timeStyle: "short",
+    timeZone: "UTC",
+  }).format(new Date(value));
+}
+
+function statePillClasses(state: "trialing" | "paid" | "expired" | "cancelled") {
+  switch (state) {
+    case "paid":
+      return "bg-emerald-400/15 text-emerald-200";
+    case "trialing":
+      return "bg-cyan-400/15 text-cyan-200";
+    case "expired":
+      return "bg-amber-400/15 text-amber-200";
+    case "cancelled":
+      return "bg-rose-400/15 text-rose-200";
+    default:
+      return "bg-slate-400/15 text-slate-200";
+  }
 }
 
 function LoginScreen() {
@@ -25,15 +56,15 @@ function LoginScreen() {
                 Stripe-first attribution truth for Oviond.
               </h1>
               <p className="max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">
-                Stripe decides when a trial, payment, or cancellation is real. This app captures attribution identifiers, stitches them back onto Stripe lifecycle events, and then pushes clean downstream signals to Meta, GA4, and Google Ads.
+                Stripe tells us when a trial really starts, when it becomes paid, and when it dies. The hub’s job is to stitch campaign data onto that journey and make the commercial story obvious.
               </p>
             </div>
             <div className="grid gap-3 sm:grid-cols-2">
               {[
-                "Stripe lifecycle events as source of truth",
-                "Lightweight attribution capture endpoint",
-                "Stitching layer for Meta / GA4 / Google Ads",
-                "Railway-ready dashboard and replay tooling",
+                "Commercial view first, ops lower down",
+                "Paid outcomes, not noisy webhook counts",
+                "Attribution coverage separated from revenue truth",
+                "Customer-level outcomes table for fast diagnosis",
               ].map((item) => (
                 <div
                   key={item}
@@ -85,17 +116,86 @@ export default async function DashboardPage() {
     return <LoginScreen />;
   }
 
-  const {
-    dbOk,
-    env,
-    keyCounts,
-    attributionCaptures7d,
-    attributedTrialStarts7d,
-    unattributedTrialStarts7d,
-    trialAttributionMatchRate,
-    recentEvents,
-    recentDeliveries,
-  } = await getDashboardData();
+  const { dbOk, env, hero, attribution, funnel, recentOutcomes, recentDeliveries } =
+    await getDashboardData();
+
+  const commercialCards = [
+    {
+      label: "Trials started",
+      value: String(hero.trialsStarted30d),
+      caption: "Last 30 days",
+    },
+    {
+      label: "Paid conversions",
+      value: String(hero.paidConversions30d),
+      caption: "Trials that became paid in the last 30 days",
+    },
+    {
+      label: "Cohort conversion rate",
+      value: pct(hero.cohortConversionRate),
+      caption: `${hero.maturePaidCount} of ${hero.matureTrialsCount} mature trials`,
+    },
+    {
+      label: "First-payment revenue",
+      value: money(hero.firstPaymentRevenue30d),
+      caption: "Recognised from first positive invoices in the last 30 days",
+    },
+    {
+      label: "Trials in flight",
+      value: String(hero.trialsInFlight),
+      caption: "Started, but not yet paid or lost",
+    },
+  ];
+
+  const attributionCards = [
+    {
+      label: "Attribution captures",
+      value: String(attribution.captures30d),
+      caption: "Last 30 days",
+    },
+    {
+      label: "Attributed trials",
+      value: String(attribution.attributedTrials30d),
+      caption: "Trial starts with a stitched source/campaign",
+    },
+    {
+      label: "Attributed paid customers",
+      value: String(attribution.attributedPaid30d),
+      caption: "Paid conversions with stitched attribution",
+    },
+    {
+      label: "Paid attribution coverage",
+      value: pct(attribution.paidAttributionCoverage30d),
+      caption: `${attribution.unattributedPaid30d} paid conversions still unattributed`,
+    },
+  ];
+
+  const funnelStages = [
+    {
+      label: "Tracked trials",
+      count: funnel.totalTrackedTrials,
+      tone: "text-white",
+      bar: "bg-slate-200",
+    },
+    {
+      label: "Still in trial",
+      count: funnel.inTrial,
+      tone: "text-cyan-200",
+      bar: "bg-cyan-400",
+    },
+    {
+      label: "Converted to paid",
+      count: funnel.paid,
+      tone: "text-emerald-200",
+      bar: "bg-emerald-400",
+    },
+    {
+      label: "Lost before pay",
+      count: funnel.lostPrePay,
+      tone: "text-amber-200",
+      bar: "bg-amber-400",
+    },
+  ];
 
   return (
     <main className="min-h-screen bg-[radial-gradient(circle_at_top,_#0f172a,_#020617_55%)] text-slate-100">
@@ -111,7 +211,7 @@ export default async function DashboardPage() {
                   Oviond Attribution Hub
                 </h1>
                 <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-300 sm:text-base">
-                  Stripe lifecycle events are the truth layer. Attribution captures are stitched onto those events before downstream delivery, so paid media platforms observe real business events instead of fragile pageview or form-submit proxies.
+                  This dashboard now follows the actual customer journey: trials started, trials that became paid, revenue from first payments, and how much of that story is attributable to real campaigns.
                 </p>
               </div>
             </div>
@@ -123,6 +223,28 @@ export default async function DashboardPage() {
                 }`}
               >
                 {dbOk ? "Database connected" : "Database missing or unavailable"}
+              </div>
+              <div
+                className={`rounded-full px-3 py-1 text-xs font-medium ${
+                  env.STRIPE_WEBHOOK_SECRET && env.STRIPE_SECRET_KEY
+                    ? "bg-emerald-400/15 text-emerald-200"
+                    : "bg-amber-400/15 text-amber-200"
+                }`}
+              >
+                {env.STRIPE_WEBHOOK_SECRET && env.STRIPE_SECRET_KEY
+                  ? "Stripe webhooks live"
+                  : "Stripe not fully configured"}
+              </div>
+              <div
+                className={`rounded-full px-3 py-1 text-xs font-medium ${
+                  attribution.captures30d > 0
+                    ? "bg-cyan-400/15 text-cyan-200"
+                    : "bg-slate-400/15 text-slate-300"
+                }`}
+              >
+                {attribution.captures30d > 0
+                  ? "Attribution capture active"
+                  : "Attribution capture still empty"}
               </div>
               <form action="/api/admin/logout" method="post">
                 <button
@@ -136,63 +258,219 @@ export default async function DashboardPage() {
           </div>
         </div>
 
-        <section className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-5">
-          {keyCounts.map((item) => (
-            <article
-              key={item.eventType}
-              className="rounded-3xl border border-white/10 bg-white/5 p-5 shadow-lg shadow-slate-950/20"
-            >
-              <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
-                {formatLabel(item.eventType)}
+        <section className="mt-8">
+          <div className="mb-4 flex items-end justify-between gap-4">
+            <div>
+              <h2 className="text-xl font-semibold">Commercial view</h2>
+              <p className="mt-1 text-sm text-slate-400">
+                Read this row left-to-right: how many trials arrived, how many converted, what that means for cohort performance, and how much cash was recognised from first payments.
               </p>
-              <p className="mt-4 text-4xl font-semibold text-white">{item.count}</p>
-              <p className="mt-2 text-sm text-slate-400">Last 7 days</p>
-            </article>
-          ))}
+            </div>
+          </div>
+
+          <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-5">
+            {commercialCards.map((card) => (
+              <article
+                key={card.label}
+                className="rounded-3xl border border-white/10 bg-white/5 p-5 shadow-lg shadow-slate-950/20"
+              >
+                <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
+                  {card.label}
+                </p>
+                <p className="mt-4 text-4xl font-semibold text-white">{card.value}</p>
+                <p className="mt-2 text-sm leading-6 text-slate-400">{card.caption}</p>
+              </article>
+            ))}
+          </div>
         </section>
 
-        <section className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
-          <article className="rounded-3xl border border-white/10 bg-white/5 p-5 shadow-lg shadow-slate-950/20">
-            <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
-              Attribution captures
-            </p>
-            <p className="mt-4 text-4xl font-semibold text-white">{attributionCaptures7d}</p>
-            <p className="mt-2 text-sm text-slate-400">Last 7 days</p>
-          </article>
-          <article className="rounded-3xl border border-white/10 bg-white/5 p-5 shadow-lg shadow-slate-950/20">
-            <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
-              Attributed trial starts
-            </p>
-            <p className="mt-4 text-4xl font-semibold text-white">{attributedTrialStarts7d}</p>
-            <p className="mt-2 text-sm text-slate-400">Last 7 days</p>
-          </article>
-          <article className="rounded-3xl border border-white/10 bg-white/5 p-5 shadow-lg shadow-slate-950/20">
-            <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
-              Unattributed trial starts
-            </p>
-            <p className="mt-4 text-4xl font-semibold text-white">{unattributedTrialStarts7d}</p>
-            <p className="mt-2 text-sm text-slate-400">Last 7 days</p>
-          </article>
-          <article className="rounded-3xl border border-white/10 bg-white/5 p-5 shadow-lg shadow-slate-950/20">
-            <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
-              Trial match rate
-            </p>
-            <p className="mt-4 text-4xl font-semibold text-white">{percent(trialAttributionMatchRate)}</p>
-            <p className="mt-2 text-sm text-slate-400">Attributed trials / total trials</p>
-          </article>
+        <section className="mt-8">
+          <div className="mb-4 flex items-end justify-between gap-4">
+            <div>
+              <h2 className="text-xl font-semibold">Attribution quality</h2>
+              <p className="mt-1 text-sm text-slate-400">
+                Keep this separate from revenue truth: this row tells us how much of the paid story we can explain back to channels and campaigns.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+            {attributionCards.map((card) => (
+              <article
+                key={card.label}
+                className="rounded-3xl border border-white/10 bg-white/5 p-5 shadow-lg shadow-slate-950/20"
+              >
+                <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
+                  {card.label}
+                </p>
+                <p className="mt-4 text-4xl font-semibold text-white">{card.value}</p>
+                <p className="mt-2 text-sm leading-6 text-slate-400">{card.caption}</p>
+              </article>
+            ))}
+          </div>
         </section>
 
         <section className="mt-8 grid gap-6 xl:grid-cols-[1.1fr_0.9fr]">
           <article className="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-lg shadow-slate-950/20">
-            <div className="flex items-center justify-between gap-4">
-              <div>
-                <h2 className="text-xl font-semibold">Environment readiness</h2>
-                <p className="mt-1 text-sm text-slate-400">
-                  These flags show which stitching and delivery surfaces are ready right now.
+            <div>
+              <h2 className="text-xl font-semibold">Trial pipeline since launch</h2>
+              <p className="mt-1 text-sm text-slate-400">
+                This is the clearest answer to “what happens to our trials?” It shows the total tracked cohort and where each trial currently sits.
+              </p>
+            </div>
+
+            <div className="mt-6 space-y-4">
+              {funnelStages.map((stage) => {
+                const share = funnel.totalTrackedTrials === 0 ? 0 : stage.count / funnel.totalTrackedTrials;
+                return (
+                  <div key={stage.label} className="space-y-2">
+                    <div className="flex items-center justify-between gap-3">
+                      <div className="flex items-center gap-2">
+                        <span className={`text-sm font-medium ${stage.tone}`}>{stage.label}</span>
+                      </div>
+                      <div className="text-sm text-slate-300">
+                        <span className="font-semibold text-white">{stage.count}</span>
+                        <span className="ml-2 text-slate-400">{pct(share)}</span>
+                      </div>
+                    </div>
+                    <div className="h-2 overflow-hidden rounded-full bg-slate-900/70">
+                      <div
+                        className={`h-full rounded-full ${stage.bar}`}
+                        style={{ width: `${Math.max(share * 100, stage.count > 0 ? 6 : 0)}%` }}
+                      />
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </article>
+
+          <article className="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-lg shadow-slate-950/20">
+            <div>
+              <h2 className="text-xl font-semibold">Pipeline notes</h2>
+              <p className="mt-1 text-sm text-slate-400">
+                A few plain-English readings from the live data so you don’t have to mentally translate the numbers.
+              </p>
+            </div>
+            <div className="mt-6 space-y-4 text-sm leading-7 text-slate-300">
+              <div className="rounded-2xl border border-white/10 bg-slate-950/40 p-4">
+                <p className="font-medium text-white">What counts as “paid” here</p>
+                <p className="mt-1 text-slate-400">
+                  We treat a trial as paid when Stripe shows the trial becoming active/paid and, where available, the first positive invoice is recorded. Revenue cards use the positive invoice amount only.
+                </p>
+              </div>
+              <div className="rounded-2xl border border-white/10 bg-slate-950/40 p-4">
+                <p className="font-medium text-white">Where attribution still breaks down</p>
+                <p className="mt-1 text-slate-400">
+                  If a paid customer has no matching capture, the commercial numbers are still right — we just can’t yet tell you which campaign drove them.
+                </p>
+              </div>
+              <div className="rounded-2xl border border-white/10 bg-slate-950/40 p-4">
+                <p className="font-medium text-white">Paid then cancelled later</p>
+                <p className="mt-1 text-slate-400">
+                  {funnel.paidThenCancelled} customers in the tracked cohort converted first and then later cancelled. They still count as successful trial-to-paid conversions historically.
                 </p>
               </div>
             </div>
-            <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          </article>
+        </section>
+
+        <section className="mt-8 rounded-3xl border border-white/10 bg-white/5 p-6 shadow-lg shadow-slate-950/20">
+          <div className="flex items-end justify-between gap-4">
+            <div>
+              <h2 className="text-xl font-semibold">Recent customer outcomes</h2>
+              <p className="mt-1 text-sm text-slate-400">
+                This replaces raw webhook-event reading. Each row is a real customer/subscription outcome so you can see which trials became paid and which ones did not.
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-6 overflow-x-auto">
+            <table className="min-w-full text-left text-sm">
+              <thead className="text-xs uppercase tracking-[0.16em] text-slate-400">
+                <tr>
+                  <th className="pb-3 pr-4">Customer</th>
+                  <th className="pb-3 pr-4">Plan</th>
+                  <th className="pb-3 pr-4">Trial start</th>
+                  <th className="pb-3 pr-4">Current state</th>
+                  <th className="pb-3 pr-4">First payment</th>
+                  <th className="pb-3 pr-4">Days to pay</th>
+                  <th className="pb-3 pr-4">Source / campaign</th>
+                  <th className="pb-3">Attribution</th>
+                </tr>
+              </thead>
+              <tbody>
+                {recentOutcomes.length === 0 ? (
+                  <tr>
+                    <td className="py-6 text-sm text-slate-400" colSpan={8}>
+                      No customer outcomes yet. Once Stripe webhooks and attribution captures both flow, the journey view will populate here.
+                    </td>
+                  </tr>
+                ) : (
+                  recentOutcomes.map((outcome) => (
+                    <tr key={outcome.key} className="border-t border-white/5 align-top">
+                      <td className="py-4 pr-4 text-slate-200">{outcome.userEmail ?? "—"}</td>
+                      <td className="py-4 pr-4 text-slate-400">{outcome.planName ?? "—"}</td>
+                      <td className="py-4 pr-4 text-slate-400">{formatDateTime(outcome.trialStartedAt)}</td>
+                      <td className="py-4 pr-4">
+                        <span
+                          className={`rounded-full px-2.5 py-1 text-xs font-medium ${statePillClasses(
+                            outcome.currentState,
+                          )}`}
+                        >
+                          {outcome.currentStateLabel}
+                        </span>
+                      </td>
+                      <td className="py-4 pr-4 text-slate-400">
+                        {outcome.firstPaidAmountCents != null
+                          ? money(outcome.firstPaidAmountCents / 100)
+                          : outcome.convertedAt
+                            ? formatDateTime(outcome.convertedAt)
+                            : "—"}
+                      </td>
+                      <td className="py-4 pr-4 text-slate-400">
+                        {outcome.daysToConvert != null ? `${outcome.daysToConvert} days` : "—"}
+                      </td>
+                      <td className="py-4 pr-4 text-slate-400">
+                        {outcome.source || outcome.campaign ? (
+                          <div>
+                            <div>{outcome.source ?? "Unknown source"}</div>
+                            <div className="mt-1 text-xs text-slate-500">{outcome.campaign ?? outcome.landingPage ?? "—"}</div>
+                          </div>
+                        ) : (
+                          "—"
+                        )}
+                      </td>
+                      <td className="py-4">
+                        <span
+                          className={`rounded-full px-2.5 py-1 text-xs font-medium ${
+                            outcome.attributed
+                              ? "bg-emerald-400/15 text-emerald-200"
+                              : "bg-amber-400/15 text-amber-200"
+                          }`}
+                        >
+                          {outcome.attributed ? "stitched" : "missing"}
+                        </span>
+                      </td>
+                    </tr>
+                  ))
+                )}
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section className="mt-8 grid gap-6 xl:grid-cols-[0.9fr_1.1fr]">
+          <article className="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-lg shadow-slate-950/20">
+            <div className="flex items-center justify-between gap-4">
+              <div>
+                <h2 className="text-xl font-semibold">System readiness</h2>
+                <p className="mt-1 text-sm text-slate-400">
+                  Useful, but intentionally lower down now so it doesn’t compete with the commercial read.
+                </p>
+              </div>
+            </div>
+            <div className="mt-6 grid gap-3 sm:grid-cols-2">
               {Object.entries(env).map(([key, ready]) => (
                 <div
                   key={key}
@@ -210,152 +488,62 @@ export default async function DashboardPage() {
           </article>
 
           <article className="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-lg shadow-slate-950/20">
-            <h2 className="text-xl font-semibold">Quick ops</h2>
-            <p className="mt-1 text-sm text-slate-400">
-              Wire captures in first, let Stripe send lifecycle truth second, and replay if credentials change.
-            </p>
-            <div className="mt-6 space-y-4 text-sm text-slate-200">
-              <div className="rounded-2xl border border-white/10 bg-slate-950/40 p-4">
-                <p className="font-medium text-white">POST /api/attribution/capture</p>
-                <p className="mt-1 text-slate-400">Capture UTMs, click IDs, landing-page context, and identity keys before Stripe events arrive.</p>
-              </div>
-              <div className="rounded-2xl border border-white/10 bg-slate-950/40 p-4">
-                <p className="font-medium text-white">POST /api/stripe/webhook</p>
-                <p className="mt-1 text-slate-400">Verified Stripe webhooks mapped into trial, payment, expiry, and cancellation lifecycle events.</p>
-              </div>
-              <div className="rounded-2xl border border-white/10 bg-slate-950/40 p-4">
-                <p className="font-medium text-white">POST /api/ingest</p>
-                <p className="mt-1 text-slate-400">Manual lifecycle ingest for backfills and testing only.</p>
-              </div>
-              <div className="rounded-2xl border border-white/10 bg-slate-950/40 p-4">
-                <p className="font-medium text-white">POST /api/internal/replay</p>
-                <p className="mt-1 text-slate-400">Re-stitch and re-dispatch a stored Stripe lifecycle event after config changes.</p>
-              </div>
-            </div>
-          </article>
-        </section>
-
-        <section className="mt-8 rounded-3xl border border-white/10 bg-white/5 p-6 shadow-lg shadow-slate-950/20">
-          <div className="flex items-end justify-between gap-4">
             <div>
-              <h2 className="text-xl font-semibold">Recent Stripe lifecycle events</h2>
+              <h2 className="text-xl font-semibold">Recent downstream delivery attempts</h2>
               <p className="mt-1 text-sm text-slate-400">
-                This is the operational truth layer. Attribution is a stitched attribute, not the event source itself.
+                These are the operational logs for Meta, GA4, and Google Ads. Useful for debugging, not for interpreting performance.
               </p>
             </div>
-          </div>
 
-          <div className="mt-6 overflow-x-auto">
-            <table className="min-w-full text-left text-sm">
-              <thead className="text-xs uppercase tracking-[0.16em] text-slate-400">
-                <tr>
-                  <th className="pb-3 pr-4">Type</th>
-                  <th className="pb-3 pr-4">Event ID</th>
-                  <th className="pb-3 pr-4">Stripe IDs</th>
-                  <th className="pb-3 pr-4">User</th>
-                  <th className="pb-3 pr-4">Attribution</th>
-                  <th className="pb-3">Occurred</th>
-                </tr>
-              </thead>
-              <tbody>
-                {recentEvents.length === 0 ? (
+            <div className="mt-6 overflow-x-auto">
+              <table className="min-w-full text-left text-sm">
+                <thead className="text-xs uppercase tracking-[0.16em] text-slate-400">
                   <tr>
-                    <td className="py-6 text-sm text-slate-400" colSpan={6}>
-                      No lifecycle events yet. Start by capturing attribution and pointing Stripe webhooks at <code>/api/stripe/webhook</code>.
-                    </td>
+                    <th className="pb-3 pr-4">Platform</th>
+                    <th className="pb-3 pr-4">Destination</th>
+                    <th className="pb-3 pr-4">Event ID</th>
+                    <th className="pb-3 pr-4">Status</th>
+                    <th className="pb-3 pr-4">Code</th>
+                    <th className="pb-3">Time</th>
                   </tr>
-                ) : (
-                  recentEvents.map((event) => (
-                    <tr key={event.id} className="border-t border-white/5 align-top">
-                      <td className="py-4 pr-4">
-                        <span className="rounded-full bg-cyan-400/10 px-2.5 py-1 text-xs font-medium text-cyan-200">
-                          {formatLabel(event.event_type)}
-                        </span>
+                </thead>
+                <tbody>
+                  {recentDeliveries.length === 0 ? (
+                    <tr>
+                      <td className="py-6 text-sm text-slate-400" colSpan={6}>
+                        No downstream delivery attempts yet.
                       </td>
-                      <td className="py-4 pr-4 font-mono text-xs text-slate-300">{event.event_id}</td>
-                      <td className="py-4 pr-4 text-slate-400">
-                        <div>{event.stripe_customer_id ?? "—"}</div>
-                        <div className="mt-1 text-xs">{event.stripe_subscription_id ?? "—"}</div>
-                      </td>
-                      <td className="py-4 pr-4 text-slate-400">{event.user_email ?? "—"}</td>
-                      <td className="py-4 pr-4">
-                        <span
-                          className={`rounded-full px-2.5 py-1 text-xs font-medium ${
-                            event.attributed
-                              ? "bg-emerald-400/15 text-emerald-200"
-                              : "bg-amber-400/15 text-amber-200"
-                          }`}
-                        >
-                          {event.attributed ? "stitched" : "missing"}
-                        </span>
-                      </td>
-                      <td className="py-4 text-slate-400">{event.occurred_at}</td>
                     </tr>
-                  ))
-                )}
-              </tbody>
-            </table>
-          </div>
-        </section>
-
-        <section className="mt-8 rounded-3xl border border-white/10 bg-white/5 p-6 shadow-lg shadow-slate-950/20">
-          <div>
-            <h2 className="text-xl font-semibold">Recent platform delivery attempts</h2>
-            <p className="mt-1 text-sm text-slate-400">
-              These are downstream observers of stitched Stripe truth.
-            </p>
-          </div>
-
-          <div className="mt-6 overflow-x-auto">
-            <table className="min-w-full text-left text-sm">
-              <thead className="text-xs uppercase tracking-[0.16em] text-slate-400">
-                <tr>
-                  <th className="pb-3 pr-4">Platform</th>
-                  <th className="pb-3 pr-4">Destination</th>
-                  <th className="pb-3 pr-4">Event ID</th>
-                  <th className="pb-3 pr-4">Status</th>
-                  <th className="pb-3 pr-4">Code</th>
-                  <th className="pb-3 pr-4">Error</th>
-                  <th className="pb-3">Time</th>
-                </tr>
-              </thead>
-              <tbody>
-                {recentDeliveries.length === 0 ? (
-                  <tr>
-                    <td className="py-6 text-sm text-slate-400" colSpan={7}>
-                      No downstream delivery attempts yet.
-                    </td>
-                  </tr>
-                ) : (
-                  recentDeliveries.map((delivery) => (
-                    <tr key={delivery.id} className="border-t border-white/5 align-top">
-                      <td className="py-4 pr-4 uppercase text-slate-200">{delivery.platform}</td>
-                      <td className="py-4 pr-4 text-slate-400">{delivery.destination_event_name ?? "—"}</td>
-                      <td className="py-4 pr-4 font-mono text-xs text-slate-300">{delivery.event_id}</td>
-                      <td className="py-4 pr-4">
-                        <span
-                          className={`rounded-full px-2.5 py-1 text-xs font-medium ${
-                            delivery.status === "sent"
-                              ? "bg-emerald-400/15 text-emerald-200"
-                              : delivery.status === "error"
-                                ? "bg-rose-400/15 text-rose-200"
-                                : delivery.status === "disabled"
-                                  ? "bg-amber-400/15 text-amber-200"
-                                  : "bg-slate-400/15 text-slate-200"
-                          }`}
-                        >
-                          {delivery.status}
-                        </span>
-                      </td>
-                      <td className="py-4 pr-4 font-mono text-xs text-slate-400">{delivery.response_code ?? "—"}</td>
-                      <td className="py-4 pr-4 text-slate-400">{delivery.error ?? "—"}</td>
-                      <td className="py-4 text-slate-400">{delivery.created_at}</td>
-                    </tr>
-                  ))
-                )}
-              </tbody>
-            </table>
-          </div>
+                  ) : (
+                    recentDeliveries.map((delivery) => (
+                      <tr key={delivery.id} className="border-t border-white/5 align-top">
+                        <td className="py-4 pr-4 uppercase text-slate-200">{delivery.platform}</td>
+                        <td className="py-4 pr-4 text-slate-400">{delivery.destination_event_name ?? "—"}</td>
+                        <td className="py-4 pr-4 font-mono text-xs text-slate-300">{delivery.event_id}</td>
+                        <td className="py-4 pr-4">
+                          <span
+                            className={`rounded-full px-2.5 py-1 text-xs font-medium ${
+                              delivery.status === "sent"
+                                ? "bg-emerald-400/15 text-emerald-200"
+                                : delivery.status === "error"
+                                  ? "bg-rose-400/15 text-rose-200"
+                                  : delivery.status === "disabled"
+                                    ? "bg-amber-400/15 text-amber-200"
+                                    : "bg-slate-400/15 text-slate-200"
+                            }`}
+                          >
+                            {delivery.status}
+                          </span>
+                        </td>
+                        <td className="py-4 pr-4 font-mono text-xs text-slate-400">{delivery.response_code ?? "—"}</td>
+                        <td className="py-4 text-slate-400">{formatDateTime(delivery.created_at)}</td>
+                      </tr>
+                    ))
+                  )}
+                </tbody>
+              </table>
+            </div>
+          </article>
         </section>
       </div>
     </main>
