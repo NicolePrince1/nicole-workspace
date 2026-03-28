@@ -4,7 +4,7 @@
     "revenue_pulse": 1774694280,
     "seo_movement": 1774706400,
     "email_health": 1774694520,
-    "ad_spend": 1774694280
+    "ad_spend": 1774710180
   },
   "lastMetrics": {
     "trial_health": {
@@ -218,12 +218,12 @@
       "status": "ok",
       "week_start": "2026-03-22",
       "week_end": "2026-03-28",
-      "spend": 3209.4,
+      "spend": 3292.46,
       "landing_page_views": 50,
-      "cost_per_landing_page_view": 64.188,
+      "cost_per_landing_page_view": 65.8492,
       "previous_week_cost_per_landing_page_view": 163.1187,
       "flagged_campaigns": [],
-      "note": "Meta Ads current-week overview checked with landing_page_view as the primary action; account-level LPV CPA remains well below the R200 threshold."
+      "note": "Meta Ads current-week overview checked live with landing_page_view as the primary action; account-level LPV CPA remains well below the R200 threshold and is materially better than the prior 7-day window."
     }
   },
   "lastWeeklyReport": null,
