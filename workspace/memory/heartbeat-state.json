@@ -1,7 +1,7 @@
 {
   "lastChecks": {
     "trial_health": 1774694520,
-    "revenue_pulse": 1774694280,
+    "revenue_pulse": 1774709400,
     "seo_movement": 1774706400,
     "email_health": 1774694520,
     "ad_spend": 1774710180
@@ -94,19 +94,21 @@
     "revenue_pulse": {
       "status": "attention",
       "window": {
-        "last_7_start": "2026-03-21T10:38:00+00:00",
-        "last_7_end": "2026-03-28T10:38:00+00:00",
-        "prior_7_start": "2026-03-14T10:38:00+00:00",
-        "prior_7_end": "2026-03-21T10:38:00+00:00"
+        "last_7_start": "2026-03-21T14:50:00+00:00",
+        "last_7_end": "2026-03-28T14:50:00+00:00",
+        "prior_7_start": "2026-03-14T14:50:00+00:00",
+        "prior_7_end": "2026-03-21T14:50:00+00:00"
       },
-      "last_7_days_paid_revenue": 4897.9,
-      "last_7_days_paid_invoices": 96,
-      "prior_7_days_paid_revenue": 6650.92,
-      "prior_7_days_paid_invoices": 81,
-      "delta_revenue": -1753.02,
-      "delta_invoices": 15,
+      "last_7_days_paid_revenue": 6335.4,
+      "last_7_days_paid_invoices": 95,
+      "prior_7_days_paid_revenue": 6888.92,
+      "prior_7_days_paid_invoices": 88,
+      "delta_revenue": -553.52,
+      "delta_invoices": 7,
       "past_due_count": 8,
-      "note": "Stripe rolling 7-day paid invoice revenue remains below the prior 7-day window, but past_due has improved and is now below the alert threshold."
+      "unpaid_count": 27,
+      "delinquent_count": 35,
+      "note": "Stripe rolling 7-day paid invoice revenue is still below the prior 7-day window, though the gap is materially smaller than the earlier check; past_due remains below the alert threshold."
     },
     "seo_movement": {
       "status": "attention",
