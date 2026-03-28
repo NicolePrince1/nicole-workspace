@@ -1,14 +1,15 @@
-import type { CanonicalEvent, CanonicalEventType } from "@/lib/canonical-events";
+import type { StitchedEvent } from "@/lib/stitched-event";
+import type { StripeLifecycleType } from "@/lib/stripe-events";
 import { getServerEnv } from "@/lib/env";
 import type { DeliveryResult } from "@/lib/delivery";
 
-const GOOGLE_ADS_EVENT_MAP: Partial<Record<CanonicalEventType, string>> = {
+const GOOGLE_ADS_EVENT_MAP: Partial<Record<StripeLifecycleType, string>> = {
   trial_started: "Trial Started",
   subscription_started: "Subscription Started",
   invoice_paid: "Invoice Paid",
 };
 
-export async function deliverToGoogleAds(event: CanonicalEvent): Promise<DeliveryResult> {
+export async function deliverToGoogleAds(event: StitchedEvent): Promise<DeliveryResult> {
   const env = getServerEnv();
   const destinationEventName = GOOGLE_ADS_EVENT_MAP[event.event_type];
 
@@ -35,14 +36,15 @@ export async function deliverToGoogleAds(event: CanonicalEvent): Promise<Deliver
     };
   }
 
-  const clickIdentifier = event.gclid ?? event.gbraid ?? event.wbraid;
+  const attr = event.attribution;
+  const clickIdentifier = attr?.gclid ?? attr?.gbraid ?? attr?.wbraid;
 
   if (!clickIdentifier) {
     return {
       platform: "google_ads",
       status: "skipped",
       destinationEventName,
-      error: "No gclid, gbraid, or wbraid was captured for this event",
+      error: "No gclid, gbraid, or wbraid was found in stitched attribution",
     };
   }
 

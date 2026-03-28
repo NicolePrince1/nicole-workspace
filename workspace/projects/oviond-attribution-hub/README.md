@@ -1,46 +1,58 @@
 # Oviond Attribution Hub
 
-A Railway-ready internal Next.js app that turns Oviond into the source of truth for attribution.
+A Railway-ready internal Next.js app that treats Stripe as lifecycle truth and stitches attribution data onto real business events before sending them to Meta, GA4, and Google Ads.
+
+## The model
+
+### Stripe is truth
+
+The hub no longer asks the app to decide whether a conversion happened.
+
+Instead:
+
+- `trial_started` comes from Stripe `customer.subscription.created` when the subscription is `trialing`
+- `subscription_started` comes from Stripe subscription lifecycle changes when the account becomes paid/active
+- `invoice_paid` comes from Stripe `invoice.paid`
+- `subscription_cancelled` comes from Stripe subscription cancellation/deletion
+- `trial_expired` is derived from Stripe subscription lifecycle changes when a trial ends without becoming active paid
+
+### The app captures attribution
+
+Oviond should send attribution captures into the hub before or around signup:
+
+- `utm_source`, `utm_medium`, `utm_campaign`, `utm_content`, `utm_term`
+- `fbclid`, `fbc`, `fbp`
+- `gclid`, `gbraid`, `wbraid`
+- landing page, page path, page location, referrer
+- email / user ID / account ID / Stripe customer ID / Stripe subscription ID when available
+
+### The hub stitches the two together
+
+When a Stripe lifecycle event arrives, the hub finds the best matching attribution capture in this order:
+
+1. `stripe_customer_id`
+2. `stripe_subscription_id`
+3. `user_id`
+4. `account_id`
+5. `email`
+
+The most recent reasonable match wins. That stitched lifecycle event is what gets delivered downstream.
 
 ## What it does
 
-- records canonical business events in Postgres
-- treats the event ledger as truth
-- fans those events out to downstream platforms
-- shows delivery attempts for Meta, GA4, and Google Ads
-- ingests verified Stripe webhooks into the same ledger
-- provides a replay endpoint so stored events can be re-sent after credentials/config change
-
-## Canonical events
-
-The app is built around these event types:
-
-- `signup_started`
-- `email_verified`
-- `trial_started`
-- `subscription_started`
-- `invoice_paid`
-- `trial_expired`
-- `subscription_cancelled`
-
-## Architecture
-
-1. Oviond backend emits a canonical event to `POST /api/ingest`
-2. the event is validated with `zod`
-3. the event is stored in Postgres
-4. inline dispatch attempts are made to:
-   - Meta Conversions API
-   - GA4 Measurement Protocol
-   - Google Ads adapter scaffold
-5. every downstream attempt is logged in `delivery_attempts`
-6. Stripe webhook events can also create canonical events directly
+- stores Stripe lifecycle events in Postgres
+- stores attribution captures separately in Postgres
+- stitches attribution onto Stripe truth on ingest and replay
+- fans stitched events out to Meta, GA4, and Google Ads adapters
+- shows lifecycle volume, attribution match rate, and recent delivery attempts in a dashboard
+- provides replay tooling for re-dispatching stored lifecycle events
 
 ## Stack
 
 - Next.js App Router
 - TypeScript
 - Tailwind CSS v4
-- `postgres` package for Railway Postgres
+- `postgres` for Railway Postgres
 - `stripe` for webhook verification
 - `zod` for schema validation
 
@@ -61,6 +73,13 @@ Open <http://localhost:3000>
 DATABASE_URL=postgres://...
 INGEST_API_KEY=replace-with-long-random-string
 ADMIN_TOKEN=replace-with-long-random-string
+```
+
+### Stripe
+
+```bash
+STRIPE_SECRET_KEY=sk_live_...
+STRIPE_WEBHOOK_SECRET=whsec_...
 ```
 
 ### Meta Conversions API
@@ -87,16 +106,9 @@ GOOGLE_ADS_CONVERSION_ACTION_ID=...
 GOOGLE_ADS_LOGIN_CUSTOMER_ID=...
 ```
 
-### Stripe
-
-```bash
-STRIPE_SECRET_KEY=sk_live_...
-STRIPE_WEBHOOK_SECRET=whsec_...
-```
-
 ## Railway deploy
 
-1. Create a new Railway project.
+1. Create or open the Railway project.
 2. Add a Postgres service.
 3. Deploy this app as a Node/Next service.
 4. Set the environment variables above.
@@ -117,32 +129,27 @@ GET /api/health
 
 Returns runtime + database readiness.
 
-### Ingest canonical event
+### Capture attribution
 
 ```bash
-curl -X POST http://localhost:3000/api/ingest \
+curl -X POST http://localhost:3000/api/attribution/capture \
   -H "Authorization: Bearer $INGEST_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
-    "event_type": "trial_started",
-    "event_id": "trial_123",
-    "source": "oviond-app",
-    "user_id": "user_123",
-    "user_email": "customer@example.com",
-    "account_id": "account_123",
-    "plan_name": "Agency",
-    "trial_days": 15,
-    "billing_model": "free_trial",
-    "session_source": "meta",
-    "session_medium": "paid-social",
-    "session_campaign": "remarketing_usa_free_trial_test",
+    "email": "customer@example.com",
+    "stripe_customer_id": "cus_123",
+    "utm_source": "meta",
+    "utm_medium": "paid-social",
+    "utm_campaign": "remarketing_usa_free_trial_test",
     "fbclid": "fbclid-value",
-    "fbp": "fb.1...",
     "fbc": "fb.1...",
+    "fbp": "fb.1...",
+    "landing_page": "https://v2.oviond.com/signup",
     "page_path": "/signup",
-    "page_location": "https://v2.oviond.com/signup",
+    "page_location": "https://v2.oviond.com/signup?utm_source=meta",
+    "referrer": "https://facebook.com/",
     "raw_payload": {
-      "trigger": "signup_api_success"
+      "trigger": "signup_page_loaded"
     }
   }'
 ```
@@ -153,52 +160,64 @@ curl -X POST http://localhost:3000/api/ingest \
 POST /api/stripe/webhook
 ```
 
-Verifies the Stripe signature and records mapped canonical events.
+Verifies the Stripe signature and records mapped lifecycle events.
 
-### Replay a stored event
+### Manual lifecycle ingest
+
+```bash
+curl -X POST http://localhost:3000/api/ingest \
+  -H "Authorization: Bearer $INGEST_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "event_type": "trial_started",
+    "event_id": "stripe_evt_test_123",
+    "source": "manual-backfill",
+    "stripe_customer_id": "cus_123",
+    "stripe_subscription_id": "sub_123",
+    "user_email": "customer@example.com",
+    "billing_model": "free_trial",
+    "trial_days": 15,
+    "raw_payload": {
+      "reason": "backfill"
+    }
+  }'
+```
+
+### Replay a stored lifecycle event
 
 ```bash
 curl -X POST http://localhost:3000/api/internal/replay \
   -H "Authorization: Bearer $ADMIN_TOKEN" \
   -H "Content-Type: application/json" \
-  -d '{"eventId": "trial_123"}'
+  -d '{"eventId": "stripe_evt_test_123"}'
 ```
 
-## Meta mapping
+## Downstream mapping
 
-Current mapping:
+### Meta
 
-- `signup_started` -> `Lead`
-- `email_verified` -> `CompleteRegistration`
 - `trial_started` -> `StartTrial`
 - `subscription_started` -> `Subscribe`
 - `invoice_paid` -> `Purchase`
 
-The adapter sends the same `event_id` to support browser/server dedupe later.
+### GA4
 
-## GA4 mapping
+GA4 receives the Stripe lifecycle event names directly over Measurement Protocol.
 
-GA4 receives the canonical event names directly over Measurement Protocol.
+### Google Ads
 
-## Google Ads status
+Google Ads delivery remains scaffolded and disabled-safe until production Ads API access is fully confirmed.
 
-The Google Ads adapter is intentionally scaffolded but not live-uploading yet.
+## Recommended Oviond wiring
 
-Why:
-- the app can already validate whether the right config is present
-- it can show which events are eligible for Google Ads delivery
-- it can log replay attempts later
-- but it avoids pretending delivery succeeded before account/API access is fully confirmed
-
-## Recommended Oviond app wiring
-
-The product should emit `trial_started` only when the backend confirms a real trial exists.
-
-Do **not** fire canonical conversion events from:
-- page views
-- button clicks
-- plain form submits
-- DOM selector hacks
+1. Capture attribution as early as possible.
+2. Include stable IDs when you have them:
+   - Stripe customer ID
+   - Stripe subscription ID
+   - user/account ID
+   - email
+3. Let Stripe webhooks declare lifecycle truth.
+4. Avoid treating page views, button clicks, or raw form submits as conversion truth.
 
 ## Quality checks
 

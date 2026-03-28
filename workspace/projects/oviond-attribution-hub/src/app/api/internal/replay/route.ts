@@ -2,7 +2,9 @@ import { NextRequest, NextResponse } from "next/server";
 import { verifyAdminRequest } from "@/lib/auth";
 import { ensureTables, sql } from "@/lib/db";
 import { dispatchEvent } from "@/lib/dispatch";
-import { canonicalEventSchema } from "@/lib/canonical-events";
+import { stripeLifecycleEventSchema } from "@/lib/stripe-events";
+import { stitchAttribution } from "@/lib/attribution";
+import type { StitchedEvent } from "@/lib/stitched-event";
 
 export const runtime = "nodejs";
 
@@ -28,7 +30,7 @@ export async function POST(request: NextRequest) {
     const db = sql();
     const rows = await db`
       SELECT *
-      FROM events
+      FROM stripe_lifecycle_events
       WHERE event_id = ${body.eventId}
       LIMIT 1
     `;
@@ -38,11 +40,13 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Event not found" }, { status: 404 });
     }
 
-    const event = canonicalEventSchema.parse({
+    const event = stripeLifecycleEventSchema.parse({
       event_type: row.event_type,
       event_id: row.event_id,
       source: row.source,
       occurred_at: row.occurred_at,
+      stripe_customer_id: row.stripe_customer_id ?? undefined,
+      stripe_subscription_id: row.stripe_subscription_id ?? undefined,
       user_id: row.user_id ?? undefined,
       user_email: row.user_email ?? undefined,
       account_id: row.account_id ?? undefined,
@@ -51,33 +55,28 @@ export async function POST(request: NextRequest) {
       billing_model: row.billing_model ?? undefined,
       amount_cents: row.amount_cents ?? undefined,
       currency: row.currency ?? undefined,
-      page_path: row.page_path ?? undefined,
-      page_location: row.page_location ?? undefined,
-      landing_page: row.landing_page ?? undefined,
-      session_source: row.session_source ?? undefined,
-      session_medium: row.session_medium ?? undefined,
-      session_campaign: row.session_campaign ?? undefined,
-      utm_source: row.utm_source ?? undefined,
-      utm_medium: row.utm_medium ?? undefined,
-      utm_campaign: row.utm_campaign ?? undefined,
-      utm_content: row.utm_content ?? undefined,
-      utm_term: row.utm_term ?? undefined,
-      fbclid: row.fbclid ?? undefined,
-      fbp: row.fbp ?? undefined,
-      fbc: row.fbc ?? undefined,
-      gclid: row.gclid ?? undefined,
-      gbraid: row.gbraid ?? undefined,
-      wbraid: row.wbraid ?? undefined,
-      client_ip: row.client_ip ?? undefined,
-      client_user_agent: row.client_user_agent ?? undefined,
       raw_payload: row.raw_payload ?? {},
     });
 
-    const deliveries = await dispatchEvent(event);
+    const attribution = await stitchAttribution({
+      stripe_customer_id: event.stripe_customer_id,
+      stripe_subscription_id: event.stripe_subscription_id,
+      user_id: event.user_id,
+      account_id: event.account_id,
+      email: event.user_email,
+    });
+
+    const stitched: StitchedEvent = {
+      ...event,
+      attribution,
+    };
+
+    const deliveries = await dispatchEvent(stitched);
 
     return NextResponse.json({
       replayed: true,
       eventId: event.event_id,
+      attributed: Boolean(attribution),
       deliveries,
     });
   } catch (error) {

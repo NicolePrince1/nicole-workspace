@@ -1,8 +1,8 @@
-import type { CanonicalEvent } from "@/lib/canonical-events";
+import type { StitchedEvent } from "@/lib/stitched-event";
 import { getServerEnv } from "@/lib/env";
 import type { DeliveryResult } from "@/lib/delivery";
 
-export async function deliverToGA4(event: CanonicalEvent): Promise<DeliveryResult> {
+export async function deliverToGA4(event: StitchedEvent): Promise<DeliveryResult> {
   const env = getServerEnv();
 
   if (!env.GA4_MEASUREMENT_ID || !env.GA4_API_SECRET) {
@@ -13,8 +13,10 @@ export async function deliverToGA4(event: CanonicalEvent): Promise<DeliveryResul
     };
   }
 
+  const attr = event.attribution;
+
   const requestPayload = {
-    client_id: event.user_id ?? event.account_id ?? event.event_id,
+    client_id: event.stripe_customer_id ?? event.user_id ?? event.account_id ?? event.event_id,
     user_id: event.user_id ?? undefined,
     timestamp_micros: String(new Date(event.occurred_at).getTime() * 1000),
     events: [
@@ -28,9 +30,10 @@ export async function deliverToGA4(event: CanonicalEvent): Promise<DeliveryResul
           plan_name: event.plan_name ?? undefined,
           billing_model: event.billing_model ?? undefined,
           account_id: event.account_id ?? undefined,
-          session_source: event.session_source ?? event.utm_source ?? undefined,
-          session_medium: event.session_medium ?? event.utm_medium ?? undefined,
-          session_campaign: event.session_campaign ?? event.utm_campaign ?? undefined,
+          stripe_customer_id: event.stripe_customer_id ?? undefined,
+          session_source: attr?.utm_source ?? undefined,
+          session_medium: attr?.utm_medium ?? undefined,
+          session_campaign: attr?.utm_campaign ?? undefined,
         },
       },
     ],
@@ -41,9 +44,7 @@ export async function deliverToGA4(event: CanonicalEvent): Promise<DeliveryResul
       `https://www.google-analytics.com/mp/collect?measurement_id=${env.GA4_MEASUREMENT_ID}&api_secret=${env.GA4_API_SECRET}`,
       {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(requestPayload),
       },
     );

@@ -1,4 +1,4 @@
-import type { CanonicalEvent } from "@/lib/canonical-events";
+import type { StitchedEvent } from "@/lib/stitched-event";
 import { sql } from "@/lib/db";
 import { deliverToMeta } from "@/lib/adapters/meta";
 import { deliverToGA4 } from "@/lib/adapters/ga4";
@@ -7,7 +7,7 @@ import type { DeliveryResult } from "@/lib/delivery";
 
 const adapters = [deliverToMeta, deliverToGA4, deliverToGoogleAds] as const;
 
-export async function dispatchEvent(event: CanonicalEvent) {
+export async function dispatchEvent(event: StitchedEvent) {
   const db = sql();
   const results: DeliveryResult[] = [];
 

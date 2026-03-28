@@ -1,11 +1,10 @@
 import { createHash } from "node:crypto";
-import type { CanonicalEvent, CanonicalEventType } from "@/lib/canonical-events";
+import type { StitchedEvent } from "@/lib/stitched-event";
+import type { StripeLifecycleType } from "@/lib/stripe-events";
 import { getServerEnv } from "@/lib/env";
 import type { DeliveryResult } from "@/lib/delivery";
 
-const META_EVENT_MAP: Partial<Record<CanonicalEventType, string>> = {
-  signup_started: "Lead",
-  email_verified: "CompleteRegistration",
+const META_EVENT_MAP: Partial<Record<StripeLifecycleType, string>> = {
   trial_started: "StartTrial",
   subscription_started: "Subscribe",
   invoice_paid: "Purchase",
@@ -15,7 +14,7 @@ function sha256(value: string) {
   return createHash("sha256").update(value.trim().toLowerCase()).digest("hex");
 }
 
-export async function deliverToMeta(event: CanonicalEvent): Promise<DeliveryResult> {
+export async function deliverToMeta(event: StitchedEvent): Promise<DeliveryResult> {
   const env = getServerEnv();
   const pixelId = env.META_PIXEL_ID;
   const accessToken = env.META_ACCESS_TOKEN;
@@ -37,33 +36,25 @@ export async function deliverToMeta(event: CanonicalEvent): Promise<DeliveryResu
     };
   }
 
+  const attr = event.attribution;
   const userData: Record<string, string> = {};
 
   if (event.user_email) {
     userData.em = sha256(event.user_email);
   }
 
-  if (event.user_id) {
+  if (event.stripe_customer_id) {
+    userData.external_id = sha256(event.stripe_customer_id);
+  } else if (event.user_id) {
     userData.external_id = sha256(event.user_id);
   } else if (event.account_id) {
     userData.external_id = sha256(event.account_id);
   }
 
-  if (event.fbp) {
-    userData.fbp = event.fbp;
-  }
-
-  if (event.fbc) {
-    userData.fbc = event.fbc;
-  }
-
-  if (event.client_ip) {
-    userData.client_ip_address = event.client_ip;
-  }
-
-  if (event.client_user_agent) {
-    userData.client_user_agent = event.client_user_agent;
-  }
+  if (attr?.fbp) userData.fbp = attr.fbp;
+  if (attr?.fbc) userData.fbc = attr.fbc;
+  if (attr?.client_ip) userData.client_ip_address = attr.client_ip;
+  if (attr?.user_agent) userData.client_user_agent = attr.user_agent;
 
   const requestPayload = {
     data: [
@@ -72,7 +63,7 @@ export async function deliverToMeta(event: CanonicalEvent): Promise<DeliveryResu
         event_time: Math.floor(new Date(event.occurred_at).getTime() / 1000),
         event_id: event.event_id,
         action_source: "website",
-        event_source_url: event.page_location ?? undefined,
+        event_source_url: attr?.page_location ?? undefined,
         user_data: userData,
         custom_data: {
           value: event.amount_cents != null ? event.amount_cents / 100 : undefined,
@@ -89,9 +80,7 @@ export async function deliverToMeta(event: CanonicalEvent): Promise<DeliveryResu
       `https://graph.facebook.com/v19.0/${pixelId}/events?access_token=${accessToken}`,
       {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(requestPayload),
       },
     );

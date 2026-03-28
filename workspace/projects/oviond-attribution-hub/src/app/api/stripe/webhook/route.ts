@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import Stripe from "stripe";
-import { canonicalEventSchema, type CanonicalEventType } from "@/lib/canonical-events";
+import { stripeLifecycleEventSchema, type StripeLifecycleType } from "@/lib/stripe-events";
 import { getServerEnv } from "@/lib/env";
-import { recordEvent } from "@/lib/record-event";
+import { recordStripeLifecycleEvent } from "@/lib/record-event";
 
 export const runtime = "nodejs";
 
@@ -12,10 +12,11 @@ const stripe = new Stripe(env.STRIPE_SECRET_KEY ?? "sk_not_configured", {
 });
 
 type MappedStripeEvent = {
-  eventType: CanonicalEventType;
+  eventType: StripeLifecycleType;
+  stripeCustomerId?: string;
+  stripeSubscriptionId?: string;
   amountCents?: number;
   currency?: string;
-  userId?: string;
   userEmail?: string;
   planName?: string;
   billingModel?: string;
@@ -43,19 +44,28 @@ function mapStripeEvent(event: Stripe.Event): MappedStripeEvent | null {
   const subscriptionStatus = getString(object.status);
   const planName = getString(metadata.plan_name) ?? getString(object.plan);
   const customerId = getString(object.customer);
+  const subscriptionId = getString(object.id);
   const customerEmail =
     getString(object.customer_email) ?? getString(metadata.customer_email);
   const currency = getString(object.currency)?.toUpperCase();
   const amountPaid = getNumber(object.amount_paid) ?? getNumber(object.amount_due);
 
+  const previousAttributes = asRecord(
+    (event.data as unknown as { previous_attributes?: unknown }).previous_attributes,
+  );
+  const previousStatus = getString(previousAttributes.status);
+
   switch (event.type) {
     case "customer.subscription.created":
       return {
-        eventType: subscriptionStatus === "trialing" ? "trial_started" : "subscription_started",
-        userId: customerId,
+        eventType:
+          subscriptionStatus === "trialing" ? "trial_started" : "subscription_started",
+        stripeCustomerId: customerId,
+        stripeSubscriptionId: subscriptionId,
         userEmail: customerEmail,
         planName,
-        billingModel: subscriptionStatus === "trialing" ? "free_trial" : "paid_subscription",
+        billingModel:
+          subscriptionStatus === "trialing" ? "free_trial" : "paid_subscription",
         trialDays: getNumber(metadata.trial_days),
         rawPayload: {
           stripe_type: event.type,
@@ -63,11 +73,14 @@ function mapStripeEvent(event: Stripe.Event): MappedStripeEvent | null {
           status: subscriptionStatus,
         },
       };
-    case "customer.subscription.updated":
+
+    case "customer.subscription.updated": {
+      // Subscription became active (e.g. trial converted to paid)
       if (subscriptionStatus === "active") {
         return {
           eventType: "subscription_started",
-          userId: customerId,
+          stripeCustomerId: customerId,
+          stripeSubscriptionId: subscriptionId,
           userEmail: customerEmail,
           planName,
           billingModel: "paid_subscription",
@@ -75,6 +88,29 @@ function mapStripeEvent(event: Stripe.Event): MappedStripeEvent | null {
             stripe_type: event.type,
             stripe_id: event.id,
             status: subscriptionStatus,
+            previous_status: previousStatus,
+          },
+        };
+      }
+
+      // Trial expired: was trialing, now no longer trialing/active
+      // Stripe sends subscription.updated when trial ends without payment
+      if (
+        previousStatus === "trialing" &&
+        subscriptionStatus !== "active" &&
+        subscriptionStatus !== "trialing"
+      ) {
+        return {
+          eventType: "trial_expired",
+          stripeCustomerId: customerId,
+          stripeSubscriptionId: subscriptionId,
+          userEmail: customerEmail,
+          planName,
+          rawPayload: {
+            stripe_type: event.type,
+            stripe_id: event.id,
+            status: subscriptionStatus,
+            previous_status: previousStatus,
           },
         };
       }
@@ -82,7 +118,8 @@ function mapStripeEvent(event: Stripe.Event): MappedStripeEvent | null {
       if (subscriptionStatus === "canceled") {
         return {
           eventType: "subscription_cancelled",
-          userId: customerId,
+          stripeCustomerId: customerId,
+          stripeSubscriptionId: subscriptionId,
           userEmail: customerEmail,
           planName,
           rawPayload: {
@@ -94,10 +131,30 @@ function mapStripeEvent(event: Stripe.Event): MappedStripeEvent | null {
       }
 
       return null;
-    case "customer.subscription.deleted":
+    }
+
+    case "customer.subscription.deleted": {
+      // If the subscription was trialing when deleted, treat as trial_expired
+      if (previousStatus === "trialing" || subscriptionStatus === "trialing") {
+        return {
+          eventType: "trial_expired",
+          stripeCustomerId: customerId,
+          stripeSubscriptionId: subscriptionId,
+          userEmail: customerEmail,
+          planName,
+          rawPayload: {
+            stripe_type: event.type,
+            stripe_id: event.id,
+            status: subscriptionStatus,
+            previous_status: previousStatus,
+          },
+        };
+      }
+
       return {
         eventType: "subscription_cancelled",
-        userId: customerId,
+        stripeCustomerId: customerId,
+        stripeSubscriptionId: subscriptionId,
         userEmail: customerEmail,
         planName,
         rawPayload: {
@@ -106,10 +163,13 @@ function mapStripeEvent(event: Stripe.Event): MappedStripeEvent | null {
           status: subscriptionStatus,
         },
       };
+    }
+
     case "invoice.paid":
       return {
         eventType: "invoice_paid",
-        userId: customerId,
+        stripeCustomerId: customerId,
+        stripeSubscriptionId: getString(object.subscription),
         userEmail: customerEmail,
         planName,
         amountCents: amountPaid,
@@ -120,6 +180,7 @@ function mapStripeEvent(event: Stripe.Event): MappedStripeEvent | null {
           subscription: getString(object.subscription),
         },
       };
+
     default:
       return null;
   }
@@ -128,12 +189,18 @@ function mapStripeEvent(event: Stripe.Event): MappedStripeEvent | null {
 export async function POST(request: NextRequest) {
   const webhookSecret = env.STRIPE_WEBHOOK_SECRET;
   if (!webhookSecret) {
-    return NextResponse.json({ error: "STRIPE_WEBHOOK_SECRET is not configured" }, { status: 503 });
+    return NextResponse.json(
+      { error: "STRIPE_WEBHOOK_SECRET is not configured" },
+      { status: 503 },
+    );
   }
 
   const signature = request.headers.get("stripe-signature");
   if (!signature) {
-    return NextResponse.json({ error: "Missing stripe-signature header" }, { status: 400 });
+    return NextResponse.json(
+      { error: "Missing stripe-signature header" },
+      { status: 400 },
+    );
   }
 
   const rawBody = await request.text();
@@ -148,15 +215,20 @@ export async function POST(request: NextRequest) {
 
   const mapped = mapStripeEvent(stripeEvent);
   if (!mapped) {
-    return NextResponse.json({ received: true, mapped: false, stripeType: stripeEvent.type });
+    return NextResponse.json({
+      received: true,
+      mapped: false,
+      stripeType: stripeEvent.type,
+    });
   }
 
-  const canonicalEvent = canonicalEventSchema.parse({
+  const lifecycleEvent = stripeLifecycleEventSchema.parse({
     event_type: mapped.eventType,
     event_id: `stripe_${stripeEvent.id}`,
     source: "stripe",
     occurred_at: new Date(stripeEvent.created * 1000),
-    user_id: mapped.userId,
+    stripe_customer_id: mapped.stripeCustomerId,
+    stripe_subscription_id: mapped.stripeSubscriptionId,
     user_email: mapped.userEmail,
     plan_name: mapped.planName,
     billing_model: mapped.billingModel,
@@ -167,7 +239,7 @@ export async function POST(request: NextRequest) {
   });
 
   try {
-    const result = await recordEvent(canonicalEvent);
+    const result = await recordStripeLifecycleEvent(lifecycleEvent);
     return NextResponse.json({
       received: true,
       mapped: true,
@@ -176,6 +248,9 @@ export async function POST(request: NextRequest) {
     });
   } catch (error) {
     console.error("Stripe webhook processing failed", error);
-    return NextResponse.json({ error: "Failed to record Stripe event" }, { status: 500 });
+    return NextResponse.json(
+      { error: "Failed to record Stripe event" },
+      { status: 500 },
+    );
   }
 }

@@ -29,13 +29,16 @@ export async function ensureTables() {
 
   const db = sql();
 
+  // ── Stripe lifecycle events (source of truth) ────────────────────────
   await db`
-    CREATE TABLE IF NOT EXISTS events (
+    CREATE TABLE IF NOT EXISTS stripe_lifecycle_events (
       id BIGSERIAL PRIMARY KEY,
       event_id TEXT UNIQUE NOT NULL,
       event_type TEXT NOT NULL,
-      source TEXT NOT NULL DEFAULT 'api',
+      source TEXT NOT NULL DEFAULT 'stripe',
       occurred_at TIMESTAMPTZ NOT NULL DEFAULT now(),
+      stripe_customer_id TEXT,
+      stripe_subscription_id TEXT,
       user_id TEXT,
       user_email TEXT,
       account_id TEXT,
@@ -44,70 +47,65 @@ export async function ensureTables() {
       billing_model TEXT,
       amount_cents INTEGER,
       currency TEXT,
-      page_path TEXT,
-      page_location TEXT,
-      landing_page TEXT,
-      session_source TEXT,
-      session_medium TEXT,
-      session_campaign TEXT,
+      attributed BOOLEAN NOT NULL DEFAULT false,
+      raw_payload JSONB NOT NULL DEFAULT '{}'::jsonb,
+      created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+    )
+  `;
+
+  // Idempotent column additions for future-proofing
+  await db`ALTER TABLE stripe_lifecycle_events ADD COLUMN IF NOT EXISTS stripe_customer_id TEXT`;
+  await db`ALTER TABLE stripe_lifecycle_events ADD COLUMN IF NOT EXISTS stripe_subscription_id TEXT`;
+  await db`ALTER TABLE stripe_lifecycle_events ADD COLUMN IF NOT EXISTS attributed BOOLEAN NOT NULL DEFAULT false`;
+
+  await db`CREATE INDEX IF NOT EXISTS idx_sle_event_type ON stripe_lifecycle_events (event_type)`;
+  await db`CREATE INDEX IF NOT EXISTS idx_sle_occurred_at ON stripe_lifecycle_events (occurred_at DESC)`;
+  await db`CREATE INDEX IF NOT EXISTS idx_sle_created_at ON stripe_lifecycle_events (created_at DESC)`;
+  await db`CREATE INDEX IF NOT EXISTS idx_sle_stripe_customer ON stripe_lifecycle_events (stripe_customer_id)`;
+
+  // ── Attribution captures ─────────────────────────────────────────────
+  await db`
+    CREATE TABLE IF NOT EXISTS attribution_captures (
+      id TEXT PRIMARY KEY,
+      email TEXT,
+      user_id TEXT,
+      account_id TEXT,
+      stripe_customer_id TEXT,
+      stripe_subscription_id TEXT,
       utm_source TEXT,
       utm_medium TEXT,
       utm_campaign TEXT,
       utm_content TEXT,
       utm_term TEXT,
       fbclid TEXT,
-      fbp TEXT,
       fbc TEXT,
+      fbp TEXT,
       gclid TEXT,
       gbraid TEXT,
       wbraid TEXT,
+      landing_page TEXT,
+      page_path TEXT,
+      page_location TEXT,
+      referrer TEXT,
       client_ip TEXT,
-      client_user_agent TEXT,
+      user_agent TEXT,
       raw_payload JSONB NOT NULL DEFAULT '{}'::jsonb,
-      created_at TIMESTAMPTZ NOT NULL DEFAULT now()
+      captured_at TIMESTAMPTZ NOT NULL DEFAULT now()
     )
   `;
 
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS occurred_at TIMESTAMPTZ NOT NULL DEFAULT now()`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS user_id TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS user_email TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS account_id TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS plan_name TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS trial_days INTEGER`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS billing_model TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS amount_cents INTEGER`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS currency TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS page_path TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS page_location TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS landing_page TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS session_source TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS session_medium TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS session_campaign TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS utm_source TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS utm_medium TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS utm_campaign TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS utm_content TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS utm_term TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS fbclid TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS fbp TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS fbc TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS gclid TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS gbraid TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS wbraid TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS client_ip TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS client_user_agent TEXT`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS raw_payload JSONB NOT NULL DEFAULT '{}'::jsonb`;
-  await db`ALTER TABLE events ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT now()`;
+  await db`CREATE INDEX IF NOT EXISTS idx_ac_stripe_customer ON attribution_captures (stripe_customer_id)`;
+  await db`CREATE INDEX IF NOT EXISTS idx_ac_stripe_subscription ON attribution_captures (stripe_subscription_id)`;
+  await db`CREATE INDEX IF NOT EXISTS idx_ac_user_id ON attribution_captures (user_id)`;
+  await db`CREATE INDEX IF NOT EXISTS idx_ac_account_id ON attribution_captures (account_id)`;
+  await db`CREATE INDEX IF NOT EXISTS idx_ac_email ON attribution_captures (email)`;
+  await db`CREATE INDEX IF NOT EXISTS idx_ac_captured_at ON attribution_captures (captured_at DESC)`;
 
-  await db`CREATE INDEX IF NOT EXISTS idx_events_event_type ON events (event_type)`;
-  await db`CREATE INDEX IF NOT EXISTS idx_events_occurred_at ON events (occurred_at DESC)`;
-  await db`CREATE INDEX IF NOT EXISTS idx_events_created_at ON events (created_at DESC)`;
-  await db`CREATE INDEX IF NOT EXISTS idx_events_source ON events (source)`;
-
+  // ── Delivery attempts (downstream fan-out log) ───────────────────────
   await db`
     CREATE TABLE IF NOT EXISTS delivery_attempts (
       id BIGSERIAL PRIMARY KEY,
-      event_id TEXT NOT NULL REFERENCES events(event_id) ON DELETE CASCADE,
+      event_id TEXT NOT NULL,
       platform TEXT NOT NULL,
       destination_event_name TEXT,
       status TEXT NOT NULL DEFAULT 'pending',
@@ -124,7 +122,6 @@ export async function ensureTables() {
   await db`ALTER TABLE delivery_attempts ADD COLUMN IF NOT EXISTS response_code INTEGER`;
   await db`ALTER TABLE delivery_attempts ADD COLUMN IF NOT EXISTS response_body TEXT`;
   await db`ALTER TABLE delivery_attempts ADD COLUMN IF NOT EXISTS error TEXT`;
-  await db`ALTER TABLE delivery_attempts ADD COLUMN IF NOT EXISTS created_at TIMESTAMPTZ NOT NULL DEFAULT now()`;
 
   await db`CREATE INDEX IF NOT EXISTS idx_delivery_attempts_event_id ON delivery_attempts (event_id)`;
   await db`CREATE INDEX IF NOT EXISTS idx_delivery_attempts_platform ON delivery_attempts (platform)`;

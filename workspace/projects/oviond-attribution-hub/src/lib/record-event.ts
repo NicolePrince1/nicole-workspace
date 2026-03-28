@@ -1,66 +1,48 @@
-import type { CanonicalEvent } from "@/lib/canonical-events";
+import type { StripeLifecycleEvent } from "@/lib/stripe-events";
+import { stitchAttribution } from "@/lib/attribution";
 import { ensureTables, sql } from "@/lib/db";
 import { dispatchEvent } from "@/lib/dispatch";
+import type { StitchedEvent } from "@/lib/stitched-event";
 
 let tablesReady = false;
 
-function normalizeForStorage(event: CanonicalEvent): CanonicalEvent {
-  return {
-    ...event,
-    user_email: event.user_email?.toLowerCase(),
-    currency: event.currency?.toUpperCase(),
-  };
-}
-
-export async function recordEvent(eventInput: CanonicalEvent) {
+/**
+ * Record a Stripe lifecycle event, stitch attribution, and dispatch downstream.
+ */
+export async function recordStripeLifecycleEvent(event: StripeLifecycleEvent) {
   if (!tablesReady) {
     await ensureTables();
     tablesReady = true;
   }
 
-  const event = normalizeForStorage(eventInput);
   const db = sql();
 
+  // 1. Stitch attribution from captures table
+  const attribution = await stitchAttribution({
+    stripe_customer_id: event.stripe_customer_id,
+    stripe_subscription_id: event.stripe_subscription_id,
+    user_id: event.user_id,
+    account_id: event.account_id,
+    email: event.user_email,
+  });
+
+  const attributed = attribution !== null;
+
+  // 2. Persist the lifecycle event
   const insertedRows = await db`
-    INSERT INTO events (
-      event_id,
-      event_type,
-      source,
-      occurred_at,
-      user_id,
-      user_email,
-      account_id,
-      plan_name,
-      trial_days,
-      billing_model,
-      amount_cents,
-      currency,
-      page_path,
-      page_location,
-      landing_page,
-      session_source,
-      session_medium,
-      session_campaign,
-      utm_source,
-      utm_medium,
-      utm_campaign,
-      utm_content,
-      utm_term,
-      fbclid,
-      fbp,
-      fbc,
-      gclid,
-      gbraid,
-      wbraid,
-      client_ip,
-      client_user_agent,
-      raw_payload
-    )
-    VALUES (
+    INSERT INTO stripe_lifecycle_events (
+      event_id, event_type, source, occurred_at,
+      stripe_customer_id, stripe_subscription_id,
+      user_id, user_email, account_id,
+      plan_name, trial_days, billing_model,
+      amount_cents, currency, attributed, raw_payload
+    ) VALUES (
       ${event.event_id},
       ${event.event_type},
       ${event.source},
       ${event.occurred_at},
+      ${event.stripe_customer_id ?? null},
+      ${event.stripe_subscription_id ?? null},
       ${event.user_id ?? null},
       ${event.user_email ?? null},
       ${event.account_id ?? null},
@@ -69,25 +51,7 @@ export async function recordEvent(eventInput: CanonicalEvent) {
       ${event.billing_model ?? null},
       ${event.amount_cents ?? null},
       ${event.currency ?? null},
-      ${event.page_path ?? null},
-      ${event.page_location ?? null},
-      ${event.landing_page ?? null},
-      ${event.session_source ?? null},
-      ${event.session_medium ?? null},
-      ${event.session_campaign ?? null},
-      ${event.utm_source ?? null},
-      ${event.utm_medium ?? null},
-      ${event.utm_campaign ?? null},
-      ${event.utm_content ?? null},
-      ${event.utm_term ?? null},
-      ${event.fbclid ?? null},
-      ${event.fbp ?? null},
-      ${event.fbc ?? null},
-      ${event.gclid ?? null},
-      ${event.gbraid ?? null},
-      ${event.wbraid ?? null},
-      ${event.client_ip ?? null},
-      ${event.client_user_agent ?? null},
+      ${attributed},
       ${JSON.stringify(event.raw_payload)}
     )
     ON CONFLICT (event_id) DO NOTHING
@@ -99,16 +63,20 @@ export async function recordEvent(eventInput: CanonicalEvent) {
       inserted: false,
       eventId: event.event_id,
       reason: "duplicate",
+      attributed,
       deliveries: [],
     };
   }
 
-  const deliveries = await dispatchEvent(event);
+  // 3. Dispatch stitched event to downstream adapters
+  const stitched: StitchedEvent = { ...event, attribution };
+  const deliveries = await dispatchEvent(stitched);
 
   return {
     inserted: true,
     eventId: event.event_id,
     eventType: event.event_type,
+    attributed,
     deliveries,
   };
 }

@@ -7,6 +7,10 @@ function formatLabel(value: string) {
   return value.replace(/_/g, " ");
 }
 
+function percent(value: number) {
+  return `${(value * 100).toFixed(0)}%`;
+}
+
 function LoginScreen() {
   return (
     <main className="min-h-screen bg-slate-950 text-white">
@@ -18,18 +22,18 @@ function LoginScreen() {
             </div>
             <div className="space-y-4">
               <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">
-                Reliable conversion truth for Meta, GA4, Google Ads, and Stripe.
+                Stripe-first attribution truth for Oviond.
               </h1>
               <p className="max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">
-                This app records canonical backend events first, then fans them out to ad and analytics platforms. That means page views and form submits stop pretending to be business truth.
+                Stripe decides when a trial, payment, or cancellation is real. This app captures attribution identifiers, stitches them back onto Stripe lifecycle events, and then pushes clean downstream signals to Meta, GA4, and Google Ads.
               </p>
             </div>
             <div className="grid gap-3 sm:grid-cols-2">
               {[
-                "Canonical event ledger",
-                "Meta StartTrial + dedupe ready",
-                "GA4 Measurement Protocol delivery",
-                "Google Ads adapter scaffold with replay support",
+                "Stripe lifecycle events as source of truth",
+                "Lightweight attribution capture endpoint",
+                "Stitching layer for Meta / GA4 / Google Ads",
+                "Railway-ready dashboard and replay tooling",
               ].map((item) => (
                 <div
                   key={item}
@@ -81,7 +85,17 @@ export default async function DashboardPage() {
     return <LoginScreen />;
   }
 
-  const { dbOk, env, keyCounts, recentEvents, recentDeliveries } = await getDashboardData();
+  const {
+    dbOk,
+    env,
+    keyCounts,
+    attributionCaptures7d,
+    attributedTrialStarts7d,
+    unattributedTrialStarts7d,
+    trialAttributionMatchRate,
+    recentEvents,
+    recentDeliveries,
+  } = await getDashboardData();
 
   return (
     <main className="min-h-screen bg-[radial-gradient(circle_at_top,_#0f172a,_#020617_55%)] text-slate-100">
@@ -90,14 +104,14 @@ export default async function DashboardPage() {
           <div className="flex flex-col gap-6 xl:flex-row xl:items-end xl:justify-between">
             <div className="space-y-4">
               <div className="inline-flex items-center rounded-full border border-cyan-400/30 bg-cyan-400/10 px-3 py-1 text-xs font-medium text-cyan-200">
-                Railway-ready internal app
+                Stripe-first lifecycle attribution
               </div>
               <div>
                 <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
                   Oviond Attribution Hub
                 </h1>
                 <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-300 sm:text-base">
-                  Backend-first event truth for trials, subscriptions, invoices, and lifecycle events. This dashboard shows what the app believes happened, then how that truth was dispatched to Meta, GA4, and Google Ads.
+                  Stripe lifecycle events are the truth layer. Attribution captures are stitched onto those events before downstream delivery, so paid media platforms observe real business events instead of fragile pageview or form-submit proxies.
                 </p>
               </div>
             </div>
@@ -122,7 +136,7 @@ export default async function DashboardPage() {
           </div>
         </div>
 
-        <section className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+        <section className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-5">
           {keyCounts.map((item) => (
             <article
               key={item.eventType}
@@ -137,13 +151,44 @@ export default async function DashboardPage() {
           ))}
         </section>
 
+        <section className="mt-8 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+          <article className="rounded-3xl border border-white/10 bg-white/5 p-5 shadow-lg shadow-slate-950/20">
+            <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
+              Attribution captures
+            </p>
+            <p className="mt-4 text-4xl font-semibold text-white">{attributionCaptures7d}</p>
+            <p className="mt-2 text-sm text-slate-400">Last 7 days</p>
+          </article>
+          <article className="rounded-3xl border border-white/10 bg-white/5 p-5 shadow-lg shadow-slate-950/20">
+            <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
+              Attributed trial starts
+            </p>
+            <p className="mt-4 text-4xl font-semibold text-white">{attributedTrialStarts7d}</p>
+            <p className="mt-2 text-sm text-slate-400">Last 7 days</p>
+          </article>
+          <article className="rounded-3xl border border-white/10 bg-white/5 p-5 shadow-lg shadow-slate-950/20">
+            <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
+              Unattributed trial starts
+            </p>
+            <p className="mt-4 text-4xl font-semibold text-white">{unattributedTrialStarts7d}</p>
+            <p className="mt-2 text-sm text-slate-400">Last 7 days</p>
+          </article>
+          <article className="rounded-3xl border border-white/10 bg-white/5 p-5 shadow-lg shadow-slate-950/20">
+            <p className="text-xs uppercase tracking-[0.18em] text-slate-400">
+              Trial match rate
+            </p>
+            <p className="mt-4 text-4xl font-semibold text-white">{percent(trialAttributionMatchRate)}</p>
+            <p className="mt-2 text-sm text-slate-400">Attributed trials / total trials</p>
+          </article>
+        </section>
+
         <section className="mt-8 grid gap-6 xl:grid-cols-[1.1fr_0.9fr]">
           <article className="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-lg shadow-slate-950/20">
             <div className="flex items-center justify-between gap-4">
               <div>
                 <h2 className="text-xl font-semibold">Environment readiness</h2>
                 <p className="mt-1 text-sm text-slate-400">
-                  These flags show which delivery surfaces are ready right now.
+                  These flags show which stitching and delivery surfaces are ready right now.
                 </p>
               </div>
             </div>
@@ -167,24 +212,24 @@ export default async function DashboardPage() {
           <article className="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-lg shadow-slate-950/20">
             <h2 className="text-xl font-semibold">Quick ops</h2>
             <p className="mt-1 text-sm text-slate-400">
-              Useful endpoints for wiring the app into Oviond and replaying events when credentials come online.
+              Wire captures in first, let Stripe send lifecycle truth second, and replay if credentials change.
             </p>
             <div className="mt-6 space-y-4 text-sm text-slate-200">
               <div className="rounded-2xl border border-white/10 bg-slate-950/40 p-4">
-                <p className="font-medium text-white">POST /api/ingest</p>
-                <p className="mt-1 text-slate-400">Canonical app event ingest with bearer auth.</p>
+                <p className="font-medium text-white">POST /api/attribution/capture</p>
+                <p className="mt-1 text-slate-400">Capture UTMs, click IDs, landing-page context, and identity keys before Stripe events arrive.</p>
               </div>
               <div className="rounded-2xl border border-white/10 bg-slate-950/40 p-4">
                 <p className="font-medium text-white">POST /api/stripe/webhook</p>
-                <p className="mt-1 text-slate-400">Verified Stripe webhooks mapped into canonical revenue events.</p>
+                <p className="mt-1 text-slate-400">Verified Stripe webhooks mapped into trial, payment, expiry, and cancellation lifecycle events.</p>
+              </div>
+              <div className="rounded-2xl border border-white/10 bg-slate-950/40 p-4">
+                <p className="font-medium text-white">POST /api/ingest</p>
+                <p className="mt-1 text-slate-400">Manual lifecycle ingest for backfills and testing only.</p>
               </div>
               <div className="rounded-2xl border border-white/10 bg-slate-950/40 p-4">
                 <p className="font-medium text-white">POST /api/internal/replay</p>
-                <p className="mt-1 text-slate-400">Re-dispatch a stored event to platform adapters after config changes.</p>
-              </div>
-              <div className="rounded-2xl border border-white/10 bg-slate-950/40 p-4">
-                <p className="font-medium text-white">GET /api/health</p>
-                <p className="mt-1 text-slate-400">Runtime and database health probe for Railway.</p>
+                <p className="mt-1 text-slate-400">Re-stitch and re-dispatch a stored Stripe lifecycle event after config changes.</p>
               </div>
             </div>
           </article>
@@ -193,9 +238,9 @@ export default async function DashboardPage() {
         <section className="mt-8 rounded-3xl border border-white/10 bg-white/5 p-6 shadow-lg shadow-slate-950/20">
           <div className="flex items-end justify-between gap-4">
             <div>
-              <h2 className="text-xl font-semibold">Recent canonical events</h2>
+              <h2 className="text-xl font-semibold">Recent Stripe lifecycle events</h2>
               <p className="mt-1 text-sm text-slate-400">
-                The event ledger is the source of truth. Platforms are downstream.
+                This is the operational truth layer. Attribution is a stitched attribute, not the event source itself.
               </p>
             </div>
           </div>
@@ -206,9 +251,9 @@ export default async function DashboardPage() {
                 <tr>
                   <th className="pb-3 pr-4">Type</th>
                   <th className="pb-3 pr-4">Event ID</th>
-                  <th className="pb-3 pr-4">Source</th>
+                  <th className="pb-3 pr-4">Stripe IDs</th>
                   <th className="pb-3 pr-4">User</th>
-                  <th className="pb-3 pr-4">Session</th>
+                  <th className="pb-3 pr-4">Attribution</th>
                   <th className="pb-3">Occurred</th>
                 </tr>
               </thead>
@@ -216,7 +261,7 @@ export default async function DashboardPage() {
                 {recentEvents.length === 0 ? (
                   <tr>
                     <td className="py-6 text-sm text-slate-400" colSpan={6}>
-                      No events yet. Wire Oviond to POST canonical events into <code>/api/ingest</code>.
+                      No lifecycle events yet. Start by capturing attribution and pointing Stripe webhooks at <code>/api/stripe/webhook</code>.
                     </td>
                   </tr>
                 ) : (
@@ -228,12 +273,21 @@ export default async function DashboardPage() {
                         </span>
                       </td>
                       <td className="py-4 pr-4 font-mono text-xs text-slate-300">{event.event_id}</td>
-                      <td className="py-4 pr-4 text-slate-300">{event.source}</td>
-                      <td className="py-4 pr-4 text-slate-400">{event.user_email ?? "—"}</td>
                       <td className="py-4 pr-4 text-slate-400">
-                        {[event.session_source, event.session_medium, event.session_campaign]
-                          .filter(Boolean)
-                          .join(" / ") || "—"}
+                        <div>{event.stripe_customer_id ?? "—"}</div>
+                        <div className="mt-1 text-xs">{event.stripe_subscription_id ?? "—"}</div>
+                      </td>
+                      <td className="py-4 pr-4 text-slate-400">{event.user_email ?? "—"}</td>
+                      <td className="py-4 pr-4">
+                        <span
+                          className={`rounded-full px-2.5 py-1 text-xs font-medium ${
+                            event.attributed
+                              ? "bg-emerald-400/15 text-emerald-200"
+                              : "bg-amber-400/15 text-amber-200"
+                          }`}
+                        >
+                          {event.attributed ? "stitched" : "missing"}
+                        </span>
                       </td>
                       <td className="py-4 text-slate-400">{event.occurred_at}</td>
                     </tr>
@@ -248,7 +302,7 @@ export default async function DashboardPage() {
           <div>
             <h2 className="text-xl font-semibold">Recent platform delivery attempts</h2>
             <p className="mt-1 text-sm text-slate-400">
-              Each canonical event records what was attempted downstream and what happened.
+              These are downstream observers of stitched Stripe truth.
             </p>
           </div>
 

@@ -1,10 +1,19 @@
 import { NextRequest, NextResponse } from "next/server";
 import { verifyIngestKey } from "@/lib/auth";
-import { canonicalEventSchema } from "@/lib/canonical-events";
-import { recordEvent } from "@/lib/record-event";
+import { stripeLifecycleEventSchema } from "@/lib/stripe-events";
+import { recordStripeLifecycleEvent } from "@/lib/record-event";
 
 export const runtime = "nodejs";
 
+/**
+ * POST /api/ingest
+ *
+ * Manual ingest of Stripe lifecycle events. In the new model, Stripe webhooks
+ * are the primary source. This endpoint exists for backfills, testing, and
+ * edge cases where you need to inject a lifecycle event directly.
+ *
+ * Requires INGEST_API_KEY bearer auth.
+ */
 export async function POST(request: NextRequest) {
   const authError = verifyIngestKey(request);
   if (authError) {
@@ -18,7 +27,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "Invalid JSON body" }, { status: 400 });
   }
 
-  const parsed = canonicalEventSchema.safeParse(body);
+  const parsed = stripeLifecycleEventSchema.safeParse(body);
   if (!parsed.success) {
     return NextResponse.json(
       {
@@ -30,8 +39,7 @@ export async function POST(request: NextRequest) {
   }
 
   try {
-    const result = await recordEvent(parsed.data);
-
+    const result = await recordStripeLifecycleEvent(parsed.data);
     return NextResponse.json(result, {
       status: result.inserted ? 201 : 200,
     });
