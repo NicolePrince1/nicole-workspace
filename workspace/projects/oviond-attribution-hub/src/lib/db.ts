@@ -117,6 +117,12 @@ export async function ensureTables() {
     )
   `;
 
+  // Stripe-first refactor note:
+  // Older versions of the app created delivery_attempts.event_id as a foreign key
+  // to the legacy events table. The new model writes lifecycle truth to
+  // stripe_lifecycle_events instead, so that FK must be removed or webhook writes fail.
+  await db`ALTER TABLE delivery_attempts DROP CONSTRAINT IF EXISTS delivery_attempts_event_id_fkey`;
+
   await db`ALTER TABLE delivery_attempts ADD COLUMN IF NOT EXISTS destination_event_name TEXT`;
   await db`ALTER TABLE delivery_attempts ADD COLUMN IF NOT EXISTS request_payload JSONB`;
   await db`ALTER TABLE delivery_attempts ADD COLUMN IF NOT EXISTS response_code INTEGER`;
