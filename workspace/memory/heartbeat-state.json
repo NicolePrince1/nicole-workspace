@@ -1,10 +1,10 @@
 {
   "lastChecks": {
     "trial_health": 1774447140,
-    "revenue_pulse": 1774447380,
+    "revenue_pulse": 1774694280,
     "seo_movement": 1774447620,
     "email_health": 1774447140,
-    "ad_spend": 1774447680
+    "ad_spend": 1774694280
   },
   "lastMetrics": {
     "trial_health": {
@@ -84,14 +84,20 @@
     },
     "revenue_pulse": {
       "status": "attention",
-      "last_7_days_paid_revenue": 4074.64,
-      "last_7_days_paid_invoices": 86,
-      "prior_7_days_paid_revenue": 7715.77,
-      "prior_7_days_paid_invoices": 139,
-      "delta_revenue": -3641.13,
-      "delta_invoices": -53,
-      "past_due_count": 34,
-      "note": "Stripe paid invoices pulled for rolling 7-day windows via the Stripe analytics skill helpers; revenue is down materially versus the prior 7 days and past_due is above the alert threshold of 20."
+      "window": {
+        "last_7_start": "2026-03-21T10:38:00+00:00",
+        "last_7_end": "2026-03-28T10:38:00+00:00",
+        "prior_7_start": "2026-03-14T10:38:00+00:00",
+        "prior_7_end": "2026-03-21T10:38:00+00:00"
+      },
+      "last_7_days_paid_revenue": 4897.9,
+      "last_7_days_paid_invoices": 96,
+      "prior_7_days_paid_revenue": 6650.92,
+      "prior_7_days_paid_invoices": 81,
+      "delta_revenue": -1753.02,
+      "delta_invoices": 15,
+      "past_due_count": 8,
+      "note": "Stripe rolling 7-day paid invoice revenue remains below the prior 7-day window, but past_due has improved and is now below the alert threshold."
     },
     "seo_movement": {
       "status": "ok",
@@ -194,17 +200,13 @@
     "ad_spend": {
       "status": "ok",
       "week_start": "2026-03-22",
-      "week_end": "2026-03-25",
-      "campaigns": [
-        {
-          "campaign_name": "Remarketing USA",
-          "spend": 1282.32,
-          "landing_page_views": 8,
-          "cost_per_landing_page_view": 160.29
-        }
-      ],
+      "week_end": "2026-03-28",
+      "spend": 3209.4,
+      "landing_page_views": 50,
+      "cost_per_landing_page_view": 64.188,
+      "previous_week_cost_per_landing_page_view": 163.1187,
       "flagged_campaigns": [],
-      "note": "Meta Ads current-week pulled successfully; no campaign breached the R200 LPV CPA threshold."
+      "note": "Meta Ads current-week overview checked with landing_page_view as the primary action; account-level LPV CPA remains well below the R200 threshold."
     }
   },
   "lastWeeklyReport": null,
