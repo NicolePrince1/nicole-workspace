@@ -11,6 +11,8 @@ Check:
 - correct project is being used by the service-account JSON
 - `googleads.googleapis.com` is enabled on that project
 - the project is active and intended for the developer token / Google Ads API setup
+- if the API is already enabled and this still persists, treat the project/token association as suspect
+- if needed, move to a **fresh Cloud project with fresh credentials** instead of endlessly retrying the same broken project
 
 ## `USER_PERMISSION_DENIED`
 
@@ -49,3 +51,13 @@ Check:
 - service-account JSON is current
 - token minting step succeeded
 - token is being sent in the `Authorization: Bearer ...` header
+
+## `unauthorized_client` during service-account token mint
+
+Meaning:
+- the requested service-account token flow is not authorized for the requested scope / subject combination
+
+Check:
+- if you set `GOOGLE_ADS_SERVICE_ACCOUNT_SUBJECT`, verify that domain-wide delegation is really intended and that the Ads scope was actually authorized
+- do not assume Google Workspace delegation is the default Google Ads model
+- prefer direct service-account-as-user access in Google Ads unless you have a proven reason not to

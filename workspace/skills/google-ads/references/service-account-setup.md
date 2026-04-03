@@ -20,6 +20,21 @@ Why:
 - makes daily reporting and maintenance durable
 - matches Google's documented service-account workflow for Google Ads
 
+## Current observed state (2026-04-03)
+
+Live checks from this workspace currently show:
+
+- service-account token mint succeeds for `nicole-workspace@oviond-workspace-cli.iam.gserviceaccount.com`
+- the backing Cloud project is `oviond-workspace-cli` / `480335022137`
+- Google Ads API calls still fail with `PROJECT_DISABLED`
+- an attempted domain-wide-delegation-style token mint for `nicole@oviond.com` with the Ads scope returned `unauthorized_client`
+- the current runtime does **not** have enough project IAM to inspect or enable `googleads.googleapis.com` directly via Service Usage
+
+Interpretation:
+- the present blocker is **not** basic JWT minting
+- the current blocker is now on the **Cloud project / Google Ads API permission** side
+- the old domain-wide-delegation assumption should not be treated as the live default
+
 ## Required setup checklist
 
 ### 1) Cloud project
@@ -31,6 +46,7 @@ Check:
 - the project is active
 - the credentials being used by the scripts actually belong to that project
 - if Google Ads API Center or Google support requires project/token approval, use the same project consistently
+- if the project is definitely correct and still returns `PROJECT_DISABLED`, treat a **fresh Cloud project + fresh credentials** as a serious recovery option, not a last-resort fantasy
 
 ### 2) Service account access inside Google Ads
 
@@ -75,6 +91,7 @@ Most likely actions:
 - enable Google Ads API on the service-account project
 - confirm you are using the intended project credentials
 - if already enabled, verify the project/token setup in Ads API Center or with Google Ads API support
+- if that still fails, create a fresh Cloud project, enable Google Ads API there, mint fresh credentials, add that principal as a Google Ads user, and retry
 
 ### `USER_PERMISSION_DENIED`
 
@@ -89,3 +106,15 @@ Most likely actions:
 ## Fallback path
 
 If the service-account route remains blocked after proper setup, fall back to a real OAuth user with offline refresh token. That is a fallback, not the preferred operating model for Oviond.
+
+Force the fallback path with:
+
+```bash
+GOOGLE_ADS_AUTH_MODE=oauth-refresh-token
+```
+
+Expected fallback env/config:
+
+- `GOOGLE_ADS_OAUTH_CLIENT_ID` or `GOOGLE_ADS_CLIENT_ID`
+- `GOOGLE_ADS_OAUTH_CLIENT_SECRET` or `GOOGLE_ADS_CLIENT_SECRET`
+- `GOOGLE_ADS_REFRESH_TOKEN`

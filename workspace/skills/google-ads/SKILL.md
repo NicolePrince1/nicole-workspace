@@ -1,11 +1,11 @@
 ---
 name: google-ads
-description: Query, diagnose, and operate Oviond's Google Ads account via the Google Ads API using a service-account-first workflow. Use when auditing auth blockers, validating service-account access, pulling campaign/search-term/keyword/conversion reporting, preparing optimization plans, or safely applying Google Ads account changes after validation.
+description: Query, diagnose, and operate Oviond's Google Ads account via the Google Ads API using a service-account-first workflow with an explicit OAuth refresh-token fallback. Use when auditing auth blockers, validating access, pulling campaign/search-term/keyword/conversion reporting, preparing optimization plans, or safely applying Google Ads account changes after validation.
 ---
 
 # Google Ads Skill — Oviond
 
-Operate Oviond's Google Ads account with a **service-account-first** setup.
+Operate Oviond's Google Ads account with a **service-account-first** setup and a documented **OAuth refresh-token fallback**.
 
 Default Oviond mapping:
 - manager account (MCC): `638-795-6297`
@@ -28,6 +28,12 @@ If auth is blocked, read:
 - `references/errors.md`
 
 Do not pretend reporting works if the auth doctor fails.
+
+Optional auth-mode override when testing fallback auth:
+
+```bash
+node /data/.openclaw/workspace/skills/google-ads/scripts/ads_auth_doctor.js --auth-mode oauth-refresh-token --json
+```
 
 ### 2) Run reporting queries
 
@@ -71,7 +77,8 @@ node /data/.openclaw/workspace/skills/google-ads/scripts/ads_mutate.js campaigns
 
 Purpose:
 - verify developer token presence
-- mint a service-account token
+- mint an access token from the selected auth mode
+- inspect the backing Cloud project when using a service account
 - test `customers:listAccessibleCustomers`
 - test a target account query
 - test manager → client linkage query
@@ -98,6 +105,7 @@ Purpose:
 ## Guardrails
 
 - prefer the service-account path over human refresh tokens unless the service-account route proves impossible after proper setup
+- if you need the fallback path, force it explicitly with `GOOGLE_ADS_AUTH_MODE=oauth-refresh-token`
 - do not assume Google Workspace-style domain-wide delegation is the right model here
 - do not apply risky writes without validation
 - do not call the account healthy until the auth doctor passes end-to-end

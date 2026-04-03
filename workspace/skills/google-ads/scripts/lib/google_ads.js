@@ -9,6 +9,8 @@ const DEFAULTS = {
   loginCustomerId: stripCustomerId(process.env.GOOGLE_ADS_LOGIN_CUSTOMER_ID || '6387956297'),
   apiVersion: process.env.GOOGLE_ADS_API_VERSION || 'v21',
   scope: 'https://www.googleapis.com/auth/adwords',
+  authMode: (process.env.GOOGLE_ADS_AUTH_MODE || 'auto').trim().toLowerCase(),
+  cloudPlatformScope: 'https://www.googleapis.com/auth/cloud-platform',
 };
 
 function stripCustomerId(value) {
@@ -30,6 +32,47 @@ function defaultServiceAccountPath() {
   }
 
   return null;
+}
+
+function hasServiceAccountConfig() {
+  return Boolean(process.env.GOOGLE_ADS_SERVICE_ACCOUNT_JSON_CONTENT || defaultServiceAccountPath());
+}
+
+function getOAuthClientConfig() {
+  const clientId = process.env.GOOGLE_ADS_OAUTH_CLIENT_ID || process.env.GOOGLE_ADS_CLIENT_ID || null;
+  const clientSecret = process.env.GOOGLE_ADS_OAUTH_CLIENT_SECRET || process.env.GOOGLE_ADS_CLIENT_SECRET || null;
+  const refreshToken = process.env.GOOGLE_ADS_REFRESH_TOKEN || null;
+
+  if (!clientId && !clientSecret && !refreshToken) {
+    return null;
+  }
+
+  const missing = [
+    !clientId ? 'GOOGLE_ADS_OAUTH_CLIENT_ID or GOOGLE_ADS_CLIENT_ID' : null,
+    !clientSecret ? 'GOOGLE_ADS_OAUTH_CLIENT_SECRET or GOOGLE_ADS_CLIENT_SECRET' : null,
+    !refreshToken ? 'GOOGLE_ADS_REFRESH_TOKEN' : null,
+  ].filter(Boolean);
+
+  if (missing.length) {
+    throw new Error(`OAuth refresh-token auth is partially configured. Missing: ${missing.join(', ')}`);
+  }
+
+  return {
+    clientId,
+    clientSecret,
+    refreshToken,
+  };
+}
+
+function getPreferredAuthMode(explicitMode) {
+  const mode = String(explicitMode || DEFAULTS.authMode || 'auto').trim().toLowerCase();
+  const validModes = new Set(['auto', 'service-account', 'oauth-refresh-token']);
+  if (!validModes.has(mode)) {
+    throw new Error(
+      `Unsupported auth mode "${mode}". Valid values: auto, service-account, oauth-refresh-token.`
+    );
+  }
+  return mode;
 }
 
 function loadServiceAccount() {
@@ -100,17 +143,20 @@ function requestJson({ hostname, path: requestPath, method = 'GET', headers = {}
   });
 }
 
-async function mintServiceAccountToken({ credentials, scope = DEFAULTS.scope }) {
+async function mintServiceAccountToken({ credentials, scope = DEFAULTS.scope, subject = null }) {
   const now = Math.floor(Date.now() / 1000);
   const header = toBase64Url(JSON.stringify({ alg: 'RS256', typ: 'JWT' }));
+  const claimSet = {
+    iss: credentials.client_email,
+    scope,
+    aud: 'https://oauth2.googleapis.com/token',
+    iat: now,
+    exp: now + 3600,
+  };
+  if (subject) claimSet.sub = subject;
+
   const payload = toBase64Url(
-    JSON.stringify({
-      iss: credentials.client_email,
-      scope,
-      aud: 'https://oauth2.googleapis.com/token',
-      iat: now,
-      exp: now + 3600,
-    })
+    JSON.stringify(claimSet)
   );
 
   const signer = crypto.createSign('RSA-SHA256');
@@ -137,28 +183,118 @@ async function mintServiceAccountToken({ credentials, scope = DEFAULTS.scope }) 
   return tokenResponse.body.access_token;
 }
 
-async function resolveAccessToken() {
+async function mintRefreshTokenAccessToken({ clientId, clientSecret, refreshToken }) {
+  const tokenResponse = await requestJson({
+    hostname: 'oauth2.googleapis.com',
+    path: '/token',
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    body: [
+      ['client_id', clientId],
+      ['client_secret', clientSecret],
+      ['refresh_token', refreshToken],
+      ['grant_type', 'refresh_token'],
+    ]
+      .map(([key, value]) => `${encodeURIComponent(key)}=${encodeURIComponent(value)}`)
+      .join('&'),
+  });
+
+  if (tokenResponse.statusCode < 200 || tokenResponse.statusCode >= 300 || !tokenResponse.body?.access_token) {
+    const detail = tokenResponse.body ? JSON.stringify(tokenResponse.body, null, 2) : tokenResponse.rawBody;
+    throw new Error(`Refresh-token exchange failed (${tokenResponse.statusCode}): ${detail}`);
+  }
+
+  return tokenResponse.body.access_token;
+}
+
+function maskValue(value, { start = 6, end = 4 } = {}) {
+  const raw = String(value || '');
+  if (!raw) return null;
+  if (raw.length <= start + end) return raw;
+  return `${raw.slice(0, start)}…${raw.slice(-end)}`;
+}
+
+async function resolveAccessToken({ scope = DEFAULTS.scope, authMode } = {}) {
+  const preferredMode = getPreferredAuthMode(authMode);
   if (process.env.GOOGLE_ADS_TOKEN) {
     return {
       token: process.env.GOOGLE_ADS_TOKEN,
       source: 'env:GOOGLE_ADS_TOKEN',
+      authMode: 'env-token',
       serviceAccount: null,
+      oauthClient: null,
     };
   }
 
-  const { credentials, path: credentialsPath } = loadServiceAccount();
-  const token = await mintServiceAccountToken({ credentials });
-  return {
-    token,
-    source: 'service-account',
-    serviceAccount: {
-      path: credentialsPath,
-      email: credentials.client_email,
-      projectId: credentials.project_id,
-      projectNumber: credentials.project_number || null,
-      clientId: credentials.client_id || null,
-    },
-  };
+  const serviceAccountAvailable = hasServiceAccountConfig();
+  let oauthConfig = null;
+  try {
+    oauthConfig = getOAuthClientConfig();
+  } catch (error) {
+    if (preferredMode === 'oauth-refresh-token') throw error;
+    throw error;
+  }
+
+  const tryServiceAccount = preferredMode === 'service-account' || preferredMode === 'auto';
+  const tryRefreshToken =
+    preferredMode === 'oauth-refresh-token' || (preferredMode === 'auto' && !serviceAccountAvailable);
+
+  let serviceAccountError = null;
+
+  if (tryServiceAccount && serviceAccountAvailable) {
+    try {
+      const { credentials, path: credentialsPath } = loadServiceAccount();
+      const token = await mintServiceAccountToken({
+        credentials,
+        scope,
+        subject: process.env.GOOGLE_ADS_SERVICE_ACCOUNT_SUBJECT || null,
+      });
+      return {
+        token,
+        source: 'service-account',
+        authMode: preferredMode,
+        serviceAccount: {
+          path: credentialsPath,
+          email: credentials.client_email,
+          projectId: credentials.project_id,
+          projectNumber: credentials.project_number || null,
+          clientId: credentials.client_id || null,
+          subject: process.env.GOOGLE_ADS_SERVICE_ACCOUNT_SUBJECT || null,
+        },
+        oauthClient: null,
+      };
+    } catch (error) {
+      serviceAccountError = error;
+      if (preferredMode === 'service-account') throw error;
+    }
+  }
+
+  if (tryRefreshToken) {
+    if (!oauthConfig) {
+      throw new Error(
+        'OAuth refresh-token auth requested, but no full OAuth client config is present. Set GOOGLE_ADS_OAUTH_CLIENT_ID (or GOOGLE_ADS_CLIENT_ID), GOOGLE_ADS_OAUTH_CLIENT_SECRET (or GOOGLE_ADS_CLIENT_SECRET), and GOOGLE_ADS_REFRESH_TOKEN.'
+      );
+    }
+
+    const token = await mintRefreshTokenAccessToken(oauthConfig);
+    return {
+      token,
+      source: 'oauth-refresh-token',
+      authMode: preferredMode,
+      serviceAccount: null,
+      oauthClient: {
+        clientId: maskValue(oauthConfig.clientId),
+      },
+    };
+  }
+
+  if (serviceAccountError) throw serviceAccountError;
+
+  throw new Error(
+    'No Google Ads auth path is configured. Provide a service-account JSON (GOOGLE_ADS_SERVICE_ACCOUNT_JSON / GOOGLE_ADS_SERVICE_ACCOUNT_JSON_CONTENT) or configure OAuth refresh-token auth.'
+  );
 }
 
 function getDeveloperToken() {
@@ -248,6 +384,9 @@ function buildSuggestions(summary, context = {}) {
     suggestions.push(
       'If the API is already enabled, verify the project/developer-token setup with Google Ads API Center or Google Ads API support before retrying.'
     );
+    suggestions.push(
+      'If the project is definitely correct and still returns PROJECT_DISABLED, create a fresh Google Cloud project with Google Ads API enabled, mint fresh credentials there, and retry with the same intended developer token.'
+    );
   }
 
   if (codes.has('USER_PERMISSION_DENIED')) {
@@ -272,6 +411,78 @@ function buildSuggestions(summary, context = {}) {
   }
 
   return suggestions;
+}
+
+function summarizeGenericGoogleApiError(response) {
+  const error = response?.body?.error || null;
+  const reason =
+    error?.details
+      ?.find(detail => detail?.['@type'] === 'type.googleapis.com/google.rpc.ErrorInfo')
+      ?.reason || null;
+
+  return {
+    httpStatus: response?.statusCode || 0,
+    status: error?.status || null,
+    message: error?.message || response?.rawBody || null,
+    reason,
+    raw: error || response?.body || response?.rawBody || null,
+  };
+}
+
+async function inspectCloudProject({ credentials, projectId, projectNumber }) {
+  const token = await mintServiceAccountToken({ credentials, scope: DEFAULTS.cloudPlatformScope });
+  const projectRef = projectId || projectNumber;
+
+  const projectMetadata = projectId
+    ? await requestJson({
+        hostname: 'cloudresourcemanager.googleapis.com',
+        path: `/v1/projects/${projectId}`,
+        method: 'GET',
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      })
+    : null;
+
+  const googleAdsApiService = projectRef
+    ? await requestJson({
+        hostname: 'serviceusage.googleapis.com',
+        path: `/v1/projects/${projectRef}/services/googleads.googleapis.com`,
+        method: 'GET',
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      })
+    : null;
+
+  return {
+    projectMetadata: projectMetadata
+      ? {
+          ok: projectMetadata.statusCode >= 200 && projectMetadata.statusCode < 300,
+          response: projectMetadata,
+          summary:
+            projectMetadata.statusCode >= 200 && projectMetadata.statusCode < 300
+              ? { message: `Cloud project ${projectMetadata.body?.projectId || projectId} is reachable.` }
+              : summarizeGenericGoogleApiError(projectMetadata),
+        }
+      : null,
+    googleAdsApiService: googleAdsApiService
+      ? {
+          ok:
+            googleAdsApiService.statusCode >= 200 &&
+            googleAdsApiService.statusCode < 300 &&
+            googleAdsApiService.body?.state === 'ENABLED',
+          response: googleAdsApiService,
+          summary:
+            googleAdsApiService.statusCode >= 200 && googleAdsApiService.statusCode < 300
+              ? {
+                  message: `googleads.googleapis.com state: ${googleAdsApiService.body?.state || 'unknown'}`,
+                  state: googleAdsApiService.body?.state || null,
+                }
+              : summarizeGenericGoogleApiError(googleAdsApiService),
+        }
+      : null,
+  };
 }
 
 async function listAccessibleCustomers({ token, developerToken, apiVersion = DEFAULTS.apiVersion }) {
@@ -364,12 +575,17 @@ module.exports = {
   collectErrorCodes,
   extractGoogleAdsErrors,
   getDeveloperToken,
+  getPreferredAuthMode,
+  hasServiceAccountConfig,
+  inspectCloudProject,
   listAccessibleCustomers,
   loadServiceAccount,
+  mintServiceAccountToken,
   mutate,
   printJson,
   resolveAccessToken,
   searchStream,
   stripCustomerId,
+  summarizeGenericGoogleApiError,
   summarizeGoogleAdsError,
 };

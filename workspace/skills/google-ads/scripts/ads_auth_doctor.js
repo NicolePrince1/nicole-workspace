@@ -3,7 +3,9 @@ const {
   DEFAULTS,
   buildSuggestions,
   getDeveloperToken,
+  inspectCloudProject,
   listAccessibleCustomers,
+  loadServiceAccount,
   printJson,
   resolveAccessToken,
   searchStream,
@@ -16,6 +18,7 @@ function parseArgs(argv) {
     customerId: DEFAULTS.customerId,
     loginCustomerId: DEFAULTS.loginCustomerId,
     apiVersion: DEFAULTS.apiVersion,
+    authMode: DEFAULTS.authMode,
     json: false,
   };
 
@@ -24,6 +27,7 @@ function parseArgs(argv) {
     if (arg === '--customer-id') args.customerId = stripCustomerId(argv[++i]);
     else if (arg === '--login-customer-id') args.loginCustomerId = stripCustomerId(argv[++i]);
     else if (arg === '--api-version') args.apiVersion = argv[++i];
+    else if (arg === '--auth-mode') args.authMode = argv[++i];
     else if (arg === '--json') args.json = true;
     else if (arg === '--help' || arg === '-h') args.help = true;
   }
@@ -33,9 +37,9 @@ function parseArgs(argv) {
 
 function usage() {
   return [
-    'Usage: node ads_auth_doctor.js [--customer-id 2906154258] [--login-customer-id 6387956297] [--api-version v21] [--json]',
+    'Usage: node ads_auth_doctor.js [--customer-id 2906154258] [--login-customer-id 6387956297] [--api-version v21] [--auth-mode auto|service-account|oauth-refresh-token] [--json]',
     '',
-    'Diagnoses the service-account auth path for Google Ads using the configured developer token and account defaults.',
+    'Diagnoses Google Ads auth using the configured developer token and account defaults.',
   ].join('\n');
 }
 
@@ -66,14 +70,18 @@ function formatCheck(check) {
       customerId: args.customerId,
       loginCustomerId: args.loginCustomerId,
       apiVersion: args.apiVersion,
+      authMode: args.authMode,
       developerTokenPresent: false,
     },
     auth: {
       source: null,
+      resolvedAuthMode: null,
       serviceAccountEmail: null,
       serviceAccountPath: null,
       serviceAccountProjectId: null,
       serviceAccountProjectNumber: null,
+      serviceAccountSubject: null,
+      oauthClientId: null,
     },
     accessibleCustomerIds: [],
     checks: [],
@@ -106,20 +114,25 @@ function formatCheck(check) {
 
   let tokenInfo;
   try {
-    tokenInfo = await resolveAccessToken();
+    tokenInfo = await resolveAccessToken({ authMode: args.authMode });
     report.auth.source = tokenInfo.source;
+    report.auth.resolvedAuthMode = tokenInfo.authMode || args.authMode;
     report.auth.serviceAccountEmail = tokenInfo.serviceAccount?.email || null;
     report.auth.serviceAccountPath = tokenInfo.serviceAccount?.path || null;
     report.auth.serviceAccountProjectId = tokenInfo.serviceAccount?.projectId || null;
     report.auth.serviceAccountProjectNumber = tokenInfo.serviceAccount?.projectNumber || null;
+    report.auth.serviceAccountSubject = tokenInfo.serviceAccount?.subject || null;
+    report.auth.oauthClientId = tokenInfo.oauthClient?.clientId || null;
 
     pushCheck(report, {
       name: 'Access token mint',
       ok: true,
       summary: `Succeeded via ${tokenInfo.source}`,
       detail: tokenInfo.serviceAccount
-        ? `${tokenInfo.serviceAccount.email} (${tokenInfo.serviceAccount.projectId || 'unknown project'})`
-        : 'Using explicit GOOGLE_ADS_TOKEN override',
+        ? `${tokenInfo.serviceAccount.email} (${tokenInfo.serviceAccount.projectId || 'unknown project'})${tokenInfo.serviceAccount.subject ? ` as ${tokenInfo.serviceAccount.subject}` : ''}`
+        : tokenInfo.oauthClient
+          ? `OAuth refresh-token flow via client ${tokenInfo.oauthClient.clientId}`
+          : 'Using explicit GOOGLE_ADS_TOKEN override',
     });
   } catch (error) {
     pushCheck(report, {
@@ -128,7 +141,11 @@ function formatCheck(check) {
       summary: 'Failed to mint token',
       detail: error.message,
     });
-    report.nextActions.push('Fix the service-account credential path or token generation before testing Google Ads access again.');
+    report.nextActions.push(
+      args.authMode === 'oauth-refresh-token'
+        ? 'Provide a full OAuth refresh-token config (client ID, client secret, refresh token) or switch auth mode before retrying.'
+        : 'Fix the selected Google Ads auth configuration before testing Google Ads access again.'
+    );
 
     if (args.json) {
       printJson(report);
@@ -137,6 +154,46 @@ function formatCheck(check) {
       process.stdout.write(`\nNext actions:\n- ${report.nextActions.join('\n- ')}\n`);
     }
     process.exit(1);
+  }
+
+  if (tokenInfo.source === 'service-account' && report.auth.serviceAccountProjectId) {
+    try {
+      const { credentials } = loadServiceAccount();
+      const cloudReport = await inspectCloudProject({
+        credentials,
+        projectId: report.auth.serviceAccountProjectId,
+        projectNumber: report.auth.serviceAccountProjectNumber,
+      });
+
+      if (cloudReport.projectMetadata) {
+        pushCheck(report, {
+          name: 'Cloud project metadata',
+          ok: cloudReport.projectMetadata.ok,
+          summary: cloudReport.projectMetadata.summary.message || 'Unable to read Cloud project metadata',
+          detail: cloudReport.projectMetadata.ok
+            ? report.auth.serviceAccountProjectId
+            : cloudReport.projectMetadata.summary.reason || null,
+        });
+      }
+
+      if (cloudReport.googleAdsApiService) {
+        pushCheck(report, {
+          name: 'Google Ads API service state',
+          ok: cloudReport.googleAdsApiService.ok,
+          summary: cloudReport.googleAdsApiService.summary.message || 'Unable to inspect googleads.googleapis.com state',
+          detail: cloudReport.googleAdsApiService.ok
+            ? report.auth.serviceAccountProjectId
+            : cloudReport.googleAdsApiService.summary.reason || null,
+        });
+      }
+    } catch (error) {
+      pushCheck(report, {
+        name: 'Cloud project diagnostics',
+        ok: false,
+        summary: 'Failed to run service-account Cloud project diagnostics',
+        detail: error.message,
+      });
+    }
   }
 
   const context = {
