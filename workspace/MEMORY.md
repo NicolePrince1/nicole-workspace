@@ -27,7 +27,8 @@
 ## Durable platform decisions
 
 - Stripe access exists for read-only billing analysis.
-- Trust the Stripe dashboard over the current Stripe script for MRR until the Stripe skill is improved.
+- Stripe access exists for read-only billing analysis.
+- Stripe skill update on 2026-04-03: the old price-math MRR path was materially wrong for Oviond because it undercounted archived/tiered prices and did not model billing reality well. The Stripe skill now uses invoice-backed normalized MRR as its primary method, with archived-price/tier-aware subscription-item fallback and local cached snapshots for speed. Dashboard numbers should still win as the final finance-grade tie-breaker, but the skill is now suitable for fast operational reads again.
 - Next Stripe analysis work should focus on full pagination, paid-vs-trial separation, plan mix, paused/reactivation opportunity, and churn-risk views.
 - Google Workspace is connected for Nicole via domain-wide delegated impersonation.
 - Google Analytics is operational for Oviond.
