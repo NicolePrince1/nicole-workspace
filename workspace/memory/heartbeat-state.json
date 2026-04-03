@@ -2,7 +2,7 @@
   "lastChecks": {
     "trial_health": 1775228410,
     "revenue_pulse": 1775228167,
-    "seo_movement": 1774706400,
+    "seo_movement": 1775229294,
     "email_health": 1775228410,
     "ad_spend": 1775228167
   },
@@ -56,96 +56,13 @@
       "note": "Stripe rolling 7-day paid invoice revenue is up strongly versus the prior 7-day window; past_due remains well below the alert threshold."
     },
     "seo_movement": {
-      "status": "attention",
-      "top10": [
-        {
-          "query": "advantages and disadvantages of influencer marketing",
-          "clicks": 1,
-          "impressions": 13,
-          "ctr": 0.07692307692307693,
-          "position": 1.6923076923076923
-        },
-        {
-          "query": "ai marketing free",
-          "clicks": 1,
-          "impressions": 20,
-          "ctr": 0.05,
-          "position": 15.2
-        },
-        {
-          "query": "ai tools for marketing free",
-          "clicks": 1,
-          "impressions": 19,
-          "ctr": 0.05263157894736842,
-          "position": 13.68421052631579
-        },
-        {
-          "query": "digital marketing pillars",
-          "clicks": 1,
-          "impressions": 27,
-          "ctr": 0.037037037037037035,
-          "position": 2
-        },
-        {
-          "query": "digital marketing reporting",
-          "clicks": 1,
-          "impressions": 245,
-          "ctr": 0.004081632653061225,
-          "position": 30.37142857142857
-        },
-        {
-          "query": "excel dashboard templates",
-          "clicks": 1,
-          "impressions": 36,
-          "ctr": 0.027777777777777776,
-          "position": 29.61111111111111
-        },
-        {
-          "query": "free ai for digital marketing",
-          "clicks": 1,
-          "impressions": 13,
-          "ctr": 0.07692307692307693,
-          "position": 5.846153846153846
-        },
-        {
-          "query": "google ads report template",
-          "clicks": 1,
-          "impressions": 69,
-          "ctr": 0.014492753623188406,
-          "position": 18.55072463768116
-        },
-        {
-          "query": "influencer marketing pros and cons",
-          "clicks": 1,
-          "impressions": 15,
-          "ctr": 0.06666666666666667,
-          "position": 2.666666666666667
-        },
-        {
-          "query": "kpi reporting",
-          "clicks": 1,
-          "impressions": 107,
-          "ctr": 0.009345794392523364,
-          "position": 19.822429906542055
-        }
-      ],
-      "flagged_position_drops_gt3": [
-        {
-          "query": "ai marketing free",
-          "previous_position": 5.425,
-          "current_position": 15.2,
-          "delta": 9.774999999999999,
-          "clicks": 1,
-          "impressions": 20
-        }
-      ],
-      "baseline_available": true,
-      "baseline_file": "memory/seo-weekly/latest.json",
+      "status": "ok",
       "window": {
-        "startDate": "2026-03-21",
-        "endDate": "2026-03-25"
+        "startDate": "2026-03-27",
+        "endDate": "2026-03-31"
       },
-      "note": "Compared against the prior baseline in memory/seo-weekly/latest.json; one overlapping non-brand query dropped by more than 3 positions."
+      "flagged_drops_gt3": [],
+      "note": "Current top non-brand GSC window shows no overlapping query position drops greater than 3 versus the last stored SEO baseline."
     },
     "email_health": {
       "status": "attention",
