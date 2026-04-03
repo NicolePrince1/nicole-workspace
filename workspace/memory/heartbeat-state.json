@@ -1,95 +1,40 @@
 {
   "lastChecks": {
-    "trial_health": 1774694520,
+    "trial_health": 1775228410,
     "revenue_pulse": 1775228167,
     "seo_movement": 1774706400,
-    "email_health": 1774694520,
+    "email_health": 1775228410,
     "ad_spend": 1775228167
   },
   "lastMetrics": {
     "trial_health": {
       "status": "attention",
-      "trial_group_active_count": 50,
-      "previous_trial_group_active_count": 46,
-      "trend": "up",
-      "trend_delta": 4,
-      "trialing_true_count_in_group": 33,
-      "dirty_nontrial_count_in_group": 17,
-      "dirty_status_breakdown": {
-        "trial_expired": 12,
-        "trialing": 33,
-        "canceled": 1,
-        "active": 2,
-        "missing": 2
-      },
-      "near_expiry_count_next_3_days": 6,
-      "near_expiry_breakdown_next_3_days": {
-        "no_integration_no_report": 4,
-        "integration_no_report": 2
-      },
+      "trial_group_id": "144842036774700459",
+      "trial_group_name": "1.1. \ud83d\ude80 Trial Users - All (0 to 15 Days)",
+      "trial_group_active_count": 70,
+      "previous_trial_group_active_count": 125,
+      "delta_active_count": -55,
+      "trialing_rows_in_group": 41,
+      "near_expiry_count_next_3_days": 4,
       "near_expiry_sample": [
         {
-          "email": "partner@gatwick.group",
-          "days_left": 0.15,
-          "trialing": "true",
-          "status": "trialing",
-          "current_period_end": "2026-03-28T14:22:09Z",
-          "integrations_present": false,
-          "reports_count": 0,
-          "bucket": "no_integration_no_report"
+          "email": "becca@methodvisual.com",
+          "current_period_end": "2026-04-05T03:06:20Z"
         },
         {
-          "email": "dylannkilburn@gmail.com",
-          "days_left": 0.79,
-          "trialing": "true",
-          "status": "trialing",
-          "current_period_end": "2026-03-29T05:40:06Z",
-          "integrations_present": false,
-          "reports_count": 0,
-          "bucket": "no_integration_no_report"
+          "email": "hibandx@gmail.com",
+          "current_period_end": "2026-04-05T10:52:28Z"
         },
         {
-          "email": "samil.er@kaanlar.com.tr",
-          "days_left": 1.21,
-          "trialing": "true",
-          "status": "trialing",
-          "current_period_end": "2026-03-29T15:48:46Z",
-          "integrations_present": false,
-          "reports_count": 0,
-          "bucket": "no_integration_no_report"
+          "email": "spt.pixelpro@gmail.com",
+          "current_period_end": "2026-04-05T12:39:40Z"
         },
         {
-          "email": "contato@ramonmatos.com.br",
-          "days_left": 2.44,
-          "trialing": "true",
-          "status": "trialing",
-          "current_period_end": "2026-03-30T21:15:10Z",
-          "integrations_present": false,
-          "reports_count": 0,
-          "bucket": "no_integration_no_report"
-        },
-        {
-          "email": "mittal.czargroup@gmail.com",
-          "days_left": 2.83,
-          "trialing": "true",
-          "status": "trialing",
-          "current_period_end": "2026-03-31T06:33:03Z",
-          "integrations_present": true,
-          "reports_count": 0,
-          "bucket": "integration_no_report"
-        },
-        {
-          "email": "info@coffeestoutmedia.com",
-          "days_left": 3.09,
-          "trialing": "true",
-          "status": "trialing",
-          "current_period_end": "2026-03-31T12:48:05Z",
-          "integrations_present": true,
-          "reports_count": 0,
-          "bucket": "integration_no_report"
+          "email": "artem@respect.studio",
+          "current_period_end": "2026-04-05T17:07:04Z"
         }
       ],
-      "note": "MailerLite Trial Users group checked live; group count is up versus the prior check, but the group is substantially dirtier and six current trials are within roughly three days of expiry."
+      "note": "Trial Users active_count is down sharply versus the last recorded heartbeat check, and 4 currently trialing users expire within the next 3 days."
     },
     "revenue_pulse": {
       "status": "ok",
@@ -208,13 +153,46 @@
         {
           "name": "101 - Oviond Reactivate or Scrub",
           "enabled": false,
-          "bounce_rate": 0.050102184186997,
-          "open_rate": 0.25874952101162,
+          "open_rate": "25.88%",
+          "bounce_rate_total": "5.01%",
           "sent": 31316,
-          "reason": "bounce_rate_above_5_percent"
+          "warnings": [
+            "email_domain_not_authenticated",
+            "group_deleted"
+          ],
+          "broken": true
+        },
+        {
+          "name": "1.3 Trial Extension Manually Applied",
+          "enabled": true,
+          "open_rate": "0%",
+          "bounce_rate_total": "0.00%",
+          "sent": 0,
+          "warnings": [],
+          "broken": false
+        },
+        {
+          "name": "7 Email Reactivation Series Feb 2026",
+          "enabled": false,
+          "open_rate": "0%",
+          "bounce_rate_total": "0.00%",
+          "sent": 0,
+          "warnings": [],
+          "broken": false
+        },
+        {
+          "name": "1.1b Trial Onboarding V2 (Nicole - March 2026) - DRAFT",
+          "enabled": false,
+          "open_rate": "0%",
+          "bounce_rate_total": "0.00%",
+          "sent": 0,
+          "warnings": [
+            "email_domain_not_authenticated"
+          ],
+          "broken": true
         }
       ],
-      "note": "MailerLite automations checked live; the only material threshold breach remains the disabled Reactivate or Scrub automation with bounce rate just over 5%."
+      "note": "The main actionable automation issue remains 101 - Oviond Reactivate or Scrub: total bounce rate is just over 5% and the workflow is broken with group_deleted/email_domain_not_authenticated warnings."
     },
     "ad_spend": {
       "status": "attention",
