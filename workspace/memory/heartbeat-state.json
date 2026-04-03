@@ -4,7 +4,7 @@
     "revenue_pulse": 1774709400,
     "seo_movement": 1774706400,
     "email_health": 1774694520,
-    "ad_spend": 1774710180
+    "ad_spend": 1775193020
   },
   "lastMetrics": {
     "trial_health": {
@@ -217,15 +217,24 @@
       "note": "MailerLite automations checked live; the only material threshold breach remains the disabled Reactivate or Scrub automation with bounce rate just over 5%."
     },
     "ad_spend": {
-      "status": "ok",
-      "week_start": "2026-03-22",
-      "week_end": "2026-03-28",
-      "spend": 3292.46,
-      "landing_page_views": 50,
-      "cost_per_landing_page_view": 65.8492,
-      "previous_week_cost_per_landing_page_view": 163.1187,
-      "flagged_campaigns": [],
-      "note": "Meta Ads current-week overview checked live with landing_page_view as the primary action; account-level LPV CPA remains well below the R200 threshold and is materially better than the prior 7-day window."
+      "status": "attention",
+      "week_start": "2026-03-29",
+      "week_end": "2026-04-03",
+      "spend": 4298.11,
+      "landing_page_views": 19,
+      "cost_per_landing_page_view": 226.2163,
+      "previous_week_cost_per_landing_page_view": 63.7778,
+      "flagged_campaigns": [
+        {
+          "campaign_name": "Remarketing USA - Free Trial Test",
+          "campaign_id": "120242845828470563",
+          "spend": 2404.33,
+          "landing_page_views": 4,
+          "cost_per_landing_page_view": 601.0825,
+          "status_now": "PAUSED"
+        }
+      ],
+      "note": "Meta Ads current-week LPV CPA is above the R200 threshold, driven mainly by the Free Trial Test earlier in the week; that campaign has now been paused and only the simplified traffic campaign remains live."
     }
   },
   "lastWeeklyReport": null,
