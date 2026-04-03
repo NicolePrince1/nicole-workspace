@@ -73,13 +73,13 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 - Local skill lives at `skills/google-analytics/`.
 - Token helper material lives in gitignored secret storage under `/data/.openclaw/secrets/`.
-- Project: `oviond-workspace-cli`.
+- Keep this section to local helper/path mechanics only; project history and auth state belong in `MEMORY.md` or the relevant skill docs.
 
 ### Google Ads
 
 - Local skill lives at `skills/google-ads/`.
-- Project: `oviond-workspace-cli`.
-- Keep this section to local helper/path mechanics only; auth state and blockers belong in `skills/google-ads/SKILL.md`, with only a short durable summary in `MEMORY.md`.
+- Preferred credential source: OpenClaw Envars via `GOOGLE_ADS_SERVICE_ACCOUNT_JSON_CONTENT`.
+- Keep this section to local helper/path mechanics only; project history, auth state, and incident-specific blockers belong in `MEMORY.md` or `skills/google-ads/SKILL.md`.
 
 ---
 
