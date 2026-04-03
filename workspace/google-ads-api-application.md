@@ -1,3 +1,17 @@
+# Historical archive — Google Ads API Basic Access application draft
+
+This file is **historical context only**.
+
+It reflects an earlier Google Ads API access/application draft from before the recovered production setup on 2026-04-03.
+It should **not** be treated as the current live auth/runbook reference.
+
+For active operator guidance, use:
+- `skills/google-ads/SKILL.md`
+- `skills/google-ads/references/service-account-setup.md`
+- `MEMORY.md` for durable platform state
+
+---
+
 # Google Ads API Basic Access Application — Oviond
 
 ## Company Information

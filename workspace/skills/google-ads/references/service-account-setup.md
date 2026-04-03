@@ -2,13 +2,29 @@
 
 Use this reference when the task is to make Google Ads API access actually work, not just to write reporting queries.
 
-## Default Oviond account mapping
+## Current production mapping
 
 - Manager account (MCC): `638-795-6297`
 - Target Ads account: `290-615-4258`
-- Default service account principal: `nicole-workspace@oviond-workspace-cli.iam.gserviceaccount.com`
-- Expected Cloud project: `oviond-workspace-cli`
-- Current failing project number seen in live tests: `480335022137`
+- Preferred credential source: OpenClaw Envar `GOOGLE_ADS_SERVICE_ACCOUNT_JSON_CONTENT`
+- Current production GCP project: `northern-card-492208-q6`
+- Current production service-account principal: `nicole-google-ads@northern-card-492208-q6.iam.gserviceaccount.com`
+
+## Live production state (2026-04-03)
+
+The recovered production path is working.
+
+Live checks succeeded for:
+- access-token mint
+- `customers:listAccessibleCustomers`
+- target-account query against client `2906154258`
+- manager → client linkage query
+
+Practical interpretation:
+- Google Ads production API access is operational again
+- the service-account-first architecture remains the preferred default
+- the earlier `PROJECT_DISABLED` issue belonged to the retired old project path, not to the overall operating model
+- limited Cloud-project introspection permissions may still affect some diagnostics, but they are non-blocking for actual Google Ads API usage
 
 ## Best-practice auth path
 
@@ -18,46 +34,33 @@ Why:
 - keeps automation off a human refresh token
 - survives staff changes
 - makes daily reporting and maintenance durable
-- matches Google's documented service-account workflow for Google Ads
+- matches Google Ads' intended service-account workflow
 
-## Current observed state (2026-04-03)
+## Active setup checklist
 
-Live checks from this workspace currently show:
+### 1) Credential source
 
-- service-account token mint succeeds for `nicole-workspace@oviond-workspace-cli.iam.gserviceaccount.com`
-- the backing Cloud project is `oviond-workspace-cli` / `480335022137`
-- Google Ads API calls still fail with `PROJECT_DISABLED`
-- an attempted domain-wide-delegation-style token mint for `nicole@oviond.com` with the Ads scope returned `unauthorized_client`
-- the current runtime does **not** have enough project IAM to inspect or enable `googleads.googleapis.com` directly via Service Usage
+Make sure the scripts are using the current production service-account JSON via:
+- `GOOGLE_ADS_SERVICE_ACCOUNT_JSON_CONTENT`
 
-Interpretation:
-- the present blocker is **not** basic JWT minting
-- the current blocker is now on the **Cloud project / Google Ads API permission** side
-- the old domain-wide-delegation assumption should not be treated as the live default
+Do not treat old local project references as the live default unless a specific historical debug task requires them.
 
-## Required setup checklist
+### 2) Cloud project
 
-### 1) Cloud project
+For the active production project:
+- confirm `googleads.googleapis.com` is enabled
+- confirm the service-account JSON actually belongs to the intended production project
+- keep the project/token pairing consistent if Google Ads API Center or support review is ever needed
 
-Make sure the Cloud project behind the service-account JSON is the project you want to use for Google Ads API access.
-
-Check:
-- `googleads.googleapis.com` is enabled on that project
-- the project is active
-- the credentials being used by the scripts actually belong to that project
-- if Google Ads API Center or Google support requires project/token approval, use the same project consistently
-- if the project is definitely correct and still returns `PROJECT_DISABLED`, treat a **fresh Cloud project + fresh credentials** as a serious recovery option, not a last-resort fantasy
-
-### 2) Service account access inside Google Ads
+### 3) Service account access inside Google Ads
 
 In Google Ads UI:
 - sign into the manager account as an admin
 - go to **Admin → Access and security**
-- add `nicole-workspace@oviond-workspace-cli.iam.gserviceaccount.com`
-- grant at least **Standard** access
-- if the planned workflow truly needs admin-only actions, upgrade later only if necessary
+- confirm `nicole-google-ads@northern-card-492208-q6.iam.gserviceaccount.com` is present
+- keep at least **Standard** access unless a task truly requires more
 
-### 3) Manager/client linkage
+### 4) Manager/client linkage
 
 Confirm the manager account `6387956297` is linked to client `2906154258`.
 
@@ -65,7 +68,7 @@ For client-account queries, keep the request shape consistent:
 - request path customer = client account
 - `login-customer-id` = manager account
 
-### 4) Smoke test before any reporting work
+### 5) Smoke test before any reporting work
 
 Run:
 
@@ -80,18 +83,7 @@ Healthy state should show:
 - target account query succeeds
 - manager → client linkage query succeeds
 
-## Interpreting common failures
-
-### `PROJECT_DISABLED`
-
-Meaning:
-- the Cloud project behind the token is not currently allowed to call Google Ads API
-
-Most likely actions:
-- enable Google Ads API on the service-account project
-- confirm you are using the intended project credentials
-- if already enabled, verify the project/token setup in Ads API Center or with Google Ads API support
-- if that still fails, create a fresh Cloud project, enable Google Ads API there, mint fresh credentials, add that principal as a Google Ads user, and retry
+## Interpreting common failures now
 
 ### `USER_PERMISSION_DENIED`
 
@@ -99,13 +91,29 @@ Meaning:
 - the authenticated principal does not have usable access to the target customer in the way the request is being made
 
 Most likely actions:
-- add the service account as a user in the manager account
-- confirm the manager is actually linked to the client account
+- confirm the current production service account is still a user in the manager account
+- confirm the manager is still linked to the client account
 - keep `login-customer-id` set to the manager account when querying the client account
+
+### Auth-doctor passes token mint but customer queries fail
+
+Meaning:
+- the credential itself is valid, but Ads-side access, manager/client linkage, or request shape is wrong
+
+Most likely actions:
+- confirm the active service account matches the production principal
+- re-check manager/client linkage
+- verify request customer vs `login-customer-id`
+
+### Historical `PROJECT_DISABLED` context
+
+This is now a **historical** troubleshooting path tied to the retired project `oviond-workspace-cli` / `480335022137`.
+
+Only revisit that line of investigation if a task explicitly asks for historical root-cause analysis.
 
 ## Fallback path
 
-If the service-account route remains blocked after proper setup, fall back to a real OAuth user with offline refresh token. That is a fallback, not the preferred operating model for Oviond.
+If the service-account route becomes unusable again after proper setup, fall back to a real OAuth user with offline refresh token. That is a fallback, not the preferred operating model for Oviond.
 
 Force the fallback path with:
 
