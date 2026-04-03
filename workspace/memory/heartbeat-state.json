@@ -1,10 +1,10 @@
 {
   "lastChecks": {
     "trial_health": 1774694520,
-    "revenue_pulse": 1774709400,
+    "revenue_pulse": 1775228167,
     "seo_movement": 1774706400,
     "email_health": 1774694520,
-    "ad_spend": 1775193020
+    "ad_spend": 1775228167
   },
   "lastMetrics": {
     "trial_health": {
@@ -92,23 +92,23 @@
       "note": "MailerLite Trial Users group checked live; group count is up versus the prior check, but the group is substantially dirtier and six current trials are within roughly three days of expiry."
     },
     "revenue_pulse": {
-      "status": "attention",
+      "status": "ok",
       "window": {
-        "last_7_start": "2026-03-21T14:50:00+00:00",
-        "last_7_end": "2026-03-28T14:50:00+00:00",
-        "prior_7_start": "2026-03-14T14:50:00+00:00",
-        "prior_7_end": "2026-03-21T14:50:00+00:00"
+        "last_7_start": "2026-03-27T14:55:19.006070+00:00",
+        "last_7_end": "2026-04-03T14:55:19.006070+00:00",
+        "prior_7_start": "2026-03-20T14:55:19.006070+00:00",
+        "prior_7_end": "2026-03-27T14:55:19.006070+00:00"
       },
-      "last_7_days_paid_revenue": 6335.4,
-      "last_7_days_paid_invoices": 95,
-      "prior_7_days_paid_revenue": 6888.92,
-      "prior_7_days_paid_invoices": 88,
-      "delta_revenue": -553.52,
-      "delta_invoices": 7,
-      "past_due_count": 8,
-      "unpaid_count": 27,
-      "delinquent_count": 35,
-      "note": "Stripe rolling 7-day paid invoice revenue is still below the prior 7-day window, though the gap is materially smaller than the earlier check; past_due remains below the alert threshold."
+      "last_7_days_paid_revenue": 7811.81,
+      "last_7_days_paid_invoices": 126,
+      "prior_7_days_paid_revenue": 4413.65,
+      "prior_7_days_paid_invoices": 91,
+      "delta_revenue": 3398.16,
+      "delta_invoices": 35,
+      "past_due_count": 7,
+      "unpaid_count": 29,
+      "delinquent_count": 36,
+      "note": "Stripe rolling 7-day paid invoice revenue is up strongly versus the prior 7-day window; past_due remains well below the alert threshold."
     },
     "seo_movement": {
       "status": "attention",
@@ -220,21 +220,11 @@
       "status": "attention",
       "week_start": "2026-03-29",
       "week_end": "2026-04-03",
-      "spend": 4298.11,
+      "spend": 4427.1,
       "landing_page_views": 19,
-      "cost_per_landing_page_view": 226.2163,
+      "cost_per_landing_page_view": 233.0053,
       "previous_week_cost_per_landing_page_view": 63.7778,
-      "flagged_campaigns": [
-        {
-          "campaign_name": "Remarketing USA - Free Trial Test",
-          "campaign_id": "120242845828470563",
-          "spend": 2404.33,
-          "landing_page_views": 4,
-          "cost_per_landing_page_view": 601.0825,
-          "status_now": "PAUSED"
-        }
-      ],
-      "note": "Meta Ads current-week LPV CPA is above the R200 threshold, driven mainly by the Free Trial Test earlier in the week; that campaign has now been paused and only the simplified traffic campaign remains live."
+      "note": "Meta Ads current-week LPV CPA is still above the R200 threshold. The simplified campaign remains live, but the week is still being dragged up by earlier poor spend before the broken test path was shut down."
     }
   },
   "lastWeeklyReport": null,
