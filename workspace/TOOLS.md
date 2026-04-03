@@ -40,8 +40,7 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ### TTS
 
 - Default provider: OpenAI TTS via `messages.tts` in `openclaw.json`.
-- Preferred default voice for Chris voice-note replies: `coral`.
-- Preferred default speed for Chris voice-note replies: `1.25`.
+- Keep this section to provider/setup mechanics only; user voice preferences belong in `MEMORY.md`.
 
 ### Google Workspace
 
