@@ -1,39 +1,33 @@
 ---
 name: browser-use
-description: Use the built-in first-class browser tool for website navigation, interaction, screenshots, extraction, and form filling. Trigger when the user needs browser automation or page inspection. Do not default to the legacy browser-use CLI workflow.
+description: Browser-oriented guidance for workspaces that may or may not have a first-class browser tool. Use when the user wants website inspection, browsing, extraction, screenshots, or form interaction. In this workspace, do not assume a `browser` tool exists; prefer the actually available web/UI tools, or only use first-class browser instructions if that tool is explicitly enabled.
 ---
 
-# Browser Automation
+# Browser / web work
 
-Use the first-class `browser` tool by default.
+This workspace does **not** guarantee a first-class `browser` tool.
 
-## Default rule
+## Default rule for this workspace
 
-For browser work, always prefer the built-in `browser` tool for:
-- navigating websites
-- clicking and typing
-- taking screenshots
-- extracting page information
-- filling forms
-- checking logged-in pages when appropriate
+For browser-like work, prefer the tools that actually exist here:
+- `web_search` for discovery and result finding
+- `web_fetch` for reading and extracting page content
+- `canvas` for OpenClaw Canvas/UI rendering, navigation, evaluation, and snapshots when a page or UI needs to be visually inspected through Canvas
 
-## Do not default to the legacy CLI
+## Do not assume a `browser` tool
 
-Do **not** reach for the `browser-use` CLI unless the user explicitly asks for that specific tool or there is a very unusual edge case the first-class `browser` tool cannot handle.
+Do **not** write instructions that depend on a `browser` tool unless that tool is explicitly available in the current workspace/runtime.
 
-The normal path is:
-1. open/focus a tab with the `browser` tool
-2. inspect with `snapshot`
-3. interact with `act`
-4. capture with `screenshot` if needed
+If a request truly requires first-class browser automation and this workspace does not expose that tool, say so plainly instead of pretending it exists.
 
 ## Practical guidance
 
-- Prefer `profile="user"` when existing host-browser logins matter and user interaction is available.
-- Prefer the isolated default browser when login state does not matter.
-- Keep automation simple and local to the current task.
-- Avoid adding extra browser stacks, cloud sessions, tunnels, cookie-sync flows, or CLI-specific workflows unless explicitly required.
+- Use `web_search` first when the task is research or finding the right page.
+- Use `web_fetch` when the goal is to read or extract the contents of a page quickly.
+- Use `canvas` when visual inspection, rendered-state checks, page snapshots, or lightweight page interaction is needed through the Canvas flow.
+- Do not default to any legacy `browser-use` CLI workflow.
+- Do not invent browser actions (`act`, `snapshot`, `screenshot`, tabs, profiles) unless the actual toolset for the current workspace supports them.
 
 ## Outcome
 
-This skill exists only to point browser tasks toward the first-class `browser` tool and away from unnecessary extra complexity.
+This skill exists to keep browser-related work grounded in the real tool availability of the workspace instead of assuming a nonexistent first-class browser tool.
