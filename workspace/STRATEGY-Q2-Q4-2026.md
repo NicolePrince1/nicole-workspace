@@ -135,20 +135,21 @@ Current Meta ads are inefficient:
 - [ ] Segment paying customers by usage and send targeted upgrade nudges
 - [ ] Add premium features or higher tiers that justify increased pricing
 
-The MailerLite groups 3.6 (Ready to Upgrade - Annual), 3.7 (Ready to Upgrade - Client Limit) exist but have 0 members — need to populate these segments.
+The old MailerLite groups 3.6 (Ready to Upgrade - Annual) and 3.7 (Ready to Upgrade - Client Limit) were empty. They are now historical only and no longer part of the active operating plan after the Sequenzy reset.
 
 ---
 
-## Tech Stack & Migration Strategy (March 2026)
+## Lifecycle Platform Reset (April 2026)
 
-### Pivot to Loops.so
-- **Decision:** Moving from MailerLite to Loops.so for email automation.
-- **Why:** Loops is API-first and SaaS-native; removes manual UI drag-and-drop bottlenecks. Allows full programmatic control of onboarding, activation, and churn sequences.
-- **End-to-End Migration Strategy:**
-    1. **Infrastructure (Days 1-2):** Set up Loops.so account, configure DNS (SPF/DKIM/DMARC), map Stripe data to custom fields.
-    2. **Logic Migration (Days 3-5):** Re-engineer 15-day trial sequence (behavior-driven triggers, not just time-based).
-    3. **Content Sync (Days 6-7):** Insert new copy from audit into Loops templates.
-    4. **Cutover (Day 8):** Shadow run, then activate.
+### Reset from MailerLite + Loops to Sequenzy
+- **Decision:** MailerLite and Loops are retired from active operational use.
+- **Current direction:** Rebuild lifecycle email from a clean slate in Sequenzy.
+- **Operating rule:** Keep old platform material only as archived reference; do not treat it as live process, live tooling, or a migration template to copy one-to-one.
+- **Near-term approach:**
+    1. **Operational cleanup:** Remove MailerLite / Loops from live skills, heartbeat checks, cron dependencies, and working strategy docs.
+    2. **Interim reporting:** Use Stripe and other source-of-truth systems for trial / revenue monitoring while Sequenzy is being built.
+    3. **Fresh build:** Create the new lifecycle architecture in Sequenzy from scratch instead of porting old list/group logic.
+    4. **Ownership handoff:** Once the initial Sequenzy build exists, Nicole studies the live setup and takes over operation.
 
 ---
 
@@ -156,8 +157,8 @@ The MailerLite groups 3.6 (Ready to Upgrade - Annual), 3.7 (Ready to Upgrade - C
 
 ### Daily (Automated / Heartbeat)
 - [ ] Check for urgent support signals or churning customers
-- [ ] Monitor trial signups (Stripe webhook or MailerLite new subscriber alerts)
-- [ ] Check email deliverability / automation errors
+- [ ] Monitor trial signups from Stripe / source-of-truth systems
+- [ ] Check email deliverability / automation errors once Sequenzy is live
 
 ### Weekly (Every Monday — Report to Chris)
 - [ ] **Weekly metrics dashboard:**
@@ -165,10 +166,10 @@ The MailerLite groups 3.6 (Ready to Upgrade - Annual), 3.7 (Ready to Upgrade - C
   - Trial → paid conversions
   - MRR change (new + expansion - churn)
   - Website traffic + signups by channel
-  - Email automation performance
+  - Lifecycle email performance once Sequenzy is live
   - Ad spend + results
 - [ ] Review top Search Console movers (keyword position changes)
-- [ ] Check MailerLite automation health (delivery rates, open rates)
+- [ ] Review lifecycle automation health once Sequenzy is live
 
 ### Monthly (First Monday of Month)
 - [ ] **Monthly growth report** — full MRR analysis, funnel metrics, channel performance
@@ -191,7 +192,7 @@ The MailerLite groups 3.6 (Ready to Upgrade - Annual), 3.7 (Ready to Upgrade - C
 | Mon 09:00 SAST | Weekly metrics pull + report to Chris |
 | 1st of month, 09:00 | Monthly growth report |
 | Wed 12 Mar | Check Google Ads API Basic Access approval |
-| Daily 08:00 | Check for new trial signups (MailerLite) |
+| Daily 08:00 | Check for new trial signups (Stripe / source-of-truth systems) |
 | Fri 14:00 | Weekly SEO check (GSC position changes) |
 
 ---

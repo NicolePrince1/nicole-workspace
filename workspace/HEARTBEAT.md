@@ -3,9 +3,9 @@
 ## Rotation (pick 1-2 per heartbeat, track in memory/heartbeat-state.json)
 
 ### 1. Trial Health Check
-- Check MailerLite group "1.1 Trial Users" for current count
+- Use Stripe/app truth for current trial count
 - Compare to last check — trending up or down?
-- If a trial is about to expire (day 13-15), flag it
+- If a trial is due to expire within the next 3 days, flag it
 
 ### 2. Revenue Pulse
 - Pull last 7 days of Stripe paid invoices
@@ -17,8 +17,9 @@
 - Compare positions to last check (stored in memory/seo-weekly/)
 - Flag any position drops >3
 
-### 4. Email Health
-- Check MailerLite automation delivery rates
+### 4. Lifecycle Email Health
+- Only run when Sequenzy is live and usable
+- Check delivery / bounce / open anomalies in the live lifecycle setup
 - Flag any automation with >5% bounce rate or <15% open rate
 
 ### 5. Ad Spend Check

@@ -7,7 +7,7 @@
         "kind": "cron",
         "expr": "0 7 * * 1"
       },
-      "task": "Weekly Monday report for Chris. Pull: 1) Stripe MRR from last 7 days invoices vs prior 7 days, new trials, past_due count, paused count. 2) GA4 sessions + signups by channel, week-over-week. 3) MailerLite trial group size, automation performance. 4) GSC top keyword position changes. 5) Meta ads spend + results. Format as clean Slack summary with trends (up/down arrows). Update memory/weekly-reports/ with the data. Send to Chris on Slack.",
+      "task": "Weekly Monday report for Chris. Pull: 1) Stripe MRR from last 7 days invoices vs prior 7 days, new trials, past_due count, paused count. 2) GA4 sessions + signups by channel, week-over-week. 3) Stripe trialing count plus trials expiring soon. 4) GSC top keyword position changes. 5) Meta ads spend + results. Format as clean Slack summary with trends (up/down arrows). Update memory/weekly-reports/ with the data. Send to Chris on Slack.",
       "target": "UDXMTJXGT",
       "state": {
         "nextRunAtMs": 1775458800000
@@ -58,7 +58,8 @@
       "task": "Friday SEO check. Pull GSC data for the week vs prior week. Compare top 20 non-brand keyword positions. Flag any movement >3 positions (up or down). Check target pages: client-onboarding-checklist, digital-marketing-reporting, free-ai-tools, content-social-media-marketing. Save to memory/seo-weekly/YYYY-MM-DD.json. Only message Chris if significant changes found.",
       "target": "UDXMTJXGT",
       "state": {
-        "nextRunAtMs": 1775217600000
+        "nextRunAtMs": 1775217600000,
+        "runningAtMs": 1775282425226
       },
       "name": "Cron: 0 12 * * 5",
       "enabled": true,
@@ -71,7 +72,7 @@
         "kind": "cron",
         "expr": "0 9 * * 3"
       },
-      "task": "Mid-week trial check. Pull: 1) Current trial count from MailerLite group 1.1. 2) New trials started this week (MailerLite API, subscribers created in last 7 days in trial group). 3) Stripe trialing count. 4) Any trials expiring in next 3 days? Compare to last week. If trial-to-paid conversion rate drops below 10%, flag to Chris with analysis.",
+      "task": "Mid-week trial check. Pull: 1) Current Stripe trialing count. 2) New trials started this week from Stripe. 3) Any trials expiring in next 3 days? Compare to last week. 4) If trial-to-paid conversion rate drops below 10%, flag to Chris with analysis.",
       "target": "UDXMTJXGT",
       "state": {
         "nextRunAtMs": 1775638800000

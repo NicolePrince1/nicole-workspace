@@ -323,7 +323,7 @@ Founder, Oviond
 - Reply-to: hi@getoviond.com
 - Language: English (ID 4)
 - Track opens: Yes
-- Google Analytics tracking: Yes (add UTM: source=mailerlite, medium=email, campaign=trial-onboarding-v2)
+- Google Analytics tracking: Yes (add UTM: source=sequenzy, medium=email, campaign=trial-onboarding-v2)
 
 ### Merge fields used:
 - `{$name}` — subscriber first name

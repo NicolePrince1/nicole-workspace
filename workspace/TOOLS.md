@@ -58,10 +58,11 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 - Helper script: `/data/.openclaw/skills/stripe-reader/scripts/stripe_snapshot.py`.
 - Capability/access posture belongs in `MEMORY.md`; keep this section for local secret/path notes only.
 
-### MailerLite
+### Sequenzy
 
-- API key lives in OpenClaw Envars as `MAILER_LITE`.
-- Local skill lives at `skills/mailerlite/`.
+- Fresh-start lifecycle email platform replacing MailerLite and Loops operationally.
+- Do not store credentials in workspace files; use OpenClaw Envars when the platform is wired in.
+- No local Sequenzy skill or helper is committed yet.
 
 ### Meta
 
