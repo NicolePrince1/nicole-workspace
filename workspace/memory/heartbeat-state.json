@@ -1,7 +1,7 @@
 {
   "lastChecks": {
-    "trial_health": 1775228410,
-    "revenue_pulse": 1775228167,
+    "trial_health": 1775327326,
+    "revenue_pulse": 1775327326,
     "seo_movement": 1775229294,
     "email_health": 1775228410,
     "ad_spend": 1775228167
@@ -9,51 +9,75 @@
   "lastMetrics": {
     "trial_health": {
       "status": "attention",
-      "trial_group_id": "144842036774700459",
-      "trial_group_name": "1.1. \ud83d\ude80 Trial Users - All (0 to 15 Days)",
-      "trial_group_active_count": 70,
-      "previous_trial_group_active_count": 125,
-      "delta_active_count": -55,
-      "trialing_rows_in_group": 41,
-      "near_expiry_count_next_3_days": 4,
+      "trialing_count": 48,
+      "previous_trialing_count": 41,
+      "delta_trialing_count": 7,
+      "near_expiry_count_next_3_days": 9,
       "near_expiry_sample": [
         {
-          "email": "becca@methodvisual.com",
-          "current_period_end": "2026-04-05T03:06:20Z"
+          "subscription_id": "sub_1TDFrkEV1Q8wnLquzWnAJfKQ",
+          "customer_id": "cus_UBd862373cVFKj",
+          "current_period_end": "2026-04-05T03:06:20+00:00"
         },
         {
-          "email": "hibandx@gmail.com",
-          "current_period_end": "2026-04-05T10:52:28Z"
+          "subscription_id": "sub_1TDN8qEV1Q8wnLqu8VN6HHUW",
+          "customer_id": "cus_UBkebcDqmu3Ps4",
+          "current_period_end": "2026-04-05T10:52:28+00:00"
         },
         {
-          "email": "spt.pixelpro@gmail.com",
-          "current_period_end": "2026-04-05T12:39:40Z"
+          "subscription_id": "sub_1TDOoaEV1Q8wnLquzFiWXyVM",
+          "customer_id": "cus_UBmNdnuy839wE2",
+          "current_period_end": "2026-04-05T12:39:40+00:00"
         },
         {
-          "email": "artem@respect.studio",
-          "current_period_end": "2026-04-05T17:07:04Z"
+          "subscription_id": "sub_1TDPcEEV1Q8wnLquxmQHk9Ye",
+          "customer_id": "cus_UBnC87ACK6WpaX",
+          "current_period_end": "2026-04-05T13:30:58+00:00"
+        },
+        {
+          "subscription_id": "sub_1TDSzMEV1Q8wnLqubXLcv8gc",
+          "customer_id": "cus_UBqghK66QXuGCZ",
+          "current_period_end": "2026-04-05T17:07:04+00:00"
+        },
+        {
+          "subscription_id": "sub_1TE5ubEV1Q8wnLqucj39cggQ",
+          "customer_id": "cus_UCUuPCNeUNE9ft",
+          "current_period_end": "2026-04-07T10:40:45+00:00"
+        },
+        {
+          "subscription_id": "sub_1TE72jEV1Q8wnLqu9849u0Qh",
+          "customer_id": "cus_UCW45THSLo7FDd",
+          "current_period_end": "2026-04-07T11:53:13+00:00"
+        },
+        {
+          "subscription_id": "sub_1TE8icEV1Q8wnLqur37GKWo6",
+          "customer_id": "cus_UCXonvgsy1HE6b",
+          "current_period_end": "2026-04-07T13:40:34+00:00"
+        },
+        {
+          "subscription_id": "sub_1TEApKEV1Q8wnLquzCSUOYN8",
+          "customer_id": "cus_UCZzGgC6j11FQP",
+          "current_period_end": "2026-04-07T15:55:37+00:00"
         }
       ],
-      "note": "Trial Users active_count is down sharply versus the last recorded heartbeat check, and 4 currently trialing users expire within the next 3 days."
+      "note": "Stripe trialing subscriptions are up versus the last heartbeat count, and 9 active trials expire within the next 3 days."
     },
     "revenue_pulse": {
-      "status": "ok",
+      "status": "attention",
       "window": {
-        "last_7_start": "2026-03-27T14:55:19.006070+00:00",
-        "last_7_end": "2026-04-03T14:55:19.006070+00:00",
-        "prior_7_start": "2026-03-20T14:55:19.006070+00:00",
-        "prior_7_end": "2026-03-27T14:55:19.006070+00:00"
+        "last_7_end": "2026-04-04T18:28:00+00:00",
+        "last_7_start": "2026-03-28T18:28:00+00:00",
+        "prior_7_start": "2026-03-21T18:28:00+00:00",
+        "prior_7_end": "2026-03-28T18:28:00+00:00"
       },
-      "last_7_days_paid_revenue": 7811.81,
-      "last_7_days_paid_invoices": 126,
-      "prior_7_days_paid_revenue": 4413.65,
-      "prior_7_days_paid_invoices": 91,
-      "delta_revenue": 3398.16,
-      "delta_invoices": 35,
-      "past_due_count": 7,
-      "unpaid_count": 29,
-      "delinquent_count": 36,
-      "note": "Stripe rolling 7-day paid invoice revenue is up strongly versus the prior 7-day window; past_due remains well below the alert threshold."
+      "last_7_days_paid_revenue": 6081.99,
+      "last_7_days_paid_invoices": 123,
+      "prior_7_days_paid_revenue": 6432.75,
+      "prior_7_days_paid_invoices": 101,
+      "delta_revenue": -350.76,
+      "delta_invoices": 22,
+      "past_due_count": 5,
+      "note": "Stripe rolling 7-day paid invoice revenue is down versus the prior 7-day window, although paid invoice count is up and past_due remains below the alert threshold."
     },
     "seo_movement": {
       "status": "ok",
