@@ -42,6 +42,7 @@
 - On 2026-04-04 Chris decided to fully retire MailerLite and Loops from active operational workflows.
 - Lifecycle email / marketing automation will be rebuilt from a fresh start in Sequenzy, with Nicole expected to learn the new setup and take over operation once the initial build is in place.
 - Old MailerLite / Loops materials should be preserved only as archived historical reference, not treated as active runbooks.
+- Gleap is a critical operational platform for Oviond across customer service, ticketing, feature/roadmap handling, internal planning, and the public help center. A first-draft local `use-gleap` skill was created on 2026-04-04; live validation is pending once `GLEAP_API_KEY` and `GLEAP_PROJECT_ID` are wired into OpenClaw env vars.
 - Meta access is configured for Oviond’s Facebook, Instagram, and Ads assets.
 - Oviond design capability should be built as a skill-led operating system: Nicole as art director/QA, a dedicated Oviond design skill as the reusable brain, and Gemini/Nano Banana as the rendering layer.
 - The November 2024 Oviond brand refresh guide is now the primary source of truth for the internal design system, especially its direction toward abstract feeling-led imagery, Inter Semibold logotype treatment, and restrained use of white/black/main blue.
