@@ -1,85 +1,128 @@
 ---
 name: sequenzy
-description: [TODO: Complete and informative explanation of what the skill does and when to use it. Include WHEN to use this skill - specific scenarios, file types, or tasks that trigger it.]
+description: Operate Sequenzy for Oviond email marketing, lifecycle automation, subscriber management, transactional email, analytics, and SaaS billing-trigger workflows. Use when work involves Sequenzy subscribers, tags, attributes, events, sequences, campaigns, templates, transactional sends, Stripe-driven lifecycle email, deliverability/engagement metrics, or choosing the safest path across dashboard, REST API, CLI, and MCP surfaces.
 ---
 
 # Sequenzy
 
-## Overview
+Use this skill to operate Sequenzy itself, not Sequenzy source code.
 
-[TODO: 1-2 sentences explaining what this skill enables]
+## Core operating stance
 
-## Structuring This Skill
+1. Start by deciding which surface is credible for the requested task:
+   - **REST/OpenAPI** for verified public API work.
+   - **MCP** for richer operations that appear implemented in the public MCP server.
+   - **Dashboard** for setup, review, approval, and anything the public API surface does not clearly expose.
+   - **CLI** only for flows explicitly confirmed in the official public skill.
+2. Treat **verified**, **inferred**, and **needs live validation** as separate categories. Do not blur them.
+3. Prefer inspection before mutation.
+4. For email content that could reach real users, require human review before enabling/sending at scale.
+5. For SaaS lifecycle work, prefer native billing integrations over hand-rolled event plumbing when Sequenzy supports the provider.
 
-[TODO: Choose the structure that best fits this skill's purpose. Common patterns:
+## What is solidly verified
 
-**1. Workflow-Based** (best for sequential processes)
-- Works well when there are clear step-by-step procedures
-- Example: DOCX skill with "Workflow Decision Tree" -> "Reading" -> "Creating" -> "Editing"
-- Structure: ## Overview -> ## Workflow Decision Tree -> ## Step 1 -> ## Step 2...
+### Verified via public OpenAPI / docs
 
-**2. Task-Based** (best for tool collections)
-- Works well when the skill offers different operations/capabilities
-- Example: PDF skill with "Quick Start" -> "Merge PDFs" -> "Split PDFs" -> "Extract Text"
-- Structure: ## Overview -> ## Quick Start -> ## Task Category 1 -> ## Task Category 2...
+The public REST API clearly covers:
+- subscribers
+- tags on subscribers
+- subscriber events
+- transactional email templates lookup + send
+- preferences-widget token generation
+- aggregate metrics, campaign metrics, sequence metrics, recipient metrics
 
-**3. Reference/Guidelines** (best for standards or specifications)
-- Works well for brand guidelines, coding standards, or requirements
-- Example: Brand styling with "Brand Guidelines" -> "Colors" -> "Typography" -> "Features"
-- Structure: ## Overview -> ## Guidelines -> ## Specifications -> ## Usage...
+This makes REST a strong path for:
+- add/update/get/delete subscribers
+- tag subscribers
+- trigger product or lifecycle events
+- send transactional emails
+- read performance metrics
 
-**4. Capabilities-Based** (best for integrated systems)
-- Works well when the skill provides multiple interrelated features
-- Example: Product Management with "Core Capabilities" -> numbered capability list
-- Structure: ## Overview -> ## Core Capabilities -> ### 1. Feature -> ### 2. Feature...
+### Verified via official public skill
 
-Patterns can be mixed and matched as needed. Most skills combine patterns (e.g., start with task-based, add workflow for complex operations).
+The official Sequenzy skill is deliberately conservative. It confirms the current practical CLI path is centered on:
+- auth / identity
+- subscriber list/add/get/remove
+- stats
+- single transactional send
 
-Delete this entire "Structuring This Skill" section when done - it's just guidance.]
+Treat other CLI-advertised areas as unsupported or partial unless re-verified.
 
-## [TODO: Replace with the first main section based on chosen structure]
+### Verified via public MCP repo
 
-[TODO: Add content here. See examples in existing skills:
-- Code samples for technical skills
-- Decision trees for complex workflows
-- Concrete examples with realistic user requests
-- References to scripts/templates/references as needed]
+The public MCP server exposes a broader operating surface, including:
+- account/company selection and API-key creation
+- websites/domains
+- lists, tags, segments
+- templates
+- campaigns
+- sequences
+- analytics
+- AI generation
+- integration-guide helpers
 
-## Resources (optional)
+This is strong evidence those areas exist in Sequenzy's internal or private API surface, but it is **not** the same thing as public REST stability.
 
-Create only the resource directories this skill actually needs. Delete this section if no resources are required.
+## Workflow selection
 
-### scripts/
-Executable code (Python/Bash/etc.) that can be run directly to perform specific operations.
+### If the task is subscriber, tag, event, transactional, or metrics work
 
-**Examples from other skills:**
-- PDF skill: `fill_fillable_fields.py`, `extract_form_field_info.py` - utilities for PDF manipulation
-- DOCX skill: `document.py`, `utilities.py` - Python modules for document processing
+Use REST first if direct API work is needed.
 
-**Appropriate for:** Python scripts, shell scripts, or any executable code that performs automation, data processing, or specific operations.
+### If the task is sequence, campaign, template, list, segment, company, website, or AI-generation work
 
-**Note:** Scripts may be executed without loading into context, but can still be read by Codex for patching or environment adjustments.
+Assume dashboard or MCP is the better fit. Do not claim the public REST API supports it unless live-tested.
 
-### references/
-Documentation and reference material intended to be loaded into context to inform Codex's process and thinking.
+### If the task is setup or brand/account provisioning
 
-**Examples from other skills:**
-- Product management: `communication.md`, `context_building.md` - detailed workflow guides
-- BigQuery: API reference documentation and query examples
-- Finance: Schema documentation, company policies
+Prefer dashboard. Use MCP guidance as evidence of likely capability, but mark it as needing live validation.
 
-**Appropriate for:** In-depth documentation, API references, database schemas, comprehensive guides, or any detailed information that Codex should reference while working.
+## Oviond operating rules
 
-### assets/
-Files not intended to be loaded into context, but rather used within the output Codex produces.
+### Subscriber and lifecycle data
 
-**Examples from other skills:**
-- Brand styling: PowerPoint template files (.pptx), logo files
-- Frontend builder: HTML/React boilerplate project directories
-- Typography: Font files (.ttf, .woff2)
+1. Keep subscriber identity stable around email as the primary key unless the live API proves otherwise.
+2. Use attributes for durable facts such as plan, source, role, MRR-related metadata, or lifecycle state.
+3. Use tags for operational grouping and trigger entry points, not as the only store of truth.
+4. Trigger events for behavior and milestones.
 
-**Appropriate for:** Templates, boilerplate code, document templates, images, icons, fonts, or any files meant to be copied or used in the final output.
+### Stripe and SaaS lifecycle
 
----
+When Stripe or another supported billing provider is available, prefer the native Sequenzy integration over manually recreating billing events.
 
-**Not every skill requires all three types of resources.**
+Use manual/custom events for product actions Sequenzy will not infer itself, such as:
+- onboarding completed
+- report created
+- integration connected
+- dashboard viewed
+- trial value milestone reached
+
+### Sequences and campaigns
+
+1. Keep first drafts simple: usually 3-5 emails.
+2. Match sequences to the actual Oviond funnel and available triggers.
+3. Do not enable sequences automatically after creation.
+4. Have a human review AI-generated copy, audience, trigger logic, stop conditions, and links.
+
+### Transactional email
+
+Use transactional sends for operational one-to-one messages, not broadcast marketing.
+
+### Metrics
+
+Prefer account/campaign/sequence/recipient metrics for trend diagnosis.
+Use subscriber activity views for individual debugging once live access exists.
+
+## Guardrails
+
+- Do not invent endpoint names, payload shapes, or stats routes.
+- Do not assume MCP routes are publicly documented REST routes.
+- Do not promise CLI support for nouns that the official skill says are placeholder or partial.
+- Do not send or enable production email flows without review.
+- Do not require real credentials while drafting plans or artifacts.
+
+## Read these references as needed
+
+- `references/capability-map.md` — surface-by-surface capability map with confidence levels.
+- `references/workflows.md` — Oviond-relevant workflows for subscribers, Stripe lifecycle, sequences, campaigns, transactional email, and reporting.
+- `references/verification-notes.md` — known mismatches, route inconsistencies, and live-validation checklist.
