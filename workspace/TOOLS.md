@@ -60,9 +60,9 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ### Sequenzy
 
-- Fresh-start lifecycle email platform replacing MailerLite and Loops operationally.
-- Do not store credentials in workspace files; use OpenClaw Envars when the platform is wired in.
-- No local Sequenzy skill or helper is committed yet.
+- Local skill lives at `skills/sequenzy/`.
+- Do not store credentials in workspace files; use OpenClaw Envars when Sequenzy access is wired in.
+- Live credential connection and validation may still be pending; keep this section to local operator mechanics only.
 
 ### Meta
 
