@@ -1,6 +1,6 @@
 {
   "lastChecks": {
-    "trial_health": 1775327326,
+    "trial_health": 1775397756,
     "revenue_pulse": 1775327326,
     "seo_movement": 1775229294,
     "email_health": 1775228410,
@@ -9,21 +9,11 @@
   "lastMetrics": {
     "trial_health": {
       "status": "attention",
-      "trialing_count": 48,
-      "previous_trialing_count": 41,
-      "delta_trialing_count": 7,
-      "near_expiry_count_next_3_days": 9,
+      "trialing_count": 47,
+      "previous_trialing_count": 48,
+      "delta_trialing_count": -1,
+      "near_expiry_count_next_3_days": 10,
       "near_expiry_sample": [
-        {
-          "subscription_id": "sub_1TDFrkEV1Q8wnLquzWnAJfKQ",
-          "customer_id": "cus_UBd862373cVFKj",
-          "current_period_end": "2026-04-05T03:06:20+00:00"
-        },
-        {
-          "subscription_id": "sub_1TDN8qEV1Q8wnLqu8VN6HHUW",
-          "customer_id": "cus_UBkebcDqmu3Ps4",
-          "current_period_end": "2026-04-05T10:52:28+00:00"
-        },
         {
           "subscription_id": "sub_1TDOoaEV1Q8wnLquzFiWXyVM",
           "customer_id": "cus_UBmNdnuy839wE2",
@@ -58,9 +48,24 @@
           "subscription_id": "sub_1TEApKEV1Q8wnLquzCSUOYN8",
           "customer_id": "cus_UCZzGgC6j11FQP",
           "current_period_end": "2026-04-07T15:55:37+00:00"
+        },
+        {
+          "subscription_id": "sub_1TEEilEV1Q8wnLquS7oOUIu8",
+          "customer_id": "cus_UCe0i92qlHO0Gs",
+          "current_period_end": "2026-04-07T20:05:07+00:00"
+        },
+        {
+          "subscription_id": "sub_1TEKN7EV1Q8wnLqushsDTskt",
+          "customer_id": "cus_UCjqCmfZEKJyp3",
+          "current_period_end": "2026-04-08T02:07:09+00:00"
+        },
+        {
+          "subscription_id": "sub_1TENZ3EV1Q8wnLquBbATZSO4",
+          "customer_id": "cus_UCn9dgfNKAp8N6",
+          "current_period_end": "2026-04-08T05:31:41+00:00"
         }
       ],
-      "note": "Stripe trialing subscriptions are up versus the last heartbeat count, and 9 active trials expire within the next 3 days."
+      "note": "Stripe trialing subscriptions are down slightly versus the last heartbeat count, but 10 active trials expire within the next 3 days."
     },
     "revenue_pulse": {
       "status": "attention",
