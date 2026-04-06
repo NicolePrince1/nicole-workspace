@@ -4,7 +4,7 @@
     "revenue_pulse": 1775452836,
     "seo_movement": 1775452260,
     "email_health": 1775228410,
-    "ad_spend": 1775328180
+    "ad_spend": 1775453119
   },
   "lastMetrics": {
     "trial_health": {
@@ -142,13 +142,21 @@
     },
     "ad_spend": {
       "status": "attention",
-      "week_start": "2026-03-29",
-      "week_end": "2026-04-04",
-      "spend": 5128.77,
-      "landing_page_views": 22,
-      "cost_per_landing_page_view": 233.1259,
-      "previous_week_cost_per_landing_page_view": 70.0878,
-      "note": "Meta Ads current-week LPV CPA is R233.13, still above the R200 threshold, with R5128.77 spent for 22 landing page views."
+      "window": {
+        "since": "2026-04-05",
+        "until": "2026-04-06",
+        "days": 2
+      },
+      "comparison_window": {
+        "since": "2026-04-03",
+        "until": "2026-04-04",
+        "days": 2
+      },
+      "spend": 688.1,
+      "landing_page_views": 2,
+      "cost_per_landing_page_view": 344.05,
+      "previous_comparison_cost_per_landing_page_view": 213.13,
+      "note": "Meta Ads current-week-to-date LPV CPA is R344.05, above the R200 threshold, with R688.10 spent for 2 landing page views."
     }
   },
   "lastWeeklyReport": null,
