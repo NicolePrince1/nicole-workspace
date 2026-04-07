@@ -10,10 +10,14 @@
       "task": "Weekly Monday report for Chris. Pull: 1) Stripe MRR from last 7 days invoices vs prior 7 days, new trials, past_due count, paused count. 2) GA4 sessions + signups by channel, week-over-week. 3) Stripe trialing count plus trials expiring soon. 4) GSC top keyword position changes. 5) Meta ads spend + results. Format as clean Slack summary with trends (up/down arrows). Update memory/weekly-reports/ with the data. Send to Chris on Slack.",
       "target": "UDXMTJXGT",
       "state": {
-        "nextRunAtMs": 1775458800000
+        "lastError": "TypeError: Cannot read properties of undefined (reading 'kind')",
+        "lastRunAtMs": 1775477984983,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 2
       },
       "name": "Cron: 0 7 * * 1",
-      "enabled": true,
+      "enabled": false,
       "wakeMode": "now",
       "sessionTarget": "main"
     },
@@ -58,8 +62,7 @@
       "task": "Friday SEO check. Pull GSC data for the week vs prior week. Compare top 20 non-brand keyword positions. Flag any movement >3 positions (up or down). Check target pages: client-onboarding-checklist, digital-marketing-reporting, free-ai-tools, content-social-media-marketing. Save to memory/seo-weekly/YYYY-MM-DD.json. Only message Chris if significant changes found.",
       "target": "UDXMTJXGT",
       "state": {
-        "nextRunAtMs": 1775217600000,
-        "runningAtMs": 1775318441667
+        "nextRunAtMs": 1775822400000
       },
       "name": "Cron: 0 12 * * 5",
       "enabled": true,
@@ -103,7 +106,7 @@
       "name": "Meta ads 2-day operating check",
       "enabled": true,
       "createdAtMs": 1774445011422,
-      "updatedAtMs": 1775199791489,
+      "updatedAtMs": 1775372400577,
       "schedule": {
         "kind": "cron",
         "expr": "0 9 */2 * *",
@@ -123,14 +126,15 @@
         "accountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1775372400000,
-        "lastRunAtMs": 1775199600003,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 191486,
-        "lastDelivered": true,
-        "lastDeliveryStatus": "delivered",
-        "consecutiveErrors": 0
+        "nextRunAtMs": 1775545200000,
+        "lastRunAtMs": 1775372400003,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 574,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1,
+        "lastError": "FailoverError: No API key found for provider \"openai-codex\". Auth store: /data/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /data/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.",
+        "lastErrorReason": "auth"
       }
     },
     {
@@ -168,7 +172,45 @@
         "accountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1775491200000
+        "nextRunAtMs": 1775750400000
+      }
+    },
+    {
+      "id": "75cafb6a-9a9f-4c89-99fa-b140d1326da3",
+      "name": "Weekly Oviond Monday summary for Chris",
+      "description": "Monday 07:00 SAST weekly Oviond overview to Telegram and email",
+      "enabled": true,
+      "createdAtMs": 1775529176609,
+      "updatedAtMs": 1775529176609,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 7 * * 1",
+        "tz": "Africa/Johannesburg"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Weekly Oviond summary for Chris.\n\nYou are preparing the Monday-morning founder/team-update briefing.\nTime zone: Africa/Johannesburg.\nAudience: Chris Irwin.\nOutput style: blunt, commercially useful, no filler.\n\nDo this every run:\n1. Read `/data/.openclaw/workspace/ops/weekly-oviond-summary-spec.md` and follow it.\n2. Pull recent context with memory tools first, focusing on MEMORY.md and the last 7 days of daily notes.\n3. Pull current operating data:\n   - Stripe revenue: `python3 /data/.openclaw/skills/stripe-reader/scripts/stripe_analytics.py revenue --live`\n   - Stripe delinquency: `python3 /data/.openclaw/skills/stripe-reader/scripts/stripe_analytics.py delinquency --live`\n   - Use `/data/.openclaw/workspace/memory/heartbeat-state.json` for latest trial, SEO, and Meta pulse unless fresher live reads are clearly needed.\n   - Google Ads auth doctor: `node /data/.openclaw/workspace/skills/google-ads/scripts/ads_auth_doctor.js --json`\n   - Google Ads campaign read: `node /data/.openclaw/workspace/skills/google-ads/scripts/ads_query.js \"SELECT campaign.id, campaign.name, campaign.status, campaign.advertising_channel_type, metrics.impressions, metrics.clicks, metrics.ctr, metrics.average_cpc, metrics.cost_micros, metrics.conversions, metrics.cost_per_conversion FROM campaign WHERE campaign.id IN (21330916203,23607074353,22441221025,23720451302,23718220767) AND segments.date DURING LAST_7_DAYS\" --format pretty`\n4. Respect the standing interpretation rules:\n   - do not trust top-line GA4 conversions as clean truth\n   - do not let cheap South Africa CPA override quality / stickiness reality\n   - focus on retention, activation, and client-ready confidence\n5. Write the finished report to `/data/.openclaw/workspace/memory/weekly-reports/YYYY-MM-DD.md` using today’s date in Africa/Johannesburg.\n6. Email the same report to `chris@oviond.com` with subject `Oviond Weekly Summary | YYYY-MM-DD` using:\n   `python3 /data/.openclaw/workspace/scripts/send_gmail_via_service_account.py --to chris@oviond.com --subject \"Oviond Weekly Summary | YYYY-MM-DD\" --body-file /data/.openclaw/workspace/memory/weekly-reports/YYYY-MM-DD.md`\n7. In your final reply, return the full report text only. Do not mention internal tools. Do not use the message tool. The cron runner will handle chat delivery.\n\nIf email send fails, say so plainly in the report footer.",
+        "model": "GPT",
+        "thinking": "high",
+        "timeoutSeconds": 900,
+        "toolsAllow": [
+          "exec",
+          "read",
+          "write",
+          "memory_search",
+          "memory_get"
+        ]
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "telegram",
+        "to": "5810523015",
+        "accountId": "default"
+      },
+      "state": {
+        "nextRunAtMs": 1776056400000
       }
     }
   ]

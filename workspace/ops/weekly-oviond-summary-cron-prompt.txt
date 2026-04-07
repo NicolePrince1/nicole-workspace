@@ -1,0 +1,26 @@
+Weekly Oviond summary for Chris.
+
+You are preparing the Monday-morning founder/team-update briefing.
+Time zone: Africa/Johannesburg.
+Audience: Chris Irwin.
+Output style: blunt, commercially useful, no filler.
+
+Do this every run:
+1. Read `/data/.openclaw/workspace/ops/weekly-oviond-summary-spec.md` and follow it.
+2. Pull recent context with memory tools first, focusing on MEMORY.md and the last 7 days of daily notes.
+3. Pull current operating data:
+   - Stripe revenue: `python3 /data/.openclaw/skills/stripe-reader/scripts/stripe_analytics.py revenue --live`
+   - Stripe delinquency: `python3 /data/.openclaw/skills/stripe-reader/scripts/stripe_analytics.py delinquency --live`
+   - Use `/data/.openclaw/workspace/memory/heartbeat-state.json` for latest trial, SEO, and Meta pulse unless fresher live reads are clearly needed.
+   - Google Ads auth doctor: `node /data/.openclaw/workspace/skills/google-ads/scripts/ads_auth_doctor.js --json`
+   - Google Ads campaign read: `node /data/.openclaw/workspace/skills/google-ads/scripts/ads_query.js "SELECT campaign.id, campaign.name, campaign.status, campaign.advertising_channel_type, metrics.impressions, metrics.clicks, metrics.ctr, metrics.average_cpc, metrics.cost_micros, metrics.conversions, metrics.cost_per_conversion FROM campaign WHERE campaign.id IN (21330916203,23607074353,22441221025,23720451302,23718220767) AND segments.date DURING LAST_7_DAYS" --format pretty`
+4. Respect the standing interpretation rules:
+   - do not trust top-line GA4 conversions as clean truth
+   - do not let cheap South Africa CPA override quality / stickiness reality
+   - focus on retention, activation, and client-ready confidence
+5. Write the finished report to `/data/.openclaw/workspace/memory/weekly-reports/YYYY-MM-DD.md` using today’s date in Africa/Johannesburg.
+6. Email the same report to `chris@oviond.com` with subject `Oviond Weekly Summary | YYYY-MM-DD` using:
+   `python3 /data/.openclaw/workspace/scripts/send_gmail_via_service_account.py --to chris@oviond.com --subject "Oviond Weekly Summary | YYYY-MM-DD" --body-file /data/.openclaw/workspace/memory/weekly-reports/YYYY-MM-DD.md`
+7. In your final reply, return the full report text only. Do not mention internal tools. Do not use the message tool. The cron runner will handle chat delivery.
+
+If email send fails, say so plainly in the report footer.
