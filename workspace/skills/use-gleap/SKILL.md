@@ -12,7 +12,7 @@ Operate **Gleap itself**, not Gleap source code or SDK installation. For SDK int
 1. Separate **verified public API**, **mixed / needs live validation**, and **UI-only / not verified** work.
 2. Prefer **read before write**.
 3. Treat customer-visible changes as risky until Oviond's live setup is validated.
-4. Treat **tracker tickets** as the default public API-backed roadmap/feature object unless live validation proves a separate model.
+4. Treat **tracker tickets** as a possible public API-backed roadmap object, but inspect first. Oviond's 2026-04-08 live validation returned zero tracker tickets, so do not assume roadmap work currently lives there.
 5. Do not store secrets in workspace files.
 
 ## Credentials and config
@@ -50,6 +50,8 @@ Read only the reference that matches the task.
 - Prefer the public **v3** API for support, help center, session, and stats work.
 - Prefer list endpoints with explicit query filters over vague search endpoints when possible.
 - Use internal notes as the safest first write.
+- In Oviond's live project, recent tickets are usually assigned via `processingUser`, not `processingTeam`, so inspect current routing before assuming team assignment is active.
+- In Oviond's live help center, collection/article titles and descriptions are localized objects like `{ "en": "..." }`, and articles carry both rich `content` and derived `plainContent`. Preserve both when editing.
 - Confirm before merges, deletes, archive/unarchive at scale, workflow runs with unclear side effects, publish toggles, or customer-visible outbound sends.
 - Use the old `/admin/identify` and `/admin/track` endpoints only for server-side identity/event sync, not day-to-day support ops.
 - When docs are thin, let live readbacks from Oviond's project become the source of truth.

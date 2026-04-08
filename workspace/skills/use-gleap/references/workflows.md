@@ -32,6 +32,7 @@ Run this first once `GLEAP_API_KEY` and `GLEAP_PROJECT_ID` are available.
    python3 skills/use-gleap/scripts/gleap_api.py request GET /tickets/tracker-tickets \
      --query page=1
    ```
+   If this returns an empty list, do not force a tracker-ticket-centric workflow. Confirm whether roadmap work is actually living in tracker tickets, a public roadmap UI, tags, or a manual process before you create anything.
 5. Pull help center collections to learn the current taxonomy:
    ```bash
    python3 skills/use-gleap/scripts/gleap_api.py request GET /helpcenter/collections/all
@@ -72,7 +73,7 @@ Use this workflow for normal support handling.
      }'
    ```
 6. For a real support reply, be explicit about whether it should remain internal or reach the customer. Do not assume `sendToChannel` behavior until Oviond validates it.
-7. Update routing/state only after reading current values:
+7. Update routing/state only after reading current values. In Oviond's live sample, user-level assignment was much more evident than team-level assignment, so do not default to `processingTeam` unless the ticket already shows team routing:
    ```bash
    python3 skills/use-gleap/scripts/gleap_api.py request PUT /tickets/TICKET_ID \
      --data '{
@@ -102,7 +103,7 @@ Use this when multiple tickets point to the same product gap.
    ```bash
    python3 skills/use-gleap/scripts/gleap_api.py request POST /tickets/deduplicate
    ```
-4. If no tracker ticket exists, create one:
+4. If tracker tickets are confirmed to be the right live object and no matching one exists, create one:
    ```bash
    python3 skills/use-gleap/scripts/gleap_api.py request POST /tickets/tracker-tickets \
      --data '{
@@ -120,7 +121,7 @@ Use this when multiple tickets point to the same product gap.
        "type": "FEATURE_REQUEST"
      }'
    ```
-6. Treat tracker tickets as the current public API stand-in for roadmap items unless live validation proves a separate board model exists.
+6. Treat tracker tickets as one possible public API stand-in for roadmap items, not an assumption. In Oviond, verify they are actually in use before building process around them.
 7. Do not claim there is a separate public roadmap API unless you have just validated it.
 
 ## Maintain the help center safely
@@ -134,7 +135,7 @@ Use this workflow for collections, articles, and publishing.
    ```bash
    python3 skills/use-gleap/scripts/gleap_api.py request GET /helpcenter/collections/COLLECTION_ID/articles
    ```
-3. Prefer draft edits first. Update an article only after confirming the content shape in a live example:
+3. Prefer draft edits first. Update an article only after confirming the content shape in a live example. For Oviond, preserve localized `title` / `description` objects and both rich `content` plus `plainContent` when you edit:
    ```bash
    python3 skills/use-gleap/scripts/gleap_api.py request PUT /helpcenter/collections/COLLECTION_ID/articles/ARTICLE_ID \
      --data @article-update.json

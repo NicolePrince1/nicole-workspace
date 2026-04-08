@@ -3,6 +3,7 @@
 ## Contents
 - [Required environment variables](#required-environment-variables)
 - [First-pass probe](#first-pass-probe)
+- [Observed in Oviond on 2026-04-08](#observed-in-oviond-on-2026-04-08)
 - [Validation checklist](#validation-checklist)
 - [Known doc quirks](#known-doc-quirks)
 - [Post-validation writeback](#post-validation-writeback)
@@ -29,6 +30,21 @@ This should confirm whether the following are readable in Oviond's live workspac
 - ticket count + sample ticket shapes
 - help center collections
 - unified inbox
+
+## Observed in Oviond on 2026-04-08
+- Auth worked with an `ADMIN` role and 235 permissions.
+- The current readable user set is 5 people: Chris, Lesedi, Michelle, Brendan, and Neil.
+- The current team set is 4 manual-assignment teams: `💻 Engineering`, `💪 Support`, `📣 Marketing`, and `📈 Sales`.
+- Recent active tickets showed `OPEN`, `INPROGRESS`, and `DONE`. The ticket-count endpoint also exposes older/custom states plus `SNOOZED` and `PLANNED`, so do not hardcode a tiny enum from one small sample.
+- Recent ticket types included `BOT`, `BUG`, `CUSTOMERSUCCESS`, `FEATURE_REQUEST`, and `INQUIRY`.
+- Recent ticket priorities included `LOW`, `MEDIUM`, and `HIGH`.
+- In sampled recent tickets, `processingUser` was commonly populated and `processingTeam` was not. Read the current ticket before assuming team routing is in live use.
+- Ticket body/context data in the sample lived mainly in `formData` plus `plainContent`. `customData` and `attributes` were not observed in the 25-ticket sample.
+- `/tickets/tracker-tickets` returned an empty list in Oviond. Tracker tickets are still API-backed, but they are not yet proven to be the actively used roadmap store here.
+- Help center access is live. Collections and articles use localized fields like `{ "en": "..." }`, article records carry both rich `content` and derived `plainContent`, and sampled articles included drafts (`isDraft: true`).
+- Collection summary counts may lag or exclude items. In the sample, `Home Page` reported 8 articles on the collection object but the articles endpoint returned 13, so trust the article-list endpoint over collection summary counts.
+- Read-only messaging history showed message types including `NOTE`, `BOT`, `BOT_REPLY`, `SYSTEM_MESSAGE`, and `FEEDBACK_RECIEVED_NOTIFICATION`, but this pass did not perform a live write, so `isNote: true` send behavior and customer-visible outbound semantics are still unvalidated.
+- Statistics endpoints worked for `NEW_TICKETS_COUNT`, `MEDIAN_FIRST_RESPONSE_TIME`, `TEAM_PERFORMANCE_LIST`, and `ARTICLE_SEARCH_RESULT_LIST`.
 
 ## Validation checklist
 

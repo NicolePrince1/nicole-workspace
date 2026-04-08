@@ -67,7 +67,7 @@
 - `session`, `sessions`, `customData`, `formData`
 - `archived`, `isSpam`, `snoozed`, `snoozedUntil`
 
-**Implication:** ticket and tracker ticket workflows are first-class and strong enough for a real operator skill.
+**Implication:** ticket workflows are first-class and strong enough for a real operator skill. Tracker tickets are publicly API-backed, but Oviond's 2026-04-08 live validation returned an empty tracker-ticket list, so roadmap usage must be confirmed before building process around them.
 
 ### Messages and conversations
 **Verified:**
@@ -82,7 +82,7 @@
   - `channel`
   - `replyTo`
 
-**Practical takeaway:** internal notes and conversation entries are clearly supported. Customer-visible send semantics exist but should be treated carefully until live-tested in Oviond's setup.
+**Practical takeaway:** internal notes and conversation entries are clearly supported. Oviond live readbacks showed `NOTE`-type history entries, but customer-visible send semantics should still be treated carefully until a safe write test validates `isNote` / `sendToChannel` behavior in the real workspace.
 
 ### Sessions and customer context
 **Verified:**
@@ -124,7 +124,7 @@
 - Collection: `title`, `description`, `iconUrl`, `parent`, `externalId`, `targetAudience`
 - Article: `title`, `description`, `content`, `plainContent`, `helpcenterCollection`, `author`, `isDraft`, `tags`, `targetAudience`, `newCollectionId`
 
-**Implication:** the help center is solidly API-operable, especially for draft/edit/move/publish workflows.
+**Implication:** the help center is solidly API-operable, especially for draft/edit/move/publish workflows. In Oviond's live data, collection/article fields are localized objects like `{ "en": "..." }`, articles carry both rich `content` and `plainContent`, and collection summary counts may not perfectly match article-list results.
 
 ### Users, teams, inbox, and routing
 **Verified:**
@@ -136,7 +136,7 @@
 - `/users/unified-inbox/{ticketId}`
 - `/users/me/reassign-tickets`
 
-**Implication:** role discovery, team discovery, and some inbox/routing operations are available.
+**Implication:** role discovery, team discovery, and some inbox/routing operations are available. In Oviond's recent live sample, routing appeared much more user-assigned (`processingUser`) than team-assigned (`processingTeam`).
 
 ### Support analytics
 **Verified:**
@@ -173,7 +173,7 @@
 **Caution:** many of these endpoints expose `{}` request/response schemas in docs. Treat read access as likely fine, but treat mutations as mixed until live-tested.
 
 ## Mixed or needs-live-validation areas
-- **Roadmap model**: no separate first-class public roadmap object was found. Treat **tracker tickets** as the current API-backed feature/roadmap object unless live validation proves otherwise.
+- **Roadmap model**: no separate first-class public roadmap object was found. Tracker tickets are the nearest public API-backed feature object, but Oviond's 2026-04-08 live validation returned an empty tracker-ticket list, so do not assume active roadmap work currently lives there.
 - **Internal team to-do lists / work boards**: no distinct public API object was found.
 - **Customer-visible outbound messaging**: messages support `sendToChannel`, but actual behavior should be validated in Oviond's channel setup before using it in production.
 - **Attachments**: message/ticket schemas clearly support URL-based attachments, but a public direct binary upload flow was not verified.
@@ -195,7 +195,7 @@ Use these only for server-side identify/event syncing. Do **not** route normal s
 
 ## Operating implications for this skill
 1. Prefer the public v3 API for support, help center, and analytics work.
-2. Treat **tickets + tracker tickets** as the best public foundation for roadmap/feature workflows.
+2. Treat **tickets** as the strongest public foundation today, and treat **tracker tickets** as an optional extension only after confirming they are actually in use for Oviond's roadmap workflow.
 3. Use **read-first** behavior whenever the requested action could affect customers or published help content.
 4. Keep risky writes behind explicit confirmation:
    - merges
