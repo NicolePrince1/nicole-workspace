@@ -1,0 +1,648 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Pages /Count 12 /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R] >>
+endobj
+5 0 obj
+<< /Length 3423 >>
+stream
+BT /F2 22 Tf 50.00 792.00 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F2 15 Tf 50.00 762.00 Td (Based on Gleap historical support analysis) Tj ET
+BT /F1 10.3 Tf 50.00 736.00 Td (Prepared for: Chris Irwin) Tj ET
+BT /F1 10.3 Tf 50.00 719.00 Td (Prepared by: Nicole Prince) Tj ET
+BT /F1 10.3 Tf 50.00 702.00 Td (Date: 9 April 2026) Tj ET
+0.6 w 50 679.00 m 545 679.00 l S
+BT /F2 15 Tf 50.00 659.00 Td (Executive summary) Tj ET
+BT /F1 10.3 Tf 50.00 633.00 Td (This report is based on a careful analysis of Oviond's historical Gleap data, including) Tj ET
+BT /F1 10.3 Tf 50.00 619.00 Td (the full readable ticket history and a higher-signal subset used to reduce email and bot) Tj ET
+BT /F1 10.3 Tf 50.00 605.00 Td (noise.) Tj ET
+BT /F1 10.3 Tf 50.00 582.00 Td (The core conclusion is simple: the rebuild should be driven less by shiny net-new features) Tj ET
+BT /F1 10.3 Tf 50.00 568.00 Td (and more by trust, operability, and delivery reliability.) Tj ET
+BT /F1 10.3 Tf 50.00 545.00 Td (Gleap shows that Oviond's biggest recurring problems are not primarily demand-generation) Tj ET
+BT /F1 10.3 Tf 50.00 531.00 Td (problems. They are product confidence problems. Customers repeatedly hit friction around) Tj ET
+BT /F1 10.3 Tf 50.00 517.00 Td (connectors and data trust, permissions and access, builder reliability, custom domains and) Tj ET
+BT /F1 10.3 Tf 50.00 503.00 Td (white-label delivery, automations, exports, billing state, and workflow operability.) Tj ET
+BT /F1 10.3 Tf 50.00 480.00 Td (If the rebuilt product makes those areas solid, Oviond becomes dramatically more credible) Tj ET
+BT /F1 10.3 Tf 50.00 466.00 Td (and sticky for agencies. If not, the rebuild risks recreating the same support load in a) Tj ET
+BT /F1 10.3 Tf 50.00 452.00 Td (prettier shell.) Tj ET
+0.6 w 50 429.00 m 545 429.00 l S
+BT /F2 15 Tf 50.00 409.00 Td (Evidence base) Tj ET
+BT /F1 10.3 Tf 50.00 383.00 Td (This report draws on the following Gleap research already completed:) Tj ET
+BT /F1 10.3 Tf 62.00 360.00 Td (? Total tickets analysed: 10,844) Tj ET
+BT /F1 10.3 Tf 62.00 344.00 Td (? Non-BOT tickets: 9,334) Tj ET
+BT /F1 10.3 Tf 62.00 328.00 Td (? BOT tickets: 1,510) Tj ET
+BT /F1 10.3 Tf 62.00 312.00 Td (? Historical range reviewed: 3 May 2024 to 9 April 2026) Tj ET
+BT /F1 10.3 Tf 62.00 296.00 Td (? Filtered product-signal set: 6,157 tickets) Tj ET
+BT /F1 10.3 Tf 62.00 280.00 Td (? High-signal subset used for priority shaping: 3,854 tickets) Tj ET
+BT /F2 12 Tf 50.00 258.00 Td (Dominant product themes in the higher-signal analysis) Tj ET
+BT /F1 10.3 Tf 62.00 236.00 Td (? Permissions, login, and user management: 1,901) Tj ET
+BT /F1 10.3 Tf 62.00 220.00 Td (? Connectors and data quality: 1,800) Tj ET
+BT /F1 10.3 Tf 62.00 204.00 Td (? Report builder, widgets, and editing: 1,520) Tj ET
+BT /F1 10.3 Tf 62.00 188.00 Td (? Performance and reliability: 1,218) Tj ET
+BT /F1 10.3 Tf 62.00 172.00 Td (? Custom domain and white-label: 1,054) Tj ET
+BT /F1 10.3 Tf 62.00 156.00 Td (? Billing and subscription: 980) Tj ET
+BT /F1 10.3 Tf 62.00 140.00 Td (? Automation and notifications: 555) Tj ET
+BT /F1 10.3 Tf 62.00 124.00 Td (? Report sharing, exports, and scheduling: 275) Tj ET
+BT /F1 10.3 Tf 62.00 108.00 Td (? API, webhooks, and extensibility: 267) Tj ET
+BT /F1 10.3 Tf 62.00 92.00 Td (? Onboarding and migration: 263) Tj ET
+BT /F3 9 Tf 50 28 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F3 9 Tf 520 28 Td (1) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 3495 >>
+stream
+BT /F2 12 Tf 50.00 792.00 Td (Additional signals from help-search behaviour) Tj ET
+BT /F1 10.3 Tf 50.00 770.00 Td (Help-centre and support search behaviour reinforced the same themes. High-frequency) Tj ET
+BT /F1 10.3 Tf 50.00 756.00 Td (searches included custom domain, API, Google Ads, integrations, white label, Google) Tj ET
+BT /F1 10.3 Tf 50.00 742.00 Td (Business Profile, Google Search Console, Google Sheets, templates, delete actions,) Tj ET
+BT /F1 10.3 Tf 50.00 728.00 Td (automations, and cover-page/report editing questions.) Tj ET
+BT /F2 12 Tf 50.00 705.00 Td (Important interpretation) Tj ET
+BT /F1 10.3 Tf 50.00 683.00 Td (Gleap does not behave like a pure bug tracker. It behaves like a combined system for:) Tj ET
+BT /F1 10.3 Tf 62.00 660.00 Td (? product bugs) Tj ET
+BT /F1 10.3 Tf 62.00 644.00 Td (? customer-success handholding) Tj ET
+BT /F1 10.3 Tf 62.00 628.00 Td (? setup and implementation support) Tj ET
+BT /F1 10.3 Tf 62.00 612.00 Td (? white-label and report-delivery operations) Tj ET
+BT /F1 10.3 Tf 62.00 596.00 Td (? billing and account exceptions) Tj ET
+BT /F1 10.3 Tf 62.00 580.00 Td (? noisy inbound email traffic) Tj ET
+BT /F1 10.3 Tf 50.00 558.00 Td (That matters because it means the rebuild should optimise for real agency operations, not) Tj ET
+BT /F1 10.3 Tf 50.00 544.00 Td (just feature completeness.) Tj ET
+0.6 w 50 521.00 m 545 521.00 l S
+BT /F2 15 Tf 50.00 501.00 Td (Strategic diagnosis) Tj ET
+BT /F2 12 Tf 50.00 475.00 Td (What Gleap is really telling us) Tj ET
+BT /F1 10.3 Tf 55.00 453.00 Td (1. Oviond wins when it feels simple and dependable.) Tj ET
+BT /F1 10.3 Tf 55.00 437.00 Td (2. Oviond loses when users cannot trust the data, the delivery, or the permissions) Tj ET
+BT /F1 10.3 Tf 55.00 423.00 Td (   model.) Tj ET
+BT /F1 10.3 Tf 55.00 407.00 Td (3. White-label reliability is a core product requirement, not a side feature.) Tj ET
+BT /F1 10.3 Tf 55.00 391.00 Td (4. Builder inconsistency creates disproportionate support pain because it breaks) Tj ET
+BT /F1 10.3 Tf 55.00 377.00 Td (   confidence.) Tj ET
+BT /F1 10.3 Tf 55.00 361.00 Td (5. The rebuild should prioritise operational trust before expansion.) Tj ET
+BT /F2 12 Tf 50.00 339.00 Td (The rebuild principle) Tj ET
+BT /F1 10.3 Tf 50.00 317.00 Td (The rebuilt Oviond should be designed around four promises:) Tj ET
+BT /F1 10.3 Tf 62.00 294.00 Td (? Your data connects reliably.) Tj ET
+BT /F1 10.3 Tf 62.00 278.00 Td (? Your report renders consistently everywhere.) Tj ET
+BT /F1 10.3 Tf 62.00 262.00 Td (? Your clients see the right thing.) Tj ET
+BT /F1 10.3 Tf 62.00 246.00 Td (? Your branded delivery just works.) Tj ET
+0.6 w 50 224.00 m 545 224.00 l S
+BT /F2 18 Tf 50.00 204.00 Td (Top 20 rebuild priorities) Tj ET
+BT /F2 15 Tf 50.00 174.00 Td (1. Rebuild connector reliability as core infrastructure) Tj ET
+BT /F2 11 Tf 50.00 154.00 Td (Why this matters) Tj ET
+BT /F1 10.3 Tf 50.00 140.00 Td (This is one of the biggest recurring sources of friction in Gleap. Repeated issues show up) Tj ET
+BT /F1 10.3 Tf 50.00 126.00 Td (across GA4, Google Ads, Meta, Google Business Profile, WooCommerce, Shopify, HubSpot,) Tj ET
+BT /F1 10.3 Tf 50.00 112.00 Td (Microsoft Ads, Google Sheets, Ahrefs, and token-expiry scenarios. If connectors are) Tj ET
+BT /F1 10.3 Tf 50.00 98.00 Td (unstable, the whole product feels unsafe.) Tj ET
+BT /F2 11 Tf 50.00 75.00 Td (What the rebuild should do) Tj ET
+BT /F3 9 Tf 50 28 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F3 9 Tf 520 28 Td (2) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 3756 >>
+stream
+BT /F1 10.3 Tf 62.00 792.00 Td (? Create a single connection service with connector-specific adapters.) Tj ET
+BT /F1 10.3 Tf 62.00 776.00 Td (? Standardise OAuth, token refresh, scope checks, and account discovery.) Tj ET
+BT /F1 10.3 Tf 62.00 760.00 Td (? Add proactive expiry detection and reconnect prompts.) Tj ET
+BT /F1 10.3 Tf 62.00 744.00 Td (? Add connector health states: connected, degraded, expired, permission error, upstream) Tj ET
+BT /F1 10.3 Tf 62.00 730.00 Td (  outage.) Tj ET
+BT /F1 10.3 Tf 62.00 714.00 Td (? Expose last successful sync and last failed sync clearly.) Tj ET
+BT /F1 10.3 Tf 62.00 698.00 Td (? Standardise connector error codes and user-readable diagnostics.) Tj ET
+BT /F2 11 Tf 50.00 676.00 Td (Dev checklist) Tj ET
+BT /F1 10.3 Tf 62.00 662.00 Td (? Define connector lifecycle contract.) Tj ET
+BT /F1 10.3 Tf 62.00 646.00 Td (? Add preflight validation before save.) Tj ET
+BT /F1 10.3 Tf 62.00 630.00 Td (? Add retry and backoff policies.) Tj ET
+BT /F1 10.3 Tf 62.00 614.00 Td (? Add sync health logging and alerting.) Tj ET
+BT /F1 10.3 Tf 62.00 598.00 Td (? Build regression tests for top 10 connectors.) Tj ET
+BT /F1 10.3 Tf 62.00 582.00 Td (? Add provider deprecation monitoring.) Tj ET
+0.6 w 50 560.00 m 545 560.00 l S
+BT /F2 15 Tf 50.00 540.00 Td (2. Use one rendering and data-resolution engine across editor, shared view, PDF, and automations) Tj ET
+BT /F2 11 Tf 50.00 520.00 Td (Why this matters) Tj ET
+BT /F1 10.3 Tf 50.00 506.00 Td (A repeated pattern in Gleap is that something works in the editor but fails in shared) Tj ET
+BT /F1 10.3 Tf 50.00 492.00 Td (reports, exports, PDFs, or scheduled sends. That destroys trust fast.) Tj ET
+BT /F2 11 Tf 50.00 469.00 Td (What the rebuild should do) Tj ET
+BT /F1 10.3 Tf 62.00 455.00 Td (? Unify report execution across all delivery surfaces.) Tj ET
+BT /F1 10.3 Tf 62.00 439.00 Td (? Make date-range resolution, filters, permissions, and query execution identical) Tj ET
+BT /F1 10.3 Tf 62.00 425.00 Td (  everywhere.) Tj ET
+BT /F1 10.3 Tf 62.00 409.00 Td (? Build parity testing across editor, shared, PDF, and automation outputs.) Tj ET
+BT /F1 10.3 Tf 62.00 393.00 Td (? Show when an output differs from source state.) Tj ET
+BT /F2 11 Tf 50.00 371.00 Td (Dev checklist) Tj ET
+BT /F1 10.3 Tf 62.00 357.00 Td (? Remove parallel rendering code paths.) Tj ET
+BT /F1 10.3 Tf 62.00 341.00 Td (? Create one report execution contract.) Tj ET
+BT /F1 10.3 Tf 62.00 325.00 Td (? Add snapshot parity tests.) Tj ET
+BT /F1 10.3 Tf 62.00 309.00 Td (? Normalize timezone handling centrally.) Tj ET
+BT /F1 10.3 Tf 62.00 293.00 Td (? Add render logs for scheduled runs.) Tj ET
+BT /F1 10.3 Tf 62.00 277.00 Td (? Add a preview for next scheduled output.) Tj ET
+0.6 w 50 255.00 m 545 255.00 l S
+BT /F2 15 Tf 50.00 235.00 Td (3. Rewrite auth, permissions, team access, and client sharing) Tj ET
+BT /F2 11 Tf 50.00 215.00 Td (Why this matters) Tj ET
+BT /F1 10.3 Tf 50.00 201.00 Td (Permissions, login loops, account access issues, and broken team-assignment flows show up) Tj ET
+BT /F1 10.3 Tf 50.00 187.00 Td (constantly. Agencies need confident control over who can see, edit, and deliver what.) Tj ET
+BT /F2 11 Tf 50.00 164.00 Td (What the rebuild should do) Tj ET
+BT /F1 10.3 Tf 62.00 150.00 Td (? Design clean role-based access control.) Tj ET
+BT /F1 10.3 Tf 62.00 134.00 Td (? Support scopes across workspace, client, project, report, and automation.) Tj ET
+BT /F1 10.3 Tf 62.00 118.00 Td (? Make invite, revoke, transfer, and role changes predictable.) Tj ET
+BT /F1 10.3 Tf 62.00 102.00 Td (? Add auditability for access changes.) Tj ET
+BT /F2 11 Tf 50.00 80.00 Td (Dev checklist) Tj ET
+BT /F3 9 Tf 50 28 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F3 9 Tf 520 28 Td (3) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 3610 >>
+stream
+BT /F1 10.3 Tf 62.00 792.00 Td (? Define role and scope matrix.) Tj ET
+BT /F1 10.3 Tf 62.00 776.00 Td (? Build permission simulator.) Tj ET
+BT /F1 10.3 Tf 62.00 760.00 Td (? Add invite and revoke audit logs.) Tj ET
+BT /F1 10.3 Tf 62.00 744.00 Td (? Add shared-report access tests.) Tj ET
+BT /F1 10.3 Tf 62.00 728.00 Td (? Add migration tooling from current permission models.) Tj ET
+BT /F1 10.3 Tf 62.00 712.00 Td (? Test edge cases for team and client assignments.) Tj ET
+0.6 w 50 690.00 m 545 690.00 l S
+BT /F2 15 Tf 50.00 670.00 Td (4. Make custom domains, white-label, and branded delivery fully self-serve) Tj ET
+BT /F2 11 Tf 50.00 650.00 Td (Why this matters) Tj ET
+BT /F1 10.3 Tf 50.00 636.00 Td (Custom domains, email-domain verification, white-label setup, and domain failures are a) Tj ET
+BT /F1 10.3 Tf 50.00 622.00 Td (major recurring support burden. This is not edge-case admin work. It is a core agency use) Tj ET
+BT /F1 10.3 Tf 50.00 608.00 Td (case.) Tj ET
+BT /F2 11 Tf 50.00 585.00 Td (What the rebuild should do) Tj ET
+BT /F1 10.3 Tf 62.00 571.00 Td (? Let users set up custom domains themselves.) Tj ET
+BT /F1 10.3 Tf 62.00 555.00 Td (? Validate DNS and SSL status live.) Tj ET
+BT /F1 10.3 Tf 62.00 539.00 Td (? Support branded sending domains and sender verification.) Tj ET
+BT /F1 10.3 Tf 62.00 523.00 Td (? Detect broken domain configurations before customer-facing failures happen.) Tj ET
+BT /F2 11 Tf 50.00 501.00 Td (Dev checklist) Tj ET
+BT /F1 10.3 Tf 62.00 487.00 Td (? Build custom-domain setup wizard.) Tj ET
+BT /F1 10.3 Tf 62.00 471.00 Td (? Add DNS verification and SSL status checks.) Tj ET
+BT /F1 10.3 Tf 62.00 455.00 Td (? Add sender-domain verification flow.) Tj ET
+BT /F1 10.3 Tf 62.00 439.00 Td (? Add health monitoring and expiry warnings.) Tj ET
+BT /F1 10.3 Tf 62.00 423.00 Td (? Add rollback and recovery flows.) Tj ET
+BT /F1 10.3 Tf 62.00 407.00 Td (? Remove manual ops dependency from the common path.) Tj ET
+0.6 w 50 385.00 m 545 385.00 l S
+BT /F2 15 Tf 50.00 365.00 Td (5. Rebuild the query, filter, and calculated-metric engine) Tj ET
+BT /F2 11 Tf 50.00 345.00 Td (Why this matters) Tj ET
+BT /F1 10.3 Tf 50.00 331.00 Td (Recurring tickets point to brittleness in filters, calculated metrics, connector-specific) Tj ET
+BT /F1 10.3 Tf 50.00 317.00 Td (field behaviour, and query-builder consistency. When the reporting core is hard to trust,) Tj ET
+BT /F1 10.3 Tf 50.00 303.00 Td (users feel the whole platform is fragile.) Tj ET
+BT /F2 11 Tf 50.00 280.00 Td (What the rebuild should do) Tj ET
+BT /F1 10.3 Tf 62.00 266.00 Td (? Introduce typed fields and operator rules.) Tj ET
+BT /F1 10.3 Tf 62.00 250.00 Td (? Add formula validation with clear error messages.) Tj ET
+BT /F1 10.3 Tf 62.00 234.00 Td (? Support cross-source calculations explicitly where valid.) Tj ET
+BT /F1 10.3 Tf 62.00 218.00 Td (? Detect incomplete or invalid filters before execution.) Tj ET
+BT /F2 11 Tf 50.00 196.00 Td (Dev checklist) Tj ET
+BT /F1 10.3 Tf 62.00 182.00 Td (? Build typed schema layer for dimensions and metrics.) Tj ET
+BT /F1 10.3 Tf 62.00 166.00 Td (? Build formula parser and validator.) Tj ET
+BT /F1 10.3 Tf 62.00 150.00 Td (? Add query preview and sample-row inspection.) Tj ET
+BT /F1 10.3 Tf 62.00 134.00 Td (? Add filter linting and save-time warnings.) Tj ET
+BT /F1 10.3 Tf 62.00 118.00 Td (? Build regression fixtures for known calculation bugs.) Tj ET
+BT /F1 10.3 Tf 62.00 102.00 Td (? Standardise connector-specific field mapping.) Tj ET
+0.6 w 50 80.00 m 545 80.00 l S
+BT /F3 9 Tf 50 28 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F3 9 Tf 520 28 Td (4) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 3567 >>
+stream
+BT /F2 15 Tf 50.00 792.00 Td (6. Add visible data health and diagnostics at widget, query, and report level) Tj ET
+BT /F2 11 Tf 50.00 772.00 Td (Why this matters) Tj ET
+BT /F1 10.3 Tf 50.00 758.00 Td (A lot of Gleap tickets exist because users cannot tell whether a problem is caused by) Tj ET
+BT /F1 10.3 Tf 50.00 744.00 Td (stale data, broken auth, filters, permissions, or upstream provider issues.) Tj ET
+BT /F2 11 Tf 50.00 721.00 Td (What the rebuild should do) Tj ET
+BT /F1 10.3 Tf 62.00 707.00 Td (? Show freshness, sync time, and health state at widget and report level.) Tj ET
+BT /F1 10.3 Tf 62.00 691.00 Td (? Explain why a widget is empty.) Tj ET
+BT /F1 10.3 Tf 62.00 675.00 Td (? Expose source account, last sync, and failure reason.) Tj ET
+BT /F1 10.3 Tf 62.00 659.00 Td (? Give support and users a shared diagnostic view.) Tj ET
+BT /F2 11 Tf 50.00 637.00 Td (Dev checklist) Tj ET
+BT /F1 10.3 Tf 62.00 623.00 Td (? Add freshness badges.) Tj ET
+BT /F1 10.3 Tf 62.00 607.00 Td (? Add widget-level empty-state diagnostics.) Tj ET
+BT /F1 10.3 Tf 62.00 591.00 Td (? Add data-source status drawers.) Tj ET
+BT /F1 10.3 Tf 62.00 575.00 Td (? Add exportable support diagnostics bundle.) Tj ET
+BT /F1 10.3 Tf 62.00 559.00 Td (? Add provider-incident banner support.) Tj ET
+BT /F1 10.3 Tf 62.00 543.00 Td (? Add editor versus shared comparison diagnostics.) Tj ET
+0.6 w 50 521.00 m 545 521.00 l S
+BT /F2 15 Tf 50.00 501.00 Td (7. Fix builder persistence, save integrity, and editing state management) Tj ET
+BT /F2 11 Tf 50.00 481.00 Td (Why this matters) Tj ET
+BT /F1 10.3 Tf 50.00 467.00 Td (Tickets about settings not saving, sorting not sticking, and edits behaving unpredictably) Tj ET
+BT /F1 10.3 Tf 50.00 453.00 Td (indicate state-management weakness. That makes the builder feel unreliable even when the) Tj ET
+BT /F1 10.3 Tf 50.00 439.00 Td (underlying data is fine.) Tj ET
+BT /F2 11 Tf 50.00 416.00 Td (What the rebuild should do) Tj ET
+BT /F1 10.3 Tf 62.00 402.00 Td (? Make saves durable and visible.) Tj ET
+BT /F1 10.3 Tf 62.00 386.00 Td (? Protect against silent state drift.) Tj ET
+BT /F1 10.3 Tf 62.00 370.00 Td (? Support undo and conflict handling.) Tj ET
+BT /F1 10.3 Tf 62.00 354.00 Td (? Preserve editing confidence.) Tj ET
+BT /F2 11 Tf 50.00 332.00 Td (Dev checklist) Tj ET
+BT /F1 10.3 Tf 62.00 318.00 Td (? Rework save architecture.) Tj ET
+BT /F1 10.3 Tf 62.00 302.00 Td (? Add autosave and explicit save confirmation.) Tj ET
+BT /F1 10.3 Tf 62.00 286.00 Td (? Add undo and redo.) Tj ET
+BT /F1 10.3 Tf 62.00 270.00 Td (? Add unsaved-change warnings.) Tj ET
+BT /F1 10.3 Tf 62.00 254.00 Td (? Add conflict handling for concurrent edits.) Tj ET
+BT /F1 10.3 Tf 62.00 238.00 Td (? Add change history for key objects.) Tj ET
+0.6 w 50 216.00 m 545 216.00 l S
+BT /F2 15 Tf 50.00 196.00 Td (8. Make performance and async-job reliability a product requirement) Tj ET
+BT /F2 11 Tf 50.00 176.00 Td (Why this matters) Tj ET
+BT /F1 10.3 Tf 50.00 162.00 Td (Refresh issues, PDF generation failures, stuck states, ghost records, and inconsistent) Tj ET
+BT /F1 10.3 Tf 50.00 148.00 Td (background processing point to job-system fragility. Reliability needs to be designed, not) Tj ET
+BT /F1 10.3 Tf 50.00 134.00 Td (hoped for.) Tj ET
+BT /F2 11 Tf 50.00 111.00 Td (What the rebuild should do) Tj ET
+BT /F1 10.3 Tf 62.00 97.00 Td (? Harden queues, workers, cache invalidation, and job retries.) Tj ET
+BT /F1 10.3 Tf 62.00 81.00 Td (? Make job status visible.) Tj ET
+BT /F3 9 Tf 50 28 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F3 9 Tf 520 28 Td (5) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Length 3384 >>
+stream
+BT /F1 10.3 Tf 62.00 792.00 Td (? Ensure deletion, rendering, syncing, and export jobs are idempotent.) Tj ET
+BT /F2 11 Tf 50.00 770.00 Td (Dev checklist) Tj ET
+BT /F1 10.3 Tf 62.00 756.00 Td (? Instrument worker and queue health.) Tj ET
+BT /F1 10.3 Tf 62.00 740.00 Td (? Define timeout and retry rules.) Tj ET
+BT /F1 10.3 Tf 62.00 724.00 Td (? Add job status UI for long-running operations.) Tj ET
+BT /F1 10.3 Tf 62.00 708.00 Td (? Add canary jobs and monitoring.) Tj ET
+BT /F1 10.3 Tf 62.00 692.00 Td (? Add stale-cache invalidation rules.) Tj ET
+BT /F1 10.3 Tf 62.00 676.00 Td (? Test against large real-world report fixtures.) Tj ET
+0.6 w 50 654.00 m 545 654.00 l S
+BT /F2 15 Tf 50.00 634.00 Td (9. Rebuild onboarding around first trusted live report) Tj ET
+BT /F2 11 Tf 50.00 614.00 Td (Why this matters) Tj ET
+BT /F1 10.3 Tf 50.00 600.00 Td (A meaningful portion of Gleap friction is activation friction. Users often struggle with) Tj ET
+BT /F1 10.3 Tf 50.00 586.00 Td (connecting sources, understanding what is live versus demo, and getting to a clean first) Tj ET
+BT /F1 10.3 Tf 50.00 572.00 Td (output.) Tj ET
+BT /F2 11 Tf 50.00 549.00 Td (What the rebuild should do) Tj ET
+BT /F1 10.3 Tf 62.00 535.00 Td (? Guide users to a first useful, trusted report.) Tj ET
+BT /F1 10.3 Tf 62.00 519.00 Td (? Make demo versus live state obvious.) Tj ET
+BT /F1 10.3 Tf 62.00 503.00 Td (? Reduce ambiguity in setup.) Tj ET
+BT /F2 11 Tf 50.00 481.00 Td (Dev checklist) Tj ET
+BT /F1 10.3 Tf 62.00 467.00 Td (? Build guided onboarding by use case.) Tj ET
+BT /F1 10.3 Tf 62.00 451.00 Td (? Add clear live-data indicators.) Tj ET
+BT /F1 10.3 Tf 62.00 435.00 Td (? Add first-report progress checklist.) Tj ET
+BT /F1 10.3 Tf 62.00 419.00 Td (? Detect stalled onboarding states.) Tj ET
+BT /F1 10.3 Tf 62.00 403.00 Td (? Improve template import behaviour.) Tj ET
+BT /F1 10.3 Tf 62.00 387.00 Td (? Instrument onboarding drop-off points.) Tj ET
+0.6 w 50 365.00 m 545 365.00 l S
+BT /F2 15 Tf 50.00 345.00 Td (10. Rebuild automations as an observable delivery system) Tj ET
+BT /F2 11 Tf 50.00 325.00 Td (Why this matters) Tj ET
+BT /F1 10.3 Tf 50.00 311.00 Td (Scheduled delivery failures are especially damaging because the customer often discovers) Tj ET
+BT /F1 10.3 Tf 50.00 297.00 Td (them after a client-facing mistake. Gleap includes blank automated reports, date mismatch) Tj ET
+BT /F1 10.3 Tf 50.00 283.00 Td (issues, and fragile scheduled outputs.) Tj ET
+BT /F2 11 Tf 50.00 260.00 Td (What the rebuild should do) Tj ET
+BT /F1 10.3 Tf 62.00 246.00 Td (? Make automations debuggable and previewable.) Tj ET
+BT /F1 10.3 Tf 62.00 230.00 Td (? Make date logic explicit.) Tj ET
+BT /F1 10.3 Tf 62.00 214.00 Td (? Show run history and delivery state.) Tj ET
+BT /F2 11 Tf 50.00 192.00 Td (Dev checklist) Tj ET
+BT /F1 10.3 Tf 62.00 178.00 Td (? Add test-send before activation.) Tj ET
+BT /F1 10.3 Tf 62.00 162.00 Td (? Add full run history.) Tj ET
+BT /F1 10.3 Tf 62.00 146.00 Td (? Add recipient-level delivery status.) Tj ET
+BT /F1 10.3 Tf 62.00 130.00 Td (? Add explicit timezone and date-range controls.) Tj ET
+BT /F1 10.3 Tf 62.00 114.00 Td (? Add automation version history.) Tj ET
+BT /F1 10.3 Tf 62.00 98.00 Td (? Alert owners on repeated failure or degradation.) Tj ET
+0.6 w 50 76.00 m 545 76.00 l S
+BT /F3 9 Tf 50 28 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F3 9 Tf 520 28 Td (6) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 15 0 R >>
+endobj
+17 0 obj
+<< /Length 3500 >>
+stream
+BT /F2 15 Tf 50.00 792.00 Td (11. Harden exports, PDFs, email delivery, and share links) Tj ET
+BT /F2 11 Tf 50.00 772.00 Td (Why this matters) Tj ET
+BT /F1 10.3 Tf 50.00 758.00 Td (PDF failures, non-clickable links, layout issues, and export inconsistencies directly) Tj ET
+BT /F1 10.3 Tf 50.00 744.00 Td (damage the client experience. This is the last mile of value delivery.) Tj ET
+BT /F2 11 Tf 50.00 721.00 Td (What the rebuild should do) Tj ET
+BT /F1 10.3 Tf 62.00 707.00 Td (? Treat export and send surfaces as production-critical.) Tj ET
+BT /F1 10.3 Tf 62.00 691.00 Td (? Validate links and layouts before delivery.) Tj ET
+BT /F1 10.3 Tf 62.00 675.00 Td (? Store enough diagnostics to debug failures quickly.) Tj ET
+BT /F2 11 Tf 50.00 653.00 Td (Dev checklist) Tj ET
+BT /F1 10.3 Tf 62.00 639.00 Td (? Build export regression suite.) Tj ET
+BT /F1 10.3 Tf 62.00 623.00 Td (? Validate share links before send.) Tj ET
+BT /F1 10.3 Tf 62.00 607.00 Td (? Improve page-break and overflow rules.) Tj ET
+BT /F1 10.3 Tf 62.00 591.00 Td (? Add branded preview for email and PDF output.) Tj ET
+BT /F1 10.3 Tf 62.00 575.00 Td (? Add fallback or retry path for failed exports.) Tj ET
+BT /F1 10.3 Tf 62.00 559.00 Td (? Preserve failed-output diagnostics.) Tj ET
+0.6 w 50 537.00 m 545 537.00 l S
+BT /F2 15 Tf 50.00 517.00 Td (12. Build proper delete, archive, restore, and cleanup flows) Tj ET
+BT /F2 11 Tf 50.00 497.00 Td (Why this matters) Tj ET
+BT /F1 10.3 Tf 50.00 483.00 Td (Tickets like deleted projects still appearing or clients not deleting show that system) Tj ET
+BT /F1 10.3 Tf 50.00 469.00 Td (state is not always trustworthy. That creates fear around core actions.) Tj ET
+BT /F2 11 Tf 50.00 446.00 Td (What the rebuild should do) Tj ET
+BT /F1 10.3 Tf 62.00 432.00 Td (? Separate archive from hard delete.) Tj ET
+BT /F1 10.3 Tf 62.00 416.00 Td (? Make destructive actions reversible for a safe window.) Tj ET
+BT /F1 10.3 Tf 62.00 400.00 Td (? Clean up dependent objects correctly.) Tj ET
+BT /F2 11 Tf 50.00 378.00 Td (Dev checklist) Tj ET
+BT /F1 10.3 Tf 62.00 364.00 Td (? Add soft-delete and restore.) Tj ET
+BT /F1 10.3 Tf 62.00 348.00 Td (? Define cascade rules.) Tj ET
+BT /F1 10.3 Tf 62.00 332.00 Td (? Add cleanup jobs for stale references.) Tj ET
+BT /F1 10.3 Tf 62.00 316.00 Td (? Add admin recovery tooling.) Tj ET
+BT /F1 10.3 Tf 62.00 300.00 Td (? Add destructive-action summaries.) Tj ET
+BT /F1 10.3 Tf 62.00 284.00 Td (? Add tests for ghost-state prevention.) Tj ET
+0.6 w 50 262.00 m 545 262.00 l S
+BT /F2 15 Tf 50.00 242.00 Td (13. Make entitlements, limits, billing state, upgrades, and reactivation obvious) Tj ET
+BT /F2 11 Tf 50.00 222.00 Td (Why this matters) Tj ET
+BT /F1 10.3 Tf 50.00 208.00 Td (Gleap repeatedly shows confusion and failure around plan limits, project and report caps,) Tj ET
+BT /F1 10.3 Tf 50.00 194.00 Td (upgrade flows, payment-state ambiguity, and reactivation.) Tj ET
+BT /F2 11 Tf 50.00 171.00 Td (What the rebuild should do) Tj ET
+BT /F1 10.3 Tf 62.00 157.00 Td (? Centralise entitlement logic.) Tj ET
+BT /F1 10.3 Tf 62.00 141.00 Td (? Make blockers transparent.) Tj ET
+BT /F1 10.3 Tf 62.00 125.00 Td (? Align upgrade prompts with actual restrictions.) Tj ET
+BT /F2 11 Tf 50.00 103.00 Td (Dev checklist) Tj ET
+BT /F1 10.3 Tf 62.00 89.00 Td (? Create central entitlement service.) Tj ET
+BT /F1 10.3 Tf 62.00 73.00 Td (? Show usage meters and exact limits.) Tj ET
+BT /F3 9 Tf 50 28 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F3 9 Tf 520 28 Td (7) Tj ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 17 0 R >>
+endobj
+19 0 obj
+<< /Length 3394 >>
+stream
+BT /F1 10.3 Tf 62.00 792.00 Td (? Improve upgrade and reactivation flows.) Tj ET
+BT /F1 10.3 Tf 62.00 776.00 Td (? Surface payment failure states clearly.) Tj ET
+BT /F1 10.3 Tf 62.00 760.00 Td (? Add account-level billing event log.) Tj ET
+BT /F1 10.3 Tf 62.00 744.00 Td (? Add safe support override tooling.) Tj ET
+0.6 w 50 722.00 m 545 722.00 l S
+BT /F2 15 Tf 50.00 702.00 Td (14. Add bulk agency workflows) Tj ET
+BT /F2 11 Tf 50.00 682.00 Td (Why this matters) Tj ET
+BT /F1 10.3 Tf 50.00 668.00 Td (Agencies need repeatability. If common multi-client tasks stay manual, support and success) Tj ET
+BT /F1 10.3 Tf 50.00 654.00 Td (teams absorb the pain.) Tj ET
+BT /F2 11 Tf 50.00 631.00 Td (What the rebuild should do) Tj ET
+BT /F1 10.3 Tf 62.00 617.00 Td (? Support bulk rollout and bulk admin workflows.) Tj ET
+BT /F1 10.3 Tf 62.00 601.00 Td (? Make multi-client operations efficient and safe.) Tj ET
+BT /F2 11 Tf 50.00 579.00 Td (Dev checklist) Tj ET
+BT /F1 10.3 Tf 62.00 565.00 Td (? Add clone-to-multiple-clients.) Tj ET
+BT /F1 10.3 Tf 62.00 549.00 Td (? Add bulk user and role assignment.) Tj ET
+BT /F1 10.3 Tf 62.00 533.00 Td (? Add bulk data-source remapping where possible.) Tj ET
+BT /F1 10.3 Tf 62.00 517.00 Td (? Add template version propagation.) Tj ET
+BT /F1 10.3 Tf 62.00 501.00 Td (? Add rollout preview and dry-run mode.) Tj ET
+BT /F1 10.3 Tf 62.00 485.00 Td (? Add exception reporting after bulk actions.) Tj ET
+0.6 w 50 463.00 m 545 463.00 l S
+BT /F2 15 Tf 50.00 443.00 Td (15. Close the highest-frequency connector and metric gaps systematically) Tj ET
+BT /F2 11 Tf 50.00 423.00 Td (Why this matters) Tj ET
+BT /F1 10.3 Tf 50.00 409.00 Td (Gleap repeatedly points to missing or unreliable coverage around custom conversions,) Tj ET
+BT /F1 10.3 Tf 50.00 395.00 Td (conversion actions, GBP search terms, Microsoft Ads auth, WooCommerce, Shopify, HubSpot,) Tj ET
+BT /F1 10.3 Tf 50.00 381.00 Td (Local Service Ads, and other connector-level gaps.) Tj ET
+BT /F2 11 Tf 50.00 358.00 Td (What the rebuild should do) Tj ET
+BT /F1 10.3 Tf 62.00 344.00 Td (? Treat connector completeness as a prioritised product program.) Tj ET
+BT /F1 10.3 Tf 62.00 328.00 Td (? Rank gaps by support volume, retention risk, and agency value.) Tj ET
+BT /F2 11 Tf 50.00 306.00 Td (Dev checklist) Tj ET
+BT /F1 10.3 Tf 62.00 292.00 Td (? Create live connector gap board.) Tj ET
+BT /F1 10.3 Tf 62.00 276.00 Td (? Assign owner per priority connector.) Tj ET
+BT /F1 10.3 Tf 62.00 260.00 Td (? Add contract tests against provider APIs.) Tj ET
+BT /F1 10.3 Tf 62.00 244.00 Td (? Document metric availability and known constraints.) Tj ET
+BT /F1 10.3 Tf 62.00 228.00 Td (? Review gap board monthly using Gleap plus product usage.) Tj ET
+BT /F1 10.3 Tf 62.00 212.00 Td (? Add release gates for connector regressions.) Tj ET
+0.6 w 50 190.00 m 545 190.00 l S
+BT /F2 15 Tf 50.00 170.00 Td (16. Build a migration and compatibility layer from old Oviond into rebuilt Oviond) Tj ET
+BT /F2 11 Tf 50.00 150.00 Td (Why this matters) Tj ET
+BT /F1 10.3 Tf 50.00 136.00 Td (Without a thoughtful migration layer, the rebuild could generate a new wave of support) Tj ET
+BT /F1 10.3 Tf 50.00 122.00 Td (pain. Existing customers need continuity, not disruption.) Tj ET
+BT /F2 11 Tf 50.00 99.00 Td (What the rebuild should do) Tj ET
+BT /F3 9 Tf 50 28 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F3 9 Tf 520 28 Td (8) Tj ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 19 0 R >>
+endobj
+21 0 obj
+<< /Length 3434 >>
+stream
+BT /F1 10.3 Tf 62.00 792.00 Td (? Migrate users, clients, projects, reports, templates, automations, and permissions) Tj ET
+BT /F1 10.3 Tf 62.00 778.00 Td (  safely.) Tj ET
+BT /F1 10.3 Tf 62.00 762.00 Td (? Detect unsupported legacy configurations before cutover.) Tj ET
+BT /F2 11 Tf 50.00 740.00 Td (Dev checklist) Tj ET
+BT /F1 10.3 Tf 62.00 726.00 Td (? Define migratable object map.) Tj ET
+BT /F1 10.3 Tf 62.00 710.00 Td (? Add legacy-to-new feature mapping.) Tj ET
+BT /F1 10.3 Tf 62.00 694.00 Td (? Flag unsupported features pre-migration.) Tj ET
+BT /F1 10.3 Tf 62.00 678.00 Td (? Add parity validation after migration.) Tj ET
+BT /F1 10.3 Tf 62.00 662.00 Td (? Add rollback and staged cutover support.) Tj ET
+BT /F1 10.3 Tf 62.00 646.00 Td (? Pilot on a controlled set of real accounts first.) Tj ET
+0.6 w 50 624.00 m 545 624.00 l S
+BT /F2 15 Tf 50.00 604.00 Td (17. Productise API, webhooks, and MCP properly) Tj ET
+BT /F2 11 Tf 50.00 584.00 Td (Why this matters) Tj ET
+BT /F1 10.3 Tf 50.00 570.00 Td (This is not the largest volume theme, but it is high leverage for more advanced customers) Tj ET
+BT /F1 10.3 Tf 50.00 556.00 Td (and partners. Recent Gleap tickets already show MCP and API-side pain.) Tj ET
+BT /F2 11 Tf 50.00 533.00 Td (What the rebuild should do) Tj ET
+BT /F1 10.3 Tf 62.00 519.00 Td (? Provide a stable extensibility model.) Tj ET
+BT /F1 10.3 Tf 62.00 503.00 Td (? Make external integrations diagnosable and safe.) Tj ET
+BT /F2 11 Tf 50.00 481.00 Td (Dev checklist) Tj ET
+BT /F1 10.3 Tf 62.00 467.00 Td (? Add scoped API keys.) Tj ET
+BT /F1 10.3 Tf 62.00 451.00 Td (? Add webhook logs, retry, and replay.) Tj ET
+BT /F1 10.3 Tf 62.00 435.00 Td (? Add MCP setup diagnostics and health checks.) Tj ET
+BT /F1 10.3 Tf 62.00 419.00 Td (? Publish stable schemas and error contracts.) Tj ET
+BT /F1 10.3 Tf 62.00 403.00 Td (? Add rate limits with useful errors.) Tj ET
+BT /F1 10.3 Tf 62.00 387.00 Td (? Version the API intentionally.) Tj ET
+0.6 w 50 365.00 m 545 365.00 l S
+BT /F2 15 Tf 50.00 345.00 Td (18. Separate AI from core reporting reliability, and make BYOK work cleanly) Tj ET
+BT /F2 11 Tf 50.00 325.00 Td (Why this matters) Tj ET
+BT /F1 10.3 Tf 50.00 311.00 Td (AI entitlement confusion is showing up in Gleap. AI can be valuable, but it should never) Tj ET
+BT /F1 10.3 Tf 50.00 297.00 Td (undermine trust in the reporting core.) Tj ET
+BT /F2 11 Tf 50.00 274.00 Td (What the rebuild should do) Tj ET
+BT /F1 10.3 Tf 62.00 260.00 Td (? Separate AI access from core reporting entitlements.) Tj ET
+BT /F1 10.3 Tf 62.00 244.00 Td (? Make bring-your-own-key behaviour explicit and testable.) Tj ET
+BT /F1 10.3 Tf 62.00 228.00 Td (? Ensure AI failure does not contaminate report rendering.) Tj ET
+BT /F2 11 Tf 50.00 206.00 Td (Dev checklist) Tj ET
+BT /F1 10.3 Tf 62.00 192.00 Td (? Separate AI billing and entitlement logic.) Tj ET
+BT /F1 10.3 Tf 62.00 176.00 Td (? Add provider status and usage visibility.) Tj ET
+BT /F1 10.3 Tf 62.00 160.00 Td (? Add graceful degradation when AI is unavailable.) Tj ET
+BT /F1 10.3 Tf 62.00 144.00 Td (? Add BYOK end-to-end tests.) Tj ET
+BT /F1 10.3 Tf 62.00 128.00 Td (? Prevent AI path failures from affecting core reporting flows.) Tj ET
+0.6 w 50 106.00 m 545 106.00 l S
+BT /F2 15 Tf 50.00 86.00 Td (19. Put contextual help and guided troubleshooting inside the product) Tj ET
+BT /F3 9 Tf 50 28 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F3 9 Tf 520 28 Td (9) Tj ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 21 0 R >>
+endobj
+23 0 obj
+<< /Length 3398 >>
+stream
+BT /F2 11 Tf 50.00 792.00 Td (Why this matters) Tj ET
+BT /F1 10.3 Tf 50.00 778.00 Td (Search behaviour shows users repeatedly looking for help on the same issues. That means) Tj ET
+BT /F1 10.3 Tf 50.00 764.00 Td (the product is making them leave the workflow too often.) Tj ET
+BT /F2 11 Tf 50.00 741.00 Td (What the rebuild should do) Tj ET
+BT /F1 10.3 Tf 62.00 727.00 Td (? Add contextual guidance at the point of friction.) Tj ET
+BT /F1 10.3 Tf 62.00 711.00 Td (? Use real user language drawn from support history.) Tj ET
+BT /F2 11 Tf 50.00 689.00 Td (Dev checklist) Tj ET
+BT /F1 10.3 Tf 62.00 675.00 Td (? Add page-level help drawer.) Tj ET
+BT /F1 10.3 Tf 62.00 659.00 Td (? Add connector troubleshooting wizards.) Tj ET
+BT /F1 10.3 Tf 62.00 643.00 Td (? Link error codes directly to support articles.) Tj ET
+BT /F1 10.3 Tf 62.00 627.00 Td (? Add in-flow setup walkthroughs for top tasks.) Tj ET
+BT /F1 10.3 Tf 62.00 611.00 Td (? Improve search relevance using Gleap phrasing.) Tj ET
+BT /F1 10.3 Tf 62.00 595.00 Td (? Add next-step guidance from empty and error states.) Tj ET
+0.6 w 50 573.00 m 545 573.00 l S
+BT /F2 15 Tf 50.00 553.00 Td (20. Instrument the rebuilt app so Gleap becomes a feedback loop, not just a fire alarm) Tj ET
+BT /F2 11 Tf 50.00 533.00 Td (Why this matters) Tj ET
+BT /F1 10.3 Tf 50.00 519.00 Td (Right now many issues are only obvious after the customer hits them. The rebuilt product) Tj ET
+BT /F1 10.3 Tf 50.00 505.00 Td (should emit enough context to detect and diagnose friction early.) Tj ET
+BT /F2 11 Tf 50.00 482.00 Td (What the rebuild should do) Tj ET
+BT /F1 10.3 Tf 62.00 468.00 Td (? Make support and product telemetry work together.) Tj ET
+BT /F1 10.3 Tf 62.00 452.00 Td (? Feed product prioritisation from real operational signals.) Tj ET
+BT /F2 11 Tf 50.00 430.00 Td (Dev checklist) Tj ET
+BT /F1 10.3 Tf 62.00 416.00 Td (? Emit structured events for key product flows.) Tj ET
+BT /F1 10.3 Tf 62.00 400.00 Td (? Attach product context automatically to support tickets.) Tj ET
+BT /F1 10.3 Tf 62.00 384.00 Td (? Auto-tag tickets by area and severity where possible.) Tj ET
+BT /F1 10.3 Tf 62.00 368.00 Td (? Build weekly product-friction dashboards.) Tj ET
+BT /F1 10.3 Tf 62.00 352.00 Td (? Track funnel drop-off by connector and setup step.) Tj ET
+BT /F1 10.3 Tf 62.00 336.00 Td (? Review Gleap plus telemetry in weekly product ops.) Tj ET
+0.6 w 50 314.00 m 545 314.00 l S
+BT /F2 18 Tf 50.00 294.00 Td (Recommended delivery sequence) Tj ET
+BT /F2 15 Tf 50.00 264.00 Td (Phase 1: Beta blockers) Tj ET
+BT /F1 10.3 Tf 50.00 244.00 Td (These should be treated as non-negotiable before broad rebuild rollout.) Tj ET
+BT /F1 10.3 Tf 55.00 221.00 Td (1. Connector reliability) Tj ET
+BT /F1 10.3 Tf 55.00 205.00 Td (2. Unified rendering engine) Tj ET
+BT /F1 10.3 Tf 55.00 189.00 Td (3. Permissions and sharing) Tj ET
+BT /F1 10.3 Tf 55.00 173.00 Td (4. Custom domain and white-label self-serve) Tj ET
+BT /F1 10.3 Tf 55.00 157.00 Td (5. Query and calculated metric engine) Tj ET
+BT /F1 10.3 Tf 55.00 141.00 Td (6. Data health diagnostics) Tj ET
+BT /F1 10.3 Tf 55.00 125.00 Td (7. Builder save integrity) Tj ET
+BT /F1 10.3 Tf 55.00 109.00 Td (8. Performance and async-job reliability) Tj ET
+BT /F2 15 Tf 50.00 87.00 Td (Phase 2: Must-have before general availability) Tj ET
+BT /F3 9 Tf 50 28 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F3 9 Tf 520 28 Td (10) Tj ET
+endstream
+endobj
+24 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 23 0 R >>
+endobj
+25 0 obj
+<< /Length 3350 >>
+stream
+BT /F1 10.3 Tf 55.00 792.00 Td (9. Onboarding to first trusted live report) Tj ET
+BT /F1 10.3 Tf 55.00 776.00 Td (10. Observable automations) Tj ET
+BT /F1 10.3 Tf 55.00 760.00 Td (11. Exports, PDFs, and share delivery) Tj ET
+BT /F1 10.3 Tf 55.00 744.00 Td (12. Delete, archive, and restore) Tj ET
+BT /F1 10.3 Tf 55.00 728.00 Td (13. Entitlements and billing clarity) Tj ET
+BT /F1 10.3 Tf 55.00 712.00 Td (14. Bulk agency workflows) Tj ET
+BT /F1 10.3 Tf 55.00 696.00 Td (15. Connector and metric gap program) Tj ET
+BT /F2 15 Tf 50.00 674.00 Td (Phase 3: Scale and differentiation) Tj ET
+BT /F1 10.3 Tf 55.00 648.00 Td (16. Migration and compatibility layer) Tj ET
+BT /F1 10.3 Tf 55.00 632.00 Td (17. API, webhooks, and MCP) Tj ET
+BT /F1 10.3 Tf 55.00 616.00 Td (18. AI separation and BYOK clarity) Tj ET
+BT /F1 10.3 Tf 55.00 600.00 Td (19. Contextual help and guided troubleshooting) Tj ET
+BT /F1 10.3 Tf 55.00 584.00 Td (20. Full product and support instrumentation loop) Tj ET
+0.6 w 50 562.00 m 545 562.00 l S
+BT /F2 15 Tf 50.00 542.00 Td (Product leadership recommendation) Tj ET
+BT /F1 10.3 Tf 50.00 516.00 Td (If we are ruthless, the rebuild should be sold internally as a trust-and-operability) Tj ET
+BT /F1 10.3 Tf 50.00 502.00 Td (rebuild, not a feature rebuild.) Tj ET
+BT /F1 10.3 Tf 50.00 479.00 Td (That means the product team should optimise for:) Tj ET
+BT /F1 10.3 Tf 62.00 462.00 Td (? fewer support tickets per active account) Tj ET
+BT /F1 10.3 Tf 62.00 446.00 Td (? fewer connector failures per connected account) Tj ET
+BT /F1 10.3 Tf 62.00 430.00 Td (? higher percentage of successful scheduled deliveries) Tj ET
+BT /F1 10.3 Tf 62.00 414.00 Td (? lower time-to-first-trusted-report) Tj ET
+BT /F1 10.3 Tf 62.00 398.00 Td (? fewer permission and access escalations) Tj ET
+BT /F1 10.3 Tf 62.00 382.00 Td (? higher white-label setup success rate) Tj ET
+BT /F1 10.3 Tf 50.00 360.00 Td (These are the measures most aligned with what Gleap says is actually hurting customers.) Tj ET
+0.6 w 50 337.00 m 545 337.00 l S
+BT /F2 15 Tf 50.00 317.00 Td (Final recommendation) Tj ET
+BT /F1 10.3 Tf 50.00 291.00 Td (Do not let the rebuild get distracted by cosmetic improvements while the core agency) Tj ET
+BT /F1 10.3 Tf 50.00 277.00 Td (workflows remain fragile.) Tj ET
+BT /F1 10.3 Tf 50.00 254.00 Td (The most important work is not making Oviond look more modern. It is making Oviond feel) Tj ET
+BT /F1 10.3 Tf 50.00 240.00 Td (dependable.) Tj ET
+BT /F1 10.3 Tf 50.00 217.00 Td (If the rebuilt product can reliably connect data, preserve permissions, render) Tj ET
+BT /F1 10.3 Tf 50.00 203.00 Td (consistently, deliver branded reports cleanly, and make failure states obvious, it will) Tj ET
+BT /F1 10.3 Tf 50.00 189.00 Td (solve the biggest recurring causes of support pain and give Oviond a far stronger) Tj ET
+BT /F1 10.3 Tf 50.00 175.00 Td (foundation for retention and growth.) Tj ET
+0.6 w 50 152.00 m 545 152.00 l S
+BT /F2 15 Tf 50.00 132.00 Td (Appendix: Representative recurring issue examples from the Gleap research) Tj ET
+BT /F1 10.3 Tf 50.00 106.00 Td (Examples seen during the analysis included:) Tj ET
+BT /F1 10.3 Tf 62.00 89.00 Td (? Custom Domain Request) Tj ET
+BT /F1 10.3 Tf 62.00 73.00 Td (? Custom Domain Not Functioning) Tj ET
+BT /F3 9 Tf 50 28 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F3 9 Tf 520 28 Td (11) Tj ET
+endstream
+endobj
+26 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 25 0 R >>
+endobj
+27 0 obj
+<< /Length 1584 >>
+stream
+BT /F1 10.3 Tf 62.00 792.00 Td (? Custom Report Domain Connection Failure) Tj ET
+BT /F1 10.3 Tf 62.00 776.00 Td (? Dashboard sent via automation does not show data and date range does not match project) Tj ET
+BT /F1 10.3 Tf 62.00 760.00 Td (? Bug Fix Assistance - not able to assign clients to team members in User Permissions) Tj ET
+BT /F1 10.3 Tf 62.00 744.00 Td (? Unable to save custom table sorting) Tj ET
+BT /F1 10.3 Tf 62.00 728.00 Td (? Issue with custom calculations) Tj ET
+BT /F1 10.3 Tf 62.00 712.00 Td (? Filtering option missing in GA4 filter) Tj ET
+BT /F1 10.3 Tf 62.00 696.00 Td (? Google Ads Conversion Actions Connection Issue in Shared Report) Tj ET
+BT /F1 10.3 Tf 62.00 680.00 Td (? Google Business Profile Search Terms data is not pulling through) Tj ET
+BT /F1 10.3 Tf 62.00 664.00 Td (? AI Assistant Non-Functional After Custom API Key Setup) Tj ET
+BT /F1 10.3 Tf 62.00 648.00 Td (? Cannot Connect Shopify as Data Source) Tj ET
+BT /F1 10.3 Tf 62.00 632.00 Td (? Deleted project still appearing as active) Tj ET
+BT /F1 10.3 Tf 62.00 616.00 Td (? PDF not downloading) Tj ET
+BT /F1 10.3 Tf 62.00 600.00 Td (? PDF Report Generation Failure) Tj ET
+BT /F1 10.3 Tf 62.00 584.00 Td (? Unable to Authenticate Microsoft Ads Connection - Advice needed) Tj ET
+BT /F1 10.3 Tf 50.00 562.00 Td (These are not isolated oddities. They line up tightly with the broader theme counts and) Tj ET
+BT /F1 10.3 Tf 50.00 548.00 Td (search behaviour across the full support history.) Tj ET
+BT /F3 9 Tf 50 28 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F3 9 Tf 520 28 Td (12) Tj ET
+endstream
+endobj
+28 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R /F3 3 0 R >> >> /Contents 27 0 R >>
+endobj
+29 0 obj
+<< /Type /Catalog /Pages 4 0 R >>
+endobj
+xref
+0 30
+0000000000 65535 f 
+0000000015 00000 n 
+0000000083 00000 n 
+0000000158 00000 n 
+0000000228 00000 n 
+0000000362 00000 n 
+0000003837 00000 n 
+0000003989 00000 n 
+0000007536 00000 n 
+0000007688 00000 n 
+0000011496 00000 n 
+0000011649 00000 n 
+0000015312 00000 n 
+0000015466 00000 n 
+0000019086 00000 n 
+0000019240 00000 n 
+0000022677 00000 n 
+0000022831 00000 n 
+0000026384 00000 n 
+0000026538 00000 n 
+0000029985 00000 n 
+0000030139 00000 n 
+0000033626 00000 n 
+0000033780 00000 n 
+0000037231 00000 n 
+0000037385 00000 n 
+0000040788 00000 n 
+0000040942 00000 n 
+0000042579 00000 n 
+0000042733 00000 n 
+trailer
+<< /Size 30 /Root 29 0 R >>
+startxref
+42783
+%%EOF
