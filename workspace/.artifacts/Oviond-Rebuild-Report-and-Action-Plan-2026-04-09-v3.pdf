@@ -1,0 +1,961 @@
+%PDF-1.4
+%ту╧╙
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+3 0 obj
+<< /Type /Pages /Count 19 /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R 35 0 R 37 0 R 39 0 R 41 0 R] >>
+endobj
+4 0 obj
+<< /Length 3499 >>
+stream
+BT /F2 20.00 Tf 54.00 788.00 Td (Oviond Rebuild Report and Action Plan v3) Tj ET
+BT /F2 15.00 Tf 54.00 756.00 Td (Gleap history plus buyer product-review synthesis) Tj ET
+BT /F1 10.40 Tf 54.00 726.00 Td (Prepared for: Chris Irwin) Tj ET
+BT /F1 10.40 Tf 54.00 709.00 Td (Prepared by: Nicole Prince) Tj ET
+BT /F1 10.40 Tf 54.00 692.00 Td (Date: 9 April 2026) Tj ET
+0.7 w 54.00 669.00 m 541.28 669.00 l S
+BT /F2 15.00 Tf 54.00 647.00 Td (Executive summary) Tj ET
+BT /F1 10.40 Tf 54.00 617.00 Td (This version upgrades the earlier rebuild report by combining two separate) Tj ET
+BT /F1 10.40 Tf 54.00 603.00 Td (evidence streams that point to the same conclusion.) Tj ET
+BT /F1 10.40 Tf 54.00 580.00 Td (The first evidence stream is the full Gleap support history and the) Tj ET
+BT /F1 10.40 Tf 54.00 566.00 Td (higher-signal product subset already analysed. The second is the buyer-era) Tj ET
+BT /F1 10.40 Tf 54.00 552.00 Td (internal product review you shared, which is unusually blunt and therefore) Tj ET
+BT /F1 10.40 Tf 54.00 538.00 Td (extremely valuable.) Tj ET
+BT /F1 10.40 Tf 54.00 515.00 Td (Taken together, they say the same thing.) Tj ET
+BT /F1 10.40 Tf 54.00 492.00 Td (Oviond's core problem is not market size. It is not top-of-funnel demand. It) Tj ET
+BT /F1 10.40 Tf 54.00 478.00 Td (is not a lack of features in the abstract. The real issue is product) Tj ET
+BT /F1 10.40 Tf 54.00 464.00 Td (credibility.) Tj ET
+BT /F1 10.40 Tf 54.00 441.00 Td (The product is being experienced as unpolished, structurally unreliable, weak) Tj ET
+BT /F1 10.40 Tf 54.00 427.00 Td (in transformation and reporting depth, shaky in connectors and data trust,) Tj ET
+BT /F1 10.40 Tf 54.00 413.00 Td (shallow in automation, and overstated in its AI positioning. That combination) Tj ET
+BT /F1 10.40 Tf 54.00 399.00 Td (does three kinds of damage at once:) Tj ET
+BT /F1 10.40 Tf 54.00 376.00 Td (- it increases support burden) Tj ET
+BT /F1 10.40 Tf 54.00 360.00 Td (- it weakens activation and retention) Tj ET
+BT /F1 10.40 Tf 54.00 344.00 Td (- it kills buyer and operator confidence during serious evaluation) Tj ET
+BT /F1 10.40 Tf 54.00 322.00 Td (The buyer review matters because it confirms that this is not just noisy) Tj ET
+BT /F1 10.40 Tf 54.00 308.00 Td (support friction from weaker users. A serious evaluator reached much the same) Tj ET
+BT /F1 10.40 Tf 54.00 294.00 Td (conclusion that the support history implies: Oviond currently feels too) Tj ET
+BT /F1 10.40 Tf 54.00 280.00 Td (immature for professional agency reporting teams.) Tj ET
+BT /F1 10.40 Tf 54.00 257.00 Td (That is painful, but it is clean signal.) Tj ET
+BT /F1 10.40 Tf 54.00 234.00 Td (The rebuild therefore needs to be a trust, capability, and credibility) Tj ET
+BT /F1 10.40 Tf 54.00 220.00 Td (rebuild. It should not be treated as a cosmetic refresh.) Tj ET
+BT /F1 10.40 Tf 54.00 197.00 Td (Source: MEMORY.md#L23-L31; MEMORY.md#L46-L53; Oviond Ц Internal Product) Tj ET
+BT /F1 10.40 Tf 54.00 183.00 Td (Review, sections 1 to 7.) Tj ET
+0.7 w 54.00 160.00 m 541.28 160.00 l S
+BT /F2 15.00 Tf 54.00 138.00 Td (What changed from the previous report) Tj ET
+BT /F1 10.40 Tf 54.00 108.00 Td (This upgraded version does four things:) Tj ET
+BT /F1 10.40 Tf 54.00 85.00 Td (- adds the buyer product review as a second major evidence source) Tj ET
+BT /F1 10.40 Tf 54.00 69.00 Td (- removes the artificial top-20 cap) Tj ET
+BT /F1 9.00 Tf 54.00 28.00 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F1 9.00 Tf 529.28 28.00 Td (1) Tj ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 3376 >>
+stream
+BT /F1 10.40 Tf 54.00 790.00 Td (- sharpens the roadmap around the specific weaknesses that killed buyer) Tj ET
+BT /F1 10.40 Tf 54.00 776.00 Td (  confidence) Tj ET
+BT /F1 10.40 Tf 54.00 760.00 Td (- turns the plan into a more explicit pass-fail rebuild program, not just a) Tj ET
+BT /F1 10.40 Tf 54.00 746.00 Td (  prioritised list) Tj ET
+0.7 w 54.00 724.00 m 541.28 724.00 l S
+BT /F2 15.00 Tf 54.00 702.00 Td (Evidence base) Tj ET
+BT /F2 12.00 Tf 54.00 671.00 Td (1. Gleap history already reviewed) Tj ET
+BT /F1 10.40 Tf 54.00 645.00 Td (The earlier rebuild report was based on:) Tj ET
+BT /F1 10.40 Tf 54.00 622.00 Td (- Total tickets analysed: 10,844) Tj ET
+BT /F1 10.40 Tf 54.00 606.00 Td (- Non-BOT tickets: 9,334) Tj ET
+BT /F1 10.40 Tf 54.00 590.00 Td (- BOT tickets: 1,510) Tj ET
+BT /F1 10.40 Tf 54.00 574.00 Td (- Historical range reviewed: 3 May 2024 to 9 April 2026) Tj ET
+BT /F1 10.40 Tf 54.00 558.00 Td (- Filtered product-signal set: 6,157 tickets) Tj ET
+BT /F1 10.40 Tf 54.00 542.00 Td (- High-signal subset used for priority shaping: 3,854 tickets) Tj ET
+BT /F1 10.40 Tf 54.00 520.00 Td (Dominant themes in the higher-signal set included:) Tj ET
+BT /F1 10.40 Tf 54.00 497.00 Td (- permissions, login, and user management) Tj ET
+BT /F1 10.40 Tf 54.00 481.00 Td (- connectors and data quality) Tj ET
+BT /F1 10.40 Tf 54.00 465.00 Td (- report builder, widgets, and editing) Tj ET
+BT /F1 10.40 Tf 54.00 449.00 Td (- performance and reliability) Tj ET
+BT /F1 10.40 Tf 54.00 433.00 Td (- custom domain and white-label) Tj ET
+BT /F1 10.40 Tf 54.00 417.00 Td (- billing and subscription) Tj ET
+BT /F1 10.40 Tf 54.00 401.00 Td (- automation and notifications) Tj ET
+BT /F1 10.40 Tf 54.00 385.00 Td (- report sharing, exports, and scheduling) Tj ET
+BT /F1 10.40 Tf 54.00 363.00 Td (Source: MEMORY.md#L46-L53 and the earlier Gleap analysis report.) Tj ET
+BT /F2 12.00 Tf 54.00 339.00 Td (2. Buyer product review, why it matters) Tj ET
+BT /F1 10.40 Tf 54.00 313.00 Td (The buyer review is strategically important because it is not support noise.) Tj ET
+BT /F1 10.40 Tf 54.00 299.00 Td (It is closer to diligence-quality product judgment.) Tj ET
+BT /F1 10.40 Tf 54.00 276.00 Td (The harshest lines are worth taking seriously:) Tj ET
+BT /F1 10.40 Tf 54.00 253.00 Td (- Oviond is described as a "lightweight reporting tool") Tj ET
+BT /F1 10.40 Tf 54.00 237.00 Td (- it is called "unpolished and immature") Tj ET
+BT /F1 10.40 Tf 54.00 221.00 Td (- it "feels like an MVP") Tj ET
+BT /F1 10.40 Tf 54.00 205.00 Td (- it is said to have "no credible differentiation") Tj ET
+BT /F1 10.40 Tf 54.00 189.00 Td (- it is positioned as "below Looker Studio \(free\)") Tj ET
+BT /F1 10.40 Tf 54.00 173.00 Td (- the AI layer is described as "marketing positioning without product) Tj ET
+BT /F1 10.40 Tf 54.00 159.00 Td (  substance") Tj ET
+BT /F1 10.40 Tf 54.00 143.00 Td (- the connector situation is described as creating "high support cost + low) Tj ET
+BT /F1 10.40 Tf 54.00 129.00 Td (  trust") Tj ET
+BT /F1 10.40 Tf 54.00 113.00 Td (- the PPC verdict is that "PPC teams would abandon this tool almost) Tj ET
+BT /F1 10.40 Tf 54.00 99.00 Td (  immediately") Tj ET
+BT /F1 10.40 Tf 54.00 83.00 Td (- the social verdict is that "Social reporting is effectively broken") Tj ET
+BT /F1 9.00 Tf 54.00 28.00 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F1 9.00 Tf 529.28 28.00 Td (2) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 3972 >>
+stream
+BT /F1 10.40 Tf 54.00 790.00 Td (This is brutal, but it is exactly the kind of feedback that prevents the team) Tj ET
+BT /F1 10.40 Tf 54.00 776.00 Td (from lying to itself.) Tj ET
+BT /F1 10.40 Tf 54.00 753.00 Td (Source: Oviond Ц Internal Product Review, sections 1 to 7.) Tj ET
+0.7 w 54.00 730.00 m 541.28 730.00 l S
+BT /F2 15.00 Tf 54.00 708.00 Td (The overlap between Gleap and the buyer review) Tj ET
+BT /F1 10.40 Tf 54.00 678.00 Td (The most important thing is not that the buyer review is negative. The most) Tj ET
+BT /F1 10.40 Tf 54.00 664.00 Td (important thing is that it overlaps so tightly with the live support history.) Tj ET
+BT /F2 12.00 Tf 54.00 640.00 Td (Shared signal 1: the product feels untrustworthy under real use) Tj ET
+BT /F1 10.40 Tf 54.00 614.00 Td (Gleap repeatedly shows friction around connectors, broken report outputs,) Tj ET
+BT /F1 10.40 Tf 54.00 600.00 Td (permissions, automations, custom domains, exports, and billing edge cases. The) Tj ET
+BT /F1 10.40 Tf 54.00 586.00 Td (buyer review says the product feels immature and structurally unreliable.) Tj ET
+BT /F1 10.40 Tf 54.00 572.00 Td (Those are the same signal from two angles.) Tj ET
+BT /F1 10.40 Tf 54.00 549.00 Td (Source: MEMORY.md#L46-L53; Oviond Ц Internal Product Review, sections 1, 4, 6,) Tj ET
+BT /F1 10.40 Tf 54.00 535.00 Td (and 7.) Tj ET
+BT /F2 12.00 Tf 54.00 511.00 Td (Shared signal 2: the transformation/reporting core is too weak for) Tj ET
+BT /F2 12.00 Tf 54.00 495.00 Td (serious teams) Tj ET
+BT /F1 10.40 Tf 54.00 469.00 Td (Gleap showed recurring pain around calculations, filters, data quality, widget) Tj ET
+BT /F1 10.40 Tf 54.00 455.00 Td (behaviour, and cross-source reporting. The buyer review is more explicit: no) Tj ET
+BT /F1 10.40 Tf 54.00 441.00 Td (calculated fields, no proper metric combinations, no conversion-action) Tj ET
+BT /F1 10.40 Tf 54.00 427.00 Td (segmentation, and multi-source data that breaks or duplicates values.) Tj ET
+BT /F1 10.40 Tf 54.00 404.00 Td (Source: MEMORY.md#L46-L53; Oviond Ц Internal Product Review, section 4.) Tj ET
+BT /F2 12.00 Tf 54.00 380.00 Td (Shared signal 3: connectors are not just breadth problems, they are) Tj ET
+BT /F2 12.00 Tf 54.00 364.00 Td (trust problems) Tj ET
+BT /F1 10.40 Tf 54.00 338.00 Td (Gleap showed repeated issues across GA4, Google Ads, Meta, Google Business) Tj ET
+BT /F1 10.40 Tf 54.00 324.00 Td (Profile, WooCommerce, Shopify, HubSpot, Microsoft Ads, Google Sheets, and) Tj ET
+BT /F1 10.40 Tf 54.00 310.00 Td (related auth or token-expiry failures. The buyer review adds the commercial) Tj ET
+BT /F1 10.40 Tf 54.00 296.00 Td (consequence: limited or unreliable connectors create high support cost and low) Tj ET
+BT /F1 10.40 Tf 54.00 282.00 Td (trust.) Tj ET
+BT /F1 10.40 Tf 54.00 259.00 Td (Source: MEMORY.md#L23-L31; MEMORY.md#L46-L53; Oviond Ц Internal Product) Tj ET
+BT /F1 10.40 Tf 54.00 245.00 Td (Review, section 4.) Tj ET
+BT /F2 12.00 Tf 54.00 221.00 Td (Shared signal 4: AI positioning is ahead of the product) Tj ET
+BT /F1 10.40 Tf 54.00 195.00 Td (The buyer review says there is no real AI assistant and calls the claim) Tj ET
+BT /F1 10.40 Tf 54.00 181.00 Td ("marketing positioning without product substance." Memory already captured the) Tj ET
+BT /F1 10.40 Tf 54.00 167.00 Td (strategic risk that low-end reporting and narrative work are vulnerable to LLM) Tj ET
+BT /F1 10.40 Tf 54.00 153.00 Td (substitution, and that Oviond's stronger defensible value is reliable) Tj ET
+BT /F1 10.40 Tf 54.00 139.00 Td (connectors, normalization, white-label delivery, permissions, workflow) Tj ET
+BT /F1 10.40 Tf 54.00 125.00 Td (automation, and client-ready trust.) Tj ET
+BT /F1 10.40 Tf 54.00 102.00 Td (That means fake AI is worse than no AI. It burns credibility in exactly the) Tj ET
+BT /F1 10.40 Tf 54.00 88.00 Td (area where the market is already skeptical.) Tj ET
+BT /F1 9.00 Tf 54.00 28.00 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F1 9.00 Tf 529.28 28.00 Td (3) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 3625 >>
+stream
+BT /F1 10.40 Tf 54.00 790.00 Td (Source: MEMORY.md#L23-L31; Oviond Ц Internal Product Review, sections 2 and 5.) Tj ET
+BT /F2 12.00 Tf 54.00 766.00 Td (Shared signal 5: the current product can handle simple top-level) Tj ET
+BT /F2 12.00 Tf 54.00 750.00 Td (reporting, but not serious agency reporting) Tj ET
+BT /F1 10.40 Tf 54.00 724.00 Td (One useful nuance from the buyer review is that Oviond does have real narrow) Tj ET
+BT /F1 10.40 Tf 54.00 710.00 Td (strengths:) Tj ET
+BT /F1 10.40 Tf 54.00 687.00 Td (- basic top-level reports can work) Tj ET
+BT /F1 10.40 Tf 54.00 671.00 Td (- public sharing works without login) Tj ET
+BT /F1 10.40 Tf 54.00 655.00 Td (- scheduled email delivery is reliable) Tj ET
+BT /F1 10.40 Tf 54.00 639.00 Td (- setup is simple) Tj ET
+BT /F1 10.40 Tf 54.00 617.00 Td (This lines up with the broader business memory that customers choose Oviond) Tj ET
+BT /F1 10.40 Tf 54.00 603.00 Td (for simplicity, lower pricing, and white-label reporting. So the rebuild) Tj ET
+BT /F1 10.40 Tf 54.00 589.00 Td (should preserve ease and speed. It should not turn Oviond into a bloated) Tj ET
+BT /F1 10.40 Tf 54.00 575.00 Td (analyst toy.) Tj ET
+BT /F1 10.40 Tf 54.00 552.00 Td (Source: MEMORY.md#L23-L24; Oviond Ц Internal Product Review, section 3.) Tj ET
+0.7 w 54.00 529.00 m 541.28 529.00 l S
+BT /F2 15.00 Tf 54.00 507.00 Td (The real strategic diagnosis now) Tj ET
+BT /F2 12.00 Tf 54.00 476.00 Td (1. The deal did not tank because the buyer wanted too much) Tj ET
+BT /F1 10.40 Tf 54.00 450.00 Td (The deal appears to have tanked because product quality did not support the) Tj ET
+BT /F1 10.40 Tf 54.00 436.00 Td (value story. That is a very different problem from feature envy.) Tj ET
+BT /F2 12.00 Tf 54.00 412.00 Td (2. Oviond currently has a credibility gap, not just a capability) Tj ET
+BT /F2 12.00 Tf 54.00 396.00 Td (gap) Tj ET
+BT /F1 10.40 Tf 54.00 370.00 Td (A capability gap says "we need more features." A credibility gap says "the) Tj ET
+BT /F1 10.40 Tf 54.00 356.00 Td (market does not believe us when we describe what the product is." The buyer) Tj ET
+BT /F1 10.40 Tf 54.00 342.00 Td (review makes clear that Oviond is currently suffering from both.) Tj ET
+BT /F2 12.00 Tf 54.00 318.00 Td (3. The rebuild must close three gaps at once) Tj ET
+BT /F1 10.40 Tf 54.00 292.00 Td (- the capability gap, by making the product actually able to do serious agency) Tj ET
+BT /F1 10.40 Tf 54.00 278.00 Td (  reporting work) Tj ET
+BT /F1 10.40 Tf 54.00 262.00 Td (- the reliability gap, by making outputs, connectors, and delivery trustworthy) Tj ET
+BT /F1 10.40 Tf 54.00 246.00 Td (- the positioning gap, by only claiming what is visibly and repeatably true) Tj ET
+BT /F2 12.00 Tf 54.00 223.00 Td (4. The rebuild goal should not be feature parity with giant BI) Tj ET
+BT /F2 12.00 Tf 54.00 207.00 Td (tools) Tj ET
+BT /F1 10.40 Tf 54.00 181.00 Td (That would be stupid. Oviond should not try to become Power BI or Tableau.) Tj ET
+BT /F1 10.40 Tf 54.00 158.00 Td (The better target is this:) Tj ET
+BT /F2 11.00 Tf 54.00 135.00 Td (A dependable, agency-grade reporting operating system that is easier than) Tj ET
+BT /F2 11.00 Tf 54.00 121.00 Td (enterprise BI, more trustworthy than lightweight reporting toys, and) Tj ET
+BT /F2 11.00 Tf 54.00 107.00 Td (stronger on white-label delivery, reporting workflows, and client-ready) Tj ET
+BT /F2 11.00 Tf 54.00 93.00 Td (output.) Tj ET
+BT /F1 10.40 Tf 54.00 71.00 Td (Source: MEMORY.md#L23-L31; Oviond Ц Internal Product Review, section 2.) Tj ET
+BT /F1 9.00 Tf 54.00 28.00 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F1 9.00 Tf 529.28 28.00 Td (4) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 3130 >>
+stream
+0.7 w 54.00 790.00 m 541.28 790.00 l S
+BT /F2 15.00 Tf 54.00 768.00 Td (Rebuild principles, the rules we should not break) Tj ET
+BT /F2 12.00 Tf 54.00 737.00 Td (Principle 1. No claim before capability) Tj ET
+BT /F1 10.40 Tf 54.00 711.00 Td (If the product does not visibly do the thing, marketing and sales should not) Tj ET
+BT /F1 10.40 Tf 54.00 697.00 Td (imply that it does.) Tj ET
+BT /F2 12.00 Tf 54.00 673.00 Td (Principle 2. Trust beats novelty) Tj ET
+BT /F1 10.40 Tf 54.00 647.00 Td (A stable connector, a correct metric, and a reliable scheduled report matter) Tj ET
+BT /F1 10.40 Tf 54.00 633.00 Td (more than an extra surface feature.) Tj ET
+BT /F2 12.00 Tf 54.00 609.00 Td (Principle 3. Reporting depth matters in paid media and social) Tj ET
+BT /F1 10.40 Tf 54.00 583.00 Td (The buyer review is explicit that PPC and social teams will not tolerate) Tj ET
+BT /F1 10.40 Tf 54.00 569.00 Td (shallow, flaky reporting. That means those areas cannot be hand-waved.) Tj ET
+BT /F2 12.00 Tf 54.00 545.00 Td (Principle 4. Keep simplicity, remove shallowness) Tj ET
+BT /F1 10.40 Tf 54.00 519.00 Td (The product should stay easy. It should just stop being weak.) Tj ET
+BT /F2 12.00 Tf 54.00 495.00 Td (Principle 5. White-label delivery is core product, not add-on admin) Tj ET
+BT /F1 10.40 Tf 54.00 469.00 Td (White-label, custom domains, branded delivery, and client-ready outputs are) Tj ET
+BT /F1 10.40 Tf 54.00 455.00 Td (part of the primary value proposition.) Tj ET
+BT /F2 12.00 Tf 54.00 431.00 Td (Principle 6. AI must be honest, useful, and clearly secondary to) Tj ET
+BT /F2 12.00 Tf 54.00 415.00 Td (reporting truth) Tj ET
+BT /F1 10.40 Tf 54.00 389.00 Td (No ghost AI. No empty positioning. Ship AI only where it is visibly real and) Tj ET
+BT /F1 10.40 Tf 54.00 375.00 Td (actually helpful.) Tj ET
+BT /F2 12.00 Tf 54.00 351.00 Td (Principle 7. Every major reporting surface must agree) Tj ET
+BT /F1 10.40 Tf 54.00 325.00 Td (Editor, shared report, PDF, automation, and email output must resolve the same) Tj ET
+BT /F1 10.40 Tf 54.00 311.00 Td (data correctly.) Tj ET
+BT /F1 10.40 Tf 54.00 288.00 Td (Source: MEMORY.md#L23-L31; MEMORY.md#L46-L53; Oviond Ц Internal Product) Tj ET
+BT /F1 10.40 Tf 54.00 274.00 Td (Review, sections 2, 3, 5, and 6.) Tj ET
+0.7 w 54.00 251.00 m 541.28 251.00 l S
+BT /F2 15.00 Tf 54.00 229.00 Td (What must be preserved from the current product) Tj ET
+BT /F1 10.40 Tf 54.00 199.00 Td (This is important. The rebuild should not destroy the few things the product) Tj ET
+BT /F1 10.40 Tf 54.00 185.00 Td (clearly does well.) Tj ET
+BT /F1 10.40 Tf 54.00 162.00 Td (- simple setup) Tj ET
+BT /F1 10.40 Tf 54.00 146.00 Td (- basic top-level reporting speed) Tj ET
+BT /F1 10.40 Tf 54.00 130.00 Td (- public share links without login) Tj ET
+BT /F1 10.40 Tf 54.00 114.00 Td (- easy scheduled report delivery) Tj ET
+BT /F1 10.40 Tf 54.00 98.00 Td (- white-label value proposition) Tj ET
+BT /F1 10.40 Tf 54.00 82.00 Td (- lower-friction agency usability versus heavyweight BI tools) Tj ET
+BT /F1 9.00 Tf 54.00 28.00 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F1 9.00 Tf 529.28 28.00 Td (5) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 3532 >>
+stream
+BT /F1 10.40 Tf 54.00 790.00 Td (The goal is not to replace Oviond's simplicity with enterprise bloat. The goal) Tj ET
+BT /F1 10.40 Tf 54.00 776.00 Td (is to make simplicity trustworthy.) Tj ET
+BT /F1 10.40 Tf 54.00 753.00 Td (Source: MEMORY.md#L23-L24; Oviond Ц Internal Product Review, section 3.) Tj ET
+0.7 w 54.00 730.00 m 541.28 730.00 l S
+BT /F2 20.00 Tf 54.00 708.00 Td (Expanded rebuild action plan) Tj ET
+BT /F2 15.00 Tf 54.00 670.00 Td (P0. Mandatory truth and scope reset) Tj ET
+BT /F2 12.00 Tf 54.00 639.00 Td (1. Reset positioning and sales language immediately) Tj ET
+BT /F2 11.00 Tf 54.00 619.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 603.00 Td (The buyer review shows a severe expectation mismatch between what is claimed) Tj ET
+BT /F1 10.40 Tf 54.00 589.00 Td (and what is actually in the product. That mismatch destroys diligence) Tj ET
+BT /F1 10.40 Tf 54.00 575.00 Td (confidence fast.) Tj ET
+BT /F2 11.00 Tf 54.00 552.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 536.00 Td (- Remove or soften claims that overstate AI, automation depth, cross-channel) Tj ET
+BT /F1 10.40 Tf 54.00 522.00 Td (  robustness, or all-in-one maturity until shipped reality supports them.) Tj ET
+BT /F1 10.40 Tf 54.00 506.00 Td (- Reframe Oviond around agency reporting simplicity, branded delivery, and) Tj ET
+BT /F1 10.40 Tf 54.00 492.00 Td (  dependable recurring reporting.) Tj ET
+BT /F1 10.40 Tf 54.00 476.00 Td (- Build product marketing around what can be demoed cleanly without caveats.) Tj ET
+BT /F1 10.40 Tf 54.00 460.00 Td (- Create an internal claims matrix: claim, proof, demo path, known caveats,) Tj ET
+BT /F1 10.40 Tf 54.00 446.00 Td (  owner.) Tj ET
+BT /F1 10.40 Tf 54.00 424.00 Td (Source: Oviond Ц Internal Product Review, sections 2 and 5.) Tj ET
+BT /F2 12.00 Tf 54.00 400.00 Td (2. Define the actual target product, agency-grade reporting OS) Tj ET
+BT /F2 11.00 Tf 54.00 380.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 364.00 Td (Without a clear target, the rebuild will sprawl.) Tj ET
+BT /F2 11.00 Tf 54.00 341.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 325.00 Td (- Position the rebuild as an agency-grade reporting operating system.) Tj ET
+BT /F1 10.40 Tf 54.00 309.00 Td (- Core pillars: connector trust, transformation depth, client-ready delivery,) Tj ET
+BT /F1 10.40 Tf 54.00 295.00 Td (  permissions, automation, and white-labeling.) Tj ET
+BT /F1 10.40 Tf 54.00 279.00 Td (- Explicitly do not chase generic BI platform parity.) Tj ET
+BT /F1 10.40 Tf 54.00 263.00 Td (- Use paid media, social, white-label reporting, and recurring delivery as the) Tj ET
+BT /F1 10.40 Tf 54.00 249.00 Td (  primary use-case lens.) Tj ET
+BT /F1 10.40 Tf 54.00 227.00 Td (Source: MEMORY.md#L23-L31.) Tj ET
+BT /F2 12.00 Tf 54.00 203.00 Td (3. Freeze vanity feature expansion until the reporting core is) Tj ET
+BT /F2 12.00 Tf 54.00 187.00 Td (credible) Tj ET
+BT /F2 11.00 Tf 54.00 167.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 151.00 Td (Shipping more shallow features before fixing the foundation will compound) Tj ET
+BT /F1 10.40 Tf 54.00 137.00 Td (support debt.) Tj ET
+BT /F2 11.00 Tf 54.00 114.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 98.00 Td (- Put a governance gate on new non-core features.) Tj ET
+BT /F1 10.40 Tf 54.00 82.00 Td (- Require that every major new feature survive the questions: does it improve) Tj ET
+BT /F1 10.40 Tf 54.00 68.00 Td (  trust, depth, delivery, or retention?) Tj ET
+BT /F1 9.00 Tf 54.00 28.00 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F1 9.00 Tf 529.28 28.00 Td (6) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 14 0 R >>
+endobj
+16 0 obj
+<< /Length 3521 >>
+stream
+BT /F1 10.40 Tf 54.00 790.00 Td (- Shift roadmap weight to reliability and serious-use reporting depth first.) Tj ET
+0.7 w 54.00 768.00 m 541.28 768.00 l S
+BT /F2 15.00 Tf 54.00 746.00 Td (P1. Reporting-core rebuild, the heart of the product) Tj ET
+BT /F2 12.00 Tf 54.00 715.00 Td (4. Build a real transformation layer) Tj ET
+BT /F2 11.00 Tf 54.00 695.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 679.00 Td (This is one of the clearest buyer-review failures and one of the most) Tj ET
+BT /F1 10.40 Tf 54.00 665.00 Td (important capability gaps in the whole product.) Tj ET
+BT /F2 11.00 Tf 54.00 642.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 626.00 Td (- Support calculated fields and custom metrics.) Tj ET
+BT /F1 10.40 Tf 54.00 610.00 Td (- Support derived KPIs and formula composition.) Tj ET
+BT /F1 10.40 Tf 54.00 594.00 Td (- Support transformation logic cleanly across connectors.) Tj ET
+BT /F1 10.40 Tf 54.00 578.00 Td (- Add preview, validation, and error messaging.) Tj ET
+BT /F1 10.40 Tf 54.00 562.00 Td (- Make transformation capabilities available consistently in builder, shared) Tj ET
+BT /F1 10.40 Tf 54.00 548.00 Td (  output, and automation output.) Tj ET
+BT /F1 10.40 Tf 54.00 526.00 Td (Source: Oviond Ц Internal Product Review, section 4.) Tj ET
+BT /F2 12.00 Tf 54.00 502.00 Td (5. Support cross-source metric combinations safely) Tj ET
+BT /F2 11.00 Tf 54.00 482.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 466.00 Td (Serious agency reporting depends on combining costs, conversions, leads, and) Tj ET
+BT /F1 10.40 Tf 54.00 452.00 Td (revenue across sources.) Tj ET
+BT /F2 11.00 Tf 54.00 429.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 413.00 Td (- Define allowed cross-source operations and grain rules.) Tj ET
+BT /F1 10.40 Tf 54.00 397.00 Td (- Prevent mathematically invalid joins or misleading mixed-grain calculations.) Tj ET
+BT /F1 10.40 Tf 54.00 381.00 Td (- Add explicit source mapping and formula traceability.) Tj ET
+BT /F1 10.40 Tf 54.00 365.00 Td (- Provide clear warnings when a formula could produce misleading output.) Tj ET
+BT /F1 10.40 Tf 54.00 343.00 Td (Source: Oviond Ц Internal Product Review, section 4; earlier Gleap calculation) Tj ET
+BT /F1 10.40 Tf 54.00 329.00 Td (issues.) Tj ET
+BT /F2 12.00 Tf 54.00 305.00 Td (6. Add proper segmentation and filtering, including) Tj ET
+BT /F2 12.00 Tf 54.00 289.00 Td (conversion-action filtering) Tj ET
+BT /F2 11.00 Tf 54.00 269.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 253.00 Td (The buyer review explicitly calls out the inability to filter by conversion) Tj ET
+BT /F1 10.40 Tf 54.00 239.00 Td (action. That is fatal for serious PPC workflows.) Tj ET
+BT /F2 11.00 Tf 54.00 216.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 200.00 Td (- Support conversion-action and event-level filtering where connector APIs) Tj ET
+BT /F1 10.40 Tf 54.00 186.00 Td (  allow it.) Tj ET
+BT /F1 10.40 Tf 54.00 170.00 Td (- Support typed filter operators by metric or dimension type.) Tj ET
+BT /F1 10.40 Tf 54.00 154.00 Td (- Add save-time validation for unsupported filters.) Tj ET
+BT /F1 10.40 Tf 54.00 138.00 Td (- Preserve filters consistently across builder and output surfaces.) Tj ET
+BT /F1 10.40 Tf 54.00 116.00 Td (Source: Oviond Ц Internal Product Review, section 4.) Tj ET
+BT /F2 12.00 Tf 54.00 92.00 Td (7. Fix date-dimension and time-grain integrity across paid media) Tj ET
+BT /F2 12.00 Tf 54.00 76.00 Td (reporting) Tj ET
+BT /F1 9.00 Tf 54.00 28.00 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F1 9.00 Tf 529.28 28.00 Td (7) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 3440 >>
+stream
+BT /F2 11.00 Tf 54.00 790.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 774.00 Td (The buyer review calls out a campaign-level date-dimension bug. That is not) Tj ET
+BT /F1 10.40 Tf 54.00 760.00 Td (cosmetic. It corrupts analysis.) Tj ET
+BT /F2 11.00 Tf 54.00 737.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 721.00 Td (- Standardise time grain across queries.) Tj ET
+BT /F1 10.40 Tf 54.00 705.00 Td (- Ensure campaign-level and asset-level views resolve dates correctly.) Tj ET
+BT /F1 10.40 Tf 54.00 689.00 Td (- Add regression tests for daily, weekly, monthly, and custom-date slices.) Tj ET
+BT /F1 10.40 Tf 54.00 673.00 Td (- Make date-range logic identical in editor, shared, PDF, and automation) Tj ET
+BT /F1 10.40 Tf 54.00 659.00 Td (  contexts.) Tj ET
+BT /F1 10.40 Tf 54.00 637.00 Td (Source: Oviond Ц Internal Product Review, section 4.) Tj ET
+BT /F2 12.00 Tf 54.00 613.00 Td (8. Rebuild the query engine and schema model) Tj ET
+BT /F2 11.00 Tf 54.00 593.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 577.00 Td (A weak schema layer creates downstream fragility everywhere, filters,) Tj ET
+BT /F1 10.40 Tf 54.00 563.00 Td (calculations, widgets, exports, and automations.) Tj ET
+BT /F2 11.00 Tf 54.00 540.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 524.00 Td (- Build a typed schema model for metrics, dimensions, and grains.) Tj ET
+BT /F1 10.40 Tf 54.00 508.00 Td (- Formalise connector metadata rather than relying on loose UI assumptions.) Tj ET
+BT /F1 10.40 Tf 54.00 492.00 Td (- Add query linting and schema-aware builder constraints.) Tj ET
+BT /F1 10.40 Tf 54.00 476.00 Td (- Expose query debugging for support and advanced users.) Tj ET
+BT /F1 10.40 Tf 54.00 454.00 Td (Source: Oviond Ц Internal Product Review, section 4; MEMORY.md#L46-L53.) Tj ET
+BT /F2 12.00 Tf 54.00 430.00 Td (9. Make multi-source reporting trustworthy instead of brittle) Tj ET
+BT /F2 11.00 Tf 54.00 410.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 394.00 Td (The buyer review says multi-source data on one page often breaks or duplicates) Tj ET
+BT /F1 10.40 Tf 54.00 380.00 Td (values. That kills cross-channel credibility.) Tj ET
+BT /F2 11.00 Tf 54.00 357.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 341.00 Td (- Define explicit multi-source blending rules.) Tj ET
+BT /F1 10.40 Tf 54.00 325.00 Td (- Block unsupported blends rather than producing misleading outputs.) Tj ET
+BT /F1 10.40 Tf 54.00 309.00 Td (- Add blended-query diagnostics and previews.) Tj ET
+BT /F1 10.40 Tf 54.00 293.00 Td (- Create fixture-based tests for common agency reporting combinations.) Tj ET
+BT /F1 10.40 Tf 54.00 271.00 Td (Source: Oviond Ц Internal Product Review, section 4.) Tj ET
+0.7 w 54.00 248.00 m 541.28 248.00 l S
+BT /F2 15.00 Tf 54.00 226.00 Td (P2. Connector and data-trust platform) Tj ET
+BT /F2 12.00 Tf 54.00 195.00 Td (10. Rebuild connector infrastructure as a first-class platform) Tj ET
+BT /F2 12.00 Tf 54.00 179.00 Td (service) Tj ET
+BT /F2 11.00 Tf 54.00 159.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 143.00 Td (Gleap and the buyer review both point to connectors as a major trust problem.) Tj ET
+BT /F2 11.00 Tf 54.00 120.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 104.00 Td (- One central connection service.) Tj ET
+BT /F1 10.40 Tf 54.00 88.00 Td (- Standardised OAuth, token refresh, scope validation, and account discovery.) Tj ET
+BT /F1 9.00 Tf 54.00 28.00 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F1 9.00 Tf 529.28 28.00 Td (8) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 18 0 R >>
+endobj
+20 0 obj
+<< /Length 3656 >>
+stream
+BT /F1 10.40 Tf 54.00 790.00 Td (- Health states: connected, degraded, expired, permission issue, upstream) Tj ET
+BT /F1 10.40 Tf 54.00 776.00 Td (  issue.) Tj ET
+BT /F1 10.40 Tf 54.00 760.00 Td (- Clear reconnect flows and diagnostics.) Tj ET
+BT /F1 10.40 Tf 54.00 744.00 Td (- Last successful sync and last failed sync visible in-product.) Tj ET
+BT /F1 10.40 Tf 54.00 722.00 Td (Source: MEMORY.md#L46-L53; Oviond Ц Internal Product Review, section 4.) Tj ET
+BT /F2 12.00 Tf 54.00 698.00 Td (11. Harden Meta, Facebook, and Instagram connections specifically) Tj ET
+BT /F2 11.00 Tf 54.00 678.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 662.00 Td (The buyer review is explicit that Facebook connections frequently fail and) Tj ET
+BT /F1 10.40 Tf 54.00 648.00 Td (page or profile selection is unreliable. Gleap also repeatedly surfaced) Tj ET
+BT /F1 10.40 Tf 54.00 634.00 Td (Meta-side issues.) Tj ET
+BT /F2 11.00 Tf 54.00 611.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 595.00 Td (- Rework account, page, and profile selection UX.) Tj ET
+BT /F1 10.40 Tf 54.00 579.00 Td (- Add permission preflight before save.) Tj ET
+BT /F1 10.40 Tf 54.00 563.00 Td (- Add entitlement troubleshooting for Business Manager edge cases.) Tj ET
+BT /F1 10.40 Tf 54.00 547.00 Td (- Add exact account identity confirmation so users know what they connected.) Tj ET
+BT /F1 10.40 Tf 54.00 531.00 Td (- Add sync diagnostics for partial or stale social data.) Tj ET
+BT /F1 10.40 Tf 54.00 509.00 Td (Source: Oviond Ц Internal Product Review, section 4.) Tj ET
+BT /F2 12.00 Tf 54.00 485.00 Td (12. Fix LinkedIn data correctness before treating LinkedIn as) Tj ET
+BT /F2 12.00 Tf 54.00 469.00 Td (saleable) Tj ET
+BT /F2 11.00 Tf 54.00 449.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 433.00 Td (The buyer review says multiple LinkedIn profiles show identical numbers. That) Tj ET
+BT /F1 10.40 Tf 54.00 419.00 Td (is a catastrophic trust failure.) Tj ET
+BT /F2 11.00 Tf 54.00 396.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 380.00 Td (- Audit LinkedIn mapping logic and identifier resolution.) Tj ET
+BT /F1 10.40 Tf 54.00 364.00 Td (- Build profile-level data-validation fixtures.) Tj ET
+BT /F1 10.40 Tf 54.00 348.00 Td (- Add customer-visible source labels and account references.) Tj ET
+BT /F1 10.40 Tf 54.00 332.00 Td (- Suspend aggressive selling of LinkedIn reporting until correctness is) Tj ET
+BT /F1 10.40 Tf 54.00 318.00 Td (  proven.) Tj ET
+BT /F1 10.40 Tf 54.00 296.00 Td (Source: Oviond Ц Internal Product Review, section 4.) Tj ET
+BT /F2 12.00 Tf 54.00 272.00 Td (13. Build a priority connector program, not random connector) Tj ET
+BT /F2 12.00 Tf 54.00 256.00 Td (maintenance) Tj ET
+BT /F2 11.00 Tf 54.00 236.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 220.00 Td (The connector problem is not just bug fixing. It needs portfolio management.) Tj ET
+BT /F2 11.00 Tf 54.00 197.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 181.00 Td (- Rank connectors by usage, revenue impact, churn risk, support burden, and) Tj ET
+BT /F1 10.40 Tf 54.00 167.00 Td (  buyer importance.) Tj ET
+BT /F1 10.40 Tf 54.00 151.00 Td (- Create one owner per critical connector.) Tj ET
+BT /F1 10.40 Tf 54.00 135.00 Td (- Add release gates for regression risk on top connectors.) Tj ET
+BT /F1 10.40 Tf 54.00 119.00 Td (- Maintain a public or internal status sheet for connector capability depth.) Tj ET
+BT /F1 10.40 Tf 54.00 97.00 Td (Source: MEMORY.md#L23-L31; MEMORY.md#L46-L53.) Tj ET
+BT /F2 12.00 Tf 54.00 73.00 Td (14. Expose data freshness and failure diagnostics everywhere) Tj ET
+BT /F1 9.00 Tf 54.00 28.00 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F1 9.00 Tf 529.28 28.00 Td (9) Tj ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 20 0 R >>
+endobj
+22 0 obj
+<< /Length 3294 >>
+stream
+BT /F2 11.00 Tf 54.00 790.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 774.00 Td (Users and support currently spend too much time guessing whether a problem is) Tj ET
+BT /F1 10.40 Tf 54.00 760.00 Td (auth, data lag, bad filters, or upstream failure.) Tj ET
+BT /F2 11.00 Tf 54.00 737.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 721.00 Td (- Widget-level freshness badges.) Tj ET
+BT /F1 10.40 Tf 54.00 705.00 Td (- Data-source health drawer.) Tj ET
+BT /F1 10.40 Tf 54.00 689.00 Td (- Empty-state explanations.) Tj ET
+BT /F1 10.40 Tf 54.00 673.00 Td (- Support diagnostics export.) Tj ET
+BT /F1 10.40 Tf 54.00 657.00 Td (- Provider-incident messaging.) Tj ET
+BT /F1 10.40 Tf 54.00 641.00 Td (- Comparison diagnostics for editor versus shared output.) Tj ET
+BT /F1 10.40 Tf 54.00 619.00 Td (Source: MEMORY.md#L46-L53.) Tj ET
+0.7 w 54.00 596.00 m 541.28 596.00 l S
+BT /F2 15.00 Tf 54.00 574.00 Td (P3. Paid media and social reporting, must stop being) Tj ET
+BT /F2 15.00 Tf 54.00 555.00 Td (weak) Tj ET
+BT /F2 12.00 Tf 54.00 524.00 Td (15. Build a proper PPC reporting package) Tj ET
+BT /F2 11.00 Tf 54.00 504.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 488.00 Td (The buyer review is unambiguous: serious PPC teams would abandon the current) Tj ET
+BT /F1 10.40 Tf 54.00 474.00 Td (tool.) Tj ET
+BT /F2 11.00 Tf 54.00 451.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 435.00 Td (- Support conversion-action filtering.) Tj ET
+BT /F1 10.40 Tf 54.00 419.00 Td (- Support campaign, ad group, ad, keyword, and time-grain analysis cleanly.) Tj ET
+BT /F1 10.40 Tf 54.00 403.00 Td (- Support derived efficiency metrics inside the tool.) Tj ET
+BT /F1 10.40 Tf 54.00 387.00 Td (- Preserve metric selections when changing views.) Tj ET
+BT /F1 10.40 Tf 54.00 371.00 Td (- Add view-state persistence and reusable saved views.) Tj ET
+BT /F1 10.40 Tf 54.00 349.00 Td (Source: Oviond Ц Internal Product Review, section 4.) Tj ET
+BT /F2 12.00 Tf 54.00 325.00 Td (16. Build a proper social reporting package) Tj ET
+BT /F2 11.00 Tf 54.00 305.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 289.00 Td (The buyer review says social reporting is effectively broken. That cannot) Tj ET
+BT /F1 10.40 Tf 54.00 275.00 Td (survive into the rebuild.) Tj ET
+BT /F2 11.00 Tf 54.00 252.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 236.00 Td (- Fix connector reliability first.) Tj ET
+BT /F1 10.40 Tf 54.00 220.00 Td (- Then fix account selection, identity resolution, and data accuracy.) Tj ET
+BT /F1 10.40 Tf 54.00 204.00 Td (- Define what each social connector truly supports at each grain.) Tj ET
+BT /F1 10.40 Tf 54.00 188.00 Td (- Block misleading use cases if data quality is not adequate.) Tj ET
+BT /F1 10.40 Tf 54.00 172.00 Td (- Add profile- and page-level source verification in the UI.) Tj ET
+BT /F1 10.40 Tf 54.00 150.00 Td (Source: Oviond Ц Internal Product Review, section 4.) Tj ET
+BT /F2 12.00 Tf 54.00 126.00 Td (17. Define hard quality standards for saleable reporting domains) Tj ET
+BT /F2 11.00 Tf 54.00 106.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 90.00 Td (Paid media and social should not be marketed as robust until they pass) Tj ET
+BT /F1 10.40 Tf 54.00 76.00 Td (stricter internal tests.) Tj ET
+BT /F1 9.00 Tf 54.00 28.00 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F1 9.00 Tf 529.28 28.00 Td (10) Tj ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 22 0 R >>
+endobj
+24 0 obj
+<< /Length 3286 >>
+stream
+BT /F2 11.00 Tf 54.00 790.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 774.00 Td (- Create acceptance suites for PPC and social.) Tj ET
+BT /F1 10.40 Tf 54.00 758.00 Td (- Require parity with manual source checks on key metrics.) Tj ET
+BT /F1 10.40 Tf 54.00 742.00 Td (- Require edge-case coverage for account selection and filtering.) Tj ET
+BT /F1 10.40 Tf 54.00 726.00 Td (- Treat repeated trust failures as release blockers.) Tj ET
+0.7 w 54.00 704.00 m 541.28 704.00 l S
+BT /F2 15.00 Tf 54.00 682.00 Td (P4. Output, delivery, and white-label operations) Tj ET
+BT /F2 12.00 Tf 54.00 651.00 Td (18. Use one execution engine across editor, shared view, PDF, and) Tj ET
+BT /F2 12.00 Tf 54.00 635.00 Td (automations) Tj ET
+BT /F2 11.00 Tf 54.00 615.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 599.00 Td (This was already clear from Gleap, and it becomes even more important in light) Tj ET
+BT /F1 10.40 Tf 54.00 585.00 Td (of buyer trust concerns.) Tj ET
+BT /F2 11.00 Tf 54.00 562.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 546.00 Td (- Eliminate divergent render paths.) Tj ET
+BT /F1 10.40 Tf 54.00 530.00 Td (- Make date logic, filters, permissions, and data resolution identical across) Tj ET
+BT /F1 10.40 Tf 54.00 516.00 Td (  surfaces.) Tj ET
+BT /F1 10.40 Tf 54.00 500.00 Td (- Add parity tests and output snapshots.) Tj ET
+BT /F1 10.40 Tf 54.00 484.00 Td (- Surface discrepancies immediately when they occur.) Tj ET
+BT /F1 10.40 Tf 54.00 462.00 Td (Source: MEMORY.md#L46-L53.) Tj ET
+BT /F2 12.00 Tf 54.00 438.00 Td (19. Make custom domains and white-label self-serve and reliable) Tj ET
+BT /F2 11.00 Tf 54.00 418.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 402.00 Td (White-label value is one of Oviond's real strengths, but it currently creates) Tj ET
+BT /F1 10.40 Tf 54.00 388.00 Td (too much operational fragility.) Tj ET
+BT /F2 11.00 Tf 54.00 365.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 349.00 Td (- Self-serve custom domain setup.) Tj ET
+BT /F1 10.40 Tf 54.00 333.00 Td (- DNS, SSL, and sender-domain verification.) Tj ET
+BT /F1 10.40 Tf 54.00 317.00 Td (- Ongoing health monitoring.) Tj ET
+BT /F1 10.40 Tf 54.00 301.00 Td (- Recovery flows and rollback.) Tj ET
+BT /F1 10.40 Tf 54.00 285.00 Td (- Support tooling for exceptional cases only.) Tj ET
+BT /F1 10.40 Tf 54.00 263.00 Td (Source: MEMORY.md#L23-L24; MEMORY.md#L46-L53.) Tj ET
+BT /F2 12.00 Tf 54.00 239.00 Td (20. Treat exports, PDFs, email output, and share links as) Tj ET
+BT /F2 12.00 Tf 54.00 223.00 Td (mission-critical) Tj ET
+BT /F2 11.00 Tf 54.00 203.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 187.00 Td (These are the customer-facing proof of value. If they fail, the rest barely) Tj ET
+BT /F1 10.40 Tf 54.00 173.00 Td (matters.) Tj ET
+BT /F2 11.00 Tf 54.00 150.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 134.00 Td (- Build export regression suite.) Tj ET
+BT /F1 10.40 Tf 54.00 118.00 Td (- Validate share links before sending.) Tj ET
+BT /F1 10.40 Tf 54.00 102.00 Td (- Improve page-break and overflow handling.) Tj ET
+BT /F1 10.40 Tf 54.00 86.00 Td (- Add branded previews for email and PDF.) Tj ET
+BT /F1 10.40 Tf 54.00 70.00 Td (- Store failure diagnostics for debugging.) Tj ET
+BT /F1 9.00 Tf 54.00 28.00 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F1 9.00 Tf 529.28 28.00 Td (11) Tj ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 24 0 R >>
+endobj
+26 0 obj
+<< /Length 3328 >>
+stream
+BT /F1 10.40 Tf 54.00 790.00 Td (Source: MEMORY.md#L46-L53.) Tj ET
+BT /F2 12.00 Tf 54.00 766.00 Td (21. Upgrade automations from shallow scheduling to a real delivery) Tj ET
+BT /F2 12.00 Tf 54.00 750.00 Td (layer) Tj ET
+BT /F2 11.00 Tf 54.00 730.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 714.00 Td (The buyer review says the automation layer is extremely shallow. Gleap also) Tj ET
+BT /F1 10.40 Tf 54.00 700.00 Td (showed automation friction and incorrect deliveries.) Tj ET
+BT /F2 11.00 Tf 54.00 677.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 661.00 Td (- Add flexible scheduling, including more than one cadence pattern.) Tj ET
+BT /F1 10.40 Tf 54.00 645.00 Td (- Add dynamic variables in email copy.) Tj ET
+BT /F1 10.40 Tf 54.00 629.00 Td (- Add data-driven narrative blocks where safe.) Tj ET
+BT /F1 10.40 Tf 54.00 613.00 Td (- Add test-send, run history, delivery logs, and versioning.) Tj ET
+BT /F1 10.40 Tf 54.00 597.00 Td (- Add alerting for degraded or failed automations.) Tj ET
+BT /F1 10.40 Tf 54.00 575.00 Td (Source: Oviond Ц Internal Product Review, section 6; MEMORY.md#L46-L53.) Tj ET
+BT /F2 12.00 Tf 54.00 551.00 Td (22. Preserve and improve the parts of delivery that already work) Tj ET
+BT /F2 11.00 Tf 54.00 531.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 515.00 Td (Public links and simple scheduled delivery were among the few acknowledged) Tj ET
+BT /F1 10.40 Tf 54.00 501.00 Td (strengths. Do not break them during rebuild.) Tj ET
+BT /F2 11.00 Tf 54.00 478.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 462.00 Td (- Create explicit compatibility tests for current share-link and) Tj ET
+BT /F1 10.40 Tf 54.00 448.00 Td (  scheduled-send strengths.) Tj ET
+BT /F1 10.40 Tf 54.00 432.00 Td (- Keep the low-friction setup path.) Tj ET
+BT /F1 10.40 Tf 54.00 416.00 Td (- Build a no-regression scorecard around current delivery strengths.) Tj ET
+BT /F1 10.40 Tf 54.00 394.00 Td (Source: Oviond Ц Internal Product Review, section 3.) Tj ET
+0.7 w 54.00 371.00 m 541.28 371.00 l S
+BT /F2 15.00 Tf 54.00 349.00 Td (P5. Builder, UX, and product operability) Tj ET
+BT /F2 12.00 Tf 54.00 318.00 Td (23. Fix builder save integrity and state persistence) Tj ET
+BT /F2 11.00 Tf 54.00 298.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 282.00 Td (A builder that loses state or behaves unpredictably makes the whole product) Tj ET
+BT /F1 10.40 Tf 54.00 268.00 Td (feel amateur.) Tj ET
+BT /F2 11.00 Tf 54.00 245.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 229.00 Td (- Autosave plus visible save state.) Tj ET
+BT /F1 10.40 Tf 54.00 213.00 Td (- Undo and redo.) Tj ET
+BT /F1 10.40 Tf 54.00 197.00 Td (- Unsaved-change warnings.) Tj ET
+BT /F1 10.40 Tf 54.00 181.00 Td (- Conflict handling for concurrent edits.) Tj ET
+BT /F1 10.40 Tf 54.00 165.00 Td (- Versioning or change history for key objects.) Tj ET
+BT /F1 10.40 Tf 54.00 143.00 Td (Source: MEMORY.md#L46-L53.) Tj ET
+BT /F2 12.00 Tf 54.00 119.00 Td (24. Raise the UX floor on basic reporting controls) Tj ET
+BT /F2 11.00 Tf 54.00 99.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 83.00 Td (The buyer review calls out rounding control, formatting, and other seemingly) Tj ET
+BT /F1 10.40 Tf 54.00 69.00 Td (small UX issues. These are credibility signals.) Tj ET
+BT /F1 9.00 Tf 54.00 28.00 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F1 9.00 Tf 529.28 28.00 Td (12) Tj ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 26 0 R >>
+endobj
+28 0 obj
+<< /Length 3258 >>
+stream
+BT /F2 11.00 Tf 54.00 790.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 774.00 Td (- Add metric rounding and display controls.) Tj ET
+BT /F1 10.40 Tf 54.00 758.00 Td (- Add formatting consistency rules across widgets and outputs.) Tj ET
+BT /F1 10.40 Tf 54.00 742.00 Td (- Fix capitalization and email-formatting bugs.) Tj ET
+BT /F1 10.40 Tf 54.00 726.00 Td (- Improve defaults for layout, naming, and visual polish.) Tj ET
+BT /F1 10.40 Tf 54.00 704.00 Td (Source: Oviond Ц Internal Product Review, section 7.) Tj ET
+BT /F2 12.00 Tf 54.00 680.00 Td (25. Eliminate navigation-dependent UI weirdness) Tj ET
+BT /F2 11.00 Tf 54.00 660.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 644.00 Td (Support chat disappearing by navigation context is a tiny bug with huge) Tj ET
+BT /F1 10.40 Tf 54.00 630.00 Td (psychological impact. It screams low QA maturity.) Tj ET
+BT /F2 11.00 Tf 54.00 607.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 591.00 Td (- Audit shared UI components and lifecycle state.) Tj ET
+BT /F1 10.40 Tf 54.00 575.00 Td (- Add navigation-regression tests.) Tj ET
+BT /F1 10.40 Tf 54.00 559.00 Td (- Standardise global support, help, and user-assistance layers.) Tj ET
+BT /F1 10.40 Tf 54.00 537.00 Td (Source: Oviond Ц Internal Product Review, section 7.) Tj ET
+BT /F2 12.00 Tf 54.00 513.00 Td (26. Build contextual help and troubleshooting into the product) Tj ET
+BT /F2 11.00 Tf 54.00 493.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 477.00 Td (Search and support history suggest users repeatedly get lost in the same) Tj ET
+BT /F1 10.40 Tf 54.00 463.00 Td (places.) Tj ET
+BT /F2 11.00 Tf 54.00 440.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 424.00 Td (- Add contextual help drawers.) Tj ET
+BT /F1 10.40 Tf 54.00 408.00 Td (- Link error states directly to useful troubleshooting.) Tj ET
+BT /F1 10.40 Tf 54.00 392.00 Td (- Use support-language phrasing, not internal jargon.) Tj ET
+BT /F1 10.40 Tf 54.00 376.00 Td (- Add guided recovery flows for auth, filters, and delivery failures.) Tj ET
+BT /F1 10.40 Tf 54.00 354.00 Td (Source: MEMORY.md#L46-L53 and help-search behaviour from the Gleap work.) Tj ET
+0.7 w 54.00 331.00 m 541.28 331.00 l S
+BT /F2 15.00 Tf 54.00 309.00 Td (P6. Admin, access, and agency operations) Tj ET
+BT /F2 12.00 Tf 54.00 278.00 Td (27. Rebuild auth, permissions, team access, and client sharing) Tj ET
+BT /F2 11.00 Tf 54.00 258.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 242.00 Td (This remained one of the biggest friction themes in Gleap and directly affects) Tj ET
+BT /F1 10.40 Tf 54.00 228.00 Td (trust, safety, and operational sanity.) Tj ET
+BT /F2 11.00 Tf 54.00 205.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 189.00 Td (- Clean RBAC model.) Tj ET
+BT /F1 10.40 Tf 54.00 173.00 Td (- Scopes across workspace, client, project, report, automation.) Tj ET
+BT /F1 10.40 Tf 54.00 157.00 Td (- Predictable invites, transfers, revoke flows.) Tj ET
+BT /F1 10.40 Tf 54.00 141.00 Td (- Permission simulator and audit logs.) Tj ET
+BT /F1 10.40 Tf 54.00 119.00 Td (Source: MEMORY.md#L46-L53.) Tj ET
+BT /F2 12.00 Tf 54.00 95.00 Td (28. Add bulk agency workflows) Tj ET
+BT /F2 11.00 Tf 54.00 75.00 Td (Why) Tj ET
+BT /F1 9.00 Tf 54.00 28.00 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F1 9.00 Tf 529.28 28.00 Td (13) Tj ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 28 0 R >>
+endobj
+30 0 obj
+<< /Length 3197 >>
+stream
+BT /F1 10.40 Tf 54.00 790.00 Td (A serious agency tool must support repeatable multi-client operations without) Tj ET
+BT /F1 10.40 Tf 54.00 776.00 Td (manual pain.) Tj ET
+BT /F2 11.00 Tf 54.00 753.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 737.00 Td (- Clone templates to multiple clients.) Tj ET
+BT /F1 10.40 Tf 54.00 721.00 Td (- Bulk user and role assignment.) Tj ET
+BT /F1 10.40 Tf 54.00 705.00 Td (- Bulk data-source remapping where possible.) Tj ET
+BT /F1 10.40 Tf 54.00 689.00 Td (- Template version propagation and rollout preview.) Tj ET
+BT /F1 10.40 Tf 54.00 667.00 Td (Source: earlier Gleap synthesis around agency operations and support burden.) Tj ET
+BT /F2 12.00 Tf 54.00 643.00 Td (29. Make entitlements, billing state, upgrades, and reactivation) Tj ET
+BT /F2 12.00 Tf 54.00 627.00 Td (obvious) Tj ET
+BT /F2 11.00 Tf 54.00 607.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 591.00 Td (Billing confusion undermines trust and drives support overhead.) Tj ET
+BT /F2 11.00 Tf 54.00 568.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 552.00 Td (- Central entitlement service.) Tj ET
+BT /F1 10.40 Tf 54.00 536.00 Td (- Clear usage meters and blockers.) Tj ET
+BT /F1 10.40 Tf 54.00 520.00 Td (- Better upgrade flow and reactivation path.) Tj ET
+BT /F1 10.40 Tf 54.00 504.00 Td (- Visible billing-event history.) Tj ET
+BT /F1 10.40 Tf 54.00 488.00 Td (- Safe support override tools for exceptions.) Tj ET
+BT /F1 10.40 Tf 54.00 466.00 Td (Source: MEMORY.md#L46-L53.) Tj ET
+BT /F2 12.00 Tf 54.00 442.00 Td (30. Build proper delete, archive, restore, and cleanup flows) Tj ET
+BT /F2 11.00 Tf 54.00 422.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 406.00 Td (If deletion is unreliable or ghost state remains, the product feels dangerous.) Tj ET
+BT /F2 11.00 Tf 54.00 383.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 367.00 Td (- Soft delete and restore.) Tj ET
+BT /F1 10.40 Tf 54.00 351.00 Td (- Clear cascade rules.) Tj ET
+BT /F1 10.40 Tf 54.00 335.00 Td (- Cleanup jobs.) Tj ET
+BT /F1 10.40 Tf 54.00 319.00 Td (- Admin recovery tools.) Tj ET
+BT /F1 10.40 Tf 54.00 303.00 Td (- Destructive-action summaries.) Tj ET
+BT /F1 10.40 Tf 54.00 281.00 Td (Source: earlier Gleap report findings.) Tj ET
+0.7 w 54.00 258.00 m 541.28 258.00 l S
+BT /F2 15.00 Tf 54.00 236.00 Td (P7. Quality, QA, and release discipline) Tj ET
+BT /F2 12.00 Tf 54.00 205.00 Td (31. Make QA maturity visible in the product and process) Tj ET
+BT /F2 11.00 Tf 54.00 185.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 169.00 Td (The buyer review explicitly says the current issues indicate low QA maturity.) Tj ET
+BT /F1 10.40 Tf 54.00 155.00 Td (That has to change culturally, not just tactically.) Tj ET
+BT /F2 11.00 Tf 54.00 132.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 116.00 Td (- Define release gates for critical reporting flows.) Tj ET
+BT /F1 10.40 Tf 54.00 100.00 Td (- Create regression suites for connectors, transforms, permissions, delivery,) Tj ET
+BT /F1 10.40 Tf 54.00 86.00 Td (  and exports.) Tj ET
+BT /F1 10.40 Tf 54.00 70.00 Td (- Add fixture-based tests for real customer scenarios.) Tj ET
+BT /F1 9.00 Tf 54.00 28.00 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F1 9.00 Tf 529.28 28.00 Td (14) Tj ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 30 0 R >>
+endobj
+32 0 obj
+<< /Length 3132 >>
+stream
+BT /F1 10.40 Tf 54.00 790.00 Td (- Make quality metrics visible at product-review level.) Tj ET
+BT /F1 10.40 Tf 54.00 768.00 Td (Source: Oviond Ц Internal Product Review, section 7.) Tj ET
+BT /F2 12.00 Tf 54.00 744.00 Td (32. Add platform observability tied to support context) Tj ET
+BT /F2 11.00 Tf 54.00 724.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 708.00 Td (Gleap should become part of the product operating system, not just a) Tj ET
+BT /F1 10.40 Tf 54.00 694.00 Td (post-failure inbox.) Tj ET
+BT /F2 11.00 Tf 54.00 671.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 655.00 Td (- Emit structured telemetry for connect, query, render, share, export,) Tj ET
+BT /F1 10.40 Tf 54.00 641.00 Td (  automation, invite, and billing flows.) Tj ET
+BT /F1 10.40 Tf 54.00 625.00 Td (- Attach relevant product context to support tickets automatically.) Tj ET
+BT /F1 10.40 Tf 54.00 609.00 Td (- Auto-tag likely issue types.) Tj ET
+BT /F1 10.40 Tf 54.00 593.00 Td (- Review product telemetry and support patterns weekly together.) Tj ET
+BT /F1 10.40 Tf 54.00 571.00 Td (Source: MEMORY.md#L46-L53.) Tj ET
+BT /F2 12.00 Tf 54.00 547.00 Td (33. Make background jobs and caches boringly reliable) Tj ET
+BT /F2 11.00 Tf 54.00 527.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 511.00 Td (A lot of weird product behaviour comes from unreliable async work, stale) Tj ET
+BT /F1 10.40 Tf 54.00 497.00 Td (caches, or silent job failure.) Tj ET
+BT /F2 11.00 Tf 54.00 474.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 458.00 Td (- Idempotent jobs.) Tj ET
+BT /F1 10.40 Tf 54.00 442.00 Td (- Queue and worker monitoring.) Tj ET
+BT /F1 10.40 Tf 54.00 426.00 Td (- Explicit timeout and retry policies.) Tj ET
+BT /F1 10.40 Tf 54.00 410.00 Td (- Cache invalidation rules.) Tj ET
+BT /F1 10.40 Tf 54.00 394.00 Td (- Long-running job visibility in the UI where relevant.) Tj ET
+BT /F1 10.40 Tf 54.00 372.00 Td (Source: earlier Gleap analysis.) Tj ET
+0.7 w 54.00 349.00 m 541.28 349.00 l S
+BT /F2 15.00 Tf 54.00 327.00 Td (P8. Onboarding, migration, and rollout safety) Tj ET
+BT /F2 12.00 Tf 54.00 296.00 Td (34. Rebuild onboarding around first trusted live report) Tj ET
+BT /F2 11.00 Tf 54.00 276.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 260.00 Td (The product should get users to a believable, client-ready result fast, not) Tj ET
+BT /F1 10.40 Tf 54.00 246.00 Td (into setup confusion.) Tj ET
+BT /F2 11.00 Tf 54.00 223.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 207.00 Td (- Guided onboarding by use case.) Tj ET
+BT /F1 10.40 Tf 54.00 191.00 Td (- Clear demo versus live indicators.) Tj ET
+BT /F1 10.40 Tf 54.00 175.00 Td (- Progress checklist to first trusted report.) Tj ET
+BT /F1 10.40 Tf 54.00 159.00 Td (- Detect stalled onboarding and intervene.) Tj ET
+BT /F1 10.40 Tf 54.00 137.00 Td (Source: MEMORY.md#L23-L31; earlier Gleap analysis.) Tj ET
+BT /F2 12.00 Tf 54.00 113.00 Td (35. Build a serious migration layer from current Oviond to rebuilt) Tj ET
+BT /F2 12.00 Tf 54.00 97.00 Td (Oviond) Tj ET
+BT /F2 11.00 Tf 54.00 77.00 Td (Why) Tj ET
+BT /F1 9.00 Tf 54.00 28.00 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F1 9.00 Tf 529.28 28.00 Td (15) Tj ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 32 0 R >>
+endobj
+34 0 obj
+<< /Length 3446 >>
+stream
+BT /F1 10.40 Tf 54.00 790.00 Td (If migration is sloppy, the rebuild will create a fresh support and churn) Tj ET
+BT /F1 10.40 Tf 54.00 776.00 Td (wave.) Tj ET
+BT /F2 11.00 Tf 54.00 753.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 737.00 Td (- Map legacy objects to rebuilt equivalents.) Tj ET
+BT /F1 10.40 Tf 54.00 721.00 Td (- Flag unsupported legacy constructs before migration.) Tj ET
+BT /F1 10.40 Tf 54.00 705.00 Td (- Add parity validation after migration.) Tj ET
+BT /F1 10.40 Tf 54.00 689.00 Td (- Support staged cutover and rollback.) Tj ET
+BT /F1 10.40 Tf 54.00 673.00 Td (- Pilot with real agency accounts before wide rollout.) Tj ET
+BT /F1 10.40 Tf 54.00 651.00 Td (Source: earlier rebuild report findings.) Tj ET
+BT /F2 12.00 Tf 54.00 627.00 Td (36. Use a controlled rollout with hard go or no-go criteria) Tj ET
+BT /F2 11.00 Tf 54.00 607.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 591.00 Td (The rebuild should not be pushed broadly until it proves itself in the real) Tj ET
+BT /F1 10.40 Tf 54.00 577.00 Td (use cases that currently fail.) Tj ET
+BT /F2 11.00 Tf 54.00 554.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 538.00 Td (- Start with a design-partner cohort.) Tj ET
+BT /F1 10.40 Tf 54.00 522.00 Td (- Require pass rates on connector reliability, reporting parity, automation) Tj ET
+BT /F1 10.40 Tf 54.00 508.00 Td (  success, and white-label setup.) Tj ET
+BT /F1 10.40 Tf 54.00 492.00 Td (- Use support load and trust signals as launch criteria, not just shipped) Tj ET
+BT /F1 10.40 Tf 54.00 478.00 Td (  features.) Tj ET
+0.7 w 54.00 456.00 m 541.28 456.00 l S
+BT /F2 15.00 Tf 54.00 434.00 Td (P9. AI, extensibility, and future differentiation) Tj ET
+BT /F2 12.00 Tf 54.00 403.00 Td (37. Separate AI honesty from AI ambition) Tj ET
+BT /F2 11.00 Tf 54.00 383.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 367.00 Td (Right now the product has an AI credibility problem. The fix is not to market) Tj ET
+BT /F1 10.40 Tf 54.00 353.00 Td (harder. The fix is to be honest and then ship something real.) Tj ET
+BT /F2 11.00 Tf 54.00 330.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 314.00 Td (- Remove vague AI claims until the experience is visible and useful.) Tj ET
+BT /F1 10.40 Tf 54.00 298.00 Td (- Separate AI entitlements from core reporting value.) Tj ET
+BT /F1 10.40 Tf 54.00 282.00 Td (- Ensure AI failure cannot affect report correctness.) Tj ET
+BT /F1 10.40 Tf 54.00 266.00 Td (- Only ship AI that clearly saves user time or improves client output.) Tj ET
+BT /F1 10.40 Tf 54.00 244.00 Td (Source: Oviond Ц Internal Product Review, sections 2 and 5; MEMORY.md#L23-L31.) Tj ET
+BT /F2 12.00 Tf 54.00 220.00 Td (38. If AI is shipped, make it support the reporting workflow, not) Tj ET
+BT /F2 12.00 Tf 54.00 204.00 Td (distract from it) Tj ET
+BT /F2 11.00 Tf 54.00 184.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 168.00 Td (The defensible AI direction is not chatbot theatre. It is workflow assistance.) Tj ET
+BT /F2 11.00 Tf 54.00 145.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 129.00 Td (- Narrative suggestions for reports.) Tj ET
+BT /F1 10.40 Tf 54.00 113.00 Td (- QA checks for missing context or suspicious data.) Tj ET
+BT /F1 10.40 Tf 54.00 97.00 Td (- Smart setup assistance.) Tj ET
+BT /F1 10.40 Tf 54.00 81.00 Td (- Explanation and summarisation layers that sit on top of trustworthy data.) Tj ET
+BT /F1 9.00 Tf 54.00 28.00 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F1 9.00 Tf 529.28 28.00 Td (16) Tj ET
+endstream
+endobj
+35 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 34 0 R >>
+endobj
+36 0 obj
+<< /Length 3291 >>
+stream
+BT /F1 10.40 Tf 54.00 790.00 Td (Source: MEMORY.md#L23-L31.) Tj ET
+BT /F2 12.00 Tf 54.00 766.00 Td (39. Productise API, webhooks, and MCP carefully) Tj ET
+BT /F2 11.00 Tf 54.00 746.00 Td (Why) Tj ET
+BT /F1 10.40 Tf 54.00 730.00 Td (These are leverage features for stronger customers, but they must not distract) Tj ET
+BT /F1 10.40 Tf 54.00 716.00 Td (from fixing the core.) Tj ET
+BT /F2 11.00 Tf 54.00 693.00 Td (Action notes) Tj ET
+BT /F1 10.40 Tf 54.00 677.00 Td (- Scoped API keys.) Tj ET
+BT /F1 10.40 Tf 54.00 661.00 Td (- Webhook logs, replay, retry.) Tj ET
+BT /F1 10.40 Tf 54.00 645.00 Td (- MCP setup diagnostics.) Tj ET
+BT /F1 10.40 Tf 54.00 629.00 Td (- Stable schemas, versioning, useful error contracts.) Tj ET
+BT /F1 10.40 Tf 54.00 607.00 Td (Source: earlier rebuild report findings.) Tj ET
+0.7 w 54.00 584.00 m 541.28 584.00 l S
+BT /F2 15.00 Tf 54.00 562.00 Td (Pass-fail conditions before we call the rebuild ready) Tj ET
+BT /F1 10.40 Tf 54.00 532.00 Td (If Oviond still fails these, the rebuild is not done.) Tj ET
+BT /F2 12.00 Tf 54.00 508.00 Td (A. Buyer-confidence conditions) Tj ET
+BT /F1 10.40 Tf 54.00 488.00 Td (- No evaluator should be able to honestly describe the product as an MVP.) Tj ET
+BT /F1 10.40 Tf 54.00 472.00 Td (- No major capability claim should feel materially overstated in a live demo.) Tj ET
+BT /F1 10.40 Tf 54.00 456.00 Td (- Paid media and social workflows must survive scrutiny from real specialists.) Tj ET
+BT /F2 12.00 Tf 54.00 433.00 Td (B. Reporting-trust conditions) Tj ET
+BT /F1 10.40 Tf 54.00 413.00 Td (- Cross-source and derived metrics work reliably.) Tj ET
+BT /F1 10.40 Tf 54.00 397.00 Td (- Editor, shared report, PDF, and automation output match.) Tj ET
+BT /F1 10.40 Tf 54.00 381.00 Td (- Data freshness and error states are obvious.) Tj ET
+BT /F1 10.40 Tf 54.00 365.00 Td (- Multi-source reporting does not silently duplicate or corrupt outputs.) Tj ET
+BT /F2 12.00 Tf 54.00 342.00 Td (C. Connector-trust conditions) Tj ET
+BT /F1 10.40 Tf 54.00 322.00 Td (- Top connectors are reliable, diagnosable, and well-scoped.) Tj ET
+BT /F1 10.40 Tf 54.00 306.00 Td (- Meta and LinkedIn no longer fail basic trust checks.) Tj ET
+BT /F1 10.40 Tf 54.00 290.00 Td (- Reconnect and token-expiry flows are sane.) Tj ET
+BT /F2 12.00 Tf 54.00 267.00 Td (D. Agency-operations conditions) Tj ET
+BT /F1 10.40 Tf 54.00 247.00 Td (- White-label and custom-domain setup is self-serve and stable.) Tj ET
+BT /F1 10.40 Tf 54.00 231.00 Td (- Permissions and client sharing are predictable.) Tj ET
+BT /F1 10.40 Tf 54.00 215.00 Td (- Bulk agency workflows are available.) Tj ET
+BT /F1 10.40 Tf 54.00 199.00 Td (- Billing and limit states are clear.) Tj ET
+BT /F2 12.00 Tf 54.00 176.00 Td (E. Quality conditions) Tj ET
+BT /F1 10.40 Tf 54.00 156.00 Td (- Rounding, formatting, and navigation bugs are not embarrassing.) Tj ET
+BT /F1 10.40 Tf 54.00 140.00 Td (- Regression coverage exists for critical workflows.) Tj ET
+BT /F1 10.40 Tf 54.00 124.00 Td (- Support signal falls materially after pilot rollout.) Tj ET
+0.7 w 54.00 102.00 m 541.28 102.00 l S
+BT /F2 15.00 Tf 54.00 80.00 Td (The few things I would call non-negotiable before beta) Tj ET
+BT /F1 9.00 Tf 54.00 28.00 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F1 9.00 Tf 529.28 28.00 Td (17) Tj ET
+endstream
+endobj
+37 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 36 0 R >>
+endobj
+38 0 obj
+<< /Length 3307 >>
+stream
+BT /F1 10.40 Tf 54.00 790.00 Td (If I had to be ruthless, these are the true non-negotiables before letting the) Tj ET
+BT /F1 10.40 Tf 54.00 776.00 Td (rebuild represent the future of Oviond:) Tj ET
+BT /F1 10.40 Tf 54.00 753.00 Td (1. Real transformation layer) Tj ET
+BT /F1 10.40 Tf 54.00 737.00 Td (2. Reliable top connectors) Tj ET
+BT /F1 10.40 Tf 54.00 721.00 Td (3. Cross-surface output parity) Tj ET
+BT /F1 10.40 Tf 54.00 705.00 Td (4. PPC reporting depth on core use cases) Tj ET
+BT /F1 10.40 Tf 54.00 689.00 Td (5. Social reporting trust restored or honestly narrowed) Tj ET
+BT /F1 10.40 Tf 54.00 673.00 Td (6. White-label and custom-domain reliability) Tj ET
+BT /F1 10.40 Tf 54.00 657.00 Td (7. Permissions and sharing sanity) Tj ET
+BT /F1 10.40 Tf 54.00 641.00 Td (8. Automation correctness plus run visibility) Tj ET
+BT /F1 10.40 Tf 54.00 625.00 Td (9. Export, PDF, and email reliability) Tj ET
+BT /F1 10.40 Tf 54.00 609.00 Td (10. Visible QA and release discipline) Tj ET
+BT /F1 10.40 Tf 54.00 593.00 Td (11. Honest AI positioning) Tj ET
+BT /F1 10.40 Tf 54.00 577.00 Td (12. No major buyer-demo credibility gaps) Tj ET
+0.7 w 54.00 555.00 m 541.28 555.00 l S
+BT /F2 15.00 Tf 54.00 533.00 Td (Final recommendation) Tj ET
+BT /F1 10.40 Tf 54.00 503.00 Td (The right lesson from the buyer review is not "we need more features.") Tj ET
+BT /F1 10.40 Tf 54.00 480.00 Td (The right lesson is this:) Tj ET
+BT /F2 11.00 Tf 54.00 457.00 Td (Oviond currently loses confidence faster than it earns it.) Tj ET
+BT /F1 10.40 Tf 54.00 435.00 Td (Gleap already suggested that. The buyer review confirms it.) Tj ET
+BT /F1 10.40 Tf 54.00 412.00 Td (So the rebuild needs to be built around confidence creation:) Tj ET
+BT /F1 10.40 Tf 54.00 389.00 Td (- confidence that the connector is real) Tj ET
+BT /F1 10.40 Tf 54.00 373.00 Td (- confidence that the data is correct) Tj ET
+BT /F1 10.40 Tf 54.00 357.00 Td (- confidence that the calculation is valid) Tj ET
+BT /F1 10.40 Tf 54.00 341.00 Td (- confidence that the output will render properly) Tj ET
+BT /F1 10.40 Tf 54.00 325.00 Td (- confidence that the client will receive the right thing) Tj ET
+BT /F1 10.40 Tf 54.00 309.00 Td (- confidence that what marketing says is actually true) Tj ET
+BT /F1 10.40 Tf 54.00 287.00 Td (If we get that right, Oviond becomes much more than a cheap lightweight) Tj ET
+BT /F1 10.40 Tf 54.00 273.00 Td (reporting tool. It becomes a genuinely credible agency reporting platform with) Tj ET
+BT /F1 10.40 Tf 54.00 259.00 Td (a clear lane.) Tj ET
+BT /F1 10.40 Tf 54.00 236.00 Td (If we do not get that right, the rebuild will still leak trust, and the team) Tj ET
+BT /F1 10.40 Tf 54.00 222.00 Td (will be back in the same strategic hole with a cleaner interface.) Tj ET
+BT /F1 10.40 Tf 54.00 199.00 Td (That would be a waste.) Tj ET
+0.7 w 54.00 176.00 m 541.28 176.00 l S
+BT /F2 15.00 Tf 54.00 154.00 Td (Source notes) Tj ET
+BT /F1 10.40 Tf 54.00 124.00 Td (Primary sources used in this version:) Tj ET
+BT /F1 10.40 Tf 54.00 101.00 Td (- MEMORY.md#L23-L31) Tj ET
+BT /F1 10.40 Tf 54.00 85.00 Td (- MEMORY.md#L46-L53) Tj ET
+BT /F1 10.40 Tf 54.00 69.00 Td (- earlier Gleap ticket-history analysis and rebuild report) Tj ET
+BT /F1 9.00 Tf 54.00 28.00 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F1 9.00 Tf 529.28 28.00 Td (18) Tj ET
+endstream
+endobj
+39 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 38 0 R >>
+endobj
+40 0 obj
+<< /Length 209 >>
+stream
+BT /F1 10.40 Tf 54.00 790.00 Td (- Oviond Ц Internal Product Review, sections 1 to 7) Tj ET
+BT /F1 9.00 Tf 54.00 28.00 Td (Oviond Rebuild Report and Action Plan) Tj ET
+BT /F1 9.00 Tf 529.28 28.00 Td (19) Tj ET
+endstream
+endobj
+41 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 40 0 R >>
+endobj
+42 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+xref
+0 43
+0000000000 65535 f 
+0000000015 00000 n 
+0000000083 00000 n 
+0000000156 00000 n 
+0000000338 00000 n 
+0000003889 00000 n 
+0000004031 00000 n 
+0000007459 00000 n 
+0000007601 00000 n 
+0000011625 00000 n 
+0000011767 00000 n 
+0000015445 00000 n 
+0000015589 00000 n 
+0000018772 00000 n 
+0000018916 00000 n 
+0000022501 00000 n 
+0000022645 00000 n 
+0000026219 00000 n 
+0000026363 00000 n 
+0000029856 00000 n 
+0000030000 00000 n 
+0000033709 00000 n 
+0000033853 00000 n 
+0000037200 00000 n 
+0000037344 00000 n 
+0000040683 00000 n 
+0000040827 00000 n 
+0000044208 00000 n 
+0000044352 00000 n 
+0000047663 00000 n 
+0000047807 00000 n 
+0000051057 00000 n 
+0000051201 00000 n 
+0000054386 00000 n 
+0000054530 00000 n 
+0000058029 00000 n 
+0000058173 00000 n 
+0000061517 00000 n 
+0000061661 00000 n 
+0000065021 00000 n 
+0000065165 00000 n 
+0000065426 00000 n 
+0000065570 00000 n 
+trailer
+<< /Size 43 /Root 42 0 R >>
+startxref
+65620
+%%EOF
