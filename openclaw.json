@@ -1,12 +1,12 @@
 {
   "meta": {
-    "lastTouchedVersion": "2026.3.8",
-    "lastTouchedAt": "2026-03-09T09:28:12.227Z"
+    "lastTouchedVersion": "2026.4.8",
+    "lastTouchedAt": "2026-04-08T11:16:45.752Z"
   },
   "wizard": {
-    "lastRunAt": "2026-03-09T05:49:11.134Z",
-    "lastRunVersion": "2026.3.7",
-    "lastRunCommand": "onboard",
+    "lastRunAt": "2026-04-08T11:16:45.720Z",
+    "lastRunVersion": "2026.4.8",
+    "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
   "auth": {
@@ -40,8 +40,12 @@
         },
         "openai-codex/gpt-5.3-codex": {},
         "openai-codex/gpt-5.4": {},
-        "anthropic/claude-opus-4-6": {},
-        "google/gemini-3.1-flash-lite-preview": {},
+        "anthropic/claude-opus-4-6": {
+          "alias": "opus"
+        },
+        "google/gemini-3.1-flash-lite-preview": {
+          "alias": "gemini-flash-lite"
+        },
         "openai-codex/gpt-5.3-codex-spark": {}
       },
       "workspace": "/data/.openclaw/workspace",
@@ -55,15 +59,21 @@
     }
   },
   "tools": {
-    "profile": "full"
+    "profile": "full",
+    "exec": {
+      "security": "full",
+      "strictInlineEval": false
+    }
   },
   "messages": {
     "ackReactionScope": "group-mentions",
     "tts": {
       "provider": "openai",
-      "openai": {
-        "voice": "coral",
-        "speed": 1.25
+      "providers": {
+        "openai": {
+          "voice": "coral",
+          "speed": 1.25
+        }
       }
     }
   },
@@ -96,7 +106,9 @@
       "dmPolicy": "pairing",
       "botToken": "${TELEGRAM_BOT_TOKEN}",
       "groupPolicy": "allowlist",
-      "streaming": "partial"
+      "streaming": {
+        "mode": "partial"
+      }
     },
     "slack": {
       "mode": "socket",
@@ -104,8 +116,10 @@
       "enabled": true,
       "userTokenReadOnly": true,
       "groupPolicy": "allowlist",
-      "nativeStreaming": true,
-      "streaming": "partial"
+      "streaming": {
+        "mode": "partial",
+        "nativeTransport": true
+      }
     }
   },
   "gateway": {
@@ -138,7 +152,10 @@
     "allow": [
       "telegram",
       "usage-tracker",
-      "slack"
+      "slack",
+      "openai",
+      "anthropic",
+      "google"
     ],
     "load": {
       "paths": [
@@ -147,10 +164,28 @@
     },
     "entries": {
       "telegram": {
-        "enabled": true
+        "enabled": true,
+        "config": {}
       },
       "usage-tracker": {
+        "enabled": true,
+        "config": {}
+      },
+      "openai": {
         "enabled": true
+      },
+      "anthropic": {
+        "enabled": true
+      },
+      "google": {
+        "enabled": true
+      },
+      "memory-core": {
+        "config": {
+          "dreaming": {
+            "enabled": true
+          }
+        }
       }
     }
   }
