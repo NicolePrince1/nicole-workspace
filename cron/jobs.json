@@ -62,7 +62,12 @@
       "task": "Friday SEO check. Pull GSC data for the week vs prior week. Compare top 20 non-brand keyword positions. Flag any movement >3 positions (up or down). Check target pages: client-onboarding-checklist, digital-marketing-reporting, free-ai-tools, content-social-media-marketing. Save to memory/seo-weekly/YYYY-MM-DD.json. Only message Chris if significant changes found.",
       "target": "UDXMTJXGT",
       "state": {
-        "nextRunAtMs": 1775822400000
+        "nextRunAtMs": 1776427200000,
+        "lastError": "TypeError: Cannot read properties of undefined (reading 'kind')",
+        "lastRunAtMs": 1776148862479,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 2
       },
       "name": "Cron: 0 12 * * 5",
       "enabled": true,
@@ -78,7 +83,11 @@
       "task": "Mid-week trial check. Pull: 1) Current Stripe trialing count. 2) New trials started this week from Stripe. 3) Any trials expiring in next 3 days? Compare to last week. 4) If trial-to-paid conversion rate drops below 10%, flag to Chris with analysis.",
       "target": "UDXMTJXGT",
       "state": {
-        "nextRunAtMs": 1775638800000
+        "nextRunAtMs": 1776243600000,
+        "lastRunAtMs": 1775758512470,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 3
       },
       "name": "Cron: 0 9 * * 3",
       "enabled": true,
@@ -106,7 +115,7 @@
       "name": "Meta ads 2-day operating check",
       "enabled": true,
       "createdAtMs": 1774445011422,
-      "updatedAtMs": 1775372400577,
+      "updatedAtMs": 1776063828850,
       "schedule": {
         "kind": "cron",
         "expr": "0 9 */2 * *",
@@ -126,15 +135,14 @@
         "accountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1775545200000,
-        "lastRunAtMs": 1775372400003,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 574,
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 1,
-        "lastError": "FailoverError: No API key found for provider \"openai-codex\". Auth store: /data/.openclaw/agents/main/agent/auth-profiles.json (agentDir: /data/.openclaw/agents/main/agent). Configure auth for this agent (openclaw agents add <id>) or copy auth-profiles.json from the main agentDir.",
-        "lastErrorReason": "auth"
+        "nextRunAtMs": 1776236400000,
+        "lastRunAtMs": 1776063601626,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 227224,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": true
       }
     },
     {
@@ -143,7 +151,7 @@
       "description": "Recurring South Africa Google Ads spend-protection and free-trial reporting for Chris",
       "enabled": true,
       "createdAtMs": 1775208916136,
-      "updatedAtMs": 1775323664683,
+      "updatedAtMs": 1776009842461,
       "schedule": {
         "kind": "cron",
         "expr": "0 18 6,9,12,15,18,21,24,27,30 * *",
@@ -172,7 +180,14 @@
         "accountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1775750400000
+        "nextRunAtMs": 1776268800000,
+        "lastRunAtMs": 1776009600676,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 241785,
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 0
       }
     },
     {
@@ -181,7 +196,7 @@
       "description": "Monday 07:00 SAST weekly Oviond overview to Telegram and email",
       "enabled": true,
       "createdAtMs": 1775529176609,
-      "updatedAtMs": 1775529176609,
+      "updatedAtMs": 1776056411567,
       "schedule": {
         "kind": "cron",
         "expr": "0 7 * * 1",
@@ -210,7 +225,81 @@
         "accountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1776056400000
+        "nextRunAtMs": 1776661200000,
+        "lastRunAtMs": 1776056400699,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 10868,
+        "lastError": "400 Unsupported value: 'low' is not supported with the 'gpt-5.1-codex' model. Supported values are: 'medium'.",
+        "lastErrorReason": "format",
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "consecutiveErrors": 1
+      }
+    },
+    {
+      "id": "94c4d3a0-16ac-4aeb-967e-8f9643971604",
+      "name": "Memory Dreaming Promotion",
+      "description": "[managed-by=memory-core.short-term-promotion] Promote weighted short-term recalls into MEMORY.md (limit=10, minScore=0.800, minRecallCount=3, minUniqueQueries=3, recencyHalfLifeDays=14, maxAgeDays=30).",
+      "enabled": true,
+      "createdAtMs": 1775787461202,
+      "updatedAtMs": 1776135601916,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "__openclaw_memory_core_short_term_promotion_dream__"
+      },
+      "state": {
+        "nextRunAtMs": 1776222000000,
+        "lastRunAtMs": 1776135601907,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 9,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0
+      }
+    },
+    {
+      "id": "bb0bda8f-fb3e-4aa4-8a2e-e84017e993ea",
+      "name": "Google Ads PMAX USA post-cleanup 7-day review",
+      "description": "One-shot review after a full clean week of PMAX USA data post conversion-goal cleanup",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1776148974734,
+      "updatedAtMs": 1776148974734,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-04-21T07:00:00.000Z"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Google Ads PMAX USA 7-day post-cleanup review for Chris.\n\nContext to preserve:\n- On 2026-04-14 we demoted `Oviond Website + App (web) page_view` (`customers/2906154258/conversionActions/6813993598`) so it is no longer primary for bidding/reporting (`primaryForGoal: false`).\n- On 2026-04-14 we paused `USA | Search | Trial | Core Intent | 2026-04-03` (`customers/2906154258/campaigns/23720451302`).\n- We intentionally left `PMAX- Start Trial USA` (`21330916203`) live so we could observe 1 full clean week with less conversion noise and less wasted US Search spend.\n\nWhat to do:\n1) Diagnose Google Ads access first with: `node /data/.openclaw/workspace/skills/google-ads/scripts/ads_auth_doctor.js --json`\n2) Audit account `2906154258` under MCC `6387956297`.\n3) Focus on campaign `PMAX- Start Trial USA` (`21330916203`). Pull the last 7 complete days only, not partial-day data.\n4) Report: spend, impressions, clicks, CTR, conversions, CPA, and any obvious delivery or efficiency changes.\n5) Compare the clean-week PMAX USA read against the pre-cleanup baseline captured on 2026-04-14: spend `13230.28`, conversions `34`, CPA `389.13` for the window `2026-04-01` to `2026-04-13`.\n6) Answer bluntly: did PMAX USA look healthier once page-view noise was stripped out and USA Search was paused, or is US still structurally too expensive?\n7) If the answer is still bad, recommend the next move, ideally around budget, asset quality, audience/input quality, search rebuild, or deeper conversion-goal cleanup.\n8) Write a short durable note to `/data/.openclaw/workspace/memory/2026-04-21.md` so future Nicole can see why this review was run and what it concluded.\n9) Final reply should be a concise plain-English update for Chris only. No tool chatter.\n",
+        "thinking": "high",
+        "timeoutSeconds": 900,
+        "toolsAllow": [
+          "exec",
+          "read",
+          "write",
+          "edit",
+          "memory_search",
+          "memory_get"
+        ]
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "telegram",
+        "to": "5810523015",
+        "accountId": "default"
+      },
+      "state": {
+        "nextRunAtMs": 1776754800000
       }
     }
   ]
