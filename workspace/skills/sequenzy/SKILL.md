@@ -21,60 +21,13 @@ Use this skill to operate Sequenzy itself, not Sequenzy source code.
 6. Send an explicit `User-Agent` on direct API calls from this workspace. Oviond's runtime hit edge blocking without one during live validation.
 7. Expect response-shape drift. The docs describe a generic `data` envelope, but live responses often return resource-specific top-level keys like `subscribers`, `transactional`, `campaigns`, `sequences`, and `stats`.
 
-## What is verified enough to trust
+## What to trust
 
-### Verified via public docs and OpenAPI
-
-The documented REST API clearly covers:
-- subscribers
-- subscriber tags
-- subscriber events
-- transactional template lookup and send
-- preferences-widget token generation
-- metrics, including campaign, sequence, and recipient views
-
-### Verified live on Oviond on 2026-04-14
-
-The current Oviond `SEQUENZY_API_KEY` successfully reached these read-only routes:
-- `/subscribers`
-- `/subscribers/{email}`
-- `/transactional`
-- `/metrics`
-- `/metrics/campaigns/{id}`
-- `/metrics/sequences/{id}`
-- `/metrics/recipients`
-- `/stats`
-- `/account`
-- `/companies`
-- `/websites`
-- `/lists`
-- `/segments`
-- `/templates`
-- `/templates/{id}`
-- `/campaigns`
-- `/campaigns/{id}`
-- `/campaigns/{id}/stats`
-- `/sequences`
-- `/sequences/{id}`
-- `/sequences/{id}/stats`
-
-This means Oviond already has more than just the narrow public REST surface available.
-
-### Verified limitation from live validation
-
-These routes did not validate cleanly on the Oviond account:
-- `/health/deliverability` returned `404`
-- `/subscribers/{email}/activity` returned `404`, even though subscriber detail already included an `activity` array
-
-### Verified via official public skill
-
-The official Sequenzy skill is deliberately conservative. Its practical CLI scope is centered on:
-- auth and identity
-- subscriber list, add, get, remove
-- stats
-- single transactional send
-
-Treat broader CLI nouns as unsupported or partial unless re-verified.
+- Treat the public OpenAPI and docs as the safest baseline for subscriber, event, transactional, and metrics work.
+- Treat the broader Oviond account surface as real but route-specific. Do not assume adjacent private routes work just because one did.
+- Treat the official public skill and CLI as intentionally narrow.
+- Keep dated live account validation details, route-by-route checks, and mismatch notes in `references/verification-notes.md`. That file is the canonical place for dated route checks.
+- Use `references/capability-map.md` when you need the current confidence level for a route family.
 
 ## Default workflow selection
 
@@ -94,8 +47,8 @@ Use dashboard first.
 ## Operational workflow
 
 1. Start with a read-only audit.
-2. If the task may touch a private route family, confirm the route class against `references/capability-map.md` and `references/verification-notes.md`.
-3. If you need a fresh read-only account sweep, run `scripts/live_audit.py` with `SEQUENZY_API_KEY` in the environment.
+2. If the task may touch a private route family, confirm the route class against `references/capability-map.md` and check `references/verification-notes.md` for the latest dated validation notes.
+3. If you need a fresh read-only account sweep, run `scripts/live_audit.py` with `SEQUENZY_API_KEY` in the environment, then record dated route findings in `references/verification-notes.md` rather than bloating this file.
 4. Only move from audit to mutation after the exact route family and risk level are clear.
 5. Keep campaign and sequence activation behind human review.
 
@@ -146,7 +99,7 @@ For individual debugging, first check subscriber detail because the embedded `ac
 
 ## Read these resources as needed
 
-- `references/capability-map.md` for route-by-route confidence and the current Oviond live-validation map.
+- `references/capability-map.md` for route-by-route confidence and the current trust map.
 - `references/workflows.md` for subscriber, Stripe lifecycle, sequence, campaign, transactional, and audit workflows.
-- `references/verification-notes.md` for known mismatches, edge-block quirks, and the live-validation checklist.
+- `references/verification-notes.md` for canonical dated route checks, known mismatches, edge-block quirks, and the live-validation checklist.
 - `scripts/live_audit.py` for a repeatable read-only account audit.
