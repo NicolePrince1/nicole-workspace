@@ -44,10 +44,9 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ### Google Workspace
 
-- Wrapper path: `/usr/local/bin/gws-nicole`
 - Token helper: `/data/.openclaw/secrets/gws-token.js`
 - Credentials and helper material live in gitignored secret storage under `/data/.openclaw/secrets/`.
-- Use `gws-nicole` as the local wrapper when Workspace access is needed.
+- Handle Google Workspace tasks through the live `gog` skill/operator path rather than a missing local wrapper.
 - Durable platform/access status belongs in `MEMORY.md`; keep this section for local operator mechanics only.
 
 ### Stripe
@@ -55,7 +54,7 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 - Preferred secret location: OpenClaw Envars as `STRIPE_SECRET_KEY`.
 - Stripe is not one of the workspace-local skills.
 - The managed Stripe analysis skill lives under the managed root at `/data/.openclaw/skills/stripe-reader/`.
-- Helper script: `/data/.openclaw/skills/stripe-reader/scripts/stripe_snapshot.py`.
+- Current helper script: `/data/.openclaw/skills/stripe-reader/scripts/stripe_analytics.py`.
 - Capability/access posture belongs in `MEMORY.md`; keep this section for local secret/path notes only.
 
 ### Sequenzy
