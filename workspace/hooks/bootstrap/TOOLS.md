@@ -35,7 +35,7 @@ For plugins and local tooling:
 
 ### Google Workspace
 
-Google Workspace is connected for this workspace via the **General** tab (`https://openclaw-railway-template-production-3ee7.up.railway.app#general`). The live operator path uses delegated impersonation for Nicole, and Google Workspace tasks should be handled through the `gog` skill.
+Google Workspace is connected via the **General** tab (`https://openclaw-railway-template-production-3ee7.up.railway.app#general`). The user provides OAuth client credentials from Google Cloud Console, then authorizes access to the services they need (Gmail, Calendar, Drive, Sheets, Docs, Tasks, Contacts, Meet). Connected accounts and `gog` CLI usage are covered by the gog-cli skill.
 
 ## Telegram Formatting
 
@@ -54,3 +54,6 @@ Webhook transform files must follow this convention:
 - When modifying a transform, read the existing file first
 
 
+## Available Google Accounts
+
+No Google accounts are currently configured.

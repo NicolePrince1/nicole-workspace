@@ -1,81 +1,85 @@
 {
-  "captured_at": "2026-04-06T05:11:00.000Z",
+  "captured_at": "2026-04-09T18:30:08.805Z",
   "window": {
+    "startDate": "2026-04-02",
+    "endDate": "2026-04-06"
+  },
+  "baseline_window": {
     "startDate": "2026-03-30",
     "endDate": "2026-04-03"
   },
-  "baseline_available": true,
   "top10": [
     {
-      "query": "free ai tools for digital marketing",
-      "clicks": 3,
-      "impressions": 65,
-      "ctr": 0.046153846153846156,
-      "position": 6.123076923076923
-    },
-    {
       "query": "ai tools for digital marketing free",
-      "clicks": 2,
-      "impressions": 17,
-      "ctr": 0.11764705882352941,
-      "position": 5.235294117647059
+      "clicks": 1,
+      "impressions": 12,
+      "ctr": 0.08333333333333333,
+      "position": 5.083333333333333
     },
     {
-      "query": "best ai tools for digital marketing free",
-      "clicks": 2,
-      "impressions": 4,
-      "ctr": 0.5,
-      "position": 4.5
+      "query": "cons of influencer marketing",
+      "clicks": 1,
+      "impressions": 9,
+      "ctr": 0.1111111111111111,
+      "position": 4.222222222222222
     },
     {
-      "query": "digital marketing report",
-      "clicks": 2,
-      "impressions": 213,
-      "ctr": 0.009389671361502348,
-      "position": 22.769953051643192
+      "query": "content meaning social media",
+      "clicks": 1,
+      "impressions": 212,
+      "ctr": 0.0047169811320754715,
+      "position": 2.8773584905660377
     },
     {
-      "query": "ovion",
-      "clicks": 2,
-      "impressions": 22,
-      "ctr": 0.09090909090909091,
-      "position": 5.2272727272727275
-    },
-    {
-      "query": "social media content",
-      "clicks": 2,
-      "impressions": 1145,
-      "ctr": 0.0017467248908296944,
-      "position": 9.7764192139738
+      "query": "dashboard report",
+      "clicks": 1,
+      "impressions": 62,
+      "ctr": 0.016129032258064516,
+      "position": 2.903225806451613
     },
     {
       "query": "digital marketing ai tools free",
       "clicks": 1,
-      "impressions": 14,
-      "ctr": 0.07142857142857142,
-      "position": 5.571428571428571
+      "impressions": 10,
+      "ctr": 0.1,
+      "position": 6.4
     },
     {
       "query": "digital marketing onboarding checklist",
       "clicks": 1,
-      "impressions": 1,
-      "ctr": 1.0,
-      "position": 1.0
+      "impressions": 2,
+      "ctr": 0.5,
+      "position": 1
     },
     {
-      "query": "excel marketing analytics dashboard",
+      "query": "marketing analytics dashboard excel",
       "clicks": 1,
-      "impressions": 1,
-      "ctr": 1.0,
-      "position": 3.0
+      "impressions": 3,
+      "ctr": 0.3333333333333333,
+      "position": 3.6666666666666665
     },
     {
-      "query": "google ads report template",
+      "query": "paid advertising benefits",
       "clicks": 1,
-      "impressions": 61,
-      "ctr": 0.01639344262295082,
-      "position": 18.950819672131146
+      "impressions": 7,
+      "ctr": 0.14285714285714285,
+      "position": 2.857142857142857
+    },
+    {
+      "query": "website performance report template",
+      "clicks": 1,
+      "impressions": 16,
+      "ctr": 0.0625,
+      "position": 3.75
+    },
+    {
+      "query": "\"adobe marketing stack",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 31
     }
   ],
-  "flagged_drops_gt3": []
+  "flagged_drops_gt3": [],
+  "baseline_available": true
 }

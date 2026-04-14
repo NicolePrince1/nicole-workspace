@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastTouchedVersion": "2026.4.8",
-    "lastTouchedAt": "2026-04-08T11:16:45.752Z"
+    "lastTouchedVersion": "2026.4.11",
+    "lastTouchedAt": "2026-04-14T11:10:10.758Z"
   },
   "wizard": {
     "lastRunAt": "2026-04-08T11:16:45.720Z",
@@ -155,7 +155,8 @@
       "slack",
       "openai",
       "anthropic",
-      "google"
+      "google",
+      "memory-core"
     ],
     "load": {
       "paths": [
@@ -183,7 +184,10 @@
       "memory-core": {
         "config": {
           "dreaming": {
-            "enabled": true
+            "enabled": true,
+            "storage": {
+              "mode": "separate"
+            }
           }
         }
       }

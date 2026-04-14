@@ -8,7 +8,7 @@ Things like:
 
 - Camera names and locations
 - SSH hosts and aliases
-- Preferred voices for TTS
+- TTS provider/setup mechanics and device defaults
 - Speaker/room names
 - Device nicknames
 - Anything environment-specific
@@ -27,8 +27,9 @@ Things like:
 
 ### TTS
 
-- Preferred voice: "Nova" (warm, slightly British)
+- Provider: OpenAI
 - Default speaker: Kitchen HomePod
+- Chris-specific voice preferences belong in `MEMORY.md`
 ```
 
 ## Why Separate?
