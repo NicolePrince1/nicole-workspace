@@ -2,46 +2,47 @@
 
 ## Confidence legend
 
-- **Verified**: directly supported by public OpenAPI/docs or by inspected public repo code.
-- **Likely**: strongly suggested by public MCP implementation, but not verified on the public REST/OpenAPI surface.
-- **Live validation needed**: route exists in code/docs but should not be treated as production-safe until exercised with real credentials.
+- **Documented**: supported by public OpenAPI or public docs.
+- **Live-validated**: confirmed against Oviond's live workspace on 2026-04-14.
+- **Repo-inferred**: supported by inspected public MCP code, but not yet proven on the live Oviond account.
+- **Dashboard-first**: possible, but safer or clearer in the Sequenzy UI.
 
-## 1. Public REST / OpenAPI
+## 1. Documented REST surface
 
-### Verified
+### Documented and live-validated
 
 - `GET /subscribers`
 - `POST /subscribers`
 - `GET /subscribers/{email}`
-- `PATCH/PUT/DELETE /subscribers/{email}` if present in the full spec; verify exact method before use
-- subscriber tag add/remove and bulk tag operations
-- subscriber event trigger and bulk event trigger
-- transactional template list/get
-- transactional send
-- preferences token generation
-- metrics overview
-- campaign metrics
-- sequence metrics
-- recipient metrics
+- documented update and delete variants for `/subscribers/{email}`, though write paths remain untested on Oviond
+- subscriber tag add and bulk tag operations
+- subscriber event trigger and bulk trigger operations
+- `GET /transactional`
+- `GET /transactional/{slug}`
+- `POST /transactional/send`
+- `GET /metrics`
+- `GET /metrics/campaigns/{campaignId}`
+- `GET /metrics/sequences/{sequenceId}`
+- `GET /metrics/recipients`
+- preferences token generation remains documented but untested on Oviond
 
 ### Notes
 
 - Public OpenAPI server base: `https://api.sequenzy.com/api/v1`
-- Public OpenAPI surface is focused on subscriber operations, transactional email, widgets, and analytics.
-- It does **not** publicly expose the full company/list/segment/template/campaign/sequence management surface seen in MCP.
+- The public OpenAPI surface is still mainly subscriber, transactional, widget, and analytics focused.
+- Live responses do not always use a universal `data` field.
 
-## 2. Official public skill / CLI
+## 2. Official public skill and CLI
 
 ### Verified practical CLI scope
 
-- login/logout/whoami
-- stats overview and stats by campaign/sequence ID
-- subscribers: list, add, get, remove
+- login, logout, whoami
+- stats overview and stats by campaign or sequence ID
+- subscribers list, add, get, remove
 - send one transactional email
 
-### Explicit limitation
+### Treat as unsupported or partial until re-verified
 
-The official skill says many CLI-advertised nouns are unsupported or partial, including areas such as:
 - campaigns
 - sequences
 - templates
@@ -56,110 +57,110 @@ The official skill says many CLI-advertised nouns are unsupported or partial, in
 
 Do not rely on CLI for Oviond production workflows beyond the narrow set above unless re-verified against the current implementation.
 
-## 3. Public MCP server
+## 3. Live private surface on Oviond
 
-## Verified in inspected MCP code
+### Live-validated route families
 
-### Account / setup
-- get account
-- select company
+#### Account and workspace
+- `GET /account`
+- `GET /companies`
+- `GET /websites`
+
+#### Audience structure
+- `GET /lists`
+- `GET /segments`
+
+#### Templates and transactional
+- `GET /templates`
+- `GET /templates/{id}`
+- `GET /transactional`
+- `GET /transactional/{slug}`
+
+#### Campaigns and sequences
+- `GET /campaigns`
+- `GET /campaigns/{id}`
+- `GET /campaigns/{id}/stats`
+- `GET /sequences`
+- `GET /sequences/{id}`
+- `GET /sequences/{id}/stats`
+
+#### Analytics aliases
+- `GET /stats`
+
+### Live-validated account-shape facts
+
+- `/account` and `/companies` returned one company
+- `/websites` returned one website
+- `/lists` returned two lists
+- `/segments` returned zero segments at validation time
+- `/templates` returned seventeen templates
+- `/campaigns` returned one campaign
+- `/sequences` returned two sequences
+
+### Live-validated caveats
+
+- `GET /health/deliverability` returned `404`
+- `GET /subscribers/{email}/activity` returned `404`
+- subscriber detail already included embedded `activity`, `lists`, `sequenceEnrollments`, and `emailStats`
+
+## 4. Repo-inferred MCP surface not yet live-tested on Oviond
+
+### Setup and account
 - create company
-- get company
+- select company
 - create API key
-- list/add/check websites
+- add or check websites
 - get integration guide
 
-### Subscribers
-- add/update/remove/get/search subscribers
-
 ### Audience structure
-- list tags
-- list lists
 - create list
-- list segments
 - create segment
 - get segment count
+- list tags
 
 ### Templates
-- list/get/create/update/delete template
+- create, update, delete template
 
 ### Campaigns
-- list/get/create/update campaign
+- create or update campaign
 - send test email
 
 ### Sequences
-- list/get/create/update/enable/disable/delete sequence
-
-### Transactional
-- send one-off email
-
-### Analytics
-- get overview stats
-- get campaign stats
-- get sequence stats
-- get subscriber activity
+- create, update, enable, disable, delete sequence
 
 ### AI generation
 - generate email
 - generate sequence
 - generate subject lines
 
-### MCP resources
-- dashboard overview
-- recent campaigns
-- recent subscribers
-- engaged subscribers
-- sequences
-- templates
-- segments
-- tags
-- deliverability health
+Treat these as plausible, not proven.
 
-## Important caution
-
-The MCP code calls many routes such as:
-- `/api/v1/account`
-- `/api/v1/companies`
-- `/api/v1/websites`
-- `/api/v1/lists`
-- `/api/v1/segments`
-- `/api/v1/templates`
-- `/api/v1/campaigns`
-- `/api/v1/sequences`
-- `/api/v1/generate/*`
-- `/api/v1/health/deliverability`
-
-These routes are **verified as referenced by the MCP implementation**, not verified as stable public REST endpoints.
-
-## 4. Dashboard-only or dashboard-first work
+## 5. Dashboard-first work
 
 Treat these as dashboard-first until live-tested otherwise:
-- domain/sender verification
+- sender and domain verification
 - deliverability configuration
 - billing-provider integration setup
 - human review of AI-generated copy
-- campaign/sequence activation
-- workspace/company provisioning
+- campaign or sequence activation
+- workspace or company provisioning
 
-## 5. Oviond task routing summary
+## 6. Oviond task routing summary
 
-### Good REST-first candidates
+### Good documented-REST candidates
 - subscriber CRUD
-- tag application/removal
+- tag application or removal
 - event triggering
 - transactional send
-- reporting pulls
+- metrics pulls
 
-### Good MCP-or-dashboard candidates
-- create/edit segments
-- create/edit templates
-- draft campaigns
-- create AI-assisted sequences
-- company selection and setup
-- integration-guide/code-snippet generation
+### Good live-private read candidates
+- inspect account and company state
+- inspect websites, lists, templates, campaigns, and sequences
+- inspect campaign and sequence stats through private aliases
 
-### Dashboard strongly preferred
+### Good dashboard candidates
 - connect Stripe and other billing providers
-- verify domains/websites
-- approve copy and activate sequences/campaigns
-- inspect deliverability health if MCP output disagrees with UI
+- verify domains and websites
+- review copy and activate campaigns or sequences
+- inspect deliverability if private health routes disagree or fail

@@ -60,8 +60,9 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ### Sequenzy
 
 - Local skill lives at `skills/sequenzy/`.
-- Do not store credentials in workspace files; use OpenClaw Envars when Sequenzy access is wired in.
-- Live credential connection and validation may still be pending; keep this section to local operator mechanics only.
+- Preferred credential source: OpenClaw Envars via `SEQUENZY_API_KEY`.
+- Use `skills/sequenzy/scripts/live_audit.py` for repeatable read-only validation.
+- Live credential connection is now working; keep this section to local operator mechanics only.
 
 ### Meta
 
