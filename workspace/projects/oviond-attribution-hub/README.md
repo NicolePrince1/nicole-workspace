@@ -98,6 +98,10 @@ GA4_API_SECRET=...
 
 ### Google Ads adapter scaffold
 
+This project intentionally remains a **refresh-token scaffold** for now.
+
+Workspace-standard Google Ads operations are service-account-first, but this app has not been migrated to that model yet. Its local adapter/env wiring still expects the older refresh-token shape below, and the scaffold should be treated as project-local until a deliberate service-account migration is done.
+
 ```bash
 GOOGLE_ADS_CUSTOMER_ID=1234567890
 GOOGLE_ADS_DEVELOPER_TOKEN=...
@@ -207,6 +211,8 @@ GA4 receives the Stripe lifecycle event names directly over Measurement Protocol
 ### Google Ads
 
 Google Ads delivery remains scaffolded and disabled-safe until production Ads API access is fully confirmed.
+
+Important: this repository's Google Ads adapter is still a refresh-token scaffold by design. That is a project-specific exception, not the main workspace standard. Do not read this README as the canonical Google Ads auth pattern for the broader workspace.
 
 ## Recommended Oviond wiring
 
