@@ -21,18 +21,21 @@ Do not deflect actionable requests to the Setup UI. If a command or tool is avai
 
 Changes to env vars are made through the **Envars** tab (`https://openclaw-railway-template-production-3ee7.up.railway.app#envars`). After saving, a gateway restart may be required to pick up the changes — the UI prompts for this automatically. Do not edit `/data/.env` directly; use the Setup UI so changes are validated and the gateway restart is handled.
 
+### Persistent storage
+
+This deployment runs in an ephemeral container. `/tmp` and other temp locations do not survive redeploys.
+
+Anything persistent must live under `/data/.openclaw`.
+
+For plugins and local tooling:
+
+- Prefer normal `openclaw plugins install <spec>` flows for durable installs.
+- If you need to stage a local plugin or helper files first, put them under `/data/.openclaw/...`, not `/tmp/...`.
+- Do not leave durable `plugins.load.paths` entries pointing at temp directories.
+
 ### Google Workspace
 
-Google Workspace is live for this workspace. Current access is working via service-account impersonation of `nicole@oviond.com` through the installed `gog` CLI wrapper at `/usr/local/bin/gws-nicole`.
-
-Use the **General** tab (`https://openclaw-railway-template-production-3ee7.up.railway.app#general`) for connection status and re-authorization when needed, but prefer the working local CLI skill for actual Gmail / Calendar / Drive / Docs / Contacts tasks.
-
-## Git Discipline
-
-**Commit and push after every set of changes.** Your entire .openclaw directory (config, cron, workspace) is version controlled. This is how your work survives container restarts.
-
-Never force push. Always pull before pushing if there might be remote changes.
-After pushing, include a link to the commit using the abbreviated hash: [abc1234](https://github.com/owner/repo/commit/abc1234) format. No backticks.
+Google Workspace is connected for this workspace via the **General** tab (`https://openclaw-railway-template-production-3ee7.up.railway.app#general`). The live operator path uses delegated impersonation for Nicole, and Google Workspace tasks should be handled through the `gog` skill.
 
 ## Telegram Formatting
 
@@ -51,6 +54,3 @@ Webhook transform files must follow this convention:
 - When modifying a transform, read the existing file first
 
 
-## Available Google Accounts
-
-- `nicole@oviond.com` — live via delegated impersonation through `gws-nicole`
