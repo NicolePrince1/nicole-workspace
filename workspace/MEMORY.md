@@ -10,7 +10,9 @@
 ## Chris working preferences
 
 - After finishing work, always send Chris a concise update covering what changed and why.
-- When Chris sends a voice note, always reply with both a text response and a voice note response. Treat this as a standing requirement, not an occasional preference.
+- If Chris sends a voice note, always reply with both a text response and a voice note response. Treat this as a standing requirement, not an occasional preference.
+- If Chris initiates a conversation by voice, reply in both text and voice by default, not text only.
+- Any miss on the voice-rule is a bug, not a preference change. Use the safest working fallback while debugging, and do not claim the runtime is fixed until it is actually patched and retested.
 - Voice-note replies should use a nice female voice by default, currently OpenAI `coral`, at slightly faster speed (`1.25`) unless Chris asks otherwise.
 - Treat Cape Town, South Africa as the shared local context with Chris.
 - Default to SAST for everyday time references unless a task explicitly requires another timezone.
