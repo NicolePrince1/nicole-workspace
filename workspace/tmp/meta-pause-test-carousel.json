@@ -1,7 +1,0 @@
-{
-  "op": "update_ad",
-  "object_id": "120242846212370563",
-  "params": {
-    "status": "PAUSED"
-  }
-}

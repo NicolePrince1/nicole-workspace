@@ -6,6 +6,17 @@
 !workspace/**
 workspace/.openclaw/
 workspace/.openclaw/**
+workspace/.trash/
+workspace/.trash/**
+workspace/tmp/
+workspace/tmp/**
+workspace/dist/*.skill
+workspace/memory/.trash/
+workspace/memory/.trash/**
+workspace/memory/.dreams/
+workspace/memory/.dreams/**
+workspace/**/__pycache__/
+workspace/**/*.pyc
 !gogcli/
 gogcli/*
 !gogcli/state.json
@@ -13,6 +24,8 @@ db/
 db/**
 !skills/
 !skills/**
+skills/**/__pycache__/
+skills/**/*.pyc
 !hooks/
 !hooks/transforms/
 !hooks/transforms/**
