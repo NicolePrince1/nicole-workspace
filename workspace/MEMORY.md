@@ -10,6 +10,7 @@
 ## Chris working preferences
 
 - After finishing work, always send Chris a concise update covering what changed and why.
+- Never claim an email or other external action was completed unless the actual send/action was executed and verified.
 - If Chris sends a voice note, always reply with both a text response and a voice note response. Treat this as a standing requirement, not an occasional preference.
 - If Chris initiates a conversation by voice, reply in both text and voice by default, not text only.
 - Any miss on the voice-rule is a bug, not a preference change. Use the safest working fallback while debugging, and do not claim the runtime is fixed until it is actually patched and retested.
@@ -29,6 +30,7 @@
 - Growth target: move from about $28.5k MRR to $100k MRR by Dec 2026.
 - Durable US-market interpretation after the 2026-04-04 strategy review: the US agency market appears large enough for Oviond’s current scale ambitions, including the $100k MRR goal. The near-term constraint is execution quality, stickiness, and repeatable acquisition — not US TAM.
 - Durable AI-risk interpretation after the 2026-04-04 strategy review: LLMs are a real substitution risk for low-end report writing, narrative summaries, and one-off analysis, especially for small agencies willing to stitch together Sheets / Looker Studio / ChatGPT-style workflows. The stronger defensible value is in reliable connectors, cross-source normalization, white-label delivery, scheduled reporting, client-ready trust, permissions, and workflow automation. Oviond should evolve toward an AI-assisted agency reporting system, not remain just a static dashboard/report builder.
+- Durable positioning lens added on 2026-04-16: Oviond should aim to turn reporting from an agency's biggest nightmare into something so simple they barely need to think about it. The strongest shorthand for this is `invisible, dependable, and done`. Use that as a recurring product-marketing and messaging standard.
 
 ## Durable platform decisions
 
