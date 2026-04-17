@@ -64,6 +64,7 @@
 - The November 2024 Oviond brand refresh guide is now the primary source of truth for the internal design system, especially its direction toward abstract feeling-led imagery, Inter Semibold logotype treatment, and restrained use of white/black/main blue.
 - Early Oviond design demos established a durable workflow lesson: use Gemini/Nano Banana mainly for concept, composition, and brand-feel generation, then prefer text-free or overlay-safe outputs over trusting the model with important final marketing copy.
 - Oviond blog covers should currently bias toward product-preview aesthetics rather than pure abstract covers, especially layered report architecture, emerging UI from white space, and elegant detail-window treatments.
+- OpenClaw is running in an AlphaClaw-managed Railway deployment. For upgrades and operational changes, treat AlphaClaw plus Railway as the live runtime context and verify gateway health after changes.
 
 ## Pointers
 
