@@ -1,0 +1,90 @@
+{
+  "type": "schedule",
+  "date": "2026-04-28T07:00:00.000Z",
+  "shortLink": false,
+  "tags": [],
+  "posts": [
+    {
+      "integration": {
+        "id": "cmo8gmcii05bin50ytakd9ehj"
+      },
+      "value": [
+        {
+          "content": "DUMMY SCHEDULE TEST, REMOVE BEFORE PUBLISH\n\nA pretty dashboard does not automatically create trust.\n\nTrust comes from clean numbers, reliable connectors, stable delivery, and reports clients can actually believe.\n\nThat is why measurement truth matters more than surface-level polish.\n\nIf the inputs are junk, the nicest report in the world is still junk.",
+          "image": []
+        }
+      ],
+      "settings": {
+        "__type": "linkedin-page",
+        "post_as_images_carousel": false
+      }
+    },
+    {
+      "integration": {
+        "id": "cmo8gnucn05r3ld0yciyxbdpw"
+      },
+      "value": [
+        {
+          "content": "DUMMY SCHEDULE TEST, REMOVE BEFORE PUBLISH\n\nPretty dashboards are easy to love until the numbers stop making sense.\n\nFor agencies, trust comes from reporting that is stable, believable, and easy to deliver, not just visually tidy.",
+          "image": []
+        }
+      ],
+      "settings": {
+        "__type": "facebook"
+      }
+    },
+    {
+      "integration": {
+        "id": "cmo8gp7wo05rald0y4xqwghcq"
+      },
+      "value": [
+        {
+          "content": "DUMMY SCHEDULE TEST, REMOVE BEFORE PUBLISH\n\nA pretty dashboard does not create trust. Clean numbers, reliable connectors, and believable reporting do.",
+          "image": []
+        }
+      ],
+      "settings": {
+        "__type": "x",
+        "who_can_reply_post": "everyone",
+        "made_with_ai": false,
+        "paid_partnership": false
+      }
+    },
+    {
+      "integration": {
+        "id": "cmo8gwsbg05c0n50yglmyot7h"
+      },
+      "value": [
+        {
+          "content": "DUMMY SCHEDULE TEST, REMOVE BEFORE PUBLISH\n\nThis placeholder YouTube upload supports a weekly dummy content run for Oviond.\n\nCore idea: pretty dashboards do not fix polluted inputs. Agencies trust reports when the numbers are believable and stable.",
+          "image": [
+            {
+              "id": "4d034a1d-6991-4ff8-853c-b7c7cd49a9cd",
+              "path": "https://uploads.postiz.com/NBPhSXTcpC.mp4"
+            }
+          ]
+        }
+      ],
+      "settings": {
+        "__type": "youtube",
+        "title": "DUMMY TEST - Pretty Dashboards Do Not Create Trust",
+        "type": "unlisted",
+        "selfDeclaredMadeForKids": "no",
+        "tags": [
+          {
+            "value": "oviond",
+            "label": "oviond"
+          },
+          {
+            "value": "agency reporting",
+            "label": "agency reporting"
+          },
+          {
+            "value": "dummy test",
+            "label": "dummy test"
+          }
+        ]
+      }
+    }
+  ]
+}
