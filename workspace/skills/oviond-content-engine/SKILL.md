@@ -44,6 +44,7 @@ Prefer this stack unless Chris explicitly wants another route:
    - Read `references/production-workflows.md` for end-to-end creation, review, and repurposing flows.
    - Read `references/postiz-cloud.md` when the task touches setup, drafts, scheduling, API use, or analytics pulls in Postiz.
    - Read `references/postiz-production.md` when the task touches live auth, integrations, env setup, MCP, production readiness, or operational debugging.
+   - Read `references/postiz-payloads.md` when preparing or reviewing JSON payloads for drafts, schedules, threads, or API-driven posting.
    - Read `references/measurement-loop.md` when evaluating what worked or deciding what to repeat.
 
 3. **Find the real input**
@@ -89,10 +90,19 @@ Prefer this stack unless Chris explicitly wants another route:
 
    Confirm API connectivity, visible integrations, and MCP endpoint reachability.
 
-9. **Publish through Postiz**
+9. **Validate payloads before live writes**
+   When using API-driven posting, validate payloads locally first with:
+
+   ```bash
+   python3 /data/.openclaw/workspace/skills/oviond-content-engine/scripts/postiz_create_post.py ./payload.json --pretty
+   ```
+
+   Use `--apply` only when the destination, copy, timing, and approval state are clear.
+
+10. **Publish through Postiz**
    Prefer draft or schedule mode by default. Publish immediately only when Chris explicitly wants live posting in the current task or has clearly delegated that decision.
 
-10. **Measure and feed the loop**
+11. **Measure and feed the loop**
    Track what earned attention, what drove clicks, and what topics should be reused, expanded, or killed.
 
 ## Output standards
@@ -137,6 +147,7 @@ If content starts feeling generic or weak:
 ## Scripts
 
 - `scripts/postiz_healthcheck.py` — verify Postiz API auth, list visible integrations, and probe MCP reachability from the current runtime
+- `scripts/postiz_create_post.py` — validate a JSON payload for Postiz posting and optionally create the draft/scheduled post through the Postiz API
 
 ## Assets and future extension
 

@@ -17,6 +17,8 @@ POSTIZ_MCP_AUTH_TYPE=bearer
 POSTIZ_MCP_BEARER_TOKEN=
 ```
 
+If the old typo variable `POSTIZ_MCP_UR` exists, remove it after confirming `POSTIZ_MCP_URL` is present and working. Keeping both is not fatal, but it is sloppy and should be cleaned up.
+
 ### Important typo trap
 
 The MCP URL variable should be `POSTIZ_MCP_URL`, not `POSTIZ_MCP_UR`.
@@ -35,6 +37,12 @@ This checks:
 - API connectivity via `/public/v1/is-connected`
 - live integrations via `/public/v1/integrations`
 - MCP endpoint reachability with bearer auth
+
+For payload validation and safe API posting, use:
+
+```bash
+python3 /data/.openclaw/workspace/skills/oviond-content-engine/scripts/postiz_create_post.py ./payload.json --pretty
+```
 
 ## What "healthy" looks like
 

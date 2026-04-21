@@ -32,8 +32,8 @@ def main():
     warnings = []
     errors = []
 
-    if os.environ.get("POSTIZ_MCP_UR") and not os.environ.get("POSTIZ_MCP_URL"):
-        warnings.append("Found POSTIZ_MCP_UR, but the canonical variable name should be POSTIZ_MCP_URL.")
+    if os.environ.get("POSTIZ_MCP_UR"):
+        warnings.append("Found legacy POSTIZ_MCP_UR. The canonical variable name is POSTIZ_MCP_URL, and the old typo should be removed once POSTIZ_MCP_URL is confirmed working.")
 
     if not api_key:
         errors.append("Missing POSTIZ_API_KEY")
