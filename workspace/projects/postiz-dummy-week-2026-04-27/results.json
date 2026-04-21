@@ -41,5 +41,278 @@
       "x": "cmo8hx4x005tkld0ybtgai3pr",
       "youtube": "cmo8hx4xv05tlld0yo0gxn3bk"
     }
+  },
+  "cleanup": {
+    "deletedGroups": [
+      {
+        "requestedId": "cmo8hx1oi05dqn50y85goul1t",
+        "status": 200,
+        "response": {
+          "error": true
+        }
+      },
+      {
+        "requestedId": "cmo8hx2i605dun50y0a30xb22",
+        "status": 200,
+        "response": {
+          "error": true
+        }
+      },
+      {
+        "requestedId": "cmo8hx39g05tald0yxe8l3etn",
+        "status": 200,
+        "response": {
+          "error": true
+        }
+      },
+      {
+        "requestedId": "cmo8hx41i05teld0y072t5ocx",
+        "status": 200,
+        "response": {
+          "error": true
+        }
+      },
+      {
+        "requestedId": "cmo8hx4t905tild0yr7cc0ak9",
+        "status": 200,
+        "response": {
+          "error": true
+        }
+      }
+    ],
+    "verificationStatus": 200,
+    "remainingDummyPosts": [
+      {
+        "id": "cmo8hx42p05tfld0ycu975qw1",
+        "state": "QUEUE",
+        "publishDate": "2026-04-30T07:00:00.000Z",
+        "provider": "facebook",
+        "content": "DUMMY SCHEDULE TEST, REMOVE BEFORE PUBLISH\n\nAI can help with explanation and speed.\n\nBut agencies still need the hard operational layer to work properly: connec"
+      },
+      {
+        "id": "cmo8hx43v05tgld0y10wj1hkx",
+        "state": "QUEUE",
+        "publishDate": "2026-04-30T07:00:00.000Z",
+        "provider": "x",
+        "content": "DUMMY SCHEDULE TEST, REMOVE BEFORE PUBLISH\n\nAI can help explain results. It does not replace reliable connectors, stable delivery, and client-ready trust."
+      },
+      {
+        "id": "cmo8hx44t05thld0y1nedcmw0",
+        "state": "QUEUE",
+        "publishDate": "2026-04-30T07:00:00.000Z",
+        "provider": "youtube",
+        "content": "DUMMY SCHEDULE TEST, REMOVE BEFORE PUBLISH\n\nThis placeholder YouTube upload supports a weekly dummy content run for Oviond.\n\nCore idea: AI should assist agency "
+      },
+      {
+        "id": "cmo8hx2j105dvn50yl8o7iyx8",
+        "state": "QUEUE",
+        "publishDate": "2026-04-28T07:00:00.000Z",
+        "provider": "facebook",
+        "content": "DUMMY SCHEDULE TEST, REMOVE BEFORE PUBLISH\n\nPretty dashboards are easy to love until the numbers stop making sense.\n\nFor agencies, trust comes from reporting th"
+      },
+      {
+        "id": "cmo8hx2k305dwn50yspxw0xhz",
+        "state": "QUEUE",
+        "publishDate": "2026-04-28T07:00:00.000Z",
+        "provider": "x",
+        "content": "DUMMY SCHEDULE TEST, REMOVE BEFORE PUBLISH\n\nA pretty dashboard does not create trust. Clean numbers, reliable connectors, and believable reporting do."
+      },
+      {
+        "id": "cmo8hx4w705tjld0yjf5gjzbj",
+        "state": "QUEUE",
+        "publishDate": "2026-05-01T07:00:00.000Z",
+        "provider": "facebook",
+        "content": "DUMMY SCHEDULE TEST, REMOVE BEFORE PUBLISH\n\nRetention is not just a pricing story.\n\nWhen reporting feels fragile or high-maintenance, trust erodes fast. Agencie"
+      },
+      {
+        "id": "cmo8hx4x005tkld0ybtgai3pr",
+        "state": "QUEUE",
+        "publishDate": "2026-05-01T07:00:00.000Z",
+        "provider": "x",
+        "content": "DUMMY SCHEDULE TEST, REMOVE BEFORE PUBLISH\n\nA lot of churn starts before pricing becomes the argument. It starts when the product feels fiddly, fragile, or too "
+      },
+      {
+        "id": "cmo8hx1pq05drn50y62din1w2",
+        "state": "QUEUE",
+        "publishDate": "2026-04-27T07:00:00.000Z",
+        "provider": "facebook",
+        "content": "DUMMY SCHEDULE TEST, REMOVE BEFORE PUBLISH\n\nReporting should not feel like a second job.\n\nThe best reporting systems are the ones agencies barely need to think "
+      },
+      {
+        "id": "cmo8hx1r505dsn50yrfvsxbqt",
+        "state": "QUEUE",
+        "publishDate": "2026-04-27T07:00:00.000Z",
+        "provider": "x",
+        "content": "DUMMY SCHEDULE TEST, REMOVE BEFORE PUBLISH\n\nIf reporting feels like a second job, the stack is broken. Agencies need reporting that feels invisible, dependable,"
+      },
+      {
+        "id": "cmo8hx1t105dtn50yomso7xmz",
+        "state": "QUEUE",
+        "publishDate": "2026-04-27T07:00:00.000Z",
+        "provider": "youtube",
+        "content": "DUMMY SCHEDULE TEST, REMOVE BEFORE PUBLISH\n\nThis placeholder YouTube upload supports a weekly dummy content run for Oviond.\n\nCore idea: agencies do not need mor"
+      },
+      {
+        "id": "cmo8hx2lb05dxn50yhyv1c0nd",
+        "state": "QUEUE",
+        "publishDate": "2026-04-28T07:00:00.000Z",
+        "provider": "youtube",
+        "content": "DUMMY SCHEDULE TEST, REMOVE BEFORE PUBLISH\n\nThis placeholder YouTube upload supports a weekly dummy content run for Oviond.\n\nCore idea: pretty dashboards do not"
+      },
+      {
+        "id": "cmo8hx3aq05tbld0y2ljjcgzk",
+        "state": "QUEUE",
+        "publishDate": "2026-04-29T07:00:00.000Z",
+        "provider": "facebook",
+        "content": "DUMMY SCHEDULE TEST, REMOVE BEFORE PUBLISH\n\nSimple setup and low admin beat feature bloat more often than SaaS companies like to admit.\n\nAgencies need reporting"
+      },
+      {
+        "id": "cmo8hx3bx05tcld0ylctzmcc1",
+        "state": "QUEUE",
+        "publishDate": "2026-04-29T07:00:00.000Z",
+        "provider": "x",
+        "content": "DUMMY SCHEDULE TEST, REMOVE BEFORE PUBLISH\n\nFeature bloat is not a moat. For agencies, simple setup and low admin usually win."
+      },
+      {
+        "id": "cmo8hx3d705tdld0ywxkzotv5",
+        "state": "QUEUE",
+        "publishDate": "2026-04-29T07:00:00.000Z",
+        "provider": "youtube",
+        "content": "DUMMY SCHEDULE TEST, REMOVE BEFORE PUBLISH\n\nThis placeholder YouTube upload supports a weekly dummy content run for Oviond.\n\nCore idea: simple setup and low adm"
+      },
+      {
+        "id": "cmo8hx4xv05tlld0yo0gxn3bk",
+        "state": "QUEUE",
+        "publishDate": "2026-05-01T07:00:00.000Z",
+        "provider": "youtube",
+        "content": "DUMMY SCHEDULE TEST, REMOVE BEFORE PUBLISH\n\nThis placeholder YouTube upload supports a weekly dummy content run for Oviond.\n\nCore idea: retention improves when "
+      }
+    ],
+    "secondPass": {
+      "deletedPosts": [
+        {
+          "requestedId": "cmo8hx42p05tfld0ycu975qw1",
+          "provider": "facebook",
+          "status": 200,
+          "response": {
+            "error": true
+          }
+        },
+        {
+          "requestedId": "cmo8hx43v05tgld0y10wj1hkx",
+          "provider": "x",
+          "status": 200,
+          "response": {
+            "error": true
+          }
+        },
+        {
+          "requestedId": "cmo8hx44t05thld0y1nedcmw0",
+          "provider": "youtube",
+          "status": 200,
+          "response": {
+            "error": true
+          }
+        },
+        {
+          "requestedId": "cmo8hx2j105dvn50yl8o7iyx8",
+          "provider": "facebook",
+          "status": 200,
+          "response": {
+            "error": true
+          }
+        },
+        {
+          "requestedId": "cmo8hx2k305dwn50yspxw0xhz",
+          "provider": "x",
+          "status": 200,
+          "response": {
+            "error": true
+          }
+        },
+        {
+          "requestedId": "cmo8hx4w705tjld0yjf5gjzbj",
+          "provider": "facebook",
+          "status": 200,
+          "response": {
+            "error": true
+          }
+        },
+        {
+          "requestedId": "cmo8hx4x005tkld0ybtgai3pr",
+          "provider": "x",
+          "status": 200,
+          "response": {
+            "error": true
+          }
+        },
+        {
+          "requestedId": "cmo8hx1pq05drn50y62din1w2",
+          "provider": "facebook",
+          "status": 200,
+          "response": {
+            "error": true
+          }
+        },
+        {
+          "requestedId": "cmo8hx1r505dsn50yrfvsxbqt",
+          "provider": "x",
+          "status": 200,
+          "response": {
+            "error": true
+          }
+        },
+        {
+          "requestedId": "cmo8hx1t105dtn50yomso7xmz",
+          "provider": "youtube",
+          "status": 200,
+          "response": {
+            "error": true
+          }
+        },
+        {
+          "requestedId": "cmo8hx2lb05dxn50yhyv1c0nd",
+          "provider": "youtube",
+          "status": 200,
+          "response": {
+            "error": true
+          }
+        },
+        {
+          "requestedId": "cmo8hx3aq05tbld0y2ljjcgzk",
+          "provider": "facebook",
+          "status": 200,
+          "response": {
+            "error": true
+          }
+        },
+        {
+          "requestedId": "cmo8hx3bx05tcld0ylctzmcc1",
+          "provider": "x",
+          "status": 200,
+          "response": {
+            "error": true
+          }
+        },
+        {
+          "requestedId": "cmo8hx3d705tdld0ywxkzotv5",
+          "provider": "youtube",
+          "status": 200,
+          "response": {
+            "error": true
+          }
+        },
+        {
+          "requestedId": "cmo8hx4xv05tlld0yo0gxn3bk",
+          "provider": "youtube",
+          "status": 200,
+          "response": {
+            "error": true
+          }
+        }
+      ],
+      "verificationStatus": 200,
+      "remainingDummyPosts": []
+    }
   }
 }
