@@ -49,7 +49,8 @@ Default routing:
    - exclusions / things to avoid
 
 3. **Load the right references**
-   - Read `references/brand-system.md` for tone, look, and constraints.
+   - Read `/data/.openclaw/workspace/DESIGN.md` first as the machine-readable source of truth for Oviond tokens, component defaults, and durable brand rules.
+   - Read `references/brand-system.md` for deeper tone, imagery, and constraint interpretation.
    - Read `references/design-types.md` for asset-specific rules.
    - Read `references/asset-specs.md` for dimensions and placement constraints.
    - Read `references/prompt-patterns.md` when constructing generation prompts.
