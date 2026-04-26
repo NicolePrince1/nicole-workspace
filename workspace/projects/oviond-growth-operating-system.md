@@ -24,6 +24,7 @@ This is the durable working to-do list for getting Oviond onto a clean path towa
 - Gleap is now a critical source of truth for friction, support pain, and retention risk.
 - We now have an extra **$70,000** available for paid media, but it should only be deployed once the system is tight enough to trust.
 - Chris confirmed on 2026-04-26 that we are waiting for the new app to be ready and should be able to launch this week; launch readiness is the hinge for the week.
+- New website/app work includes a full migration away from WordPress to Sanity.io for content and Astro for the frontend; once live, Sanity should become Nicole’s structured content operating surface.
 
 ## Primary objective
 
