@@ -4,7 +4,7 @@
     "revenue_pulse": 1777192440,
     "seo_movement": 1777198380,
     "email_health": 1775228410,
-    "ad_spend": 1775747686
+    "ad_spend": 1777199640
   },
   "lastMetrics": {
     "trial_health": {
@@ -116,22 +116,22 @@
       "note": "The main actionable automation issue remains 101 - Oviond Reactivate or Scrub: total bounce rate is just over 5% and the workflow is broken with group_deleted/email_domain_not_authenticated warnings."
     },
     "ad_spend": {
-      "status": "ok",
+      "status": "attention",
       "window": {
-        "since": "2026-04-06",
-        "until": "2026-04-09",
-        "days": 4
+        "since": "2026-04-20",
+        "until": "2026-04-26",
+        "days": 7
       },
       "comparison_window": {
-        "since": "2026-04-02",
-        "until": "2026-04-05",
-        "days": 4
+        "since": "2026-04-13",
+        "until": "2026-04-19",
+        "days": 7
       },
-      "spend": 3073.58,
-      "landing_page_views": 20,
-      "cost_per_landing_page_view": 153.679,
-      "previous_comparison_cost_per_landing_page_view": 287.9413,
-      "note": "Meta Ads current-week LPV CPA is R153.68, below the R200 alert threshold, with R3,073.58 spent for 20 landing page views."
+      "spend": 3751.79,
+      "landing_page_views": 10,
+      "cost_per_landing_page_view": 375.179,
+      "previous_comparison_cost_per_landing_page_view": 198.6987,
+      "note": "Meta Ads current-week LPV CPA is R375.18, above the R200 alert threshold, with R3,751.79 spent for 10 landing page views."
     }
   },
   "lastWeeklyReport": null,
