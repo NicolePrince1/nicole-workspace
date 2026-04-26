@@ -1,6 +1,6 @@
 # Oviond Growth Operating System
 
-_Last updated: 2026-04-14_
+_Last updated: 2026-04-26_
 
 This is the durable working to-do list for getting Oviond onto a clean path toward **$100k MRR by Dec 2026**.
 
@@ -15,7 +15,7 @@ This is the durable working to-do list for getting Oviond onto a clean path towa
 ## Current situation
 
 - Revenue is still roughly **$28.5k to $28.7k MRR**.
-- Paid media is **paused on purpose** until measurement is trustworthy.
+- Paid media is **paused on purpose** until the new app/site launch is ready and measurement is trustworthy.
 - Measurement has been dirty, especially because GA4 has mixed website, app, and white-label traffic.
 - GTM cleanup is now live, but the full analytics stack still needs verification.
 - Retention is a bigger problem than pure top-of-funnel volume.
@@ -23,14 +23,15 @@ This is the durable working to-do list for getting Oviond onto a clean path towa
 - Sequenzy is the rebuild path for lifecycle, but the operating system is not fully live yet.
 - Gleap is now a critical source of truth for friction, support pain, and retention risk.
 - We now have an extra **$70,000** available for paid media, but it should only be deployed once the system is tight enough to trust.
+- Chris confirmed on 2026-04-26 that we are waiting for the new app to be ready and should be able to launch this week; launch readiness is the hinge for the week.
 
 ## Primary objective
 
-**Build a clean, measurable, activatable funnel, then relaunch paid media with discipline.**
+**Launch the new app/site cleanly, prove the funnel truth, then relaunch paid media with discipline.**
 
 ## Rules
 
-1. No paid scaling before tracking truth.
+1. No paid scaling before the new app/site launch and tracking truth.
 2. No optimisation against polluted goals.
 3. Retention and activation matter as much as acquisition.
 4. Every item must have a next concrete action.
