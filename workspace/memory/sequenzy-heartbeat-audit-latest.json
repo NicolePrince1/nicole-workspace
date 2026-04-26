@@ -1,0 +1,620 @@
+[
+  {
+    "label": "REST subscribers",
+    "path": "/subscribers?limit=2",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "subscribers",
+        "pagination"
+      ],
+      "success": true,
+      "pagination": {
+        "page": 1,
+        "limit": 2,
+        "total": 6265,
+        "totalPages": 3133
+      },
+      "subscribers_count": 2,
+      "subscribers_item_keys": [
+        "id",
+        "email",
+        "firstName",
+        "lastName",
+        "status",
+        "tags",
+        "customAttributes",
+        "createdAt",
+        "updatedAt",
+        "emailProvider"
+      ]
+    }
+  },
+  {
+    "label": "REST transactional",
+    "path": "/transactional",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "transactional"
+      ],
+      "success": true,
+      "transactional_count": 2,
+      "transactional_item_keys": [
+        "id",
+        "name",
+        "slug",
+        "enabled",
+        "createdAt",
+        "updatedAt"
+      ]
+    }
+  },
+  {
+    "label": "REST metrics",
+    "path": "/metrics",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "stats"
+      ],
+      "success": true,
+      "stats_keys": [
+        "sent",
+        "delivered",
+        "opened",
+        "clicked",
+        "unsubscribed",
+        "deliveryRate",
+        "openRate",
+        "clickRate",
+        "unsubscribeRate"
+      ]
+    }
+  },
+  {
+    "label": "REST stats alias",
+    "path": "/stats",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "stats"
+      ],
+      "success": true,
+      "stats_keys": [
+        "sent",
+        "delivered",
+        "opened",
+        "clicked",
+        "unsubscribed",
+        "deliveryRate",
+        "openRate",
+        "clickRate",
+        "unsubscribeRate"
+      ]
+    }
+  },
+  {
+    "label": "Private account",
+    "path": "/account",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "companies",
+        "currentCompanyId"
+      ],
+      "success": true,
+      "currentCompanyId": "tw9bpn7v0q951fdf7a9c3tlt",
+      "companies_count": 1,
+      "companies_item_keys": [
+        "id",
+        "name"
+      ]
+    }
+  },
+  {
+    "label": "Private companies",
+    "path": "/companies",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "companies",
+        "currentCompanyId"
+      ],
+      "success": true,
+      "currentCompanyId": "tw9bpn7v0q951fdf7a9c3tlt",
+      "companies_count": 1,
+      "companies_item_keys": [
+        "id",
+        "name",
+        "status",
+        "websiteUrl",
+        "logoUrl",
+        "createdAt",
+        "language",
+        "emailLocalizationConfig"
+      ]
+    }
+  },
+  {
+    "label": "Private websites",
+    "path": "/websites",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "websites"
+      ],
+      "success": true,
+      "websites_count": 1,
+      "websites_item_keys": [
+        "domain",
+        "status",
+        "createdAt"
+      ]
+    }
+  },
+  {
+    "label": "Private lists",
+    "path": "/lists",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "lists"
+      ],
+      "success": true,
+      "lists_count": 2,
+      "lists_item_keys": [
+        "id",
+        "name",
+        "description",
+        "isPrivate",
+        "createdAt"
+      ]
+    }
+  },
+  {
+    "label": "Private segments",
+    "path": "/segments",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "segments"
+      ],
+      "success": true,
+      "segments_count": 0
+    }
+  },
+  {
+    "label": "Private templates",
+    "path": "/templates",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "companyId",
+        "emailLocalizationConfig",
+        "templates"
+      ],
+      "success": true,
+      "companyId": "tw9bpn7v0q951fdf7a9c3tlt",
+      "templates_count": 29,
+      "templates_item_keys": [
+        "id",
+        "name",
+        "subject",
+        "previewText",
+        "createdAt",
+        "updatedAt",
+        "localizations"
+      ]
+    }
+  },
+  {
+    "label": "Private campaigns",
+    "path": "/campaigns",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "campaigns"
+      ],
+      "success": true,
+      "campaigns_count": 2,
+      "campaigns_item_keys": [
+        "id",
+        "name",
+        "subject",
+        "status",
+        "scheduledAt",
+        "sentAt",
+        "createdAt"
+      ]
+    }
+  },
+  {
+    "label": "Private sequences",
+    "path": "/sequences",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "sequences"
+      ],
+      "success": true,
+      "sequences_count": 4,
+      "sequences_item_keys": [
+        "id",
+        "name",
+        "status",
+        "trigger",
+        "createdAt"
+      ]
+    }
+  },
+  {
+    "label": "Private deliverability health",
+    "path": "/health/deliverability",
+    "status": 404,
+    "content_type": "text/plain;charset=utf-8",
+    "summary": {
+      "type": "str",
+      "preview": "NOT_FOUND"
+    }
+  },
+  {
+    "label": "REST recipient metrics",
+    "path": "/metrics/recipients?limit=1",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "recipients",
+        "pagination"
+      ],
+      "success": true,
+      "pagination": {
+        "page": 1,
+        "limit": 1,
+        "total": 0,
+        "totalPages": 0
+      },
+      "recipients_count": 0
+    }
+  },
+  {
+    "label": "REST subscriber detail",
+    "path": "/subscribers/media-manager%40proteandigital.io",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "subscriber"
+      ],
+      "success": true,
+      "subscriber_keys": [
+        "id",
+        "email",
+        "firstName",
+        "lastName",
+        "status",
+        "tags",
+        "lists",
+        "sequenceEnrollments",
+        "emailStats",
+        "activity",
+        "customAttributes",
+        "createdAt",
+        "updatedAt",
+        "emailProvider"
+      ]
+    }
+  },
+  {
+    "label": "Private subscriber activity route",
+    "path": "/subscribers/media-manager%40proteandigital.io/activity",
+    "status": 404,
+    "content_type": "text/plain;charset=utf-8",
+    "summary": {
+      "type": "str",
+      "preview": "NOT_FOUND"
+    }
+  },
+  {
+    "label": "Private campaign detail",
+    "path": "/campaigns/ba64874b420f46998311cd85",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "campaign"
+      ],
+      "success": true,
+      "campaign_keys": [
+        "id",
+        "name",
+        "subject",
+        "preheader",
+        "status",
+        "blocks",
+        "replyProfileId",
+        "replyToName",
+        "replyToEmail",
+        "scheduledAt",
+        "sentAt",
+        "createdAt"
+      ]
+    }
+  },
+  {
+    "label": "Private campaign stats",
+    "path": "/campaigns/ba64874b420f46998311cd85/stats",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "campaignId",
+        "stats"
+      ],
+      "success": true,
+      "stats_keys": [
+        "sent",
+        "delivered",
+        "opened",
+        "clicked",
+        "unsubscribed",
+        "deliveryRate",
+        "openRate",
+        "clickRate",
+        "unsubscribeRate"
+      ]
+    }
+  },
+  {
+    "label": "REST campaign metrics",
+    "path": "/metrics/campaigns/ba64874b420f46998311cd85",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "campaignId",
+        "stats"
+      ],
+      "success": true,
+      "stats_keys": [
+        "sent",
+        "delivered",
+        "opened",
+        "clicked",
+        "unsubscribed",
+        "deliveryRate",
+        "openRate",
+        "clickRate",
+        "unsubscribeRate"
+      ]
+    }
+  },
+  {
+    "label": "Private sequence detail",
+    "path": "/sequences/a0906f7f7b3248649611a705",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "sequence"
+      ],
+      "success": true,
+      "sequence_keys": [
+        "id",
+        "name",
+        "status",
+        "trigger",
+        "nodes",
+        "emails",
+        "createdAt",
+        "enrichmentStatus",
+        "emailCount",
+        "discountCount",
+        "enrichedCount"
+      ]
+    }
+  },
+  {
+    "label": "Private sequence stats",
+    "path": "/sequences/a0906f7f7b3248649611a705/stats",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "sequenceId",
+        "stats",
+        "steps"
+      ],
+      "success": true,
+      "stats_keys": [
+        "sent",
+        "delivered",
+        "opened",
+        "clicked",
+        "unsubscribed",
+        "deliveryRate",
+        "openRate",
+        "clickRate",
+        "unsubscribeRate"
+      ]
+    }
+  },
+  {
+    "label": "REST sequence metrics",
+    "path": "/metrics/sequences/a0906f7f7b3248649611a705",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "sequenceId",
+        "stats",
+        "steps"
+      ],
+      "success": true,
+      "stats_keys": [
+        "sent",
+        "delivered",
+        "opened",
+        "clicked",
+        "unsubscribed",
+        "deliveryRate",
+        "openRate",
+        "clickRate",
+        "unsubscribeRate"
+      ]
+    }
+  },
+  {
+    "label": "Private template detail",
+    "path": "/templates/2a6cec59e6da4a3fb0e6cc11",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "template"
+      ],
+      "success": true,
+      "template_keys": [
+        "id",
+        "companyId",
+        "name",
+        "subject",
+        "previewText",
+        "blocks",
+        "fontFamily",
+        "createdAt",
+        "updatedAt",
+        "emailLocalizationConfig",
+        "localizations"
+      ]
+    }
+  },
+  {
+    "label": "Private templates with x-company-id",
+    "path": "/templates",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "companyId",
+        "emailLocalizationConfig",
+        "templates"
+      ],
+      "success": true,
+      "companyId": "tw9bpn7v0q951fdf7a9c3tlt",
+      "templates_count": 29,
+      "templates_item_keys": [
+        "id",
+        "name",
+        "subject",
+        "previewText",
+        "createdAt",
+        "updatedAt",
+        "localizations"
+      ]
+    }
+  },
+  {
+    "label": "Private campaigns with x-company-id",
+    "path": "/campaigns",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "campaigns"
+      ],
+      "success": true,
+      "campaigns_count": 2,
+      "campaigns_item_keys": [
+        "id",
+        "name",
+        "subject",
+        "status",
+        "scheduledAt",
+        "sentAt",
+        "createdAt"
+      ]
+    }
+  },
+  {
+    "label": "Private sequences with x-company-id",
+    "path": "/sequences",
+    "status": 200,
+    "content_type": "application/json",
+    "summary": {
+      "type": "object",
+      "keys": [
+        "success",
+        "sequences"
+      ],
+      "success": true,
+      "sequences_count": 4,
+      "sequences_item_keys": [
+        "id",
+        "name",
+        "status",
+        "trigger",
+        "createdAt"
+      ]
+    }
+  }
+]

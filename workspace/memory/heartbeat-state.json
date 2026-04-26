@@ -3,7 +3,7 @@
     "trial_health": 1777196040,
     "revenue_pulse": 1777192440,
     "seo_movement": 1777198380,
-    "email_health": 1775228410,
+    "email_health": 1777201440,
     "ad_spend": 1777199640
   },
   "lastMetrics": {
@@ -69,51 +69,11 @@
       "note": "Current top non-brand GSC window shows no exact overlapping query position drops greater than 3 versus the last stored SEO baseline."
     },
     "email_health": {
-      "status": "attention",
-      "flagged_automations": [
-        {
-          "name": "101 - Oviond Reactivate or Scrub",
-          "enabled": false,
-          "open_rate": "25.88%",
-          "bounce_rate_total": "5.01%",
-          "sent": 31316,
-          "warnings": [
-            "email_domain_not_authenticated",
-            "group_deleted"
-          ],
-          "broken": true
-        },
-        {
-          "name": "1.3 Trial Extension Manually Applied",
-          "enabled": true,
-          "open_rate": "0%",
-          "bounce_rate_total": "0.00%",
-          "sent": 0,
-          "warnings": [],
-          "broken": false
-        },
-        {
-          "name": "7 Email Reactivation Series Feb 2026",
-          "enabled": false,
-          "open_rate": "0%",
-          "bounce_rate_total": "0.00%",
-          "sent": 0,
-          "warnings": [],
-          "broken": false
-        },
-        {
-          "name": "1.1b Trial Onboarding V2 (Nicole - March 2026) - DRAFT",
-          "enabled": false,
-          "open_rate": "0%",
-          "bounce_rate_total": "0.00%",
-          "sent": 0,
-          "warnings": [
-            "email_domain_not_authenticated"
-          ],
-          "broken": true
-        }
-      ],
-      "note": "The main actionable automation issue remains 101 - Oviond Reactivate or Scrub: total bounce rate is just over 5% and the workflow is broken with group_deleted/email_domain_not_authenticated warnings."
+      "status": "ok",
+      "checked_sequences": 4,
+      "active_or_sent_sequences": 0,
+      "flagged_automations": [],
+      "note": "Sequenzy is live and readable. Four sequences are present, all draft with zero sends; no active/sent lifecycle automation has measurable bounce or open-rate anomalies."
     },
     "ad_spend": {
       "status": "attention",
