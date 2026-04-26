@@ -32,7 +32,7 @@
   "agents": {
     "defaults": {
       "model": {
-        "primary": "openai-codex/gpt-5.4"
+        "primary": "openai/gpt-5.5-pro"
       },
       "models": {
         "openai/gpt-5.1-codex": {
@@ -46,7 +46,8 @@
         "google/gemini-3.1-flash-lite-preview": {
           "alias": "gemini-flash-lite"
         },
-        "openai-codex/gpt-5.3-codex-spark": {}
+        "openai-codex/gpt-5.3-codex-spark": {},
+        "openai/gpt-5.5-pro": {}
       },
       "workspace": "/data/.openclaw/workspace",
       "compaction": {
@@ -170,7 +171,10 @@
       },
       "usage-tracker": {
         "enabled": true,
-        "config": {}
+        "config": {},
+        "hooks": {
+          "allowConversationAccess": true
+        }
       },
       "openai": {
         "enabled": true
