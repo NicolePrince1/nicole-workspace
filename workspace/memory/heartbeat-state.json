@@ -1,6 +1,6 @@
 {
   "lastChecks": {
-    "trial_health": 1777224840,
+    "trial_health": 1777266240,
     "revenue_pulse": 1777221240,
     "seo_movement": 1777215840,
     "email_health": 1777217640,
@@ -10,8 +10,8 @@
     "trial_health": {
       "status": "attention",
       "trialing_count": 76,
-      "previous_trialing_count": 80,
-      "delta_trialing_count": -4,
+      "previous_trialing_count": 76,
+      "delta_trialing_count": 0,
       "near_expiry_count_next_3_days": 28,
       "near_expiry_sample": [
         {
@@ -40,7 +40,7 @@
           "current_period_end": "2026-04-27T08:04:24+00:00"
         }
       ],
-      "note": "Stripe trialing subscriptions decreased to 76 versus the last heartbeat count of 80, but 28 active trials still expire within the next 3 days."
+      "note": "Stripe trialing subscriptions are flat versus the last heartbeat count at 76, and 28 active trials still expire within the next 3 days."
     },
     "revenue_pulse": {
       "status": "attention",
