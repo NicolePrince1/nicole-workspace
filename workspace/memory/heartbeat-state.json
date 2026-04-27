@@ -1,6 +1,6 @@
 {
   "lastChecks": {
-    "trial_health": 1777266240,
+    "trial_health": 1777280640,
     "revenue_pulse": 1777268040,
     "seo_movement": 1777269900,
     "email_health": 1777273500,
@@ -9,38 +9,38 @@
   "lastMetrics": {
     "trial_health": {
       "status": "attention",
-      "trialing_count": 76,
+      "trialing_count": 71,
       "previous_trialing_count": 76,
-      "delta_trialing_count": 0,
-      "near_expiry_count_next_3_days": 28,
+      "delta_trialing_count": -5,
+      "near_expiry_count_next_3_days": 22,
       "near_expiry_sample": [
         {
-          "subscription_id": "sub_1TLHmvEV1Q8wnLquXqPN2TnM",
-          "customer_id": "cus_UJvejY3TvqLPyD",
-          "current_period_end": "2026-04-27T06:46:33+00:00"
+          "subscription_id": "sub_1TLL9gEV1Q8wnLquRo1J7APh",
+          "customer_id": "cus_UJz7N5p8i18lhd",
+          "current_period_end": "2026-04-27T10:22:16+00:00"
         },
         {
-          "subscription_id": "sub_1TLHnPEV1Q8wnLqugJZ6BL19",
-          "customer_id": "cus_UJve0UVGUAkyTj",
-          "current_period_end": "2026-04-27T06:47:03+00:00"
+          "subscription_id": "sub_1TLNz1EV1Q8wnLquq9MtY2nR",
+          "customer_id": "cus_UK23R9rWbEpdHf",
+          "current_period_end": "2026-04-27T13:23:27+00:00"
         },
         {
-          "subscription_id": "sub_1TLIZkEV1Q8wnLquGtQeX5kN",
-          "customer_id": "cus_UJwSEn6dQuASRo",
-          "current_period_end": "2026-04-27T07:36:59+00:00"
+          "subscription_id": "sub_1TLQyaEV1Q8wnLquyMc9zVSi",
+          "customer_id": "cus_UK5830dNWjnXjY",
+          "current_period_end": "2026-04-27T16:35:12+00:00"
         },
         {
-          "subscription_id": "sub_1TLIqIEV1Q8wnLqujMOBacm2",
-          "customer_id": "cus_UJwj0WAlnY153N",
-          "current_period_end": "2026-04-27T07:54:06+00:00"
+          "subscription_id": "sub_1TLXDREV1Q8wnLquKfZOvYkM",
+          "customer_id": "cus_UKBa0DdGndagHJ",
+          "current_period_end": "2026-04-27T23:14:57+00:00"
         },
         {
-          "subscription_id": "sub_1TLJ0GEV1Q8wnLquBEnjiim9",
-          "customer_id": "cus_UJwuDNhLijGSQZ",
-          "current_period_end": "2026-04-27T08:04:24+00:00"
+          "subscription_id": "sub_1TLa0vEV1Q8wnLqua8fHqbsN",
+          "customer_id": "cus_UKETOprZVGkyzN",
+          "current_period_end": "2026-04-28T02:14:12+00:00"
         }
       ],
-      "note": "Stripe trialing subscriptions are flat versus the last heartbeat count at 76, and 28 active trials still expire within the next 3 days."
+      "note": "Stripe trialing subscriptions decreased to 71 versus the last heartbeat count of 76, but 22 active trials still expire within the next 3 days."
     },
     "revenue_pulse": {
       "status": "attention",
