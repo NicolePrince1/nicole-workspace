@@ -1,6 +1,6 @@
 {
   "lastChecks": {
-    "trial_health": 1777295040,
+    "trial_health": 1777309440,
     "revenue_pulse": 1777296840,
     "seo_movement": 1777298700,
     "email_health": 1777304040,
@@ -9,21 +9,11 @@
   "lastMetrics": {
     "trial_health": {
       "status": "attention",
-      "trialing_count": 71,
+      "trialing_count": 70,
       "previous_trialing_count": 71,
-      "delta_trialing_count": 0,
-      "near_expiry_count_next_3_days": 21,
+      "delta_trialing_count": -1,
+      "near_expiry_count_next_3_days": 20,
       "near_expiry_sample": [
-        {
-          "subscription_id": "sub_1TLNz1EV1Q8wnLquq9MtY2nR",
-          "customer_id": "cus_UK23R9rWbEpdHf",
-          "current_period_end": "2026-04-27T13:23:27+00:00"
-        },
-        {
-          "subscription_id": "sub_1TLQyaEV1Q8wnLquyMc9zVSi",
-          "customer_id": "cus_UK5830dNWjnXjY",
-          "current_period_end": "2026-04-27T16:35:12+00:00"
-        },
         {
           "subscription_id": "sub_1TLXDREV1Q8wnLquKfZOvYkM",
           "customer_id": "cus_UKBa0DdGndagHJ",
@@ -38,9 +28,19 @@
           "subscription_id": "sub_1TLfT9EV1Q8wnLquvA6fhE7z",
           "customer_id": "cus_UKK7JOMmzq3kKp",
           "current_period_end": "2026-04-28T08:03:43+00:00"
+        },
+        {
+          "subscription_id": "sub_1TLfsrEV1Q8wnLquu96snIYl",
+          "customer_id": "cus_UKKXjfJOhJlVDS",
+          "current_period_end": "2026-04-28T08:30:17+00:00"
+        },
+        {
+          "subscription_id": "sub_1TLgfLEV1Q8wnLqu1Sys85XN",
+          "customer_id": "cus_UKLM4Nu7UYpGYa",
+          "current_period_end": "2026-04-28T09:20:22+00:00"
         }
       ],
-      "note": "Stripe trialing subscriptions are flat versus the last heartbeat count at 71, and 21 active trials still expire within the next 3 days."
+      "note": "Stripe trialing subscriptions decreased to 70 versus the last heartbeat count of 71, and 20 active trials still expire within the next 3 days."
     },
     "revenue_pulse": {
       "status": "attention",
