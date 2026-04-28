@@ -1,7 +1,7 @@
 {
   "lastChecks": {
-    "trial_health": 1777381440,
-    "revenue_pulse": 1777381440,
+    "trial_health": 1777395840,
+    "revenue_pulse": 1777395840,
     "seo_movement": 1777388640,
     "email_health": 1777385040,
     "ad_spend": 1777383300
@@ -9,26 +9,11 @@
   "lastMetrics": {
     "trial_health": {
       "status": "attention",
-      "trialing_count": 65,
-      "previous_trialing_count": 67,
-      "delta_trialing_count": -2,
-      "near_expiry_count_next_3_days": 18,
+      "trialing_count": 62,
+      "previous_trialing_count": 65,
+      "delta_trialing_count": -3,
+      "near_expiry_count_next_3_days": 17,
       "near_expiry_sample": [
-        {
-          "subscription_id": "sub_1TLkPxEV1Q8wnLquFr0NmLeI",
-          "customer_id": "cus_UKPEeP3pdsyLVw",
-          "current_period_end": "2026-04-28T13:20:45+00:00"
-        },
-        {
-          "subscription_id": "sub_1TLmL4EV1Q8wnLquzFOVaL3I",
-          "customer_id": "cus_UKRDO88h74MCLP",
-          "current_period_end": "2026-04-28T15:23:50+00:00"
-        },
-        {
-          "subscription_id": "sub_1TLnakEV1Q8wnLqufAAdC4gl",
-          "customer_id": "cus_UKSVVufAsq8vbp",
-          "current_period_end": "2026-04-28T16:44:06+00:00"
-        },
         {
           "subscription_id": "sub_1TLoY1EV1Q8wnLquO5YXOpZd",
           "customer_id": "cus_UKTVJmG609lg1J",
@@ -38,24 +23,39 @@
           "subscription_id": "sub_1TLpjqEV1Q8wnLquqs1DIVcJ",
           "customer_id": "cus_UKUjKYDpVgtCeM",
           "current_period_end": "2026-04-28T19:01:37+00:00"
+        },
+        {
+          "subscription_id": "sub_1TLrgLEV1Q8wnLqudOJ9M7eS",
+          "customer_id": "cus_UKWjXP5W9p7BHw",
+          "current_period_end": "2026-04-28T21:06:09+00:00"
+        },
+        {
+          "subscription_id": "sub_1TLza7EV1Q8wnLquv8yLQeSu",
+          "customer_id": "cus_UKetwc6dLOhC0Y",
+          "current_period_end": "2026-04-29T05:32:15+00:00"
+        },
+        {
+          "subscription_id": "sub_1TLzrFEV1Q8wnLqu5RMU0nER",
+          "customer_id": "cus_UKfB2kktELBN92",
+          "current_period_end": "2026-04-29T05:49:57+00:00"
         }
       ],
-      "note": "Stripe trialing subscriptions decreased to 65 versus the last heartbeat count of 67, and 18 active trials still expire within the next 3 days."
+      "note": "Stripe trialing subscriptions decreased to 62 versus the last heartbeat count of 65, and 17 active trials still expire within the next 3 days."
     },
     "revenue_pulse": {
       "status": "attention",
       "window": {
-        "last_7_start": "2026-04-21T13:04:00+00:00",
-        "last_7_end": "2026-04-28T13:04:00+00:00",
-        "prior_7_start": "2026-04-14T13:04:00+00:00",
-        "prior_7_end": "2026-04-21T13:04:00+00:00"
+        "last_7_start": "2026-04-21T17:04:00+00:00",
+        "last_7_end": "2026-04-28T17:04:00+00:00",
+        "prior_7_start": "2026-04-14T17:04:00+00:00",
+        "prior_7_end": "2026-04-21T17:04:00+00:00"
       },
-      "last_7_days_paid_revenue": 4715.42,
-      "last_7_days_paid_invoices": 113,
-      "prior_7_days_paid_revenue": 6916.6,
-      "prior_7_days_paid_invoices": 91,
-      "delta_revenue": -2201.18,
-      "delta_invoices": 22,
+      "last_7_days_paid_revenue": 6149.67,
+      "last_7_days_paid_invoices": 112,
+      "prior_7_days_paid_revenue": 7118.04,
+      "prior_7_days_paid_invoices": 95,
+      "delta_revenue": -968.37,
+      "delta_invoices": 17,
       "past_due_count": 38,
       "note": "Stripe rolling 7-day paid invoice revenue is down versus the prior 7-day window, and delinquent subscription count remains above the >20 alert threshold at 38."
     },
