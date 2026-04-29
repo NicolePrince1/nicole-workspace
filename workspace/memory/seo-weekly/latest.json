@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-04-29T13:35:00Z",
+  "captured_at": "2026-04-29T17:35:00Z",
   "window": {
     "startDate": "2026-04-24",
     "endDate": "2026-04-28"
@@ -80,13 +80,6 @@
       "position": 4.0
     }
   ],
-  "flagged_drops_gt3": [
-    {
-      "query": "google ads template",
-      "previous_position": 43.0,
-      "current_position": 46.875,
-      "drop": 3.875
-    }
-  ],
+  "flagged_drops_gt3": [],
   "baseline_available": true
 }
