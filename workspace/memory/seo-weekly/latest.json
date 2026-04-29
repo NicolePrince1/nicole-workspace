@@ -1,12 +1,12 @@
 {
-  "captured_at": "2026-04-29T05:35:00Z",
+  "captured_at": "2026-04-29T09:35:00Z",
   "window": {
     "startDate": "2026-04-24",
     "endDate": "2026-04-28"
   },
   "baseline_window": {
-    "startDate": "2026-04-23",
-    "endDate": "2026-04-27"
+    "startDate": "2026-04-24",
+    "endDate": "2026-04-28"
   },
   "top10": [
     {
