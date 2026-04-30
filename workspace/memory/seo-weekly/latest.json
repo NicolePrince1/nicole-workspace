@@ -1,8 +1,8 @@
 {
-  "captured_at": "2026-04-29T17:35:00Z",
+  "captured_at": "2026-04-30T05:35:00Z",
   "window": {
-    "startDate": "2026-04-24",
-    "endDate": "2026-04-28"
+    "startDate": "2026-04-25",
+    "endDate": "2026-04-29"
   },
   "baseline_window": {
     "startDate": "2026-04-24",
@@ -17,13 +17,6 @@
       "position": 1.0
     },
     {
-      "query": "marketing reporting tools",
-      "clicks": 2,
-      "impressions": 178,
-      "ctr": 0.011235955056179775,
-      "position": 10.297752808988765
-    },
-    {
       "query": "3 types of affiliate marketing",
       "clicks": 1,
       "impressions": 1,
@@ -33,23 +26,23 @@
     {
       "query": "advantages and disadvantages of influencer marketing",
       "clicks": 1,
-      "impressions": 10,
-      "ctr": 0.1,
-      "position": 1.4
+      "impressions": 8,
+      "ctr": 0.125,
+      "position": 1.5
     },
     {
       "query": "cons of influencer marketing",
       "clicks": 1,
-      "impressions": 12,
-      "ctr": 0.08333333333333333,
-      "position": 4.416666666666666
+      "impressions": 8,
+      "ctr": 0.125,
+      "position": 4.625
     },
     {
       "query": "digital marketing reporting platform",
       "clicks": 1,
-      "impressions": 12,
-      "ctr": 0.08333333333333333,
-      "position": 17.583333333333332
+      "impressions": 11,
+      "ctr": 0.09090909090909091,
+      "position": 18.90909090909091
     },
     {
       "query": "free ai marketing app",
@@ -61,9 +54,9 @@
     {
       "query": "free ai tools for digital marketing",
       "clicks": 1,
-      "impressions": 57,
-      "ctr": 0.017543859649122806,
-      "position": 7.859649122807017
+      "impressions": 43,
+      "ctr": 0.023255813953488372,
+      "position": 7.348837209302325
     },
     {
       "query": "google ads template",
@@ -78,6 +71,13 @@
       "impressions": 1,
       "ctr": 1.0,
       "position": 4.0
+    },
+    {
+      "query": "marketing reporting tools",
+      "clicks": 1,
+      "impressions": 141,
+      "ctr": 0.0070921985815602835,
+      "position": 10.099290780141844
     }
   ],
   "flagged_drops_gt3": [],
