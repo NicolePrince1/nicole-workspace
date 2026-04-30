@@ -4,7 +4,7 @@
     "revenue_pulse": 1777525440,
     "seo_movement": 1777527300,
     "email_health": 1777487640,
-    "ad_spend": 1777485840
+    "ad_spend": 1777529040
   },
   "lastMetrics": {
     "trial_health": {
@@ -76,22 +76,22 @@
       "note": "Sequenzy is live and readable. Four sequences are present, all draft with zero sends and no flagged failed step/open-rate anomalies."
     },
     "ad_spend": {
-      "status": "attention",
+      "status": "ok",
       "window": {
-        "since": "2026-04-23",
-        "until": "2026-04-29",
+        "since": "2026-04-24",
+        "until": "2026-04-30",
         "days": 7
       },
       "comparison_window": {
-        "since": "2026-04-16",
-        "until": "2026-04-22",
+        "since": "2026-04-17",
+        "until": "2026-04-23",
         "days": 7
       },
-      "spend": 1957.84,
-      "landing_page_views": 7,
-      "cost_per_landing_page_view": 279.6914,
-      "previous_comparison_cost_per_landing_page_view": 702.54,
-      "note": "Meta Ads current-week LPV CPA is R279.69, above the R200 alert threshold, with R1,957.84 spent for 7 landing page views."
+      "spend": 834.43,
+      "landing_page_views": 5,
+      "cost_per_landing_page_view": 166.886,
+      "previous_comparison_cost_per_landing_page_view": 662.3014,
+      "note": "Meta Ads current-week LPV CPA improved to R166.89, below the R200 alert threshold, with R834.43 spent for 5 landing page views."
     }
   },
   "lastWeeklyReport": null,
