@@ -3,7 +3,7 @@
     "trial_health": 1777611840,
     "revenue_pulse": 1777611840,
     "seo_movement": 1777613700,
-    "email_health": 1777561440,
+    "email_health": 1777617240,
     "ad_spend": 1777615440
   },
   "lastMetrics": {
@@ -80,7 +80,7 @@
       "checked_sequences": 4,
       "active_or_sent_sequences": 0,
       "flagged_automations": [],
-      "note": "Sequenzy is live and readable. Four sequences are present, all draft with zero sends and no flagged failed step/open-rate anomalies."
+      "note": "Sequenzy is live and readable. Four sequences are present, all draft with zero sends and no bounce/open-rate anomalies."
     },
     "ad_spend": {
       "status": "ok",
