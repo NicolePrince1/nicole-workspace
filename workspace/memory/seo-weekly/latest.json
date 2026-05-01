@@ -1,12 +1,12 @@
 {
-  "captured_at": "2026-05-01T05:35:00Z",
+  "captured_at": "2026-05-01T09:35:00Z",
   "window": {
     "startDate": "2026-04-26",
     "endDate": "2026-04-30"
   },
   "baseline_window": {
-    "startDate": "2026-04-25",
-    "endDate": "2026-04-29"
+    "startDate": "2026-04-26",
+    "endDate": "2026-04-30"
   },
   "top10": [
     {
@@ -80,13 +80,6 @@
       "position": 5.74468085106383
     }
   ],
-  "flagged_drops_gt3": [
-    {
-      "query": "digital marketing reporting platform",
-      "previous_position": 17.5,
-      "current_position": 22.555555555555557,
-      "drop": 5.055555555555557
-    }
-  ],
+  "flagged_drops_gt3": [],
   "baseline_available": true
 }
