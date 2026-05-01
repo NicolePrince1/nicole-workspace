@@ -2,7 +2,7 @@
   "lastChecks": {
     "trial_health": 1777611840,
     "revenue_pulse": 1777611840,
-    "seo_movement": 1777558620,
+    "seo_movement": 1777613700,
     "email_health": 1777561440,
     "ad_spend": 1777559640
   },
@@ -60,13 +60,20 @@
       "note": "Stripe rolling 7-day paid invoice revenue is up versus the prior 7-day window, but delinquent subscription count remains above the >20 alert threshold at 39."
     },
     "seo_movement": {
-      "status": "ok",
+      "status": "attention",
       "window": {
-        "startDate": "2026-04-25",
-        "endDate": "2026-04-29"
+        "startDate": "2026-04-26",
+        "endDate": "2026-04-30"
       },
-      "flagged_drops_gt3": [],
-      "note": "Current top non-brand GSC window shows no exact overlapping query position drops greater than 3 versus the last stored SEO baseline."
+      "flagged_drops_gt3": [
+        {
+          "query": "digital marketing reporting platform",
+          "previous_position": 17.5,
+          "current_position": 22.555555555555557,
+          "drop": 5.055555555555557
+        }
+      ],
+      "note": "Current top non-brand GSC window has query position drops greater than 3 versus the last stored SEO baseline."
     },
     "email_health": {
       "status": "ok",
