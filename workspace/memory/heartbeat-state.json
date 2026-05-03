@@ -4,7 +4,7 @@
     "revenue_pulse": 1777784640,
     "seo_movement": 1777786500,
     "email_health": 1777746840,
-    "ad_spend": 1777745040
+    "ad_spend": 1777788240
   },
   "lastMetrics": {
     "trial_health": {
@@ -68,19 +68,19 @@
     "ad_spend": {
       "status": "ok",
       "window": {
-        "since": "2026-04-26",
-        "until": "2026-05-02",
+        "since": "2026-04-27",
+        "until": "2026-05-03",
         "days": 7
       },
       "comparison_window": {
-        "since": "2026-04-19",
-        "until": "2026-04-25",
+        "since": "2026-04-20",
+        "until": "2026-04-26",
         "days": 7
       },
       "spend": 0,
       "landing_page_views": 0,
       "cost_per_landing_page_view": null,
-      "previous_comparison_cost_per_landing_page_view": 401.77,
+      "previous_comparison_cost_per_landing_page_view": 375.179,
       "note": "Meta Ads current 7-day report returned no current spend or landing-page views, so there is no CPA above the R200 alert threshold."
     }
   },
