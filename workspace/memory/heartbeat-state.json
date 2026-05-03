@@ -1,7 +1,7 @@
 {
   "lastChecks": {
-    "trial_health": 1777813440,
-    "revenue_pulse": 1777813440,
+    "trial_health": 1777827840,
+    "revenue_pulse": 1777827840,
     "seo_movement": 1777815300,
     "email_health": 1777818840,
     "ad_spend": 1777817040
@@ -12,7 +12,7 @@
       "trialing_count": 53,
       "previous_trialing_count": 53,
       "delta_trialing_count": 0,
-      "near_expiry_count_next_3_days": 6,
+      "near_expiry_count_next_3_days": 8,
       "near_expiry_sample": [
         {
           "subscription_id": "sub_1TNyzMEV1Q8wnLqu7XdzbBdl",
@@ -40,22 +40,22 @@
           "current_period_end": "2026-05-06T11:03:12+00:00"
         }
       ],
-      "note": "Stripe trialing subscriptions stayed at 53 versus the last heartbeat count, and 6 active trials expire within the next 3 days."
+      "note": "Stripe trialing subscriptions stayed at 53 versus the last heartbeat count, and 8 active trials expire within the next 3 days."
     },
     "revenue_pulse": {
       "status": "attention",
       "window": {
-        "last_7_start": "2026-04-26T13:04:00+00:00",
-        "last_7_end": "2026-05-03T13:04:00+00:00",
-        "prior_7_start": "2026-04-19T13:04:00+00:00",
-        "prior_7_end": "2026-04-26T13:04:00+00:00"
+        "last_7_start": "2026-04-26T17:04:00+00:00",
+        "last_7_end": "2026-05-03T17:04:00+00:00",
+        "prior_7_start": "2026-04-19T17:04:00+00:00",
+        "prior_7_end": "2026-04-26T17:04:00+00:00"
       },
-      "last_7_days_paid_revenue": 8061.16,
-      "last_7_days_paid_invoices": 115,
-      "prior_7_days_paid_revenue": 4505.03,
-      "prior_7_days_paid_invoices": 108,
-      "delta_revenue": 3556.13,
-      "delta_invoices": 7,
+      "last_7_days_paid_revenue": 8392.66,
+      "last_7_days_paid_invoices": 120,
+      "prior_7_days_paid_revenue": 4318.03,
+      "prior_7_days_paid_invoices": 107,
+      "delta_revenue": 4074.63,
+      "delta_invoices": 13,
       "past_due_count": 40,
       "note": "Stripe rolling 7-day paid invoice revenue is up versus the prior 7-day window, but delinquent subscription count remains above the >20 alert threshold at 40."
     },
