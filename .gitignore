@@ -10,6 +10,7 @@ workspace/.trash/
 workspace/.trash/**
 workspace/tmp/
 workspace/tmp/**
+workspace/.tmp_*
 workspace/dist/*.skill
 workspace/memory/.trash/
 workspace/memory/.trash/**
