@@ -1,0 +1,13 @@
+{
+  "startDate": "2026-04-29",
+  "endDate": "2026-05-03",
+  "dimensions": ["query"],
+  "dimensionFilterGroups": [{
+    "filters": [{
+      "dimension": "query",
+      "operator": "notContains",
+      "expression": "oviond"
+    }]
+  }],
+  "rowLimit": 10
+}
