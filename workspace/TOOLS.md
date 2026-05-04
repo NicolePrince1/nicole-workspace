@@ -63,7 +63,6 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 - Local skill lives at `skills/sequenzy/`.
 - Preferred credential source: OpenClaw Envars via `SEQUENZY_API_KEY`.
 - Use `skills/sequenzy/scripts/live_audit.py` for repeatable read-only validation.
-- Live credential connection is now working; keep this section to local operator mechanics only.
 
 ### Meta
 

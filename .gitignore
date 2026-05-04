@@ -35,3 +35,5 @@ skills/**/*.pyc
 !openclaw.json
 !.gitignore
 secrets/
+# OpenClaw cron runtime state (local only; job definitions stay in cron/jobs.json)
+cron/jobs-state.json
