@@ -1,0 +1,392 @@
+{
+  "windows": {
+    "last_2d": {
+      "control": {
+        "spend": 0.0,
+        "impressions": 0,
+        "clicks": 0,
+        "ctr": null,
+        "landing_page_view": 0,
+        "cost_per_landing_page_view": null,
+        "signup_signal": 0,
+        "actions": {}
+      },
+      "test": {
+        "spend": 0.0,
+        "impressions": 0,
+        "clicks": 0,
+        "ctr": null,
+        "landing_page_view": 0,
+        "cost_per_landing_page_view": null,
+        "signup_signal": 0,
+        "actions": {}
+      }
+    },
+    "last_7d": {
+      "control": {
+        "spend": 2464.86,
+        "impressions": 7333,
+        "clicks": 40,
+        "ctr": 0.5455,
+        "landing_page_view": 8,
+        "cost_per_landing_page_view": 308.11,
+        "signup_signal": 0,
+        "actions": {
+          "landing_page_view": 8,
+          "link_click": 26,
+          "omni_landing_page_view": 8,
+          "page_engagement": 26,
+          "post_engagement": 26
+        }
+      },
+      "test": {
+        "spend": 1286.93,
+        "impressions": 1673,
+        "clicks": 5,
+        "ctr": 0.2989,
+        "landing_page_view": 2,
+        "cost_per_landing_page_view": 643.47,
+        "signup_signal": 0,
+        "actions": {
+          "landing_page_view": 2,
+          "link_click": 3,
+          "offsite_conversion.custom.936973485167575": 3,
+          "omni_landing_page_view": 2,
+          "page_engagement": 3,
+          "post_engagement": 3
+        }
+      }
+    },
+    "since_launch": {
+      "control": {
+        "spend": 11357.27,
+        "impressions": 60870,
+        "clicks": 274,
+        "ctr": 0.4501,
+        "landing_page_view": 69,
+        "cost_per_landing_page_view": 164.6,
+        "signup_signal": 0,
+        "actions": {
+          "comment": 1,
+          "landing_page_view": 69,
+          "link_click": 175,
+          "offsite_conversion.custom.936973485167575": 399,
+          "omni_landing_page_view": 69,
+          "onsite_conversion.post_net_comment": 2,
+          "onsite_conversion.post_net_like": 7,
+          "onsite_conversion.post_unlike": 1,
+          "page_engagement": 247,
+          "post_engagement": 247,
+          "post_interaction_gross": 9,
+          "post_interaction_net": 11,
+          "post_reaction": 8,
+          "post_uncomment": 1,
+          "video_view": 63
+        }
+      },
+      "test": {
+        "spend": 8665.64,
+        "impressions": 10933,
+        "clicks": 103,
+        "ctr": 0.9421,
+        "landing_page_view": 43,
+        "cost_per_landing_page_view": 201.53,
+        "signup_signal": 0,
+        "actions": {
+          "landing_page_view": 43,
+          "like": 1,
+          "link_click": 78,
+          "offsite_conversion.custom.936973485167575": 352,
+          "omni_landing_page_view": 43,
+          "onsite_conversion.post_net_like": 4,
+          "onsite_conversion.post_unlike": 1,
+          "page_engagement": 84,
+          "post_engagement": 83,
+          "post_interaction_gross": 5,
+          "post_interaction_net": 6,
+          "post_reaction": 5
+        }
+      }
+    }
+  },
+  "platform_split": {
+    "last_2d": {
+      "control": {},
+      "test": {}
+    },
+    "last_7d": {
+      "control": {
+        "facebook": {
+          "spend": 2464.86,
+          "impressions": 7333,
+          "clicks": 40,
+          "ctr": 0.5455,
+          "landing_page_view": 8,
+          "cost_per_landing_page_view": 308.11,
+          "signup_signal": 0
+        }
+      },
+      "test": {
+        "facebook": {
+          "spend": 1286.93,
+          "impressions": 1673,
+          "clicks": 5,
+          "ctr": 0.2989,
+          "landing_page_view": 2,
+          "cost_per_landing_page_view": 643.47,
+          "signup_signal": 0
+        }
+      }
+    },
+    "since_launch": {
+      "control": {
+        "facebook": {
+          "spend": 9991.34,
+          "impressions": 47264,
+          "clicks": 246,
+          "ctr": 0.5205,
+          "landing_page_view": 61,
+          "cost_per_landing_page_view": 163.79,
+          "signup_signal": 0
+        },
+        "instagram": {
+          "spend": 1362.81,
+          "impressions": 13578,
+          "clicks": 28,
+          "ctr": 0.2062,
+          "landing_page_view": 8,
+          "cost_per_landing_page_view": 170.35,
+          "signup_signal": 0
+        },
+        "threads": {
+          "spend": 2.92,
+          "impressions": 26,
+          "clicks": 0,
+          "ctr": 0.0,
+          "landing_page_view": 0,
+          "cost_per_landing_page_view": null,
+          "signup_signal": 0
+        },
+        "unknown": {
+          "spend": 0.2,
+          "impressions": 2,
+          "clicks": 0,
+          "ctr": 0.0,
+          "landing_page_view": 0,
+          "cost_per_landing_page_view": null,
+          "signup_signal": 0
+        }
+      },
+      "test": {
+        "audience_network": {
+          "spend": 76.58,
+          "impressions": 534,
+          "clicks": 34,
+          "ctr": 6.367,
+          "landing_page_view": 26,
+          "cost_per_landing_page_view": 2.95,
+          "signup_signal": 0
+        },
+        "facebook": {
+          "spend": 8377.99,
+          "impressions": 10006,
+          "clicks": 67,
+          "ctr": 0.6696,
+          "landing_page_view": 17,
+          "cost_per_landing_page_view": 492.82,
+          "signup_signal": 0
+        },
+        "instagram": {
+          "spend": 208.85,
+          "impressions": 388,
+          "clicks": 2,
+          "ctr": 0.5155,
+          "landing_page_view": 0,
+          "cost_per_landing_page_view": null,
+          "signup_signal": 0
+        },
+        "threads": {
+          "spend": 2.22,
+          "impressions": 5,
+          "clicks": 0,
+          "ctr": 0.0,
+          "landing_page_view": 0,
+          "cost_per_landing_page_view": null,
+          "signup_signal": 0
+        }
+      }
+    }
+  },
+  "ad_split": {
+    "last_2d": {
+      "control": [],
+      "test": []
+    },
+    "last_7d": {
+      "control": [
+        {
+          "ad_id": "120243374907550563",
+          "ad_name": "Images - Product (recovery 2026-04-03)",
+          "spend": 2464.86,
+          "impressions": 7333,
+          "clicks": 40,
+          "ctr": 0.545479,
+          "landing_page_view": 8,
+          "cost_per_landing_page_view": 308.11,
+          "signup_signal": 0,
+          "all_actions": {
+            "landing_page_view": 8,
+            "link_click": 26,
+            "omni_landing_page_view": 8,
+            "page_engagement": 26,
+            "post_engagement": 26
+          }
+        }
+      ],
+      "test": [
+        {
+          "ad_id": "120242846210870563",
+          "ad_name": "Images - Product",
+          "spend": 1286.93,
+          "impressions": 1673,
+          "clicks": 5,
+          "ctr": 0.298864,
+          "landing_page_view": 2,
+          "cost_per_landing_page_view": 643.47,
+          "signup_signal": 0,
+          "all_actions": {
+            "landing_page_view": 2,
+            "link_click": 3,
+            "offsite_conversion.custom.936973485167575": 3,
+            "omni_landing_page_view": 2,
+            "page_engagement": 3,
+            "post_engagement": 3
+          }
+        }
+      ]
+    },
+    "since_launch": {
+      "control": [
+        {
+          "ad_id": "120234146733680563",
+          "ad_name": "Carousels - Product",
+          "spend": 385.86,
+          "impressions": 4492,
+          "clicks": 9,
+          "ctr": 0.200356,
+          "landing_page_view": 1,
+          "cost_per_landing_page_view": 385.86,
+          "signup_signal": 0,
+          "all_actions": {
+            "landing_page_view": 1,
+            "link_click": 5,
+            "offsite_conversion.custom.936973485167575": 79,
+            "omni_landing_page_view": 1,
+            "onsite_conversion.post_net_like": 1,
+            "page_engagement": 69,
+            "post_engagement": 69,
+            "post_interaction_gross": 1,
+            "post_interaction_net": 1,
+            "post_reaction": 1,
+            "video_view": 63
+          }
+        },
+        {
+          "ad_id": "120234146733690563",
+          "ad_name": "Images - Product",
+          "spend": 2357.66,
+          "impressions": 26830,
+          "clicks": 58,
+          "ctr": 0.216176,
+          "landing_page_view": 22,
+          "cost_per_landing_page_view": 107.17,
+          "signup_signal": 0,
+          "all_actions": {
+            "landing_page_view": 22,
+            "link_click": 48,
+            "offsite_conversion.custom.936973485167575": 320,
+            "omni_landing_page_view": 22,
+            "onsite_conversion.post_net_like": 2,
+            "onsite_conversion.post_unlike": 1,
+            "page_engagement": 51,
+            "post_engagement": 51,
+            "post_interaction_gross": 3,
+            "post_interaction_net": 4,
+            "post_reaction": 3
+          }
+        },
+        {
+          "ad_id": "120243374907550563",
+          "ad_name": "Images - Product (recovery 2026-04-03)",
+          "spend": 8613.75,
+          "impressions": 29548,
+          "clicks": 207,
+          "ctr": 0.700555,
+          "landing_page_view": 46,
+          "cost_per_landing_page_view": 187.26,
+          "signup_signal": 0,
+          "all_actions": {
+            "comment": 1,
+            "landing_page_view": 46,
+            "link_click": 122,
+            "omni_landing_page_view": 46,
+            "onsite_conversion.post_net_comment": 2,
+            "onsite_conversion.post_net_like": 4,
+            "page_engagement": 127,
+            "post_engagement": 127,
+            "post_interaction_gross": 5,
+            "post_interaction_net": 6,
+            "post_reaction": 4,
+            "post_uncomment": 1
+          }
+        }
+      ],
+      "test": [
+        {
+          "ad_id": "120242846210870563",
+          "ad_name": "Images - Product",
+          "spend": 7433.42,
+          "impressions": 9623,
+          "clicks": 93,
+          "ctr": 0.966435,
+          "landing_page_view": 41,
+          "cost_per_landing_page_view": 181.3,
+          "signup_signal": 0,
+          "all_actions": {
+            "landing_page_view": 41,
+            "link_click": 72,
+            "offsite_conversion.custom.936973485167575": 337,
+            "omni_landing_page_view": 41,
+            "onsite_conversion.post_net_like": 4,
+            "onsite_conversion.post_unlike": 1,
+            "page_engagement": 77,
+            "post_engagement": 77,
+            "post_interaction_gross": 5,
+            "post_interaction_net": 6,
+            "post_reaction": 5
+          }
+        },
+        {
+          "ad_id": "120242846212370563",
+          "ad_name": "Carousels - Product",
+          "spend": 1232.22,
+          "impressions": 1310,
+          "clicks": 10,
+          "ctr": 0.763359,
+          "landing_page_view": 2,
+          "cost_per_landing_page_view": 616.11,
+          "signup_signal": 0,
+          "all_actions": {
+            "landing_page_view": 2,
+            "like": 1,
+            "link_click": 6,
+            "offsite_conversion.custom.936973485167575": 15,
+            "omni_landing_page_view": 2,
+            "page_engagement": 7,
+            "post_engagement": 6
+          }
+        }
+      ]
+    }
+  }
+}
