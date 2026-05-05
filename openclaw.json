@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastTouchedVersion": "2026.4.11",
-    "lastTouchedAt": "2026-04-14T11:10:10.758Z"
+    "lastTouchedVersion": "2026.5.2",
+    "lastTouchedAt": "2026-05-05T06:02:51.154Z"
   },
   "wizard": {
     "lastRunAt": "2026-04-08T11:16:45.720Z",
@@ -27,13 +27,13 @@
           "alias": "GPT"
         },
         "openai-codex/gpt-5.4": {},
-        "anthropic/claude-opus-4-6": {
-          "alias": "opus"
-        },
         "google/gemini-3.1-flash-lite-preview": {
           "alias": "gemini-flash-lite"
         },
-        "openai-codex/gpt-5.5": {}
+        "openai-codex/gpt-5.5": {},
+        "anthropic/claude-opus-4-6": {
+          "alias": "opus"
+        }
       },
       "workspace": "/data/.openclaw/workspace",
       "compaction": {
@@ -179,7 +179,8 @@
               "mode": "separate"
             }
           }
-        }
+        },
+        "enabled": true
       }
     }
   }
