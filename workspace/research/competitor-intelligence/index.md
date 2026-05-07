@@ -18,8 +18,9 @@ Public posture: confident and positive. Do not lead by attacking named competito
 
 ## Where to look
 
-- [Competitor universe](competitor-universe.csv) — master list, category, priority, status, and profile path.
-- [Competitor profiles](competitors/_README.md) — one file per competitor/threat.
+- [Competitor universe](competitor-universe.csv) — active master list, category, priority, status, and profile path.
+- [Excluded from active list](excluded-from-active-list.md) — items Chris removed as noisy/non-relevant for launch positioning.
+- [Competitor profiles](competitors/_README.md) — active competitor/threat profile index.
 - [Direct agency reporting](categories/direct-agency-reporting.md) — AgencyAnalytics, Whatagraph, DashThis, Swydo, Octoboard, ReportGarden, Raven, Metrics Watch, TapClicks, NinjaCat.
 - [BI/dashboard substitutes](categories/bi-dashboard-substitutes.md) — Looker Studio, Databox, Klipfolio, Power BI, Tableau, Geckoboard, Cyfe, Domo.
 - [Connector/report automation](categories/connector-report-automation.md) — Supermetrics, Funnel, Porter, Dataslayer, Coupler, Windsor, Improvado, Adverity.
@@ -65,15 +66,15 @@ The danger is not one AI startup. The danger is workflow displacement: agencies 
 ## Top competitors to watch weekly near launch
 
 1. **AgencyAnalytics** — strongest direct agency-reporting benchmark.
-2. **Whatagraph** — polished reporting + AI/source-credit model.
-3. **DashThis** — direct reporting simplicity competitor; dashboard/source pricing contrast.
-4. **Swydo** — unusually close on “one plan/all features” language; data-source pricing contrast.
-5. **Databox** — dashboard/reporting + agency features + MCP/AI posture.
-6. **Looker Studio + Supermetrics/Porter/Dataslayer** — DIY alternative and common switch source.
-7. **SE Ranking** — strong agency SEO reporting with white label, AI summaries, API/MCP.
-8. **Semrush** — not broad client reporting, but now strategically important because Semrush MCP is live.
-9. **Two Minute Reports** — low-cost connector + MCP threat for GA4/marketing-data-to-AI workflows.
-10. **NinjaCat/TapClicks** — upmarket AI/data/reporting signal; not SMB-first but sets expectation for agentic marketing analytics.
+2. **Looker Studio + connector stack** — free/DIY baseline and common switch source.
+3. **Databox** — dashboard/reporting + agency features + MCP/AI posture.
+4. **DashThis** — direct reporting simplicity competitor; dashboard/source pricing contrast.
+5. **Swydo** — unusually close on “one plan/all features” language; data-source pricing contrast.
+6. **Supermetrics** — connector-layer leader pushing marketing data into BI/AI/MCP workflows.
+7. **Klipfolio** — dashboard/white-label/custom-BI substitute for agencies that want control.
+8. **Porter Metrics / Dataslayer / Coupler / Windsor** — lower-cost connector alternatives that feed Looker, Sheets, Power BI, and AI workflows.
+9. **SE Ranking / BrightLocal** — strongest narrow substitutes for SEO/local SEO agencies.
+10. **Semrush / Two Minute Reports** — strategic AI/MCP signal to monitor without treating them as broad direct reporting competitors.
 
 ## Core market truth
 
