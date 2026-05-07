@@ -1,0 +1,44 @@
+name,category,priority,website,research_status,canonical_profile,notes
+ChatGPT / Claude / Gemini + Sheets / Looker Studio workflows,AI/DIY workflow threat,Tier 1,https://chatgpt.com,researched_2026-05-07,competitors/chatgpt-claude-gemini-sheets-looker-studio-workflows.md,See canonical profile and category research.
+Databox,BI/dashboard substitute,Tier 1,https://databox.com,researched_2026-05-07,competitors/databox.md,Strong dashboard/reporting threat with agency features and MCP/AI.
+Klipfolio,BI/dashboard substitute,Tier 1,https://www.klipfolio.com,researched_2026-05-07,competitors/klipfolio.md,See canonical profile and category research.
+Looker Studio,BI/dashboard substitute,Tier 1,https://lookerstudio.google.com,researched_2026-05-07,competitors/looker-studio.md,Free DIY baseline and common substitute/switch source.
+Funnel.io,Connector/marketing data hub,Tier 1,https://funnel.io,researched_2026-05-07,competitors/funnel-io.md,See canonical profile and category research.
+Supermetrics,Connector/report automation,Tier 1,https://supermetrics.com,researched_2026-05-07,competitors/supermetrics.md,Connector-layer leader pushing data into BI/AI/MCP workflows.
+AgencyAnalytics,Direct agency reporting,Tier 1,https://agencyanalytics.com,researched_2026-05-07,competitors/agencyanalytics.md,Core direct agency-reporting benchmark; watch API/AI/white-label gates.
+DashThis,Direct agency reporting,Tier 1,https://dashthis.com,researched_2026-05-07,competitors/dashthis.md,Dashboard/source pricing; simplicity competitor.
+Swydo,Direct agency reporting,Tier 1,https://www.swydo.com,researched_2026-05-07,competitors/swydo.md,Closest simplicity language; data-source pricing contrast.
+Whatagraph,Direct agency reporting,Tier 1,https://whatagraph.com,researched_2026-05-07,competitors/whatagraph.md,Source-credit model and polished AI reporting contrast.
+NinjaCat,Enterprise marketing intelligence,Tier 1,https://www.ninjacat.io,researched_2026-05-07,competitors/ninjacat.md,Upmarket AI-agent marketing analytics signal.
+TapClicks,Enterprise marketing intelligence,Tier 1,https://www.tapclicks.com,researched_2026-05-07,competitors/tapclicks.md,Upmarket enterprise reporting/ops threat.
+Microsoft Power BI,BI/dashboard substitute,Tier 2,https://powerbi.microsoft.com,researched_2026-05-07,competitors/microsoft-power-bi.md,See canonical profile and category research.
+Tableau,BI/dashboard substitute,Tier 2,https://www.tableau.com,researched_2026-05-07,competitors/tableau.md,See canonical profile and category research.
+Windsor.ai,Connector/attribution,Tier 2,https://windsor.ai,researched_2026-05-07,competitors/windsor-ai.md,See canonical profile and category research.
+Coupler.io,Connector/report automation,Tier 2,https://www.coupler.io,researched_2026-05-07,competitors/coupler-io.md,See canonical profile and category research.
+Dataslayer,Connector/report automation,Tier 2,https://dataslayer.ai,researched_2026-05-07,competitors/dataslayer.md,See canonical profile and category research.
+Porter Metrics,Connector/report automation,Tier 2,https://portermetrics.com,researched_2026-05-07,competitors/porter-metrics.md,Low-cost account-based connector + AI/MCP direction.
+Cyfe,Dashboard substitute,Tier 2,https://www.cyfe.com,researched_2026-05-07,competitors/cyfe.md,See canonical profile and category research.
+Geckoboard,Dashboard substitute,Tier 2,https://www.geckoboard.com,researched_2026-05-07,competitors/geckoboard.md,See canonical profile and category research.
+Raven Tools,Direct / SEO agency reporting,Tier 2,https://raventools.com,researched_2026-05-07,competitors/raven-tools.md,See canonical profile and category research.
+Octoboard,Direct agency reporting,Tier 2,https://www.octoboard.com,researched_2026-05-07,competitors/octoboard.md,See canonical profile and category research.
+ReportGarden,Direct agency reporting,Tier 2,https://reportgarden.com,researched_2026-05-07,competitors/reportgarden.md,See canonical profile and category research.
+Metrics Watch,Email/report automation,Tier 2,https://metricswatch.com,researched_2026-05-07,competitors/metrics-watch.md,See canonical profile and category research.
+Domo,Enterprise BI,Tier 2,https://www.domo.com,researched_2026-05-07,competitors/domo.md,See canonical profile and category research.
+Improvado,Enterprise marketing data,Tier 2,https://improvado.io,researched_2026-05-07,competitors/improvado.md,See canonical profile and category research.
+BrightLocal,Local SEO reporting,Tier 2,https://www.brightlocal.com,researched_2026-05-07,competitors/brightlocal.md,See canonical profile and category research.
+Two Minute Reports,MCP/report automation threat,Tier 2,https://twominutereports.com,researched_2026-05-07,competitors/two-minute-reports.md,Most directly agency-relevant low-cost MCP/connector threat found.
+SE Ranking,SEO suite with agency reporting,Tier 2,https://seranking.com,researched_2026-05-07,competitors/se-ranking.md,"Strong SEO agency reporting with white label, AI summaries, API/MCP."
+Semrush,SEO/PPC suite with reporting,Tier 2,https://www.semrush.com,researched_2026-05-07,competitors/semrush.md,SEO/competitive suite with live Semrush MCP; strategic AI-agent signal.
+Julius AI,AI-native analytics threat,Watchlist,https://julius.ai,researched_2026-05-07,competitors/julius-ai.md,See canonical profile and category research.
+Narrative BI,AI-native analytics threat,Watchlist,https://www.narrativebi.com,researched_2026-05-07,competitors/narrative-bi.md,See canonical profile and category research.
+Google Looker / Conversational Analytics / Gemini,AI/BI analytics threat,Watchlist,https://cloud.google.com/looker,researched_2026-05-07,competitors/google-looker-conversational-analytics-gemini.md,See canonical profile and category research.
+Microsoft Power BI / Fabric Copilot,AI/BI analytics threat,Watchlist,https://learn.microsoft.com/en-us/fabric/fundamentals/copilot-fabric-overview,researched_2026-05-07,competitors/microsoft-power-bi-fabric-copilot.md,See canonical profile and category research.
+Tableau Agent / Tableau Next / Salesforce analytics,AI/BI analytics threat,Watchlist,https://www.salesforce.com/analytics/,researched_2026-05-07,competitors/tableau-agent-tableau-next-salesforce-analytics.md,See canonical profile and category research.
+ThoughtSpot / Spotter,AI/BI analytics threat,Watchlist,https://www.thoughtspot.com,researched_2026-05-07,competitors/thoughtspot-spotter.md,See canonical profile and category research.
+Polymer,AI/dashboard analytics threat,Watchlist,https://www.polymersearch.com,researched_2026-05-07,competitors/polymer.md,See canonical profile and category research.
+HubSpot Marketing Hub,CRM/marketing platform reporting,Watchlist,https://www.hubspot.com/products/marketing,researched_2026-05-07,competitors/hubspot-marketing-hub.md,See canonical profile and category research.
+Adverity,Enterprise marketing data,Watchlist,https://www.adverity.com,researched_2026-05-07,competitors/adverity.md,See canonical profile and category research.
+Ahrefs,SEO suite with reporting,Watchlist,https://ahrefs.com,researched_2026-05-07,competitors/ahrefs.md,See canonical profile and category research.
+Moz Pro,SEO suite with reporting,Watchlist,https://moz.com,researched_2026-05-07,competitors/moz-pro.md,See canonical profile and category research.
+Hootsuite,Social reporting suite,Watchlist,https://www.hootsuite.com,researched_2026-05-07,competitors/hootsuite.md,See canonical profile and category research.
+Sprout Social,Social reporting suite,Watchlist,https://sproutsocial.com,researched_2026-05-07,competitors/sprout-social.md,See canonical profile and category research.
