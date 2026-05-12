@@ -84,3 +84,10 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.
+
+
+### DataForSEO
+
+- Preferred credential source: OpenClaw Envars as `DATA_FOR_SEO`.
+- Accepted format is either `login:password` or pre-encoded Basic Auth token; helper scripts should avoid printing the value.
+- Verified live on 2026-05-12 via `/v3/appendix/user_data` and a Google organic live SERP smoke test.
