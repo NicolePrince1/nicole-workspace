@@ -1,0 +1,292 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0577 sec.",
+  "cost": 0.0102,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120924-3675-0399-0000-658c5f5a08df",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0461 sec.",
+      "cost": 0.0102,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "keyword_suggestions",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "keyword_suggestions",
+        "se_type": "google",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "AgencyAnalytics alternative",
+        "limit": 35
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "seed_keyword": "agencyanalytics alternative",
+          "seed_keyword_data": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "total_count": 2,
+          "items_count": 2,
+          "offset": 0,
+          "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoyLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoiYWdlbmN5YW5hbHl0aWNzIGFsdGVybmF0aXZlIiwiaW5jbHVkZV9zZWVkX2tleXdvcmQiOmZhbHNlLCJmdWxsX21hdGNoIjpmYWxzZSwibG9hZF9zZXJwX2luZm8iOmZhbHNlLCJzZWFyY2hfYWZ0ZXJfdG9rZW4iOm51bGwsImlnbm9yZV9zeW5vbnltcyI6ZmFsc2UsImxhbmd1YWdlIjoiZW4iLCJzZWFyY2hfZW5naW5lIjoiZ29vZ2xlIiwibG9jYXRpb24iOjI4NDAsInVzZV9uZXdfY2F0ZWdvcmllcyI6dHJ1ZSwib3JkZXJfYnkiOnsib3JkZXJfZmllbGQiOiJrZXl3b3JkX2luZm8uc2VhcmNoX3ZvbHVtZSIsIm9yZGVyX3R5cGUiOiJEZXNjIiwibmV4dCI6bnVsbH0sImxpbWl0IjozNSwib2Zmc2V0IjowLCJhaWQiOjM2NzUsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjA1MTIwOTI0LTM2NzUtMDM5OS0wMDAwLTY1OGM1ZjVhMDhkZiIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOm51bGwsIklkIjoiZmVhNDMyOGYtNTBkNi00YjNhLWIxNGUtZjg0Yjk2MWVmOWE4IiwiU2VhcmNoQWZ0ZXJEYXRhIjpbMjEwLCI2NzNkOTY4Ny04MDdlLTllNTMtZTBiZC1jNWUxZWU0N2FjOTUiXSwiRXhlY3V0b3IiOi05MTg0NDA1OTQwNDQ0NTE3NjMzfQ==",
+          "items": [
+            {
+              "se_type": "google",
+              "keyword": "agencyanalytics alternative",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-04-09 18:54:59 +00:00",
+                "competition": 0.18,
+                "competition_level": "LOW",
+                "cpc": 46.88,
+                "search_volume": 590,
+                "low_top_of_page_bid": 10.98,
+                "high_top_of_page_bid": 40.64,
+                "categories": [
+                  10019,
+                  10168,
+                  10296,
+                  10885,
+                  11274,
+                  12209
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2026,
+                    "month": 3,
+                    "search_volume": 260
+                  },
+                  {
+                    "year": 2026,
+                    "month": 2,
+                    "search_volume": 210
+                  },
+                  {
+                    "year": 2026,
+                    "month": 1,
+                    "search_volume": 260
+                  },
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 480
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 590
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 390
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 2400
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 390
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 170
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 170
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 590
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 1000
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": 24,
+                  "quarterly": 0,
+                  "yearly": -74
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": null,
+                "synonym_clustering_algorithm": "text_processing",
+                "keyword_difficulty": 0,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 2
+              },
+              "serp_info": null,
+              "avg_backlinks_info": {
+                "se_type": "google",
+                "backlinks": 10.7,
+                "dofollow": 10.7,
+                "referring_pages": 10.7,
+                "referring_domains": 1.7,
+                "referring_main_domains": 1.7,
+                "rank": 32.9,
+                "main_domain_rank": 395.4,
+                "last_updated_time": "2025-12-13 09:06:31 +00:00"
+              },
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "navigational",
+                "foreign_intent": null,
+                "last_updated_time": "2026-04-29 05:29:33 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword": "alternative to agencyanalytics",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-04-08 02:03:34 +00:00",
+                "competition": 0.16,
+                "competition_level": "LOW",
+                "cpc": 75.98,
+                "search_volume": 210,
+                "low_top_of_page_bid": 10.92,
+                "high_top_of_page_bid": 43.24,
+                "categories": [
+                  10019,
+                  10168,
+                  10296,
+                  10885,
+                  11274,
+                  12209
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2026,
+                    "month": 3,
+                    "search_volume": 20
+                  },
+                  {
+                    "year": 2026,
+                    "month": 2,
+                    "search_volume": 50
+                  },
+                  {
+                    "year": 2026,
+                    "month": 1,
+                    "search_volume": 70
+                  },
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 210
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 320
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 170
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 1000
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 110
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 30
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 140
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 390
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": -60,
+                  "quarterly": -71,
+                  "yearly": -95
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": "alternative to agency analytics",
+                "synonym_clustering_algorithm": "text_processing",
+                "keyword_difficulty": 0,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 3
+              },
+              "serp_info": null,
+              "avg_backlinks_info": {
+                "se_type": "google",
+                "backlinks": 10.9,
+                "dofollow": 10.8,
+                "referring_pages": 10.8,
+                "referring_domains": 1.8,
+                "referring_main_domains": 1.8,
+                "rank": 35.5,
+                "main_domain_rank": 398.7,
+                "last_updated_time": "2026-04-03 04:49:49 +00:00"
+              },
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "commercial",
+                "foreign_intent": null,
+                "last_updated_time": "2026-05-05 16:48:44 +00:00"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0603 sec.",
+  "cost": 0.0103,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120924-3675-0399-0000-3c7718932b2a",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0503 sec.",
+      "cost": 0.0103,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "keyword_suggestions",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "keyword_suggestions",
+        "se_type": "google",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "Facebook Ads reporting tool",
+        "limit": 35
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "seed_keyword": "facebook ads reporting tool",
+          "seed_keyword_data": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "total_count": 3,
+          "items_count": 3,
+          "offset": 0,
+          "offset_token": "eyJDdXJyZW50T2Zmc2V0IjozLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoiZmFjZWJvb2sgYWRzIHJlcG9ydGluZyB0b29sIiwiaW5jbHVkZV9zZWVkX2tleXdvcmQiOmZhbHNlLCJmdWxsX21hdGNoIjpmYWxzZSwibG9hZF9zZXJwX2luZm8iOmZhbHNlLCJzZWFyY2hfYWZ0ZXJfdG9rZW4iOm51bGwsImlnbm9yZV9zeW5vbnltcyI6ZmFsc2UsImxhbmd1YWdlIjoiZW4iLCJzZWFyY2hfZW5naW5lIjoiZ29vZ2xlIiwibG9jYXRpb24iOjI4NDAsInVzZV9uZXdfY2F0ZWdvcmllcyI6dHJ1ZSwib3JkZXJfYnkiOnsib3JkZXJfZmllbGQiOiJrZXl3b3JkX2luZm8uc2VhcmNoX3ZvbHVtZSIsIm9yZGVyX3R5cGUiOiJEZXNjIiwibmV4dCI6bnVsbH0sImxpbWl0IjozNSwib2Zmc2V0IjowLCJhaWQiOjM2NzUsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjA1MTIwOTI0LTM2NzUtMDM5OS0wMDAwLTNjNzcxODkzMmIyYSIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOm51bGwsIklkIjoiOTEyYWIzMTgtMjdkMy00ZmVjLTk3MjEtMjFmMDczMzk2ZmNhIiwiU2VhcmNoQWZ0ZXJEYXRhIjpbMjAsIjEzNTIzMmRmLWVhN2MtOGNkZC03ZDExLTY5Y2ZmMjgwMjZjYiJdLCJFeGVjdXRvciI6LTkxODQ0MDU5NDA0NDQ1MTc2MzN9",
+          "items": [
+            {
+              "se_type": "google",
+              "keyword": "facebook ads reporting tool",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-04-10 04:19:28 +00:00",
+                "competition": 0.01,
+                "competition_level": "LOW",
+                "cpc": 54.46,
+                "search_volume": 210,
+                "low_top_of_page_bid": 19.93,
+                "high_top_of_page_bid": 45.34,
+                "categories": [
+                  10004,
+                  10276,
+                  11088,
+                  12376
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2026,
+                    "month": 3,
+                    "search_volume": 210
+                  },
+                  {
+                    "year": 2026,
+                    "month": 2,
+                    "search_volume": 40
+                  },
+                  {
+                    "year": 2026,
+                    "month": 1,
+                    "search_volume": 90
+                  },
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 90
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 40
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 480
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 110
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 90
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 320
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 390
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 390
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": 425,
+                  "quarterly": 133,
+                  "yearly": -34
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": "facebook ads reporting tools",
+                "synonym_clustering_algorithm": "text_processing",
+                "keyword_difficulty": 11,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 4
+              },
+              "serp_info": null,
+              "avg_backlinks_info": {
+                "se_type": "google",
+                "backlinks": 1815.5,
+                "dofollow": 1421,
+                "referring_pages": 1675.6,
+                "referring_domains": 525,
+                "referring_main_domains": 495.2,
+                "rank": 106.6,
+                "main_domain_rank": 488.2,
+                "last_updated_time": "2026-04-28 21:03:12 +00:00"
+              },
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "informational",
+                "foreign_intent": null,
+                "last_updated_time": "2026-04-27 19:14:06 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword": "free facebook ads reporting tool",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-04-17 17:57:53 +00:00",
+                "competition": 0,
+                "competition_level": "LOW",
+                "cpc": null,
+                "search_volume": 20,
+                "low_top_of_page_bid": null,
+                "high_top_of_page_bid": null,
+                "categories": [
+                  10019,
+                  10168,
+                  10885,
+                  12204,
+                  13092,
+                  13314
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2026,
+                    "month": 3,
+                    "search_volume": 20
+                  },
+                  {
+                    "year": 2026,
+                    "month": 2,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2026,
+                    "month": 1,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 90
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 20
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 40
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": 100,
+                  "quarterly": 100,
+                  "yearly": -60
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": null,
+                "synonym_clustering_algorithm": "text_processing",
+                "keyword_difficulty": 44,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 5
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "transactional",
+                "foreign_intent": [
+                  "informational"
+                ],
+                "last_updated_time": "2026-04-27 19:05:45 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword": "best facebook ads reporting tool",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-04-15 07:10:04 +00:00",
+                "competition": 0,
+                "competition_level": "LOW",
+                "cpc": null,
+                "search_volume": 20,
+                "low_top_of_page_bid": null,
+                "high_top_of_page_bid": null,
+                "categories": [
+                  10004,
+                  10276,
+                  11088,
+                  12376
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2026,
+                    "month": 3,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2026,
+                    "month": 2,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2026,
+                    "month": 1,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 70
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 20
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 40
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": 0,
+                  "quarterly": 0,
+                  "yearly": -75
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": null,
+                "synonym_clustering_algorithm": null,
+                "keyword_difficulty": null,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 5
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "commercial",
+                "foreign_intent": null,
+                "last_updated_time": "2026-04-29 07:14:23 +00:00"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

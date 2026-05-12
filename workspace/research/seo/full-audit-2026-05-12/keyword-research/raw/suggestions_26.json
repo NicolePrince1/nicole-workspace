@@ -1,0 +1,49 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.1407 sec.",
+  "cost": 0.01,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120924-3675-0399-0000-81f80afbec64",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.1291 sec.",
+      "cost": 0.01,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "keyword_suggestions",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "keyword_suggestions",
+        "se_type": "google",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "MCP marketing reporting",
+        "limit": 35
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "seed_keyword": "mcp marketing reporting",
+          "seed_keyword_data": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "total_count": null,
+          "items_count": 0,
+          "offset": 0,
+          "offset_token": "eyJDdXJyZW50T2Zmc2V0IjowLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoibWNwIG1hcmtldGluZyByZXBvcnRpbmciLCJpbmNsdWRlX3NlZWRfa2V5d29yZCI6ZmFsc2UsImZ1bGxfbWF0Y2giOmZhbHNlLCJsb2FkX3NlcnBfaW5mbyI6ZmFsc2UsInNlYXJjaF9hZnRlcl90b2tlbiI6bnVsbCwiaWdub3JlX3N5bm9ueW1zIjpmYWxzZSwibGFuZ3VhZ2UiOiJlbiIsInNlYXJjaF9lbmdpbmUiOiJnb29nbGUiLCJsb2NhdGlvbiI6Mjg0MCwidXNlX25ld19jYXRlZ29yaWVzIjp0cnVlLCJvcmRlcl9ieSI6eyJvcmRlcl9maWVsZCI6ImtleXdvcmRfaW5mby5zZWFyY2hfdm9sdW1lIiwib3JkZXJfdHlwZSI6IkRlc2MiLCJuZXh0IjpudWxsfSwibGltaXQiOjM1LCJvZmZzZXQiOjAsImFpZCI6MzY3NSwidXNlX2NhY2hlIjp0cnVlLCJ0YXNrX2lkIjoiMDUxMjA5MjQtMzY3NS0wMzk5LTAwMDAtODFmODBhZmJlYzY0IiwiZmxhZ3MiOm51bGx9LCJSYXdRdWVyeSI6bnVsbCwiSWQiOiI2MjZkZGE1Zi1jYTBiLTQwZDMtYmEwMC00MDA5NmQ2OGEzZjEiLCJTZWFyY2hBZnRlckRhdGEiOm51bGwsIkV4ZWN1dG9yIjotOTE4NDQwNTk0MDQ0NDUxNzYzM30=",
+          "items": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,604 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.1119 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120925-3675-0139-0000-b6a32e177f10",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.0343 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "google analytics reporting dashboard",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "os": "windows",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "google analytics reporting dashboard",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=google%20analytics%20reporting%20dashboard&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-05-12 06:25:25 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "video",
+            "related_searches"
+          ],
+          "se_results_count": 142000000,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "marketingplatform.google.com",
+              "title": "Analytics Tools & Solutions for Your Business",
+              "url": "https://marketingplatform.google.com/about/analytics/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://marketingplatform.google.com \u203a about \u203a analytics",
+              "website_name": "Google",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Google Analytics gives you the tools, free of charge, to understand the customer journey and improve marketing ROI. Get started today. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Analytics"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "domain": "support.google.com",
+              "title": "Overview of Google Analytics reports",
+              "url": "https://support.google.com/analytics/answer/9212670?hl=en",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://support.google.com \u203a analytics \u203a answer",
+              "website_name": "Google Help",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "You can use reports to monitor traffic, investigate data, and understand your users and their activity. Download this comprehensive guide on reporting in Google\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "reports"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "developers.google.com",
+              "title": "Google Analytics",
+              "url": "https://developers.google.com/analytics",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://developers.google.com \u203a analytics",
+              "website_name": "Google for Developers",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Developer documentation. Learn how to use Google Analytics APIs and developer products to automate your measurement and reporting solutions. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Analytics APIs and developer products"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "myaccount.google.com",
+              "title": "Google Dashboard",
+              "url": "https://myaccount.google.com/intro/dashboard",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://myaccount.google.com \u203a intro \u203a dashboard",
+              "website_name": "Google",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Sign in to see and manage the data in your Google Account. Sign in. Google Account settings. Search. Clear search. Close search. Main menu. Google apps. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Sign in"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Does Google Analytics have dashboards?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://www.coursera.org/articles/google-dashboards",
+                      "domain": "www.coursera.org",
+                      "title": "Google Analytics Dashboard: What It Is and How to Get Started | Coursera",
+                      "description": "The Google Analytics dashboard is a digital interface that provides real-time insights into website traffic and user behavior. Popular metrics that you can track via Google Analytics include keyword traffic, time on site, unique visitors, and conversions.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What are the 4 types of dashboards?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://medium.com/@antonioneto_17307/the-different-types-of-dashboards-b0e09f6d4294",
+                      "domain": "medium.com",
+                      "title": "The Different Types of Dashboards | by Antonio Neto - Medium",
+                      "description": "Understanding the different types of dashboards and their applications is crucial for selecting the right tool for a company's specific needs. Operational, tactical, strategic, and analytical dashboards offer different perspectives and levels of detail, complementing a data-driven approach.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How do I create a dashboard in Google Analytics?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How do I get to the Google Analytics dashboard?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Analytics Mania - Google Analytics & Tag Manager",
+                  "title": "How to build custom reports in Google Analytics 4 (2025)?",
+                  "timestamp": "2025-04-22 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=8HTzMfiNAdE"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Leon Korteweg",
+                  "title": "Your first dashboard in GA4: An easy and step-by-step guide ...",
+                  "timestamp": "2023-06-08 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=y7a3emSHAFM"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Digital Growth Tutor",
+                  "title": "Google Analytics Dashboard Explained for Beginners (GA4 ...",
+                  "timestamp": "2026-03-06 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=WpzkNlSS0EM"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+              "domain": "tagmanager.google.com",
+              "title": "Google Analytics",
+              "url": "https://tagmanager.google.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://tagmanager.google.com",
+              "website_name": "Google",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Google Analytics lets you measure your advertising ROI as well as track your Flash, video, and social networking sites and applications.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Analytics"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "www.annielytics.com",
+              "title": "A Marketer's Guide to Google Analytics Dashboards",
+              "url": "https://www.annielytics.com/guides/a-marketers-guide-to-google-analytics-dashboards/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.annielytics.com \u203a Guides",
+              "website_name": "annielytics.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Google Analytics dashboards allow you to filter within a widget to get just what you need. For example, in the widget that shows a breakdown of social networks,\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Analytics dashboards"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "datastudio.google.com",
+              "title": "Data Studio Overview - Google",
+              "url": "https://datastudio.google.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://datastudio.google.com",
+              "website_name": "Google",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Turn your data into compelling stories of data visualization art. Quickly build interactive reports and dashboards with Data Studio's web based reporting tools. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Quickly build interactive reports and dashboards"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Gallery",
+                  "description": null,
+                  "url": "https://datastudio.google.com/gallery",
+                  "domain": "datastudio.google.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Connect to",
+                  "description": null,
+                  "url": "https://datastudio.google.com/data",
+                  "domain": "datastudio.google.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Visualizations",
+                  "description": null,
+                  "url": "https://datastudio.google.com/visualization",
+                  "domain": "datastudio.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+              "domain": "databox.com",
+              "title": "Top 10 Essential Google Analytics Dashboards in GA4",
+              "url": "https://databox.com/10-google-analytics-dashboards-helped-550000-people",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://databox.com \u203a 10-google-analytics-dashboards-...",
+              "website_name": "Databox",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Google Analytics 4 dashboards provide quick, actionable insights into website performance. They help you: Save time by consolidating key metrics in one place. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Analytics 4 dashboards"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "How to Create a Google...",
+                  "description": null,
+                  "url": "https://databox.com/10-google-analytics-dashboards-helped-550000-people#create",
+                  "domain": "databox.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "How to Access a Google...",
+                  "description": null,
+                  "url": "https://databox.com/10-google-analytics-dashboards-helped-550000-people#access",
+                  "domain": "databox.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Best Google Analytics 4...",
+                  "description": null,
+                  "url": "https://databox.com/10-google-analytics-dashboards-helped-550000-people#templates",
+                  "domain": "databox.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[22]/div[1]/div[1]",
+              "domain": "improvado.io",
+              "title": "Google Analytics Dashboard: Complete GA4 Guide for 2026",
+              "url": "https://improvado.io/blog/google-analytics-dashboard",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://improvado.io \u203a Blog \u203a Dashboards",
+              "website_name": "Improvado",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Apr 30, 2026 \u2014 A Google Analytics dashboard is a customized view that consolidates your most important website metrics into a single report \u2014 sessions,\u00a0... Read more",
+              "pre_snippet": "04/30/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Analytics dashboard"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Key Takeaways",
+                  "description": null,
+                  "url": "https://improvado.io/blog/google-analytics-dashboard#key-takeaways",
+                  "domain": "improvado.io"
+                },
+                {
+                  "type": "link_element",
+                  "title": "What Is a Google Analytics 4...",
+                  "description": null,
+                  "url": "https://improvado.io/blog/google-analytics-dashboard#what-is-a-google-analytics-4-dashboard",
+                  "domain": "improvado.io"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Essential GA4 Dashboard...",
+                  "description": null,
+                  "url": "https://improvado.io/blog/google-analytics-dashboard#5-essential-ga4-dashboard-templates",
+                  "domain": "improvado.io"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-04-30 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Google Analytics login",
+                "Google analytics reporting dashboard template",
+                "Google analytics reporting dashboard ga4",
+                "Google Analytics 4",
+                "Google analytics reporting dashboard example",
+                "Google Tag Manager",
+                "Google Analytics 4 login",
+                "Google Analytics dashboard"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

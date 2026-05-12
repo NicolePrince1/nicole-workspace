@@ -1,0 +1,962 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.4100 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120925-3675-0139-0000-32331e2df1ff",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "4.3148 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "marketing reporting software",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "os": "windows",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "marketing reporting software",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=marketing%20reporting%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-05-12 06:25:59 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "video",
+            "related_searches"
+          ],
+          "se_results_count": 264000000,
+          "pages_count": 1,
+          "items_count": 12,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": "Marketing reporting software `automates the collection, visualization, and sharing of marketing data from multiple channels (like Google Ads, Facebook, and SEO) into a single, cohesive dashboard` . Top tools such as [DashThis](https://dashthis.com/), AgencyAnalytics, [Whatagraph](https://whatagraph.com/) , and Looker Studio streamline client reporting and performance analysis, saving time on manual data aggregation.[[1]](https://dashthis.com/marketing-reporting-software/)[[2]](https://twominutereports.com/marketing-reporting-software)[[3]](https://www.reddit.com/r/agency/comments/1i2o53q/reporting_tools_for_marketing_agencies/)[[4]](https://whatagraph.com/blog/articles/client-reporting-tools)[[5]](https://www.workamajig.com/blog/marketing-operations-management-software)\n\n**Top Marketing Reporting Software Solutions** \n\n- **DashThis:** Best for automated dashboards and easy-to-use templates for agencies.\n- **AgencyAnalytics:** Widely used for SEO and PPC, offering white-label dashboards and deep integrations.\n- **Whatagraph:** A modern, visual platform known for ease of use and automated, visually engaging reporting.\n- **[Databox](https://databox.com/report-software/marketing):** Ideal for real-time monitoring and tracking performance across multiple devices.\n- **Looker Studio (formerly Google Data Studio):** A robust free tool excellent for Google-centric data, though it may require manual, complex setups for third-party integrations.\n- **Oviond:** Strong choice for managing multiple clients with custom dashboards.[](https://www.reddit.com/r/agency/comments/1i2o53q/reporting_tools_for_marketing_agencies/#:~:text=AgencyAnalytics%20for%20Reporting:%20AgencyAnalytics%20is%20a%20widely,can%20be%20found%20at%20a%20lower%20price.) [[1]](https://www.reddit.com/r/agency/comments/1i2o53q/reporting_tools_for_marketing_agencies/)[[2]](https://dashthis.com/)[[3]](https://dashthis.com/marketing-reporting-software/)[[4]](https://whatagraph.com/blog/articles/marketing-reporting-software)[[5]](https://whatagraph.com/marketing-reporting-software)[[6]](https://databox.com/report-software/marketing)[[7]](https://www.youtube.com/watch?v=MBc5kbBwlDA&t=758)[[8]](https://www.youtube.com/watch?v=S461KfdooZE&t=100)[[9]](https://www.oviond.com/)[[10]](https://www.oviond.com/7-powerful-digital-marketing-reporting-platforms-to-bring-your-data-to-life/)\n\n**Key Features to Consider** \n\n- **Automated Data Gathering:** Eliminates manual exporting and importing.\n- **Customizable Dashboards:** Allows branding with logos and custom metrics.\n- **Integrations:** Connects to 30+ to 150+ sources like PPC, SEO, and social platforms.\n- **White-label Reports:** Enables agencies to rebrand reports as their own.\n- **Data Accuracy & Analytics:** Highlights campaign performance and Anomalies.[](https://whatagraph.com/marketing-reporting-software#:~:text=Marketing%20reporting%20software%20connects%20your%20performance%20data,platforms%20*%20Highlights%20anomalies%20in%20account%20health) [[1]](https://whatagraph.com/marketing-reporting-software)[[2]](https://dashthis.com/)[[3]](https://www.youtube.com/watch?v=5rw665A3mHE&t=130)[[4]](https://www.oviond.com/7-powerful-digital-marketing-reporting-platforms-to-bring-your-data-to-life/)[[5]](https://www.youtube.com/watch?v=S461KfdooZE&t=100)[[6]](https://www.clicdata.com/sector/marketing-agencies/)\n\n**When to Choose Which** \n\n- **For Agencies (Small-to-Mid):** DashThis or Oviond.\n- **For Large Agencies needing Comprehensive Reporting:** AgencyAnalytics or Whatagraph.\n- **For Tight Budgets:** Looker Studio or Windsor.ai (free plans).\n- **For Social Media Focus:** Hootsuite.[](https://www.reddit.com/r/agency/comments/1i2o53q/reporting_tools_for_marketing_agencies/#:~:text=AgencyAnalytics%20for%20Reporting:%20AgencyAnalytics%20is%20a%20widely,can%20be%20found%20at%20a%20lower%20price.) [[1]](https://www.reddit.com/r/agency/comments/1i2o53q/reporting_tools_for_marketing_agencies/)[[2]](https://dashthis.com/)[[3]](https://www.oviond.com/)[[4]](https://whatagraph.com/blog/articles/marketing-reporting-software)[[5]](https://www.youtube.com/watch?v=S461KfdooZE&t=100)[[6]](https://www.youtube.com/watch?v=5rw665A3mHE&t=130)[[7]](https://www.hootsuite.com/)\n\nThese platforms often provide white-label features, allowing agencies to customize reports with their own branding to enhance client trust.[](https://www.clicdata.com/sector/marketing-agencies/) [[1]](https://www.clicdata.com/sector/marketing-agencies/)[[2]](https://www.oviond.com/7-powerful-digital-marketing-reporting-platforms-to-bring-your-data-to-life/)",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Marketing reporting software automates the collection, visualization, and sharing of marketing data from multiple channels (like Google Ads, Facebook, and SEO) into a single, cohesive dashboard. Top tools such as DashThis, AgencyAnalytics, Whatagraph, and Looker Studio streamline client reporting and performance analysis, saving time on manual data aggregation.",
+                  "markdown": "Marketing reporting software `automates the collection, visualization, and sharing of marketing data from multiple channels (like Google Ads, Facebook, and SEO) into a single, cohesive dashboard` . Top tools such as [DashThis](https://dashthis.com/), AgencyAnalytics, [Whatagraph](https://whatagraph.com/) , and Looker Studio streamline client reporting and performance analysis, saving time on manual data aggregation.[[1]](https://dashthis.com/marketing-reporting-software/)[[2]](https://twominutereports.com/marketing-reporting-software)[[3]](https://www.reddit.com/r/agency/comments/1i2o53q/reporting_tools_for_marketing_agencies/)[[4]](https://whatagraph.com/blog/articles/client-reporting-tools)[[5]](https://www.workamajig.com/blog/marketing-operations-management-software)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "DashThis",
+                      "description": null,
+                      "url": "https://dashthis.com/",
+                      "domain": "dashthis.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Whatagraph",
+                      "description": null,
+                      "url": "https://whatagraph.com/",
+                      "domain": "whatagraph.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "DashThis",
+                      "domain": "dashthis.com",
+                      "url": "https://dashthis.com/marketing-reporting-software/",
+                      "title": "Marketing Reporting Software For Agencies & Businesses - DashThis",
+                      "text": "Your new, all-in-one marketing reporting software * Automate your marketing reporting. You measure your digital marketing strategi..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Two Minute Reports",
+                      "domain": "twominutereports.com",
+                      "url": "https://twominutereports.com/marketing-reporting-software",
+                      "title": "Marketing Reporting Software for Agencies & Marketers",
+                      "text": "Frequently Asked Questions Marketing reporting software enables marketers to collect, visualize, and share performance data from m..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/agency/comments/1i2o53q/reporting_tools_for_marketing_agencies/",
+                      "title": "Reporting tools for marketing agencies? - Reddit",
+                      "text": "AgencyAnalytics for Reporting: AgencyAnalytics is a widely used reporting tool for marketing agencies, praised for its extensive i..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Whatagraph",
+                      "domain": "whatagraph.com",
+                      "url": "https://whatagraph.com/blog/articles/client-reporting-tools",
+                      "title": "9 Best Client Reporting Tools Marketing Agencies Love in 2025",
+                      "text": "2. Looker Studio Your browser can't play this video. An error occurred. Try watching this video on www.youtube.com, or enable Java..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Workamajig",
+                      "domain": "www.workamajig.com",
+                      "url": "https://www.workamajig.com/blog/marketing-operations-management-software",
+                      "title": "Best Marketing Operations Management Software (2026)",
+                      "text": "AgencyAnalytics is a powerful analytics and reporting tool that helps MOps teams automate campaign monitoring, improve forecasting..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Top Marketing Reporting Software Solutions",
+                  "text": "DashThis : Best for automated dashboards and easy-to-use templates for agencies. DashThis AgencyAnalytics : Widely used for SEO and PPC, offering white-label dashboards and deep integrations. AgencyAnalytics Whatagraph : A modern, visual platform known for ease of use and automated, visually engaging reporting. Whatagraph Databox : Ideal for real-time monitoring and tracking performance across multiple devices. Looker Studio (formerly Google Data Studio) : A robust free tool excellent for Google-centric data, though it may require manual, complex setups for third-party integrations. Looker Studio (formerly Google Data Studio) Oviond : Strong choice for managing multiple clients with custom dashboards. Oviond",
+                  "markdown": "- **DashThis:** Best for automated dashboards and easy-to-use templates for agencies.\n- **AgencyAnalytics:** Widely used for SEO and PPC, offering white-label dashboards and deep integrations.\n- **Whatagraph:** A modern, visual platform known for ease of use and automated, visually engaging reporting.\n- **[Databox](https://databox.com/report-software/marketing):** Ideal for real-time monitoring and tracking performance across multiple devices.\n- **Looker Studio (formerly Google Data Studio):** A robust free tool excellent for Google-centric data, though it may require manual, complex setups for third-party integrations.\n- **Oviond:** Strong choice for managing multiple clients with custom dashboards.[](https://www.reddit.com/r/agency/comments/1i2o53q/reporting_tools_for_marketing_agencies/#:~:text=AgencyAnalytics%20for%20Reporting:%20AgencyAnalytics%20is%20a%20widely,can%20be%20found%20at%20a%20lower%20price.) [[1]](https://www.reddit.com/r/agency/comments/1i2o53q/reporting_tools_for_marketing_agencies/)[[2]](https://dashthis.com/)[[3]](https://dashthis.com/marketing-reporting-software/)[[4]](https://whatagraph.com/blog/articles/marketing-reporting-software)[[5]](https://whatagraph.com/marketing-reporting-software)[[6]](https://databox.com/report-software/marketing)[[7]](https://www.youtube.com/watch?v=MBc5kbBwlDA&t=758)[[8]](https://www.youtube.com/watch?v=S461KfdooZE&t=100)[[9]](https://www.oviond.com/)[[10]](https://www.oviond.com/7-powerful-digital-marketing-reporting-platforms-to-bring-your-data-to-life/)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Databox",
+                      "description": null,
+                      "url": "https://databox.com/report-software/marketing",
+                      "domain": "databox.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/agency/comments/1i2o53q/reporting_tools_for_marketing_agencies/",
+                      "title": "Reporting tools for marketing agencies? - Reddit",
+                      "text": "AgencyAnalytics for Reporting: AgencyAnalytics is a widely used reporting tool for marketing agencies, praised for its extensive i..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "DashThis",
+                      "domain": "dashthis.com",
+                      "url": "https://dashthis.com/",
+                      "title": "Marketing Reporting Software: Automated Dashboards for Agencies",
+                      "text": "DashThis automates marketing reports for agencies and teams. Connect 30+ tools into client-ready dashboards in minutes. Try free f..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "DashThis",
+                      "domain": "dashthis.com",
+                      "url": "https://dashthis.com/marketing-reporting-software/",
+                      "title": "Marketing Reporting Software For Agencies & Businesses - DashThis",
+                      "text": "Your new, all-in-one marketing reporting software * Automate your marketing reporting. You measure your digital marketing strategi..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Whatagraph",
+                      "domain": "whatagraph.com",
+                      "url": "https://whatagraph.com/blog/articles/marketing-reporting-software",
+                      "title": "9 Best Marketing Reporting Software for Agencies in 2025",
+                      "text": "Whatagraph is a holistic marketing intelligence platform that makes it ridiculously easy to collect, analyze, and report on your m..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Whatagraph",
+                      "domain": "whatagraph.com",
+                      "url": "https://whatagraph.com/marketing-reporting-software",
+                      "title": "Marketing Reporting Software: Automated Tool for Agencies & Brands | Whatagraph",
+                      "text": "Marketing reporting software connects your performance data from different channels into one place. It can help you: * **Create re..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Databox",
+                      "domain": "databox.com",
+                      "url": "https://databox.com/report-software/marketing",
+                      "title": "Marketing Reporting Software for Modern Teams | Databox",
+                      "text": "Ditch the back-and-forth with Databox\u2014a digital reporting tool that allows you to track & visualize marketing performance in one p..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=MBc5kbBwlDA&t=758",
+                      "title": "Marketing Data 101: Marketing Data Reporting Automation",
+                      "text": "Looker Studio is a tool that integrates well with the Google suite, including BigQuery and advertising platforms, for data visuali..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=S461KfdooZE&t=100",
+                      "title": "The 10 BEST Marketing Agency Reporting Software for SEO & PPC ...",
+                      "text": "let's start with the free option Looker Studio formerly Google Data Studio. it lets you build fully custom dashboards blend metric..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Oviond",
+                      "domain": "www.oviond.com",
+                      "url": "https://www.oviond.com/",
+                      "title": "Oviond: Simple Marketing Reporting Software For Agencies",
+                      "text": "Some say that Oviond is a great option for viewing things like Google Analytics and Search Console data. However, others say that ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Oviond",
+                      "domain": "www.oviond.com",
+                      "url": "https://www.oviond.com/7-powerful-digital-marketing-reporting-platforms-to-bring-your-data-to-life/",
+                      "title": "7 Powerful Digital Marketing Reporting Platforms To Bring Your Data To Life | Oviond",
+                      "text": "Oviond is a platform with reporting, monitoring, and analysis tools. It offers a variety of features, including: * **Reporting** A..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Key Features to Consider",
+                  "text": "Automated Data Gathering: Eliminates manual exporting and importing. Customizable Dashboards: Allows branding with logos and custom metrics. Integrations: Connects to 30+ to 150+ sources like PPC, SEO, and social platforms. White-label Reports: Enables agencies to rebrand reports as their own. Data Accuracy & Analytics: Highlights campaign performance and Anomalies.",
+                  "markdown": "- **Automated Data Gathering:** Eliminates manual exporting and importing.\n- **Customizable Dashboards:** Allows branding with logos and custom metrics.\n- **Integrations:** Connects to 30+ to 150+ sources like PPC, SEO, and social platforms.\n- **White-label Reports:** Enables agencies to rebrand reports as their own.\n- **Data Accuracy & Analytics:** Highlights campaign performance and Anomalies.[](https://whatagraph.com/marketing-reporting-software#:~:text=Marketing%20reporting%20software%20connects%20your%20performance%20data,platforms%20*%20Highlights%20anomalies%20in%20account%20health) [[1]](https://whatagraph.com/marketing-reporting-software)[[2]](https://dashthis.com/)[[3]](https://www.youtube.com/watch?v=5rw665A3mHE&t=130)[[4]](https://www.oviond.com/7-powerful-digital-marketing-reporting-platforms-to-bring-your-data-to-life/)[[5]](https://www.youtube.com/watch?v=S461KfdooZE&t=100)[[6]](https://www.clicdata.com/sector/marketing-agencies/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Whatagraph",
+                      "domain": "whatagraph.com",
+                      "url": "https://whatagraph.com/marketing-reporting-software",
+                      "title": "Marketing Reporting Software: Automated Tool for Agencies & Brands | Whatagraph",
+                      "text": "Marketing reporting software connects your performance data from different channels into one place. It can help you: * **Create re..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "DashThis",
+                      "domain": "dashthis.com",
+                      "url": "https://dashthis.com/",
+                      "title": "Marketing Reporting Software: Automated Dashboards for Agencies",
+                      "text": "DashThis automates marketing reports for agencies and teams. Connect 30+ tools into client-ready dashboards in minutes. Try free f..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=5rw665A3mHE&t=130",
+                      "title": "11 Best Digital Analytics Tools in 2025 (Ranked by Categores & Use ...",
+                      "text": "this is invaluable for businesses as it eliminates the need for manual data imports. and exports windsor seamlessly integrates wit..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Oviond",
+                      "domain": "www.oviond.com",
+                      "url": "https://www.oviond.com/7-powerful-digital-marketing-reporting-platforms-to-bring-your-data-to-life/",
+                      "title": "7 Powerful Digital Marketing Reporting Platforms To Bring Your Data To Life | Oviond",
+                      "text": "Oviond is a platform with reporting, monitoring, and analysis tools. It offers a variety of features, including: * **Reporting** A..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=S461KfdooZE&t=100",
+                      "title": "The 10 BEST Marketing Agency Reporting Software for SEO & PPC ...",
+                      "text": "let's start with the free option Looker Studio formerly Google Data Studio. it lets you build fully custom dashboards blend metric..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "ClicData",
+                      "domain": "www.clicdata.com",
+                      "url": "https://www.clicdata.com/sector/marketing-agencies/",
+                      "title": "Client Reporting Tool for Marketing Agencies - ClicData",
+                      "text": "Marketing Reporting Tool & Dashboard Software for Mid-Market Agencies. Centralize your clients' data, automate marketing reports, ..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "When to Choose Which",
+                  "text": "For Agencies (Small-to-Mid): DashThis or Oviond. DashThis Oviond For Large Agencies needing Comprehensive Reporting: AgencyAnalytics or Whatagraph. AgencyAnalytics Whatagraph For Tight Budgets: Looker Studio or Windsor.ai (free plans). Looker Studio Windsor.ai For Social Media Focus: Hootsuite. Hootsuite",
+                  "markdown": "- **For Agencies (Small-to-Mid):** DashThis or Oviond.\n- **For Large Agencies needing Comprehensive Reporting:** AgencyAnalytics or Whatagraph.\n- **For Tight Budgets:** Looker Studio or Windsor.ai (free plans).\n- **For Social Media Focus:** Hootsuite.[](https://www.reddit.com/r/agency/comments/1i2o53q/reporting_tools_for_marketing_agencies/#:~:text=AgencyAnalytics%20for%20Reporting:%20AgencyAnalytics%20is%20a%20widely,can%20be%20found%20at%20a%20lower%20price.) [[1]](https://www.reddit.com/r/agency/comments/1i2o53q/reporting_tools_for_marketing_agencies/)[[2]](https://dashthis.com/)[[3]](https://www.oviond.com/)[[4]](https://whatagraph.com/blog/articles/marketing-reporting-software)[[5]](https://www.youtube.com/watch?v=S461KfdooZE&t=100)[[6]](https://www.youtube.com/watch?v=5rw665A3mHE&t=130)[[7]](https://www.hootsuite.com/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/agency/comments/1i2o53q/reporting_tools_for_marketing_agencies/",
+                      "title": "Reporting tools for marketing agencies? - Reddit",
+                      "text": "AgencyAnalytics for Reporting: AgencyAnalytics is a widely used reporting tool for marketing agencies, praised for its extensive i..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "DashThis",
+                      "domain": "dashthis.com",
+                      "url": "https://dashthis.com/",
+                      "title": "Marketing Reporting Software: Automated Dashboards for Agencies",
+                      "text": "DashThis automates marketing reports for agencies and teams. Connect 30+ tools into client-ready dashboards in minutes. Try free f..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Oviond",
+                      "domain": "www.oviond.com",
+                      "url": "https://www.oviond.com/",
+                      "title": "Oviond: Simple Marketing Reporting Software For Agencies",
+                      "text": "Some say that Oviond is a great option for viewing things like Google Analytics and Search Console data. However, others say that ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Whatagraph",
+                      "domain": "whatagraph.com",
+                      "url": "https://whatagraph.com/blog/articles/marketing-reporting-software",
+                      "title": "9 Best Marketing Reporting Software for Agencies in 2025",
+                      "text": "Whatagraph is a holistic marketing intelligence platform that makes it ridiculously easy to collect, analyze, and report on your m..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=S461KfdooZE&t=100",
+                      "title": "The 10 BEST Marketing Agency Reporting Software for SEO & PPC ...",
+                      "text": "let's start with the free option Looker Studio formerly Google Data Studio. it lets you build fully custom dashboards blend metric..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=5rw665A3mHE&t=130",
+                      "title": "11 Best Digital Analytics Tools in 2025 (Ranked by Categores & Use ...",
+                      "text": "this is invaluable for businesses as it eliminates the need for manual data imports. and exports windsor seamlessly integrates wit..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Hootsuite",
+                      "domain": "www.hootsuite.com",
+                      "url": "https://www.hootsuite.com/",
+                      "title": "Hootsuite: Social Media Marketing and Management Tool",
+                      "text": "Hootsuite is a social media management tool that brings scheduling, content creation, analytics, and social listening to one place..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "These platforms often provide white-label features, allowing agencies to customize reports with their own branding to enhance client trust. ClicData +1",
+                  "markdown": "These platforms often provide white-label features, allowing agencies to customize reports with their own branding to enhance client trust.[](https://www.clicdata.com/sector/marketing-agencies/) [[1]](https://www.clicdata.com/sector/marketing-agencies/)[[2]](https://www.oviond.com/7-powerful-digital-marketing-reporting-platforms-to-bring-your-data-to-life/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "ClicData",
+                      "domain": "www.clicdata.com",
+                      "url": "https://www.clicdata.com/sector/marketing-agencies/",
+                      "title": "Client Reporting Tool for Marketing Agencies - ClicData",
+                      "text": "Marketing Reporting Tool & Dashboard Software for Mid-Market Agencies. Centralize your clients' data, automate marketing reports, ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Oviond",
+                      "domain": "www.oviond.com",
+                      "url": "https://www.oviond.com/7-powerful-digital-marketing-reporting-platforms-to-bring-your-data-to-life/",
+                      "title": "7 Powerful Digital Marketing Reporting Platforms To Bring Your Data To Life | Oviond",
+                      "text": "Oviond is a platform with reporting, monitoring, and analysis tools. It offers a variety of features, including: * **Reporting** A..."
+                    }
+                  ]
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Reddit",
+                  "domain": "www.reddit.com",
+                  "url": "https://www.reddit.com/r/agency/comments/1i2o53q/reporting_tools_for_marketing_agencies/",
+                  "title": "Reporting tools for marketing agencies? - Reddit",
+                  "text": "AgencyAnalytics for Reporting: AgencyAnalytics is a widely used reporting tool for marketing agencies, praised for its extensive i..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Whatagraph",
+                  "domain": "whatagraph.com",
+                  "url": "https://whatagraph.com/marketing-reporting-software",
+                  "title": "Marketing Reporting Software: Automated Tool for Agencies & Brands | Whatagraph",
+                  "text": "Marketing reporting software connects your performance data from different channels into one place. It can help you: * **Create re..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "DashThis",
+                  "domain": "dashthis.com",
+                  "url": "https://dashthis.com/",
+                  "title": "Marketing Reporting Software: Automated Dashboards for Agencies",
+                  "text": "DashThis automates marketing reports for agencies and teams. Connect 30+ tools into client-ready dashboards in minutes. Try free f..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "DashThis",
+                  "domain": "dashthis.com",
+                  "url": "https://dashthis.com/marketing-reporting-software/",
+                  "title": "Marketing Reporting Software For Agencies & Businesses - DashThis",
+                  "text": "Your new, all-in-one marketing reporting software * Automate your marketing reporting. You measure your digital marketing strategi..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Oviond",
+                  "domain": "www.oviond.com",
+                  "url": "https://www.oviond.com/",
+                  "title": "Oviond: Simple Marketing Reporting Software For Agencies",
+                  "text": "Some say that Oviond is a great option for viewing things like Google Analytics and Search Console data. However, others say that ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Databox",
+                  "domain": "databox.com",
+                  "url": "https://databox.com/report-software/marketing",
+                  "title": "Marketing Reporting Software for Modern Teams | Databox",
+                  "text": "Ditch the back-and-forth with Databox\u2014a digital reporting tool that allows you to track & visualize marketing performance in one p..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Whatagraph",
+                  "domain": "whatagraph.com",
+                  "url": "https://whatagraph.com/blog/articles/marketing-reporting-software",
+                  "title": "9 Best Marketing Reporting Software for Agencies in 2025",
+                  "text": "Whatagraph is a holistic marketing intelligence platform that makes it ridiculously easy to collect, analyze, and report on your m..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "ClicData",
+                  "domain": "www.clicdata.com",
+                  "url": "https://www.clicdata.com/sector/marketing-agencies/",
+                  "title": "Client Reporting Tool for Marketing Agencies - ClicData",
+                  "text": "Marketing Reporting Tool & Dashboard Software for Mid-Market Agencies. Centralize your clients' data, automate marketing reports, ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=S461KfdooZE&t=100",
+                  "title": "The 10 BEST Marketing Agency Reporting Software for SEO & PPC ...",
+                  "text": "let's start with the free option Looker Studio formerly Google Data Studio. it lets you build fully custom dashboards blend metric..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Oviond",
+                  "domain": "www.oviond.com",
+                  "url": "https://www.oviond.com/7-powerful-digital-marketing-reporting-platforms-to-bring-your-data-to-life/",
+                  "title": "7 Powerful Digital Marketing Reporting Platforms To Bring Your Data To Life | Oviond",
+                  "text": "Oviond is a platform with reporting, monitoring, and analysis tools. It offers a variety of features, including: * **Reporting** A..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Hootsuite",
+                  "domain": "www.hootsuite.com",
+                  "url": "https://www.hootsuite.com/",
+                  "title": "Hootsuite: Social Media Marketing and Management Tool",
+                  "text": "Hootsuite is a social media management tool that brings scheduling, content creation, analytics, and social listening to one place..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=5rw665A3mHE&t=130",
+                  "title": "11 Best Digital Analytics Tools in 2025 (Ranked by Categores & Use ...",
+                  "text": "this is invaluable for businesses as it eliminates the need for manual data imports. and exports windsor seamlessly integrates wit..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=MBc5kbBwlDA&t=758",
+                  "title": "Marketing Data 101: Marketing Data Reporting Automation",
+                  "text": "Looker Studio is a tool that integrates well with the Google suite, including BigQuery and advertising platforms, for data visuali..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "improvado.io",
+              "title": "The Ultimate Guide to Marketing Reporting Tools for 2026",
+              "url": "https://improvado.io/blog/marketing-reporting-software",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://improvado.io \u203a Blog \u203a Performance",
+              "website_name": "Improvado",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Apr 6, 2026 \u2014 Improvado is one of the best marketing reporting software solutions designed for enterprise-grade companies and large-scale marketing agencies. Read more",
+              "pre_snippet": "04/06/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Improvado"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Key Features to Look for in...",
+                  "description": null,
+                  "url": "https://improvado.io/blog/marketing-reporting-software#key-features-to-look-for-in-marketing-reporting-software",
+                  "domain": "improvado.io"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Comparison of the Top 10...",
+                  "description": null,
+                  "url": "https://improvado.io/blog/marketing-reporting-software#comparison-of-the-top-10-marketing-reporting-tools-for-2026",
+                  "domain": "improvado.io"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-04-06 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "domain": "dashthis.com",
+              "title": "Marketing Reporting Software: Automated Dashboards for ...",
+              "url": "https://dashthis.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://dashthis.com",
+              "website_name": "DashThis",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "DashThis automates marketing reports for agencies and teams. Connect 30+ tools into client-ready dashboards in minutes. Try free for 14 days.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "This automates marketing reports for agencies and teams"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Reporting tools for marketing agencies?",
+              "url": "https://www.reddit.com/r/agency/comments/1i2o53q/reporting_tools_for_marketing_agencies/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "80+ comments  \u00b7  1 year ago",
+              "website_name": "Reddit\u00a0\u00b7\u00a0r/agency",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "If you run campaigns for clients across platforms like Google Ads, Meta Ads, or others, how do you handle reporting? Do your clients ask for these reports? ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "What Reporting Tools do You Use? : r/marketing ...",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/marketing/comments/z2wt0w/what_reporting_tools_do_you_use/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "What are the best client reporting tools that you are ...",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/DigitalMarketing/comments/1p0fwi7/what_are_the_best_client_reporting_tools_that_you/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "More results from www.reddit.com",
+                  "description": null,
+                  "url": "https://www.google.com/search?q=marketing+reporting+software+site:www.reddit.com&sca_esv=89f358ba4e2fcd04&hl=en&gl=US&sa=X&ved=2ahUKEwjk88T9jrOUAxUWJEQIHSWzJbkQrQIoAnoECCQQAw",
+                  "domain": "www.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "www.oviond.com",
+              "title": "Oviond: Simple Marketing Reporting Software For Agencies",
+              "url": "https://www.oviond.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.oviond.com",
+              "website_name": "Oviond",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Simplify marketing reporting with software designed for agencies. Automate branded reports from 50+ platforms, save time, and impress clients today!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Automate branded reports from 50+ platforms"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "www.tapclicks.com",
+              "title": "Marketing Agency Reporting Tools: What to Consider (+ 6 ...",
+              "url": "https://www.tapclicks.com/blog/marketing-agency-reporting-tools",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.tapclicks.com \u203a blog \u203a marketing-agency-r...",
+              "website_name": "TapClicks",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "A well-designed marketing agency reporting software can integrate with various platforms to pull data, apply data visualization, and generate structured reports\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "can integrate with various platforms"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Leadsie",
+                  "title": "The 10 BEST Marketing Agency Reporting Software for SEO ...",
+                  "timestamp": "2026-02-12 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=S461KfdooZE"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Coupler\u2024io Academy",
+                  "title": "Top 14 Marketing Reporting Templates in 2026",
+                  "timestamp": "2024-04-04 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=NvV5f81z_CY"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Business Solution",
+                  "title": "11 Best Digital Analytics Tools in 2025 (Ranked by Categores ...",
+                  "timestamp": "2024-09-26 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=5rw665A3mHE"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+              "domain": "www.swydo.com",
+              "title": "Swydo: Automated Marketing Reporting and Monitoring Platform",
+              "url": "https://www.swydo.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.swydo.com",
+              "website_name": "Swydo",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Google Ads, PPC, SEO and Analytics automated reporting tool for online marketers. Save time and show your impact. Try it for free today!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Ads, PPC, SEO and Analytics automated reporting tool"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "www.cometly.com",
+              "title": "Best Automated Marketing Reporting Software Guide 2026",
+              "url": "https://www.cometly.com/post/automated-marketing-reporting-software",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.cometly.com \u203a post \u203a automated-marketing...",
+              "website_name": "Cometly",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Apr 29, 2026 \u2014 Discover the 9 best automated marketing reporting software tools that eliminate manual data work and deliver real-time insights across all\u00a0...",
+              "pre_snippet": "04/29/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "automated marketing reporting software tools"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-04-29 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "databox.com",
+              "title": "Marketing Reporting Software for Modern Teams",
+              "url": "https://databox.com/report-software/marketing",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://databox.com \u203a report-software \u203a marketing",
+              "website_name": "Databox",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Databox allows you to visualize, analyze, and report on marketing performance all in one place, so that you can go beyond the numbers and share an insightful\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "visualize, analyze, and report on marketing performance"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+              "domain": "www.fifteendesign.co.uk",
+              "title": "6 of the best digital marketing reporting tools - Fifteen Design",
+              "url": "https://www.fifteendesign.co.uk/blog/6-of-the-best-digital-marketing-reporting-tools/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.fifteendesign.co.uk \u203a blog \u203a 6-of-the-best-...",
+              "website_name": "fifteendesign.co.uk",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Formerly known as Google Data Studio, Looker Studio is a flexible, powerful, and completely free marketing reporting tool. You can build interactive dashboards\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Looker Studio"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Marketing reporting software free",
+                "Best digital marketing reporting software",
+                "Best marketing reporting software",
+                "Digital marketing reporting tools",
+                "Hootsuite",
+                "Digital marketing dashboard",
+                "Free social media management tools",
+                "Marketing dashboard examples"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

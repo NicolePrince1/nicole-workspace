@@ -1,0 +1,537 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.9072 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120926-3675-0139-0000-bb9634ff45cf",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.7934 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "marketing reporting template",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "os": "windows",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "marketing reporting template",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=marketing%20reporting%20template&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-05-12 06:26:05 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "images",
+            "video",
+            "related_searches"
+          ],
+          "se_results_count": 241000000,
+          "pages_count": 1,
+          "items_count": 11,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.canva.com",
+              "title": "Free printable editable marketing report templates",
+              "url": "https://www.canva.com/reports/templates/marketing/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.canva.com \u203a Report templates",
+              "website_name": "Canva",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Create a comprehensive and presentable marketing report with Canva's free templates you can personalize in minutes and easily share with clients.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Canva's free templates"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "offers.hubspot.com",
+              "title": "Monthly Marketing Reporting Templates",
+              "url": "https://offers.hubspot.com/monthly-marketing-reporting-template",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://offers.hubspot.com \u203a monthly-marketing-reporti...",
+              "website_name": "HubSpot",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Keep track of your marketing data to make more informed decisions. Download our free Monthly Marketing Reporting Templates and focus on your marketing ROI\u00a0...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "marketing reporting template from offers.hubspot.com",
+                  "url": "https://offers.hubspot.com/monthly-marketing-reporting-template",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-bb9634ff45cf:0"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Download our free Monthly Marketing Reporting Templates"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "domain": "www.smartsheet.com",
+              "title": "Free Marketing Report Templates",
+              "url": "https://www.smartsheet.com/content/marketing-report-templates?srsltid=AfmBOoq8UKtV8e35FHH0HJ-lXh57NVoJWjh9ezZN81OW4eiO9YE5Mewo",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.smartsheet.com \u203a content \u203a marketing-repo...",
+              "website_name": "Smartsheet",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Dec 10, 2023 \u2014 Download free marketing report templates in Excel, Microsoft Word, PowerPoint, Adobe PDF, Google Sheets, Docs, and Slides formats.",
+              "pre_snippet": "12/10/2023 00:00:00",
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "marketing reporting template from www.smartsheet.com",
+                  "url": "https://www.smartsheet.com/content/marketing-report-templates?srsltid=AfmBOoq8UKtV8e35FHH0HJ-lXh57NVoJWjh9ezZN81OW4eiO9YE5Mewo",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-bb9634ff45cf:1"
+                }
+              ],
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Download free marketing report templates"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Basic Marketing Report...",
+                  "description": null,
+                  "url": "https://www.smartsheet.com/content/marketing-report-templates#basic-marketing-report-template",
+                  "domain": "www.smartsheet.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "End-of-Year Marketing Report...",
+                  "description": null,
+                  "url": "https://www.smartsheet.com/content/marketing-report-templates#end-of-year-marketing-report-template",
+                  "domain": "www.smartsheet.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2023-12-10 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]",
+              "title": "Images",
+              "url": "https://www.google.com/search?sca_esv=89f358ba4e2fcd04&hl=en&gl=US&q=marketing+reporting+template&udm=2&source=univ&fir=vW7ynoDJVV2bZM%252Ci1b2bFMX8gPdLM%252C_%253BAKcjSIr31kt-UM%252CDDDUStrmpw-kkM%252C_%253BQpJtkUGDZssJSM%252C1MVJpzITGr-0zM%252C_%253B5z-UsxCaaX8LaM%252CZj_fw0Q89cgJCM%252C_%253BsfOylTOOj82-JM%252CZdfW0vgUvOX29M%252C_%253Be2VCXZZnWB_2QM%252C9lqF3aTuKbn_0M%252C_%253BcEQlMHxPtw-fNM%252CMWaBv6R2BXkQ1M%252C_%253BNHFK7b5HUj6T5M%252C4KF4Hd-hTfcL6M%252C_%253BQs-pzUg6UhnwIM%252CsU2D-hn0dWJfIM%252C_%253BiF_VtV2jZfdkvM%252Cdab7T7sEOTgN1M%252C_%253BABpCB2SKPtkZTM%252CfOclnUHUjvyXUM%252C_%253By29lHjabewTi7M%252CI504IR6uxWXBdM%252C_&usg=AI4_-kQt_2-178LTqyP6lWZkMZwRLnmNcA&sa=X&ved=2ahUKEwjuj7GAj7OUAxWRElkFHXfrAfkQ7Al6BAghEAU",
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "Free Quarterly Marketing Report Templates",
+                  "url": "https://www.smartsheet.com/content/quarterly-marketing-report-template?srsltid=AfmBOopw7YF7UvWvp6OPN8sILQ0A_uVTNoVeLbJz5RweZkHGQ7ydtAB_",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-bb9634ff45cf:2"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "How to Build a Marketing Report Quickly (Free Template ...",
+                  "url": "https://coschedule.com/blog/marketing-report-template",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-bb9634ff45cf:3"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "7 Marketing Report Templates Every Marketer Needs | DashThis",
+                  "url": "https://dashthis.com/blog/7-marketing-report-templates-every-digital-marketer-needs/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-bb9634ff45cf:4"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Free Monthly Marketing Report Templates",
+                  "url": "https://www.smartsheet.com/content/monthly-marketing-report-templates?srsltid=AfmBOoq79MlSoCvSGYt8SWvhOS5iaR1FeVtho3eq9WF2A3hO7JQ3jnE4",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-bb9634ff45cf:5"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Free marketing report templates for teams and agencies (2026)",
+                  "url": "https://portermetrics.com/en/report-templates/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-bb9634ff45cf:6"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "7 Free Marketing Report Templates & How to Use Them",
+                  "url": "https://www.semrush.com/blog/marketing-report-templates-and-examples/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-bb9634ff45cf:7"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Monthly Marketing Reporting Templates - Free Download",
+                  "url": "https://offers.hubspot.com/monthly-marketing-reporting-template",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8LIYhyNrWzn_-XUKPS_EyDxzN_lQ9NqirSAoqo4yDSyGafD6EOH-HFBs&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Marketing Report Template for Excel (Free Download)",
+                  "url": "https://www.projectmanager.com/templates/marketing-report-template",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgxVHuVWWBYRifhkpzqVBsb_QtCHjSsuqnWXfs8f1BF8PJV5g22fUi5rY&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Free Marketing Report Templates to Edit Online and Print",
+                  "url": "https://www.template.net/reports/marketing",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRTUGr9wMl-9I1F-UB9hIFnLoIfrELLblSGL3sMhP22AhLI_-dgTidcAM&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Refine Your Digital Marketing Report: Template & Steps",
+                  "url": "https://www.oneupweb.com/blog/digital-marketing-monthly-report-walkthrough-template/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtrAI9LIqjJaDC5ZNTNagxy8zJ-vtn47ZL3ykAwPjQovK7Dzg1IxIAG1k&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "11 Components of a Monthly Marketing Report [+ Templates]",
+                  "url": "https://www.adriel.com/blog/monthly-marketing-report",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7GzZgcNxpYcePzgujQ0F2wuZCZhWlMBzzH-Byni_d8lSMvIccfE04q_c&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Weekly Marketing Report Template - Venngage",
+                  "url": "https://venngage.com/templates/reports/weekly-marketing-report-template-4aa04846-46fb-4dc6-a6f0-f4ebd674b33d",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkUkX6baMdrIUxXAuty0P0jIrd_rXOlZt2xT-EOsp7OBdK7xVZfVknvhw&s"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "dashthis.com",
+              "title": "Marketing Reports: 7 Proven Examples & Templates",
+              "url": "https://dashthis.com/blog/7-marketing-report-examples/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://dashthis.com \u203a Blog \u203a Reporting",
+              "website_name": "DashThis",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Learn what a marketing report is, why it's essential, and see 7 real examples + ready-to-use templates.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "marketing reporting template from dashthis.com",
+                  "url": "https://dashthis.com/blog/7-marketing-report-examples/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-bb9634ff45cf:8"
+                }
+              ],
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 83,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "Learn what a marketing report is"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Coupler\u2024io Academy",
+                  "title": "Top 14 Marketing Reporting Templates in 2026",
+                  "timestamp": "2024-04-04 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=NvV5f81z_CY"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Sheets Ninja",
+                  "title": "Create Digital Marketing Report Dashboard in Google Sheets",
+                  "timestamp": "2024-11-06 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=Sj_xuHXkflI"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Funnel",
+                  "title": "5 Marketing Report Examples You Need in 2025 (and How to ...",
+                  "timestamp": "2025-08-25 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=KcIytLoJkTc"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+              "domain": "whatagraph.com",
+              "title": "9 Free Digital Marketing Report Templates to Save You Time",
+              "url": "https://whatagraph.com/blog/articles/digital-marketing-report-template",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://whatagraph.com \u203a blog \u203a articles \u203a digital-marke...",
+              "website_name": "Whatagraph",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Feb 12, 2026 \u2014 Stop wasting hours on manual reporting. Grab our free digital marketing report templates for SEO, PPC, and social media to automate your\u00a0...",
+              "pre_snippet": "02/12/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "free digital marketing report templates"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-02-12 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+              "domain": "portermetrics.com",
+              "title": "Free marketing report templates for teams and agencies (2026)",
+              "url": "https://portermetrics.com/en/report-templates/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://portermetrics.com \u203a report-templates",
+              "website_name": "portermetrics.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Copy and paste our free marketing report templates that you can get in PDF, Google Data Studio, and Google Sheets.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "free marketing report templates"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "www.adriel.com",
+              "title": "11 Components of a Monthly Marketing Report [+ Templates]",
+              "url": "https://www.adriel.com/blog/monthly-marketing-report",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.adriel.com \u203a blog \u203a monthly-marketing-re...",
+              "website_name": "Adriel AI",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Apr 17, 2024 \u2014 11 components of a powerful monthly marketing report \u00b7 1. Cover page \u00b7 2. Summary of key action items \u00b7 3. Goals \u00b7 4. Overview of current KPI\u00a0... Read more",
+              "pre_snippet": "04/17/2024 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "1. Cover page"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-04-17 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "databox.com",
+              "title": "15 Free Marketing Report Templates for Agencies in 2025",
+              "url": "https://databox.com/marketing-report-templates-helped-1000-marketers",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://databox.com \u203a marketing-report-templates-helpe...",
+              "website_name": "Databox",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Jun 5, 2025 \u2014 We've handpicked the 15 best marketing templates for reporting to help you save time and consolidate all your key metrics into one easy-to-use platform. Read more",
+              "pre_snippet": "06/05/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "15 best marketing templates for reporting"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-06-05 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Marketing reporting template excel",
+                "Marketing reporting template pdf",
+                "Marketing reporting template word",
+                "Marketing report template Excel",
+                "Marketing report template word",
+                "Marketing reporting template free",
+                "Marketing reporting template ppt",
+                "Marketing report Sample PDF"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

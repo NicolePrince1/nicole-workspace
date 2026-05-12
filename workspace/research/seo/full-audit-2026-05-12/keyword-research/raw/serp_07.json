@@ -1,0 +1,967 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.2412 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120925-3675-0139-0000-6f3ca41504ec",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.1599 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "google analytics reporting template",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "os": "windows",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "google analytics reporting template",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=google%20analytics%20reporting%20template&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-05-12 06:25:19 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "video",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "se_results_count": 85500000,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "datastudio.google.com",
+              "title": "Report Gallery - Data Studio - Google",
+              "url": "https://datastudio.google.com/gallery",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://datastudio.google.com \u203a gallery",
+              "website_name": "Google",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "An overview of your Google Analytics data on a widescreen one page report. Google Ads Monitoring Report \u00b7 By Search Foresight. Monitoring your Google Ad\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Ads Monitoring Report"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "windsor.ai",
+              "title": "7 Free GA4 (Google Analytics) Report Templates & ...",
+              "url": "https://windsor.ai/template-gallery/ga4-dashboard-reports/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://windsor.ai \u203a Free marketing template gallery",
+              "website_name": "Windsor.ai",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Windsor.ai has free Google Analytics dashboard templates that can save you time and enhance your experience when generating data insights. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "free Google Analytics dashboard templates"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": "![Google Analytics Template - Power My Analytics](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:4)\nUse Looker Studio or [Google Sheets](https://portermetrics.com/en/report-templates/google-analytics-4/) to access pre-built Google Analytics 4 (GA4) templates to automate, visualize, and share metrics such as user acquisition, conversion rates, engagement, and traffic sources . These templates offer customized dashboards and AI-powered insights, saving time on manual reporting for clients or projects.[](https://portermetrics.com/en/report-templates/google-analytics-4/) [[1]](https://portermetrics.com/en/report-templates/google-analytics-4/)[[2]](https://www.semrush.com/my_reports/lp/report-templates/google-analytics-report/)[[3]](https://datastudio.google.com/gallery)[[4]](https://windsor.ai/template-gallery/ga4-dashboard-reports/)[[5]](https://whatagraph.com/templates/google-analytics-4-report)\n\n**Key Types of GA4 Report Templates:** \n\n- **[Website & Marketing Performance](https://datastudio.google.com/gallery):** Focuses on high-level KPIs like traffic sources, user behavior, and engagement, ideal for quick overviews.\n- **[E-commerce Sales Report](https://dashthis.com/blog/google-analytics-reports-for-marketers/):** Tracks revenue, conversions, average order value, and product performance.\n- **[Acquisition & Traffic Source Report](https://www.ninjacat.io/report-templates/google-analytics-report-template):** Analyzes where users come from (organic, paid, social) to evaluate marketing channel efficiency.\n- **[Behavior/Content Report](https://portermetrics.com/en/templates/google-analytics-website-performance-report-template/):** Details page views, time on page, and bounce rates for content optimization.[](https://datastudio.google.com/gallery) [[1]](https://datastudio.google.com/gallery)[[2]](https://dashthis.com/blog/google-analytics-reports-for-marketers/)[[3]](https://www.ninjacat.io/report-templates/google-analytics-report-template)[[4]](https://portermetrics.com/en/templates/google-analytics-website-performance-report-template/)[[5]](https://portermetrics.com/en/templates/)\n\n**Where to Find Top Templates (2026):** \n\n- **Looker Studio Gallery:** Google's official gallery offers free, customizable templates from various partners, including specific ones for Nonprofits (e.g., Whole Whale).\n- **Porter Metrics:** Provides highly visual, tailored GA4 templates for agencies.\n- **[DashThis](https://dashthis.com/ga4-report-template/):** Offers automated, all-in-one dashboards designed for easy client reporting.\n- **[Whatagraph](https://whatagraph.com/templates/google-analytics-4-report):** Specializes in drag-and-drop report builders.\n- **[Windsor.ai](https://windsor.ai/template-gallery/ga4-dashboard-reports/):** Provides marketing dashboards that combine GA4 with other data sources.[](https://portermetrics.com/en/report-templates/google-analytics-4/) [[1]](https://portermetrics.com/en/report-templates/google-analytics-4/)[[2]](https://datastudio.google.com/gallery)[[3]](https://dashthis.com/ga4-report-template/)[[4]](https://whatagraph.com/templates/google-analytics-4-report)[[5]](https://windsor.ai/template-gallery/ga4-dashboard-reports/)\n\n**Customizing Your Report:** \n\n- **Create in GA4:** Use the \"Library\" feature to customize detail reports and save them as templates.\n- **Report Snapshot:** Select pre-built snapshot templates for immediate insights, tailored to your business goals.\n- **Custom Dimensions/Metrics:** Modify templates by adding brand logos, specific colors, and specific metrics (e.g., sessions, conversions, pageviews).[](https://support.google.com/analytics/answer/13844077?hl=en) [[1]](https://support.google.com/analytics/answer/13844077?hl=en)[[2]](https://support.google.com/analytics/answer/16081004?hl=en)[[3]](https://www.semrush.com/my_reports/lp/report-templates/google-analytics-report/)[[4]](https://improvado.io/blog/google-analytics-dashboard)[[5]](https://portermetrics.com/en/report-templates/google-analytics-4/)\n\n[](https://portermetrics.com/en/report-templates/google-analytics-4/) Best free Google Analytics 4 report templates (2026) - Porter Metrics Operational GA4 reports are highly customized, built in flexible tools like Google Sheets or Looker Studio to enable data cleaning...![](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:5)\nportermetrics.com![](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:6)\n[](https://support.google.com/analytics/answer/13844077?hl=en) [GA4] Create a detail report - Analytics Help In the \"Reports\" section, click + Create new report > Create detail report. Click Blank to start with an empty detail report, or s...![](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:7)\nGoogle Help[](https://www.semrush.com/my_reports/lp/report-templates/google-analytics-report/) The Best Google Analytics report Templates by SemRush You can save a vast amount of time by using the AI report summary feature within the Google Analytics report template. Not only th...![](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:8)\nSemrush![](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:9)\n[](https://whatagraph.com/templates/google-analytics-4-report) Free Google Analytics Report Template - Whatagraph Stop screenshooting GA4 data or copy-pasting metrics every month. This Google Analytics report template turns messy data into a cl...![](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:10)\nWhatagraph![](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:11)\n[](https://windsor.ai/template-gallery/ga4-dashboard-reports/) Free Google Analytics (GA4) Report Templates & Dashboards What is Google Analytics (GA4) Marketing Dashboard? Google Analytics marketing dashboard is a set of reporting templates you can c...![](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:12)\nWindsor.ai![](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:13)\n[](https://datastudio.google.com/gallery) Data Studio Report Gallery - Google Website & Marketing Performance Report. By Aro Digital. High level Google Analytics template from Aro Digital. Nonprofit Web Data ...![](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:14)\nGoogle![](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:15)\n[](https://www.ninjacat.io/report-templates/google-analytics-report-template) Google Analytics Report Template | Free Editable Slide Download With a distinct, customizable, and scalable Google Analytics Report template, marketers can plug-and-present their data into a pac...![](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:16)\nNinjaCat![](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:17)\n[](https://dashthis.com/blog/google-analytics-reports-for-marketers/) 7+ Google Analytics Reports for Marketers - DashThis 1. Google Analytics report template. The Google Analytics report template comes preloaded with all the important Google Analytics ...![](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:18)\nDashThis![](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:19)\n[](https://portermetrics.com/en/templates/google-analytics-website-performance-report-template/) Google Analytics Website Performance Report Template This report template shows content performance metrics for websites such as time on site, page views, traffic sources, monitoring ...![](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:20)\nportermetrics.com![](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:21)\n[](https://support.google.com/analytics/answer/16081004?hl=en) Reports snapshot templates - Analytics Help The Reports snapshot helps you monitor the performance of your most important metrics. You can customize it to view your top metri...![](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:22)\nGoogle Help[](https://dashthis.com/ga4-report-template/) A Complete Google Analytics 4 Report Template - DashThis Create an awesome GA4 Report Template for your Clients * Create your DashThis account. Sign up by creating your account. You only ...![](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:23)\nDashThis![](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:24)",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Use Looker Studio or Google Sheets to access pre-built Google Analytics 4 (GA4) templates to automate, visualize, and share metrics such as user acquisition, conversion rates, engagement, and traffic sources. These templates offer customized dashboards and AI-powered insights, saving time on manual reporting for clients or projects. portermetrics.com +2",
+                  "markdown": "![Google Analytics Template - Power My Analytics](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:2)\nUse Looker Studio or [Google Sheets](https://portermetrics.com/en/report-templates/google-analytics-4/) to access pre-built Google Analytics 4 (GA4) templates to automate, visualize, and share metrics such as user acquisition, conversion rates, engagement, and traffic sources . These templates offer customized dashboards and AI-powered insights, saving time on manual reporting for clients or projects.[](https://portermetrics.com/en/report-templates/google-analytics-4/) [[1]](https://portermetrics.com/en/report-templates/google-analytics-4/)[[2]](https://www.semrush.com/my_reports/lp/report-templates/google-analytics-report/)[[3]](https://datastudio.google.com/gallery)[[4]](https://windsor.ai/template-gallery/ga4-dashboard-reports/)[[5]](https://whatagraph.com/templates/google-analytics-4-report)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Google Sheets",
+                      "description": null,
+                      "url": "https://portermetrics.com/en/report-templates/google-analytics-4/",
+                      "domain": "portermetrics.com"
+                    }
+                  ],
+                  "images": [
+                    {
+                      "type": "images_element",
+                      "alt": "Google Analytics Template - Power My Analytics",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-6f3ca41504ec:3"
+                    }
+                  ],
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "portermetrics.com",
+                      "domain": "portermetrics.com",
+                      "url": "https://portermetrics.com/en/report-templates/google-analytics-4/",
+                      "title": "Best free Google Analytics 4 report templates (2026) - Porter Metrics",
+                      "text": "Operational GA4 reports are highly customized, built in flexible tools like Google Sheets or Looker Studio to enable data cleaning..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Semrush",
+                      "domain": "www.semrush.com",
+                      "url": "https://www.semrush.com/my_reports/lp/report-templates/google-analytics-report/",
+                      "title": "The Best Google Analytics report Templates by SemRush",
+                      "text": "You can save a vast amount of time by using the AI report summary feature within the Google Analytics report template. Not only th..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Google",
+                      "domain": "datastudio.google.com",
+                      "url": "https://datastudio.google.com/gallery",
+                      "title": "Data Studio Report Gallery - Google",
+                      "text": "Website & Marketing Performance Report. By Aro Digital. High level Google Analytics template from Aro Digital. Nonprofit Web Data ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Windsor.ai",
+                      "domain": "windsor.ai",
+                      "url": "https://windsor.ai/template-gallery/ga4-dashboard-reports/",
+                      "title": "Free Google Analytics (GA4) Report Templates & Dashboards",
+                      "text": "What is Google Analytics (GA4) Marketing Dashboard? Google Analytics marketing dashboard is a set of reporting templates you can c..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Whatagraph",
+                      "domain": "whatagraph.com",
+                      "url": "https://whatagraph.com/templates/google-analytics-4-report",
+                      "title": "Free Google Analytics Report Template - Whatagraph",
+                      "text": "Stop screenshooting GA4 data or copy-pasting metrics every month. This Google Analytics report template turns messy data into a cl..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Key Types of GA4 Report Templates:",
+                  "text": "Website & Marketing Performance : Focuses on high-level KPIs like traffic sources, user behavior, and engagement, ideal for quick overviews. E-commerce Sales Report : Tracks revenue, conversions, average order value, and product performance. Acquisition & Traffic Source Report : Analyzes where users come from (organic, paid, social) to evaluate marketing channel efficiency. Behavior/Content Report : Details page views, time on page, and bounce rates for content optimization.",
+                  "markdown": "- **[Website & Marketing Performance](https://datastudio.google.com/gallery):** Focuses on high-level KPIs like traffic sources, user behavior, and engagement, ideal for quick overviews.\n- **[E-commerce Sales Report](https://dashthis.com/blog/google-analytics-reports-for-marketers/):** Tracks revenue, conversions, average order value, and product performance.\n- **[Acquisition & Traffic Source Report](https://www.ninjacat.io/report-templates/google-analytics-report-template):** Analyzes where users come from (organic, paid, social) to evaluate marketing channel efficiency.\n- **[Behavior/Content Report](https://portermetrics.com/en/templates/google-analytics-website-performance-report-template/):** Details page views, time on page, and bounce rates for content optimization.[](https://datastudio.google.com/gallery) [[1]](https://datastudio.google.com/gallery)[[2]](https://dashthis.com/blog/google-analytics-reports-for-marketers/)[[3]](https://www.ninjacat.io/report-templates/google-analytics-report-template)[[4]](https://portermetrics.com/en/templates/google-analytics-website-performance-report-template/)[[5]](https://portermetrics.com/en/templates/)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Website & Marketing Performance",
+                      "description": null,
+                      "url": "https://datastudio.google.com/gallery",
+                      "domain": "datastudio.google.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "E-commerce Sales Report",
+                      "description": null,
+                      "url": "https://dashthis.com/blog/google-analytics-reports-for-marketers/",
+                      "domain": "dashthis.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Acquisition & Traffic Source Report",
+                      "description": null,
+                      "url": "https://www.ninjacat.io/report-templates/google-analytics-report-template",
+                      "domain": "www.ninjacat.io"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Behavior/Content Report",
+                      "description": null,
+                      "url": "https://portermetrics.com/en/templates/google-analytics-website-performance-report-template/",
+                      "domain": "portermetrics.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Google",
+                      "domain": "datastudio.google.com",
+                      "url": "https://datastudio.google.com/gallery",
+                      "title": "Data Studio Report Gallery - Google",
+                      "text": "Website & Marketing Performance Report. By Aro Digital. High level Google Analytics template from Aro Digital. Nonprofit Web Data ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "DashThis",
+                      "domain": "dashthis.com",
+                      "url": "https://dashthis.com/blog/google-analytics-reports-for-marketers/",
+                      "title": "7+ Google Analytics Reports for Marketers - DashThis",
+                      "text": "1. Google Analytics report template. The Google Analytics report template comes preloaded with all the important Google Analytics ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "NinjaCat",
+                      "domain": "www.ninjacat.io",
+                      "url": "https://www.ninjacat.io/report-templates/google-analytics-report-template",
+                      "title": "Google Analytics Report Template | Free Editable Slide Download",
+                      "text": "With a distinct, customizable, and scalable Google Analytics Report template, marketers can plug-and-present their data into a pac..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "portermetrics.com",
+                      "domain": "portermetrics.com",
+                      "url": "https://portermetrics.com/en/templates/google-analytics-website-performance-report-template/",
+                      "title": "Google Analytics Website Performance Report Template",
+                      "text": "This report template shows content performance metrics for websites such as time on site, page views, traffic sources, monitoring ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "portermetrics.com",
+                      "domain": "portermetrics.com",
+                      "url": "https://portermetrics.com/en/templates/",
+                      "title": "Free Google Data Studio (Data Studio) report templates (2026)",
+                      "text": "Marketing KPIs report template for Google Data Studio by Porter High-level marketing dashboard: traffic, leads, MQLs, conversions,"
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Where to Find Top Templates (2026):",
+                  "text": "Looker Studio Gallery : Google's official gallery offers free, customizable templates from various partners, including specific ones for Nonprofits (e.g., Whole Whale ). Looker Studio Gallery Whole Whale Porter Metrics : Provides highly visual, tailored GA4 templates for agencies. Porter Metrics DashThis : Offers automated, all-in-one dashboards designed for easy client reporting. Whatagraph : Specializes in drag-and-drop report builders. Windsor.ai : Provides marketing dashboards that combine GA4 with other data sources.",
+                  "markdown": "- **Looker Studio Gallery:** Google's official gallery offers free, customizable templates from various partners, including specific ones for Nonprofits (e.g., Whole Whale).\n- **Porter Metrics:** Provides highly visual, tailored GA4 templates for agencies.\n- **[DashThis](https://dashthis.com/ga4-report-template/):** Offers automated, all-in-one dashboards designed for easy client reporting.\n- **[Whatagraph](https://whatagraph.com/templates/google-analytics-4-report):** Specializes in drag-and-drop report builders.\n- **[Windsor.ai](https://windsor.ai/template-gallery/ga4-dashboard-reports/):** Provides marketing dashboards that combine GA4 with other data sources.[](https://portermetrics.com/en/report-templates/google-analytics-4/) [[1]](https://portermetrics.com/en/report-templates/google-analytics-4/)[[2]](https://datastudio.google.com/gallery)[[3]](https://dashthis.com/ga4-report-template/)[[4]](https://whatagraph.com/templates/google-analytics-4-report)[[5]](https://windsor.ai/template-gallery/ga4-dashboard-reports/)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "DashThis",
+                      "description": null,
+                      "url": "https://dashthis.com/ga4-report-template/",
+                      "domain": "dashthis.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Whatagraph",
+                      "description": null,
+                      "url": "https://whatagraph.com/templates/google-analytics-4-report",
+                      "domain": "whatagraph.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Windsor.ai",
+                      "description": null,
+                      "url": "https://windsor.ai/template-gallery/ga4-dashboard-reports/",
+                      "domain": "windsor.ai"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "portermetrics.com",
+                      "domain": "portermetrics.com",
+                      "url": "https://portermetrics.com/en/report-templates/google-analytics-4/",
+                      "title": "Best free Google Analytics 4 report templates (2026) - Porter Metrics",
+                      "text": "Operational GA4 reports are highly customized, built in flexible tools like Google Sheets or Looker Studio to enable data cleaning..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Google",
+                      "domain": "datastudio.google.com",
+                      "url": "https://datastudio.google.com/gallery",
+                      "title": "Data Studio Report Gallery - Google",
+                      "text": "Website & Marketing Performance Report. By Aro Digital. High level Google Analytics template from Aro Digital. Nonprofit Web Data ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "DashThis",
+                      "domain": "dashthis.com",
+                      "url": "https://dashthis.com/ga4-report-template/",
+                      "title": "A Complete Google Analytics 4 Report Template - DashThis",
+                      "text": "Create an awesome GA4 Report Template for your Clients * Create your DashThis account. Sign up by creating your account. You only ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Whatagraph",
+                      "domain": "whatagraph.com",
+                      "url": "https://whatagraph.com/templates/google-analytics-4-report",
+                      "title": "Free Google Analytics Report Template - Whatagraph",
+                      "text": "Stop screenshooting GA4 data or copy-pasting metrics every month. This Google Analytics report template turns messy data into a cl..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Windsor.ai",
+                      "domain": "windsor.ai",
+                      "url": "https://windsor.ai/template-gallery/ga4-dashboard-reports/",
+                      "title": "Free Google Analytics (GA4) Report Templates & Dashboards",
+                      "text": "What is Google Analytics (GA4) Marketing Dashboard? Google Analytics marketing dashboard is a set of reporting templates you can c..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Customizing Your Report:",
+                  "text": "Create in GA4: Use the \"Library\" feature to customize detail reports and save them as templates. Report Snapshot: Select pre-built snapshot templates for immediate insights, tailored to your business goals. Custom Dimensions/Metrics: Modify templates by adding brand logos, specific colors, and specific metrics (e.g., sessions, conversions, pageviews).",
+                  "markdown": "- **Create in GA4:** Use the \"Library\" feature to customize detail reports and save them as templates.\n- **Report Snapshot:** Select pre-built snapshot templates for immediate insights, tailored to your business goals.\n- **Custom Dimensions/Metrics:** Modify templates by adding brand logos, specific colors, and specific metrics (e.g., sessions, conversions, pageviews).[](https://support.google.com/analytics/answer/13844077?hl=en) [[1]](https://support.google.com/analytics/answer/13844077?hl=en)[[2]](https://support.google.com/analytics/answer/16081004?hl=en)[[3]](https://www.semrush.com/my_reports/lp/report-templates/google-analytics-report/)[[4]](https://improvado.io/blog/google-analytics-dashboard)[[5]](https://portermetrics.com/en/report-templates/google-analytics-4/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Google Help",
+                      "domain": "support.google.com",
+                      "url": "https://support.google.com/analytics/answer/13844077?hl=en",
+                      "title": "[GA4] Create a detail report - Analytics Help",
+                      "text": "In the \"Reports\" section, click + Create new report > Create detail report. Click Blank to start with an empty detail report, or s..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Google Help",
+                      "domain": "support.google.com",
+                      "url": "https://support.google.com/analytics/answer/16081004?hl=en",
+                      "title": "Reports snapshot templates - Analytics Help",
+                      "text": "The Reports snapshot helps you monitor the performance of your most important metrics. You can customize it to view your top metri..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Semrush",
+                      "domain": "www.semrush.com",
+                      "url": "https://www.semrush.com/my_reports/lp/report-templates/google-analytics-report/",
+                      "title": "The Best Google Analytics report Templates by SemRush",
+                      "text": "You can save a vast amount of time by using the AI report summary feature within the Google Analytics report template. Not only th..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Improvado",
+                      "domain": "improvado.io",
+                      "url": "https://improvado.io/blog/google-analytics-dashboard",
+                      "title": "Google Analytics Dashboard: GA4 Setup Guide, Templates and Examples (2026)",
+                      "text": "In GA4, navigate to Reports \u2192 Library, click \"+ Create new report,\" and choose either an overview report (summary cards, up to 16 ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "portermetrics.com",
+                      "domain": "portermetrics.com",
+                      "url": "https://portermetrics.com/en/report-templates/google-analytics-4/",
+                      "title": "Best free Google Analytics 4 report templates (2026) - Porter Metrics",
+                      "text": "Operational GA4 reports are highly customized, built in flexible tools like Google Sheets or Looker Studio to enable data cleaning..."
+                    }
+                  ]
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "portermetrics.com",
+                  "domain": "portermetrics.com",
+                  "url": "https://portermetrics.com/en/report-templates/google-analytics-4/",
+                  "title": "Best free Google Analytics 4 report templates (2026) - Porter Metrics",
+                  "text": "Operational GA4 reports are highly customized, built in flexible tools like Google Sheets or Looker Studio to enable data cleaning..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Google Help",
+                  "domain": "support.google.com",
+                  "url": "https://support.google.com/analytics/answer/13844077?hl=en",
+                  "title": "[GA4] Create a detail report - Analytics Help",
+                  "text": "In the \"Reports\" section, click + Create new report > Create detail report. Click Blank to start with an empty detail report, or s..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Semrush",
+                  "domain": "www.semrush.com",
+                  "url": "https://www.semrush.com/my_reports/lp/report-templates/google-analytics-report/",
+                  "title": "The Best Google Analytics report Templates by SemRush",
+                  "text": "You can save a vast amount of time by using the AI report summary feature within the Google Analytics report template. Not only th..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Whatagraph",
+                  "domain": "whatagraph.com",
+                  "url": "https://whatagraph.com/templates/google-analytics-4-report",
+                  "title": "Free Google Analytics Report Template - Whatagraph",
+                  "text": "Stop screenshooting GA4 data or copy-pasting metrics every month. This Google Analytics report template turns messy data into a cl..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Windsor.ai",
+                  "domain": "windsor.ai",
+                  "url": "https://windsor.ai/template-gallery/ga4-dashboard-reports/",
+                  "title": "Free Google Analytics (GA4) Report Templates & Dashboards",
+                  "text": "What is Google Analytics (GA4) Marketing Dashboard? Google Analytics marketing dashboard is a set of reporting templates you can c..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Google",
+                  "domain": "datastudio.google.com",
+                  "url": "https://datastudio.google.com/gallery",
+                  "title": "Data Studio Report Gallery - Google",
+                  "text": "Website & Marketing Performance Report. By Aro Digital. High level Google Analytics template from Aro Digital. Nonprofit Web Data ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "NinjaCat",
+                  "domain": "www.ninjacat.io",
+                  "url": "https://www.ninjacat.io/report-templates/google-analytics-report-template",
+                  "title": "Google Analytics Report Template | Free Editable Slide Download",
+                  "text": "With a distinct, customizable, and scalable Google Analytics Report template, marketers can plug-and-present their data into a pac..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "DashThis",
+                  "domain": "dashthis.com",
+                  "url": "https://dashthis.com/blog/google-analytics-reports-for-marketers/",
+                  "title": "7+ Google Analytics Reports for Marketers - DashThis",
+                  "text": "1. Google Analytics report template. The Google Analytics report template comes preloaded with all the important Google Analytics ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "portermetrics.com",
+                  "domain": "portermetrics.com",
+                  "url": "https://portermetrics.com/en/templates/google-analytics-website-performance-report-template/",
+                  "title": "Google Analytics Website Performance Report Template",
+                  "text": "This report template shows content performance metrics for websites such as time on site, page views, traffic sources, monitoring ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Google Help",
+                  "domain": "support.google.com",
+                  "url": "https://support.google.com/analytics/answer/16081004?hl=en",
+                  "title": "Reports snapshot templates - Analytics Help",
+                  "text": "The Reports snapshot helps you monitor the performance of your most important metrics. You can customize it to view your top metri..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "DashThis",
+                  "domain": "dashthis.com",
+                  "url": "https://dashthis.com/ga4-report-template/",
+                  "title": "A Complete Google Analytics 4 Report Template - DashThis",
+                  "text": "Create an awesome GA4 Report Template for your Clients * Create your DashThis account. Sign up by creating your account. You only ..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "support.google.com",
+              "title": "[GA4] Create a detail report - Analytics Help",
+              "url": "https://support.google.com/analytics/answer/13844077?hl=en",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://support.google.com \u203a analytics \u203a answer",
+              "website_name": "Google Help",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "A report that is based on a report template will automatically receive updates when Google changes the report template. For example, if Google adds a dimension\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "template",
+                "Google"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "portermetrics.com",
+              "title": "Best free Google Analytics 4 report templates (2026)",
+              "url": "https://portermetrics.com/en/report-templates/google-analytics-4/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://portermetrics.com \u203a report-templates \u203a google-a...",
+              "website_name": "portermetrics.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Automate marketing reporting with dozens of 100% customizable, white-label Google Analytics 4 report templates. Used and made by +10,000 marketers in over 60\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Analytics 4 report templates"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "dashthis.com",
+              "title": "Google Analytics 4 dashboard templates for digital marketers",
+              "url": "https://dashthis.com/blog/ga4-dashboard-template/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://dashthis.com \u203a blog \u203a ga4-dashboard-template",
+              "website_name": "DashThis",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "DashThis's GA4 dashboard templates are an easy starting point to build your GA4 report to help you develop your actual report in minutes. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 83,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "GA4 dashboard templates"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+              "domain": "www.ninjacat.io",
+              "title": "Google Analytics Report Template | Free Editable Slide ...",
+              "url": "https://www.ninjacat.io/report-templates/google-analytics-report-template",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.ninjacat.io \u203a report-templates \u203a google-anal...",
+              "website_name": "NinjaCat",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "A solid Google Analytics Report Template will simplify your website traffic reporting. Get a free, editable Google Analytics report slide example you can\u00a0...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Analytics Report Template"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+              "domain": "supermetrics.com",
+              "title": "Google Analytics 4 report template for Looker Studio",
+              "url": "https://supermetrics.com/template-gallery/looker-studio-ga4-website-performance",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://supermetrics.com \u203a template-gallery \u203a looker-stud...",
+              "website_name": "Supermetrics",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Visualize and analyze your data to unlock user, channel, page, and campaign insight and communicate complex information clearly using this GA4 template. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "GA4 template"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[16]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Loves Data",
+                  "title": "NEW: GA4 Reports Snapshot Templates",
+                  "timestamp": "2025-04-23 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=-w5ymDd7w_Q"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Growth Learner",
+                  "title": "Creating Custom Google Analytics 4 Explore Reports from ...",
+                  "timestamp": "2024-05-01 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=cnspIvLn-DM"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Short Hills Design",
+                  "title": "Google Analytics Report Template (GA4 + Looker Studio 2024)",
+                  "timestamp": "2024-07-16 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=JPGreQ-hBrM"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How to create a Google Analytics report?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": "Steps",
+                      "url": "https://support.google.com/analytics/answer/13823841?hl=en",
+                      "domain": "support.google.com",
+                      "title": "[GA4] Create an overview report - Analytics Help",
+                      "description": "In Google Analytics, click Reports. ...\nIn the left navigation, click Library on the bottom left. ...\nIn the 'Reports' section, click + Create new report > Create overview report.\nClick + Add cards.\nSelect up to 16 summary cards. ...\nTo arrange the summary cards in the report, drag and drop a summary card on the right.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What are the three different types of reports in Google Analytics?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": "Summary",
+                      "url": "https://www.advance-metrics.com/en/blog/3-ga4-reports-that-you-need-to-know/",
+                      "domain": "www.advance-metrics.com",
+                      "title": "3 Google Analytics 4 Reports that you need to know - Advance Metrics",
+                      "description": "Traffic acquisition: This report provides you with a good overview of the channels that direct visitors to your website. ...\nEvents report: The events report allows you to analyze user behavior on your website in detail. ...\nConversion report: Focus on your marketing goals with this report!",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is Google Analytics reporting?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://support.google.com/analytics/answer/9212670?hl=en",
+                      "domain": "support.google.com",
+                      "title": "Overview of Google Analytics reports",
+                      "description": "Google Analytics collects data from your websites and apps to create reports that provide insights into your business.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How to customize reports in Google Analytics?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": "Customization options",
+                      "url": "https://support.google.com/analytics/answer/10445879?hl=en",
+                      "domain": "support.google.com",
+                      "title": "[GA4] Customize detail reports - Analytics Help",
+                      "description": "When viewing a detail report, click. in the top right. ...\nUnder the 'REPORT DATA' header, select Dimensions. ...\nUnder the 'PRIMARY DIMENSIONS' header, you can manage the dimensions drop-down. ...\nClick Apply to apply the changes.\nClick Save > Save changes to current report to save the changes to the report.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+              "domain": "www.semrush.com",
+              "title": "The Best Google Analytics report Templates by SemRush",
+              "url": "https://www.semrush.com/my_reports/lp/report-templates/google-analytics-report/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.semrush.com \u203a my_reports \u203a google-analyt...",
+              "website_name": "Semrush",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Report your Google Analytics data effectively and unlock its full potential with a tailored template designed to help you monitor and optimize a wide range of\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Report your Google Analytics data effectively"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[22]/div[1]/div[1]",
+              "domain": "databox.com",
+              "title": "Top 10 Essential Google Analytics Dashboards in GA4",
+              "url": "https://databox.com/10-google-analytics-dashboards-helped-550000-people",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://databox.com \u203a 10-google-analytics-dashboards-...",
+              "website_name": "Databox",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "We're sharing the best Google Analytics 4 dashboard templates in this article, along with tips on how to create your own dashboard and track relevant metrics. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Analytics 4 dashboard templates"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "How to Create a Google...",
+                  "description": null,
+                  "url": "https://databox.com/10-google-analytics-dashboards-helped-550000-people#create",
+                  "domain": "databox.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "How to Access a Google...",
+                  "description": null,
+                  "url": "https://databox.com/10-google-analytics-dashboards-helped-550000-people#access",
+                  "domain": "databox.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Best Google Analytics 4...",
+                  "description": null,
+                  "url": "https://databox.com/10-google-analytics-dashboards-helped-550000-people#templates",
+                  "domain": "databox.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Google analytics reporting template excel",
+                "Google analytics reporting template word",
+                "Google analytics reporting template free",
+                "Google analytics reporting template pdf",
+                "Google Analytics report template Excel",
+                "Google analytics reporting template free download",
+                "GA4 report templates free",
+                "Website analytics report template Excel"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

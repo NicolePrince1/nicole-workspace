@@ -1,0 +1,699 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.9877 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120925-3675-0139-0000-4d3a2e08e4e3",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.8997 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "ai reporting tools",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "os": "windows",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "ai reporting tools",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=ai%20reporting%20tools&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-05-12 06:25:11 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "people_also_search",
+            "people_also_ask",
+            "video",
+            "related_searches"
+          ],
+          "se_results_count": 1320000000,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.prezent.ai",
+              "title": "15 AI Reporting Tools for Faster Business Insights",
+              "url": "https://www.prezent.ai/blog/ai-reporting-tools",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.prezent.ai \u203a blog \u203a ai-reporting-tools",
+              "website_name": "Prezent",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Apr 17, 2026 \u2014 My picks for the best AI reporting tools in 2026 \u00b7 1. Prezent.ai: Best for turning business insights into executive-ready presentations \u00b7 2. Read more",
+              "pre_snippet": "04/17/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Prezent.ai"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-04-17 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "www.mlclever.com",
+              "title": "11 Best AI Report Generators in 2026 (20+ Tools Tested)",
+              "url": "https://www.mlclever.com/blog/ai-report-generators-2026",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.mlclever.com \u203a blog \u203a ai-report-generators...",
+              "website_name": "ML Clever",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Jan 23, 2026 \u2014 Top 11 AI Report Generators of 2026 \u00b7 1. ML Clever - Editor's Choice \u00b7 2. Microsoft Copilot \u00b7 3. Google Gemini for Workspace \u00b7 4. Notion AI \u00b7 5. Read more",
+              "pre_snippet": "01/23/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "1. ML Clever - Editor's Choice"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "What Makes an AI Report...",
+                  "description": null,
+                  "url": "https://www.mlclever.com/blog/ai-report-generators-2026#evaluation-criteria",
+                  "domain": "www.mlclever.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Top 11 AI Report Generators...",
+                  "description": null,
+                  "url": "https://www.mlclever.com/blog/ai-report-generators-2026#top-tools",
+                  "domain": "www.mlclever.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Notion AI",
+                  "description": null,
+                  "url": "https://www.mlclever.com/blog/ai-report-generators-2026#notion-ai",
+                  "domain": "www.mlclever.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Coda AI",
+                  "description": null,
+                  "url": "https://www.mlclever.com/blog/ai-report-generators-2026#coda-ai",
+                  "domain": "www.mlclever.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-01-23 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Recommendations for an AI Tool to Turn Raw Data and ...",
+              "url": "https://www.reddit.com/r/ClaudeAI/comments/1i5irdm/recommendations_for_an_ai_tool_to_turn_raw_data/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "20+ comments  \u00b7  1 year ago",
+              "website_name": "Reddit\u00a0\u00b7\u00a0r/ClaudeAI",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Does anyone know of an AI tool that can take large volumes of textual data as input and transform it into a detailed report (around 40 pages or so)? Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "AI tool that can take large volumes of textual data as input"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "AI tool that can generate reports? : r ...",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1cxp5wg/ai_tool_that_can_generate_reports/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Is anyone using Ai to create reports? : r/analytics - Reddit",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/analytics/comments/1ihohs2/is_anyone_using_ai_to_create_reports/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "More results from www.reddit.com",
+                  "description": null,
+                  "url": "https://www.google.com/search?q=ai+reporting+tools+site:www.reddit.com&sca_esv=89f358ba4e2fcd04&hl=en&gl=US&sa=X&ved=2ahUKEwiH4IXnjrOUAxVwSEEAHWqRIcQQrQIoAnoECBkQAw",
+                  "domain": "www.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "julius.ai",
+              "title": "Julius AI: Excel, Slides, Tasks with AI",
+              "url": "https://julius.ai/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://julius.ai",
+              "website_name": "Julius AI",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "AI for your workplace tasks. Use Julius AI to handle Excel files, create slide decks, and cut down the time it takes to get your work done.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Use Julius AI to handle Excel files"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "venngage.com",
+              "title": "Free AI Report Generator: Build reports in minutes",
+              "url": "https://venngage.com/ai-tools/report-generator",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://venngage.com \u203a ai-tools \u203a report-generator",
+              "website_name": "Venngage",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Effortlessly create stunning AI reports. Simplify complex data into beautiful reports quickly. Try it for free now!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Effortlessly create stunning AI reports"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]",
+              "title": "Find related products & services",
+              "items": [
+                "Free data analysis tools",
+                "Best AI tool for data analysis and visualization",
+                "Free AI data analysis Excel",
+                "Data analysis AI tools",
+                "Free AI tools for data visualization",
+                "Best AI tools for data analysis"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Which is the best AI tool for reports?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": "Quick comparison of the best AI reporting tools (2026)",
+                      "url": "https://www.prezent.ai/blog/ai-reporting-tools",
+                      "domain": "www.prezent.ai",
+                      "title": "15 AI Reporting Tools for Faster Business Insights - Prezent AI",
+                      "description": null,
+                      "images": null,
+                      "timestamp": null,
+                      "table": {
+                        "table_header": [
+                          "Tool",
+                          "AI Capability",
+                          "Best For"
+                        ],
+                        "table_content": [
+                          [
+                            "Looker Studio",
+                            "AI-assisted reporting",
+                            "Marketing reporting"
+                          ],
+                          [
+                            "Sisense",
+                            "AI-powered embedded analytics",
+                            "Product analytics"
+                          ],
+                          [
+                            "Domo",
+                            "AI alerts and automated insights",
+                            "Real-time operations"
+                          ],
+                          [
+                            "Zoho Analytics",
+                            "AI assistant for report generation",
+                            "Small businesses"
+                          ]
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Can AI be used for reporting?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://manus.im/playbook/report-generator",
+                      "domain": "manus.im",
+                      "title": "AI Report Generator: Save Hours on Report Writing - Manus",
+                      "description": "Yes. Manus is designed to handle complex subjects and serves as an excellent AI financial report generator and AI business report generator. Our AI can analyze financial data to generate insightful reports, create quarterly summaries, and produce comprehensive market research.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What are the top 5 most popular AI tools?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": "Best AI Platforms Summary",
+                      "url": "https://peoplemanagingpeople.com/tools/best-ai-platforms/",
+                      "domain": "peoplemanagingpeople.com",
+                      "title": "20 Best AI Platforms Reviewed in 2026",
+                      "description": null,
+                      "images": null,
+                      "timestamp": null,
+                      "table": {
+                        "table_header": [
+                          "",
+                          "Tool",
+                          "Best For"
+                        ],
+                        "table_content": [
+                          [
+                            "1",
+                            "Adobe Firefly",
+                            "Best for AI-powered brand asset creation"
+                          ],
+                          [
+                            "2",
+                            "monday.com",
+                            "Best with customizable AI workflows for any team"
+                          ],
+                          [
+                            "3",
+                            "Huckleberry",
+                            "Best for intelligent automation of work policies"
+                          ],
+                          [
+                            "4",
+                            "Checkr",
+                            "Best for AI-powered background screening"
+                          ]
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Can ChatGPT create reports?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://chromewebstore.google.com/detail/chatgpt-report-builder/afoccmdfcdmbmfdofdbfbaflbmpcoega",
+                      "domain": "chromewebstore.google.com",
+                      "title": "ChatGPT Report Builder - Chrome Web Store",
+                      "description": "With ChatGPT Report Builder, you can easily curate insights from industry articles, capture AI-generated ideas, and compile them into professional-looking reports or newsletters.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "improvado.io",
+              "title": "Best Reporting Tools 2026 for Automated Analytics & Insights",
+              "url": "https://improvado.io/blog/top-ai-reporting-tools",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://improvado.io \u203a Blog \u203a MarTech",
+              "website_name": "Improvado",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Feb 5, 2026 \u2014 This article breaks down the top AI reporting tools that combine machine learning, data integration, and usability at scale. Read more",
+              "pre_snippet": "02/05/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "top AI reporting tools"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Benefits of Using AI Reporting...",
+                  "description": null,
+                  "url": "https://improvado.io/blog/top-ai-reporting-tools#benefits-of-using-ai-reporting-tools",
+                  "domain": "improvado.io"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Key Features of AI Reporting...",
+                  "description": null,
+                  "url": "https://improvado.io/blog/top-ai-reporting-tools#key-features-of-ai-reporting-tools",
+                  "domain": "improvado.io"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Improvado",
+                  "description": null,
+                  "url": "https://improvado.io/blog/top-ai-reporting-tools#1-improvadonbsp",
+                  "domain": "improvado.io"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Zoho",
+                  "description": null,
+                  "url": "https://improvado.io/blog/top-ai-reporting-tools#5-zoho",
+                  "domain": "improvado.io"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-02-05 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "dashthis.com",
+              "title": "AI Reporting Tool \u2013 Turn Your Data into Actionable Insights",
+              "url": "https://dashthis.com/ai-reporting-tool/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://dashthis.com \u203a ai-reporting-tool",
+              "website_name": "DashThis",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "AI Insights is DashThis' AI reporting tool that automatically analyzes your dashboards and turns raw data into clear, actionable insights. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 83,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "automatically analyzes your dashboards"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Johannes Jolkkonen | Funktio AI",
+                  "title": "How to Automate Reporting And Analytics with AI",
+                  "timestamp": "2025-08-04 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=quI9yGiCsS8"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Kenji Explains",
+                  "title": "Best AI Tools Every Data Analyst Should Know in 2026",
+                  "timestamp": "2025-08-03 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=jQuD-as6ckE"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Jack Herrington",
+                  "title": "Prompt to Dashboard in One AI Tool Call",
+                  "timestamp": "2026-05-11 13:25:11 +00:00",
+                  "url": "https://www.youtube.com/watch?v=3dpqz8oPBJ0"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+              "domain": "companycam.com",
+              "title": "4 AI Reporting Tools That Generate Project Reports\u2026",
+              "url": "https://companycam.com/resources/blog/4-ai-tools-that-generate-reports-without-typing-a-word",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://companycam.com \u203a ... \u203a CompanyCam Blog",
+              "website_name": "CompanyCam",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Discover 4 AI tools that generate job site reports, daily logs, and progress updates automatically from photos and walkthroughs.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "AI tools"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]",
+              "domain": "manus.im",
+              "title": "AI Report Generator: Save Hours on Report Writing",
+              "url": "https://manus.im/playbook/report-generator",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://manus.im \u203a playbook \u203a report-generator",
+              "website_name": "Manus AI",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Manus is one of the most capable tools for generating AI project reports. Our AI project report generator can create status updates, progress summaries,\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 1610076,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "Manus is one of the most capable tools for generating AI project reports"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Ai reporting tools free",
+                "Ai reporting tools list",
+                "Best ai reporting tools",
+                "Ai reporting tools for students",
+                "Best free AI for report writing",
+                "Julius AI",
+                "Top 10 reporting tools",
+                "AI report generator for students"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

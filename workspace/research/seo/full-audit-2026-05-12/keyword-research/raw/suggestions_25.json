@@ -1,0 +1,49 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0560 sec.",
+  "cost": 0.01,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120924-3675-0399-0000-5e0f77f0381d",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0447 sec.",
+      "cost": 0.01,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "keyword_suggestions",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "keyword_suggestions",
+        "se_type": "google",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "Claude marketing data",
+        "limit": 35
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "seed_keyword": "claude marketing data",
+          "seed_keyword_data": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "total_count": null,
+          "items_count": 0,
+          "offset": 0,
+          "offset_token": "eyJDdXJyZW50T2Zmc2V0IjowLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoiY2xhdWRlIG1hcmtldGluZyBkYXRhIiwiaW5jbHVkZV9zZWVkX2tleXdvcmQiOmZhbHNlLCJmdWxsX21hdGNoIjpmYWxzZSwibG9hZF9zZXJwX2luZm8iOmZhbHNlLCJzZWFyY2hfYWZ0ZXJfdG9rZW4iOm51bGwsImlnbm9yZV9zeW5vbnltcyI6ZmFsc2UsImxhbmd1YWdlIjoiZW4iLCJzZWFyY2hfZW5naW5lIjoiZ29vZ2xlIiwibG9jYXRpb24iOjI4NDAsInVzZV9uZXdfY2F0ZWdvcmllcyI6dHJ1ZSwib3JkZXJfYnkiOnsib3JkZXJfZmllbGQiOiJrZXl3b3JkX2luZm8uc2VhcmNoX3ZvbHVtZSIsIm9yZGVyX3R5cGUiOiJEZXNjIiwibmV4dCI6bnVsbH0sImxpbWl0IjozNSwib2Zmc2V0IjowLCJhaWQiOjM2NzUsInVzZV9jYWNoZSI6dHJ1ZSwidGFza19pZCI6IjA1MTIwOTI0LTM2NzUtMDM5OS0wMDAwLTVlMGY3N2YwMzgxZCIsImZsYWdzIjpudWxsfSwiUmF3UXVlcnkiOm51bGwsIklkIjoiM2VjYmU2YzgtMzI1ZC00M2IwLTlkOTctNDA4NzM4MzM5NjEyIiwiU2VhcmNoQWZ0ZXJEYXRhIjpudWxsLCJFeGVjdXRvciI6LTkxODQ0MDU5NDA0NDQ1MTc2MzN9",
+          "items": null
+        }
+      ]
+    }
+  ]
+}

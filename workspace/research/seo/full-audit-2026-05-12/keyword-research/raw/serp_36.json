@@ -1,0 +1,923 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.0493 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120926-3675-0139-0000-28c584a0f1e8",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.7493 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "social media reporting tool",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "os": "windows",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "social media reporting tool",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=social%20media%20reporting%20tool&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-05-12 06:26:28 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "discussions_and_forums",
+            "related_searches"
+          ],
+          "se_results_count": 302000000,
+          "pages_count": 1,
+          "items_count": 12,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": "![12 of the Best Social Media Analytics Tools (and How They Can ...](https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-28c584a0f1e8:20)\n![The 21 Best Social Media Analytics Tools for Marketers](https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-28c584a0f1e8:21)\n![19 of the Best Social Media Analytics Tools for Marketers and ...](https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-28c584a0f1e8:22)\n![Top Social Media Analytics Tools | Rival IQ](https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-28c584a0f1e8:23)\n![Social Media Analytics Tools To Make Your Job Easier](https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-28c584a0f1e8:24)\n\nTop social media reporting tools for 2026 include **Buffer** (best for small teams), **Sprout Social** (best for enterprise-level analytics), and **Rival IQ** (top for competitor benchmarking). These platforms automate data collection to track engagement, reach, and follower growth across multiple channels (Facebook, Instagram, LinkedIn, TikTok) in unified dashboards.[](https://buffer.com/resources/best-social-media-analytics-tools/) [[1]](https://buffer.com/resources/best-social-media-analytics-tools/)[[2]](https://whatagraph.com/blog/articles/best-social-media-analytics-tools)[[3]](https://sproutsocial.com/)[[4]](https://www.socialstatus.io/)[[5]](https://sproutsocial.com/insights/social-media-analytics-tools/)\n\n**Top Social Media Reporting Tools in 2026** \n\n- **[Buffer](https://buffer.com/resources/best-social-media-analytics-tools/):** Best for affordable, simple analytics and engagement tracking, with paid plans starting at $6/mo.\n- **[Sprout Social](https://sproutsocial.com/features/social-media-analytics/):** Best for in-depth, customizable reports. Offers comprehensive analytics for agencies managing multiple profiles, starting at $199/seat/month.\n- **[Rival IQ](https://www.rivaliq.com/):** Best for competitor benchmarking, providing detailed insights into how your engagement stacks up against competitors on major platforms ($239+/mo).\n- **Social Status:** Specialized for automating reporting, influencer tracking, and organic/paid breakdowns.\n- **Keyhole:** Strong for real-time tracking, hashtag analytics, and competitor monitoring.\n- **[Hootsuite](https://www.hootsuite.com/platform/analytics):** A comprehensive tool for managing scheduling and generating, in-depth performance reports.\n- **[DashThis](https://dashthis.com/social-media-reporting-tools/):** Best for creating custom dashboards that pull data from various social platforms, Google Analytics, and more.\n- **Socialinsider:** Strong for auditing social strategy and competitor research.\n- **Vista Social:** A budget-friendly, all-in-one platform for small teams with advanced reporting capabilities.[](https://www.reddit.com/r/socialmedia/comments/19efwes/social_media_analytics_tool/) [[1]](https://www.reddit.com/r/socialmedia/comments/19efwes/social_media_analytics_tool/)[[2]](https://buffer.com/resources/best-social-media-analytics-tools/)[[3]](https://sproutsocial.com/)[[4]](https://www.socialstatus.io/)[[5]](https://sproutsocial.com/insights/social-media-analytics-tools/)[[6]](https://www.agorapulse.com/blog/social-media-management/social-media-analytics-tools/)[[7]](https://dashthis.com/social-media-reporting-tools/)[[8]](https://zapier.com/blog/best-social-media-management-tools/)\n\n**Key Features to Look For** \n\n- **Cross-Channel Reporting:** Platforms like Sprout Social or Hootsuite allow for aggregating data from Facebook, Instagram, LinkedIn, and TikTok in one report.\n- **Competitor Benchmarking:** Tools such as Rival IQ and Keyhole offer insights into competitor metrics, which helps you see how you compare to industry standards.\n- **Customizable Dashboards:** DashThis provides flexible dashboards to visualize KPIs according to your needs.\n- **Automated Reporting:** Social Status is designed to save time by automating reports on a regular basis.[](https://www.reddit.com/r/socialmedia/comments/19efwes/social_media_analytics_tool/) [[1]](https://www.reddit.com/r/socialmedia/comments/19efwes/social_media_analytics_tool/)[[2]](https://www.agorapulse.com/blog/social-media-management/social-media-analytics-tools/)[[3]](https://buffer.com/resources/best-social-media-analytics-tools/)[[4]](https://dashthis.com/social-media-reporting-tools/)[[5]](https://www.socialstatus.io/)\n\n**When to Choose Which Tool** \n\n- **Individuals/Small Teams:** Buffer, Vista Social.\n- **Mid-Market/Agencies:** Social Status, Rival IQ.\n- **Enterprises:** Sprout Social, Hootsuite.\n- **Deep Social Listening/Analysis:** Keyhole, Talkwalker.[](https://www.reddit.com/r/socialmedia/comments/19efwes/social_media_analytics_tool/) [[1]](https://www.reddit.com/r/socialmedia/comments/19efwes/social_media_analytics_tool/)[[2]](https://buffer.com/resources/best-social-media-analytics-tools/)[[3]](https://www.socialstatus.io/)[[4]](https://www.agorapulse.com/blog/social-media-management/social-media-analytics-tools/)[[5]](https://sproutsocial.com/insights/social-media-analytics-tools/)",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": null,
+                  "markdown": "![12 of the Best Social Media Analytics Tools (and How They Can ...](https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-28c584a0f1e8:10)\n![The 21 Best Social Media Analytics Tools for Marketers](https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-28c584a0f1e8:11)\n![19 of the Best Social Media Analytics Tools for Marketers and ...](https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-28c584a0f1e8:12)\n![Top Social Media Analytics Tools | Rival IQ](https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-28c584a0f1e8:13)\n![Social Media Analytics Tools To Make Your Job Easier](https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-28c584a0f1e8:14)",
+                  "links": null,
+                  "images": [
+                    {
+                      "type": "images_element",
+                      "alt": "12 of the Best Social Media Analytics Tools (and How They Can ...",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-28c584a0f1e8:15"
+                    },
+                    {
+                      "type": "images_element",
+                      "alt": "The 21 Best Social Media Analytics Tools for Marketers",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-28c584a0f1e8:16"
+                    },
+                    {
+                      "type": "images_element",
+                      "alt": "19 of the Best Social Media Analytics Tools for Marketers and ...",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-28c584a0f1e8:17"
+                    },
+                    {
+                      "type": "images_element",
+                      "alt": "Top Social Media Analytics Tools | Rival IQ",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-28c584a0f1e8:18"
+                    },
+                    {
+                      "type": "images_element",
+                      "alt": "Social Media Analytics Tools To Make Your Job Easier",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-28c584a0f1e8:19"
+                    }
+                  ],
+                  "references": null
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Top social media reporting tools for 2026 include Buffer (best for small teams), Sprout Social (best for enterprise-level analytics), and Rival IQ (top for competitor benchmarking). These platforms automate data collection to track engagement, reach, and follower growth across multiple channels (Facebook, Instagram, LinkedIn, TikTok) in unified dashboards. Buffer +4",
+                  "markdown": "Top social media reporting tools for 2026 include **Buffer** (best for small teams), **Sprout Social** (best for enterprise-level analytics), and **Rival IQ** (top for competitor benchmarking). These platforms automate data collection to track engagement, reach, and follower growth across multiple channels (Facebook, Instagram, LinkedIn, TikTok) in unified dashboards.[](https://buffer.com/resources/best-social-media-analytics-tools/) [[1]](https://buffer.com/resources/best-social-media-analytics-tools/)[[2]](https://whatagraph.com/blog/articles/best-social-media-analytics-tools)[[3]](https://sproutsocial.com/)[[4]](https://www.socialstatus.io/)[[5]](https://sproutsocial.com/insights/social-media-analytics-tools/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Buffer",
+                      "domain": "buffer.com",
+                      "url": "https://buffer.com/resources/best-social-media-analytics-tools/",
+                      "title": "The 11 Best Social Media Analytics + Reporting Tools in 2026 - Buffer",
+                      "text": "Competitor benchmarking: Can you see how your metrics stack up against competitors, or are you flying blind? A nice-to-have, but s..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Whatagraph",
+                      "domain": "whatagraph.com",
+                      "url": "https://whatagraph.com/blog/articles/best-social-media-analytics-tools",
+                      "title": "12 Best Social Media Analytics Tools to Save Time in 2026",
+                      "text": "12 Best Social Media Analytics Tools in 2026 We meticulously selected tools that fit these criteria, and here's a summary of them:"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Sprout Social",
+                      "domain": "sproutsocial.com",
+                      "url": "https://sproutsocial.com/",
+                      "title": "Sprout Social: Social Media Management Tool",
+                      "text": "Trusted partnerships and integrations across leading platforms. Sprout builds and maintains strong network partnerships and integr..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "www.socialstatus.io",
+                      "domain": "www.socialstatus.io",
+                      "url": "https://www.socialstatus.io/",
+                      "title": "Social Status: Social media analytics and reporting tools",
+                      "text": "#1 Social Media Analytics Tool. Social Status is the web's best social media analytics and reporting tool for agencies and brands."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Sprout Social",
+                      "domain": "sproutsocial.com",
+                      "url": "https://sproutsocial.com/insights/social-media-analytics-tools/",
+                      "title": "14 of the best social media analytics tools for your brand in 2026",
+                      "text": "3. Keyhole. Keyhole is a real-time social media analysis tool for X, Instagram, Facebook, YouTube, LinkedIn and TikTok. Its produc..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Top Social Media Reporting Tools in 2026",
+                  "markdown": "**Top Social Media Reporting Tools in 2026**",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Buffer : Best for affordable, simple analytics and engagement tracking, with paid plans starting at $6/mo. Sprout Social : Best for in-depth, customizable reports. Offers comprehensive analytics for agencies managing multiple profiles, starting at $199/seat/month. Rival IQ : Best for competitor benchmarking, providing detailed insights into how your engagement stacks up against competitors on major platforms ($239+/mo). Social Status : Specialized for automating reporting, influencer tracking, and organic/paid breakdowns. Social Status Keyhole : Strong for real-time tracking, hashtag analytics, and competitor monitoring. Keyhole Hootsuite : A comprehensive tool for managing scheduling and generating, in-depth performance reports. DashThis : Best for creating custom dashboards that pull data from various social platforms, Google Analytics, and more. Socialinsider : Strong for auditing social strategy and competitor research. Socialinsider Vista Social : A budget-friendly, all-in-one platform for small teams with advanced reporting capabilities. Vista Social",
+                  "markdown": "- **[Buffer](https://buffer.com/resources/best-social-media-analytics-tools/):** Best for affordable, simple analytics and engagement tracking, with paid plans starting at $6/mo.\n- **[Sprout Social](https://sproutsocial.com/features/social-media-analytics/):** Best for in-depth, customizable reports. Offers comprehensive analytics for agencies managing multiple profiles, starting at $199/seat/month.\n- **[Rival IQ](https://www.rivaliq.com/):** Best for competitor benchmarking, providing detailed insights into how your engagement stacks up against competitors on major platforms ($239+/mo).\n- **Social Status:** Specialized for automating reporting, influencer tracking, and organic/paid breakdowns.\n- **Keyhole:** Strong for real-time tracking, hashtag analytics, and competitor monitoring.\n- **[Hootsuite](https://www.hootsuite.com/platform/analytics):** A comprehensive tool for managing scheduling and generating, in-depth performance reports.\n- **[DashThis](https://dashthis.com/social-media-reporting-tools/):** Best for creating custom dashboards that pull data from various social platforms, Google Analytics, and more.\n- **Socialinsider:** Strong for auditing social strategy and competitor research.\n- **Vista Social:** A budget-friendly, all-in-one platform for small teams with advanced reporting capabilities.[](https://www.reddit.com/r/socialmedia/comments/19efwes/social_media_analytics_tool/) [[1]](https://www.reddit.com/r/socialmedia/comments/19efwes/social_media_analytics_tool/)[[2]](https://buffer.com/resources/best-social-media-analytics-tools/)[[3]](https://sproutsocial.com/)[[4]](https://www.socialstatus.io/)[[5]](https://sproutsocial.com/insights/social-media-analytics-tools/)[[6]](https://www.agorapulse.com/blog/social-media-management/social-media-analytics-tools/)[[7]](https://dashthis.com/social-media-reporting-tools/)[[8]](https://zapier.com/blog/best-social-media-management-tools/)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Buffer",
+                      "description": null,
+                      "url": "https://buffer.com/resources/best-social-media-analytics-tools/",
+                      "domain": "buffer.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Sprout Social",
+                      "description": null,
+                      "url": "https://sproutsocial.com/features/social-media-analytics/",
+                      "domain": "sproutsocial.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Rival IQ",
+                      "description": null,
+                      "url": "https://www.rivaliq.com/",
+                      "domain": "www.rivaliq.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Hootsuite",
+                      "description": null,
+                      "url": "https://www.hootsuite.com/platform/analytics",
+                      "domain": "www.hootsuite.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "DashThis",
+                      "description": null,
+                      "url": "https://dashthis.com/social-media-reporting-tools/",
+                      "domain": "dashthis.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/socialmedia/comments/19efwes/social_media_analytics_tool/",
+                      "title": "Social media Analytics tool : r/socialmedia",
+                      "text": "There are many social media analytics tools available, including: * **Hootsuite Analytics** Provides comprehensive analytics and r..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Buffer",
+                      "domain": "buffer.com",
+                      "url": "https://buffer.com/resources/best-social-media-analytics-tools/",
+                      "title": "The 11 Best Social Media Analytics + Reporting Tools in 2026 - Buffer",
+                      "text": "Competitor benchmarking: Can you see how your metrics stack up against competitors, or are you flying blind? A nice-to-have, but s..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Sprout Social",
+                      "domain": "sproutsocial.com",
+                      "url": "https://sproutsocial.com/",
+                      "title": "Sprout Social: Social Media Management Tool",
+                      "text": "Trusted partnerships and integrations across leading platforms. Sprout builds and maintains strong network partnerships and integr..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "www.socialstatus.io",
+                      "domain": "www.socialstatus.io",
+                      "url": "https://www.socialstatus.io/",
+                      "title": "Social Status: Social media analytics and reporting tools",
+                      "text": "#1 Social Media Analytics Tool. Social Status is the web's best social media analytics and reporting tool for agencies and brands."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Sprout Social",
+                      "domain": "sproutsocial.com",
+                      "url": "https://sproutsocial.com/insights/social-media-analytics-tools/",
+                      "title": "14 of the best social media analytics tools for your brand in 2026",
+                      "text": "3. Keyhole. Keyhole is a real-time social media analysis tool for X, Instagram, Facebook, YouTube, LinkedIn and TikTok. Its produc..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Agorapulse",
+                      "domain": "www.agorapulse.com",
+                      "url": "https://www.agorapulse.com/blog/social-media-management/social-media-analytics-tools/",
+                      "title": "40 of the Best Social Media Analytics Tools - Agorapulse",
+                      "text": "15. Hootsuite. Hootsuite is a social media dashboard that supports publishing, monitoring, and reporting. With Hootsuite analytics..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "DashThis",
+                      "domain": "dashthis.com",
+                      "url": "https://dashthis.com/social-media-reporting-tools/",
+                      "title": "Social Media Reporting Tool & Dashboards | DashThis",
+                      "text": "Competitor analysis is crucial in your content marketing strategy. To know what your competitors are doing in real-time or what yo..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Zapier",
+                      "domain": "zapier.com",
+                      "url": "https://zapier.com/blog/best-social-media-management-tools/",
+                      "title": "The 9 best social media management tools in 2026 - Zapier",
+                      "text": "Table_title: The best social media management tools at a glance Table_content: header: | | Best for | Website | row: | : Hootsuite..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Key Features to Look For",
+                  "text": "Cross-Channel Reporting: Platforms like Sprout Social or Hootsuite allow for aggregating data from Facebook, Instagram, LinkedIn, and TikTok in one report. Competitor Benchmarking: Tools such as Rival IQ and Keyhole offer insights into competitor metrics, which helps you see how you compare to industry standards. Customizable Dashboards: DashThis provides flexible dashboards to visualize KPIs according to your needs. Automated Reporting: Social Status is designed to save time by automating reports on a regular basis.",
+                  "markdown": "- **Cross-Channel Reporting:** Platforms like Sprout Social or Hootsuite allow for aggregating data from Facebook, Instagram, LinkedIn, and TikTok in one report.\n- **Competitor Benchmarking:** Tools such as Rival IQ and Keyhole offer insights into competitor metrics, which helps you see how you compare to industry standards.\n- **Customizable Dashboards:** DashThis provides flexible dashboards to visualize KPIs according to your needs.\n- **Automated Reporting:** Social Status is designed to save time by automating reports on a regular basis.[](https://www.reddit.com/r/socialmedia/comments/19efwes/social_media_analytics_tool/) [[1]](https://www.reddit.com/r/socialmedia/comments/19efwes/social_media_analytics_tool/)[[2]](https://www.agorapulse.com/blog/social-media-management/social-media-analytics-tools/)[[3]](https://buffer.com/resources/best-social-media-analytics-tools/)[[4]](https://dashthis.com/social-media-reporting-tools/)[[5]](https://www.socialstatus.io/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/socialmedia/comments/19efwes/social_media_analytics_tool/",
+                      "title": "Social media Analytics tool : r/socialmedia",
+                      "text": "There are many social media analytics tools available, including: * **Hootsuite Analytics** Provides comprehensive analytics and r..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Agorapulse",
+                      "domain": "www.agorapulse.com",
+                      "url": "https://www.agorapulse.com/blog/social-media-management/social-media-analytics-tools/",
+                      "title": "40 of the Best Social Media Analytics Tools - Agorapulse",
+                      "text": "15. Hootsuite. Hootsuite is a social media dashboard that supports publishing, monitoring, and reporting. With Hootsuite analytics..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Buffer",
+                      "domain": "buffer.com",
+                      "url": "https://buffer.com/resources/best-social-media-analytics-tools/",
+                      "title": "The 11 Best Social Media Analytics + Reporting Tools in 2026 - Buffer",
+                      "text": "Competitor benchmarking: Can you see how your metrics stack up against competitors, or are you flying blind? A nice-to-have, but s..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "DashThis",
+                      "domain": "dashthis.com",
+                      "url": "https://dashthis.com/social-media-reporting-tools/",
+                      "title": "Social Media Reporting Tool & Dashboards | DashThis",
+                      "text": "Competitor analysis is crucial in your content marketing strategy. To know what your competitors are doing in real-time or what yo..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "www.socialstatus.io",
+                      "domain": "www.socialstatus.io",
+                      "url": "https://www.socialstatus.io/",
+                      "title": "Social Status: Social media analytics and reporting tools",
+                      "text": "#1 Social Media Analytics Tool. Social Status is the web's best social media analytics and reporting tool for agencies and brands."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "When to Choose Which Tool",
+                  "text": "Individuals/Small Teams: Buffer, Vista Social. Mid-Market/Agencies: Social Status, Rival IQ. Enterprises: Sprout Social, Hootsuite. Deep Social Listening/Analysis: Keyhole, Talkwalker.",
+                  "markdown": "- **Individuals/Small Teams:** Buffer, Vista Social.\n- **Mid-Market/Agencies:** Social Status, Rival IQ.\n- **Enterprises:** Sprout Social, Hootsuite.\n- **Deep Social Listening/Analysis:** Keyhole, Talkwalker.[](https://www.reddit.com/r/socialmedia/comments/19efwes/social_media_analytics_tool/) [[1]](https://www.reddit.com/r/socialmedia/comments/19efwes/social_media_analytics_tool/)[[2]](https://buffer.com/resources/best-social-media-analytics-tools/)[[3]](https://www.socialstatus.io/)[[4]](https://www.agorapulse.com/blog/social-media-management/social-media-analytics-tools/)[[5]](https://sproutsocial.com/insights/social-media-analytics-tools/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/socialmedia/comments/19efwes/social_media_analytics_tool/",
+                      "title": "Social media Analytics tool : r/socialmedia",
+                      "text": "There are many social media analytics tools available, including: * **Hootsuite Analytics** Provides comprehensive analytics and r..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Buffer",
+                      "domain": "buffer.com",
+                      "url": "https://buffer.com/resources/best-social-media-analytics-tools/",
+                      "title": "The 11 Best Social Media Analytics + Reporting Tools in 2026 - Buffer",
+                      "text": "Competitor benchmarking: Can you see how your metrics stack up against competitors, or are you flying blind? A nice-to-have, but s..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "www.socialstatus.io",
+                      "domain": "www.socialstatus.io",
+                      "url": "https://www.socialstatus.io/",
+                      "title": "Social Status: Social media analytics and reporting tools",
+                      "text": "#1 Social Media Analytics Tool. Social Status is the web's best social media analytics and reporting tool for agencies and brands."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Agorapulse",
+                      "domain": "www.agorapulse.com",
+                      "url": "https://www.agorapulse.com/blog/social-media-management/social-media-analytics-tools/",
+                      "title": "40 of the Best Social Media Analytics Tools - Agorapulse",
+                      "text": "15. Hootsuite. Hootsuite is a social media dashboard that supports publishing, monitoring, and reporting. With Hootsuite analytics..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Sprout Social",
+                      "domain": "sproutsocial.com",
+                      "url": "https://sproutsocial.com/insights/social-media-analytics-tools/",
+                      "title": "14 of the best social media analytics tools for your brand in 2026",
+                      "text": "3. Keyhole. Keyhole is a real-time social media analysis tool for X, Instagram, Facebook, YouTube, LinkedIn and TikTok. Its produc..."
+                    }
+                  ]
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Reddit",
+                  "domain": "www.reddit.com",
+                  "url": "https://www.reddit.com/r/socialmedia/comments/19efwes/social_media_analytics_tool/",
+                  "title": "Social media Analytics tool : r/socialmedia",
+                  "text": "There are many social media analytics tools available, including: * **Hootsuite Analytics** Provides comprehensive analytics and r..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Buffer",
+                  "domain": "buffer.com",
+                  "url": "https://buffer.com/resources/best-social-media-analytics-tools/",
+                  "title": "The 11 Best Social Media Analytics + Reporting Tools in 2026 - Buffer",
+                  "text": "Competitor benchmarking: Can you see how your metrics stack up against competitors, or are you flying blind? A nice-to-have, but s..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Sprout Social",
+                  "domain": "sproutsocial.com",
+                  "url": "https://sproutsocial.com/insights/social-media-analytics-tools/",
+                  "title": "14 of the best social media analytics tools for your brand in 2026",
+                  "text": "3. Keyhole. Keyhole is a real-time social media analysis tool for X, Instagram, Facebook, YouTube, LinkedIn and TikTok. Its produc..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Whatagraph",
+                  "domain": "whatagraph.com",
+                  "url": "https://whatagraph.com/blog/articles/best-social-media-analytics-tools",
+                  "title": "12 Best Social Media Analytics Tools to Save Time in 2026",
+                  "text": "12 Best Social Media Analytics Tools in 2026 We meticulously selected tools that fit these criteria, and here's a summary of them:"
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "www.socialstatus.io",
+                  "domain": "www.socialstatus.io",
+                  "url": "https://www.socialstatus.io/",
+                  "title": "Social Status: Social media analytics and reporting tools",
+                  "text": "#1 Social Media Analytics Tool. Social Status is the web's best social media analytics and reporting tool for agencies and brands."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "DashThis",
+                  "domain": "dashthis.com",
+                  "url": "https://dashthis.com/social-media-reporting-tools/",
+                  "title": "Social Media Reporting Tool & Dashboards | DashThis",
+                  "text": "Competitor analysis is crucial in your content marketing strategy. To know what your competitors are doing in real-time or what yo..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Sprout Social",
+                  "domain": "sproutsocial.com",
+                  "url": "https://sproutsocial.com/",
+                  "title": "Sprout Social: Social Media Management Tool",
+                  "text": "Trusted partnerships and integrations across leading platforms. Sprout builds and maintains strong network partnerships and integr..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Zapier",
+                  "domain": "zapier.com",
+                  "url": "https://zapier.com/blog/best-social-media-management-tools/",
+                  "title": "The 9 best social media management tools in 2026 - Zapier",
+                  "text": "Table_title: The best social media management tools at a glance Table_content: header: | | Best for | Website | row: | : Hootsuite..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Agorapulse",
+                  "domain": "www.agorapulse.com",
+                  "url": "https://www.agorapulse.com/blog/social-media-management/social-media-analytics-tools/",
+                  "title": "40 of the Best Social Media Analytics Tools - Agorapulse",
+                  "text": "15. Hootsuite. Hootsuite is a social media dashboard that supports publishing, monitoring, and reporting. With Hootsuite analytics..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "buffer.com",
+              "title": "The 11 Best Social Media Analytics + Reporting Tools in ...",
+              "url": "https://buffer.com/resources/best-social-media-analytics-tools/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://buffer.com \u203a resources \u203a best-social-media-analy...",
+              "website_name": "Buffer",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Apr 7, 2026 \u2014 What makes the best social media analytics tool? After testing these 11 tools, here's what I looked for \u2014 and what I'd suggest you weigh when\u00a0... Read more",
+              "pre_snippet": "04/07/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "social media analytics tool"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-04-07 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "domain": "www.hootsuite.com",
+              "title": "Social Media Analytics Tools",
+              "url": "https://www.hootsuite.com/platform/analytics?srsltid=AfmBOoqxLqTIKEwk73aKp1Yom-YHAcLWZwhRb3R-KJYCD9BmQjGISRtJ",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.hootsuite.com \u203a platform \u203a analytics",
+              "website_name": "Hootsuite",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "then it's definitely worth your while to invest in an analytics tool like Hootsuite. The best social media analytics tools can help you reach your goals much\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "social media analytics tools"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "www.socialstatus.io",
+              "title": "Social Status: Social media analytics and reporting tools",
+              "url": "https://www.socialstatus.io/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.socialstatus.io",
+              "website_name": "socialstatus.io",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Social Status is the web's best social media analytics and reporting tool for agencies and brands. Social Status automates your social media reporting. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Social Status",
+                "social media analytics",
+                "reporting tool",
+                "social media reporting"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Best Social Media analytics tool : r/SocialMediaManagers",
+              "url": "https://www.reddit.com/r/SocialMediaManagers/comments/1pbbqbh/best_social_media_analytics_tool/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "20+ comments  \u00b7  5 months ago",
+              "website_name": "Reddit\u00a0\u00b7\u00a0r/SocialMediaManagers",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Best Social Media analytics tool ... Social media reporting and analytics (tools?) r/socialmedia. \u2022 5y ago. Social media reporting and analytics (\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Social Media analytics tool"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Social media Analytics tool : r/socialmedia - Reddit",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/socialmedia/comments/19efwes/social_media_analytics_tool/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Which social media analytics tool provides the most ...",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/DigitalMarketingHack/comments/1r2zsv5/which_social_media_analytics_tool_provides_the/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "More results from www.reddit.com",
+                  "description": null,
+                  "url": "https://www.google.com/search?q=social+media+reporting+tool+site:www.reddit.com&sca_esv=89f358ba4e2fcd04&hl=en&gl=US&sa=X&ved=2ahUKEwizmqiLj7OUAxVWRDABHQqzCckQrQIoAnoECCMQAw",
+                  "domain": "www.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "www.socialinsider.io",
+              "title": "11 Social Media Analytics Tools for Data-Driven Success",
+              "url": "https://www.socialinsider.io/blog/top-social-media-analytics-tools/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.socialinsider.io \u203a Blog",
+              "website_name": "Socialinsider",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Oct 13, 2025 \u2014 Autoreporting: Socialinsider also works great as a social media reporting tool ... Tools Twitter Analytics Tools YouTube Analytics Tools Read more",
+              "pre_snippet": "10/13/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "social media reporting tool"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-10-13 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+              "domain": "dashthis.com",
+              "title": "Social Media Reporting Tool & Dashboards",
+              "url": "https://dashthis.com/social-media-reporting-tools/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://dashthis.com \u203a social-media-reporting-tools",
+              "website_name": "DashThis",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "We know your time is precious, and some tools help you optimize publishing social media content. Hootsuite, for example, is a very well-rounded tool. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 83,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "tools",
+                "social media",
+                "tool"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+              "domain": "whatagraph.com",
+              "title": "Free Social Media Report Generator Tool",
+              "url": "https://whatagraph.com/social-media-report-tool",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://whatagraph.com \u203a social-media-report-tool",
+              "website_name": "Whatagraph",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "No devs, no APIs, no third-party tools. With this social media reporting tool, setup only takes a few minutes. You can also pull in data from Google Analytics,\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "social media reporting tool"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "sproutsocial.com",
+              "title": "Sprout Social: Social Media Management Tool",
+              "url": "https://sproutsocial.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://sproutsocial.com",
+              "website_name": "Sprout Social",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Our AI-powered influencer marketing tools help you build creator campaigns based on the topics your audience engages with most. Find brand-safe creators by\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "tools"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "www.sprinklr.com",
+              "title": "The Best Social Media Analytics Tools for 2026",
+              "url": "https://www.sprinklr.com/blog/social-media-analytics-tools/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.sprinklr.com \u203a blog \u203a social-media-analytic...",
+              "website_name": "Sprinklr",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Feb 23, 2026 \u2014 Social media reporting & dashboard tools; Social media analytics ... The right social media analytics tool doesn't just help you see\u00a0... Read more",
+              "pre_snippet": "02/23/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "social media analytics tool"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-02-23 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "discussions_and_forums",
+              "rank_group": 1,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]",
+              "title": "Discussions and forums",
+              "items": [
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "Social Media Reporting tools",
+                  "url": "https://www.reddit.com/r/SocialMediaManagers/comments/1pt90m4/social_media_reporting_tools/",
+                  "domain": "www.reddit.com",
+                  "source": "Reddit",
+                  "description": null,
+                  "timestamp": "2026-01-12 06:26:28 +00:00",
+                  "posts_count": 10
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "What are some highly recommended social media monitoring tools?",
+                  "url": "https://www.quora.com/What-are-some-highly-recommended-social-media-monitoring-tools",
+                  "domain": "www.quora.com",
+                  "source": "Quora",
+                  "description": null,
+                  "timestamp": "2025-05-12 06:26:28 +00:00",
+                  "posts_count": 2
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "What are the best tools for tracking social media performance?",
+                  "url": "https://www.quora.com/What-are-the-best-tools-for-tracking-social-media-performance?no_redirect=1",
+                  "domain": "www.quora.com",
+                  "source": "Quora",
+                  "description": null,
+                  "timestamp": "2025-05-12 06:26:28 +00:00",
+                  "posts_count": 1
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Social media reporting tool free",
+                "Social media analytics tools free",
+                "Best social media reporting tool",
+                "Free social media management tools",
+                "Best free social media analytics tools",
+                "Hootsuite",
+                "Free social media analytics tools Instagram",
+                "Social media monitoring tools"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

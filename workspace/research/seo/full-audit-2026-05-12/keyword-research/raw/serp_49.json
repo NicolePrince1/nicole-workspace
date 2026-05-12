@@ -1,0 +1,1316 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.7371 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120926-3675-0139-0000-b9d9e0f00084",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.6449 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "dashthis alternative",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "os": "windows",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "dashthis alternative",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=dashthis%20alternative&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-05-12 06:26:57 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "paid",
+            "organic",
+            "discussions_and_forums",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "se_results_count": 190000,
+          "pages_count": 1,
+          "items_count": 18,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": "![6 DashThis Alternatives Compared (Stop Paying for Unused ...](https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-b9d9e0f00084:20)\n![Top DashThis Alternatives (Paid and Free) - Rui Zhi Dong](https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-b9d9e0f00084:21)\n![The top 8 best DashThis alternatives](https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-b9d9e0f00084:22)\n![11 Best DashThis Alternatives for 2024 [Tested &amp; Ranked ...](https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-b9d9e0f00084:23)\n![Whats the Best Alternative to dashthis?](https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-b9d9e0f00084:24)\n\nTop DashThis alternatives for marketing reporting include [Databox](https://databox.com/dashthis-alternative), Whatagraph, [AgencyAnalytics](https://agencyanalytics.com/competitors/dashthis-alternative) , and Looker Studio (formerly Google Data Studio). These platforms offer more robust integrations, better data blending, or lower-cost scaling for agencies. **Databox** is frequently cited as the top alternative for its wide connector library, while **Looker Studio** is best for free, customizable reports.[](https://whatagraph.com/blog/articles/dashthis-alternatives-and-competitors) [[1]](https://whatagraph.com/blog/articles/dashthis-alternatives-and-competitors)[[2]](https://www.swydo.com/blog/dashthis-alternatives/)[[3]](https://blog.coupler.io/dashthis-alternatives/)[[4]](https://databox.com/dashthis-alternative)[[5]](https://agencyanalytics.com/competitors/dashthis-alternative)[[6]](https://metricool.com/dashthis-alternatives/)\n\nHere are the best DashThis alternatives categorized by strength:1. Best Overall Alternatives\n\n- **Databox:** Considered the best alternative for marketers, offering 130+ integrations and superior flexibility for creating custom dashboards with no code.\n- **Whatagraph:** Excellent for easy cross-channel reporting and data visualization, particularly if you need to create reports quickly.\n- **AgencyAnalytics:** Ideal for marketing agencies needing white-label reports, automated reporting, and detailed SEO tools.[](https://whatagraph.com/blog/articles/dashthis-alternatives-and-competitors) [[1]](https://whatagraph.com/blog/articles/dashthis-alternatives-and-competitors)[[2]](https://databox.com/dashthis-alternative)[[3]](https://www.swydo.com/blog/dashthis-alternatives/)[[4]](https://www.adriel.com/blog/18-top-dashthis-alternatives-in-2024-full-features-and-pricing)[[5]](https://blog.coupler.io/dashthis-alternatives/)\n\n2. Best for Data-Driven & Technical Teams[[1]](https://www.adriel.com/blog/18-top-dashthis-alternatives-in-2024-full-features-and-pricing)\n\n- **Looker Studio (Free):** The top free choice, providing high customization for users comfortable with technical setup.\n- **[Funnel.io](https://funnel.io/blog/dashthis-alternatives):** Best for mapping, transforming, and organizing large amounts of data before visualization.\n- **[Improvado](https://improvado.io/blog/dashthis-alternatives):** A heavy-duty tool for larger organizations needing to blend data from multiple channels for, say, revenue tracking.\n- **Klipfolio:** Strong for in-depth data manipulation and creating custom metrics, with plans starting low.[](https://funnel.io/blog/dashthis-alternatives) [[1]](https://funnel.io/blog/dashthis-alternatives)[[2]](https://www.swydo.com/blog/dashthis-alternatives/)[[3]](https://metricool.com/dashthis-alternatives/)[[4]](https://learndigitaladvertising.com/resources/all-software-alternatives/dashthis-alternatives/)\n\n3. Best for Agencies & Specialized Reporting[[1]](https://metricool.com/dashthis-alternatives/)\n\n- **NinjaCat:** Strong contender for high-volume, multi-channel agency campaigns.\n- **[Swydo](https://www.swydo.com/blog/dashthis-alternatives/):** Affordable for smaller teams, offering solid PPC and social media reporting for roughly $69/month.\n- **[Reportz](https://learndigitaladvertising.com/resources/all-software-alternatives/dashthis-alternatives/):** A good option for agencies focusing on, say, custom pricing (billing per dashboard).\n- **[Adriel](https://www.adriel.com/blog/18-top-dashthis-alternatives-in-2024-full-features-and-pricing):** Good for creating automated ad reports, acting as a marketing intelligence platform.[](https://www.swydo.com/blog/dashthis-alternatives/) [[1]](https://www.swydo.com/blog/dashthis-alternatives/)[[2]](https://metricool.com/dashthis-alternatives/)[[3]](https://learndigitaladvertising.com/resources/all-software-alternatives/dashthis-alternatives/)[[4]](https://www.adriel.com/blog/18-top-dashthis-alternatives-in-2024-full-features-and-pricing)[[5]](https://blog.coupler.io/dashthis-alternatives/)\n\nQuick Comparison of Top Alternatives| Tool[[1]](https://www.swydo.com/blog/dashthis-alternatives/)[[2]](https://improvado.io/blog/dashthis-alternatives)[[3]](https://www.adriel.com/blog/18-top-dashthis-alternatives-in-2024-full-features-and-pricing)[[4]](https://funnel.io/blog/dashthis-alternatives)[[5]](https://databox.com/dashthis-alternative) | Best For | Key Strength |\n|---|---|---|\n| **Databox** | Marketers/Agencies | 130+ Integrations, User-Friendly |\n| **Whatagraph** | Ease of Use | Fast Reporting Setup |\n| **AgencyAnalytics** | Agencies | White-Labeling/SEO |\n| **Looker Studio** | Budgeting | Free, Deep Customization |\n| **Funnel.io** | Data Handling | Complex Data Structuring |\n\n**Key Considerations for Switching:**   \nIf you need more integrations than DashThis offers, choose **Databox** (130+) or **AgencyAnalytics** (80+). If cost is the main driver, **Looker Studio** is free, and **Swydo** offers competitive, lower-cost tiers.[](https://www.swydo.com/blog/dashthis-alternatives/) [[1]](https://www.swydo.com/blog/dashthis-alternatives/)[[2]](https://learndigitaladvertising.com/resources/all-software-alternatives/dashthis-alternatives/)",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": null,
+                  "markdown": "![6 DashThis Alternatives Compared (Stop Paying for Unused ...](https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-b9d9e0f00084:10)\n![Top DashThis Alternatives (Paid and Free) - Rui Zhi Dong](https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-b9d9e0f00084:11)\n![The top 8 best DashThis alternatives](https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-b9d9e0f00084:12)\n![11 Best DashThis Alternatives for 2024 [Tested &amp; Ranked ...](https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-b9d9e0f00084:13)\n![Whats the Best Alternative to dashthis?](https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-b9d9e0f00084:14)",
+                  "links": null,
+                  "images": [
+                    {
+                      "type": "images_element",
+                      "alt": "6 DashThis Alternatives Compared (Stop Paying for Unused ...",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-b9d9e0f00084:15"
+                    },
+                    {
+                      "type": "images_element",
+                      "alt": "Top DashThis Alternatives (Paid and Free) - Rui Zhi Dong",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-b9d9e0f00084:16"
+                    },
+                    {
+                      "type": "images_element",
+                      "alt": "The top 8 best DashThis alternatives",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-b9d9e0f00084:17"
+                    },
+                    {
+                      "type": "images_element",
+                      "alt": "11 Best DashThis Alternatives for 2024 [Tested & Ranked ...",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-b9d9e0f00084:18"
+                    },
+                    {
+                      "type": "images_element",
+                      "alt": "Whats the Best Alternative to dashthis?",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-b9d9e0f00084:19"
+                    }
+                  ],
+                  "references": null
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Top DashThis alternatives for marketing reporting include Databox, Whatagraph, AgencyAnalytics, and Looker Studio (formerly Google Data Studio). These platforms offer more robust integrations, better data blending, or lower-cost scaling for agencies. Databox is frequently cited as the top alternative for its wide connector library, while Looker Studio is best for free, customizable reports. Whatagraph +5",
+                  "markdown": "Top DashThis alternatives for marketing reporting include [Databox](https://databox.com/dashthis-alternative), Whatagraph, [AgencyAnalytics](https://agencyanalytics.com/competitors/dashthis-alternative) , and Looker Studio (formerly Google Data Studio). These platforms offer more robust integrations, better data blending, or lower-cost scaling for agencies. **Databox** is frequently cited as the top alternative for its wide connector library, while **Looker Studio** is best for free, customizable reports.[](https://whatagraph.com/blog/articles/dashthis-alternatives-and-competitors) [[1]](https://whatagraph.com/blog/articles/dashthis-alternatives-and-competitors)[[2]](https://www.swydo.com/blog/dashthis-alternatives/)[[3]](https://blog.coupler.io/dashthis-alternatives/)[[4]](https://databox.com/dashthis-alternative)[[5]](https://agencyanalytics.com/competitors/dashthis-alternative)[[6]](https://metricool.com/dashthis-alternatives/)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Databox",
+                      "description": null,
+                      "url": "https://databox.com/dashthis-alternative",
+                      "domain": "databox.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "AgencyAnalytics",
+                      "description": null,
+                      "url": "https://agencyanalytics.com/competitors/dashthis-alternative",
+                      "domain": "agencyanalytics.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Whatagraph",
+                      "domain": "whatagraph.com",
+                      "url": "https://whatagraph.com/blog/articles/dashthis-alternatives-and-competitors",
+                      "title": "11 Best DashThis Alternatives in 2026 [FULL Comparison Table]",
+                      "text": "11 Best DashThis Alternatives and Competitors in 2026. 1. Whatagraph. 2. Geckoboard. 3. Klipfolio. 4. NinjaCat. 5. Looker Studio. ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Swydo",
+                      "domain": "www.swydo.com",
+                      "url": "https://www.swydo.com/blog/dashthis-alternatives/",
+                      "title": "6 DashThis Alternatives Compared (Stop Paying for Unused ... - Swydo",
+                      "text": "DashThis Alternatives FAQ * Databox is the top overall alternative, offering 130+ integrations (4x more than DashThis) with unlimi..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Coupler.io Blog",
+                      "domain": "blog.coupler.io",
+                      "url": "https://blog.coupler.io/dashthis-alternatives/",
+                      "title": "Dashthis Alternatives to Try in 2026 | Coupler.io Blog",
+                      "text": "Best Dashthis alternatives. Coupler.io. One of the popular and effective alternatives to Dashthis is Coupler.io, \u00b7 Coupler.io. One..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Databox",
+                      "domain": "databox.com",
+                      "url": "https://databox.com/dashthis-alternative",
+                      "title": "The Ultimate DashThis Alternative For Marketers and Agencies - Databox",
+                      "text": "Databox: The Best DashThis Alternative For Marketers. Your reporting needs are dynamic. As your strategies evolve you need a flexi..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "AgencyAnalytics",
+                      "domain": "agencyanalytics.com",
+                      "url": "https://agencyanalytics.com/competitors/dashthis-alternative",
+                      "title": "The #1 DashThis Alternative for Marketing Agencies",
+                      "text": "AgencyAnalytics sets the standard for tailored client and staff permissions, providing detailed controls that position it as the b..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Metricool",
+                      "domain": "metricool.com",
+                      "url": "https://metricool.com/dashthis-alternatives/",
+                      "title": "DashThis Alternatives for Marketing Reporting in 2026 - Metricool",
+                      "text": "Table_title: Which DashThis Alternative Is Right for You? Table_content: header: | Tool | Best For | row: | Tool: Looker Studio | ..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Here are the best DashThis alternatives categorized by strength:",
+                  "markdown": "Here are the best DashThis alternatives categorized by strength:",
+                  "links": null,
+                  "images": null,
+                  "references": null
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Databox : Considered the best alternative for marketers, offering 130+ integrations and superior flexibility for creating custom dashboards with no code. Databox Whatagraph : Excellent for easy cross-channel reporting and data visualization, particularly if you need to create reports quickly. Whatagraph AgencyAnalytics : Ideal for marketing agencies needing white-label reports, automated reporting, and detailed SEO tools. AgencyAnalytics",
+                  "markdown": "- **Databox:** Considered the best alternative for marketers, offering 130+ integrations and superior flexibility for creating custom dashboards with no code.\n- **Whatagraph:** Excellent for easy cross-channel reporting and data visualization, particularly if you need to create reports quickly.\n- **AgencyAnalytics:** Ideal for marketing agencies needing white-label reports, automated reporting, and detailed SEO tools.[](https://whatagraph.com/blog/articles/dashthis-alternatives-and-competitors) [[1]](https://whatagraph.com/blog/articles/dashthis-alternatives-and-competitors)[[2]](https://databox.com/dashthis-alternative)[[3]](https://www.swydo.com/blog/dashthis-alternatives/)[[4]](https://www.adriel.com/blog/18-top-dashthis-alternatives-in-2024-full-features-and-pricing)[[5]](https://blog.coupler.io/dashthis-alternatives/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Whatagraph",
+                      "domain": "whatagraph.com",
+                      "url": "https://whatagraph.com/blog/articles/dashthis-alternatives-and-competitors",
+                      "title": "11 Best DashThis Alternatives in 2026 [FULL Comparison Table]",
+                      "text": "11 Best DashThis Alternatives and Competitors in 2026. 1. Whatagraph. 2. Geckoboard. 3. Klipfolio. 4. NinjaCat. 5. Looker Studio. ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Databox",
+                      "domain": "databox.com",
+                      "url": "https://databox.com/dashthis-alternative",
+                      "title": "The Ultimate DashThis Alternative For Marketers and Agencies - Databox",
+                      "text": "Databox: The Best DashThis Alternative For Marketers. Your reporting needs are dynamic. As your strategies evolve you need a flexi..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Swydo",
+                      "domain": "www.swydo.com",
+                      "url": "https://www.swydo.com/blog/dashthis-alternatives/",
+                      "title": "6 DashThis Alternatives Compared (Stop Paying for Unused ... - Swydo",
+                      "text": "DashThis Alternatives FAQ * Databox is the top overall alternative, offering 130+ integrations (4x more than DashThis) with unlimi..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Adriel AI",
+                      "domain": "www.adriel.com",
+                      "url": "https://www.adriel.com/blog/18-top-dashthis-alternatives-in-2024-full-features-and-pricing",
+                      "title": "18 Top DashThis Alternatives in 2024 | Full Features and Pricing",
+                      "text": "8 Best Overall DashThis Alternatives - Quick Summary Here are the 8 best alternatives that have similar (but better) features as D..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Coupler.io Blog",
+                      "domain": "blog.coupler.io",
+                      "url": "https://blog.coupler.io/dashthis-alternatives/",
+                      "title": "Dashthis Alternatives to Try in 2026 | Coupler.io Blog",
+                      "text": "Best Dashthis alternatives. Coupler.io. One of the popular and effective alternatives to Dashthis is Coupler.io, \u00b7 Coupler.io. One..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Looker Studio (Free): The top free choice, providing high customization for users comfortable with technical setup. Looker Studio Funnel.io : Best for mapping, transforming, and organizing large amounts of data before visualization. Improvado : A heavy-duty tool for larger organizations needing to blend data from multiple channels for, say, revenue tracking. Klipfolio : Strong for in-depth data manipulation and creating custom metrics, with plans starting low. Klipfolio",
+                  "markdown": "- **Looker Studio (Free):** The top free choice, providing high customization for users comfortable with technical setup.\n- **[Funnel.io](https://funnel.io/blog/dashthis-alternatives):** Best for mapping, transforming, and organizing large amounts of data before visualization.\n- **[Improvado](https://improvado.io/blog/dashthis-alternatives):** A heavy-duty tool for larger organizations needing to blend data from multiple channels for, say, revenue tracking.\n- **Klipfolio:** Strong for in-depth data manipulation and creating custom metrics, with plans starting low.[](https://funnel.io/blog/dashthis-alternatives) [[1]](https://funnel.io/blog/dashthis-alternatives)[[2]](https://www.swydo.com/blog/dashthis-alternatives/)[[3]](https://metricool.com/dashthis-alternatives/)[[4]](https://learndigitaladvertising.com/resources/all-software-alternatives/dashthis-alternatives/)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Funnel.io",
+                      "description": null,
+                      "url": "https://funnel.io/blog/dashthis-alternatives",
+                      "domain": "funnel.io"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Improvado",
+                      "description": null,
+                      "url": "https://improvado.io/blog/dashthis-alternatives",
+                      "domain": "improvado.io"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Funnel",
+                      "domain": "funnel.io",
+                      "url": "https://funnel.io/blog/dashthis-alternatives",
+                      "title": "The top 8 best DashThis alternatives - Funnel.io",
+                      "text": "How Adverity compares to DashThis. DashThis is a fast and user-friendly reporting tool, but rigid. Adverity is more focused on dat..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Swydo",
+                      "domain": "www.swydo.com",
+                      "url": "https://www.swydo.com/blog/dashthis-alternatives/",
+                      "title": "6 DashThis Alternatives Compared (Stop Paying for Unused ... - Swydo",
+                      "text": "DashThis Alternatives FAQ * Databox is the top overall alternative, offering 130+ integrations (4x more than DashThis) with unlimi..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Metricool",
+                      "domain": "metricool.com",
+                      "url": "https://metricool.com/dashthis-alternatives/",
+                      "title": "DashThis Alternatives for Marketing Reporting in 2026 - Metricool",
+                      "text": "Table_title: Which DashThis Alternative Is Right for You? Table_content: header: | Tool | Best For | row: | Tool: Looker Studio | ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Learn Digital Advertising",
+                      "domain": "learndigitaladvertising.com",
+                      "url": "https://learndigitaladvertising.com/resources/all-software-alternatives/dashthis-alternatives/",
+                      "title": "Whats the Best Alternative to dashthis? - Learn Digital Advertising",
+                      "text": "Options and Alternatives for Dashboard Software Data Studio is usually our recommended option for dashboards because it's free to ..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "NinjaCat : Strong contender for high-volume, multi-channel agency campaigns. NinjaCat Swydo : Affordable for smaller teams, offering solid PPC and social media reporting for roughly $69/month. Reportz : A good option for agencies focusing on, say, custom pricing (billing per dashboard). Adriel : Good for creating automated ad reports, acting as a marketing intelligence platform.",
+                  "markdown": "- **NinjaCat:** Strong contender for high-volume, multi-channel agency campaigns.\n- **[Swydo](https://www.swydo.com/blog/dashthis-alternatives/):** Affordable for smaller teams, offering solid PPC and social media reporting for roughly $69/month.\n- **[Reportz](https://learndigitaladvertising.com/resources/all-software-alternatives/dashthis-alternatives/):** A good option for agencies focusing on, say, custom pricing (billing per dashboard).\n- **[Adriel](https://www.adriel.com/blog/18-top-dashthis-alternatives-in-2024-full-features-and-pricing):** Good for creating automated ad reports, acting as a marketing intelligence platform.[](https://www.swydo.com/blog/dashthis-alternatives/) [[1]](https://www.swydo.com/blog/dashthis-alternatives/)[[2]](https://metricool.com/dashthis-alternatives/)[[3]](https://learndigitaladvertising.com/resources/all-software-alternatives/dashthis-alternatives/)[[4]](https://www.adriel.com/blog/18-top-dashthis-alternatives-in-2024-full-features-and-pricing)[[5]](https://blog.coupler.io/dashthis-alternatives/)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Swydo",
+                      "description": null,
+                      "url": "https://www.swydo.com/blog/dashthis-alternatives/",
+                      "domain": "www.swydo.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Reportz",
+                      "description": null,
+                      "url": "https://learndigitaladvertising.com/resources/all-software-alternatives/dashthis-alternatives/",
+                      "domain": "learndigitaladvertising.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Adriel",
+                      "description": null,
+                      "url": "https://www.adriel.com/blog/18-top-dashthis-alternatives-in-2024-full-features-and-pricing",
+                      "domain": "www.adriel.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Swydo",
+                      "domain": "www.swydo.com",
+                      "url": "https://www.swydo.com/blog/dashthis-alternatives/",
+                      "title": "6 DashThis Alternatives Compared (Stop Paying for Unused ... - Swydo",
+                      "text": "DashThis Alternatives FAQ * Databox is the top overall alternative, offering 130+ integrations (4x more than DashThis) with unlimi..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Metricool",
+                      "domain": "metricool.com",
+                      "url": "https://metricool.com/dashthis-alternatives/",
+                      "title": "DashThis Alternatives for Marketing Reporting in 2026 - Metricool",
+                      "text": "Table_title: Which DashThis Alternative Is Right for You? Table_content: header: | Tool | Best For | row: | Tool: Looker Studio | ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Learn Digital Advertising",
+                      "domain": "learndigitaladvertising.com",
+                      "url": "https://learndigitaladvertising.com/resources/all-software-alternatives/dashthis-alternatives/",
+                      "title": "Whats the Best Alternative to dashthis? - Learn Digital Advertising",
+                      "text": "Options and Alternatives for Dashboard Software Data Studio is usually our recommended option for dashboards because it's free to ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Adriel AI",
+                      "domain": "www.adriel.com",
+                      "url": "https://www.adriel.com/blog/18-top-dashthis-alternatives-in-2024-full-features-and-pricing",
+                      "title": "18 Top DashThis Alternatives in 2024 | Full Features and Pricing",
+                      "text": "8 Best Overall DashThis Alternatives - Quick Summary Here are the 8 best alternatives that have similar (but better) features as D..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Coupler.io Blog",
+                      "domain": "blog.coupler.io",
+                      "url": "https://blog.coupler.io/dashthis-alternatives/",
+                      "title": "Dashthis Alternatives to Try in 2026 | Coupler.io Blog",
+                      "text": "Best Dashthis alternatives. Coupler.io. One of the popular and effective alternatives to Dashthis is Coupler.io, \u00b7 Coupler.io. One..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Key Considerations for Switching:\nIf you need more integrations than DashThis offers, choose Databox (130+) or AgencyAnalytics (80+). If cost is the main driver, Looker Studio is free, and Swydo offers competitive, lower-cost tiers. Swydo +1",
+                  "markdown": "**Key Considerations for Switching:**   \nIf you need more integrations than DashThis offers, choose **Databox** (130+) or **AgencyAnalytics** (80+). If cost is the main driver, **Looker Studio** is free, and **Swydo** offers competitive, lower-cost tiers.[](https://www.swydo.com/blog/dashthis-alternatives/) [[1]](https://www.swydo.com/blog/dashthis-alternatives/)[[2]](https://learndigitaladvertising.com/resources/all-software-alternatives/dashthis-alternatives/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Swydo",
+                      "domain": "www.swydo.com",
+                      "url": "https://www.swydo.com/blog/dashthis-alternatives/",
+                      "title": "6 DashThis Alternatives Compared (Stop Paying for Unused ... - Swydo",
+                      "text": "DashThis Alternatives FAQ * Databox is the top overall alternative, offering 130+ integrations (4x more than DashThis) with unlimi..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Learn Digital Advertising",
+                      "domain": "learndigitaladvertising.com",
+                      "url": "https://learndigitaladvertising.com/resources/all-software-alternatives/dashthis-alternatives/",
+                      "title": "Whats the Best Alternative to dashthis? - Learn Digital Advertising",
+                      "text": "Options and Alternatives for Dashboard Software Data Studio is usually our recommended option for dashboards because it's free to ..."
+                    }
+                  ]
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Whatagraph",
+                  "domain": "whatagraph.com",
+                  "url": "https://whatagraph.com/blog/articles/dashthis-alternatives-and-competitors",
+                  "title": "11 Best DashThis Alternatives in 2026 [FULL Comparison Table]",
+                  "text": "11 Best DashThis Alternatives and Competitors in 2026. 1. Whatagraph. 2. Geckoboard. 3. Klipfolio. 4. NinjaCat. 5. Looker Studio. ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Funnel",
+                  "domain": "funnel.io",
+                  "url": "https://funnel.io/blog/dashthis-alternatives",
+                  "title": "The top 8 best DashThis alternatives - Funnel.io",
+                  "text": "How Adverity compares to DashThis. DashThis is a fast and user-friendly reporting tool, but rigid. Adverity is more focused on dat..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Databox",
+                  "domain": "databox.com",
+                  "url": "https://databox.com/dashthis-alternative",
+                  "title": "The Ultimate DashThis Alternative For Marketers and Agencies - Databox",
+                  "text": "Databox: The Best DashThis Alternative For Marketers. Your reporting needs are dynamic. As your strategies evolve you need a flexi..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Swydo",
+                  "domain": "www.swydo.com",
+                  "url": "https://www.swydo.com/blog/dashthis-alternatives/",
+                  "title": "6 DashThis Alternatives Compared (Stop Paying for Unused ... - Swydo",
+                  "text": "DashThis Alternatives FAQ * Databox is the top overall alternative, offering 130+ integrations (4x more than DashThis) with unlimi..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Learn Digital Advertising",
+                  "domain": "learndigitaladvertising.com",
+                  "url": "https://learndigitaladvertising.com/resources/all-software-alternatives/dashthis-alternatives/",
+                  "title": "Whats the Best Alternative to dashthis? - Learn Digital Advertising",
+                  "text": "Options and Alternatives for Dashboard Software Data Studio is usually our recommended option for dashboards because it's free to ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Adriel AI",
+                  "domain": "www.adriel.com",
+                  "url": "https://www.adriel.com/blog/18-top-dashthis-alternatives-in-2024-full-features-and-pricing",
+                  "title": "18 Top DashThis Alternatives in 2024 | Full Features and Pricing",
+                  "text": "8 Best Overall DashThis Alternatives - Quick Summary Here are the 8 best alternatives that have similar (but better) features as D..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Metricool",
+                  "domain": "metricool.com",
+                  "url": "https://metricool.com/dashthis-alternatives/",
+                  "title": "DashThis Alternatives for Marketing Reporting in 2026 - Metricool",
+                  "text": "Table_title: Which DashThis Alternative Is Right for You? Table_content: header: | Tool | Best For | row: | Tool: Looker Studio | ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "AgencyAnalytics",
+                  "domain": "agencyanalytics.com",
+                  "url": "https://agencyanalytics.com/competitors/dashthis-alternative",
+                  "title": "The #1 DashThis Alternative for Marketing Agencies",
+                  "text": "AgencyAnalytics sets the standard for tailored client and staff permissions, providing detailed controls that position it as the b..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Coupler.io Blog",
+                  "domain": "blog.coupler.io",
+                  "url": "https://blog.coupler.io/dashthis-alternatives/",
+                  "title": "Dashthis Alternatives to Try in 2026 | Coupler.io Blog",
+                  "text": "Best Dashthis alternatives. Coupler.io. One of the popular and effective alternatives to Dashthis is Coupler.io, \u00b7 Coupler.io. One..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Improvado",
+                  "domain": "improvado.io",
+                  "url": "https://improvado.io/blog/dashthis-alternatives",
+                  "title": "10 Best DashThis Alternatives for Marketing Reports 2026 - Improvado",
+                  "text": "What is the easiest DashThis alternative to set up? Supermetrics and Google Looker Studio are the easiest DashThis alternatives to..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "paid",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Free Trial, No CC Required | Free 14-Day Trial | The #1 Alternative",
+              "domain": "agencyanalytics.com",
+              "website_name": "AgencyAnalytics",
+              "breadcrumb": "https://www.agencyanalytics.com",
+              "is_image": false,
+              "is_video": false,
+              "images": null,
+              "url": "https://agencyanalytics.com/competitors/dashthis-alternative",
+              "highlighted": null,
+              "extra": {
+                "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAEQAxoCZHo"
+              },
+              "description": "The #1 reporting alternative for digital agencies. Free 14-day trial - try it now! Trusted by 7,000...",
+              "description_rows": null,
+              "links": [
+                {
+                  "type": "ad_link_element",
+                  "title": "14-Day Free TrialTry AgencyAnalytics for 14 days. Start your free trial today!",
+                  "description": null,
+                  "url": "https://agencyanalytics.com/signup",
+                  "domain": null,
+                  "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAEQBRoCZHo"
+                },
+                {
+                  "type": "ad_link_element",
+                  "title": "100% White LabelEnhance your agency brand Fully white labeled for your agency",
+                  "description": null,
+                  "url": "https://agencyanalytics.com/feature/white-label",
+                  "domain": null,
+                  "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAEQCBoCZHo"
+                }
+              ],
+              "price": null,
+              "rating": null,
+              "rectangle": null
+            },
+            {
+              "type": "paid",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "Dashboard Tool - Start for Free - With User-Friendly No-Code UI",
+              "domain": "www.gooddata.ai",
+              "website_name": "GoodData.AI",
+              "breadcrumb": "https://www.gooddata.ai \u203a bi_dashboards",
+              "is_image": false,
+              "is_video": false,
+              "images": null,
+              "url": "https://www.gooddata.ai/platform/business-intelligence/",
+              "highlighted": null,
+              "extra": {
+                "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAEQABoCZHo"
+              },
+              "description": "Enjoy interactive data exploration and automation with a scalable dashboard tool.",
+              "description_rows": null,
+              "links": [
+                {
+                  "type": "ad_link_element",
+                  "title": "Pricing",
+                  "description": null,
+                  "url": "https://www.gooddata.ai/pricing/",
+                  "domain": null,
+                  "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAEQBBoCZHo"
+                },
+                {
+                  "type": "ad_link_element",
+                  "title": "BI Dashboards",
+                  "description": null,
+                  "url": "https://www.gooddata.ai/platform/business-intelligence/?utm_term=reporting%20dashboard%20software&utm_campaign=Search_bi_USA%2BCAN_122023&utm_source=google&utm_medium=cpc&hsa_acc=1867640229&hsa_cam=20836322534&hsa_grp=154721384365&hsa_ad=797693210342&hsa_src=g&hsa_tgt=kwd-313928474349&hsa_kw=reporting%20dashboard%20software&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=20836322534&gbraid=0AAAAAD0cBQZLImjpf_LlaiLu2sO150fld&gclid=EAIaIQobChMIuvWSmY-zlAMV5ShECB1SPSsnEAAYAiAEEgLXbfD_BwE",
+                  "domain": null,
+                  "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAEQCxoCZHo"
+                },
+                {
+                  "type": "ad_link_element",
+                  "title": "Reporting Dashboard Software",
+                  "description": null,
+                  "url": "https://www.gooddata.ai/platform/business-intelligence/",
+                  "domain": null,
+                  "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAEQDRoCZHo"
+                },
+                {
+                  "type": "ad_link_element",
+                  "title": "Get a Free Demo",
+                  "description": null,
+                  "url": "https://www.gooddata.ai/request-a-demo/",
+                  "domain": null,
+                  "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAEQBxoCZHo"
+                },
+                {
+                  "type": "ad_link_element",
+                  "title": "Best BI Tools Compared",
+                  "description": null,
+                  "url": "https://www.gooddata.ai/resources/comparing-best-business-intelligence-tools/",
+                  "domain": null,
+                  "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAEQCRoCZHo"
+                }
+              ],
+              "price": null,
+              "rating": null,
+              "rectangle": null
+            },
+            {
+              "type": "paid",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]",
+              "title": "We\u2019re Their #1 Competitor - Don't Compromise on Connectors",
+              "domain": "www.adriel.com",
+              "website_name": "ADRIEL",
+              "breadcrumb": "https://www.adriel.com",
+              "is_image": false,
+              "is_video": false,
+              "images": null,
+              "url": "https://www.adriel.com/compare-landing/dashthis",
+              "highlighted": null,
+              "extra": {
+                "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAEQAhoCZHo"
+              },
+              "description": "Connect effortlessly with more data sources than ever before with Adriel. Book a Demo.",
+              "description_rows": null,
+              "links": [
+                {
+                  "type": "ad_link_element",
+                  "title": "Pricing",
+                  "description": null,
+                  "url": "https://www.adriel.com/pricing",
+                  "domain": null,
+                  "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAEQBhoCZHo"
+                },
+                {
+                  "type": "ad_link_element",
+                  "title": "Adriel vs dashthis",
+                  "description": null,
+                  "url": "https://google.com/aclk?sa=L&ai=DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAEQDhoCZHo",
+                  "domain": null,
+                  "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAEQDhoCZHo"
+                },
+                {
+                  "type": "ad_link_element",
+                  "title": "Create All-in-one Dashboard",
+                  "description": null,
+                  "url": "https://google.com/aclk?sa=L&ai=DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAEQDxoCZHo",
+                  "domain": null,
+                  "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAEQDxoCZHo"
+                },
+                {
+                  "type": "ad_link_element",
+                  "title": "Get a Demo",
+                  "description": null,
+                  "url": "https://www.adriel.com/demo",
+                  "domain": null,
+                  "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAEQChoCZHo"
+                },
+                {
+                  "type": "ad_link_element",
+                  "title": "Analysis & Reporting",
+                  "description": null,
+                  "url": "https://www.adriel.com/adriel-bi",
+                  "domain": null,
+                  "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAEQDBoCZHo"
+                }
+              ],
+              "price": null,
+              "rating": null,
+              "rectangle": null
+            },
+            {
+              "type": "paid",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[1]/div[2]/div[4]/div[1]/div[1]/div[1]",
+              "title": "DashThis is Limited, We Aren't - Reports Done for You in Mins",
+              "domain": "whatagraph.com",
+              "website_name": "Whatagraph",
+              "breadcrumb": "https://www.whatagraph.com",
+              "is_image": false,
+              "is_video": false,
+              "images": null,
+              "url": "https://whatagraph.com/alternatives/dashthis",
+              "highlighted": null,
+              "extra": {
+                "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAEQARoCZHo"
+              },
+              "description": "Connecting, organizing and blending cross channel marketing data is no longer hard.",
+              "description_rows": null,
+              "links": null,
+              "price": null,
+              "rating": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "whatagraph.com",
+              "title": "11 Best DashThis Alternatives in 2026 [FULL Comparison ...",
+              "url": "https://whatagraph.com/blog/articles/dashthis-alternatives-and-competitors",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://whatagraph.com \u203a blog \u203a articles \u203a dashthis-alter...",
+              "website_name": "Whatagraph",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Oct 21, 2024 \u2014 11 Best DashThis Alternatives in 2026 [FULL Comparison Table] \u00b7 1. Whatagraph \u00b7 2. Geckoboard \u00b7 3. Klipfolio \u00b7 4. NinjaCat \u00b7 5. Looker Studio\u00a0... Read more",
+              "pre_snippet": "10/21/2024 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "1. Whatagraph"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Best DashThis Alternatives...",
+                  "description": null,
+                  "url": "https://whatagraph.com/blog/articles/dashthis-alternatives-and-competitors#best-dashthis-alternatives-and-competitors-in-2026",
+                  "domain": "whatagraph.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Whatagraph",
+                  "description": null,
+                  "url": "https://whatagraph.com/blog/articles/dashthis-alternatives-and-competitors#whatagraph",
+                  "domain": "whatagraph.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Geckoboard",
+                  "description": null,
+                  "url": "https://whatagraph.com/blog/articles/dashthis-alternatives-and-competitors#geckoboard",
+                  "domain": "whatagraph.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Databox",
+                  "description": null,
+                  "url": "https://whatagraph.com/blog/articles/dashthis-alternatives-and-competitors#databox",
+                  "domain": "whatagraph.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-10-21 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "domain": "funnel.io",
+              "title": "The top 8 best DashThis alternatives",
+              "url": "https://funnel.io/blog/dashthis-alternatives",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://funnel.io \u203a blog \u203a dashthis-alternatives",
+              "website_name": "Funnel",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Oct 6, 2025 \u2014 Top 8 DashThis alternatives \u00b7 1. Funnel \u00b7 2. AgencyAnalytics \u00b7 3. Adverity \u00b7 4. Improvado \u00b7 5. Supermetrics \u00b7 6. Klipfolio \u00b7 7. Databox \u00b7 8. Read more",
+              "pre_snippet": "10/06/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "1. Funnel"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "What is DashThis?",
+                  "description": null,
+                  "url": "https://funnel.io/blog/dashthis-alternatives#toc-what-is-dashthis",
+                  "domain": "funnel.io"
+                },
+                {
+                  "type": "link_element",
+                  "title": "What to look for in a DashThis...",
+                  "description": null,
+                  "url": "https://funnel.io/blog/dashthis-alternatives#toc-what-to-look-for-in-a-dashthis-alternative",
+                  "domain": "funnel.io"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Top 8 DashThis alternatives",
+                  "description": null,
+                  "url": "https://funnel.io/blog/dashthis-alternatives#toc-top-8-dashthis-alternatives-",
+                  "domain": "funnel.io"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-10-06 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "databox.com",
+              "title": "Databox: The Best DashThis Alternative For Marketers",
+              "url": "https://databox.com/dashthis-alternative",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://databox.com \u203a dashthis-alternative",
+              "website_name": "Databox",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Discover how Databox compares to DashThis with broader native integrations and customizable dashboards built for teams that want comprehensive performance\u00a0...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Databox"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "dashthis.com",
+              "title": "DashThis Alternative for Marketers & Agencies",
+              "url": "https://dashthis.com/dashthis-alternative/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://dashthis.com \u203a dashthis-alternative",
+              "website_name": "DashThis",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "DashThis is an all-in-one marketing reporting tool that enables you to create any type of report you might want: email marketing, social media, google\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 83,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "DashThis is an all-in-one marketing reporting tool"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "www.adriel.com",
+              "title": "18 Top DashThis Alternatives in 2024 | Full Features and ...",
+              "url": "https://www.adriel.com/fr/blog/18-top-dashthis-alternatives-in-2024-full-features-and-pricing",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.adriel.com \u203a blog \u203a 18-top-dashthis-alterna...",
+              "website_name": "Adriel AI",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Oct 16, 2025 \u2014 We shortlisted 18 DashThis alternatives for three use cases: Enterprise data analytics, Data Pipelines & ETL, and best overall.",
+              "pre_snippet": "10/16/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "18 DashThis alternatives"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-10-16 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "discussions_and_forums",
+              "rank_group": 1,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]",
+              "title": "Discussions and forums",
+              "items": [
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "Looking for a dashboard recommendation. What are you using to track metrics?",
+                  "url": "https://www.reddit.com/r/PPC/comments/1o1kicp/looking_for_a_dashboard_recommendation_what_are/",
+                  "domain": "www.reddit.com",
+                  "source": "Reddit",
+                  "description": null,
+                  "timestamp": "2025-10-12 06:26:57 +00:00",
+                  "posts_count": 10
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "What digital marketing data reporting dashboard software should I use?",
+                  "url": "https://www.reddit.com/r/marketing/comments/15m47ac/what_digital_marketing_data_reporting_dashboard/",
+                  "domain": "www.reddit.com",
+                  "source": "Reddit",
+                  "description": null,
+                  "timestamp": "2024-05-12 06:26:57 +00:00",
+                  "posts_count": 10
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "What are the best platforms or tools to analyze cross channel marketing ...",
+                  "url": "https://www.quora.com/What-are-the-best-platforms-or-tools-to-analyze-cross-channel-marketing-effectiveness",
+                  "domain": "www.quora.com",
+                  "source": "Quora",
+                  "description": null,
+                  "timestamp": "2011-05-12 06:26:57 +00:00",
+                  "posts_count": 3
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+              "domain": "www.slingshotapp.io",
+              "title": "Best DashThis Alternative Built For Marketers, Not Data Teams",
+              "url": "https://www.slingshotapp.io/slingshot-vs-dashthis",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.slingshotapp.io \u203a slingshot-vs-dashthis",
+              "website_name": "slingshotapp.io",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Looking for DashThis alternatives? Slingshot brings analytics, tasks, chat, and content together so insights turn into action without switching tools.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.5,
+                "votes_count": 13,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "Slingshot"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "datapad.io",
+              "title": "11 Best DashThis Alternatives for 2024 [Tested & Ranked ]",
+              "url": "https://datapad.io/blog/dashthis-alternatives",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://datapad.io \u203a blog \u203a dashthis-alternatives",
+              "website_name": "Datapad",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Feb 16, 2024 \u2014 We tested the 11 best Dashthis alternatives for you to find the best one for your needs. Read our in-depth guide to find the best Dashthis\u00a0...",
+              "pre_snippet": "02/16/2024 00:00:00",
+              "extended_snippet": "5.0(1)  \u00b7 Free \u00b7 \u200eBusiness/Productivity",
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": 1,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "11 best Dashthis alternatives"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-02-16 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 14,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "blog.coupler.io",
+              "title": "Dashthis Alternatives to Try in 2026",
+              "url": "https://blog.coupler.io/dashthis-alternatives/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://blog.coupler.io \u203a dashthis-alternatives",
+              "website_name": "Coupler.io Blog",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Mar 27, 2026 \u2014 Best Dashthis alternatives \u00b7 Coupler.io \u00b7 Whatagraph \u00b7 AgencyAnalytics \u00b7 Adriel \u00b7 Klipfolio \u00b7 Swydo. Like Dashthis, Swydo is a reporting\u00a0... Read more",
+              "pre_snippet": "03/27/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Coupler.io"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-03-27 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 15,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the best dashboarding tool?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What are the 4 types of dashboards?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the alternative to dashboard?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://www.g2.com/products/dashboard/competitors/alternatives",
+                      "domain": "www.g2.com",
+                      "title": "Top 10 Dashboard Alternatives & Competitors in 2026 - G2",
+                      "description": "The best overall alternative to Dashboard is Neon CRM. It is frequently praised for customer support and donor management. Other well-known alternatives to Dashboard are: MemberPress \u2013 known for customer support and all-in-one solution (G2 star rating ~4.6)",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is Tableau comparable to?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "paid",
+              "rank_group": 5,
+              "rank_absolute": 16,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[5]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Dashboard Tool - With User-Friendly No-Code UI - Start for Free",
+              "domain": "www.gooddata.ai",
+              "website_name": "GoodData.AI",
+              "breadcrumb": "https://www.gooddata.ai \u203a bi_dashboards",
+              "is_image": false,
+              "is_video": false,
+              "images": null,
+              "url": "https://www.gooddata.ai/platform/business-intelligence/",
+              "highlighted": null,
+              "extra": {
+                "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAIQARoCZHo"
+              },
+              "description": "Enjoy interactive data exploration and automation with a scalable dashboard tool.",
+              "description_rows": null,
+              "links": [
+                {
+                  "type": "ad_link_element",
+                  "title": "Pricing",
+                  "description": null,
+                  "url": "https://www.gooddata.ai/pricing/",
+                  "domain": null,
+                  "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAIQAhoCZHo"
+                },
+                {
+                  "type": "ad_link_element",
+                  "title": "BI Dashboards",
+                  "description": null,
+                  "url": "https://google.com/aclk?sa=L&ai=DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAIQBRoCZHo",
+                  "domain": null,
+                  "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAIQBRoCZHo"
+                },
+                {
+                  "type": "ad_link_element",
+                  "title": "Reporting Dashboard Software",
+                  "description": null,
+                  "url": "https://www.gooddata.ai/platform/business-intelligence/",
+                  "domain": null,
+                  "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAIQBhoCZHo"
+                },
+                {
+                  "type": "ad_link_element",
+                  "title": "Get a Free Demo",
+                  "description": null,
+                  "url": "https://www.gooddata.ai/request-a-demo/",
+                  "domain": null,
+                  "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAIQAxoCZHo"
+                },
+                {
+                  "type": "ad_link_element",
+                  "title": "Best BI Tools Compared",
+                  "description": null,
+                  "url": "https://www.gooddata.ai/resources/comparing-best-business-intelligence-tools/",
+                  "domain": null,
+                  "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAIQBBoCZHo"
+                }
+              ],
+              "price": null,
+              "rating": null,
+              "rectangle": null
+            },
+            {
+              "type": "paid",
+              "rank_group": 6,
+              "rank_absolute": 17,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[21]/div[1]/div[1]/div[1]/div[5]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]",
+              "title": "Free 14-Day Trial - 100% White Label Reporting",
+              "domain": "agencyanalytics.com",
+              "website_name": "AgencyAnalytics",
+              "breadcrumb": "https://www.agencyanalytics.com",
+              "is_image": false,
+              "is_video": false,
+              "images": null,
+              "url": "https://agencyanalytics.com/competitors/semrush-alternative",
+              "highlighted": null,
+              "extra": {
+                "ad_aclk": "DChsSEwi69ZKZj7OUAxXlKEQIHVI9KycYACICCAIQABoCZHo"
+              },
+              "description": "An Alternative to DashThis With Robust Reporting Features. The Complete Agency Toolkit.",
+              "description_rows": null,
+              "links": null,
+              "price": null,
+              "rating": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 18,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Dashthis alternative free",
+                "Whatagraph",
+                "Looker Studio",
+                "AgencyAnalytics",
+                "Whatagraph pricing",
+                "Supermetrics",
+                "Cyfe"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

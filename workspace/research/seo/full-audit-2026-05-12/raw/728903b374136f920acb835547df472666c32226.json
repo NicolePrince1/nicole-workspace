@@ -1,0 +1,1209 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.0024 sec.",
+  "cost": 0.0035,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120920-3675-0139-0000-ff0e667141ec",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.9200 sec.",
+      "cost": 0.0035,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "ppc report template",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "os": "windows",
+        "depth": 20
+      },
+      "result": [
+        {
+          "keyword": "ppc report template",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=ppc%20report%20template&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-05-12 06:20:53 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "images",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "se_results_count": 953,
+          "pages_count": 2,
+          "items_count": 23,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "dashthis.com",
+              "title": "PPC Report Template for Digital Agencies",
+              "url": "https://dashthis.com/ppc-report-template/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://dashthis.com \u203a ppc-report-template",
+              "website_name": "DashThis",
+              "is_image": true,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "DashThis' PPC Report Template enable digital agencies and marketers to create client reports quickly and easily that include all the right KPIs!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": [
+                {
+                  "type": "images_element",
+                  "alt": "ppc report template from dashthis.com",
+                  "url": "https://dashthis.com/ppc-report-template/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120920-3675-0139-0000-ff0e667141ec:0"
+                }
+              ],
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 83,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "DashThis' PPC Report Template"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "portermetrics.com",
+              "title": "Best free PPC report templates (2026) - Porter Metrics",
+              "url": "https://portermetrics.com/en/report-templates/ppc/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://portermetrics.com \u203a report-templates \u203a ppc",
+              "website_name": "portermetrics.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Optimize your PPC strategy with this report template. Track metrics like conversion rate, ROAS, and CTR across Facebook Ads, TikTok Ads, and Google Ads. Analyze\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Optimize your PPC strategy with this report template"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "domain": "whatagraph.com",
+              "title": "10 PPC Report Templates Co-Created with Marketers",
+              "url": "https://whatagraph.com/blog/articles/ppc-reporting-examples",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://whatagraph.com \u203a blog \u203a ppc-reporting-examples",
+              "website_name": "Whatagraph",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Feb 19, 2026 \u2014 See 10 PPC report templates & examples across cross-channel, industry-specific, and platform-specific use cases.",
+              "pre_snippet": "02/19/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "10 PPC report templates"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Goal Pacing",
+                  "description": null,
+                  "url": "https://whatagraph.com/blog/articles/ppc-reporting-examples#goal-pacing",
+                  "domain": "whatagraph.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Free PPC Report Templates...",
+                  "description": null,
+                  "url": "https://whatagraph.com/blog/articles/ppc-reporting-examples#free-ppc-report-templates-and-examples",
+                  "domain": "whatagraph.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "eCommerce PPC Report...",
+                  "description": null,
+                  "url": "https://whatagraph.com/blog/articles/ppc-reporting-examples#ecommerce-ppc-report-example",
+                  "domain": "whatagraph.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-02-19 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]",
+              "title": "Images",
+              "url": "https://www.google.com/search?sca_esv=89f358ba4e2fcd04&hl=en&gl=US&q=ppc+report+template&udm=2&source=univ&fir=4pjUTSSMJO43tM%252CNG_l4BVLx-UCIM%252C_%253BFloMWADbsVeqjM%252CoEVXp6qgLN5wnM%252C_%253BqLCrfWDBQuYg6M%252CoEVXp6qgLN5wnM%252C_%253Bsp1Pf_-ZerZ5zM%252CXGC8u2Fc_dN9VM%252C_%253BHFCp0Mfio4zQ7M%252CyzavCqcnmkVYXM%252C_%253BpgEhdwJg0jtWLM%252Cysc7lNlZdApdAM%252C_%253BtIxpO8fOTElXMM%252CRKfU3Qa9Lta5EM%252C_%253BAfQRmxhAZRZsOM%252CYU1gpiCqH7U_9M%252C_%253BsfOylTOOj82-JM%252Cp_tdJVzZ8SJWJM%252C_%253BwgLhTUUeoEzHHM%252Cysc7lNlZdApdAM%252C_%253BfVeKjMxPcexLeM%252C6HPo1E0b7FWg6M%252C_%253BuicKBbAK6gvrIM%252Crn41Mg6wYSH13M%252C_&usg=AI4_-kQQXBYqF7kEA39eydo8DtUvHCormA&sa=X&ved=2ahUKEwjoi7HrjbOUAxXzXvEDHVpDLo0Q7Al6BAgVEAU",
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "PPC Report Template for Digital Agencies | DashThis",
+                  "url": "https://dashthis.com/ppc-report-template/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120920-3675-0139-0000-ff0e667141ec:1"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Free PPC Campaign Templates | Smartsheet",
+                  "url": "https://www.smartsheet.com/content/ppc-templates?srsltid=AfmBOopXpOi0YocZFWg0gN-Wo-NhB6RFciSknKiUQpAgpnNRmoWjFqCv",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120920-3675-0139-0000-ff0e667141ec:2"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Free PPC Campaign Templates | Smartsheet",
+                  "url": "https://www.smartsheet.com/content/ppc-templates?srsltid=AfmBOoqnkUV8jrHOjluN1MRbfPETxVuJELpY1hc5h9ypcG55tQ7WehEn",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120920-3675-0139-0000-ff0e667141ec:3"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "PPC Report template for Data Studio by Porter",
+                  "url": "https://portermetrics.com/en/templates/google-looker-studio/ppc-porter-reports/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120920-3675-0139-0000-ff0e667141ec:4"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Free PPC Report Dashboard Template on Looker Studio",
+                  "url": "https://windsor.ai/ppc-dashboard-template-looker-studio/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120920-3675-0139-0000-ff0e667141ec:5"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Need a PPC Reporting Template? Here are 7",
+                  "url": "https://unito.io/blog/ppc-reporting-templates/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120920-3675-0139-0000-ff0e667141ec:6"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "How to Improve Your PPC Reporting Process (With Free PPC ...",
+                  "url": "https://www.tapclicks.com/blog/ppc-report-template",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfLOchSviYJ-HmBnkMrLStzATpDc4iuJpLdhSrDlOZcD8CcAYcMF8dy6g&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "5 Best PPC Reporting Examples for 2026 - Data Bloo",
+                  "url": "https://www.databloo.com/blog/ppc-reporting-examples/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVNd90K9OjdKfxoShJ2DRdLkkiLlnmBevK7I494CelyQsCSsr1miOl_BY&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Best free PPC report templates (2026)",
+                  "url": "https://portermetrics.com/en/report-templates/ppc/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQanIj7MEM4OM4QW-v1phxalPikqPMkZQ3axgk8fUec2UOaonYOiG5AADQ&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Need a PPC Reporting Template? Here are 7",
+                  "url": "https://unito.io/blog/ppc-reporting-templates/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5TahTE9eYtuGEbIT72AII2Wjih8_OavRlE36J5DXyQhMP4b9D5ONhdxg&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Best PPC Report Templates - Ready to Use - Data Bloo",
+                  "url": "https://www.databloo.com/report-templates/pay-per-click/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEtSj-vnF7UBFo0nFeC4fv-ej7Xb-XrZ5-7FetMqTmnh1YT1DNHT3y9_U&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Free PPC Dashboard Report Templates | Windsor.ai",
+                  "url": "https://windsor.ai/template-gallery/ppc-dashboard-reports/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTifpLFFDCqrzLwM_Nr8oXHUDEH22SqAah6cR0pDjlwLvvdTpZj9qX7ZaQ&s"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "www.coupler.io",
+              "title": "PPC Dashboard Examples and Reporting Templates",
+              "url": "https://www.coupler.io/dashboard-examples/ppc-dashboard",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.coupler.io \u203a ... \u203a Marketing",
+              "website_name": "Coupler.io",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Optimize your advertising performance with automated PPC reporting dashboards that consolidate data from Google Ads, Meta Ads, LinkedIn, and other platforms. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "automated PPC reporting dashboards"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "supermetrics.com",
+              "title": "Free PPC Reporting Templates for Google Sheets, Looker ...",
+              "url": "https://supermetrics.com/blog/ppc-report-template",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://supermetrics.com \u203a blog \u203a ppc-report-template",
+              "website_name": "Supermetrics",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Jun 25, 2024 \u2014 Access over 30 free PPC report templates to streamline your performance analysis across multiple platforms. Get started today!",
+              "pre_snippet": "06/25/2024 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Access over 30 free PPC report templates"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-06-25 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+              "domain": "unito.io",
+              "title": "7 Free PPC Reporting Templates - Unito",
+              "url": "https://unito.io/blog/ppc-reporting-templates/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://unito.io \u203a Blog",
+              "website_name": "unito.io",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Mar 8, 2024 \u2014 This template will allow you to manage a dynamic PPC report that communicates your campaign strategy and key metrics to whoever needs them. Read more",
+              "pre_snippet": "03/08/2024 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "manage a dynamic PPC report"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-03-08 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is a PPC report?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://www.webfx.com/blog/ppc/ppc-report/",
+                      "domain": "www.webfx.com",
+                      "title": "What Is a PPC Report & How Can You Build One for Your Business?",
+                      "description": "A PPC report is a compilation of your current PPC campaign results. It contains essential metrics and data about your PPC ads so you can easily measure the success of your campaign.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is an example of a PPC?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is PPC better than SEO?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://business.google.com/us/resources/articles/seo-vs-ppc/",
+                      "domain": "business.google.com",
+                      "title": "SEO vs. PPC: Understanding the Difference - Google Ads",
+                      "description": "If your goal is to drive traffic to your site in the short term, you might choose to focus on PPC ads. If you want to enhance your business's online presence in the long run, SEO is the answer. Alternatively, invest your time and energy in both SEO and PPC for a well-rounded strategy.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How to write a PPC?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://www.klientboost.com/ppc/ppc-ad-copy/",
+                      "domain": "www.klientboost.com",
+                      "title": "35 Tips & Examples To Write PPC Ad Copy - KlientBoost",
+                      "description": "PPC Ad Copy Tip #1: Reflect the Visitor's Goal\n Think from your visitor's perspective and write your PPC ad copy so it addresses their specific need and their specific stage in the buying cycle. Then use those specific keywords in your ad copy. Which stage is your visitor in?",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "www.oneupweb.com",
+              "title": "PPC Monthly Report Template \u2013 Google Ads Reporting",
+              "url": "https://www.oneupweb.com/blog/paid-media-ppc-report-template/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.oneupweb.com \u203a blog \u203a paid-media-ppc-re...",
+              "website_name": "Oneupweb",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Nov 1, 2022 \u2014 Our free PPC reporting template is built in Looker Studio. It's easy to set up with an existing Google account. Read more",
+              "pre_snippet": "11/01/2022 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "free PPC reporting template"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-11-01 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "www.databloo.com",
+              "title": "5 Best PPC Reporting Examples for 2026",
+              "url": "https://www.databloo.com/blog/ppc-reporting-examples/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.databloo.com \u203a SEM",
+              "website_name": "Data Bloo",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Dec 10, 2025 \u2014 The Google Ads Looker Studio template gives you a complete view of your paid search and display performance inside a clean, intuitive layout. Read more",
+              "pre_snippet": "12/10/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Ads Looker Studio template"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "1) Google Ads PPC Reporting...",
+                  "description": null,
+                  "url": "https://www.databloo.com/blog/ppc-reporting-examples/#1-google-ads-ppc-reporting-example",
+                  "domain": "www.databloo.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "4) GA4 PPC Performance...",
+                  "description": null,
+                  "url": "https://www.databloo.com/blog/ppc-reporting-examples/#4-ga4-ppc-performance-reporting-example",
+                  "domain": "www.databloo.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-12-10 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+              "domain": "rows.com",
+              "title": "Best 8 PPC Report Templates in 2025",
+              "url": "https://rows.com/blog/post/ppc-report-template",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://rows.com \u203a blog \u203a post \u203a ppc-report-template",
+              "website_name": "Rows",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Sep 20, 2024 \u2014 From comprehensive Google Ads reports to specialized templates for social media advertising, we've curated a list of the top 10 free PPC report templates. Read more",
+              "pre_snippet": "09/20/2024 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Ads reports"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Template 4: Linkedin Ads...",
+                  "description": null,
+                  "url": "https://rows.com/blog/post/ppc-report-template",
+                  "domain": "rows.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Conversion Discrepancies...",
+                  "description": null,
+                  "url": "https://rows.com/blog/post/ppc-report-template",
+                  "domain": "rows.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "How Can You Customize Ppc...",
+                  "description": null,
+                  "url": "https://rows.com/blog/post/ppc-report-template",
+                  "domain": "rows.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-09-20 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Ppc report template pdf",
+                "Ppc report template word",
+                "Ppc report template excel",
+                "Ppc report template free download",
+                "Ppc report template free",
+                "Ppc report template excel free download",
+                "PPC template Excel",
+                "Amazon PPC report Excel template"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "images",
+              "rank_group": 2,
+              "rank_absolute": 13,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "title": "Free PPC Campaign Templates | Smartsheet",
+              "url": null,
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "Free PPC Campaign Templates | Smartsheet",
+                  "url": "https://www.smartsheet.com/content/ppc-templates?srsltid=AfmBOootaZKLr4mqPpp3C_DaQ73Jy7Ldo_mbsklp0GY35FS0iNtzMiRH",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120920-3675-0139-0000-ff0e667141ec:7"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "The Ultimate Beginner's Guide to PPC Reporting | Dashthis",
+                  "url": "https://dashthis.com/blog/ppc-reporting/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120920-3675-0139-0000-ff0e667141ec:8"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "PPC Monthly Report Template \u2013 Google Ads Reporting",
+                  "url": "https://www.oneupweb.com/blog/paid-media-ppc-report-template/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120920-3675-0139-0000-ff0e667141ec:9"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Best White Label PPC report Templates",
+                  "url": "https://www.semrush.com/my_reports/lp/report-templates/ppc-report/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120920-3675-0139-0000-ff0e667141ec:10"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Free PPC Reporting Templates for Google Sheets, Looker ...",
+                  "url": "https://supermetrics.com/blog/ppc-report-template",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120920-3675-0139-0000-ff0e667141ec:11"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Best free PPC report templates (2026)",
+                  "url": "https://portermetrics.com/en/report-templates/ppc/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120920-3675-0139-0000-ff0e667141ec:12"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Best PPC Report Templates - Ready to Use - Data Bloo",
+                  "url": "https://www.databloo.com/report-templates/pay-per-click/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120920-3675-0139-0000-ff0e667141ec:13"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Data Studio PPC Template",
+                  "url": "https://www.catchr.io/looker-studio-report-template/looker-studio-ppc-template",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120920-3675-0139-0000-ff0e667141ec:14"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "BruceClay - Advanced Excel Tips for #PPC Managers",
+                  "url": "https://www.bruceclay.com/blog/advanced-excel-tips-ppc/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiQdxhEWMukz9hCoJrw02fy4ch3DQ9mWI8JJjIQhuYuN45Xxg6j16PDw0&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "PPC Report Template for Digital Agencies | DashThis",
+                  "url": "https://dashthis.com/ppc-report-template/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcRnCNjvsX9JxMGCCqDCAkCCdA2iAFxxzwP1LpBWZO_XFMVqs5kCB8qvg&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Free PPC Reporting Templates for Google Sheets, Looker ...",
+                  "url": "https://supermetrics.com/blog/ppc-report-template",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Jz74FqGlGvlT1nM4-4ezI6d12ViBmGp09IrpvobAJzgsox4Ou2bJ07I&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Free PPC Campaign Templates | Smartsheet",
+                  "url": "https://www.smartsheet.com/content/ppc-templates?srsltid=AfmBOooBLCECVE0B2E2OAokCpB3ttT5hfOtcrByTNgRoLVezWovchrvb",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuWr1QFftklIi5VbSxWRExZNNeSEZ7nWr8EzHl7bYA7Q6jNYndcJAZ5W8&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Best free PPC report templates (2026)",
+                  "url": "https://portermetrics.com/en/report-templates/ppc/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwmyqPb0ePm6csr4Ap0VJjx1EVG6vLOYwbHyNovzKpncYQaSyZSUGqtu4&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "How to Improve Your PPC Reporting Process (With Free PPC ...",
+                  "url": "https://www.tapclicks.com/blog/ppc-report-template",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRajTcRXFV3x-AF-AH9uw0xxTPflwpRtnwGSvsAL0FC_kZeke4XjGFS0xM&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Best PPC Report Templates - Ready to Use - Data Bloo",
+                  "url": "https://www.databloo.com/report-templates/pay-per-click/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxwNGjaM4hRz9uB5LSFGcc2qDmAgOAI5CR0YEOetiPfgumEt8qtovpq7s&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Data Studio PPC Template",
+                  "url": "https://www.catchr.io/looker-studio-report-template/looker-studio-ppc-template",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmrm13wpVT58zr7lHdalcpu_okA6byS5bgB-BXHEwP_Cdc0QX9T4MSibM&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "29 Best PPC Report Templates for Ad Campaign Analytics ...",
+                  "url": "https://blog.coupler.io/ppc-report-templates/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Ngo6ihDsD_Ey-YUxcqYspH58hCAZi5Eb7kYnPWpDQe0fhN7RCxfLhyA&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Free PPC Reporting Templates for Google Sheets, Looker ...",
+                  "url": "https://supermetrics.com/blog/ppc-report-template",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWdt1_phmWwlTd8QjateLHOSWdtp07HfIMz-MBAQ6zv812d01Jd83Zxmw&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Free PPC Campaign Templates | Smartsheet",
+                  "url": "https://www.smartsheet.com/content/ppc-templates?srsltid=AfmBOorY_8eUmMGdVCe083r2hV7jCV-ZoZSceQdASTYa_Z5mxH9TpSyp",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0zLhzvSnnHPzi3o-EXkOV2TOLjTd8kFuOLWQkit2vw5Yi02GwqTYnBYA&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Best free PPC report templates (2026)",
+                  "url": "https://portermetrics.com/en/report-templates/ppc/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy09IqqFwvyGIEMsMvZiNVzNiNKYtsrT4xIEe2gcH8b-JKokYVx9aDGpA&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Data Studio PPC Template",
+                  "url": "https://www.catchr.io/looker-studio-report-template/looker-studio-ppc-template",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMSASUAsash1HlfEfABQEpjYnSWQRTZNT6LS4UINakGe1jqnahaIAFOCQ&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Free PPC Reporting Templates for Google Sheets, Looker ...",
+                  "url": "https://supermetrics.com/blog/ppc-report-template",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1teBVD6TlE1p19Zt4w18XTmcOqOtH8ppWuICQEwyotYBZV-GN9Cn69Zs&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Free PPC Campaign Templates | Smartsheet",
+                  "url": "https://www.smartsheet.com/content/ppc-templates?srsltid=AfmBOoo5sl82O1ys9-tEQXUv51RscCAk2bJj2nSsrresRZcZgbt7X63O",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYxarqGUyiszlPcvGHFrtB5M3FvP7ZjphsJcC0JTwkjX7YYTdTxzHc98M&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "29 Best PPC Report Templates for Ad Campaign Analytics ...",
+                  "url": "https://blog.coupler.io/ppc-report-templates/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnJWPPdtfSuCP6lSBHiLw2OtEbmPLBjG9uQAXoALuCF2-VJY2ymAlaI4o&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Best free PPC report templates (2026)",
+                  "url": "https://portermetrics.com/en/report-templates/ppc/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8q3ZD3MuVgV7ytThokClzRvz3yF79DNYpxRVkLq7u_JuSzQhyZQltma0&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Best free PPC report templates (2026)",
+                  "url": "https://portermetrics.com/en/report-templates/ppc/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqet_1GFN04oKNNyxUuTwTNWITinyfBnl0aSknEpxBf6pYqDH1GQg5LJQ&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Free PPC Campaign Templates | Smartsheet",
+                  "url": "https://www.smartsheet.com/content/ppc-templates?srsltid=AfmBOorizZuVx32KJqFD-y7vnFOWmdTZwdkEoP_xhHL71e3rz0yBn6cT",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThChS_4rS5TOb8drskeiUXQgJ13c57yG7OMjMLpnKrgJvrtLemUNTh20o&s"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 14,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.cometly.com",
+              "title": "PPC Reporting Template Guide for Better Ad Insights",
+              "url": "https://www.cometly.com/post/ppc-reporting-template",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.cometly.com \u203a post \u203a ppc-reporting-template",
+              "website_name": "Cometly",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Jul 15, 2025 \u2014 Build a powerful PPC reporting template that visualizes data, highlights key metrics, and proves your value. Learn how to create reports\u00a0...",
+              "pre_snippet": "07/15/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "visualizes data, highlights key metrics, and proves your value"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-07-15 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 11,
+              "rank_absolute": 15,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Free PPC Data Studio Report Template",
+              "url": "https://www.reddit.com/r/PPC/comments/10z11es/free_ppc_data_studio_report_template/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "10+ comments  \u00b7  3 years ago",
+              "website_name": "Reddit\u00a0\u00b7\u00a0r/PPC",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "A client focused adwords reporting template I've been tinkering with. It's a simple template that displays key metrics and can be customized to suite a variety\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "client focused adwords reporting template"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Looking for PPC templates",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/PPC/comments/1csk6my/looking_for_ppc_templates/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "PPC Report Templates : r/DigitalMarketing",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/DigitalMarketing/comments/jk218b/ppc_report_templates/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "More results from www.reddit.com",
+                  "description": null,
+                  "url": "https://www.google.com/search?q=ppc+report+template+site:www.reddit.com&hl=en&gl=US&sca_esv=89f358ba4e2fcd04&sa=X&ved=2ahUKEwjCwebrjbOUAxUxRfEDHfheChI4ChCtAigCegQIGhAD",
+                  "domain": "www.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 12,
+              "rank_absolute": 16,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "twominutereports.com",
+              "title": "The Complete Guide to Creating PPC Reports for Clients",
+              "url": "https://twominutereports.com/blog/client-ppc-report",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://twominutereports.com \u203a blog \u203a client-ppc-report",
+              "website_name": "Two Minute Reports",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Dec 29, 2025 \u2014 Discover a step-by-step guide to creating PPC reports for clients. Use 50+ free templates to automate PPC reporting, track key metrics,\u00a0...",
+              "pre_snippet": "12/29/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Use 50+ free templates"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-12-29 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 13,
+              "rank_absolute": 17,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "domain": "windsor.ai",
+              "title": "Free PPC Dashboard Report Templates",
+              "url": "https://windsor.ai/template-gallery/ppc-dashboard-reports/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://windsor.ai \u203a Free marketing template gallery",
+              "website_name": "Windsor.ai",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Windsor.ai provides free, easy-to-use PPC report templates for Google Ads, Facebook Ads, LinkedIn Ads, Bing Ads, and other popular platforms. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "free, easy-to-use PPC report templates"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 14,
+              "rank_absolute": 18,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "www.swydo.com",
+              "title": "Download a Complete Paid Search Report Example PDF",
+              "url": "https://www.swydo.com/report-templates/ppc-example-report/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.swydo.com \u203a report-templates \u203a ppc-exampl...",
+              "website_name": "Swydo",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Download a free Paid Search report example in PDF format. Save time and prove results with a report template your clients actually understand.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Download a free Paid Search report example in PDF format"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 15,
+              "rank_absolute": 19,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "www.keywordme.io",
+              "title": "12 Best PPC Reporting Templates to Use in 2025",
+              "url": "https://www.keywordme.io/blog/ppc-reporting-templates",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.keywordme.io \u203a blog \u203a ppc-reporting-tem...",
+              "website_name": "Keywordme",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Stop guessing your PPC performance. Grab our top 12 free and paid PPC reporting templates to streamline your workflow and showcase your ROI like a pro\u00a0...",
+              "pre_snippet": null,
+              "extended_snippet": "5.0  \u00b7 Review by Keywordme Users",
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 5,
+                "votes_count": null,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "Grab our top 12 free and paid PPC reporting templates"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 16,
+              "rank_absolute": 20,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "www.smartsheet.com",
+              "title": "Free PPC Campaign Templates",
+              "url": "https://www.smartsheet.com/content/ppc-templates?srsltid=AfmBOoq-LEcR-o9FcCsSv7lbKumH-WHWUeqp09KzHyiP3ZWLjRLXnXBh",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.smartsheet.com \u203a content \u203a ppc-templates",
+              "website_name": "Smartsheet",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Aug 14, 2023 \u2014 Download free PPC campaign templates in Excel, Microsoft Word, PowerPoint, Adobe PDF, Google Sheets, and Google Docs formats.",
+              "pre_snippet": "08/14/2023 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Download free PPC campaign templates"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2023-08-14 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 17,
+              "rank_absolute": 21,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "reportgarden.com",
+              "title": "PPC Report Templates",
+              "url": "https://reportgarden.com/ppc-report-templates",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://reportgarden.com \u203a ppc-report-templates",
+              "website_name": "Reportgarden",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "ReportGarden provides PPC Report Templates for Ad Agencies to help them create client reports quickly and easily.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "PPC Report Templates for Ad Agencies"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 18,
+              "rank_absolute": 22,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "www.template.net",
+              "title": "PPC Report Template in Word, Google Docs - Download",
+              "url": "https://www.template.net/editable/132321/ppc-report-template",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.template.net \u203a ... \u203a Report \u203a Marketing Report",
+              "website_name": "Template.net",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Download this PPC Report Template Design in Word, Google Docs Format. Easily Editable, Printable, Downloadable. Unlimited Download. Subscribe to download. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Download this PPC Report Template Design in Word, Google Docs Format"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 2,
+              "rank_absolute": 23,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Ppc report template pdf",
+                "Ppc report template word",
+                "Ppc report template excel",
+                "Ppc report template free download",
+                "Ppc report template free",
+                "Ppc report template excel free download",
+                "PPC template Excel",
+                "Amazon PPC report Excel template"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,390 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0858 sec.",
+  "cost": 0.0103,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120924-3675-0399-0000-23133db3fee7",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0582 sec.",
+      "cost": 0.0103,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "keyword_suggestions",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "keyword_suggestions",
+        "se_type": "google",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "client reporting software",
+        "limit": 35
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "seed_keyword": "client reporting software",
+          "seed_keyword_data": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "total_count": 3,
+          "items_count": 3,
+          "offset": 0,
+          "offset_token": "eyJDdXJyZW50T2Zmc2V0IjozLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoiY2xpZW50IHJlcG9ydGluZyBzb2Z0d2FyZSIsImluY2x1ZGVfc2VlZF9rZXl3b3JkIjpmYWxzZSwiZnVsbF9tYXRjaCI6ZmFsc2UsImxvYWRfc2VycF9pbmZvIjpmYWxzZSwic2VhcmNoX2FmdGVyX3Rva2VuIjpudWxsLCJpZ25vcmVfc3lub255bXMiOmZhbHNlLCJsYW5ndWFnZSI6ImVuIiwic2VhcmNoX2VuZ2luZSI6Imdvb2dsZSIsImxvY2F0aW9uIjoyODQwLCJ1c2VfbmV3X2NhdGVnb3JpZXMiOnRydWUsIm9yZGVyX2J5Ijp7Im9yZGVyX2ZpZWxkIjoia2V5d29yZF9pbmZvLnNlYXJjaF92b2x1bWUiLCJvcmRlcl90eXBlIjoiRGVzYyIsIm5leHQiOm51bGx9LCJsaW1pdCI6MzUsIm9mZnNldCI6MCwiYWlkIjozNjc1LCJ1c2VfY2FjaGUiOnRydWUsInRhc2tfaWQiOiIwNTEyMDkyNC0zNjc1LTAzOTktMDAwMC0yMzEzM2RiM2ZlZTciLCJmbGFncyI6bnVsbH0sIlJhd1F1ZXJ5IjpudWxsLCJJZCI6IjY4ZWRhYTFiLWI5ZGQtNDEzOS04YmI0LTgzYjdjZGY0OTkwZiIsIlNlYXJjaEFmdGVyRGF0YSI6WzEwLCJkMjUxMzM5NC1hMWE5LTAzMjEtZDljOC0xY2ZlYjAwNTZmNGIiXSwiRXhlY3V0b3IiOi05MTg0NDA1OTQwNDQ0NTE3NjMzfQ==",
+          "items": [
+            {
+              "se_type": "google",
+              "keyword": "client reporting software",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-04-15 18:00:52 +00:00",
+                "competition": 0.04,
+                "competition_level": "LOW",
+                "cpc": null,
+                "search_volume": 110,
+                "low_top_of_page_bid": 16.7,
+                "high_top_of_page_bid": 47.03,
+                "categories": [
+                  10019,
+                  10168,
+                  10537,
+                  10885,
+                  12209
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2026,
+                    "month": 3,
+                    "search_volume": 170
+                  },
+                  {
+                    "year": 2026,
+                    "month": 2,
+                    "search_volume": 50
+                  },
+                  {
+                    "year": 2026,
+                    "month": 1,
+                    "search_volume": 20
+                  },
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 20
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 70
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 50
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 70
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 50
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 70
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 210
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 210
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 170
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": 240,
+                  "quarterly": 750,
+                  "yearly": 89
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": null,
+                "synonym_clustering_algorithm": null,
+                "keyword_difficulty": 12,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 3
+              },
+              "serp_info": null,
+              "avg_backlinks_info": {
+                "se_type": "google",
+                "backlinks": 494.6,
+                "dofollow": 255.2,
+                "referring_pages": 353.5,
+                "referring_domains": 122.5,
+                "referring_main_domains": 113.4,
+                "rank": 116.5,
+                "main_domain_rank": 411.5,
+                "last_updated_time": "2026-05-03 20:07:06 +00:00"
+              },
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "commercial",
+                "foreign_intent": null,
+                "last_updated_time": "2026-04-26 08:14:27 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword": "asset management client reporting software",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-04-14 23:48:10 +00:00",
+                "competition": 0,
+                "competition_level": "LOW",
+                "cpc": null,
+                "search_volume": 10,
+                "low_top_of_page_bid": null,
+                "high_top_of_page_bid": null,
+                "categories": [
+                  10019,
+                  10168,
+                  10537,
+                  10885,
+                  12209
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2026,
+                    "month": 3,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2026,
+                    "month": 2,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2026,
+                    "month": 1,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 20
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 20
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 20
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": 0,
+                  "quarterly": 0,
+                  "yearly": -50
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": "client reporting software asset management",
+                "synonym_clustering_algorithm": "text_processing",
+                "keyword_difficulty": null,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 5
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "commercial",
+                "foreign_intent": null,
+                "last_updated_time": "2026-04-29 14:02:29 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword": "client reporting software asset management",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-04-10 18:45:37 +00:00",
+                "competition": null,
+                "competition_level": null,
+                "cpc": null,
+                "search_volume": 10,
+                "low_top_of_page_bid": null,
+                "high_top_of_page_bid": null,
+                "categories": [
+                  10019,
+                  10168,
+                  10537,
+                  10885,
+                  12209
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2026,
+                    "month": 3,
+                    "search_volume": 0
+                  },
+                  {
+                    "year": 2026,
+                    "month": 2,
+                    "search_volume": 0
+                  },
+                  {
+                    "year": 2026,
+                    "month": 1,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 0
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 0
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 0
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 0
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 10
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": 0,
+                  "quarterly": -100,
+                  "yearly": -100
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": null,
+                "synonym_clustering_algorithm": "text_processing",
+                "keyword_difficulty": null,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 5
+              },
+              "serp_info": null,
+              "avg_backlinks_info": null,
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "commercial",
+                "foreign_intent": null,
+                "last_updated_time": "2026-04-27 06:41:04 +00:00"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

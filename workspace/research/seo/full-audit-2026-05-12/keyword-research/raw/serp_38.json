@@ -1,0 +1,537 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.3116 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120926-3675-0139-0000-e73988efb347",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.2439 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "social media reporting dashboard",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "os": "windows",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "social media reporting dashboard",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=social%20media%20reporting%20dashboard&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-05-12 06:26:32 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "images",
+            "organic",
+            "video",
+            "related_searches"
+          ],
+          "se_results_count": 308000000,
+          "pages_count": 1,
+          "items_count": 11,
+          "items": [
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "Images",
+              "url": "https://www.google.com/search?sca_esv=89f358ba4e2fcd04&hl=en&gl=US&q=social+media+reporting+dashboard&udm=2&source=univ&fir=mb7yacKYrEsEBM%252CVstijXIo0DeXWM%252C_%253BOLeGHLRFelNxvM%252CrMT5I0z5cjFqLM%252C_%253BxGwt9FqSvFEOWM%252CtOtkKC9s2_olVM%252C_%253BcxqBzF0F2lF0gM%252CTvV7sy70felnWM%252C_%253Be4sr9l0ef2FzAM%252C9kqGHhyhCgNn9M%252C_%253BxxVMXAUNRKbL4M%252Cy8yurH-rslupkM%252C_%253B9GohlZQkCZlJQM%252CzS9I6kMyM5v0bM%252C_%253B0U-f3J5Fczmi7M%252CoibYfNyBHce6HM%252C_%253BOEYgvHagIHJPKM%252CInKzkD7v9FxaUM%252C_&usg=AI4_-kQ52037d9K4Fe_q9SIAnfeQxiZ91A&sa=X&ved=2ahUKEwjBkbCNj7OUAxURkyYFHb55BpUQ7Al6BAgXEAU",
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "Social Media Performance Dashboard: Track Key Metrics ...",
+                  "url": "https://www.klipfolio.com/resources/dashboard-examples/social-media/performance",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-e73988efb347:0"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Social Media Dashboard template",
+                  "url": "https://portermetrics.com/en/dashboard-templates/social-media-dashboard-porter/",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-e73988efb347:1"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Social Media Performance Dashboard in Google Sheets | Step by Step tutorial",
+                  "url": "https://www.youtube.com/watch?v=SsWrAHz6Ymg",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120926-3675-0139-0000-e73988efb347:2"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Social Media Dashboard - Monitor your social media channels",
+                  "url": "https://www.cyfe.com/social-media-dashboard/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsSdAYmXG_kfRK070Uvwf8yUD31s5qbdwdPolkw9ZSQZu9PYrqOb9IEfA&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Power BI Social Media Analytics Dashboard",
+                  "url": "https://www.spec-india.com/live-bi-visualization/social-media-analytics-dashboard",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqjEWluSuQR1zfsgNPpsq1UcJsWygMPCxyVHyQkcJzXW8k09_DHQ0w9OI&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Social Media Dashboard Examples and Reporting Templates ...",
+                  "url": "https://www.coupler.io/dashboard-examples/social-media-dashboard",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHs6C_mpNL2H4W8pr8lWIqJkKRUYbwxVJ7myFSv8KtlB93vhzf0NEopow&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Social Media Analytics with InetSoft",
+                  "url": "https://www.inetsoft.com/business/solutions/social-media-analytics-dashboard/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb4KnEySqqZO0O9K9J-_UX1RnWi9KAyFu2x6MPw20X_fn2NoYF4e7w23U&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Social Media Analytics Tools - Hootsuite Analytics",
+                  "url": "https://www.hootsuite.com/platform/analytics?srsltid=AfmBOopyG6KFMN_OLZnXOQZIO-YNcNmUtbNLH1Yh0jQ9mue10k7M31YV",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMVzssXQ6fz87hO05hvd9er57g7vVYx9dPlBGmqrRahEHuAqnda8ggc3s&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Marketing dashboard examples | Geckoboard",
+                  "url": "https://www.geckoboard.com/dashboard-examples/marketing/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtIc7Qiu35vGPVO6EQUJZ_0TkNP1SeymDIj_lKvjgFF8A9hNt6THZAuHA&s"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "www.klipfolio.com",
+              "title": "Social Media Dashboard: 8 Social Media Analytics Examples",
+              "url": "https://www.klipfolio.com/resources/dashboard-examples/social-media",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.klipfolio.com \u203a ... \u203a Dashboard Examples",
+              "website_name": "Klipfolio",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "A social media dashboard is a centralized platform that consolidates performance metrics from various social networks like Facebook, Twitter, and YouTube. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "a centralized platform that consolidates performance metrics"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "blog.hootsuite.com",
+              "title": "Social media dashboards: 10 templates for 2026",
+              "url": "https://blog.hootsuite.com/social-media-dashboard/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://blog.hootsuite.com \u203a social-media-dashboard",
+              "website_name": "Hootsuite Blog",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "5 days ago \u2014 Here are the 12 social media dashboards you need to easily track your performance across channels and get insights on how to grow faster.",
+              "pre_snippet": "5 days ago",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "easily track your performance across channels"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "What are the best social media...",
+                  "description": null,
+                  "url": "https://blog.hootsuite.com/social-media-dashboard/#What_are_the_best_social_media_dashboard_templates_for_every_goal",
+                  "domain": "blog.hootsuite.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "What are the best practices for...",
+                  "description": null,
+                  "url": "https://blog.hootsuite.com/social-media-dashboard/#What_are_the_best_practices_for_effective_social_media_dashboard_design",
+                  "domain": "blog.hootsuite.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-05-07 06:26:32 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "sproutsocial.com",
+              "title": "6 must-have social media dashboard templates for brands",
+              "url": "https://sproutsocial.com/insights/social-media-dashboard/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://sproutsocial.com \u203a ... \u203a Social Media Analytics",
+              "website_name": "Sprout Social",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Here are six social media dashboard examples to help highlight the value of social across your business and quantify your team's performance.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "six social media dashboard examples"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "amplitude.com",
+              "title": "Social Media Analytics Dashboard Template",
+              "url": "https://amplitude.com/templates/social-media-analytics-dashboard",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://amplitude.com \u203a templates \u203a social-media-analyti...",
+              "website_name": "Amplitude",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Our social media analytics dashboard helps you track engagement, audience growth, and campaign performance across platforms by visualizing data in Amplitude. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "track engagement, audience growth, and campaign performance"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "knowledge.hubspot.com",
+              "title": "Analyze social reports",
+              "url": "https://knowledge.hubspot.com/social/analyze-social-reports",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://knowledge.hubspot.com \u203a social \u203a analyze-social...",
+              "website_name": "HubSpot",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Apr 2, 2026 \u2014 After you connect your social accounts, use the analyze tab in the social tool to evaluate the performance of your social posts. Read more",
+              "pre_snippet": "04/02/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "use the analyze tab in the social tool"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-04-02 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "improvado.io",
+              "title": "Social Media Dashboard: Track, Analyze & Build for 2026",
+              "url": "https://improvado.io/blog/social-media-dashboard",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://improvado.io \u203a Blog \u203a Dashboards",
+              "website_name": "Improvado",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "A social media dashboard is a data visualization tool that displays key performance indicators (KPIs), metrics, and key data points related to your social media\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "displays key performance indicators (KPIs), metrics, and key data points"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "The Tangible Business...",
+                  "description": null,
+                  "url": "https://improvado.io/blog/social-media-dashboard#the-tangible-business-benefits-of-a-unified-social-media-dashboard",
+                  "domain": "improvado.io"
+                },
+                {
+                  "type": "link_element",
+                  "title": "How to Build a Powerful Social...",
+                  "description": null,
+                  "url": "https://improvado.io/blog/social-media-dashboard#how-to-build-a-powerful-social-media-dashboard-in-5-steps",
+                  "domain": "improvado.io"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "www.cyfe.com",
+              "title": "Social Media Dashboard - Monitor your ...",
+              "url": "https://www.cyfe.com/social-media-dashboard/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.cyfe.com \u203a social-media-dashboard",
+              "website_name": "Cyfe",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Track all of your social media analytics with our free dashboards. View trends across your social media KPIs. Track your Facebook likes, comments, and reach. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "free dashboards"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "www.hootsuite.com",
+              "title": "Hootsuite: Social Media Marketing and Management Tool",
+              "url": "https://www.hootsuite.com/?srsltid=AfmBOoreb-7pxwJYeji16ckDlS8pDn55Dh-dloKOdOaS9Nbox2VnahAA",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.hootsuite.com",
+              "website_name": "Hootsuite",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "A social media analytics dashboard showing key metrics, channel growth stats, and top health. Stay ahead of the latest trends and boost your chances of going\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "A social media analytics dashboard"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Products",
+                  "description": null,
+                  "url": "https://www.hootsuite.com/platform/reputation-management",
+                  "domain": "www.hootsuite.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Integrations",
+                  "description": null,
+                  "url": "https://www.hootsuite.com/platform/integrations",
+                  "domain": "www.hootsuite.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Industries",
+                  "description": null,
+                  "url": "https://www.hootsuite.com/industries",
+                  "domain": "www.hootsuite.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Resources",
+                  "description": null,
+                  "url": "https://www.hootsuite.com/resources?category=Case+Studies",
+                  "domain": "www.hootsuite.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 PK: An Excel Expert",
+                  "title": "Social Media Performance Dashboard in Excel",
+                  "timestamp": "2025-06-01 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=D4cdddns_lw"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Neotech Navigators",
+                  "title": "Social Media Performance Dashboard in Google Sheets ...",
+                  "timestamp": "2025-01-19 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=SsWrAHz6Ymg"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Ann Marie Creations",
+                  "title": "How to Build a Social Media Analytics Dashboard in Notion",
+                  "timestamp": "2025-12-03 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=5s9j6zYHmDI"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Social media reporting dashboard template",
+                "Social media reporting dashboard examples",
+                "Social media reporting dashboard template free",
+                "Social media reporting dashboard free",
+                "Social media dashboard template",
+                "Social media dashboard template free",
+                "Social media dashboard Excel",
+                "Social media Dashboard template Excel free"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

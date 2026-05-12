@@ -1,0 +1,170 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0767 sec.",
+  "cost": 0.0101,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120924-3675-0399-0000-10e691f77b52",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0439 sec.",
+      "cost": 0.0101,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "keyword_suggestions",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "keyword_suggestions",
+        "se_type": "google",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "PPC reporting software",
+        "limit": 35
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "seed_keyword": "ppc reporting software",
+          "seed_keyword_data": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "total_count": 1,
+          "items_count": 1,
+          "offset": 0,
+          "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoxLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoicHBjIHJlcG9ydGluZyBzb2Z0d2FyZSIsImluY2x1ZGVfc2VlZF9rZXl3b3JkIjpmYWxzZSwiZnVsbF9tYXRjaCI6ZmFsc2UsImxvYWRfc2VycF9pbmZvIjpmYWxzZSwic2VhcmNoX2FmdGVyX3Rva2VuIjpudWxsLCJpZ25vcmVfc3lub255bXMiOmZhbHNlLCJsYW5ndWFnZSI6ImVuIiwic2VhcmNoX2VuZ2luZSI6Imdvb2dsZSIsImxvY2F0aW9uIjoyODQwLCJ1c2VfbmV3X2NhdGVnb3JpZXMiOnRydWUsIm9yZGVyX2J5Ijp7Im9yZGVyX2ZpZWxkIjoia2V5d29yZF9pbmZvLnNlYXJjaF92b2x1bWUiLCJvcmRlcl90eXBlIjoiRGVzYyIsIm5leHQiOm51bGx9LCJsaW1pdCI6MzUsIm9mZnNldCI6MCwiYWlkIjozNjc1LCJ1c2VfY2FjaGUiOnRydWUsInRhc2tfaWQiOiIwNTEyMDkyNC0zNjc1LTAzOTktMDAwMC0xMGU2OTFmNzdiNTIiLCJmbGFncyI6bnVsbH0sIlJhd1F1ZXJ5IjpudWxsLCJJZCI6IjY3MmNlMGE3LTgyNWYtNGRjOC05ZDkxLTBlN2NhZjcwYjkzOSIsIlNlYXJjaEFmdGVyRGF0YSI6WzE0MCwiNmYwNWVlNTAtZjcyYS0zYzZmLThlNjUtNTIyYmRmYzE5MTBmIl0sIkV4ZWN1dG9yIjotOTE4NDQwNTk0MDQ0NDUxNzYzM30=",
+          "items": [
+            {
+              "se_type": "google",
+              "keyword": "ppc reporting software",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-04-13 10:30:36 +00:00",
+                "competition": 0,
+                "competition_level": "LOW",
+                "cpc": null,
+                "search_volume": 140,
+                "low_top_of_page_bid": null,
+                "high_top_of_page_bid": null,
+                "categories": [
+                  10019,
+                  10168,
+                  10537,
+                  10885,
+                  12209
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2026,
+                    "month": 3,
+                    "search_volume": 170
+                  },
+                  {
+                    "year": 2026,
+                    "month": 2,
+                    "search_volume": 20
+                  },
+                  {
+                    "year": 2026,
+                    "month": 1,
+                    "search_volume": 30
+                  },
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 20
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 30
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 50
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 140
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 110
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 320
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 320
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 260
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": 750,
+                  "quarterly": 467,
+                  "yearly": 0
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": null,
+                "synonym_clustering_algorithm": null,
+                "keyword_difficulty": 1,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 3
+              },
+              "serp_info": null,
+              "avg_backlinks_info": {
+                "se_type": "google",
+                "backlinks": 169,
+                "dofollow": 108.8,
+                "referring_pages": 149.4,
+                "referring_domains": 63.9,
+                "referring_main_domains": 59.4,
+                "rank": 75.9,
+                "main_domain_rank": 372.1,
+                "last_updated_time": "2026-05-01 13:13:50 +00:00"
+              },
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "commercial",
+                "foreign_intent": null,
+                "last_updated_time": "2026-04-28 21:33:58 +00:00"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

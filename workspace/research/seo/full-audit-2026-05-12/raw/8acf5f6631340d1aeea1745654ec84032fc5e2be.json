@@ -1,0 +1,1459 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "4.0212 sec.",
+  "cost": 0.0035,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120927-3675-0139-0000-c433462408b7",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.9366 sec.",
+      "cost": 0.0035,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "marketing kpi dashboard",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "os": "windows",
+        "depth": 20
+      },
+      "result": [
+        {
+          "keyword": "marketing kpi dashboard",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=marketing%20kpi%20dashboard&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-05-12 06:27:26 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_search",
+            "images",
+            "people_also_ask",
+            "video",
+            "discussions_and_forums",
+            "related_searches"
+          ],
+          "se_results_count": 9540000,
+          "pages_count": 2,
+          "items_count": 25,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": "A marketing KPI dashboard is `a centralized, visual tool that aggregates real-time data from multiple platforms (e.g., Google Analytics, CRM, social media) to track, analyze, and report on key performance metrics` . It eliminates manual reporting, helping marketing teams visualize campaign success, ROI, and performance against targets at a glance.[](https://dashthis.com/marketing-kpi-dashboard-for-marketers/) [[1]](https://dashthis.com/marketing-kpi-dashboard-for-marketers/)[[2]](https://www.reportdash.com/blog/marketing-kpi-dashboard)[[3]](https://monday.com/blog/marketing/marketing-dashboard/)\n\n**Key Components of a Marketing KPI Dashboard** \n\n- **Data Integration:** Combines data from social media, email, SEO, and CRM systems.\n- **Visualizations:** Uses interactive charts and graphs to make data easy to understand and analyze.\n- **Actionable Metrics:** Highlights key indicators that show what is working and what needs optimization.[](https://www.tableau.com/kpi/what-is-kpi-dashboard) [[1]](https://www.tableau.com/kpi/what-is-kpi-dashboard)[[2]](https://monday.com/blog/marketing/marketing-dashboard/)[[3]](https://www.qlik.com/us/dashboard-examples/kpi-dashboards)[[4]](https://www.reportdash.com/blog/marketing-kpi-dashboard)[[5]](https://segmetrics.io/articles/how-to-build-a-powerful-marketing-kpi-dashboard-in-5-simple-steps/)\n\n**Essential KPIs to Track**   \nAccording to [HubSpot](https://www.hubspot.com/glossary/key-performance-indicators) and [SimpleKPI](https://www.simplekpi.com/KPI-Dashboard-Examples) , top metrics include:\n\n- **Customer Acquisition Cost (CAC):** Total costs divided by new customers.\n- **Customer Lifetime Value (CLV):** Predicted revenue from a customer.\n- **Marketing Originated/Influenced Customer Percentage:** Measures lead quality.\n- **Return on Investment (ROI) / ROAS:** Revenue generated compared to ad spend.\n- **Conversion Rate:** Percentage of visitors who take action.\n- **Cost Per Click (CPC):** Cost for each ad click.[](https://www.thoughtspot.com/data-trends/dashboard/marketing-kpis-metrics) [[1]](https://www.thoughtspot.com/data-trends/dashboard/marketing-kpis-metrics)[[2]](https://www.hubspot.com/glossary/key-performance-indicators)[[3]](https://www.wrike.com/marketing-guide/marketing-dashboard/)[[4]](https://www.oberlo.com/blog/key-performance-indicators-kpis)[[5]](https://www.sybill.ai/blogs/best-sales-dashboards-only-numbers-you-need)\n\n**Popular Marketing Dashboard Tools** \n\n- **[DashThis](https://dashthis.com/marketing-kpi-dashboard-for-marketers/):** Automated reporting for agencies.\n- **[Tableau](https://www.tableau.com/kpi/what-is-kpi-dashboard):** Advanced, interactive data visualization.\n- **[Wrike](https://www.wrike.com/marketing-guide/marketing-dashboard/):** For project and campaign management.\n- **SimpleKPI:** General, versatile tracking.\n- **[HubSpot](https://www.hubspot.com/resources/templates/marketing-dashboard):** Free templates available.[](https://www.simplekpi.com/KPI-Dashboard-Examples) [[1]](https://www.simplekpi.com/KPI-Dashboard-Examples)[[2]](https://dashthis.com/marketing-kpi-dashboard-for-marketers/)[[3]](https://www.tableau.com/kpi/what-is-kpi-dashboard)[[4]](https://www.wrike.com/marketing-guide/marketing-dashboard/)[[5]](https://www.hubspot.com/resources/templates/marketing-dashboard)\n\n**Benefits of a Marketing Dashboard** \n\n- **Real-time Insights:** Instant updates on campaign performance.\n- **Improved Decision Making:** Data-driven choices based on visualized trends.\n- **Time Savings:** Automates reporting, removing the need to switch between platforms.\n- **Better Communication:** Easily demonstrates marketing value to stakeholders.[](https://dashthis.com/marketing-kpi-dashboard-for-marketers/) [[1]](https://dashthis.com/marketing-kpi-dashboard-for-marketers/)[[2]](https://www.reportdash.com/blog/marketing-kpi-dashboard)[[3]](https://www.tableau.com/kpi/what-is-kpi-dashboard)[[4]](https://monday.com/blog/marketing/marketing-dashboard/)\n\n**Common Types of Marketing Dashboards** \n\n- **Digital Marketing:** Covers website, social media, and ad performance.\n- **SEO:** Focuses on organic search rankings and traffic.\n- **Campaign Management:** Tracks specific initiatives like product launches.\n- **CMO/Executive:** High-level metrics such as revenue growth and ROI.[](https://www.wrike.com/marketing-guide/marketing-dashboard/) [[1]](https://www.wrike.com/marketing-guide/marketing-dashboard/)[[2]](https://www.hubspot.com/glossary/key-performance-indicators)",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "A marketing KPI dashboard is a centralized, visual tool that aggregates real-time data from multiple platforms (e.g., Google Analytics, CRM, social media) to track, analyze, and report on key performance metrics. It eliminates manual reporting, helping marketing teams visualize campaign success, ROI, and performance against targets at a glance. DashThis +2",
+                  "markdown": "A marketing KPI dashboard is `a centralized, visual tool that aggregates real-time data from multiple platforms (e.g., Google Analytics, CRM, social media) to track, analyze, and report on key performance metrics` . It eliminates manual reporting, helping marketing teams visualize campaign success, ROI, and performance against targets at a glance.[](https://dashthis.com/marketing-kpi-dashboard-for-marketers/) [[1]](https://dashthis.com/marketing-kpi-dashboard-for-marketers/)[[2]](https://www.reportdash.com/blog/marketing-kpi-dashboard)[[3]](https://monday.com/blog/marketing/marketing-dashboard/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "DashThis",
+                      "domain": "dashthis.com",
+                      "url": "https://dashthis.com/marketing-kpi-dashboard-for-marketers/",
+                      "title": "Marketing KPI Dashboard | DashThis",
+                      "text": "A marketing KPI dashboard lets digital marketers bring together all their marketing data, from web analytics to SEO, and easily tr..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "ReportDash",
+                      "domain": "www.reportdash.com",
+                      "url": "https://www.reportdash.com/blog/marketing-kpi-dashboard",
+                      "title": "Top 10 Marketing KPI Dashboard Tips for Effective Performance ...",
+                      "text": "What Is a Marketing KPI Dashboard and Why It's Essential for Digital Marketers. Let's be real, most marketers don't need more data..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Monday.com",
+                      "domain": "monday.com",
+                      "url": "https://monday.com/blog/marketing/marketing-dashboard/",
+                      "title": "Marketing dashboard: how to build and scale reporting in 2026",
+                      "text": "What is a marketing dashboard? A marketing dashboard is a visual interface that brings together data from multiple marketing chann..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Key Components of a Marketing KPI Dashboard",
+                  "text": "Data Integration: Combines data from social media, email, SEO, and CRM systems. Visualizations: Uses interactive charts and graphs to make data easy to understand and analyze. Actionable Metrics: Highlights key indicators that show what is working and what needs optimization.",
+                  "markdown": "- **Data Integration:** Combines data from social media, email, SEO, and CRM systems.\n- **Visualizations:** Uses interactive charts and graphs to make data easy to understand and analyze.\n- **Actionable Metrics:** Highlights key indicators that show what is working and what needs optimization.[](https://www.tableau.com/kpi/what-is-kpi-dashboard) [[1]](https://www.tableau.com/kpi/what-is-kpi-dashboard)[[2]](https://monday.com/blog/marketing/marketing-dashboard/)[[3]](https://www.qlik.com/us/dashboard-examples/kpi-dashboards)[[4]](https://www.reportdash.com/blog/marketing-kpi-dashboard)[[5]](https://segmetrics.io/articles/how-to-build-a-powerful-marketing-kpi-dashboard-in-5-simple-steps/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Tableau",
+                      "domain": "www.tableau.com",
+                      "url": "https://www.tableau.com/kpi/what-is-kpi-dashboard",
+                      "title": "What Is a KPI Dashboard? Best Practices & Examples - Tableau",
+                      "text": "A KPI dashboard uses up-to-date data to help organizations analyze and discover insights through intuitive, easy-to-understand vis..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Monday.com",
+                      "domain": "monday.com",
+                      "url": "https://monday.com/blog/marketing/marketing-dashboard/",
+                      "title": "Marketing dashboard: how to build and scale reporting in 2026",
+                      "text": "What is a marketing dashboard? A marketing dashboard is a visual interface that brings together data from multiple marketing chann..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Qlik",
+                      "domain": "www.qlik.com",
+                      "url": "https://www.qlik.com/us/dashboard-examples/kpi-dashboards",
+                      "title": "What is a KPI Dashboard? 4 Key Examples and Best Practices - Qlik",
+                      "text": "A KPI dashboard displays key performance indicators in interactive charts and graphs, allowing for quick, organized review and ana..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "ReportDash",
+                      "domain": "www.reportdash.com",
+                      "url": "https://www.reportdash.com/blog/marketing-kpi-dashboard",
+                      "title": "Top 10 Marketing KPI Dashboard Tips for Effective Performance ...",
+                      "text": "What Is a Marketing KPI Dashboard and Why It's Essential for Digital Marketers. Let's be real, most marketers don't need more data..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "SegMetrics",
+                      "domain": "segmetrics.io",
+                      "url": "https://segmetrics.io/articles/how-to-build-a-powerful-marketing-kpi-dashboard-in-5-simple-steps/",
+                      "title": "How to Build a Powerful Marketing KPI Dashboard in 5 Simple Steps",
+                      "text": "Marketers need more than just a collection of numbers \u2013 they need actionable insights. A Marketing KPI Dashboard is a crucial tool..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Essential KPIs to Track\nAccording to HubSpot and SimpleKPI, top metrics include:",
+                  "markdown": "**Essential KPIs to Track**   \nAccording to [HubSpot](https://www.hubspot.com/glossary/key-performance-indicators) and [SimpleKPI](https://www.simplekpi.com/KPI-Dashboard-Examples) , top metrics include:",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "HubSpot",
+                      "description": null,
+                      "url": "https://www.hubspot.com/glossary/key-performance-indicators",
+                      "domain": "www.hubspot.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "SimpleKPI",
+                      "description": null,
+                      "url": "https://www.simplekpi.com/KPI-Dashboard-Examples",
+                      "domain": "www.simplekpi.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": null
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Customer Acquisition Cost (CAC): Total costs divided by new customers. Customer Lifetime Value (CLV): Predicted revenue from a customer. Marketing Originated/Influenced Customer Percentage: Measures lead quality. Return on Investment (ROI) / ROAS: Revenue generated compared to ad spend. Conversion Rate: Percentage of visitors who take action. Cost Per Click (CPC): Cost for each ad click.",
+                  "markdown": "- **Customer Acquisition Cost (CAC):** Total costs divided by new customers.\n- **Customer Lifetime Value (CLV):** Predicted revenue from a customer.\n- **Marketing Originated/Influenced Customer Percentage:** Measures lead quality.\n- **Return on Investment (ROI) / ROAS:** Revenue generated compared to ad spend.\n- **Conversion Rate:** Percentage of visitors who take action.\n- **Cost Per Click (CPC):** Cost for each ad click.[](https://www.thoughtspot.com/data-trends/dashboard/marketing-kpis-metrics) [[1]](https://www.thoughtspot.com/data-trends/dashboard/marketing-kpis-metrics)[[2]](https://www.hubspot.com/glossary/key-performance-indicators)[[3]](https://www.wrike.com/marketing-guide/marketing-dashboard/)[[4]](https://www.oberlo.com/blog/key-performance-indicators-kpis)[[5]](https://www.sybill.ai/blogs/best-sales-dashboards-only-numbers-you-need)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "ThoughtSpot",
+                      "domain": "www.thoughtspot.com",
+                      "url": "https://www.thoughtspot.com/data-trends/dashboard/marketing-kpis-metrics",
+                      "title": "15 Marketing KPIs and Metrics to Track in your Dashboard",
+                      "text": "Cost per click (CPC) is a marketing KPI that calculates the cost incurred for each user click on an ad. You'll calculate this metr..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "HubSpot",
+                      "domain": "www.hubspot.com",
+                      "url": "https://www.hubspot.com/glossary/key-performance-indicators",
+                      "title": "Key Performance Indicators \u2013 Definition, FAQs & How ... - HubSpot",
+                      "text": "What are the five most critical key performance indicators that drive long-term business growth? The five most critical indicators..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Wrike",
+                      "domain": "www.wrike.com",
+                      "url": "https://www.wrike.com/marketing-guide/marketing-dashboard/",
+                      "title": "What Is a Marketing Dashboard? Guide and Examples - Wrike",
+                      "text": "Campaign management dashboard: Marketing campaign dashboards will track metrics related to a particular marketing campaign. For in..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Oberlo",
+                      "domain": "www.oberlo.com",
+                      "url": "https://www.oberlo.com/blog/key-performance-indicators-kpis",
+                      "title": "65+ Crucial Key Performance Indicators for Ecommerce",
+                      "text": "Customer acquisition cost (CAC): CAC measures the cost of gaining a new customer. Divide your total marketing expenses by the numb..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Sybill",
+                      "domain": "www.sybill.ai",
+                      "url": "https://www.sybill.ai/blogs/best-sales-dashboards-only-numbers-you-need",
+                      "title": "Best Sales Dashboards 2026: Templates, Examples & KPIs for Sales Reps",
+                      "text": "The Only Essential Sales Dashboard KPIs Customer Acquisition Cost (CAC): How much are you spending to acquire each new customer? C..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Popular Marketing Dashboard Tools",
+                  "text": "DashThis : Automated reporting for agencies. Tableau : Advanced, interactive data visualization. Wrike : For project and campaign management. SimpleKPI : General, versatile tracking. SimpleKPI HubSpot : Free templates available.",
+                  "markdown": "- **[DashThis](https://dashthis.com/marketing-kpi-dashboard-for-marketers/):** Automated reporting for agencies.\n- **[Tableau](https://www.tableau.com/kpi/what-is-kpi-dashboard):** Advanced, interactive data visualization.\n- **[Wrike](https://www.wrike.com/marketing-guide/marketing-dashboard/):** For project and campaign management.\n- **SimpleKPI:** General, versatile tracking.\n- **[HubSpot](https://www.hubspot.com/resources/templates/marketing-dashboard):** Free templates available.[](https://www.simplekpi.com/KPI-Dashboard-Examples) [[1]](https://www.simplekpi.com/KPI-Dashboard-Examples)[[2]](https://dashthis.com/marketing-kpi-dashboard-for-marketers/)[[3]](https://www.tableau.com/kpi/what-is-kpi-dashboard)[[4]](https://www.wrike.com/marketing-guide/marketing-dashboard/)[[5]](https://www.hubspot.com/resources/templates/marketing-dashboard)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "DashThis",
+                      "description": null,
+                      "url": "https://dashthis.com/marketing-kpi-dashboard-for-marketers/",
+                      "domain": "dashthis.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Tableau",
+                      "description": null,
+                      "url": "https://www.tableau.com/kpi/what-is-kpi-dashboard",
+                      "domain": "www.tableau.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Wrike",
+                      "description": null,
+                      "url": "https://www.wrike.com/marketing-guide/marketing-dashboard/",
+                      "domain": "www.wrike.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "HubSpot",
+                      "description": null,
+                      "url": "https://www.hubspot.com/resources/templates/marketing-dashboard",
+                      "domain": "www.hubspot.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "SimpleKPI.com",
+                      "domain": "www.simplekpi.com",
+                      "url": "https://www.simplekpi.com/KPI-Dashboard-Examples",
+                      "title": "KPI Dashboard Examples: 50+ Industry Templates (2026) | SimpleKPI",
+                      "text": "Marketing KPI Dashboard A Marketing dashboard is a single point of focus for all your marketing channel activities. From tradition..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "DashThis",
+                      "domain": "dashthis.com",
+                      "url": "https://dashthis.com/marketing-kpi-dashboard-for-marketers/",
+                      "title": "Marketing KPI Dashboard | DashThis",
+                      "text": "A marketing KPI dashboard lets digital marketers bring together all their marketing data, from web analytics to SEO, and easily tr..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Tableau",
+                      "domain": "www.tableau.com",
+                      "url": "https://www.tableau.com/kpi/what-is-kpi-dashboard",
+                      "title": "What Is a KPI Dashboard? Best Practices & Examples - Tableau",
+                      "text": "A KPI dashboard uses up-to-date data to help organizations analyze and discover insights through intuitive, easy-to-understand vis..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Wrike",
+                      "domain": "www.wrike.com",
+                      "url": "https://www.wrike.com/marketing-guide/marketing-dashboard/",
+                      "title": "What Is a Marketing Dashboard? Guide and Examples - Wrike",
+                      "text": "Campaign management dashboard: Marketing campaign dashboards will track metrics related to a particular marketing campaign. For in..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "HubSpot",
+                      "domain": "www.hubspot.com",
+                      "url": "https://www.hubspot.com/resources/templates/marketing-dashboard",
+                      "title": "Free Marketing Dashboard Template - Excel, Google Sheets | HubSpot",
+                      "text": "Template Highlights * The marketing dashboard is available for download in Microsoft Excel or Google Sheets. * Go to the Start Her..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Benefits of a Marketing Dashboard",
+                  "text": "Real-time Insights: Instant updates on campaign performance. Improved Decision Making: Data-driven choices based on visualized trends. Time Savings: Automates reporting, removing the need to switch between platforms. Better Communication: Easily demonstrates marketing value to stakeholders.",
+                  "markdown": "- **Real-time Insights:** Instant updates on campaign performance.\n- **Improved Decision Making:** Data-driven choices based on visualized trends.\n- **Time Savings:** Automates reporting, removing the need to switch between platforms.\n- **Better Communication:** Easily demonstrates marketing value to stakeholders.[](https://dashthis.com/marketing-kpi-dashboard-for-marketers/) [[1]](https://dashthis.com/marketing-kpi-dashboard-for-marketers/)[[2]](https://www.reportdash.com/blog/marketing-kpi-dashboard)[[3]](https://www.tableau.com/kpi/what-is-kpi-dashboard)[[4]](https://monday.com/blog/marketing/marketing-dashboard/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "DashThis",
+                      "domain": "dashthis.com",
+                      "url": "https://dashthis.com/marketing-kpi-dashboard-for-marketers/",
+                      "title": "Marketing KPI Dashboard | DashThis",
+                      "text": "A marketing KPI dashboard lets digital marketers bring together all their marketing data, from web analytics to SEO, and easily tr..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "ReportDash",
+                      "domain": "www.reportdash.com",
+                      "url": "https://www.reportdash.com/blog/marketing-kpi-dashboard",
+                      "title": "Top 10 Marketing KPI Dashboard Tips for Effective Performance ...",
+                      "text": "What Is a Marketing KPI Dashboard and Why It's Essential for Digital Marketers. Let's be real, most marketers don't need more data..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Tableau",
+                      "domain": "www.tableau.com",
+                      "url": "https://www.tableau.com/kpi/what-is-kpi-dashboard",
+                      "title": "What Is a KPI Dashboard? Best Practices & Examples - Tableau",
+                      "text": "A KPI dashboard uses up-to-date data to help organizations analyze and discover insights through intuitive, easy-to-understand vis..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Monday.com",
+                      "domain": "monday.com",
+                      "url": "https://monday.com/blog/marketing/marketing-dashboard/",
+                      "title": "Marketing dashboard: how to build and scale reporting in 2026",
+                      "text": "What is a marketing dashboard? A marketing dashboard is a visual interface that brings together data from multiple marketing chann..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Common Types of Marketing Dashboards",
+                  "text": "Digital Marketing: Covers website, social media, and ad performance. SEO: Focuses on organic search rankings and traffic. Campaign Management: Tracks specific initiatives like product launches. CMO/Executive: High-level metrics such as revenue growth and ROI.",
+                  "markdown": "- **Digital Marketing:** Covers website, social media, and ad performance.\n- **SEO:** Focuses on organic search rankings and traffic.\n- **Campaign Management:** Tracks specific initiatives like product launches.\n- **CMO/Executive:** High-level metrics such as revenue growth and ROI.[](https://www.wrike.com/marketing-guide/marketing-dashboard/) [[1]](https://www.wrike.com/marketing-guide/marketing-dashboard/)[[2]](https://www.hubspot.com/glossary/key-performance-indicators)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Wrike",
+                      "domain": "www.wrike.com",
+                      "url": "https://www.wrike.com/marketing-guide/marketing-dashboard/",
+                      "title": "What Is a Marketing Dashboard? Guide and Examples - Wrike",
+                      "text": "Campaign management dashboard: Marketing campaign dashboards will track metrics related to a particular marketing campaign. For in..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "HubSpot",
+                      "domain": "www.hubspot.com",
+                      "url": "https://www.hubspot.com/glossary/key-performance-indicators",
+                      "title": "Key Performance Indicators \u2013 Definition, FAQs & How ... - HubSpot",
+                      "text": "What are the five most critical key performance indicators that drive long-term business growth? The five most critical indicators..."
+                    }
+                  ]
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "ThoughtSpot",
+                  "domain": "www.thoughtspot.com",
+                  "url": "https://www.thoughtspot.com/data-trends/dashboard/marketing-kpis-metrics",
+                  "title": "15 Marketing KPIs and Metrics to Track in your Dashboard",
+                  "text": "Cost per click (CPC) is a marketing KPI that calculates the cost incurred for each user click on an ad. You'll calculate this metr..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "SimpleKPI.com",
+                  "domain": "www.simplekpi.com",
+                  "url": "https://www.simplekpi.com/KPI-Dashboard-Examples",
+                  "title": "KPI Dashboard Examples: 50+ Industry Templates (2026) | SimpleKPI",
+                  "text": "Marketing KPI Dashboard A Marketing dashboard is a single point of focus for all your marketing channel activities. From tradition..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Wrike",
+                  "domain": "www.wrike.com",
+                  "url": "https://www.wrike.com/marketing-guide/marketing-dashboard/",
+                  "title": "What Is a Marketing Dashboard? Guide and Examples - Wrike",
+                  "text": "Campaign management dashboard: Marketing campaign dashboards will track metrics related to a particular marketing campaign. For in..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "DashThis",
+                  "domain": "dashthis.com",
+                  "url": "https://dashthis.com/marketing-kpi-dashboard-for-marketers/",
+                  "title": "Marketing KPI Dashboard | DashThis",
+                  "text": "A marketing KPI dashboard lets digital marketers bring together all their marketing data, from web analytics to SEO, and easily tr..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Tableau",
+                  "domain": "www.tableau.com",
+                  "url": "https://www.tableau.com/kpi/what-is-kpi-dashboard",
+                  "title": "What Is a KPI Dashboard? Best Practices & Examples - Tableau",
+                  "text": "A KPI dashboard uses up-to-date data to help organizations analyze and discover insights through intuitive, easy-to-understand vis..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "ReportDash",
+                  "domain": "www.reportdash.com",
+                  "url": "https://www.reportdash.com/blog/marketing-kpi-dashboard",
+                  "title": "Top 10 Marketing KPI Dashboard Tips for Effective Performance ...",
+                  "text": "What Is a Marketing KPI Dashboard and Why It's Essential for Digital Marketers. Let's be real, most marketers don't need more data..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "SegMetrics",
+                  "domain": "segmetrics.io",
+                  "url": "https://segmetrics.io/articles/how-to-build-a-powerful-marketing-kpi-dashboard-in-5-simple-steps/",
+                  "title": "How to Build a Powerful Marketing KPI Dashboard in 5 Simple Steps",
+                  "text": "Marketers need more than just a collection of numbers \u2013 they need actionable insights. A Marketing KPI Dashboard is a crucial tool..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "HubSpot",
+                  "domain": "www.hubspot.com",
+                  "url": "https://www.hubspot.com/resources/templates/marketing-dashboard",
+                  "title": "Free Marketing Dashboard Template - Excel, Google Sheets | HubSpot",
+                  "text": "Template Highlights * The marketing dashboard is available for download in Microsoft Excel or Google Sheets. * Go to the Start Her..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Monday.com",
+                  "domain": "monday.com",
+                  "url": "https://monday.com/blog/marketing/marketing-dashboard/",
+                  "title": "Marketing dashboard: how to build and scale reporting in 2026",
+                  "text": "What is a marketing dashboard? A marketing dashboard is a visual interface that brings together data from multiple marketing chann..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Qlik",
+                  "domain": "www.qlik.com",
+                  "url": "https://www.qlik.com/us/dashboard-examples/kpi-dashboards",
+                  "title": "What is a KPI Dashboard? 4 Key Examples and Best Practices - Qlik",
+                  "text": "A KPI dashboard displays key performance indicators in interactive charts and graphs, allowing for quick, organized review and ana..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "HubSpot",
+                  "domain": "www.hubspot.com",
+                  "url": "https://www.hubspot.com/glossary/key-performance-indicators",
+                  "title": "Key Performance Indicators \u2013 Definition, FAQs & How ... - HubSpot",
+                  "text": "What are the five most critical key performance indicators that drive long-term business growth? The five most critical indicators..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "blog.hubspot.com",
+              "title": "KPI dashboards & how to use them in your marketing",
+              "url": "https://blog.hubspot.com/marketing/kpi-dashboard",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://blog.hubspot.com \u203a Marketing",
+              "website_name": "HubSpot Blog",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "May 30, 2025 \u2014 A KPI dashboard, short for key performance indicator dashboard, is like your business's mission control. It's where all your most important metrics live. Read more",
+              "pre_snippet": "05/30/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "is like your business's mission control"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-05-30 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "domain": "www.thoughtspot.com",
+              "title": "15 Marketing KPIs and Metrics to Track in your Dashboard",
+              "url": "https://www.thoughtspot.com/data-trends/dashboard/marketing-kpis-metrics",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.thoughtspot.com \u203a data-trends \u203a marketing...",
+              "website_name": "ThoughtSpot",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Feb 12, 2024 \u2014 15 marketing KPIs and metrics to track in your dashboard \u00b7 1. Customer acquisition cost (CAC) \u00b7 2. Customer lifetime value (CLTV) \u00b7 3. Return on\u00a0... Read more",
+              "pre_snippet": "02/12/2024 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "1. Customer acquisition cost (CAC"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "marketing KPIs and metrics to...",
+                  "description": null,
+                  "url": "https://www.thoughtspot.com/data-trends/dashboard/marketing-kpis-metrics#MKM1",
+                  "domain": "www.thoughtspot.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Customer lifetime value (CLTV)",
+                  "description": null,
+                  "url": "https://www.thoughtspot.com/data-trends/dashboard/marketing-kpis-metrics#MKM3",
+                  "domain": "www.thoughtspot.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Engagement rate",
+                  "description": null,
+                  "url": "https://www.thoughtspot.com/data-trends/dashboard/marketing-kpis-metrics#MKM10",
+                  "domain": "www.thoughtspot.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-02-12 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "www.qlik.com",
+              "title": "Top-10 Marketing KPIs You Should Be Tracking",
+              "url": "https://www.qlik.com/us/kpi/kpi-marketing",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.qlik.com \u203a kpi \u203a kpi-marketing",
+              "website_name": "Qlik",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "This guide provides marketing KPI examples, templates, and practical advice to help you define the right key performance indicators for your organization and\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "marketing KPI examples, templates, and practical advice"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "www.geckoboard.com",
+              "title": "Marketing dashboard examples",
+              "url": "https://www.geckoboard.com/dashboard-examples/marketing/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.geckoboard.com \u203a dashboard-examples \u203a m...",
+              "website_name": "Geckoboard",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "A digital marketing dashboard provides a single view of the KPIs Digital Marketing Managers need in order to understand their campaigns and take action to\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "provides a single view of the KPIs Digital Marketing Managers need"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]",
+              "title": "Find related products & services",
+              "items": [
+                "KPI dashboard AI",
+                "KPI dashboard template free download",
+                "Marketing dashboard template free",
+                "Dashboard demo",
+                "Dashboard demo website",
+                "Best marketing dashboards"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "www.nielsen.com",
+              "title": "7 Key Features of a Marketing KPI Dashboard",
+              "url": "https://www.nielsen.com/insights/2019/7-key-features-of-a-marketing-kpi-dashboard/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.nielsen.com \u203a Insights",
+              "website_name": "Nielsen",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "7 Key Features of a Marketing KPI Dashboard \u00b7 1. Integrates Data \u00b7 2. Tells a Compelling Story \u00b7 3. Enables Scenario Planning \u00b7 4. Automates Manual Tasks \u00b7 5. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Integrates Data"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "images",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]",
+              "title": "Images",
+              "url": "https://www.google.com/search?sca_esv=89f358ba4e2fcd04&hl=en&gl=US&q=marketing+kpi+dashboard&udm=2&source=univ&fir=SI9f_yoWkASsYM%252CsuK_t0xfrzTvPM%252C_%253BP6QySNZJRX6f2M%252Co25uDF6Zx2lVkM%252C_%253BMiGToCx8ADeMyM%252Caq8DGL7hXkKIFM%252C_%253BE9HBTcPswdzRrM%252C8TODDfYCzZNIrM%252C_%253BRPgilQnkyBCmmM%252ChffjJw-dcIsYxM%252C_%253BDhrHtlM6ssIpVM%252C1p96y5xbeudL6M%252C_%253Bp8aBosMJHvv6lM%252CdaPcXGiYkVFRNM%252C_%253Biy3WaMigi9AfNM%252Caq8DGL7hXkKIFM%252C_%253BtEhhPZyK6wij9M%252ChAhEAbtuUpQo8M%252C_&usg=AI4_-kQ3eEbNmsq6XprrJhsyYuzrMs0qEg&sa=X&ved=2ahUKEwiMw_Olj7OUAxXgSzABHXSIE6gQ7Al6BAhmEAU",
+              "items": [
+                {
+                  "type": "images_element",
+                  "alt": "Marketing campaign performance kpi dashboard",
+                  "url": "https://www.slideteam.net/marketing-campaign-performance-kpi-dashboard.html",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120927-3675-0139-0000-c433462408b7:0"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Free Marketing Dashboard Templates | Smartsheet",
+                  "url": "https://www.smartsheet.com/content/marketing-dashboard-templates?srsltid=AfmBOopyJzOXyHqHl6IRnsqVn5I25a6sh26GtHjc5H_OBMMr62t6tYbN",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120927-3675-0139-0000-c433462408b7:1"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "How To Build A Marketing KPI Dashboard (and Which Metrics to ...",
+                  "url": "https://trevor.io/blog/marketing-kpi-dashboard",
+                  "image_url": "https://api.dataforseo.com/cdn/i/05120927-3675-0139-0000-c433462408b7:2"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Power BI Web Marketing KPI Dashboard Tutorial | Learn Power BI By Building  Dashboard",
+                  "url": "https://www.youtube.com/watch?v=wyCWfwqRm40",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9sB8pQm9m-JRI6gvn9WdECdE_FfhaWGFEMoFF_TmQ&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "5 Keys to Building a Perfect Marketing KPI Dashboard",
+                  "url": "https://measureu.com/marketing-kpi-dashboard/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-oDw7NScKGJpJ4cTRAD0MAZ7WaxV_XbgmNnOMPxwN1lFdPPr7u4st4xI&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Digital Marketing Dashboard Example | Geckoboard",
+                  "url": "https://www.geckoboard.com/dashboard-examples/marketing/digital-marketing-dashboard/",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNYCrKU37rWdFRMr3fu_dxKiWvpDkkEHa0y3oH_yXcK0xa-tbEl9miTo4&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "Top-10 Marketing KPIs You Should Be Tracking | Qlik",
+                  "url": "https://www.qlik.com/us/kpi/kpi-marketing",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqZ9fwu9MuOcacjrGdbYZ2wgoaqYDJOrlgcGouwj5-S3x56va-BSHs27E&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "How To Build A Marketing KPI Dashboard (and Which Metrics to ...",
+                  "url": "https://trevor.io/blog/marketing-kpi-dashboard",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTipi_YyKN7Y2GgY4uyON8ZBqEJ9PCYW_reUts7BvzZaK2pOuhxlD_RPxA&s"
+                },
+                {
+                  "type": "images_element",
+                  "alt": "KPI dashboards & how to use them in your marketing",
+                  "url": "https://blog.hubspot.com/marketing/kpi-dashboard",
+                  "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6cK8CcXCTaWqQ1Lf_lGeJv36qMJSw_ZwT_2oPNX9UUa6Huqn93RU0GG4&s"
+                }
+              ],
+              "related_image_searches": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What are the 5 key performance indicators in marketing?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What are the 5 main KPIs?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": "5 Types of Employee KPIs",
+                      "url": "https://clearcompany.com/resources/blog/employee-key-performance-indicators",
+                      "domain": "clearcompany.com",
+                      "title": "5 Key Performance Indicators for Maximizing Employee Talent",
+                      "description": "Financial KPIs: Quarterly sales goals or money saved through employee retention. ...\nProductivity KPIs: Number of tickets resolved or parts produced. ...\nCustomer KPIs: Customer retention rate or repeat website visitors. ...\nPeople KPIs: Employee engagement score or retention rate.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What are the 4 pillars of KPI?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://www.marketingprofs.com/masterclass/lesson/44538/the-four-pillars-of-kpis",
+                      "domain": "www.marketingprofs.com",
+                      "title": "The Four Pillars of KPIs : MarketingProfs Master Class Lesson",
+                      "description": "KPIs are a signal that should help inform actions. The best way to identify these signals is to group KPIs into pillars. In this lesson, you'll learn what those pillars are ( Awareness, Consideration, Demand, and Advocacy ) and what insights to glean from each.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is an example of a KPI in marketing?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://online.hbs.edu/blog/post/marketing-kpis",
+                      "domain": "online.hbs.edu",
+                      "title": "7 Marketing KPIs You Should Know & How to Measure Them - HBS Online",
+                      "description": "Cost per Click\n Marketing KPIs aren't just about measuring engagement with potential customers; they can also indicate changes you should make to your digital marketing budget. For example, cost per click (CPC) is a KPI that considers the amount you pay each time a user clicks on your paid advertisement.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Coupler\u2024io Academy",
+                  "title": "Best Digital Marketing Dashboards for Managers \u2014 Examples ...",
+                  "timestamp": "2024-11-27 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=4x1IPC9mG40"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Next Gen Templates",
+                  "title": "Digital Marketing KPI Dashboard in Google Sheets",
+                  "timestamp": "2025-03-17 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=FJ8uaNoE1GY"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Abhishek Agarrwal",
+                  "title": "Power BI Web Marketing KPI Dashboard Tutorial | Learn ...",
+                  "timestamp": "2023-08-19 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=wyCWfwqRm40"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "monday.com",
+              "title": "Marketing Dashboard Guide: Examples, KPIs, And Templates",
+              "url": "https://monday.com/blog/marketing/marketing-dashboard/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://monday.com \u203a Home \u203a Marketing",
+              "website_name": "Monday.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Dec 31, 2025 \u2014 Marketing dashboard tools help track KPIs, ROI, and campaign data in real time. See examples, templates, and how to build dashboards today.",
+              "pre_snippet": "12/31/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "track KPIs, ROI, and campaign data"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-12-31 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+              "domain": "www.simplekpi.com",
+              "title": "KPI Dashboard Examples: 50+ Industry Templates (2026)",
+              "url": "https://www.simplekpi.com/KPI-Dashboard-Examples",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.simplekpi.com \u203a KPI-Dashboard-Examples",
+              "website_name": "SimpleKPI.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "We've compiled expert-inspired dashboard examples from various industries and departments. They are flexible, highly customizable, and easy to implement. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "expert-inspired dashboard examples from various industries and departments"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "discussions_and_forums",
+              "rank_group": 1,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[22]/div[1]",
+              "title": "Discussions and forums",
+              "items": [
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "KPI Dashboard",
+                  "url": "https://www.reddit.com/r/smallbusiness/comments/1pbchd2/kpi_dashboard/",
+                  "domain": "www.reddit.com",
+                  "source": "Reddit",
+                  "description": null,
+                  "timestamp": "2025-12-12 06:27:24 +00:00",
+                  "posts_count": 10
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "What does your marketing performance dashboard look like in Power BI?",
+                  "url": "https://www.reddit.com/r/PowerBI/comments/1pgvxb4/what_does_your_marketing_performance_dashboard/",
+                  "domain": "www.reddit.com",
+                  "source": "Reddit",
+                  "description": null,
+                  "timestamp": "2025-12-12 06:27:24 +00:00",
+                  "posts_count": 5
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "Dashboard setups for sales teams - Revenue, calls & meetings KPI",
+                  "url": "https://community.hubspot.com/t5/Dashboards-Reporting/Dashboard-setups-for-sales-teams-Revenue-calls-amp-meetings-KPI/m-p/1103044",
+                  "domain": "community.hubspot.com",
+                  "source": "HubSpot Community",
+                  "description": null,
+                  "timestamp": "2025-05-12 06:27:24 +00:00",
+                  "posts_count": 1
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 14,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Marketing kpi dashboard template",
+                "Free marketing kpi dashboard",
+                "Marketing Dashboard template Excel",
+                "KPI dashboard template Excel",
+                "Marketing dashboard examples",
+                "KPI dashboard examples",
+                "KPI dashboard for employee performance",
+                "KPI dashboard meaning"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 15,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "segmetrics.io",
+              "title": "Marketing KPI Dashboard: Build Your Success Framework",
+              "url": "https://segmetrics.io/articles/how-to-build-a-powerful-marketing-kpi-dashboard-in-5-simple-steps/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://segmetrics.io \u203a Data Beats Opinon",
+              "website_name": "SegMetrics",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Unlock the potential of your campaigns with a Marketing KPI Dashboard that delivers actionable insights and tracks performance.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Marketing KPI Dashboard"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 16,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "www.wrike.com",
+              "title": "What Is a Marketing Dashboard? Guide and Examples",
+              "url": "https://www.wrike.com/marketing-guide/marketing-dashboard/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.wrike.com \u203a marketing-guide \u203a marketing-...",
+              "website_name": "Wrike",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Apr 8, 2026 \u2014 Marketing KPI dashboard: A marketing KPI dashboard tracks key metrics like customer growth, revenue growth, and marketing-attributed ROI. Read more",
+              "pre_snippet": "04/08/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Marketing KPI dashboard",
+                "marketing KPI dashboard"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-04-08 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 17,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]",
+              "domain": "www.reportdash.com",
+              "title": "Top 10 Marketing KPI Dashboard Tips for Effective ...",
+              "url": "https://www.reportdash.com/blog/marketing-kpi-dashboard",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.reportdash.com \u203a blog \u203a marketing-kpi-das...",
+              "website_name": "ReportDash",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Jul 8, 2025 \u2014 It's a visual, real-time dashboard that pulls your key performance indicators (KPIs) from different tools like Google Analytics, social media, email, ads, and\u00a0... Read more",
+              "pre_snippet": "07/08/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "visual, real-time dashboard"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-07-08 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 11,
+              "rank_absolute": 18,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "domain": "www.simplekpi.com",
+              "title": "KPI Dashboard Examples: 50+ Industry Templates (2026)",
+              "url": "https://www.simplekpi.com/KPI-Dashboard-Examples",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.simplekpi.com \u203a KPI-Dashboard-Examples",
+              "website_name": "SimpleKPI.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "We've compiled expert-inspired dashboard examples from various industries and departments. They are flexible, highly customizable, and easy to implement. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "expert-inspired dashboard examples from various industries and departments"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 12,
+              "rank_absolute": 19,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "diggrowth.com",
+              "title": "Marketing KPI Dashboard: Your Essential Guide To Data- ...",
+              "url": "https://diggrowth.com/blogs/marketing-metrics/marketing-kpi-dashboard/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://diggrowth.com \u203a blogs \u203a marketing-metrics \u203a mar...",
+              "website_name": "DiGGrowth",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Jun 19, 2024 \u2014 KPI dashboards provide an at-a-glance view of essential metrics such as conversion rates, lead generation, website traffic, and campaign\u00a0... Read more",
+              "pre_snippet": "06/19/2024 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "KPI dashboards provide an at-a-glance view of essential metrics"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2024-06-19 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 13,
+              "rank_absolute": 20,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]",
+              "domain": "www.youtube.com",
+              "title": "Power BI Web Marketing KPI Dashboard Tutorial | Learn ...",
+              "url": "https://www.youtube.com/watch?v=wyCWfwqRm40",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "15.5K+ views  \u00b7  2 years ago",
+              "website_name": "YouTube\u00a0\u00b7\u00a0Abhishek Agarrwal",
+              "is_image": false,
+              "is_video": true,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": null,
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2023-08-19 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 14,
+              "rank_absolute": 21,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "keomarketing.com",
+              "title": "Build a KPI Dashboard That Proves ROI",
+              "url": "https://keomarketing.com/marketing-performance-metrics-kpi-dashboard-roi/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://keomarketing.com \u203a Blog \u203a Strategic Marketing",
+              "website_name": "KEO Marketing",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Nov 27, 2025 \u2014 Build a marketing KPI dashboard that proves ROI. Track essential marketing performance metrics that connect campaigns to revenue growth and\u00a0...",
+              "pre_snippet": "11/27/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "marketing KPI dashboard"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-11-27 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 15,
+              "rank_absolute": 22,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "improvado.io",
+              "title": "Marketing Dashboards: The #1 Guide with 25+ Examples ...",
+              "url": "https://improvado.io/blog/12-best-marketing-dashboard-examples-and-templates",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://improvado.io \u203a Blog \u203a Analytics",
+              "website_name": "Improvado",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "4 days ago \u2014 A marketing dashboard is a centralized, interactive interface that visualizes key performance indicators (KPIs) from various marketing channels\u00a0... Read more",
+              "pre_snippet": "4 days ago",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "visualizes key performance indicators (KPIs"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-05-08 06:27:26 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 16,
+              "rank_absolute": 23,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "trevor.io",
+              "title": "How To Build A Marketing KPI Dashboard (and Which ...",
+              "url": "https://trevor.io/blog/marketing-kpi-dashboard",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://trevor.io \u203a blog \u203a marketing-kpi-dashboard",
+              "website_name": "Trevor.io",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Oct 13, 2025 \u2014 A marketing KPI dashboard lets you evaluate the performance of your advertising efforts. If you want to learn how to create one,\u00a0...",
+              "pre_snippet": "10/13/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "lets you evaluate the performance of your advertising efforts"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-10-13 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 17,
+              "rank_absolute": 24,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "www.clicdata.com",
+              "title": "Marketing KPI Dashboards For Social, SEO, Ads, Email",
+              "url": "https://www.clicdata.com/blog/digital-marketing-kpi-dashboards-for-social-seo-ads-emails/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.clicdata.com \u203a blog \u203a digital-marketing-kpi...",
+              "website_name": "ClicData",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "May 19, 2020 \u2014 A Marketing KPI Dashboard is an analytics tool helping you better understand and monitor your marketing efforts by measuring the performance of your SEO,\u00a0... Read more",
+              "pre_snippet": "05/19/2020 00:00:00",
+              "extended_snippet": "4.6(187)  \u00b7 $79.00 \u00b7 \u200eBusiness/Productivity",
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.6,
+                "votes_count": 187,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 4.6,
+                "regular": 79,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": "4.6 (187) \u00b7 $79.00 \u00b7 \u200eBusiness/Productivity"
+              },
+              "highlighted": [
+                "an analytics tool helping you better understand and monitor your marketing efforts"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2020-05-19 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 2,
+              "rank_absolute": 25,
+              "page": 2,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Marketing kpi dashboard template",
+                "Free marketing kpi dashboard",
+                "KPI dashboard template Excel",
+                "Marketing Dashboard template Excel",
+                "Marketing dashboard examples",
+                "KPI dashboard examples",
+                "KPI dashboard for employee performance",
+                "KPI dashboard meaning"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,771 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0606 sec.",
+  "cost": 0.0106,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120924-3675-0399-0000-dff0edad508d",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0487 sec.",
+      "cost": 0.0106,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "keyword_suggestions",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "keyword_suggestions",
+        "se_type": "google",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "SEO reporting software",
+        "limit": 35
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "seed_keyword": "seo reporting software",
+          "seed_keyword_data": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "total_count": 6,
+          "items_count": 6,
+          "offset": 0,
+          "offset_token": "eyJDdXJyZW50T2Zmc2V0Ijo2LCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoic2VvIHJlcG9ydGluZyBzb2Z0d2FyZSIsImluY2x1ZGVfc2VlZF9rZXl3b3JkIjpmYWxzZSwiZnVsbF9tYXRjaCI6ZmFsc2UsImxvYWRfc2VycF9pbmZvIjpmYWxzZSwic2VhcmNoX2FmdGVyX3Rva2VuIjpudWxsLCJpZ25vcmVfc3lub255bXMiOmZhbHNlLCJsYW5ndWFnZSI6ImVuIiwic2VhcmNoX2VuZ2luZSI6Imdvb2dsZSIsImxvY2F0aW9uIjoyODQwLCJ1c2VfbmV3X2NhdGVnb3JpZXMiOnRydWUsIm9yZGVyX2J5Ijp7Im9yZGVyX2ZpZWxkIjoia2V5d29yZF9pbmZvLnNlYXJjaF92b2x1bWUiLCJvcmRlcl90eXBlIjoiRGVzYyIsIm5leHQiOm51bGx9LCJsaW1pdCI6MzUsIm9mZnNldCI6MCwiYWlkIjozNjc1LCJ1c2VfY2FjaGUiOnRydWUsInRhc2tfaWQiOiIwNTEyMDkyNC0zNjc1LTAzOTktMDAwMC1kZmYwZWRhZDUwOGQiLCJmbGFncyI6bnVsbH0sIlJhd1F1ZXJ5IjpudWxsLCJJZCI6ImY2YTVhYTM5LTM4YTMtNDg0Mi1iZDAwLTU1NzYzZTM0OWI5MSIsIlNlYXJjaEFmdGVyRGF0YSI6WzExMCwiMDNmMTQ0ODgtMDQ3Ny0xYmYzLWM3MDctNzE1ZmJjZmRjMDVlIl0sIkV4ZWN1dG9yIjotOTE4NDQwNTk0MDQ0NDUxNzYzM30=",
+          "items": [
+            {
+              "se_type": "google",
+              "keyword": "seo reporting software",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-04-16 11:49:10 +00:00",
+                "competition": 0.01,
+                "competition_level": "LOW",
+                "cpc": 42.72,
+                "search_volume": 590,
+                "low_top_of_page_bid": 15.96,
+                "high_top_of_page_bid": 36.43,
+                "categories": [
+                  10004,
+                  10276,
+                  11088,
+                  12376,
+                  13152
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2026,
+                    "month": 3,
+                    "search_volume": 480
+                  },
+                  {
+                    "year": 2026,
+                    "month": 2,
+                    "search_volume": 170
+                  },
+                  {
+                    "year": 2026,
+                    "month": 1,
+                    "search_volume": 110
+                  },
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 140
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 210
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 210
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 390
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 480
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 590
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 720
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 1900
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 1900
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": 182,
+                  "quarterly": 336,
+                  "yearly": -80
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": null,
+                "synonym_clustering_algorithm": "text_processing",
+                "keyword_difficulty": 38,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 3
+              },
+              "serp_info": null,
+              "avg_backlinks_info": {
+                "se_type": "google",
+                "backlinks": 134801.1,
+                "dofollow": 11831.5,
+                "referring_pages": 126450.2,
+                "referring_domains": 3953.8,
+                "referring_main_domains": 3591.5,
+                "rank": 234.4,
+                "main_domain_rank": 424.2,
+                "last_updated_time": "2026-03-31 01:52:46 +00:00"
+              },
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "commercial",
+                "foreign_intent": null,
+                "last_updated_time": "2026-04-30 02:08:13 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword": "best seo reporting software",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-04-12 07:50:38 +00:00",
+                "competition": 0.01,
+                "competition_level": "LOW",
+                "cpc": null,
+                "search_volume": 480,
+                "low_top_of_page_bid": 10.44,
+                "high_top_of_page_bid": 23.17,
+                "categories": [
+                  10004,
+                  10276,
+                  11088,
+                  12376,
+                  13152
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2026,
+                    "month": 3,
+                    "search_volume": 260
+                  },
+                  {
+                    "year": 2026,
+                    "month": 2,
+                    "search_volume": 90
+                  },
+                  {
+                    "year": 2026,
+                    "month": 1,
+                    "search_volume": 110
+                  },
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 20
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 20
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 170
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 260
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 260
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 480
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 1300
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 2400
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": 189,
+                  "quarterly": 136,
+                  "yearly": -86
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": null,
+                "synonym_clustering_algorithm": "text_processing",
+                "keyword_difficulty": 28,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 4
+              },
+              "serp_info": null,
+              "avg_backlinks_info": {
+                "se_type": "google",
+                "backlinks": 3924,
+                "dofollow": 2606.4,
+                "referring_pages": 3517.9,
+                "referring_domains": 940.7,
+                "referring_main_domains": 879.7,
+                "rank": 184.4,
+                "main_domain_rank": 463,
+                "last_updated_time": "2026-03-31 17:04:07 +00:00"
+              },
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "commercial",
+                "foreign_intent": null,
+                "last_updated_time": "2026-04-25 05:40:38 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword": "seo agency reporting software",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-04-15 02:28:52 +00:00",
+                "competition": 0.01,
+                "competition_level": "LOW",
+                "cpc": 60.22,
+                "search_volume": 260,
+                "low_top_of_page_bid": null,
+                "high_top_of_page_bid": null,
+                "categories": [
+                  10004,
+                  10276,
+                  11088,
+                  12376
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2026,
+                    "month": 3,
+                    "search_volume": 110
+                  },
+                  {
+                    "year": 2026,
+                    "month": 2,
+                    "search_volume": 110
+                  },
+                  {
+                    "year": 2026,
+                    "month": 1,
+                    "search_volume": 140
+                  },
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 170
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 260
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 320
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 1300
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 140
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 50
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 90
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 260
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 480
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": 0,
+                  "quarterly": -21,
+                  "yearly": -77
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": null,
+                "synonym_clustering_algorithm": null,
+                "keyword_difficulty": 38,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 4
+              },
+              "serp_info": null,
+              "avg_backlinks_info": {
+                "se_type": "google",
+                "backlinks": 135288.5,
+                "dofollow": 12490.8,
+                "referring_pages": 126849.5,
+                "referring_domains": 4193.1,
+                "referring_main_domains": 3825.5,
+                "rank": 234.9,
+                "main_domain_rank": 357.2,
+                "last_updated_time": "2026-04-01 20:16:12 +00:00"
+              },
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "commercial",
+                "foreign_intent": null,
+                "last_updated_time": "2026-04-30 00:50:46 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword": "seo reporting software free",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-04-12 10:13:47 +00:00",
+                "competition": 0,
+                "competition_level": "LOW",
+                "cpc": null,
+                "search_volume": 210,
+                "low_top_of_page_bid": null,
+                "high_top_of_page_bid": null,
+                "categories": [
+                  10019,
+                  10168,
+                  10885,
+                  13816
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2026,
+                    "month": 3,
+                    "search_volume": 50
+                  },
+                  {
+                    "year": 2026,
+                    "month": 2,
+                    "search_volume": 30
+                  },
+                  {
+                    "year": 2026,
+                    "month": 1,
+                    "search_volume": 70
+                  },
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 170
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 260
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 140
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 1000
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 170
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 30
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 30
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 210
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 480
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": 67,
+                  "quarterly": -29,
+                  "yearly": -90
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": "free seo report software",
+                "synonym_clustering_algorithm": "text_processing",
+                "keyword_difficulty": 63,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 4
+              },
+              "serp_info": null,
+              "avg_backlinks_info": {
+                "se_type": "google",
+                "backlinks": 4813.2,
+                "dofollow": 3840.1,
+                "referring_pages": 4324.7,
+                "referring_domains": 762.5,
+                "referring_main_domains": 716.8,
+                "rank": 268.2,
+                "main_domain_rank": 476.1,
+                "last_updated_time": "2026-04-02 15:01:53 +00:00"
+              },
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "commercial",
+                "foreign_intent": null,
+                "last_updated_time": "2026-04-29 22:50:35 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword": "seo reporting software for clients",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-04-10 12:54:04 +00:00",
+                "competition": 0,
+                "competition_level": "LOW",
+                "cpc": null,
+                "search_volume": 210,
+                "low_top_of_page_bid": null,
+                "high_top_of_page_bid": null,
+                "categories": [
+                  10004,
+                  10276,
+                  11088,
+                  12376
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2026,
+                    "month": 3,
+                    "search_volume": 140
+                  },
+                  {
+                    "year": 2026,
+                    "month": 2,
+                    "search_volume": 30
+                  },
+                  {
+                    "year": 2026,
+                    "month": 1,
+                    "search_volume": 140
+                  },
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 40
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 70
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 20
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 480
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 140
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 170
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 260
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 390
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 590
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": 367,
+                  "quarterly": 0,
+                  "yearly": -71
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": null,
+                "synonym_clustering_algorithm": null,
+                "keyword_difficulty": 0,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 5
+              },
+              "serp_info": null,
+              "avg_backlinks_info": {
+                "se_type": "google",
+                "backlinks": 155.8,
+                "dofollow": 145.4,
+                "referring_pages": 151.8,
+                "referring_domains": 8,
+                "referring_main_domains": 7.8,
+                "rank": 72.1,
+                "main_domain_rank": 364.9,
+                "last_updated_time": "2026-04-03 13:08:13 +00:00"
+              },
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "commercial",
+                "foreign_intent": null,
+                "last_updated_time": "2026-04-29 22:23:41 +00:00"
+              }
+            },
+            {
+              "se_type": "google",
+              "keyword": "free seo reporting software",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-04-12 19:42:49 +00:00",
+                "competition": 0,
+                "competition_level": "LOW",
+                "cpc": null,
+                "search_volume": 110,
+                "low_top_of_page_bid": null,
+                "high_top_of_page_bid": null,
+                "categories": [
+                  10004,
+                  10019,
+                  10168,
+                  10276,
+                  10885,
+                  11088,
+                  12376,
+                  13152,
+                  13816
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2026,
+                    "month": 3,
+                    "search_volume": 20
+                  },
+                  {
+                    "year": 2026,
+                    "month": 2,
+                    "search_volume": 40
+                  },
+                  {
+                    "year": 2026,
+                    "month": 1,
+                    "search_volume": 50
+                  },
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 90
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 170
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 70
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 590
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 70
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 20
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 90
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 210
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": -50,
+                  "quarterly": -60,
+                  "yearly": -92
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": "free seo report software",
+                "synonym_clustering_algorithm": "text_processing",
+                "keyword_difficulty": 84,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 4
+              },
+              "serp_info": null,
+              "avg_backlinks_info": {
+                "se_type": "google",
+                "backlinks": 17185.7,
+                "dofollow": 15447.3,
+                "referring_pages": 16293.4,
+                "referring_domains": 1400.1,
+                "referring_main_domains": 1317,
+                "rank": 324,
+                "main_domain_rank": 515.6,
+                "last_updated_time": "2026-05-03 14:12:58 +00:00"
+              },
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "commercial",
+                "foreign_intent": null,
+                "last_updated_time": "2026-04-29 07:21:52 +00:00"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

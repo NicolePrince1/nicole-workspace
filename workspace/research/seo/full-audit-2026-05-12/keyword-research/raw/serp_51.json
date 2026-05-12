@@ -1,0 +1,872 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.7969 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120927-3675-0139-0000-dbf0c9d9639c",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.7237 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "google ads reporting tool",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "os": "windows",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "google ads reporting tool",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=google%20ads%20reporting%20tool&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-05-12 06:27:01 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "video",
+            "related_searches"
+          ],
+          "se_results_count": 146000000,
+          "pages_count": 1,
+          "items_count": 12,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": "![Adwords Report Tool | How to Use Google Ads Reporting Tools](https://api.dataforseo.com/cdn/i/05120927-3675-0139-0000-dbf0c9d9639c:20)\n![Easy-to-Use Google Ads Reporting Tool](https://api.dataforseo.com/cdn/i/05120927-3675-0139-0000-dbf0c9d9639c:21)\n![Google Ads Reporting Template | Oviond](https://api.dataforseo.com/cdn/i/05120927-3675-0139-0000-dbf0c9d9639c:22)\n![Google Ads Reporting Tool - Swydo](https://api.dataforseo.com/cdn/i/05120927-3675-0139-0000-dbf0c9d9639c:23)\n![Google Ads Reporting Tool | Adwords Software for Agencies](https://api.dataforseo.com/cdn/i/05120927-3675-0139-0000-dbf0c9d9639c:24)\n\nTop Google Ads reporting tools in 2026 include native options like **[Google Ads Report Editor](https://www.google.com/search?q=Google+Ads+Report+Editor&csui=3&hl=en&gl=US&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc&ved=2ahUKEwjA7Z2bj7OUAxW9DDQIHen4KdIQgK4QegoIAggACAAIARAP)** and **[Looker Studio](https://www.google.com/search?q=Looker+Studio&csui=3&hl=en&gl=US&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc&ved=2ahUKEwjA7Z2bj7OUAxW9DDQIHen4KdIQgK4QegoIAggACAAIARAQ)** for free, customizable data, alongside third-party platforms like **[Whatagraph](https://www.google.com/search?q=Whatagraph&csui=3&hl=en&gl=US&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc&ved=2ahUKEwjA7Z2bj7OUAxW9DDQIHen4KdIQgK4QegoIAggACAAIARAR)**, **[DashThis](https://www.google.com/search?q=DashThis&csui=3&hl=en&gl=US&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc&ved=2ahUKEwjA7Z2bj7OUAxW9DDQIHen4KdIQgK4QegoIAggACAAIARAS)** , and **[AgencyAnalytics](https://www.google.com/search?q=AgencyAnalytics&csui=3&hl=en&gl=US&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc&ved=2ahUKEwjA7Z2bj7OUAxW9DDQIHen4KdIQgK4QegoIAggACAAIARAT)** for automated, multi-channel client reporting. These tools provide, automated, white-label dashboards and real-time performance tracking.[](https://whatagraph.com/google-ads-reporting-tool) [[1]](https://whatagraph.com/google-ads-reporting-tool)[[2]](https://www.reportingninja.com/blog/best-google-ads-reporting-tools)[[3]](https://segmentstream.com/blog/articles/top-google-ads-analytics-tools)[[4]](https://agrowth.io/blogs/google-ads/google-ads-reporting-tools)[[5]](https://www.databloo.com/blog/google-ads-report-examples/)\n\nTop Third-Party Reporting Tools (2026)\n\n- **Whatagraph:** Best for visualizing data with cross-platform integration and AI summaries.\n- **AgencyAnalytics:** Ideal for agencies needing 80+ integrations and white-label, client-facing reports.\n- **DashThis:** Best for simple, one-click automated reporting with drag-and-drop widgets.\n- **[Supermetrics](https://www.google.com/search?q=Supermetrics&csui=3&hl=en&gl=US&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc&ved=2ahUKEwjA7Z2bj7OUAxW9DDQIHen4KdIQgK4QegoIAggACAAIIRAD):** Connects Google Ads data directly to Google Sheets, Excel, or BI tools for custom analysis.\n- **[Swydo](https://www.google.com/search?q=Swydo&csui=3&hl=en&gl=US&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc&ved=2ahUKEwjA7Z2bj7OUAxW9DDQIHen4KdIQgK4QegoIAggACAAIIRAF):** Features template-based reports and KPI monitoring.[](https://www.reportingninja.com/blog/best-google-ads-reporting-tools) [[1]](https://www.reportingninja.com/blog/best-google-ads-reporting-tools)[[2]](https://segmentstream.com/blog/articles/top-google-ads-analytics-tools)[[3]](https://yoast.com/10-free-and-paid-seo-reporting-tools-for-2025/)[[4]](https://madgicx.com/blog/client-reporting-dashboard)\n\nNative Google Ads Reporting Tools[[1]](https://www.reportingninja.com/blog/best-google-ads-reporting-tools)\n\n- **Report Editor:** Built into Google Ads for creating custom tables and charts to analyze performance without leaving the platform.\n- **Predefined Reports (Dimensions):** Ready-made templates to instantly view performance data by time, device, or location.[](https://support.google.com/google-ads/answer/6201327?hl=en) [[1]](https://support.google.com/google-ads/answer/6201327?hl=en)[[2]](https://support.google.com/google-ads/answer/7489070?hl=en)[[3]](https://www.get-ryze.ai/blog/google-ads-reporting-tool)[[4]](https://www.reportingninja.com/blog/best-google-ads-reporting-tools)\n\nKey Features of Effective Reporting Tools\n\n- **Automated Reporting:** Reduces manual work by scheduling automated, recurring reports via email.\n- **White-Labeling:** Allows agencies to customize reports with their own branding.\n- **Cross-Channel Reporting:** Merges data from Google Ads, Meta, TikTok, and GA4 into one dashboard.\n- **Custom Metrics:** Allows for creating calculated fields and custom segments for specific KPIs.[](https://whatagraph.com/google-ads-reporting-tool) [[1]](https://whatagraph.com/google-ads-reporting-tool)[[2]](https://portermetrics.com/en/compare/google-ads-reporting-tools/)[[3]](https://www.reportingninja.com/blog/best-google-ads-reporting-tools)[[4]](https://madgicx.com/blog/report-maker)[[5]](https://blog.coupler.io/instagram-marketing-tools/)\n\nHow to Choose\n\n- **For Individual Advertisers:** Looker Studio or Report Editor (free).\n- **For Small Agencies:** DashThis (simple) or Swydo.\n- **For Large Agencies:** AgencyAnalytics or Whatagraph (robust integrations/white-labeling).[](https://whatagraph.com/google-ads-reporting-tool) [[1]](https://whatagraph.com/google-ads-reporting-tool)[[2]](https://www.reportingninja.com/blog/best-google-ads-reporting-tools)[[3]](https://www.swydo.com/blog/instagram-ads-to-looker-studio/)[[4]](https://whatagraph.com/blog/articles/ppc-reporting-tools)[[5]](https://www.swydo.com/blog/best-sem-reporting-tools/)",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": null,
+                  "markdown": "![Adwords Report Tool | How to Use Google Ads Reporting Tools](https://api.dataforseo.com/cdn/i/05120927-3675-0139-0000-dbf0c9d9639c:10)\n![Easy-to-Use Google Ads Reporting Tool](https://api.dataforseo.com/cdn/i/05120927-3675-0139-0000-dbf0c9d9639c:11)\n![Google Ads Reporting Template | Oviond](https://api.dataforseo.com/cdn/i/05120927-3675-0139-0000-dbf0c9d9639c:12)\n![Google Ads Reporting Tool - Swydo](https://api.dataforseo.com/cdn/i/05120927-3675-0139-0000-dbf0c9d9639c:13)\n![Google Ads Reporting Tool | Adwords Software for Agencies](https://api.dataforseo.com/cdn/i/05120927-3675-0139-0000-dbf0c9d9639c:14)",
+                  "links": null,
+                  "images": [
+                    {
+                      "type": "images_element",
+                      "alt": "Adwords Report Tool | How to Use Google Ads Reporting Tools",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05120927-3675-0139-0000-dbf0c9d9639c:15"
+                    },
+                    {
+                      "type": "images_element",
+                      "alt": "Easy-to-Use Google Ads Reporting Tool",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05120927-3675-0139-0000-dbf0c9d9639c:16"
+                    },
+                    {
+                      "type": "images_element",
+                      "alt": "Google Ads Reporting Template | Oviond",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05120927-3675-0139-0000-dbf0c9d9639c:17"
+                    },
+                    {
+                      "type": "images_element",
+                      "alt": "Google Ads Reporting Tool - Swydo",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05120927-3675-0139-0000-dbf0c9d9639c:18"
+                    },
+                    {
+                      "type": "images_element",
+                      "alt": "Google Ads Reporting Tool | Adwords Software for Agencies",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05120927-3675-0139-0000-dbf0c9d9639c:19"
+                    }
+                  ],
+                  "references": null
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Top Google Ads reporting tools in 2026 include native options like Google Ads Report Editor and Looker Studio for free, customizable data, alongside third-party platforms like Whatagraph, DashThis, and AgencyAnalytics for automated, multi-channel client reporting. These tools provide, automated, white-label dashboards and real-time performance tracking. Whatagraph +3",
+                  "markdown": "Top Google Ads reporting tools in 2026 include native options like **[Google Ads Report Editor](https://www.google.com/search?q=Google+Ads+Report+Editor&csui=3&hl=en&gl=US&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc&ved=2ahUKEwjA7Z2bj7OUAxW9DDQIHen4KdIQgK4QegoIAggACAAIARAP)** and **[Looker Studio](https://www.google.com/search?q=Looker+Studio&csui=3&hl=en&gl=US&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc&ved=2ahUKEwjA7Z2bj7OUAxW9DDQIHen4KdIQgK4QegoIAggACAAIARAQ)** for free, customizable data, alongside third-party platforms like **[Whatagraph](https://www.google.com/search?q=Whatagraph&csui=3&hl=en&gl=US&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc&ved=2ahUKEwjA7Z2bj7OUAxW9DDQIHen4KdIQgK4QegoIAggACAAIARAR)**, **[DashThis](https://www.google.com/search?q=DashThis&csui=3&hl=en&gl=US&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc&ved=2ahUKEwjA7Z2bj7OUAxW9DDQIHen4KdIQgK4QegoIAggACAAIARAS)** , and **[AgencyAnalytics](https://www.google.com/search?q=AgencyAnalytics&csui=3&hl=en&gl=US&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc&ved=2ahUKEwjA7Z2bj7OUAxW9DDQIHen4KdIQgK4QegoIAggACAAIARAT)** for automated, multi-channel client reporting. These tools provide, automated, white-label dashboards and real-time performance tracking.[](https://whatagraph.com/google-ads-reporting-tool) [[1]](https://whatagraph.com/google-ads-reporting-tool)[[2]](https://www.reportingninja.com/blog/best-google-ads-reporting-tools)[[3]](https://segmentstream.com/blog/articles/top-google-ads-analytics-tools)[[4]](https://agrowth.io/blogs/google-ads/google-ads-reporting-tools)[[5]](https://www.databloo.com/blog/google-ads-report-examples/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Whatagraph",
+                      "domain": "whatagraph.com",
+                      "url": "https://whatagraph.com/google-ads-reporting-tool",
+                      "title": "Free Google Ads Report Generator Tool | Whatagraph",
+                      "text": "All your questions answered. * How to create a report in Google Ads? Google Ads has ready-made reports that can answer specific qu..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reporting Ninja",
+                      "domain": "www.reportingninja.com",
+                      "url": "https://www.reportingninja.com/blog/best-google-ads-reporting-tools",
+                      "title": "9 Best Google Ads reporting tools: reviews, pricing & more",
+                      "text": "Table_title: 9 Best Google Ads reporting tools: reviews, pricing & more Table_content: header: | Tool | Best for: | Standout featu..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "SegmentStream",
+                      "domain": "segmentstream.com",
+                      "url": "https://segmentstream.com/blog/articles/top-google-ads-analytics-tools",
+                      "title": "10 Best Google Ads Reporting & Analytics Tools (2026)",
+                      "text": "Table_title: Quick Comparison Table Table_content: header: | # | Tool | Key Feature | row: | #: 5 | Tool: SpyFu | Key Feature: Ful..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "AGrowth",
+                      "domain": "agrowth.io",
+                      "url": "https://agrowth.io/blogs/google-ads/google-ads-reporting-tools",
+                      "title": "Google Ads Reporting: Features, Tools & Best Practices - AGrowth",
+                      "text": "What Is a Google Ads Reporting Tool? At its core, a Google Ads reporting tool is software that connects to your Google Ads account..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Data Bloo",
+                      "domain": "www.databloo.com",
+                      "url": "https://www.databloo.com/blog/google-ads-report-examples/",
+                      "title": "5 Best Google Ads Report Examples for 2026",
+                      "text": "To help you communicate value faster, we've curated the 5 best Google Ads report examples for 2026. These Looker Studio templates ..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Whatagraph: Best for visualizing data with cross-platform integration and AI summaries. AgencyAnalytics: Ideal for agencies needing 80+ integrations and white-label, client-facing reports. DashThis: Best for simple, one-click automated reporting with drag-and-drop widgets. Supermetrics : Connects Google Ads data directly to Google Sheets, Excel, or BI tools for custom analysis. Swydo : Features template-based reports and KPI monitoring.",
+                  "markdown": "- **Whatagraph:** Best for visualizing data with cross-platform integration and AI summaries.\n- **AgencyAnalytics:** Ideal for agencies needing 80+ integrations and white-label, client-facing reports.\n- **DashThis:** Best for simple, one-click automated reporting with drag-and-drop widgets.\n- **[Supermetrics](https://www.google.com/search?q=Supermetrics&csui=3&hl=en&gl=US&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc&ved=2ahUKEwjA7Z2bj7OUAxW9DDQIHen4KdIQgK4QegoIAggACAAIIRAD):** Connects Google Ads data directly to Google Sheets, Excel, or BI tools for custom analysis.\n- **[Swydo](https://www.google.com/search?q=Swydo&csui=3&hl=en&gl=US&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc&ved=2ahUKEwjA7Z2bj7OUAxW9DDQIHen4KdIQgK4QegoIAggACAAIIRAF):** Features template-based reports and KPI monitoring.[](https://www.reportingninja.com/blog/best-google-ads-reporting-tools) [[1]](https://www.reportingninja.com/blog/best-google-ads-reporting-tools)[[2]](https://segmentstream.com/blog/articles/top-google-ads-analytics-tools)[[3]](https://yoast.com/10-free-and-paid-seo-reporting-tools-for-2025/)[[4]](https://madgicx.com/blog/client-reporting-dashboard)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reporting Ninja",
+                      "domain": "www.reportingninja.com",
+                      "url": "https://www.reportingninja.com/blog/best-google-ads-reporting-tools",
+                      "title": "9 Best Google Ads reporting tools: reviews, pricing & more",
+                      "text": "Table_title: 9 Best Google Ads reporting tools: reviews, pricing & more Table_content: header: | Tool | Best for: | Standout featu..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "SegmentStream",
+                      "domain": "segmentstream.com",
+                      "url": "https://segmentstream.com/blog/articles/top-google-ads-analytics-tools",
+                      "title": "10 Best Google Ads Reporting & Analytics Tools (2026)",
+                      "text": "Table_title: Quick Comparison Table Table_content: header: | # | Tool | Key Feature | row: | #: 5 | Tool: SpyFu | Key Feature: Ful..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Yoast",
+                      "domain": "yoast.com",
+                      "url": "https://yoast.com/10-free-and-paid-seo-reporting-tools-for-2025/",
+                      "title": "10 free and paid SEO reporting tools for 2025",
+                      "text": "4: AgencyAnalytics (paid) Best for: Agencies looking for automated, white-label reporting solutions for multiple clients. AgencyAn..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Madgicx",
+                      "domain": "madgicx.com",
+                      "url": "https://madgicx.com/blog/client-reporting-dashboard",
+                      "title": "9 Top Client Reporting Dashboard Tools for Meta Ads",
+                      "text": "4. AgencyAnalytics Overview: As the name suggests, this tool is built from the ground up for marketing agencies. Best for: Agencie..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Report Editor: Built into Google Ads for creating custom tables and charts to analyze performance without leaving the platform. Predefined Reports (Dimensions): Ready-made templates to instantly view performance data by time, device, or location.",
+                  "markdown": "- **Report Editor:** Built into Google Ads for creating custom tables and charts to analyze performance without leaving the platform.\n- **Predefined Reports (Dimensions):** Ready-made templates to instantly view performance data by time, device, or location.[](https://support.google.com/google-ads/answer/6201327?hl=en) [[1]](https://support.google.com/google-ads/answer/6201327?hl=en)[[2]](https://support.google.com/google-ads/answer/7489070?hl=en)[[3]](https://www.get-ryze.ai/blog/google-ads-reporting-tool)[[4]](https://www.reportingninja.com/blog/best-google-ads-reporting-tools)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Google Help",
+                      "domain": "support.google.com",
+                      "url": "https://support.google.com/google-ads/answer/6201327?hl=en",
+                      "title": "Create and manage reports - Google Ads Help",
+                      "text": "Open a predefined report. To save you time, Google Ads comes with \u201cpredefined reports\u201d, a set of ready-made reports to answer spec..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Google Help",
+                      "domain": "support.google.com",
+                      "url": "https://support.google.com/google-ads/answer/7489070?hl=en",
+                      "title": "Create custom reports in Report Editor - Google Ads Help",
+                      "text": "The Report Editor allows you to analyze and present your performance data in more detail. You can create custom tables and charts ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Ryze AI",
+                      "domain": "www.get-ryze.ai",
+                      "url": "https://www.get-ryze.ai/blog/google-ads-reporting-tool",
+                      "title": "Google Ads Reporting Tool: Automated PPC Reports (2026)",
+                      "text": "What is a Google Ads reporting tool? A Google Ads reporting tool is software that automatically pulls campaign data from Google Ad..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reporting Ninja",
+                      "domain": "www.reportingninja.com",
+                      "url": "https://www.reportingninja.com/blog/best-google-ads-reporting-tools",
+                      "title": "9 Best Google Ads reporting tools: reviews, pricing & more",
+                      "text": "Table_title: 9 Best Google Ads reporting tools: reviews, pricing & more Table_content: header: | Tool | Best for: | Standout featu..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Automated Reporting: Reduces manual work by scheduling automated, recurring reports via email. White-Labeling: Allows agencies to customize reports with their own branding. Cross-Channel Reporting: Merges data from Google Ads, Meta, TikTok, and GA4 into one dashboard. Custom Metrics: Allows for creating calculated fields and custom segments for specific KPIs.",
+                  "markdown": "- **Automated Reporting:** Reduces manual work by scheduling automated, recurring reports via email.\n- **White-Labeling:** Allows agencies to customize reports with their own branding.\n- **Cross-Channel Reporting:** Merges data from Google Ads, Meta, TikTok, and GA4 into one dashboard.\n- **Custom Metrics:** Allows for creating calculated fields and custom segments for specific KPIs.[](https://whatagraph.com/google-ads-reporting-tool) [[1]](https://whatagraph.com/google-ads-reporting-tool)[[2]](https://portermetrics.com/en/compare/google-ads-reporting-tools/)[[3]](https://www.reportingninja.com/blog/best-google-ads-reporting-tools)[[4]](https://madgicx.com/blog/report-maker)[[5]](https://blog.coupler.io/instagram-marketing-tools/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Whatagraph",
+                      "domain": "whatagraph.com",
+                      "url": "https://whatagraph.com/google-ads-reporting-tool",
+                      "title": "Free Google Ads Report Generator Tool | Whatagraph",
+                      "text": "All your questions answered. * How to create a report in Google Ads? Google Ads has ready-made reports that can answer specific qu..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "portermetrics.com",
+                      "domain": "portermetrics.com",
+                      "url": "https://portermetrics.com/en/compare/google-ads-reporting-tools/",
+                      "title": "7 best Google Ads reporting and dashobards tools we tested in 2024",
+                      "text": "Google Ads reporting tools: what they are\u2014and how I'd choose one. A Google Ads Reporting Tool provides insights into the performan..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reporting Ninja",
+                      "domain": "www.reportingninja.com",
+                      "url": "https://www.reportingninja.com/blog/best-google-ads-reporting-tools",
+                      "title": "9 Best Google Ads reporting tools: reviews, pricing & more",
+                      "text": "Table_title: 9 Best Google Ads reporting tools: reviews, pricing & more Table_content: header: | Tool | Best for: | Standout featu..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Madgicx",
+                      "domain": "madgicx.com",
+                      "url": "https://madgicx.com/blog/report-maker",
+                      "title": "Best Report Maker: 10 Tools to Save 8+ Hours Weekly",
+                      "text": "Cross-Channel Reporting: Combine data from different platforms (e.g., Meta Ads and Google Ads) into a single, unified report."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Coupler.io Blog",
+                      "domain": "blog.coupler.io",
+                      "url": "https://blog.coupler.io/instagram-marketing-tools/",
+                      "title": "Best Instagram Marketing Tools for Growth in 2026",
+                      "text": "Cross-Channel Analytics: Analyze and manage ad performance across Meta (Instagram and Facebook), Google Ads, TikTok, Klaviyo, Shop..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "For Individual Advertisers: Looker Studio or Report Editor (free). For Small Agencies: DashThis (simple) or Swydo. For Large Agencies: AgencyAnalytics or Whatagraph (robust integrations/white-labeling).",
+                  "markdown": "- **For Individual Advertisers:** Looker Studio or Report Editor (free).\n- **For Small Agencies:** DashThis (simple) or Swydo.\n- **For Large Agencies:** AgencyAnalytics or Whatagraph (robust integrations/white-labeling).[](https://whatagraph.com/google-ads-reporting-tool) [[1]](https://whatagraph.com/google-ads-reporting-tool)[[2]](https://www.reportingninja.com/blog/best-google-ads-reporting-tools)[[3]](https://www.swydo.com/blog/instagram-ads-to-looker-studio/)[[4]](https://whatagraph.com/blog/articles/ppc-reporting-tools)[[5]](https://www.swydo.com/blog/best-sem-reporting-tools/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Whatagraph",
+                      "domain": "whatagraph.com",
+                      "url": "https://whatagraph.com/google-ads-reporting-tool",
+                      "title": "Free Google Ads Report Generator Tool | Whatagraph",
+                      "text": "All your questions answered. * How to create a report in Google Ads? Google Ads has ready-made reports that can answer specific qu..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reporting Ninja",
+                      "domain": "www.reportingninja.com",
+                      "url": "https://www.reportingninja.com/blog/best-google-ads-reporting-tools",
+                      "title": "9 Best Google Ads reporting tools: reviews, pricing & more",
+                      "text": "Table_title: 9 Best Google Ads reporting tools: reviews, pricing & more Table_content: header: | Tool | Best for: | Standout featu..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Swydo",
+                      "domain": "www.swydo.com",
+                      "url": "https://www.swydo.com/blog/instagram-ads-to-looker-studio/",
+                      "title": "How to Connect Instagram Ads to Data Studio (Formerly Looker Studio) and Automate Your Reports",
+                      "text": "This is the most basic to get IG Ads data into Looker Studio. It's free, but it can eat up a lot of time, especially when you're w..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Whatagraph",
+                      "domain": "whatagraph.com",
+                      "url": "https://whatagraph.com/blog/articles/ppc-reporting-tools",
+                      "title": "6 Best PPC Reporting Tools | Top Paid Ads Reporting Software in 2026",
+                      "text": "Swydo is an automated monitoring and reporting platform tailored to small to medium-sized marketing agencies and freelancers who w..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Swydo",
+                      "domain": "www.swydo.com",
+                      "url": "https://www.swydo.com/blog/best-sem-reporting-tools/",
+                      "title": "The Best SEM Reporting Tools Compared by Price, Features, and Fit",
+                      "text": "What's the best reporting tool for small agencies? For agencies with 1-10 clients, DashThis ($49/month for 10 dashboards) or Swydo..."
+                    }
+                  ]
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Google Help",
+                  "domain": "support.google.com",
+                  "url": "https://support.google.com/google-ads/answer/6201327?hl=en",
+                  "title": "Create and manage reports - Google Ads Help",
+                  "text": "Open a predefined report. To save you time, Google Ads comes with \u201cpredefined reports\u201d, a set of ready-made reports to answer spec..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Whatagraph",
+                  "domain": "whatagraph.com",
+                  "url": "https://whatagraph.com/google-ads-reporting-tool",
+                  "title": "Free Google Ads Report Generator Tool | Whatagraph",
+                  "text": "All your questions answered. * How to create a report in Google Ads? Google Ads has ready-made reports that can answer specific qu..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Reporting Ninja",
+                  "domain": "www.reportingninja.com",
+                  "url": "https://www.reportingninja.com/blog/best-google-ads-reporting-tools",
+                  "title": "9 Best Google Ads reporting tools: reviews, pricing & more",
+                  "text": "Table_title: 9 Best Google Ads reporting tools: reviews, pricing & more Table_content: header: | Tool | Best for: | Standout featu..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "portermetrics.com",
+                  "domain": "portermetrics.com",
+                  "url": "https://portermetrics.com/en/compare/google-ads-reporting-tools/",
+                  "title": "7 best Google Ads reporting and dashobards tools we tested in 2024",
+                  "text": "Google Ads reporting tools: what they are\u2014and how I'd choose one. A Google Ads Reporting Tool provides insights into the performan..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "SegmentStream",
+                  "domain": "segmentstream.com",
+                  "url": "https://segmentstream.com/blog/articles/top-google-ads-analytics-tools",
+                  "title": "10 Best Google Ads Reporting & Analytics Tools (2026)",
+                  "text": "Table_title: Quick Comparison Table Table_content: header: | # | Tool | Key Feature | row: | #: 5 | Tool: SpyFu | Key Feature: Ful..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "AGrowth",
+                  "domain": "agrowth.io",
+                  "url": "https://agrowth.io/blogs/google-ads/google-ads-reporting-tools",
+                  "title": "Google Ads Reporting: Features, Tools & Best Practices - AGrowth",
+                  "text": "What Is a Google Ads Reporting Tool? At its core, a Google Ads reporting tool is software that connects to your Google Ads account..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Google Help",
+                  "domain": "support.google.com",
+                  "url": "https://support.google.com/google-ads/answer/7489070?hl=en",
+                  "title": "Create custom reports in Report Editor - Google Ads Help",
+                  "text": "The Report Editor allows you to analyze and present your performance data in more detail. You can create custom tables and charts ..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "support.google.com",
+              "title": "Create and manage reports - Google Ads Help",
+              "url": "https://support.google.com/google-ads/answer/6201327?hl=en",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://support.google.com \u203a google-ads \u203a answer",
+              "website_name": "Google Help",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Reports help you view, organize, and analyze your data. Reports allow you to place large amounts of data into multi-dimensional tables, charts,\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Reports help you view, organize, and analyze your data"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "What's the best Google Ads reporting tool right now?",
+              "url": "https://www.reddit.com/r/adwords/comments/1rgwd5u/whats_the_best_google_ads_reporting_tool_right_now/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "10+ comments  \u00b7  2 months ago",
+              "website_name": "Reddit\u00a0\u00b7\u00a0r/adwords",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "What's the best Google Ads reporting tool right now? \u00b7 Clear performance insights (not just surface metrics) \u00b7 Easy client-ready reports. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Clear performance insights"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Best automated Google Ads management system ...",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/PPC/comments/1bmb6b5/best_automated_google_ads_management_system_with/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "What are the best tools for google ads you recommend?",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/googleads/comments/1p0o3k0/what_are_the_best_tools_for_google_ads_you/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "More results from www.reddit.com",
+                  "description": null,
+                  "url": "https://www.google.com/search?q=google+ads+reporting+tool+site:www.reddit.com&sca_esv=89f358ba4e2fcd04&hl=en&gl=US&sa=X&ved=2ahUKEwjA7Z2bj7OUAxW9DDQIHen4KdIQrQIoAnoECCIQAw",
+                  "domain": "www.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "whatagraph.com",
+              "title": "Free Google Ads Report Generator Tool",
+              "url": "https://whatagraph.com/google-ads-reporting-tool",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://whatagraph.com \u203a google-ads-reporting-tool",
+              "website_name": "Whatagraph",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Looking for a free Google Ads reporting tool? Use Whatagraph to create, style, and analyze reports in seconds. No technical expertise required.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Use Whatagraph to create, style, and analyze reports in seconds"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Tradesman Digital Marketing",
+                  "title": "Google Ads Reporting Made Easy: A Beginner's Guide (2023)",
+                  "timestamp": "2023-05-05 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=_Ojvxp3slYw"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Daniel Budai \u2022 Ecommerce Growth Marketing",
+                  "title": "How to Use Google Looker Studio for Google Ads Reporting",
+                  "timestamp": "2025-01-28 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=cE9MIjW1_Wg"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Simple Biz Support",
+                  "title": "Automating Google Ads Reports: A Simple Guide",
+                  "timestamp": "2024-11-09 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=qT7wVL-li58"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "www.swydo.com",
+              "title": "Google Ads Reporting Tool",
+              "url": "https://www.swydo.com/integrations/google-ads-reporting/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.swydo.com \u203a integrations \u203a google-ads-repo...",
+              "website_name": "Swydo",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "With Google Ads integrated into Swydo, you can report on over 600 metrics to analyze your campaign performance, including: Campaign Performance \u2013 Impressions,\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Ads integrated into Swydo"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+              "domain": "agencyanalytics.com",
+              "title": "The Best Google Ads Reporting Tool",
+              "url": "https://agencyanalytics.com/integrations/google-ads",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://agencyanalytics.com \u203a integrations \u203a google-ads",
+              "website_name": "AgencyAnalytics",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "The Google Ads automated reporting tool connects directly via the Google Ads API to pull up-to-date data into dashboards and custom reports. Agencies use ready\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Ads automated reporting tool"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+              "domain": "reportgarden.com",
+              "title": "Google Ads Reporting Tool",
+              "url": "https://reportgarden.com/free-adwords-reporting-tool",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://reportgarden.com \u203a free-adwords-reporting-tool",
+              "website_name": "Reportgarden",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Google Ads Reporting Tool from ReportGarden helps you create custom reports, dashboards & templates very easily. Sign up & make your Google Ads client\u00a0...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Ads Reporting Tool"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "adstransparency.google.com",
+              "title": "Google Ads Transparency Center",
+              "url": "https://adstransparency.google.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://adstransparency.google.com",
+              "website_name": "Google Ads Transparency",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Ads transparency for a safe and open internet. Find active ads published through Google. Discover more on related sites. Analyze political ad campaigns on\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Ads transparency for a safe and open internet"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "www.reportingninja.com",
+              "title": "9 Best Google Ads reporting tools: reviews, pricing & more",
+              "url": "https://www.reportingninja.com/blog/best-google-ads-reporting-tools",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.reportingninja.com \u203a blog \u203a best-google-a...",
+              "website_name": "Reporting Ninja",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Dec 2, 2025 \u2014 Looker Studio (formerly Google Data Studio) is a free reporting tool that allows users to build interactive dashboards by connecting Google Ads\u00a0... Read more",
+              "pre_snippet": "12/02/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Looker Studio"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-12-02 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+              "domain": "www.tapclicks.com",
+              "title": "Google Ads Reporting Tool: 4 Key Features for Agencies",
+              "url": "https://www.tapclicks.com/blog/google-ads-reporting-tool",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.tapclicks.com \u203a blog \u203a google-ads-reportin...",
+              "website_name": "TapClicks",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Learn the four key features of a Google Ads reporting tool to easily create meaningful reports, analyze performance, and boost your overall advertising results. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Ads reporting tool"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Conversion Tracking",
+                  "description": null,
+                  "url": "https://www.tapclicks.com/blog/google-ads-reporting-tool",
+                  "domain": "www.tapclicks.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "1. Api Connections Built For...",
+                  "description": null,
+                  "url": "https://www.tapclicks.com/blog/google-ads-reporting-tool",
+                  "domain": "www.tapclicks.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "4. Google Ads Reports...",
+                  "description": null,
+                  "url": "https://www.tapclicks.com/blog/google-ads-reporting-tool",
+                  "domain": "www.tapclicks.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Google ads reporting tool reddit",
+                "Google ads reporting tool free",
+                "Google Ads report generator",
+                "Google ads reporting tool download",
+                "Google Ads report pdf",
+                "Google Ads report template",
+                "Google Ads reports",
+                "Google reporting tool"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

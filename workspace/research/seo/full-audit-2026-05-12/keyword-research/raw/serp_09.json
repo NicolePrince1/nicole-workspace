@@ -1,0 +1,831 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.3068 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120925-3675-0139-0000-f4a866538c50",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "3.1858 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "google analytics reporting tool",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "os": "windows",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "google analytics reporting tool",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=google%20analytics%20reporting%20tool&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-05-12 06:25:24 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "video",
+            "discussions_and_forums",
+            "related_searches"
+          ],
+          "se_results_count": 176000000,
+          "pages_count": 1,
+          "items_count": 12,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": "[Google Analytics (GA4)](https://www.google.com/search?q=Google+Analytics+%28GA4%29&csui=3&hl=en&gl=US&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc&ved=2ahUKEwiR1OXsjrOUAxXkCnkGHdA7NbQQgK4QegoIAggACAAIARAD) is `the primary, free reporting tool for website and app data` , offering built-in, real-time, and customizable reports to track user behavior, traffic sources, and conversions. It features pre-built dashboards (reports snapshot, acquisition, engagement, monetization) and allows for in-depth data exploration and visualization.[](https://support.google.com/analytics/answer/9212670?hl=en) [[1]](https://support.google.com/analytics/answer/9212670?hl=en)[[2]](https://marketingplatform.google.com/about/analytics/)[[3]](https://www.youtube.com/watch?v=tFGdHCUST6g)[[4]](https://support.google.com/analytics/answer/13823841?hl=en)\n\nKey Google Analytics Reporting Features\n\n- **Realtime Report:** Monitor site activity as it happens.\n- **Acquisition Reports:** Understand how users find your site (e.g., organic, paid, social).\n- **Engagement Reports:** Analyze user interaction with content via events and page views.\n- **Monetization Reports:** Track e-commerce purchases, in-app purchases, and ad revenue.\n- **Custom Reports (Library):** Create, save, and customize reports in the library section to tailor views.[](https://support.google.com/analytics/answer/9212670?hl=en) [[1]](https://support.google.com/analytics/answer/9212670?hl=en)[[2]](https://www.youtube.com/watch?v=tFGdHCUST6g)[[3]](https://online-metrics.com/search-console-reports/)[[4]](https://www.topnotchdezigns.com/google-analytics-for-beginners-a-guide/)[[5]](https://portermetrics.com/en/templates/)\n\nTop Third-Party Reporting Tools for GA4 While GA4 is powerful, users often use other tools for easier visualization or to combine data from multiple sources:[](https://dashthis.com/blog/google-analytics-reports-for-marketers/) [[1]](https://dashthis.com/blog/google-analytics-reports-for-marketers/)[[2]](https://www.clickintelligence.co.uk/guides/seo/web-analytics/ga4-vs-ua-migration-training/)[[3]](https://dashthis.com/google-analytics-reporting-tool/)[[4]](https://marketvantage.com/blog/navigating-and-optimizing-the-ga4-dashboard-2024/)\n\n- **[Looker Studio](https://lookerstudio.google.com/) (formerly Data Studio):** Free tool by Google for creating customized, interactive dashboards and reports.\n- **[Databox](https://databox.com/):** A tool that helps build dashboards to track key metrics and ROI.\n- **[DashThis](https://dashthis.com/):** An automated reporting tool that aggregates data into easy-to-read reports.\n- **[Supermetrics](https://supermetrics.com/):** A tool often used for data integration across various platforms.[](https://www.reddit.com/r/GoogleAnalytics/comments/1gjr2q0/best_userfriendly_tools_for_understanding_google/) [[1]](https://www.reddit.com/r/GoogleAnalytics/comments/1gjr2q0/best_userfriendly_tools_for_understanding_google/)[[2]](https://stackby.com/blog/8-free-paid-google-analytics-reporting-tools-including-ga4/)[[3]](https://databox.com/report-software/google-analytics)[[4]](https://dashthis.com/blog/google-analytics-reports-for-marketers/)[[5]](https://www.reportingninja.com/blog/best-google-ads-reporting-tools)\n\nHow to Access Reports\n\n1. Sign in to [Google Analytics](https://tagmanager.google.com/).\n2. Click **Reports** in the left sidebar menu.\n3. Use the **Reports snapshot** for a high-level overview or dive into specific sections like Lifecycle or User.[](https://support.google.com/analytics/answer/9212670?hl=en) [[1]](https://support.google.com/analytics/answer/9212670?hl=en)[[2]](https://tagmanager.google.com/)[[3]](https://www.youtube.com/watch?v=tFGdHCUST6g)\n\nCustomization You can create tailored reports, such as overview reports, by selecting up to 16 summary cards in the library.[](https://support.google.com/analytics/answer/13823841?hl=en) [[1]](https://support.google.com/analytics/answer/13823841?hl=en)",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Google Analytics (GA4) is the primary, free reporting tool for website and app data, offering built-in, real-time, and customizable reports to track user behavior, traffic sources, and conversions. It features pre-built dashboards (reports snapshot, acquisition, engagement, monetization) and allows for in-depth data exploration and visualization. Google Help +3",
+                  "markdown": "[Google Analytics (GA4)](https://www.google.com/search?q=Google+Analytics+%28GA4%29&csui=3&hl=en&gl=US&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc&ved=2ahUKEwiR1OXsjrOUAxXkCnkGHdA7NbQQgK4QegoIAggACAAIARAD) is `the primary, free reporting tool for website and app data` , offering built-in, real-time, and customizable reports to track user behavior, traffic sources, and conversions. It features pre-built dashboards (reports snapshot, acquisition, engagement, monetization) and allows for in-depth data exploration and visualization.[](https://support.google.com/analytics/answer/9212670?hl=en) [[1]](https://support.google.com/analytics/answer/9212670?hl=en)[[2]](https://marketingplatform.google.com/about/analytics/)[[3]](https://www.youtube.com/watch?v=tFGdHCUST6g)[[4]](https://support.google.com/analytics/answer/13823841?hl=en)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Google Help",
+                      "domain": "support.google.com",
+                      "url": "https://support.google.com/analytics/answer/9212670?hl=en",
+                      "title": "Overview of Google Analytics reports",
+                      "text": "Google Analytics collects data from your websites and apps to create reports that provide insights into your business. You can use..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Google",
+                      "domain": "marketingplatform.google.com",
+                      "url": "https://marketingplatform.google.com/about/analytics/",
+                      "title": "Analytics Tools & Solutions for Your Business - Google Analytics",
+                      "text": "Dive into the details. Get a reliable measurement foundation with built-in automation, intuitive and flexible reporting, cross-pla..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=tFGdHCUST6g",
+                      "title": "Reports and UI Tour in Google Analytics: How to use reports to ...",
+                      "text": "The reports section of Google Analytics contains a secondary navigation with all available reports. This section helps users find ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Google Help",
+                      "domain": "support.google.com",
+                      "url": "https://support.google.com/analytics/answer/13823841?hl=en",
+                      "title": "[GA4] Create an overview report - Analytics Help",
+                      "text": "Steps * In Google Analytics, click Reports. ... * In the left navigation, click Library on the bottom left. ... * In the 'Reports'"
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Key Google Analytics Reporting Features",
+                  "text": "Realtime Report: Monitor site activity as it happens. Acquisition Reports: Understand how users find your site (e.g., organic, paid, social). Engagement Reports: Analyze user interaction with content via events and page views. Monetization Reports: Track e-commerce purchases, in-app purchases, and ad revenue. Custom Reports (Library): Create, save, and customize reports in the library section to tailor views.",
+                  "markdown": "- **Realtime Report:** Monitor site activity as it happens.\n- **Acquisition Reports:** Understand how users find your site (e.g., organic, paid, social).\n- **Engagement Reports:** Analyze user interaction with content via events and page views.\n- **Monetization Reports:** Track e-commerce purchases, in-app purchases, and ad revenue.\n- **Custom Reports (Library):** Create, save, and customize reports in the library section to tailor views.[](https://support.google.com/analytics/answer/9212670?hl=en) [[1]](https://support.google.com/analytics/answer/9212670?hl=en)[[2]](https://www.youtube.com/watch?v=tFGdHCUST6g)[[3]](https://online-metrics.com/search-console-reports/)[[4]](https://www.topnotchdezigns.com/google-analytics-for-beginners-a-guide/)[[5]](https://portermetrics.com/en/templates/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Google Help",
+                      "domain": "support.google.com",
+                      "url": "https://support.google.com/analytics/answer/9212670?hl=en",
+                      "title": "Overview of Google Analytics reports",
+                      "text": "Google Analytics collects data from your websites and apps to create reports that provide insights into your business. You can use..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=tFGdHCUST6g",
+                      "title": "Reports and UI Tour in Google Analytics: How to use reports to ...",
+                      "text": "The reports section of Google Analytics contains a secondary navigation with all available reports. This section helps users find ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Online Metrics",
+                      "domain": "online-metrics.com",
+                      "url": "https://online-metrics.com/search-console-reports/",
+                      "title": "How to Use Search Console Reports in Google Analytics",
+                      "text": "Search Console Reports It's time to look at the report section once you've got the setup right and collected a sufficient amount o..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Top Notch Dezigns",
+                      "domain": "www.topnotchdezigns.com",
+                      "url": "https://www.topnotchdezigns.com/google-analytics-for-beginners-a-guide/",
+                      "title": "A Google Analytics Guide for Beginners",
+                      "text": "Acquisition Report The acquisition report sheds light on the source of the traffic your website receives. Here, you get to view me..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "portermetrics.com",
+                      "domain": "portermetrics.com",
+                      "url": "https://portermetrics.com/en/templates/",
+                      "title": "Free Google Data Studio (Data Studio) report templates (2026)",
+                      "text": "Google Analytics 4 acquisition Report template for Google Data Studio by Porter Analyze traffic sources: organic, paid, social, re..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "While GA4 is powerful, users often use other tools for easier visualization or to combine data from multiple sources: DashThis",
+                  "markdown": "While GA4 is powerful, users often use other tools for easier visualization or to combine data from multiple sources:[](https://dashthis.com/blog/google-analytics-reports-for-marketers/) [[1]](https://dashthis.com/blog/google-analytics-reports-for-marketers/)[[2]](https://www.clickintelligence.co.uk/guides/seo/web-analytics/ga4-vs-ua-migration-training/)[[3]](https://dashthis.com/google-analytics-reporting-tool/)[[4]](https://marketvantage.com/blog/navigating-and-optimizing-the-ga4-dashboard-2024/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "DashThis",
+                      "domain": "dashthis.com",
+                      "url": "https://dashthis.com/blog/google-analytics-reports-for-marketers/",
+                      "title": "7+ Google Analytics Reports for Marketers - DashThis",
+                      "text": "A Google Analytics Report is a one-stop tool that lets you track and visualize multiple Google Analytics metrics in a single dashb..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Click Intelligence",
+                      "domain": "www.clickintelligence.co.uk",
+                      "url": "https://www.clickintelligence.co.uk/guides/seo/web-analytics/ga4-vs-ua-migration-training/",
+                      "title": "What Is Google Analytics 4 (GA4) & Everything You Need To Know",
+                      "text": "It's going to be around for a long time \u2013 and the quicker you adapt to it, the better. It is an incredibly powerful tool, one that..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "DashThis",
+                      "domain": "dashthis.com",
+                      "url": "https://dashthis.com/google-analytics-reporting-tool/",
+                      "title": "The Perfect Google Analytics Reporting Tool - DashThis",
+                      "text": "Completely automated An easy automated reporting process is exactly what our analytics reporting tool has to offer. Our Google Ana..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Market Vantage",
+                      "domain": "marketvantage.com",
+                      "url": "https://marketvantage.com/blog/navigating-and-optimizing-the-ga4-dashboard-2024/",
+                      "title": "Navigating and Optimizing the GA4 Dashboard: Best Practices for 2024",
+                      "text": "GA4 is designed to integrate seamlessly with a variety of other tools and platforms, allowing you to enhance your data analysis ca..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Looker Studio (formerly Data Studio): Free tool by Google for creating customized, interactive dashboards and reports. Databox : A tool that helps build dashboards to track key metrics and ROI. DashThis : An automated reporting tool that aggregates data into easy-to-read reports. Supermetrics : A tool often used for data integration across various platforms.",
+                  "markdown": "- **[Looker Studio](https://lookerstudio.google.com/) (formerly Data Studio):** Free tool by Google for creating customized, interactive dashboards and reports.\n- **[Databox](https://databox.com/):** A tool that helps build dashboards to track key metrics and ROI.\n- **[DashThis](https://dashthis.com/):** An automated reporting tool that aggregates data into easy-to-read reports.\n- **[Supermetrics](https://supermetrics.com/):** A tool often used for data integration across various platforms.[](https://www.reddit.com/r/GoogleAnalytics/comments/1gjr2q0/best_userfriendly_tools_for_understanding_google/) [[1]](https://www.reddit.com/r/GoogleAnalytics/comments/1gjr2q0/best_userfriendly_tools_for_understanding_google/)[[2]](https://stackby.com/blog/8-free-paid-google-analytics-reporting-tools-including-ga4/)[[3]](https://databox.com/report-software/google-analytics)[[4]](https://dashthis.com/blog/google-analytics-reports-for-marketers/)[[5]](https://www.reportingninja.com/blog/best-google-ads-reporting-tools)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Looker Studio",
+                      "description": null,
+                      "url": "https://lookerstudio.google.com/",
+                      "domain": "lookerstudio.google.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Databox",
+                      "description": null,
+                      "url": "https://databox.com/",
+                      "domain": "databox.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "DashThis",
+                      "description": null,
+                      "url": "https://dashthis.com/",
+                      "domain": "dashthis.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Supermetrics",
+                      "description": null,
+                      "url": "https://supermetrics.com/",
+                      "domain": "supermetrics.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/GoogleAnalytics/comments/1gjr2q0/best_userfriendly_tools_for_understanding_google/",
+                      "title": "Best user-friendly tools for understanding Google Analytics ...",
+                      "text": "You'll need goals so that you can focus on the few pieces of data that really matter to your bottom line. Once you get all your da..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Stackby",
+                      "domain": "stackby.com",
+                      "url": "https://stackby.com/blog/8-free-paid-google-analytics-reporting-tools-including-ga4/",
+                      "title": "8 Free & Paid Google Analytics Reporting Tools 2026 (including GA4)",
+                      "text": "Google has created a data reporting tool called Google Data Studio that you can use for creating Google Analytics reports. It is a..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Databox",
+                      "domain": "databox.com",
+                      "url": "https://databox.com/report-software/google-analytics",
+                      "title": "Google Analytics Reporting Tool for Modern Marketers - Databox",
+                      "text": "The All-In-One Report Builder for Google Analytics. Databox is a Google Analytics reporting tool that drives real business impact."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "DashThis",
+                      "domain": "dashthis.com",
+                      "url": "https://dashthis.com/blog/google-analytics-reports-for-marketers/",
+                      "title": "7+ Google Analytics Reports for Marketers - DashThis",
+                      "text": "A Google Analytics Report is a one-stop tool that lets you track and visualize multiple Google Analytics metrics in a single dashb..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reporting Ninja",
+                      "domain": "www.reportingninja.com",
+                      "url": "https://www.reportingninja.com/blog/best-google-ads-reporting-tools",
+                      "title": "9 Best Google Ads reporting tools: reviews, pricing & more",
+                      "text": "9. Looker Studio: Best for users who want free, customizable dashboards Looker Studio (formerly Google Data Studio) is a free repo..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "You can create tailored reports, such as overview reports, by selecting up to 16 summary cards in the library. Google Help",
+                  "markdown": "You can create tailored reports, such as overview reports, by selecting up to 16 summary cards in the library.[](https://support.google.com/analytics/answer/13823841?hl=en) [[1]](https://support.google.com/analytics/answer/13823841?hl=en)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Google Help",
+                      "domain": "support.google.com",
+                      "url": "https://support.google.com/analytics/answer/13823841?hl=en",
+                      "title": "[GA4] Create an overview report - Analytics Help",
+                      "text": "Steps * In Google Analytics, click Reports. ... * In the left navigation, click Library on the bottom left. ... * In the 'Reports'"
+                    }
+                  ]
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Google Help",
+                  "domain": "support.google.com",
+                  "url": "https://support.google.com/analytics/answer/9212670?hl=en",
+                  "title": "Overview of Google Analytics reports",
+                  "text": "Google Analytics collects data from your websites and apps to create reports that provide insights into your business. You can use..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Google",
+                  "domain": "marketingplatform.google.com",
+                  "url": "https://marketingplatform.google.com/about/analytics/",
+                  "title": "Analytics Tools & Solutions for Your Business - Google Analytics",
+                  "text": "Dive into the details. Get a reliable measurement foundation with built-in automation, intuitive and flexible reporting, cross-pla..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Reddit",
+                  "domain": "www.reddit.com",
+                  "url": "https://www.reddit.com/r/GoogleAnalytics/comments/1gjr2q0/best_userfriendly_tools_for_understanding_google/",
+                  "title": "Best user-friendly tools for understanding Google Analytics ...",
+                  "text": "You'll need goals so that you can focus on the few pieces of data that really matter to your bottom line. Once you get all your da..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "DashThis",
+                  "domain": "dashthis.com",
+                  "url": "https://dashthis.com/blog/google-analytics-reports-for-marketers/",
+                  "title": "7+ Google Analytics Reports for Marketers - DashThis",
+                  "text": "A Google Analytics Report is a one-stop tool that lets you track and visualize multiple Google Analytics metrics in a single dashb..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=tFGdHCUST6g",
+                  "title": "Reports and UI Tour in Google Analytics: How to use reports to ...",
+                  "text": "The reports section of Google Analytics contains a secondary navigation with all available reports. This section helps users find ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Databox",
+                  "domain": "databox.com",
+                  "url": "https://databox.com/report-software/google-analytics",
+                  "title": "Google Analytics Reporting Tool for Modern Marketers - Databox",
+                  "text": "The All-In-One Report Builder for Google Analytics. Databox is a Google Analytics reporting tool that drives real business impact."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Google",
+                  "domain": "tagmanager.google.com",
+                  "url": "https://tagmanager.google.com/",
+                  "title": "Google Analytics",
+                  "text": "Sign in. to continue to Google Analytics. Email or phone. Forgot email? Type the text you hear or see. Not your computer? Use Gues..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Google Help",
+                  "domain": "support.google.com",
+                  "url": "https://support.google.com/analytics/answer/13823841?hl=en",
+                  "title": "[GA4] Create an overview report - Analytics Help",
+                  "text": "Steps * In Google Analytics, click Reports. ... * In the left navigation, click Library on the bottom left. ... * In the 'Reports'"
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Stackby",
+                  "domain": "stackby.com",
+                  "url": "https://stackby.com/blog/8-free-paid-google-analytics-reporting-tools-including-ga4/",
+                  "title": "8 Free & Paid Google Analytics Reporting Tools 2026 (including GA4)",
+                  "text": "Google has created a data reporting tool called Google Data Studio that you can use for creating Google Analytics reports. It is a..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+              "domain": "marketingplatform.google.com",
+              "title": "Analytics Tools & Solutions for Your Business",
+              "url": "https://marketingplatform.google.com/about/analytics/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://marketingplatform.google.com \u203a about \u203a analytics",
+              "website_name": "Google",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Google Analytics gives you the tools, free of charge, to understand the customer journey and improve marketing ROI. Get started today. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Analytics"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]",
+              "domain": "support.google.com",
+              "title": "Overview of Google Analytics reports",
+              "url": "https://support.google.com/analytics/answer/9212670?hl=en",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://support.google.com \u203a analytics \u203a answer",
+              "website_name": "Google Help",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Google Analytics collects data from your websites and apps to create reports that provide insights into your business. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Analytics"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]",
+              "domain": "developers.google.com",
+              "title": "Google Analytics",
+              "url": "https://developers.google.com/analytics",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://developers.google.com \u203a analytics",
+              "website_name": "Google for Developers",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Google Analytics is the go-to platform for millions of website and app owners seeking to gain a deeper understanding of their website and app performance. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Analytics"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[7]/div[1]/div[1]",
+              "domain": "datastudio.google.com",
+              "title": "Data Studio Overview - Google",
+              "url": "https://datastudio.google.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://datastudio.google.com",
+              "website_name": "Google",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Turn your data into compelling stories of data visualization art. Quickly build interactive reports and dashboards with Data Studio's web based reporting tools. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Quickly build interactive reports and dashboards"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Gallery",
+                  "description": null,
+                  "url": "https://datastudio.google.com/gallery",
+                  "domain": "datastudio.google.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Connect to",
+                  "description": null,
+                  "url": "https://datastudio.google.com/data",
+                  "domain": "datastudio.google.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Visualizations",
+                  "description": null,
+                  "url": "https://datastudio.google.com/visualization",
+                  "domain": "datastudio.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[9]/div[1]/div[1]",
+              "domain": "tagmanager.google.com",
+              "title": "Google Analytics",
+              "url": "https://tagmanager.google.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://tagmanager.google.com",
+              "website_name": "Google",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Google Analytics lets you measure your advertising ROI as well as track your Flash, video, and social networking sites and applications.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Analytics"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[11]/div[1]/div[1]",
+              "domain": "whatagraph.com",
+              "title": "Free Google Analytics 4 Report Generator Tool",
+              "url": "https://whatagraph.com/google-analytics-4-reporting-tool",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://whatagraph.com \u203a google-analytics-4-reporting-t...",
+              "website_name": "Whatagraph",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Use our Google Analytics (GA4) reporting tool to build engaging reports in minutes and send your clients the latest insights into their website performance.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Analytics (GA4) reporting tool"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[13]/div[1]/div[1]",
+              "domain": "dashthis.com",
+              "title": "7+ Google Analytics Reports for Marketers",
+              "url": "https://dashthis.com/blog/google-analytics-reports-for-marketers/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://dashthis.com \u203a blog \u203a google-analytics-reports-f...",
+              "website_name": "DashThis",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "A Google Analytics report is a one-stop tool that lets you track and visualize multiple Google Analytics metrics in a single dashboard. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 83,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "track and visualize multiple Google Analytics metrics"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[15]/div[1]/div[1]",
+              "domain": "www.metricswatch.com",
+              "title": "The 12 Best Google Analytics Reporting Tools (Stop ...",
+              "url": "https://www.metricswatch.com/blog/google-analytics-reporting-tools",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.metricswatch.com \u203a blog \u203a google-analytic...",
+              "website_name": "Metrics Watch",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Feb 20, 2026 \u2014 The 12 Best Google Analytics Reporting Tools (Stop Wasting Time!) \u00b7 1. MetricsWatch \u00b7 2. Google Looker Studio \u00b7 3. Supermetrics \u00b7 4. Databox \u00b7 5\u00a0... Read more",
+              "pre_snippet": "02/20/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "1. MetricsWatch"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-02-20 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[17]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Loves Data",
+                  "title": "Explore Standard Reports in Google Analytics 4 (GA4 Tutorial ...",
+                  "timestamp": "2025-10-28 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=a7Z7VW9abVg"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Loves Data",
+                  "title": "Get Started with GA4 Reports \u2013 Google Analytics 4 Tutorial for ...",
+                  "timestamp": "2025-07-14 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=XEwUtEe_ogY"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Google Analytics",
+                  "title": "Reports and UI Tour in Google Analytics: How to use reports ...",
+                  "timestamp": "2024-01-22 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=tFGdHCUST6g"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "discussions_and_forums",
+              "rank_group": 1,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[19]/div[1]",
+              "title": "Discussions and forums",
+              "items": [
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "Best user-friendly tools for understanding Google Analytics data for e-commerce?",
+                  "url": "https://www.reddit.com/r/GoogleAnalytics/comments/1gjr2q0/best_userfriendly_tools_for_understanding_google/",
+                  "domain": "www.reddit.com",
+                  "source": "Reddit",
+                  "description": null,
+                  "timestamp": "2025-05-12 06:25:24 +00:00",
+                  "posts_count": 20
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "Google Analytics Reports & Dashboards",
+                  "url": "https://www.reddit.com/r/digital_marketing/comments/1jf30a2/google_analytics_reports_dashboards/",
+                  "domain": "www.reddit.com",
+                  "source": "Reddit",
+                  "description": null,
+                  "timestamp": "2025-05-12 06:25:24 +00:00",
+                  "posts_count": 7
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "What is Google Analytics, and how is it useful?",
+                  "url": "https://www.quora.com/What-is-Google-Analytics-and-how-is-it-useful",
+                  "domain": "www.quora.com",
+                  "source": "Quora",
+                  "description": null,
+                  "timestamp": "2025-07-12 06:25:24 +00:00",
+                  "posts_count": 1
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Google analytics reporting tool free",
+                "Google Analytics login",
+                "Google Tag Manager",
+                "Google Analytics 4",
+                "Google Analytics tools",
+                "Google Analytics dashboard",
+                "Google Analytics 360",
+                "Google Analytics 4 login"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

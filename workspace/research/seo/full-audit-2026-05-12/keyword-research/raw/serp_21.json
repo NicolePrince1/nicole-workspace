@@ -1,0 +1,1027 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.3540 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120925-3675-0139-0000-96d7a35e75a2",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.2669 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "marketing reporting dashboard",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "os": "windows",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "marketing reporting dashboard",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=marketing%20reporting%20dashboard&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-05-12 06:25:50 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "video",
+            "people_also_search",
+            "related_searches"
+          ],
+          "se_results_count": 268000000,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": "![Marketing Dashboards: The #1 Guide with 25+ Examples for 2026](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-96d7a35e75a2:4)\nMarketing reporting dashboards are `visual, interactive tools that centralize data from multiple channels (e.g., Google Ads, Meta, SEO) to monitor, analyze, and report on key performance indicators (KPIs) in real time` . They enable, for example, marketers to instantly track ROI, monitor budget allocation, and evaluate campaign effectiveness. Key types include CMO, SEO, and channel-specific dashboards.[](https://www.coupler.io/dashboard-examples/marketing-dashboard#:~:text=What%20is%20a%20marketing%20dashboard,your%20data%20visualized%20in%20minutes.) [[1]](https://www.coupler.io/dashboard-examples/marketing-dashboard)[[2]](https://www.qlik.com/us/dashboard-examples/marketing-dashboards)[[3]](https://monday.com/blog/marketing/marketing-dashboard/)[[4]](https://www.wrike.com/marketing-guide/marketing-dashboard/)\n\n**Key Marketing Dashboard Types and Metrics** \n\n- **CMO Dashboard:** Focuses on high-level ROI, Customer Acquisition Cost (CAC), Customer Lifetime Value (LTV), and brand awareness.\n- **Performance/Campaign Dashboard:** Tracks daily ad spend, conversion rates (CVR), revenue, and channel-specific performance (Google/Meta Ads).\n- **SEO/Content Dashboard:** Monitors organic traffic, keyword rankings, and backlink data.\n- **Social Media Dashboard:** Displays engagement metrics (likes, shares, comments), video views, and follower growth.[](https://www.geckoboard.com/dashboard-examples/marketing/#:~:text=CMO%20dashboards,of%20their%20current%20marketing%20investment.) [[1]](https://www.geckoboard.com/dashboard-examples/marketing/)[[2]](https://funnel.io/blog/marketing-dashboard-guide)[[3]](https://www.wrike.com/marketing-guide/marketing-dashboard/)[[4]](https://www.youtube.com/watch?v=gwJ7pDiD4mU)\n\n**Commonly Tracked KPIs** [[1]](https://www.adriel.com/blog/digital-marketing-reporting-dashboard)\n\n- **Revenue & ROI:** Total revenue generated, ROAS (Return on Ad Spend).\n- **Customer Metrics:** CAC, LTV, conversion rate.\n- **Web Traffic:** Page views, unique visitors, bounce rate.\n- **Engagement:** CTR (Click-Through Rate), shares, impressions.[](https://www.geckoboard.com/dashboard-examples/marketing/#:~:text=CMO%20dashboards,of%20their%20current%20marketing%20investment.) [[1]](https://www.geckoboard.com/dashboard-examples/marketing/)[[2]](https://mailchimp.com/resources/marketing-dashboard/)[[3]](https://monday.com/blog/marketing/marketing-dashboard/)[[4]](https://www.adriel.com/blog/digital-marketing-reporting-dashboard)[[5]](https://improvado.io/dashboards/product-marketing-performance-dashboard)\n\n**Tools to Create Marketing Dashboards**   \nMany platforms provide automated, pre-built templates to avoid manual spreadsheet work:[[1]](https://www.youtube.com/watch?v=gwJ7pDiD4mU)[[2]](https://www.wrike.com/marketing-guide/marketing-dashboard/)\n\n- **Looker Studio:** Popular for Google ecosystem data integration.\n- **[Coupler.io](https://www.coupler.io/dashboard-examples/marketing-dashboard):** Connects various data sources in minutes.\n- **[DashThis](https://dashthis.com/):** Automates reporting for agencies and marketing teams.\n- **[Geckoboard](https://www.geckoboard.com/dashboard-examples/marketing/):** Specialized for high-level CMO insights.[](https://www.geckoboard.com/dashboard-examples/marketing/#:~:text=CMO%20dashboards,of%20their%20current%20marketing%20investment.) [[1]](https://www.geckoboard.com/dashboard-examples/marketing/)[[2]](https://www.youtube.com/watch?v=8532IMlidOo&t=219)[[3]](https://www.coupler.io/dashboard-examples/marketing-dashboard)[[4]](https://dashthis.com/)[[5]](https://www.swydo.com/blog/best-facebook-reporting-tools/)\n\n**Best Practices for Design** \n\n- **Keep it Simple:** Ensure crucial information is accessible within 5 seconds.\n- **Limit Visuals:** Aim for 7-9 visualizations maximum per dashboard to avoid clutter.\n- **Actionable Data:** Only include metrics that directly impact decision-making.\n- **Organize Contextually:** Structure from top to bottom, with the most critical data first.[](https://www.zoho.com/analytics/marketing-dashboard.html#:~:text=Designing%20a%20marketing%20dashboard,visualizations%20in%20a%20single%20dashboard.) [[1]](https://www.zoho.com/analytics/marketing-dashboard.html)[[2]](https://mailchimp.com/resources/marketing-dashboard/)[[3]](https://supermetrics.com/blog/marketing-reporting)\n\n**Key Benefits** \n\n- **Real-time Insights:** Enables quick adjustments to, for example, ad spending to improve efficiency.\n- **Time Saving:** Automates data collection from multiple sources in under 4 minutes, for instance.\n- **Performance Tracking:** Offers a visual comparison of current marketing performance against targets.[](https://www.youtube.com/watch?v=gwJ7pDiD4mU) [[1]](https://www.youtube.com/watch?v=gwJ7pDiD4mU)[[2]](https://www.coupler.io/dashboard-examples/marketing-dashboard)[[3]](https://www.gooddata.com/blog/essential-dashboards-for-your-marketing-team/)[[4]](https://www.dataslayer.ai/blog/marketing-data-integration-complete-guide)[[5]](https://lumenore.com/blog/how-to-automate-monthly-reporting-with-no-code-dashboards/)",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Marketing reporting dashboards are visual, interactive tools that centralize data from multiple channels (e.g., Google Ads, Meta, SEO) to monitor, analyze, and report on key performance indicators (KPIs) in real time. They enable, for example, marketers to instantly track ROI, monitor budget allocation, and evaluate campaign effectiveness. Key types include CMO, SEO, and channel-specific dashboards. Coupler.io +3",
+                  "markdown": "![Marketing Dashboards: The #1 Guide with 25+ Examples for 2026](https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-96d7a35e75a2:2)\nMarketing reporting dashboards are `visual, interactive tools that centralize data from multiple channels (e.g., Google Ads, Meta, SEO) to monitor, analyze, and report on key performance indicators (KPIs) in real time` . They enable, for example, marketers to instantly track ROI, monitor budget allocation, and evaluate campaign effectiveness. Key types include CMO, SEO, and channel-specific dashboards.[](https://www.coupler.io/dashboard-examples/marketing-dashboard#:~:text=What%20is%20a%20marketing%20dashboard,your%20data%20visualized%20in%20minutes.) [[1]](https://www.coupler.io/dashboard-examples/marketing-dashboard)[[2]](https://www.qlik.com/us/dashboard-examples/marketing-dashboards)[[3]](https://monday.com/blog/marketing/marketing-dashboard/)[[4]](https://www.wrike.com/marketing-guide/marketing-dashboard/)",
+                  "links": null,
+                  "images": [
+                    {
+                      "type": "images_element",
+                      "alt": "Marketing Dashboards: The #1 Guide with 25+ Examples for 2026",
+                      "url": null,
+                      "image_url": "https://api.dataforseo.com/cdn/i/05120925-3675-0139-0000-96d7a35e75a2:3"
+                    }
+                  ],
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Coupler.io",
+                      "domain": "www.coupler.io",
+                      "url": "https://www.coupler.io/dashboard-examples/marketing-dashboard",
+                      "title": "Marketing Dashboard Examples and Reporting Templates - Coupler.io",
+                      "text": "What is a marketing dashboard? A marketing dashboard is a reporting solution that consolidates marketing data into a visual, inter..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Qlik",
+                      "domain": "www.qlik.com",
+                      "url": "https://www.qlik.com/us/dashboard-examples/marketing-dashboards",
+                      "title": "12 Marketing Dashboard Examples For Ads, Social, Web & More",
+                      "text": "A marketing dashboard is a business intelligence tool that helps marketing teams track, analyze, and report on marketing KPIs. Mod..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Monday.com",
+                      "domain": "monday.com",
+                      "url": "https://monday.com/blog/marketing/marketing-dashboard/",
+                      "title": "Marketing dashboard: how to build and scale reporting in 2026",
+                      "text": "Marketing performance dashboard. This comprehensive dashboard acts as a central command center for marketing directors and manager..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Wrike",
+                      "domain": "www.wrike.com",
+                      "url": "https://www.wrike.com/marketing-guide/marketing-dashboard/",
+                      "title": "What Is a Marketing Dashboard? Guide and Examples - Wrike",
+                      "text": "Campaign management dashboard: Marketing campaign dashboards will track metrics related to a particular marketing campaign. For in..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Key Marketing Dashboard Types and Metrics",
+                  "text": "CMO Dashboard : Focuses on high-level ROI, Customer Acquisition Cost (CAC), Customer Lifetime Value (LTV), and brand awareness. Performance/Campaign Dashboard : Tracks daily ad spend, conversion rates (CVR), revenue, and channel-specific performance (Google/Meta Ads). SEO/Content Dashboard : Monitors organic traffic, keyword rankings, and backlink data. Social Media Dashboard : Displays engagement metrics (likes, shares, comments), video views, and follower growth.",
+                  "markdown": "- **CMO Dashboard:** Focuses on high-level ROI, Customer Acquisition Cost (CAC), Customer Lifetime Value (LTV), and brand awareness.\n- **Performance/Campaign Dashboard:** Tracks daily ad spend, conversion rates (CVR), revenue, and channel-specific performance (Google/Meta Ads).\n- **SEO/Content Dashboard:** Monitors organic traffic, keyword rankings, and backlink data.\n- **Social Media Dashboard:** Displays engagement metrics (likes, shares, comments), video views, and follower growth.[](https://www.geckoboard.com/dashboard-examples/marketing/#:~:text=CMO%20dashboards,of%20their%20current%20marketing%20investment.) [[1]](https://www.geckoboard.com/dashboard-examples/marketing/)[[2]](https://funnel.io/blog/marketing-dashboard-guide)[[3]](https://www.wrike.com/marketing-guide/marketing-dashboard/)[[4]](https://www.youtube.com/watch?v=gwJ7pDiD4mU)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Geckoboard",
+                      "domain": "www.geckoboard.com",
+                      "url": "https://www.geckoboard.com/dashboard-examples/marketing/",
+                      "title": "Marketing dashboard examples - Geckoboard",
+                      "text": "CMO dashboards. Chief Marketing Officers (CMOs) use CMO dashboards to maintain a high-level overview of their company's marketing ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Funnel",
+                      "domain": "funnel.io",
+                      "url": "https://funnel.io/blog/marketing-dashboard-guide",
+                      "title": "A comprehensive guide to marketing dashboards - Funnel.io",
+                      "text": "A retail company running a Black Friday campaign might need a dashboard focused on performance across marketing channels during th..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Wrike",
+                      "domain": "www.wrike.com",
+                      "url": "https://www.wrike.com/marketing-guide/marketing-dashboard/",
+                      "title": "What Is a Marketing Dashboard? Guide and Examples - Wrike",
+                      "text": "Campaign management dashboard: Marketing campaign dashboards will track metrics related to a particular marketing campaign. For in..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=gwJ7pDiD4mU",
+                      "title": "How to Create a Digital Marketing Dashboard in MINUTES | Step by ...",
+                      "text": "The process involves using a free tool that allows the creation of unlimited dashboards for marketing data without coding or sprea..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Commonly Tracked KPIs",
+                  "text": "Revenue & ROI: Total revenue generated, ROAS (Return on Ad Spend). Customer Metrics: CAC, LTV, conversion rate. Web Traffic: Page views, unique visitors, bounce rate. Engagement: CTR (Click-Through Rate), shares, impressions.",
+                  "markdown": "- **Revenue & ROI:** Total revenue generated, ROAS (Return on Ad Spend).\n- **Customer Metrics:** CAC, LTV, conversion rate.\n- **Web Traffic:** Page views, unique visitors, bounce rate.\n- **Engagement:** CTR (Click-Through Rate), shares, impressions.[](https://www.geckoboard.com/dashboard-examples/marketing/#:~:text=CMO%20dashboards,of%20their%20current%20marketing%20investment.) [[1]](https://www.geckoboard.com/dashboard-examples/marketing/)[[2]](https://mailchimp.com/resources/marketing-dashboard/)[[3]](https://monday.com/blog/marketing/marketing-dashboard/)[[4]](https://www.adriel.com/blog/digital-marketing-reporting-dashboard)[[5]](https://improvado.io/dashboards/product-marketing-performance-dashboard)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Adriel AI",
+                      "domain": "www.adriel.com",
+                      "url": "https://www.adriel.com/blog/digital-marketing-reporting-dashboard",
+                      "title": "Digital Marketing Reporting Dashboard: 27 Templates, Examples, ...",
+                      "text": "\u200dWhat should be in a digital marketing dashboard (KPIs)? Online marketing dashboards visualize key performance indicators (KPIs) f..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Geckoboard",
+                      "domain": "www.geckoboard.com",
+                      "url": "https://www.geckoboard.com/dashboard-examples/marketing/",
+                      "title": "Marketing dashboard examples - Geckoboard",
+                      "text": "CMO dashboards. Chief Marketing Officers (CMOs) use CMO dashboards to maintain a high-level overview of their company's marketing ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Mailchimp",
+                      "domain": "mailchimp.com",
+                      "url": "https://mailchimp.com/resources/marketing-dashboard/",
+                      "title": "How to Create an Effective Marketing Dashboard - Mailchimp",
+                      "text": "Key performance indicators Your dashboard's foundation rests on carefully selected KPIs that align with your business objectives. ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Monday.com",
+                      "domain": "monday.com",
+                      "url": "https://monday.com/blog/marketing/marketing-dashboard/",
+                      "title": "Marketing dashboard: how to build and scale reporting in 2026",
+                      "text": "Marketing performance dashboard. This comprehensive dashboard acts as a central command center for marketing directors and manager..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Improvado",
+                      "domain": "improvado.io",
+                      "url": "https://improvado.io/dashboards/product-marketing-performance-dashboard",
+                      "title": "The only Product Marketing Performance Dashboard you need",
+                      "text": "Key product marketing performance metrics to track LTV -the lifetime value of your customer."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Tools to Create Marketing Dashboards\nMany platforms provide automated, pre-built templates to avoid manual spreadsheet work:",
+                  "markdown": "**Tools to Create Marketing Dashboards**   \nMany platforms provide automated, pre-built templates to avoid manual spreadsheet work:[[1]](https://www.youtube.com/watch?v=gwJ7pDiD4mU)[[2]](https://www.wrike.com/marketing-guide/marketing-dashboard/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=gwJ7pDiD4mU",
+                      "title": "How to Create a Digital Marketing Dashboard in MINUTES | Step by ...",
+                      "text": "The process involves using a free tool that allows the creation of unlimited dashboards for marketing data without coding or sprea..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Wrike",
+                      "domain": "www.wrike.com",
+                      "url": "https://www.wrike.com/marketing-guide/marketing-dashboard/",
+                      "title": "What Is a Marketing Dashboard? Guide and Examples - Wrike",
+                      "text": "Campaign management dashboard: Marketing campaign dashboards will track metrics related to a particular marketing campaign. For in..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Looker Studio : Popular for Google ecosystem data integration. Looker Studio Coupler.io : Connects various data sources in minutes. DashThis : Automates reporting for agencies and marketing teams. Geckoboard : Specialized for high-level CMO insights.",
+                  "markdown": "- **Looker Studio:** Popular for Google ecosystem data integration.\n- **[Coupler.io](https://www.coupler.io/dashboard-examples/marketing-dashboard):** Connects various data sources in minutes.\n- **[DashThis](https://dashthis.com/):** Automates reporting for agencies and marketing teams.\n- **[Geckoboard](https://www.geckoboard.com/dashboard-examples/marketing/):** Specialized for high-level CMO insights.[](https://www.geckoboard.com/dashboard-examples/marketing/#:~:text=CMO%20dashboards,of%20their%20current%20marketing%20investment.) [[1]](https://www.geckoboard.com/dashboard-examples/marketing/)[[2]](https://www.youtube.com/watch?v=8532IMlidOo&t=219)[[3]](https://www.coupler.io/dashboard-examples/marketing-dashboard)[[4]](https://dashthis.com/)[[5]](https://www.swydo.com/blog/best-facebook-reporting-tools/)",
+                  "links": [
+                    {
+                      "type": "link_element",
+                      "title": "Coupler.io",
+                      "description": null,
+                      "url": "https://www.coupler.io/dashboard-examples/marketing-dashboard",
+                      "domain": "www.coupler.io"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "DashThis",
+                      "description": null,
+                      "url": "https://dashthis.com/",
+                      "domain": "dashthis.com"
+                    },
+                    {
+                      "type": "link_element",
+                      "title": "Geckoboard",
+                      "description": null,
+                      "url": "https://www.geckoboard.com/dashboard-examples/marketing/",
+                      "domain": "www.geckoboard.com"
+                    }
+                  ],
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Geckoboard",
+                      "domain": "www.geckoboard.com",
+                      "url": "https://www.geckoboard.com/dashboard-examples/marketing/",
+                      "title": "Marketing dashboard examples - Geckoboard",
+                      "text": "CMO dashboards. Chief Marketing Officers (CMOs) use CMO dashboards to maintain a high-level overview of their company's marketing ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=8532IMlidOo&t=219",
+                      "title": "Best Looker Studio Dashboards for Marketing Analysis and Reporting ...",
+                      "text": "follow the instructions in the readme section to fill this template with your data brand awareness is one of those crucial marketi..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Coupler.io",
+                      "domain": "www.coupler.io",
+                      "url": "https://www.coupler.io/dashboard-examples/marketing-dashboard",
+                      "title": "Marketing Dashboard Examples and Reporting Templates - Coupler.io",
+                      "text": "What is a marketing dashboard? A marketing dashboard is a reporting solution that consolidates marketing data into a visual, inter..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "DashThis",
+                      "domain": "dashthis.com",
+                      "url": "https://dashthis.com/",
+                      "title": "Marketing Reporting Software: Automated Dashboards for Agencies",
+                      "text": "Marketing dashboard software that connects all your tools. DashThis is a marketing dashboard software that connects your most impo..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Swydo",
+                      "domain": "www.swydo.com",
+                      "url": "https://www.swydo.com/blog/best-facebook-reporting-tools/",
+                      "title": "10 Best Facebook Reporting Tools for Marketing Agencies in 2026",
+                      "text": "Google Ecosystem Integration: Looker Studio naturally excels at integrating with other Google products like Analytics, Ads, Search..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Best Practices for Design",
+                  "text": "Keep it Simple: Ensure crucial information is accessible within 5 seconds. Limit Visuals: Aim for 7-9 visualizations maximum per dashboard to avoid clutter. Actionable Data: Only include metrics that directly impact decision-making. Organize Contextually: Structure from top to bottom, with the most critical data first.",
+                  "markdown": "- **Keep it Simple:** Ensure crucial information is accessible within 5 seconds.\n- **Limit Visuals:** Aim for 7-9 visualizations maximum per dashboard to avoid clutter.\n- **Actionable Data:** Only include metrics that directly impact decision-making.\n- **Organize Contextually:** Structure from top to bottom, with the most critical data first.[](https://www.zoho.com/analytics/marketing-dashboard.html#:~:text=Designing%20a%20marketing%20dashboard,visualizations%20in%20a%20single%20dashboard.) [[1]](https://www.zoho.com/analytics/marketing-dashboard.html)[[2]](https://mailchimp.com/resources/marketing-dashboard/)[[3]](https://supermetrics.com/blog/marketing-reporting)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Zoho",
+                      "domain": "www.zoho.com",
+                      "url": "https://www.zoho.com/analytics/marketing-dashboard.html",
+                      "title": "What is Marketing Dashboard? Guide with Examples - Zoho Analytics",
+                      "text": "Designing a marketing dashboard The most effective marketing dashboards are typically simple and straightforward. A key guideline ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Mailchimp",
+                      "domain": "mailchimp.com",
+                      "url": "https://mailchimp.com/resources/marketing-dashboard/",
+                      "title": "How to Create an Effective Marketing Dashboard - Mailchimp",
+                      "text": "Key performance indicators Your dashboard's foundation rests on carefully selected KPIs that align with your business objectives. ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Supermetrics",
+                      "domain": "supermetrics.com",
+                      "url": "https://supermetrics.com/blog/marketing-reporting",
+                      "title": "Marketing Reporting: The Ultimate Guide for Digital ... - Supermetrics",
+                      "text": "Marketing reports can be presented as a dashboard you check daily, a presentation during your weekly Marketing team meeting, or a ..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Key Benefits",
+                  "text": "Real-time Insights: Enables quick adjustments to, for example, ad spending to improve efficiency. Time Saving: Automates data collection from multiple sources in under 4 minutes, for instance. Performance Tracking: Offers a visual comparison of current marketing performance against targets.",
+                  "markdown": "- **Real-time Insights:** Enables quick adjustments to, for example, ad spending to improve efficiency.\n- **Time Saving:** Automates data collection from multiple sources in under 4 minutes, for instance.\n- **Performance Tracking:** Offers a visual comparison of current marketing performance against targets.[](https://www.youtube.com/watch?v=gwJ7pDiD4mU) [[1]](https://www.youtube.com/watch?v=gwJ7pDiD4mU)[[2]](https://www.coupler.io/dashboard-examples/marketing-dashboard)[[3]](https://www.gooddata.com/blog/essential-dashboards-for-your-marketing-team/)[[4]](https://www.dataslayer.ai/blog/marketing-data-integration-complete-guide)[[5]](https://lumenore.com/blog/how-to-automate-monthly-reporting-with-no-code-dashboards/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "YouTube",
+                      "domain": "www.youtube.com",
+                      "url": "https://www.youtube.com/watch?v=gwJ7pDiD4mU",
+                      "title": "How to Create a Digital Marketing Dashboard in MINUTES | Step by ...",
+                      "text": "The process involves using a free tool that allows the creation of unlimited dashboards for marketing data without coding or sprea..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Coupler.io",
+                      "domain": "www.coupler.io",
+                      "url": "https://www.coupler.io/dashboard-examples/marketing-dashboard",
+                      "title": "Marketing Dashboard Examples and Reporting Templates - Coupler.io",
+                      "text": "What is a marketing dashboard? A marketing dashboard is a reporting solution that consolidates marketing data into a visual, inter..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "GoodData",
+                      "domain": "www.gooddata.com",
+                      "url": "https://www.gooddata.com/blog/essential-dashboards-for-your-marketing-team/",
+                      "title": "10 Essential Dashboards for Your Marketing Team - GoodData",
+                      "text": "General Reporting Overview Dashboard This all-in-one dashboard delivers the big-picture view by bringing your entire marketing eco..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Dataslayer",
+                      "domain": "www.dataslayer.ai",
+                      "url": "https://www.dataslayer.ai/blog/marketing-data-integration-complete-guide",
+                      "title": "Marketing Data Integration: Complete Guide to Unified Analytics in 2025",
+                      "text": "Measure Value Created Time saved: Integration dramatically reduces time spent on manual reporting. Faster optimization: With real-"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Lumenore",
+                      "domain": "lumenore.com",
+                      "url": "https://lumenore.com/blog/how-to-automate-monthly-reporting-with-no-code-dashboards/",
+                      "title": "Automate Monthly Reporting with No-Code Dashboard",
+                      "text": "The near real-time visibility allows businesses to adjust strategies immediately rather than reacting to outdated reports. A marke..."
+                    }
+                  ]
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Geckoboard",
+                  "domain": "www.geckoboard.com",
+                  "url": "https://www.geckoboard.com/dashboard-examples/marketing/",
+                  "title": "Marketing dashboard examples - Geckoboard",
+                  "text": "CMO dashboards. Chief Marketing Officers (CMOs) use CMO dashboards to maintain a high-level overview of their company's marketing ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=gwJ7pDiD4mU",
+                  "title": "How to Create a Digital Marketing Dashboard in MINUTES | Step by ...",
+                  "text": "The process involves using a free tool that allows the creation of unlimited dashboards for marketing data without coding or sprea..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Funnel",
+                  "domain": "funnel.io",
+                  "url": "https://funnel.io/blog/marketing-dashboard-guide",
+                  "title": "A comprehensive guide to marketing dashboards - Funnel.io",
+                  "text": "A retail company running a Black Friday campaign might need a dashboard focused on performance across marketing channels during th..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "YouTube",
+                  "domain": "www.youtube.com",
+                  "url": "https://www.youtube.com/watch?v=8532IMlidOo&t=219",
+                  "title": "Best Looker Studio Dashboards for Marketing Analysis and Reporting ...",
+                  "text": "follow the instructions in the readme section to fill this template with your data brand awareness is one of those crucial marketi..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "DashThis",
+                  "domain": "dashthis.com",
+                  "url": "https://dashthis.com/",
+                  "title": "Marketing Reporting Software: Automated Dashboards for Agencies",
+                  "text": "Marketing dashboard software that connects all your tools. DashThis is a marketing dashboard software that connects your most impo..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Coupler.io",
+                  "domain": "www.coupler.io",
+                  "url": "https://www.coupler.io/dashboard-examples/marketing-dashboard",
+                  "title": "Marketing Dashboard Examples and Reporting Templates - Coupler.io",
+                  "text": "What is a marketing dashboard? A marketing dashboard is a reporting solution that consolidates marketing data into a visual, inter..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Qlik",
+                  "domain": "www.qlik.com",
+                  "url": "https://www.qlik.com/us/dashboard-examples/marketing-dashboards",
+                  "title": "12 Marketing Dashboard Examples For Ads, Social, Web & More",
+                  "text": "A marketing dashboard is a business intelligence tool that helps marketing teams track, analyze, and report on marketing KPIs. Mod..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Adriel AI",
+                  "domain": "www.adriel.com",
+                  "url": "https://www.adriel.com/blog/digital-marketing-reporting-dashboard",
+                  "title": "Digital Marketing Reporting Dashboard: 27 Templates, Examples, ...",
+                  "text": "\u200dWhat should be in a digital marketing dashboard (KPIs)? Online marketing dashboards visualize key performance indicators (KPIs) f..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Monday.com",
+                  "domain": "monday.com",
+                  "url": "https://monday.com/blog/marketing/marketing-dashboard/",
+                  "title": "Marketing dashboard: how to build and scale reporting in 2026",
+                  "text": "Marketing performance dashboard. This comprehensive dashboard acts as a central command center for marketing directors and manager..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Wrike",
+                  "domain": "www.wrike.com",
+                  "url": "https://www.wrike.com/marketing-guide/marketing-dashboard/",
+                  "title": "What Is a Marketing Dashboard? Guide and Examples - Wrike",
+                  "text": "Campaign management dashboard: Marketing campaign dashboards will track metrics related to a particular marketing campaign. For in..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Zoho",
+                  "domain": "www.zoho.com",
+                  "url": "https://www.zoho.com/analytics/marketing-dashboard.html",
+                  "title": "What is Marketing Dashboard? Guide with Examples - Zoho Analytics",
+                  "text": "Designing a marketing dashboard The most effective marketing dashboards are typically simple and straightforward. A key guideline ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "GoodData",
+                  "domain": "www.gooddata.com",
+                  "url": "https://www.gooddata.com/blog/essential-dashboards-for-your-marketing-team/",
+                  "title": "10 Essential Dashboards for Your Marketing Team - GoodData",
+                  "text": "General Reporting Overview Dashboard This all-in-one dashboard delivers the big-picture view by bringing your entire marketing eco..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Mailchimp",
+                  "domain": "mailchimp.com",
+                  "url": "https://mailchimp.com/resources/marketing-dashboard/",
+                  "title": "How to Create an Effective Marketing Dashboard - Mailchimp",
+                  "text": "Key performance indicators Your dashboard's foundation rests on carefully selected KPIs that align with your business objectives. ..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "www.geckoboard.com",
+              "title": "Marketing dashboard examples",
+              "url": "https://www.geckoboard.com/dashboard-examples/marketing/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.geckoboard.com \u203a dashboard-examples \u203a m...",
+              "website_name": "Geckoboard",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "View marketing dashboard examples used by teams to track campaigns, website performance, social media, and more.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "marketing dashboard examples"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "domain": "funnel.io",
+              "title": "A comprehensive guide to marketing dashboards",
+              "url": "https://funnel.io/blog/marketing-dashboard-guide",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://funnel.io \u203a blog \u203a marketing-dashboard-guide",
+              "website_name": "Funnel",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Feb 18, 2025 \u2014 Marketing dashboards are created as a collection of interactive graphs that consolidate metrics and key performance indicators (KPIs) from multiple sources. Read more",
+              "pre_snippet": "02/18/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "interactive graphs that consolidate metrics and key performance indicators"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-02-18 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "What digital marketing data reporting dashboard software ...",
+              "url": "https://www.reddit.com/r/digital_marketing/comments/15m3u80/what_digital_marketing_data_reporting_dashboard/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "30+ comments  \u00b7  2 years ago",
+              "website_name": "Reddit\u00a0\u00b7\u00a0r/digital_marketing",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Recently my MKT agency has been considering switching from Supermetrics to another software that can integrate digital data sources better.The current ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "What's on your ultimate marketing dashboard? - Reddit",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/marketing/comments/1k6t289/whats_on_your_ultimate_marketing_dashboard/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "What's the best marketing dashboard platform for ...",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/DigitalMarketing/comments/1qtka35/whats_the_best_marketing_dashboard_platform_for/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "More results from www.reddit.com",
+                  "description": null,
+                  "url": "https://www.google.com/search?q=marketing+reporting+dashboard+site:www.reddit.com&sca_esv=89f358ba4e2fcd04&hl=en&gl=US&sa=X&ved=2ahUKEwiWnIP5jrOUAxUGX_EDHfMeILMQrQIoAnoECCkQAw",
+                  "domain": "www.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Coupler\u2024io Academy",
+                  "title": "Best Looker Studio Dashboards for Marketing Analysis and ...",
+                  "timestamp": "2024-11-20 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=8532IMlidOo"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Coupler\u2024io Academy",
+                  "title": "Best Digital Marketing Dashboards for Managers \u2014 Examples ...",
+                  "timestamp": "2024-11-27 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=4x1IPC9mG40"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Funnel",
+                  "title": "How to Create the Best Marketing Dashboards That ...",
+                  "timestamp": "2024-12-12 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=LP5Y8d_5f-c"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "people_also_search",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]",
+              "title": "Find related products & services",
+              "items": [
+                "AI marketing dashboard",
+                "Marketing dashboard template free",
+                "Sales KPI dashboard",
+                "Dashboard demo",
+                "Marketing dashboard software",
+                "Best marketing dashboards"
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "www.klipfolio.com",
+              "title": "12+ Marketing Dashboard Examples and Templates",
+              "url": "https://www.klipfolio.com/resources/dashboard-examples/marketing",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.klipfolio.com \u203a ... \u203a Dashboard Examples",
+              "website_name": "Klipfolio",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "What is a Marketing Dashboard? A marketing dashboard is a visual tool that displays key marketing details and targets for a business in an easy-to-see way. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "a visual tool that displays key marketing details and targets"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+              "domain": "www.gartner.com",
+              "title": "Best Marketing Dashboards Reviews 2026",
+              "url": "https://www.gartner.com/reviews/market/marketing-dashboards",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.gartner.com \u203a reviews \u203a market \u203a marketin...",
+              "website_name": "Gartner",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Marketing dashboard tools collect and integrate marketing data from multiple sources, visualize it, and enable visualization and exploration through a web-\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "collect and integrate marketing data from multiple sources"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+              "domain": "www.siteimprove.com",
+              "title": "Digital marketing dashboards: Get the insights you need",
+              "url": "https://www.siteimprove.com/glossary/digital-marketing-dashboards/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.siteimprove.com \u203a glossary \u203a digital-marke...",
+              "website_name": "Siteimprove",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Digital marketing dashboards are a way of aggregating data from multiple sources into a unified picture of your marketing performance. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "a way of aggregating data from multiple sources"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "monday.com",
+              "title": "Marketing Dashboard Guide: Examples, KPIs, And Templates",
+              "url": "https://monday.com/blog/marketing/marketing-dashboard/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://monday.com \u203a Home \u203a Marketing",
+              "website_name": "Monday.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Dec 31, 2025 \u2014 Marketing dashboard tools help track KPIs, ROI, and campaign data in real time. See examples, templates, and how to build dashboards today.",
+              "pre_snippet": "12/31/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "track KPIs, ROI, and campaign data"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-12-31 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "www.adriel.com",
+              "title": "Digital Marketing Reporting Dashboard: 27 Templates ... - Adriel",
+              "url": "https://www.adriel.com/blog/digital-marketing-reporting-dashboard",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.adriel.com \u203a blog \u203a digital-marketing-repo...",
+              "website_name": "adriel.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Oct 23, 2025 \u2014 A digital marketing reporting dashboard is a business intelligence tool that collects, analyzes, and populates data from different sources on a user interface. Read more",
+              "pre_snippet": "10/23/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "collects, analyzes, and populates data"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Ppc Dashboard",
+                  "description": null,
+                  "url": "https://www.adriel.com/blog/digital-marketing-reporting-dashboard",
+                  "domain": "www.adriel.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Marketing Reporting...",
+                  "description": null,
+                  "url": "https://www.adriel.com/blog/digital-marketing-reporting-dashboard",
+                  "domain": "www.adriel.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Ecommerce Dashboard",
+                  "description": null,
+                  "url": "https://www.adriel.com/blog/digital-marketing-reporting-dashboard",
+                  "domain": "www.adriel.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-10-23 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+              "domain": "dashthis.com",
+              "title": "Marketing Reporting Software: Automated Dashboards for ...",
+              "url": "https://dashthis.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://dashthis.com",
+              "website_name": "DashThis",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "DashThis automates marketing reports for agencies and teams. Connect 30+ tools into client-ready dashboards in minutes. Try free for 14 days.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "automates marketing reports for agencies and teams"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Book a Demo",
+                  "description": null,
+                  "url": "https://dashthis.com/book-a-demo/",
+                  "domain": "dashthis.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Product",
+                  "description": null,
+                  "url": "https://dashthis.com/features/",
+                  "domain": "dashthis.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "DashThis For",
+                  "description": null,
+                  "url": "https://dashthis.com/dashthis-for/",
+                  "domain": "dashthis.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Pricing",
+                  "description": null,
+                  "url": "https://dashthis.com/pricing/",
+                  "domain": "dashthis.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Marketing reporting dashboard template",
+                "Marketing reporting dashboard examples",
+                "Marketing dashboard examples",
+                "Marketing Dashboard template Excel",
+                "Marketing reporting dashboard template free",
+                "Free marketing reporting dashboard",
+                "Best marketing reporting dashboard",
+                "Marketing campaign dashboard"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

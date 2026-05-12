@@ -1,0 +1,169 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "0.0503 sec.",
+  "cost": 0.0101,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120924-3675-0399-0000-7be83a9635eb",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "0.0391 sec.",
+      "cost": 0.0101,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "dataforseo_labs",
+        "google",
+        "keyword_suggestions",
+        "live"
+      ],
+      "data": {
+        "api": "dataforseo_labs",
+        "function": "keyword_suggestions",
+        "se_type": "google",
+        "location_code": 2840,
+        "language_code": "en",
+        "keyword": "Whatagraph alternative",
+        "limit": 35
+      },
+      "result": [
+        {
+          "se_type": "google",
+          "seed_keyword": "whatagraph alternative",
+          "seed_keyword_data": null,
+          "location_code": 2840,
+          "language_code": "en",
+          "total_count": 1,
+          "items_count": 1,
+          "offset": 0,
+          "offset_token": "eyJDdXJyZW50T2Zmc2V0IjoxLCJSZXF1ZXN0RGF0YSI6eyJrZXl3b3JkIjoid2hhdGFncmFwaCBhbHRlcm5hdGl2ZSIsImluY2x1ZGVfc2VlZF9rZXl3b3JkIjpmYWxzZSwiZnVsbF9tYXRjaCI6ZmFsc2UsImxvYWRfc2VycF9pbmZvIjpmYWxzZSwic2VhcmNoX2FmdGVyX3Rva2VuIjpudWxsLCJpZ25vcmVfc3lub255bXMiOmZhbHNlLCJsYW5ndWFnZSI6ImVuIiwic2VhcmNoX2VuZ2luZSI6Imdvb2dsZSIsImxvY2F0aW9uIjoyODQwLCJ1c2VfbmV3X2NhdGVnb3JpZXMiOnRydWUsIm9yZGVyX2J5Ijp7Im9yZGVyX2ZpZWxkIjoia2V5d29yZF9pbmZvLnNlYXJjaF92b2x1bWUiLCJvcmRlcl90eXBlIjoiRGVzYyIsIm5leHQiOm51bGx9LCJsaW1pdCI6MzUsIm9mZnNldCI6MCwiYWlkIjozNjc1LCJ1c2VfY2FjaGUiOnRydWUsInRhc2tfaWQiOiIwNTEyMDkyNC0zNjc1LTAzOTktMDAwMC03YmU4M2E5NjM1ZWIiLCJmbGFncyI6bnVsbH0sIlJhd1F1ZXJ5IjpudWxsLCJJZCI6IjNkNGQ1ZmQwLWU4ZTAtNDViMy1iZDA0LWY0NTJkZjA1Yjc1YyIsIlNlYXJjaEFmdGVyRGF0YSI6WzUwLCIxMmUwZmY2ZC05ZDdkLWIyZTQtYjY1OC0yN2FkZjJiNTFjM2YiXSwiRXhlY3V0b3IiOi05MTg0NDA1OTQwNDQ0NTE3NjMzfQ==",
+          "items": [
+            {
+              "se_type": "google",
+              "keyword": "whatagraph alternative",
+              "location_code": 2840,
+              "language_code": "en",
+              "keyword_info": {
+                "se_type": "google",
+                "last_updated_time": "2026-04-09 09:57:58 +00:00",
+                "competition": 0.04,
+                "competition_level": "LOW",
+                "cpc": 69.96,
+                "search_volume": 50,
+                "low_top_of_page_bid": 12.08,
+                "high_top_of_page_bid": 84.05,
+                "categories": [
+                  10019,
+                  10168,
+                  10885,
+                  13602
+                ],
+                "monthly_searches": [
+                  {
+                    "year": 2026,
+                    "month": 3,
+                    "search_volume": 90
+                  },
+                  {
+                    "year": 2026,
+                    "month": 2,
+                    "search_volume": 30
+                  },
+                  {
+                    "year": 2026,
+                    "month": 1,
+                    "search_volume": 70
+                  },
+                  {
+                    "year": 2025,
+                    "month": 12,
+                    "search_volume": 50
+                  },
+                  {
+                    "year": 2025,
+                    "month": 11,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 10,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 9,
+                    "search_volume": 10
+                  },
+                  {
+                    "year": 2025,
+                    "month": 8,
+                    "search_volume": 70
+                  },
+                  {
+                    "year": 2025,
+                    "month": 7,
+                    "search_volume": 50
+                  },
+                  {
+                    "year": 2025,
+                    "month": 6,
+                    "search_volume": 70
+                  },
+                  {
+                    "year": 2025,
+                    "month": 5,
+                    "search_volume": 140
+                  },
+                  {
+                    "year": 2025,
+                    "month": 4,
+                    "search_volume": 50
+                  }
+                ],
+                "search_volume_trend": {
+                  "monthly": 200,
+                  "quarterly": 29,
+                  "yearly": 29
+                }
+              },
+              "keyword_info_normalized_with_bing": null,
+              "keyword_info_normalized_with_clickstream": null,
+              "clickstream_keyword_info": null,
+              "keyword_properties": {
+                "se_type": "google",
+                "core_keyword": "whatagraph alternatives",
+                "synonym_clustering_algorithm": "text_processing",
+                "keyword_difficulty": 0,
+                "detected_language": "en",
+                "is_another_language": false,
+                "words_count": 2
+              },
+              "serp_info": null,
+              "avg_backlinks_info": {
+                "se_type": "google",
+                "backlinks": 10,
+                "dofollow": 9.8,
+                "referring_pages": 10,
+                "referring_domains": 1.1,
+                "referring_main_domains": 1.1,
+                "rank": 32.8,
+                "main_domain_rank": 414.2,
+                "last_updated_time": "2026-03-08 06:11:48 +00:00"
+              },
+              "search_intent_info": {
+                "se_type": "google",
+                "main_intent": "informational",
+                "foreign_intent": null,
+                "last_updated_time": "2026-04-30 15:29:33 +00:00"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "total_cost": 0.5583000000000002,
+  "calls": [
+    {
+      "name": "suggestions:marketing reporting software",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.0105
+    },
+    {
+      "name": "suggestions:client reporting software",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.0103
+    },
+    {
+      "name": "suggestions:agency reporting software",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.0105
+    },
+    {
+      "name": "suggestions:white label reporting software",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.0101
+    },
+    {
+      "name": "suggestions:marketing dashboard software",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.0103
+    },
+    {
+      "name": "suggestions:agency dashboard software",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.01
+    },
+    {
+      "name": "suggestions:automated marketing reports",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.0101
+    },
+    {
+      "name": "suggestions:SEO reporting software",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.0106
+    },
+    {
+      "name": "suggestions:PPC reporting software",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.0101
+    },
+    {
+      "name": "suggestions:social media reporting software",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.0103
+    },
+    {
+      "name": "suggestions:Google Ads reporting tool",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.0102
+    },
+    {
+      "name": "suggestions:Facebook Ads reporting tool",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.0103
+    },
+    {
+      "name": "suggestions:GA4 reporting tool",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.01
+    },
+    {
+      "name": "suggestions:Looker Studio alternative",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.0106
+    },
+    {
+      "name": "suggestions:AgencyAnalytics alternative",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.0102
+    },
+    {
+      "name": "suggestions:DashThis alternative",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.0101
+    },
+    {
+      "name": "suggestions:Whatagraph alternative",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.0101
+    },
+    {
+      "name": "suggestions:Swydo alternative",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.0102
+    },
+    {
+      "name": "suggestions:2-Minute Reports alternative",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.01
+    },
+    {
+      "name": "suggestions:Supermetrics alternative",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.0107
+    },
+    {
+      "name": "suggestions:Google Sheets reporting automation",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.01
+    },
+    {
+      "name": "suggestions:AI marketing reporting",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.0101
+    },
+    {
+      "name": "suggestions:AI report generator for agencies",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.01
+    },
+    {
+      "name": "suggestions:ChatGPT marketing reporting",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.01
+    },
+    {
+      "name": "suggestions:Claude marketing data",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.01
+    },
+    {
+      "name": "suggestions:MCP marketing reporting",
+      "path": "dataforseo_labs/google/keyword_suggestions/live",
+      "status": 20000,
+      "cost": 0.01
+    },
+    {
+      "name": "ideas:1",
+      "path": "dataforseo_labs/google/keyword_ideas/live",
+      "status": 20000,
+      "cost": 0.018
+    },
+    {
+      "name": "ideas:2",
+      "path": "dataforseo_labs/google/keyword_ideas/live",
+      "status": 20000,
+      "cost": 0.018
+    },
+    {
+      "name": "ideas:3",
+      "path": "dataforseo_labs/google/keyword_ideas/live",
+      "status": 20000,
+      "cost": 0.018
+    },
+    {
+      "name": "ideas:4",
+      "path": "dataforseo_labs/google/keyword_ideas/live",
+      "status": 20000,
+      "cost": 0.018
+    },
+    {
+      "name": "ideas:5",
+      "path": "dataforseo_labs/google/keyword_ideas/live",
+      "status": 20000,
+      "cost": 0.018
+    },
+    {
+      "name": "ideas:6",
+      "path": "dataforseo_labs/google/keyword_ideas/live",
+      "status": 20000,
+      "cost": 0.018
+    },
+    {
+      "name": "search_volume:1",
+      "path": "keywords_data/google_ads/search_volume/live",
+      "status": 20000,
+      "cost": 0.075
+    },
+    {
+      "name": "serp:agency reporting software",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:agency reporting tool",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:marketing agency reporting software",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:digital agency reporting software",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:ai reporting tools",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:ai marketing reporting",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:google analytics reporting template",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:google analytics reporting automation",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:google analytics reporting tool",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:google analytics reporting dashboard",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:client reporting tool",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:client reporting software",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:client reporting template",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:client reporting for marketing agencies",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:agencyanalytics alternative",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:alternative to agencyanalytics",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:supermetrics alternative",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:looker studio alternative",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:marketing dashboard software",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:digital marketing reporting dashboard",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:marketing reporting dashboard",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:client reporting dashboard",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:software reporting tool",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:marketing reporting software",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:marketing reporting tool",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:marketing reporting template",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:ppc reporting template",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:ppc reporting tool",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:ppc management software",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:facebook ads reporting tool",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:seo reporting for clients",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:seo reporting template",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:seo reporting tool",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:seo reporting dashboard",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:social media reporting template",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:social media reporting tool",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:social media reporting software",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:social media reporting dashboard",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:white label seo audit tool",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:white label dashboard",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:white label reporting tool",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:white label dashboard software",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:2-minute reports alternative",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:agency dashboard software",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:ai report generator for agencies",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:automated marketing reports",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:chatgpt marketing reporting",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:claude marketing data",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:dashthis alternative",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:ga4 reporting tool",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:google ads reporting tool",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:google sheets reporting automation",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:mcp marketing reporting",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:ppc reporting software",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    },
+    {
+      "name": "serp:seo reporting software",
+      "path": "serp/google/organic/live/advanced",
+      "status": 20000,
+      "cost": 0.002
+    }
+  ]
+}

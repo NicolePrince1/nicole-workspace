@@ -1,0 +1,916 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.5522 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120926-3675-0139-0000-e9668cf66bbd",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.4573 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "seo reporting tool",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "os": "windows",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "seo reporting tool",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=seo%20reporting%20tool&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-05-12 06:26:19 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "se_results_count": 152000000,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": "Top SEO reporting tools for 2026 include comprehensive platforms like `Semrush, Ahrefs, and Moz Pro` for deep analysis, alongside automated reporting solutions such as AgencyAnalytics, Whatagraph , and DashThis to streamline client reporting. Free essentials include Google Search Console (GSC), Google Analytics 4 (GA4), and Looker Studio.[](https://digitalmarketinginstitute.com/blog/essential-seo-reporting-tools) [[1]](https://digitalmarketinginstitute.com/blog/essential-seo-reporting-tools)[[2]](https://yoast.com/10-free-and-paid-seo-reporting-tools-for-2025/)[[3]](https://dashthis.com/seo-reporting-software/)[[4]](https://seo.ai/blog/best-seo-tools-for-beginners)[[5]](https://www.swydo.com/blog/best-google-ads-reporting-tools/)\n\n**Top SEO Reporting Tools by Category** [[1]](https://yoast.com/10-free-and-paid-seo-reporting-tools-for-2025/)\n\n- **Best All-in-One Platforms:** **Semrush** (all-around), **Ahrefs** (backlinks/keywords), and **Moz Pro** offer in-depth site audits, ranking data, and competitor analysis.\n- **Best for Automated/Agency Reporting:** **AgencyAnalytics**, **Whatagraph** , and **DashThis** are top choices to pull data from GSC, GA4, and SEO tools into branded, automated, and easy-to-read reports.\n- **Best Free Tools:** **Google Search Console** (direct Google data), **GA4** (user behavior), **Looker Studio** (custom dashboards), and **SEOptimer** (site audits).\n- **Best Technical/Local:** **Screaming Frog** for in-depth crawling and **BrightLocal** for local SEO tracking.[](https://www.seoptimer.com/) [[1]](https://www.seoptimer.com/)[[2]](https://yoast.com/10-free-and-paid-seo-reporting-tools-for-2025/)[[3]](https://www.searchtosale.io/best-seo-reporting-tools/)[[4]](https://www.reddit.com/r/DigitalMarketing/comments/1s1k8gw/spent_4_hours_making_a_client_report_last_week/)[[5]](https://whatagraph.com/blog/articles/seo-reporting-tools-for-agencies)[[6]](https://dashthis.com/seo-reporting-software/)[[7]](https://www.quora.com/What-are-the-best-SEO-reporting-tools-for-analyzing-website-performance)[[8]](https://digitalmarketinginstitute.com/blog/essential-seo-reporting-tools)\n\n**Key Features to Consider** \n\n- **Data Integration:** Ability to connect with GA4, GSC, and paid ad platforms.\n- **White-Labeling:** Customizing reports with your own logo and branding.\n- **Automation:** Scheduling reports for automatic delivery.\n- **Actionable Insights:** Identifying, not just tracking, issues.[](https://www.seoptimer.com/) [[1]](https://www.seoptimer.com/)[[2]](https://databox.com/report-software/seo)[[3]](https://www.reddit.com/r/DigitalMarketing/comments/1s1k8gw/spent_4_hours_making_a_client_report_last_week/)[[4]](https://whatagraph.com/blog/articles/seo-reporting-tools-for-agencies)[[5]](https://reportz.io/white-label-seo-kpi-reporting-tool/)\n\n**Key Metrics to Monitor** \n\n- **Traffic & Conversions:** Organic sessions and revenue from search.\n- **Ranking Trends:** Keyword positions over time.\n- **Site Health:** Technical issues and site speed.\n- **Backlink Profile:** Growth in referring domains.[](https://digitalmarketinginstitute.com/blog/essential-seo-reporting-tools) [[1]](https://digitalmarketinginstitute.com/blog/essential-seo-reporting-tools)[[2]](https://www.reddit.com/r/DigitalMarketing/comments/1s1k8gw/spent_4_hours_making_a_client_report_last_week/)[[3]](https://aioseo.com/best-seo-reporting-tools/)[[4]](https://yoast.com/10-free-and-paid-seo-reporting-tools-for-2025/)[[5]](https://debuggersstudio.com/free-website-analysis/)",
+              "items": [
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": null,
+                  "text": "Top SEO reporting tools for 2026 include comprehensive platforms like Semrush, Ahrefs, and Moz Pro for deep analysis, alongside automated reporting solutions such as AgencyAnalytics, Whatagraph, and DashThis to streamline client reporting. Free essentials include Google Search Console (GSC), Google Analytics 4 (GA4), and Looker Studio. Digital Marketing Institute +2",
+                  "markdown": "Top SEO reporting tools for 2026 include comprehensive platforms like `Semrush, Ahrefs, and Moz Pro` for deep analysis, alongside automated reporting solutions such as AgencyAnalytics, Whatagraph , and DashThis to streamline client reporting. Free essentials include Google Search Console (GSC), Google Analytics 4 (GA4), and Looker Studio.[](https://digitalmarketinginstitute.com/blog/essential-seo-reporting-tools) [[1]](https://digitalmarketinginstitute.com/blog/essential-seo-reporting-tools)[[2]](https://yoast.com/10-free-and-paid-seo-reporting-tools-for-2025/)[[3]](https://dashthis.com/seo-reporting-software/)[[4]](https://seo.ai/blog/best-seo-tools-for-beginners)[[5]](https://www.swydo.com/blog/best-google-ads-reporting-tools/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Digital Marketing Institute",
+                      "domain": "digitalmarketinginstitute.com",
+                      "url": "https://digitalmarketinginstitute.com/blog/essential-seo-reporting-tools",
+                      "title": "Essential SEO Reporting Tools | Digital Marketing Institute",
+                      "text": "1. Google Analytics and Google Search Console. GA4 demo. As the primary go-to tool for digital marketers, Google Analytics or GA4 ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Yoast",
+                      "domain": "yoast.com",
+                      "url": "https://yoast.com/10-free-and-paid-seo-reporting-tools-for-2025/",
+                      "title": "10 free and paid SEO reporting tools for 2025 - Yoast",
+                      "text": "Summary: best SEO reporting tools at a glance. 10 SEO Reporting tools to choose From. Google Search Console (free) Yoast SEO Dashb..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "DashThis",
+                      "domain": "dashthis.com",
+                      "url": "https://dashthis.com/seo-reporting-software/",
+                      "title": "SEO Reporting Software for Agencies & Marketers - DashThis",
+                      "text": "Automate & streamline your SEO reporting You measure your SEO with many SEO tools: Google Analytics, Google Search Console, Moz, A..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "SEO.ai",
+                      "domain": "seo.ai",
+                      "url": "https://seo.ai/blog/best-seo-tools-for-beginners",
+                      "title": "Best SEO Tools for Beginners to Get Started in 2025",
+                      "text": "Table_title: Comparison Table Table_content: header: | Tool | Free Version? | Main Focus | row: | Tool: Google Search Console | Fr..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Swydo",
+                      "domain": "www.swydo.com",
+                      "url": "https://www.swydo.com/blog/best-google-ads-reporting-tools/",
+                      "title": "15 Best Google Ads Reporting Tools That Actually Scale Agency Profit in 2026",
+                      "text": "6. Looker Studio \u2013 The Foundation While free, Looker Studio provides capabilities most agencies never fully use. Understanding its..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Top SEO Reporting Tools by Category",
+                  "text": "Best All-in-One Platforms: Semrush (all-around), Ahrefs (backlinks/keywords), and Moz Pro offer in-depth site audits, ranking data, and competitor analysis. Best for Automated/Agency Reporting: AgencyAnalytics, Whatagraph, and DashThis are top choices to pull data from GSC, GA4, and SEO tools into branded, automated, and easy-to-read reports. Best Free Tools: Google Search Console (direct Google data), GA4 (user behavior), Looker Studio (custom dashboards), and SEOptimer (site audits). Best Technical/Local: Screaming Frog for in-depth crawling and BrightLocal for local SEO tracking.",
+                  "markdown": "- **Best All-in-One Platforms:** **Semrush** (all-around), **Ahrefs** (backlinks/keywords), and **Moz Pro** offer in-depth site audits, ranking data, and competitor analysis.\n- **Best for Automated/Agency Reporting:** **AgencyAnalytics**, **Whatagraph** , and **DashThis** are top choices to pull data from GSC, GA4, and SEO tools into branded, automated, and easy-to-read reports.\n- **Best Free Tools:** **Google Search Console** (direct Google data), **GA4** (user behavior), **Looker Studio** (custom dashboards), and **SEOptimer** (site audits).\n- **Best Technical/Local:** **Screaming Frog** for in-depth crawling and **BrightLocal** for local SEO tracking.[](https://www.seoptimer.com/) [[1]](https://www.seoptimer.com/)[[2]](https://yoast.com/10-free-and-paid-seo-reporting-tools-for-2025/)[[3]](https://www.searchtosale.io/best-seo-reporting-tools/)[[4]](https://www.reddit.com/r/DigitalMarketing/comments/1s1k8gw/spent_4_hours_making_a_client_report_last_week/)[[5]](https://whatagraph.com/blog/articles/seo-reporting-tools-for-agencies)[[6]](https://dashthis.com/seo-reporting-software/)[[7]](https://www.quora.com/What-are-the-best-SEO-reporting-tools-for-analyzing-website-performance)[[8]](https://digitalmarketinginstitute.com/blog/essential-seo-reporting-tools)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Yoast",
+                      "domain": "yoast.com",
+                      "url": "https://yoast.com/10-free-and-paid-seo-reporting-tools-for-2025/",
+                      "title": "10 free and paid SEO reporting tools for 2025 - Yoast",
+                      "text": "Summary: best SEO reporting tools at a glance. 10 SEO Reporting tools to choose From. Google Search Console (free) Yoast SEO Dashb..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "SEOptimer",
+                      "domain": "www.seoptimer.com",
+                      "url": "https://www.seoptimer.com/",
+                      "title": "SEOptimer: Analyze Websites With Free SEO Audit & Reporting Tool",
+                      "text": "SEOptimer is a free SEO Audit & AI Visibility Tool that will perform a detailed SEO / GEO Analysis across 100 website data points,"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Search to Sale",
+                      "domain": "www.searchtosale.io",
+                      "url": "https://www.searchtosale.io/best-seo-reporting-tools/",
+                      "title": "Ranking the Best SEO Reporting Tools in 2025 | Search to Sale Blog",
+                      "text": "\ud83d\udcca SEMrush & Ahrefs: Good for Keyword & Competitor Research, But Lack Lead Gen Focus. SEMrush and Ahrefs provide strong keyword tr..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/DigitalMarketing/comments/1s1k8gw/spent_4_hours_making_a_client_report_last_week/",
+                      "title": "there has to be a better way. What SEO reporting tool are you using?",
+                      "text": "Discussion. Okay so I sat down last Friday to put together a monthly report for a client. GSC data here, GA4 there, SEMrush rankin..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Whatagraph",
+                      "domain": "whatagraph.com",
+                      "url": "https://whatagraph.com/blog/articles/seo-reporting-tools-for-agencies",
+                      "title": "6 Best SEO Reporting Tools & Software for Agencies in 2025",
+                      "text": "6 Best SEO Reporting Tools & Software for Agencies in 2025 | Whatagraph. AgenciesClient-ready reporting, faster. TemplatesUse read..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "DashThis",
+                      "domain": "dashthis.com",
+                      "url": "https://dashthis.com/seo-reporting-software/",
+                      "title": "SEO Reporting Software for Agencies & Marketers - DashThis",
+                      "text": "Automate & streamline your SEO reporting You measure your SEO with many SEO tools: Google Analytics, Google Search Console, Moz, A..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Quora",
+                      "domain": "www.quora.com",
+                      "url": "https://www.quora.com/What-are-the-best-SEO-reporting-tools-for-analyzing-website-performance",
+                      "title": "What are the best SEO reporting tools for analyzing website performance?",
+                      "text": "* Allow me to introduce myself, I am a research scholar. Most of my time is spent on my lab, doing experiments, taking care of fis..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Digital Marketing Institute",
+                      "domain": "digitalmarketinginstitute.com",
+                      "url": "https://digitalmarketinginstitute.com/blog/essential-seo-reporting-tools",
+                      "title": "Essential SEO Reporting Tools | Digital Marketing Institute",
+                      "text": "1. Google Analytics and Google Search Console. GA4 demo. As the primary go-to tool for digital marketers, Google Analytics or GA4 ..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Key Features to Consider",
+                  "text": "Data Integration: Ability to connect with GA4, GSC, and paid ad platforms. White-Labeling: Customizing reports with your own logo and branding. Automation: Scheduling reports for automatic delivery. Actionable Insights: Identifying, not just tracking, issues.",
+                  "markdown": "- **Data Integration:** Ability to connect with GA4, GSC, and paid ad platforms.\n- **White-Labeling:** Customizing reports with your own logo and branding.\n- **Automation:** Scheduling reports for automatic delivery.\n- **Actionable Insights:** Identifying, not just tracking, issues.[](https://www.seoptimer.com/) [[1]](https://www.seoptimer.com/)[[2]](https://databox.com/report-software/seo)[[3]](https://www.reddit.com/r/DigitalMarketing/comments/1s1k8gw/spent_4_hours_making_a_client_report_last_week/)[[4]](https://whatagraph.com/blog/articles/seo-reporting-tools-for-agencies)[[5]](https://reportz.io/white-label-seo-kpi-reporting-tool/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "SEOptimer",
+                      "domain": "www.seoptimer.com",
+                      "url": "https://www.seoptimer.com/",
+                      "title": "SEOptimer: Analyze Websites With Free SEO Audit & Reporting Tool",
+                      "text": "SEOptimer is a free SEO Audit & AI Visibility Tool that will perform a detailed SEO / GEO Analysis across 100 website data points,"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Databox",
+                      "domain": "databox.com",
+                      "url": "https://databox.com/report-software/seo",
+                      "title": "The Best SEO Reporting Tool for Modern Marketers - Databox",
+                      "text": "An SEO Reporting Tool for Your Top Data Sources * Google Ads. * Google Search Console. * SEMRush. * Ahrefs. * Google Sheets. * MOZ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/DigitalMarketing/comments/1s1k8gw/spent_4_hours_making_a_client_report_last_week/",
+                      "title": "there has to be a better way. What SEO reporting tool are you using?",
+                      "text": "Discussion. Okay so I sat down last Friday to put together a monthly report for a client. GSC data here, GA4 there, SEMrush rankin..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Whatagraph",
+                      "domain": "whatagraph.com",
+                      "url": "https://whatagraph.com/blog/articles/seo-reporting-tools-for-agencies",
+                      "title": "6 Best SEO Reporting Tools & Software for Agencies in 2025",
+                      "text": "6 Best SEO Reporting Tools & Software for Agencies in 2025 | Whatagraph. AgenciesClient-ready reporting, faster. TemplatesUse read..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reportz",
+                      "domain": "reportz.io",
+                      "url": "https://reportz.io/white-label-seo-kpi-reporting-tool/",
+                      "title": "Best White Label SEO KPI Reporting Tool for Agencies",
+                      "text": "All Main Data Integrations: Connect to Google Analytics 4, GSC ( Google Search Console ) , Ahrefs, SEMrush, Google Ads, multiple r..."
+                    }
+                  ]
+                },
+                {
+                  "type": "ai_overview_element",
+                  "position": "left",
+                  "title": "Key Metrics to Monitor",
+                  "text": "Traffic & Conversions: Organic sessions and revenue from search. Ranking Trends: Keyword positions over time. Site Health: Technical issues and site speed. Backlink Profile: Growth in referring domains.",
+                  "markdown": "- **Traffic & Conversions:** Organic sessions and revenue from search.\n- **Ranking Trends:** Keyword positions over time.\n- **Site Health:** Technical issues and site speed.\n- **Backlink Profile:** Growth in referring domains.[](https://digitalmarketinginstitute.com/blog/essential-seo-reporting-tools) [[1]](https://digitalmarketinginstitute.com/blog/essential-seo-reporting-tools)[[2]](https://www.reddit.com/r/DigitalMarketing/comments/1s1k8gw/spent_4_hours_making_a_client_report_last_week/)[[3]](https://aioseo.com/best-seo-reporting-tools/)[[4]](https://yoast.com/10-free-and-paid-seo-reporting-tools-for-2025/)[[5]](https://debuggersstudio.com/free-website-analysis/)",
+                  "links": null,
+                  "images": null,
+                  "references": [
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Digital Marketing Institute",
+                      "domain": "digitalmarketinginstitute.com",
+                      "url": "https://digitalmarketinginstitute.com/blog/essential-seo-reporting-tools",
+                      "title": "Essential SEO Reporting Tools | Digital Marketing Institute",
+                      "text": "1. Google Analytics and Google Search Console. GA4 demo. As the primary go-to tool for digital marketers, Google Analytics or GA4 ..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Reddit",
+                      "domain": "www.reddit.com",
+                      "url": "https://www.reddit.com/r/DigitalMarketing/comments/1s1k8gw/spent_4_hours_making_a_client_report_last_week/",
+                      "title": "there has to be a better way. What SEO reporting tool are you using?",
+                      "text": "Discussion. Okay so I sat down last Friday to put together a monthly report for a client. GSC data here, GA4 there, SEMrush rankin..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "AIOSEO",
+                      "domain": "aioseo.com",
+                      "url": "https://aioseo.com/best-seo-reporting-tools/",
+                      "title": "8 Best SEO Reporting Tools to Make Your Job Easier - AIOSEO",
+                      "text": "What Are SEO Reporting Tools? SEO reporting tools are software platforms that collect, organize, and present data about your site'"
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Yoast",
+                      "domain": "yoast.com",
+                      "url": "https://yoast.com/10-free-and-paid-seo-reporting-tools-for-2025/",
+                      "title": "10 free and paid SEO reporting tools for 2025 - Yoast",
+                      "text": "Summary: best SEO reporting tools at a glance. 10 SEO Reporting tools to choose From. Google Search Console (free) Yoast SEO Dashb..."
+                    },
+                    {
+                      "type": "ai_overview_reference",
+                      "position": "left",
+                      "source": "Debuggers Studio",
+                      "domain": "debuggersstudio.com",
+                      "url": "https://debuggersstudio.com/free-website-analysis/",
+                      "title": "Free Technical SEO Audit",
+                      "text": "Website Health Overview Our summary evaluates your site's health across four key metrics: Design, Content, SEO, and Speed. By iden..."
+                    }
+                  ]
+                }
+              ],
+              "references": [
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "SEOptimer",
+                  "domain": "www.seoptimer.com",
+                  "url": "https://www.seoptimer.com/",
+                  "title": "SEOptimer: Analyze Websites With Free SEO Audit & Reporting Tool",
+                  "text": "SEOptimer is a free SEO Audit & AI Visibility Tool that will perform a detailed SEO / GEO Analysis across 100 website data points,"
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Digital Marketing Institute",
+                  "domain": "digitalmarketinginstitute.com",
+                  "url": "https://digitalmarketinginstitute.com/blog/essential-seo-reporting-tools",
+                  "title": "Essential SEO Reporting Tools | Digital Marketing Institute",
+                  "text": "1. Google Analytics and Google Search Console. GA4 demo. As the primary go-to tool for digital marketers, Google Analytics or GA4 ..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Whatagraph",
+                  "domain": "whatagraph.com",
+                  "url": "https://whatagraph.com/blog/articles/seo-reporting-tools-for-agencies",
+                  "title": "6 Best SEO Reporting Tools & Software for Agencies in 2025",
+                  "text": "6 Best SEO Reporting Tools & Software for Agencies in 2025 | Whatagraph. AgenciesClient-ready reporting, faster. TemplatesUse read..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Yoast",
+                  "domain": "yoast.com",
+                  "url": "https://yoast.com/10-free-and-paid-seo-reporting-tools-for-2025/",
+                  "title": "10 free and paid SEO reporting tools for 2025 - Yoast",
+                  "text": "Summary: best SEO reporting tools at a glance. 10 SEO Reporting tools to choose From. Google Search Console (free) Yoast SEO Dashb..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Reddit",
+                  "domain": "www.reddit.com",
+                  "url": "https://www.reddit.com/r/DigitalMarketing/comments/1s1k8gw/spent_4_hours_making_a_client_report_last_week/",
+                  "title": "there has to be a better way. What SEO reporting tool are you using?",
+                  "text": "Discussion. Okay so I sat down last Friday to put together a monthly report for a client. GSC data here, GA4 there, SEMrush rankin..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "DashThis",
+                  "domain": "dashthis.com",
+                  "url": "https://dashthis.com/seo-reporting-software/",
+                  "title": "SEO Reporting Software for Agencies & Marketers - DashThis",
+                  "text": "Automate & streamline your SEO reporting You measure your SEO with many SEO tools: Google Analytics, Google Search Console, Moz, A..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Search to Sale",
+                  "domain": "www.searchtosale.io",
+                  "url": "https://www.searchtosale.io/best-seo-reporting-tools/",
+                  "title": "Ranking the Best SEO Reporting Tools in 2025 | Search to Sale Blog",
+                  "text": "\ud83d\udcca SEMrush & Ahrefs: Good for Keyword & Competitor Research, But Lack Lead Gen Focus. SEMrush and Ahrefs provide strong keyword tr..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "AIOSEO",
+                  "domain": "aioseo.com",
+                  "url": "https://aioseo.com/best-seo-reporting-tools/",
+                  "title": "8 Best SEO Reporting Tools to Make Your Job Easier - AIOSEO",
+                  "text": "What Are SEO Reporting Tools? SEO reporting tools are software platforms that collect, organize, and present data about your site'"
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Quora",
+                  "domain": "www.quora.com",
+                  "url": "https://www.quora.com/What-are-the-best-SEO-reporting-tools-for-analyzing-website-performance",
+                  "title": "What are the best SEO reporting tools for analyzing website performance?",
+                  "text": "* Allow me to introduce myself, I am a research scholar. Most of my time is spent on my lab, doing experiments, taking care of fis..."
+                },
+                {
+                  "type": "ai_overview_reference",
+                  "position": "right",
+                  "source": "Databox",
+                  "domain": "databox.com",
+                  "url": "https://databox.com/report-software/seo",
+                  "title": "The Best SEO Reporting Tool for Modern Marketers - Databox",
+                  "text": "An SEO Reporting Tool for Your Top Data Sources * Google Ads. * Google Search Console. * SEMRush. * Ahrefs. * Google Sheets. * MOZ..."
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]",
+              "domain": "www.seoptimer.com",
+              "title": "SEOptimer: Analyze Websites With Free SEO Audit ...",
+              "url": "https://www.seoptimer.com/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.seoptimer.com",
+              "website_name": "SEOptimer",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "In addition to being an SEO Audit Tool, SEOptimer provides a range of additional free SEO / GEO Tools that give you the power to improve your site yourself. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "SEO",
+                "Tool",
+                "Tools"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Spent 4 hours making a client report last week",
+              "url": "https://www.reddit.com/r/DigitalMarketing/comments/1s1k8gw/spent_4_hours_making_a_client_report_last_week/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "20+ comments  \u00b7  1 month ago",
+              "website_name": "Reddit\u00a0\u00b7\u00a0r/DigitalMarketing",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Okay so I sat down last Friday to put together a monthly report for a client. GSC data here, GA4 there, SEMrush rankings in a spreadsheet, then formatting ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Advanced SEO Reporting Tools (Getting away from ...",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/SEO/comments/1mjmqe4/advanced_seo_reporting_tools_getting_away_from/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "What tools/software do you use to create SEO audit ...",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/SEO/comments/1g3qery/what_toolssoftware_do_you_use_to_create_seo_audit/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "More results from www.reddit.com",
+                  "description": null,
+                  "url": "https://www.google.com/search?q=seo+reporting+tool+site:www.reddit.com&sca_esv=89f358ba4e2fcd04&hl=en&gl=US&sa=X&ved=2ahUKEwjg5KuHj7OUAxUHK1kFHSrkCu8QrQIoAnoECC4QAw",
+                  "domain": "www.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[5]/div[1]/div[1]",
+              "domain": "yoast.com",
+              "title": "10 free and paid SEO reporting tools for 2025",
+              "url": "https://yoast.com/10-free-and-paid-seo-reporting-tools-for-2025/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://yoast.com \u203a SEO blog",
+              "website_name": "Yoast",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Aug 29, 2025 \u2014 What is an SEO reporting tool? Summary: best SEO reporting tools at a glance; 10 SEO Reporting tools to choose From. Google Search Console\u00a0... Read more",
+              "pre_snippet": "08/29/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "SEO reporting tool",
+                "SEO reporting tools",
+                "SEO Reporting tools"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-08-29 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[7]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Can ChatGPT do an SEO audit?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://mrs.digital/blog/chatgpt-and-seo/",
+                      "domain": "mrs.digital",
+                      "title": "How to use ChatGPT for SEO: Research, Planning & Content",
+                      "description": "Conclusion: ChatGPT is essential to SEO delivery in 2026\n Produce stronger, more comprehensive content that fills gaps. Validate technical audits and cross-check data before they reach clients. Scale metadata tasks safely and efficiently during migrations or large content refreshes.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is SEO dead or evolving in 2026?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://www.kentucky.com/news/business/article315236359.html",
+                      "domain": "www.kentucky.com",
+                      "title": "Is SEO dead in 2026? 7 strategies to thrive in the age of AI",
+                      "description": "SEO is changing, not dying.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What are the 4 types of SEO?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Which tool is best for SEO audit?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[7]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[9]/div[1]/div[1]",
+              "domain": "seranking.com",
+              "title": "SEO Report Generator: Easy-to-use Tool for Creating ...",
+              "url": "https://seranking.com/seo-reporting-tools.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://seranking.com \u203a seo-reporting-tools",
+              "website_name": "SE Ranking",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Our SEO reporting tool enables you to manually download reports in .pdf, .xls, or .html formats and send out reports to customers and colleagues via routinely\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "SEO reporting tool"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[11]/div[1]/div[1]",
+              "domain": "whatagraph.com",
+              "title": "6 Best SEO Reporting Tools & Software for Agencies in 2025",
+              "url": "https://whatagraph.com/blog/articles/seo-reporting-tools-for-agencies",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://whatagraph.com \u203a blog \u203a articles \u203a seo-reporting...",
+              "website_name": "Whatagraph",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Discover the 6 best SEO reporting tools for agencies in 2025. Compare ... SEO reporting tool \u00b7 TikTok Ads dashboard \u00b7 White-label dashboard software \u00b7 All\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "SEO reporting tools",
+                "SEO reporting tool"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[13]/div[1]/div[1]",
+              "domain": "aioseo.com",
+              "title": "FREE SEO Analyzer Tool - Generate Website SEO Audit ...",
+              "url": "https://aioseo.com/seo-analyzer/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://aioseo.com \u203a seo-analyzer",
+              "website_name": "AIOSEO",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "AIOSEO's SEO Analyzer is a tool that scans your website for SEO issues and provides recommendations to improve rankings, visibility, and performance. How does\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "SEO",
+                "tool"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[15]/div[1]/div[1]",
+              "domain": "www.indeed.com",
+              "title": "20 SEO Reporting Tools (With Descriptions)",
+              "url": "https://www.indeed.com/career-advice/career-development/seo-reporting-tools",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.indeed.com \u203a career-development \u203a seo-rep...",
+              "website_name": "Indeed",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Dec 11, 2025 \u2014 SEO reporting tools can help you save time by automating your reporting ... Woorank is an SEO reporting tool that professionals can use to create\u00a0... Read more",
+              "pre_snippet": "12/11/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "SEO reporting tools",
+                "SEO reporting tool"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-12-11 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[17]/div[1]/div[1]",
+              "domain": "rankmath.com",
+              "title": "SEO Analyzer - Generate a Free SEO Report of Your Website",
+              "url": "https://rankmath.com/tools/seo-analyzer/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://rankmath.com \u203a Tools",
+              "website_name": "Rank Math",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Generate a FREE SEO Report of your WordPress website with our SEO Analyzer ... Tools \u00b7 Meta Tag Analyzer \u00b7 SEO Analyzer \u00b7 Robots.txt Tester \u00b7 Help \u00b7 Support \u00b7 SEO ... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "SEO Report",
+                "SEO",
+                "Tools"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[19]/div[1]/div[1]",
+              "domain": "www.reportingninja.com",
+              "title": "Advanced SEO Reporting Tool",
+              "url": "https://www.reportingninja.com/seo-reporting-tool",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.reportingninja.com \u203a seo-reporting-tool",
+              "website_name": "Reporting Ninja",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Optimize your campaigns with our advanced SEO reporting tools. Effortlessly monitor, analyze, and report your SEO campaigns with our SEO reporting software. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "SEO reporting tools"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 10,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[21]/div[1]/div[1]",
+              "domain": "blog.coupler.io",
+              "title": "Top 8 Essential SEO Reporting Tools for Agencies in 2026",
+              "url": "https://blog.coupler.io/seo-reporting-tools/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://blog.coupler.io \u203a seo-reporting-tools",
+              "website_name": "Coupler.io Blog",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "... SEO reporting solution which is usually not limited to one tool. We've prepared our selection of top tools for SEO reporting and are happy to share it with you. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "SEO reporting",
+                "tool",
+                "tools"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Seo reporting tool free",
+                "Seo reporting tool online",
+                "Seo reporting tool online free",
+                "SEO report Generator",
+                "Best seo reporting tool",
+                "SEO report Generator free",
+                "SEO audit tool free",
+                "SEO Checker"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

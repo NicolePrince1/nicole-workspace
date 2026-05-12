@@ -1,0 +1,651 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.3251 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120926-3675-0139-0000-ba2e4d7d620d",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.2491 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "white label dashboard software",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "os": "windows",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "white label dashboard software",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=white%20label%20dashboard%20software&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-05-12 06:26:41 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "discussions_and_forums",
+            "people_also_ask",
+            "related_searches"
+          ],
+          "se_results_count": 88900000,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "thedigitalprojectmanager.com",
+              "title": "20 Best White Label Dashboard Software Reviewed In 2026",
+              "url": "https://thedigitalprojectmanager.com/tools/best-white-label-dashboard-software/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://thedigitalprojectmanager.com \u203a Tools",
+              "website_name": "The Digital Project Manager",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Jan 20, 2026 \u2014 Best White Label Dashboard Software Shortlist \u00b7 1. DashThis \u2014 Best for customizable white-label dashboards \u00b7 2. Querri \u2014 Best for white-label AI\u00a0... Read more",
+              "pre_snippet": "01/20/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "1. DashThis \u2014 Best for customizable white-label dashboards"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Why Trust Us",
+                  "description": null,
+                  "url": "https://thedigitalprojectmanager.com/tools/best-white-label-dashboard-software/#why-trust-us",
+                  "domain": "thedigitalprojectmanager.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Selection Criteria",
+                  "description": null,
+                  "url": "https://thedigitalprojectmanager.com/tools/best-white-label-dashboard-software/#selection-criteria",
+                  "domain": "thedigitalprojectmanager.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Trends In White Label...",
+                  "description": null,
+                  "url": "https://thedigitalprojectmanager.com/tools/best-white-label-dashboard-software/#trends",
+                  "domain": "thedigitalprojectmanager.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "What Is White Label...",
+                  "description": null,
+                  "url": "https://thedigitalprojectmanager.com/tools/best-white-label-dashboard-software/#what-is",
+                  "domain": "thedigitalprojectmanager.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-01-20 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+              "domain": "dashthis.com",
+              "title": "White Label Reporting Tool & Dashboard",
+              "url": "https://dashthis.com/white-label/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://dashthis.com \u203a white-label",
+              "website_name": "DashThis",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "DashThis provides agencies & marketers with the perfect white label dashboards : fully customizable, with 34+ integrations. Automate your client reporting\u00a0...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 83,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "DashThis provides agencies & marketers with the perfect white label dashboards"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "www.swydo.com",
+              "title": "11 Best White Label Reporting Tools for Marketing Agencies",
+              "url": "https://www.swydo.com/blog/best-white-label-reporting-tools/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.swydo.com \u203a Blog \u203a Comparison Guide",
+              "website_name": "Swydo",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Dec 8, 2025 \u2014 Honest comparison of 10 white label reporting tools tested with real client data. Includes true costs, hidden fees, and which platforms\u00a0...",
+              "pre_snippet": "12/08/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Honest comparison of 10 white label reporting tools"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "The 10 Best White Label...",
+                  "description": null,
+                  "url": "https://www.swydo.com/blog/best-white-label-reporting-tools/#the-10-best-white-label-reporting-tools",
+                  "domain": "www.swydo.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "How to Choose the Right...",
+                  "description": null,
+                  "url": "https://www.swydo.com/blog/best-white-label-reporting-tools/#how-to-choose-the-right-white-label-reporting-tools",
+                  "domain": "www.swydo.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-12-08 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "whatagraph.com",
+              "title": "White Label Dashboard Software",
+              "url": "https://whatagraph.com/white-label-dashboard",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://whatagraph.com \u203a white-label-dashboard",
+              "website_name": "Whatagraph",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Use our white label dashboard software to create customized dashboards. Set your brand colors, logo, and domain to every dashboard you create. Try it now.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Use our white label dashboard software"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+              "domain": "www.cyfe.com",
+              "title": "White Label Reporting and White Label Dashboards",
+              "url": "https://www.cyfe.com/white-label-dashboard/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.cyfe.com \u203a white-label-dashboard",
+              "website_name": "Cyfe",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "White label reporting dashboards from Cyfe deliver a branded experience for your digital marketing agency's clients. Offer real-time, white label reports.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "White label reporting dashboards from Cyfe"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+              "domain": "softr.io",
+              "title": "Build a secure white label client dashboard without coding",
+              "url": "https://softr.io/create/white-label-client-dashboard",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://softr.io \u203a Use cases",
+              "website_name": "Softr",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Create a flexible, secure white label client dashboard in minutes. Connect real-time data, customize role-based access, and launch a fully branded\u00a0...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Create a flexible, secure white label client dashboard in minutes"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "discussions_and_forums",
+              "rank_group": 1,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]",
+              "title": "Discussions and forums",
+              "items": [
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "White label standalone analytics portals?",
+                  "url": "https://www.reddit.com/r/BusinessIntelligence/comments/1ijfruz/white_label_standalone_analytics_portals/",
+                  "domain": "www.reddit.com",
+                  "source": "Reddit",
+                  "description": null,
+                  "timestamp": "2025-05-12 06:26:41 +00:00",
+                  "posts_count": 10
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "White labeled BI solution recommendation",
+                  "url": "https://www.reddit.com/r/BusinessIntelligence/comments/13lyq4w/white_labeled_bi_solution_recommendation/",
+                  "domain": "www.reddit.com",
+                  "source": "Reddit",
+                  "description": null,
+                  "timestamp": "2024-05-12 06:26:41 +00:00",
+                  "posts_count": 8
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "What BI/Dashboard solutions would you recommend that allow white- ...",
+                  "url": "https://www.quora.com/What-BI-Dashboard-solutions-would-you-recommend-that-allow-white-labelling-e-commerce-rebilling-etc-for-monetizing-access-to-a-proprietary-database-via-a-software-as-a-service-subscription-model",
+                  "domain": "www.quora.com",
+                  "source": "Quora",
+                  "description": null,
+                  "timestamp": "2015-05-12 06:26:41 +00:00",
+                  "posts_count": 1
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "agencyanalytics.com",
+              "title": "White Label Reports & Dashboards for Marketing Agencies",
+              "url": "https://agencyanalytics.com/features/white-label",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://agencyanalytics.com \u203a features \u203a white-label",
+              "website_name": "AgencyAnalytics",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "White label dashboard software allows you to automate reporting, reduce manual work, and deliver polished, client-ready data without needing other brands or\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "automate reporting, reduce manual work, and deliver polished, client-ready data"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "www.zoho.com",
+              "title": "White Label Reporting Tool & Dashboard Software",
+              "url": "https://www.zoho.com/analytics/white-label-reporting-tool.html",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.zoho.com \u203a analytics \u203a white-label-reportin...",
+              "website_name": "Zoho",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Explore what white label reporting is and how you can create branded dashboards to provide customers with white label reports. Try Zoho Analytics for free!",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.5,
+                "votes_count": 252,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "how you can create branded dashboards"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "White Label Reporting Tool...",
+                  "description": null,
+                  "url": "https://www.zoho.com/analytics/white-label-reporting-tool.html",
+                  "domain": "www.zoho.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Key Features Of White Label...",
+                  "description": null,
+                  "url": "https://www.zoho.com/analytics/white-label-reporting-tool.html",
+                  "domain": "www.zoho.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Components Of White Label...",
+                  "description": null,
+                  "url": "https://www.zoho.com/analytics/white-label-reporting-tool.html",
+                  "domain": "www.zoho.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+              "domain": "www.fanruan.com",
+              "title": "10 Must-Have White Label Dashboard Platforms for Agencies",
+              "url": "https://www.fanruan.com/en/blog/top-white-label-dashboard-platforms",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.fanruan.com \u203a blog \u203a top-white-label-dashb...",
+              "website_name": "FanRuan",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Dec 26, 2025 \u2014 Compare the top white label dashboard platforms for agencies in 2025. Find solutions for branded reporting, automation, and seamless client\u00a0...",
+              "pre_snippet": "12/26/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Compare the top white label dashboard platforms for agencies"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "2. Agencyanalytics",
+                  "description": null,
+                  "url": "https://www.fanruan.com/en/blog/top-white-label-dashboard-platforms",
+                  "domain": "www.fanruan.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "4. Klipfolio",
+                  "description": null,
+                  "url": "https://www.fanruan.com/en/blog/top-white-label-dashboard-platforms",
+                  "domain": "www.fanruan.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "White Label Seo Software And...",
+                  "description": null,
+                  "url": "https://www.fanruan.com/en/blog/top-white-label-dashboard-platforms",
+                  "domain": "www.fanruan.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-12-26 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[22]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the best white label software?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[22]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": "Best White Label Dashboard Software Shortlist",
+                      "url": "https://thedigitalprojectmanager.com/tools/best-white-label-dashboard-software/",
+                      "domain": "thedigitalprojectmanager.com",
+                      "title": "20 Best White Label Dashboard Software Reviewed In 2026",
+                      "description": "DashThis \u2014 Best for customizable white-label dashboards.\nDashClicks \u2014 Best for integrated marketing tools.\nKlipfolio \u2014 Best for customizable business dashboards.\nLuzmo \u2014 Best for SaaS platform analytics.\nWhatagraph \u2014 Best for automated marketing reports.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Is white label software legal?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[22]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://www.ansugi.com/the-legal-dilemma-of-white-labeling-brand-protection-and-copyright-in-the-era-of-business-collaboration",
+                      "domain": "www.ansugi.com",
+                      "title": "The Legal Dilemma of White Labeling: Brand Protection and ...",
+                      "description": "White labeling is a legitimate and economically beneficial business innovation, provided it is executed based on a clear and legally registered license or cooperation agreement.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is a white label dashboard?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[22]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://www.clicdata.com/blog/white-label-reporting/",
+                      "domain": "www.clicdata.com",
+                      "title": "White Label Marketing Dashboards For Agencies: Key Features - ClicData",
+                      "description": "Key Takeaways. A white label marketing dashboard lets your agency deliver branded analytics that clients perceive as your own proprietary platform, not a third-party tool. The best platforms centralize marketing data from Google Ads, Meta, HubSpot, GA4, TikTok, and dozens more, no CSV exports, no copy-paste.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the best software for dashboards?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[22]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "White label dashboard software free download",
+                "White label dashboard software free",
+                "Best white label dashboard software",
+                "White label software to resell",
+                "White label dashboard meaning",
+                "White label seo dashboard",
+                "White label apps list",
+                "Business dashboard software"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

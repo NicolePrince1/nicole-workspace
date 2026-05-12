@@ -1,0 +1,600 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "1.3095 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120926-3675-0139-0000-a4ee4ba824cf",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "1.2294 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "ppc reporting tool",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "os": "windows",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "ppc reporting tool",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=ppc%20reporting%20tool&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-05-12 06:26:07 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "organic",
+            "people_also_ask",
+            "video",
+            "related_searches"
+          ],
+          "se_results_count": 10600000,
+          "pages_count": 1,
+          "items_count": 12,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "ppc.io",
+              "title": "14 PPC Reporting Tools Reviewed [Free & Paid]",
+              "url": "https://ppc.io/blog/ppc-reporting-tools",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://ppc.io \u203a Blog \u203a Tools \ud83d\udee0\ufe0f",
+              "website_name": "PPC.io",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "14 PPC Reporting Tools Reviewed [Free & Paid] \u00b7 1) PPC.io - Best AI Option \u00b7 2) Opteo - Best Overall \u00b7 3) WhatConverts - Best for Lead-Gen \u00b7 4) Ninjacat - Best\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "1) PPC.io - Best AI Option"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "\ud83d\udca1 Why do I need a PPC...",
+                  "description": null,
+                  "url": "https://ppc.io/blog/ppc-reporting-tools#-why-do-i-need-a-ppc-reporting-tool",
+                  "domain": "ppc.io"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Best PPC Reporting Tools",
+                  "description": null,
+                  "url": "https://ppc.io/blog/ppc-reporting-tools#14-best-ppc-reporting-tools",
+                  "domain": "ppc.io"
+                },
+                {
+                  "type": "link_element",
+                  "title": "1) PPC.io - Best AI Option",
+                  "description": null,
+                  "url": "https://ppc.io/blog/ppc-reporting-tools#1-ppcio---best-ai-option",
+                  "domain": "ppc.io"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is PPC reporting?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://www.webfx.com/blog/ppc/ppc-report/",
+                      "domain": "www.webfx.com",
+                      "title": "What Is a PPC Report & How Can You Build One for Your Business?",
+                      "description": "A PPC report is a compilation of your current PPC campaign results. It contains essential metrics and data about your PPC ads so you can easily measure the success of your campaign.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Which is better, PPC or SEO?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://business.google.com/us/resources/articles/seo-vs-ppc/",
+                      "domain": "business.google.com",
+                      "title": "SEO vs. PPC: Understanding the Difference - Google Ads",
+                      "description": "If your goal is to drive traffic to your site in the short term, you might choose to focus on PPC ads. If you want to enhance your business's online presence in the long run, SEO is the answer. Alternatively, invest your time and energy in both SEO and PPC for a well-rounded strategy.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Does PPC still work?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://www.reddit.com/r/PPC/comments/1t35qrf/is_ppc_still_worth_it/",
+                      "domain": "www.reddit.com",
+                      "title": "Is PPC still worth it? - Reddit",
+                      "description": "With small local businesses, PPC still works, but only when it's tightly optimized around high-intent searches, proper tracking, and strong follow-up \u2014otherwise it can absolutely feel expensive for the return.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What does PPC stand for?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://modo25.com/news-insights/ppc/what-is-ppc-and-how-does-paid-media-work/",
+                      "domain": "modo25.com",
+                      "title": "What is PPC and how does paid media work? - Modo25",
+                      "description": "PPC stands for pay-per-click. PPC is a form of internet marketing whereby advertisers pay a fee every time one of their ads is clicked on. It can easily be thought of as a way of paying to get people to visit your website.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+              "domain": "www.reportingninja.com",
+              "title": "Advanced PPC Reporting Tool",
+              "url": "https://www.reportingninja.com/ppc-reporting-tool",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.reportingninja.com \u203a ppc-reporting-tool",
+              "website_name": "Reporting Ninja",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "A PPC tool helps advertisers manage, optimize, and automate Pay-Per-Click campaigns. It assists with keyword research, bidding strategies, ad creation, and\u00a0...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "helps advertisers manage, optimize, and automate Pay-Per-Click campaigns"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Good dashboard or tool to track PPC campaigns across ...",
+              "url": "https://www.reddit.com/r/PPC/comments/1iemu87/good_dashboard_or_tool_to_track_ppc_campaigns/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "20+ comments  \u00b7  1 year ago",
+              "website_name": "Reddit\u00a0\u00b7\u00a0r/PPC",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "I'm struggling trying to keep track of campaigns across Google, Meta, LinkedIn, Microsoft, and pretty much everywhere else we're running ads. Looking for ...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": null,
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "What are your recommended reporting tools for PPC ...",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/PPC/comments/vs7axv/what_are_your_recommended_reporting_tools_for_ppc/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Reporting tool for PPC - Reddit",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/PPC/comments/13l0s3s/reporting_tool_for_ppc/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "More results from www.reddit.com",
+                  "description": null,
+                  "url": "https://www.google.com/search?q=ppc+reporting+tool+site:www.reddit.com&sca_esv=89f358ba4e2fcd04&hl=en&gl=US&sa=X&ved=2ahUKEwjRg-KBj7OUAxWiZ0EAHZKhM9wQrQIoAnoECB0QAw",
+                  "domain": "www.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+              "domain": "vidi-corp.com",
+              "title": "Best PPC Reporting Tools - Automate & Optimise Your ...",
+              "url": "https://vidi-corp.com/ppc-reporting-tools/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://vidi-corp.com \u203a ppc-reporting-tools",
+              "website_name": "Vidi Corp",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Oct 8, 2025 \u2014 Top 8 PPC Reporting Tools Reviewed \u00b7 1. Google Analytics (GA4) \u2013 Best For Website Behaviour Analysis \u00b7 2. Looker Studio \u2013 Best For Agencies \u00b7 3. Read more",
+              "pre_snippet": "10/08/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Analytics (GA4) \u2013 Best For Website Behaviour Analysis"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-10-08 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[11]/div[1]/div[1]",
+              "domain": "www.optmyzr.com",
+              "title": "8 PPC Reporting Tools (and What Each Is Actually Good For)",
+              "url": "https://www.optmyzr.com/blog/best-ppc-reporting-tools/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.optmyzr.com \u203a blog \u203a best-ppc-reporting-t...",
+              "website_name": "Optmyzr",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Feb 6, 2026 \u2014 On the lookout for a PPC automation tool? This comprehensive guide breaks down the top tools, covering pricing, key features, and the pros\u00a0...",
+              "pre_snippet": "02/06/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "PPC",
+                "tool",
+                "tools"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-02-06 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[13]/div[1]/div[1]",
+              "domain": "www.swydo.com",
+              "title": "11 Best PPC Reporting Tools for Marketing Agencies in 2026",
+              "url": "https://www.swydo.com/blog/best-ppc-reporting-tools/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.swydo.com \u203a Blog \u203a PPC",
+              "website_name": "Swydo",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Feb 20, 2026 \u2014 The 11 Best PPC Reporting Tools for Agencies in 2026 \u00b7 1. Swydo \u00b7 2. AgencyAnalytics \u00b7 3. Whatagraph \u00b7 4. Optmyzr \u00b7 5. DashThis \u00b7 6. TapClicks. Read more",
+              "pre_snippet": "02/20/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "1. Swydo"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-02-20 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]",
+              "domain": "www.tapclicks.com",
+              "title": "PPC Reporting Tools: Use Cases, Types, and More",
+              "url": "https://www.tapclicks.com/blog/ppc-reporting-software",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.tapclicks.com \u203a ppc-reporting-software",
+              "website_name": "TapClicks",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "You can monitor PPC performance using built-in reporting tools like Google Ads reports or advanced PPC reporting software like TapClicks or Supermetrics. These\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Ads reports"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[17]/div[1]/div[1]",
+              "domain": "whatagraph.com",
+              "title": "Free PPC Report Generator Tool",
+              "url": "https://whatagraph.com/ppc-reporting-tool",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://whatagraph.com \u203a ppc-reporting-tool",
+              "website_name": "Whatagraph",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "What are the best PPC reporting tools? \u00b7 1. Whatagraph \u00b7 2. Looker Studio \u00b7 3. DashThis \u00b7 4. ReportGarden \u00b7 5. AgencyAnalytics \u00b7 6. Swydo: Clean UI, smooth\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "1. Whatagraph"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[19]/div[1]/div[1]",
+              "domain": "www.clickcease.com",
+              "title": "Top 10 PPC Reporting Tools For Your Ad Campaigns",
+              "url": "https://www.clickcease.com/blog/best-ppc-reporting-tools/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.clickcease.com \u203a blog \u203a best-ppc-reporting...",
+              "website_name": "ClickCease",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Jun 28, 2022 \u2014 Aggregate performance metrics, create a report, brand it with your agency's logo, and send it out to clients, all without lifting a finger. Read more",
+              "pre_snippet": "06/28/2022 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Aggregate performance metrics"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Why You Need Ppc Reporting...",
+                  "description": null,
+                  "url": "https://www.clickcease.com/blog/best-ppc-reporting-tools/",
+                  "domain": "www.clickcease.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Our Top 10 Ppc Reporting...",
+                  "description": null,
+                  "url": "https://www.clickcease.com/blog/best-ppc-reporting-tools/",
+                  "domain": "www.clickcease.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "2. Agency Analytics",
+                  "description": null,
+                  "url": "https://www.clickcease.com/blog/best-ppc-reporting-tools/",
+                  "domain": "www.clickcease.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2022-06-28 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[21]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Leadsie",
+                  "title": "The 10 BEST Marketing Agency Reporting Software for SEO ...",
+                  "timestamp": "2026-02-12 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=S461KfdooZE"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 That Amazon Ads Podcast",
+                  "title": "How To Build An Amazon PPC Reporting Dashboard in 2026",
+                  "timestamp": "2025-12-16 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=UrGx3G6Wx2Y"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Coupler\u2024io Academy",
+                  "title": "Your Guide to PPC Analysis",
+                  "timestamp": "2024-09-03 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=s5jyIrl2gow&vl=en"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Ppc reporting tool template",
+                "Ppc reporting tool free",
+                "Best ppc reporting tool",
+                "Ppc reporting tool excel",
+                "PPC io",
+                "Instagram account report tool",
+                "Instagram spam report tool",
+                "Reporting Ninja"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

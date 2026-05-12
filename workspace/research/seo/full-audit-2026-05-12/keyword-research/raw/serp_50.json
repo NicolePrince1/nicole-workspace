@@ -1,0 +1,571 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.3059 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120926-3675-0139-0000-c1be25dd3562",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.2300 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "ga4 reporting tool",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "os": "windows",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "ga4 reporting tool",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=ga4%20reporting%20tool&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-05-12 06:26:59 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "video",
+            "discussions_and_forums",
+            "related_searches"
+          ],
+          "se_results_count": 3760000,
+          "pages_count": 1,
+          "items_count": 13,
+          "items": [
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+              "domain": "workspace.google.com",
+              "title": "GA4 - Reporting for Google Analytics 4",
+              "url": "https://workspace.google.com/marketplace/app/ga4_reporting_for_google_analytics_4/126881055683",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://workspace.google.com \u203a marketplace \u203a app \u203a ga4...",
+              "website_name": "Google Workspace",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Download Google Analytics\u2122 4 data to Google Sheets\u2122. Easily configure, edit and schedule your GA4 reports. Simplify your data analysis process with our\u00a0...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 55,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "Easily configure, edit and schedule your GA4 reports"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is GA4 reporting?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://measureschool.com/google-analytics-4-reports/",
+                      "domain": "measureschool.com",
+                      "title": "Google Analytics 4 Reports [Definitive Guide] - MeasureSchool",
+                      "description": "Analytics tools are designed to gather, process, and visualize vast amounts of data into comprehensive reports. Google Analytics 4 (GA4) is the latest iteration of the free web analytics service by Google. It tracks both website and app traffic and events.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What does GA4 stand for?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Can you see how many times someone has googled you?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "How to automate GA4 reports?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": "Schedule a report",
+                      "url": "https://support.google.com/analytics/answer/13722168?hl=en",
+                      "domain": "support.google.com",
+                      "title": "[GA4] Schedule reports - Analytics Help - Google Help",
+                      "description": "In Google Analytics, select Reports on the left.\nOpen the report you want to send as an email.\nOn the top right of the report, click Share this report > Schedule Email. ...\nComplete the following fields to schedule the emailed report: ...\nClick Save to schedule the email.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+              "domain": "support.google.com",
+              "title": "Overview of Google Analytics reports",
+              "url": "https://support.google.com/analytics/answer/9212670?hl=en",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://support.google.com \u203a analytics \u203a answer",
+              "website_name": "Google Help",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Google Analytics collects data from your websites and apps to create reports that provide insights into your business. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Analytics"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+              "domain": "whatagraph.com",
+              "title": "Free Google Analytics 4 Report Generator Tool",
+              "url": "https://whatagraph.com/google-analytics-4-reporting-tool",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://whatagraph.com \u203a google-analytics-4-reporting-t...",
+              "website_name": "Whatagraph",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Use our Google Analytics (GA4) reporting tool to build engaging reports in minutes and send your clients the latest insights into their website performance.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Analytics (GA4) reporting tool"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Loves Data",
+                  "title": "Explore Standard Reports in Google Analytics 4 (GA4 Tutorial ...",
+                  "timestamp": "2025-10-28 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=a7Z7VW9abVg"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Loves Data",
+                  "title": "Get Started with GA4 Reports \u2013 Google Analytics 4 Tutorial for ...",
+                  "timestamp": "2025-07-14 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=XEwUtEe_ogY"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Loves Data",
+                  "title": "Google Analytics 4 Tutorial (2025) Step-by-Step Training",
+                  "timestamp": "2025-02-13 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=hsIP4iH25Wg"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "discussions_and_forums",
+              "rank_group": 1,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]",
+              "title": "Discussions and forums",
+              "items": [
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "Building a simple GA4 reporting tool \u2013 would you use it?",
+                  "url": "https://www.reddit.com/r/SaaS/comments/1n2z4ng/building_a_simple_ga4_reporting_tool_would_you/",
+                  "domain": "www.reddit.com",
+                  "source": "Reddit",
+                  "description": null,
+                  "timestamp": "2025-09-12 06:26:59 +00:00",
+                  "posts_count": 2
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "Struggling with GA4 Tracking & Data Collection \u2014 Seeking Honest ...",
+                  "url": "https://support.google.com/analytics/thread/400726236/struggling-with-ga4-tracking-data-collection-%E2%80%94-seeking-honest-feedback?hl=en",
+                  "domain": "support.google.com",
+                  "source": "Google Help",
+                  "description": null,
+                  "timestamp": "2026-01-12 06:26:59 +00:00",
+                  "posts_count": 4
+                },
+                {
+                  "type": "discussions_and_forums_element",
+                  "title": "Need help on GA4 custom reports - Google Analytics Community",
+                  "url": "https://support.google.com/analytics/thread/221920867/need-help-on-ga4-custom-reports?hl=en",
+                  "domain": "support.google.com",
+                  "source": "Google Help",
+                  "description": null,
+                  "timestamp": "2024-05-12 06:26:59 +00:00",
+                  "posts_count": 1
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+              "domain": "www.domo.com",
+              "title": "10 Best GA4 Tools in 2026: Platforms for Unified Analytics",
+              "url": "https://www.domo.com/learn/article/best-google-analytics-ga4-tools",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.domo.com \u203a Learn \u203a Articles",
+              "website_name": "Domo",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Jan 12, 2026 \u2014 Supermetrics is a marketing ETL tool that pulls data from GA4 and 100+ other sources into your preferred destination: Sheets, Excel, Looker\u00a0... Read more",
+              "pre_snippet": "01/12/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Supermetrics"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-01-12 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Best user-friendly tools for understanding Google Analytics ...",
+              "url": "https://www.reddit.com/r/GoogleAnalytics/comments/1gjr2q0/best_userfriendly_tools_for_understanding_google/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "20+ comments  \u00b7  1 year ago",
+              "website_name": "Reddit\u00a0\u00b7\u00a0r/GoogleAnalytics",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "for a simpler overview, tools like qwestify could be ideal\u2014it's designed to help break down GA4 data for clear insights on traffic, conversions,\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "qwestify"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "What are you using to supplement for GA4 reporting ...",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/GoogleAnalytics/comments/10r8rzm/what_are_you_using_to_supplement_for_ga4_reporting/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Building a simple GA4 reporting tool \u2013 would you ...",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/microsaas/comments/1n2z4ha/building_a_simple_ga4_reporting_tool_would_you/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "More results from www.reddit.com",
+                  "description": null,
+                  "url": "https://www.google.com/search?q=ga4+reporting+tool+site:www.reddit.com&sca_esv=89f358ba4e2fcd04&hl=en&gl=US&sa=X&ved=2ahUKEwjYmq2aj7OUAxUjh_0HHca5LzAQrQIoAnoECEAQAw",
+                  "domain": "www.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+              "domain": "agencyanalytics.com",
+              "title": "Google Analytics (GA4) Reporting Tool",
+              "url": "https://agencyanalytics.com/integrations/google-analytics",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://agencyanalytics.com \u203a integrations \u203a google-analy...",
+              "website_name": "AgencyAnalytics",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Simplify complex Google Analytics 4 information and quickly create automated reports with the only GA4 reporting tool built for marketing agencies try free\u00a0...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "quickly create automated reports"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[20]/div[1]/div[1]",
+              "domain": "marketingplatform.google.com",
+              "title": "Analytics Tools & Solutions for Your Business",
+              "url": "https://marketingplatform.google.com/about/analytics/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://marketingplatform.google.com \u203a about \u203a analytics",
+              "website_name": "Google",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Google Analytics gives you the tools, free of charge, to understand the customer journey and improve marketing ROI. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Analytics"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[1]/div[2]/div[1]/div[1]/div[22]/div[1]/div[1]",
+              "domain": "help.fareharbor.com",
+              "title": "Introduction to Google Analytics 4 (GA4) Reports",
+              "url": "https://help.fareharbor.com/hc/en-us/articles/40898463183771-Introduction-to-Google-Analytics-4-GA4-Reports",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://help.fareharbor.com \u203a en-us \u203a articles \u203a 4089846...",
+              "website_name": "FareHarbor",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Mar 16, 2026 \u2014 This help page provides information on the types of reports and metrics that you can obtain using Google Analytics 4 (GA4) with FareHarbor. To\u00a0... Read more",
+              "pre_snippet": "03/16/2026 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Google Analytics 4 (GA4"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2026-03-16 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "Ga4 reporting tool free",
+                "Google Analytics",
+                "GA4 Reports Builder",
+                "Ga4 reporting tool download",
+                "Google Tag Manager",
+                "GA4 demo account",
+                "GA4 dashboard",
+                "GA4 reports Builder for Google Analytics"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

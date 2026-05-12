@@ -1,0 +1,729 @@
+{
+  "version": "0.1.20260430",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "2.5375 sec.",
+  "cost": 0.002,
+  "tasks_count": 1,
+  "tasks_error": 0,
+  "tasks": [
+    {
+      "id": "05120926-3675-0139-0000-3275a6a274f0",
+      "status_code": 20000,
+      "status_message": "Ok.",
+      "time": "2.4642 sec.",
+      "cost": 0.002,
+      "result_count": 1,
+      "path": [
+        "v3",
+        "serp",
+        "google",
+        "organic",
+        "live",
+        "advanced"
+      ],
+      "data": {
+        "api": "serp",
+        "function": "live",
+        "se": "google",
+        "se_type": "organic",
+        "keyword": "white label seo audit tool",
+        "location_code": 2840,
+        "language_code": "en",
+        "device": "desktop",
+        "os": "windows",
+        "depth": 10
+      },
+      "result": [
+        {
+          "keyword": "white label seo audit tool",
+          "type": "organic",
+          "se_domain": "google.com",
+          "location_code": 2840,
+          "language_code": "en",
+          "check_url": "https://www.google.com/search?q=white%20label%20seo%20audit%20tool&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+          "datetime": "2026-05-12 06:26:35 +00:00",
+          "spell": null,
+          "refinement_chips": null,
+          "item_types": [
+            "ai_overview",
+            "organic",
+            "people_also_ask",
+            "video",
+            "paid",
+            "related_searches"
+          ],
+          "se_results_count": 1820000,
+          "pages_count": 1,
+          "items_count": 14,
+          "items": [
+            {
+              "type": "organic",
+              "rank_group": 1,
+              "rank_absolute": 1,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+              "domain": "www.seoptimer.com",
+              "title": "White Label SEO Reports for Agencies (with Embed Option)",
+              "url": "https://www.seoptimer.com/white-label/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.seoptimer.com \u203a white-label",
+              "website_name": "SEOptimer",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "This White Label SEO Audit Tool is for you. Get more conversions by showing your customers relevant, actionable information that inspires action. Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Get more conversions"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "ai_overview",
+              "rank_group": 1,
+              "rank_absolute": 2,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]",
+              "asynchronous_ai_overview": true,
+              "markdown": null,
+              "items": null,
+              "references": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 2,
+              "rank_absolute": 3,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[3]/div[1]/div[1]",
+              "domain": "blogtec.io",
+              "title": "The 6 Best White-Label-SEO-Audit-Tools",
+              "url": "https://blogtec.io/blog/seo-audit-white-label-comparison/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://blogtec.io \u203a seo-audit-white-label-comparison",
+              "website_name": "Blogtec",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "The 6 Best White-Label SEO Audit Tools \u00b7 1. SE Ranking \u00b7 2. WebCEO \u00b7 3. SEOptimer \u00b7 4. SiteGuru \u00b7 5. MySiteAuditor \u00b7 6. Serpstat. White Label SEO Audit Tool\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "1. SE Ranking"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Key Takeaways",
+                  "description": null,
+                  "url": "https://blogtec.io/blog/seo-audit-white-label-comparison/#key-takeaways",
+                  "domain": "blogtec.io"
+                },
+                {
+                  "type": "link_element",
+                  "title": "What Is a White-Label SEO...",
+                  "description": null,
+                  "url": "https://blogtec.io/blog/seo-audit-white-label-comparison/#what-is-a-white-label-seo-audit-service",
+                  "domain": "blogtec.io"
+                },
+                {
+                  "type": "link_element",
+                  "title": "The 6 Best White-Label SEO...",
+                  "description": null,
+                  "url": "https://blogtec.io/blog/seo-audit-white-label-comparison/#the-6-best-white-label-seo-audit-tools",
+                  "domain": "blogtec.io"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 3,
+              "rank_absolute": 4,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[5]/div[1]/div[1]",
+              "domain": "sitechecker.pro",
+              "title": "White Label SEO Tool for Audits, Analytics & Reports \u1408",
+              "url": "https://sitechecker.pro/white-label/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://sitechecker.pro \u203a white-label",
+              "website_name": "Sitechecker",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "White label SEO platform to manage SEO campaigns for hundreds of sites, build trust and answer all your customers' questions with data.",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.6,
+                "votes_count": 353,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "manage SEO campaigns for hundreds of sites"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 4,
+              "rank_absolute": 5,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[7]/div[1]/div[1]",
+              "domain": "www.insites.com",
+              "title": "White-label SEO audit tools for resellers and agency ...",
+              "url": "https://www.insites.com/seo-audits-for-resellers",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.insites.com \u203a seo-audits-for-resellers",
+              "website_name": "Insites",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Customise & White label your audit. Design your audit view to reflect what you sell, keeping sales conversations focused and relevant. Plus, add your branding &\u00a0...",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.7,
+                "votes_count": 71,
+                "rating_max": 5
+              },
+              "price": null,
+              "highlighted": [
+                "Customise & White label your audit"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 5,
+              "rank_absolute": 6,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[9]/div[1]/div[1]",
+              "domain": "www.theblogsmith.com",
+              "title": "Top White Label SEO Audit Tools for Your SEO Audit Service",
+              "url": "https://www.theblogsmith.com/blog/white-label-seo-audit-tools-seo-audit-service/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.theblogsmith.com \u203a blog \u203a white-label-seo-...",
+              "website_name": "The Blogsmith",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Aug 29, 2018 \u2014 The best white label SEO audit tools organize the results of a website crawl in a way that helps you understand any glaring issues, with advice for how to fix\u00a0... Read more",
+              "pre_snippet": "08/29/2018 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "organize the results of a website crawl"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2018-08-29 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 6,
+              "rank_absolute": 7,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[11]/div[1]/div[1]",
+              "domain": "www.swydo.com",
+              "title": "Best White Label SEO Tools That Actually Save You ...",
+              "url": "https://www.swydo.com/blog/best-white-label-seo-tools/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.swydo.com \u203a Blog \u203a Comparison Guide",
+              "website_name": "Swydo",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Oct 22, 2025 \u2014 Specialized White Label Audit Tools generate comprehensive technical SEO reports that analyze 100+ site parameters, branded with your identity. Read more",
+              "pre_snippet": "10/22/2025 00:00:00",
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Specialized White Label Audit Tools"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "What White Label SEO Tools...",
+                  "description": null,
+                  "url": "https://www.swydo.com/blog/best-white-label-seo-tools/#what-white-label-seo-tools-actually-are",
+                  "domain": "www.swydo.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "The Top White Label SEO...",
+                  "description": null,
+                  "url": "https://www.swydo.com/blog/best-white-label-seo-tools/#the-top-white-label-seo-tools-for-2025",
+                  "domain": "www.swydo.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": "2025-10-22 00:00:00 +00:00",
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 7,
+              "rank_absolute": 8,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[13]/div[1]/div[1]",
+              "domain": "www.reddit.com",
+              "title": "Any good tools for free white-label SEO reports? Which ...",
+              "url": "https://www.reddit.com/r/Ranktunez/comments/1qj27nu/any_good_tools_for_free_whitelabel_seo_reports/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "2 comments  \u00b7  3 months ago",
+              "website_name": "Reddit\u00a0\u00b7\u00a0r/Ranktunez",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Any good tools for free white-label SEO reports? Which one do you use? \u00b7 Branded client reports \u00b7 Backlink tracking \u00b7 Keyword performance \u00b7 Google\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Branded client reports"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "White label Website Audit : r/SEO - Reddit",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/SEO/comments/1awfqa3/white_label_website_audit/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "How to use white-label SEO audit at Sitechecker (2 ...",
+                  "description": null,
+                  "url": "https://www.reddit.com/r/Sitechecker/comments/1qq77nq/how_to_use_whitelabel_seo_audit_at_sitechecker_2/",
+                  "domain": "www.reddit.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "More results from www.reddit.com",
+                  "description": null,
+                  "url": "https://www.google.com/search?q=white+label+seo+audit+tool+site:www.reddit.com&sca_esv=89f358ba4e2fcd04&hl=en&gl=US&sa=X&ved=2ahUKEwjM79OOj7OUAxW_FmIAHRPqKS8QrQIoAnoECD4QAw",
+                  "domain": "www.google.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 8,
+              "rank_absolute": 9,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[15]/div[1]/div[1]",
+              "domain": "localdominator.co",
+              "title": "White Label Local SEO Reporting Tool",
+              "url": "https://localdominator.co/features/white-label-reports/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://localdominator.co \u203a features \u203a white-label-reports",
+              "website_name": "Local Dominator",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "Local Dominator is the go-to agency SEO reporting tool for marketing pros who need to prove ROI with professional, automated reports. Read more",
+              "pre_snippet": null,
+              "extended_snippet": "4.8(25)  \u00b7 $39.00 \u00b7 \u200eBusiness/Productivity",
+              "images": null,
+              "amp_version": false,
+              "rating": {
+                "rating_type": "Max5",
+                "value": 4.8,
+                "votes_count": 25,
+                "rating_max": 5
+              },
+              "price": {
+                "current": 4.8,
+                "regular": 39,
+                "max_value": null,
+                "currency": "USD",
+                "is_price_range": false,
+                "displayed_price": "4.8 (25) \u00b7 $39.00 \u00b7 \u200eBusiness/Productivity"
+              },
+              "highlighted": [
+                "Local Dominator"
+              ],
+              "links": null,
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "organic",
+              "rank_group": 9,
+              "rank_absolute": 10,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[17]/div[1]/div[1]",
+              "domain": "www.clickintelligence.com",
+              "title": "How to Choose the Best White Label SEO Software for Your ...",
+              "url": "https://www.clickintelligence.com/guides/seo-us/seo-solutions-us/best-white-label-seo-software/",
+              "cache_url": null,
+              "related_search_url": null,
+              "breadcrumb": "https://www.clickintelligence.com \u203a Intelligence Hub",
+              "website_name": "clickintelligence.com",
+              "is_image": false,
+              "is_video": false,
+              "is_featured_snippet": false,
+              "is_malicious": false,
+              "is_web_story": false,
+              "description": "We're serious when we claim Click Insights as the best white label SEO software. It's a powerful tool complete with a wealth of features, fully brandable to\u00a0... Read more",
+              "pre_snippet": null,
+              "extended_snippet": null,
+              "images": null,
+              "amp_version": false,
+              "rating": null,
+              "price": null,
+              "highlighted": [
+                "Click Insights"
+              ],
+              "links": [
+                {
+                  "type": "link_element",
+                  "title": "Chapters",
+                  "description": null,
+                  "url": "https://www.clickintelligence.com/guides/seo-us/seo-solutions-us/best-white-label-seo-software/",
+                  "domain": "www.clickintelligence.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Subscribe To Our Newsletter",
+                  "description": null,
+                  "url": "https://www.clickintelligence.com/guides/seo-us/seo-solutions-us/best-white-label-seo-software/",
+                  "domain": "www.clickintelligence.com"
+                },
+                {
+                  "type": "link_element",
+                  "title": "Share This Guide",
+                  "description": null,
+                  "url": "https://www.clickintelligence.com/guides/seo-us/seo-solutions-us/best-white-label-seo-software/",
+                  "domain": "www.clickintelligence.com"
+                }
+              ],
+              "faq": null,
+              "extended_people_also_search": null,
+              "about_this_result": null,
+              "related_result": null,
+              "timestamp": null,
+              "rectangle": null
+            },
+            {
+              "type": "people_also_ask",
+              "rank_group": 1,
+              "rank_absolute": 11,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[19]/div[1]/div[1]/div[1]",
+              "items": [
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is the best white label SEO software?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[19]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "Can ChatGPT do an SEO audit?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[19]/div[1]/div[1]/div[1]/div[1]/div[2]/div[2]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": null,
+                      "url": "https://mrs.digital/blog/chatgpt-and-seo/",
+                      "domain": "mrs.digital",
+                      "title": "How to use ChatGPT for SEO: Research, Planning & Content",
+                      "description": "Conclusion: ChatGPT is essential to SEO delivery in 2026\n Produce stronger, more comprehensive content that fills gaps. Validate technical audits and cross-check data before they reach clients. Scale metadata tasks safely and efficiently during migrations or large content refreshes.",
+                      "images": null,
+                      "timestamp": null,
+                      "table": null
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What tools are best for an SEO audit?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[19]/div[1]/div[1]/div[1]/div[1]/div[2]/div[3]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_expanded_element",
+                      "featured_title": "The best SEO audit tools at a glance",
+                      "url": "https://zapier.com/blog/best-seo-audit-tools/",
+                      "domain": "zapier.com",
+                      "title": "The 9 best SEO audit tools | Zapier",
+                      "description": null,
+                      "images": null,
+                      "timestamp": null,
+                      "table": {
+                        "table_header": [
+                          "",
+                          "Best for",
+                          "Standout feature"
+                        ],
+                        "table_content": [
+                          [
+                            "Ahrefs",
+                            "Technical auditing",
+                            "Granular analysis categories"
+                          ],
+                          [
+                            "Clearscope",
+                            "On-page optimization",
+                            "AI-based on-page SEO recommendations"
+                          ],
+                          [
+                            "Conductor Website Monitoring",
+                            "Real-time monitoring",
+                            "Continual, 24/7 audit updates"
+                          ],
+                          [
+                            "Google",
+                            "Budget-conscious marketers",
+                            "Free to use, comprehensive data"
+                          ]
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "people_also_ask_element",
+                  "title": "What is white label SEO?",
+                  "seed_question": null,
+                  "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[19]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]",
+                  "expanded_element": [
+                    {
+                      "type": "people_also_ask_ai_overview_expanded_element",
+                      "items": null,
+                      "references": null,
+                      "asynchronous_ai_overview": true
+                    }
+                  ]
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "video",
+              "rank_group": 1,
+              "rank_absolute": 12,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[21]/div[1]",
+              "items": [
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Softtrix",
+                  "title": "White Label SEO Tools | White Label SEO Audit Tools ...",
+                  "timestamp": "2023-07-21 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=zEm9XspgZ1k"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Globital TV",
+                  "title": "5 White Label Quick SEO Audit Tools For Your SEO Agency",
+                  "timestamp": "2023-03-20 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=O4LiNyU3F68"
+                },
+                {
+                  "type": "video_element",
+                  "source": "YouTube \u00b7 Map Ranking",
+                  "title": "White Label SEO Services: How to Scale an Agency From $10 ...",
+                  "timestamp": "2025-09-08 00:00:00 +00:00",
+                  "url": "https://www.youtube.com/watch?v=vhkAZ5B2-B4"
+                }
+              ],
+              "rectangle": null
+            },
+            {
+              "type": "paid",
+              "rank_group": 1,
+              "rank_absolute": 13,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[22]/div[1]/div[1]/div[1]/div[5]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]",
+              "title": "White Label SEO on a budget - Full branding without overpay",
+              "domain": "seranking.com",
+              "website_name": "SE Ranking",
+              "breadcrumb": "https://www.seranking.com \u203a white_label",
+              "is_image": false,
+              "is_video": false,
+              "images": null,
+              "url": "https://seranking.com/se-ranking-for-agencies.html",
+              "highlighted": null,
+              "extra": {
+                "ad_aclk": "DChsSEwiD2ueOj7OUAxXhakcBHcE7JNsYACICCAIQABoCcXU"
+              },
+              "description": "Get a complete White Label SEO suite at a fraction of the cost. Stay within your budget!",
+              "description_rows": null,
+              "links": [
+                {
+                  "type": "ad_link_element",
+                  "title": "Build White Label SEO reports",
+                  "description": null,
+                  "url": "https://seranking.com/se-ranking-for-agencies.html",
+                  "domain": null,
+                  "ad_aclk": "DChsSEwiD2ueOj7OUAxXhakcBHcE7JNsYACICCAIQARoCcXU"
+                },
+                {
+                  "type": "ad_link_element",
+                  "title": "Try White Label\u2014start free",
+                  "description": null,
+                  "url": "https://google.com/aclk?sa=L&ai=DChsSEwiD2ueOj7OUAxXhakcBHcE7JNsYACICCAIQBBoCcXU",
+                  "domain": null,
+                  "ad_aclk": "DChsSEwiD2ueOj7OUAxXhakcBHcE7JNsYACICCAIQBBoCcXU"
+                },
+                {
+                  "type": "ad_link_element",
+                  "title": "Website SEO audit",
+                  "description": null,
+                  "url": "https://seranking.com/website-audit.html",
+                  "domain": null,
+                  "ad_aclk": "DChsSEwiD2ueOj7OUAxXhakcBHcE7JNsYACICCAIQAhoCcXU"
+                },
+                {
+                  "type": "ad_link_element",
+                  "title": "Yahoo rank checker",
+                  "description": null,
+                  "url": "https://seranking.com/yahoo-position-tracking.html",
+                  "domain": null,
+                  "ad_aclk": "DChsSEwiD2ueOj7OUAxXhakcBHcE7JNsYACICCAIQAxoCcXU"
+                }
+              ],
+              "price": null,
+              "rating": null,
+              "rectangle": null
+            },
+            {
+              "type": "related_searches",
+              "rank_group": 1,
+              "rank_absolute": 14,
+              "page": 1,
+              "position": "left",
+              "xpath": "/html[1]/body[1]/div[3]/div[1]/div[12]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+              "items": [
+                "White label seo audit tool free",
+                "White label seo audit tool pdf",
+                "Best white label seo audit tool",
+                "Best SEO audit tool",
+                "SEO audit checklist",
+                "SEO tracking tools",
+                "SEO audit template",
+                "What is SEO audit"
+              ],
+              "rectangle": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
