@@ -82,6 +82,7 @@
 - Early Oviond design demos established a durable workflow lesson: use Gemini/Nano Banana mainly for concept, composition, and brand-feel generation, then prefer text-free or overlay-safe outputs over trusting the model with important final marketing copy.
 - Oviond blog covers should currently bias toward product-preview aesthetics rather than pure abstract covers, especially layered report architecture, emerging UI from white space, and elegant detail-window treatments.
 - OpenClaw is running in an AlphaClaw-managed Railway deployment. For upgrades and operational changes, treat AlphaClaw plus Railway as the live runtime context and verify gateway health after changes.
+- On 2026-05-19 Chris decided to stop considering a Hermes migration because it is too complex for the expected gain. Standing platform direction: stay inside OpenClaw and make Nicole's current setup excellent, reliable, and polished instead of paying migration tax.
 
 ## Additional durable operating context
 
@@ -97,3 +98,13 @@
 
 - Local operator details, helper paths, wrapper commands, and implementation notes live in `TOOLS.md`.
 - Secret material must never be stored in tracked workspace files; keep only references to approved secret storage locations.
+
+## Promoted From Short-Term Memory (2026-05-10)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-04-12.md:1:10 -->
+- # 2026-04-12 ## South Africa Google Ads report pack surfaced a pause and signal-quality concern - Ran the scheduled South Africa Google Ads report pack for Chris. - Google Ads read access was working for MCC `6387956297` into account `2906154258`. - The auth doctor still showed non-blocking GCP permission warnings on cloud metadata / service-state checks, but target-account and manager-linkage queries were working. - The first important live finding was that the South Africa Search campaign was paused. - The core judgment for the review was to separate real free-trial signal from cheap traffic noise before calling the account healthy. [score=0.875 recalls=5 avg=0.432 source=memory/2026-04-12.md:1-10]
+
+## Promoted From Short-Term Memory (2026-05-13)
+
+<!-- openclaw-memory-promotion:memory:memory/dream-reviews/2026-04-14.md:432:436 -->
+- - 4. deeper product retention work around activation, client-ready report confidence, and integration stability - Important cohort pattern: Small Agency Monthly and some legacy monthly plan families appear especially fragile. - Important strategic interpretation: Oviond likely has a durable-value / stickiness problem, not just a pricing problem. ## Deep GA4 audit: what the property is really telling us - GA4 property `Oviond Website + App` is not a clean marketing-site property. It combines: - `www.oviond.com` marketing traffic - `v2.oviond.com` product/app usage - many white-label customer report domains - some localhost/dev traffic - This means top-level GA4 channel, country, lan [confidence=0.64 evidence=memory/2026-04-04.md:21-39] - # 2026-03-09 ## Identity and operating context established - Chris named the assistant Nicole Prince. - Nicole Prince's role is VP of Marketing at Oviond. - Core mandate: handle marketing, strategy, delivery, and deep research into Oviond. - Oviond is a B2B SaaS reporting platform built primarily for agencies. - Positioning direction: simple, clear, easy, uncluttered reporting for agencies; quick to set up and easy to forget. - GTM is mostly self-serve SaaS with some sales-led handling for larger accounts. - Ideal customer: small to medium-sized marketing agencies. - Common switch sources: manual reporting, AgencyAnalytics, Looker Studio, Swydo, and similar tools. - Customers choose Oviond [confidence=0.64 evidence=memory/2026-03-09.md:1-26] <!-- openclaw:dreaming:rem:end --> ## Google Ads follow-up locked in [score=0.943 recalls=11 avg=0.413 source=memory/dream-reviews/2026-04-14.md:432-436]
