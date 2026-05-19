@@ -1,11 +1,11 @@
 {
   "meta": {
-    "lastTouchedVersion": "2026.5.2",
-    "lastTouchedAt": "2026-05-05T06:06:51.336Z"
+    "lastTouchedVersion": "2026.5.6",
+    "lastTouchedAt": "2026-05-19T11:28:35.208Z"
   },
   "wizard": {
-    "lastRunAt": "2026-04-08T11:16:45.720Z",
-    "lastRunVersion": "2026.4.8",
+    "lastRunAt": "2026-05-12T05:56:18.845Z",
+    "lastRunVersion": "2026.5.6",
     "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
@@ -55,13 +55,19 @@
         }
       },
       "auto": "inbound"
+    },
+    "groupChat": {
+      "visibleReplies": "message_tool"
     }
   },
   "commands": {
     "native": "auto",
     "nativeSkills": "auto",
     "restart": true,
-    "ownerDisplay": "raw"
+    "ownerDisplay": "raw",
+    "ownerAllowFrom": [
+      "telegram:5810523015"
+    ]
   },
   "session": {
     "dmScope": "per-channel-peer"
@@ -126,6 +132,137 @@
   "skills": {
     "install": {
       "nodeManager": "npm"
+    },
+    "entries": {
+      "1password": {
+        "enabled": false
+      },
+      "apple-notes": {
+        "enabled": false
+      },
+      "apple-reminders": {
+        "enabled": false
+      },
+      "bear-notes": {
+        "enabled": false
+      },
+      "blogwatcher": {
+        "enabled": false
+      },
+      "blucli": {
+        "enabled": false
+      },
+      "bluebubbles": {
+        "enabled": false
+      },
+      "camsnap": {
+        "enabled": false
+      },
+      "clawhub": {
+        "enabled": false
+      },
+      "coding-agent": {
+        "enabled": false
+      },
+      "discord": {
+        "enabled": false
+      },
+      "eightctl": {
+        "enabled": false
+      },
+      "gemini": {
+        "enabled": false
+      },
+      "gh-issues": {
+        "enabled": false
+      },
+      "gifgrep": {
+        "enabled": false
+      },
+      "github": {
+        "enabled": false
+      },
+      "goplaces": {
+        "enabled": false
+      },
+      "himalaya": {
+        "enabled": false
+      },
+      "imsg": {
+        "enabled": false
+      },
+      "mcporter": {
+        "enabled": false
+      },
+      "model-usage": {
+        "enabled": false
+      },
+      "nano-pdf": {
+        "enabled": false
+      },
+      "notion": {
+        "enabled": false
+      },
+      "obsidian": {
+        "enabled": false
+      },
+      "openai-whisper": {
+        "enabled": false
+      },
+      "openhue": {
+        "enabled": false
+      },
+      "oracle": {
+        "enabled": false
+      },
+      "ordercli": {
+        "enabled": false
+      },
+      "peekaboo": {
+        "enabled": false
+      },
+      "sag": {
+        "enabled": false
+      },
+      "session-logs": {
+        "enabled": false
+      },
+      "sherpa-onnx-tts": {
+        "enabled": false
+      },
+      "songsee": {
+        "enabled": false
+      },
+      "sonoscli": {
+        "enabled": false
+      },
+      "spotify-player": {
+        "enabled": false
+      },
+      "summarize": {
+        "enabled": false
+      },
+      "things-mac": {
+        "enabled": false
+      },
+      "tmux": {
+        "enabled": false
+      },
+      "trello": {
+        "enabled": false
+      },
+      "video-frames": {
+        "enabled": false
+      },
+      "voice-call": {
+        "enabled": false
+      },
+      "wacli": {
+        "enabled": false
+      },
+      "xurl": {
+        "enabled": false
+      }
     }
   },
   "plugins": {
@@ -175,13 +312,22 @@
         },
         "enabled": true
       }
-    }
+    },
+    "bundledDiscovery": "compat"
   },
   "auth": {
     "profiles": {
       "openai-codex:codex-cli": {
         "provider": "openai-codex",
         "mode": "oauth"
+      },
+      "openai:default": {
+        "provider": "openai",
+        "mode": "api_key"
+      },
+      "google:default": {
+        "provider": "google",
+        "mode": "api_key"
       }
     }
   }
