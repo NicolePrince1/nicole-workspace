@@ -182,17 +182,20 @@ For every pass, capture:
 - Expected vs actual result.
 - Suggested fix.
 
-## Current open blocker baseline — first pass
+## Current retest baseline — Retest Pass 2
 
-From the 2026-05-21 QA pass:
+From the 2026-05-21 Retest Pass 2:
 
-1. P0 — Onboarding ends with `Template not found` and partial state creation.
-2. P1 — Default dashboard opens blank with no empty/error state.
-3. P1 — Mobile layout is not launch-ready.
-4. P1 — Billing shows `null - 5 Clients` and confusing trial copy.
-5. P2 — Direct top-level routes are misread as client IDs.
-6. P2 — Template preview triggers missing theme 404.
-7. P2 — Template library contains duplicate-looking templates.
+1. PASS — Account deletion worked and returned to sign-in with `Account deleted`.
+2. PASS — Fresh onboarding completed without the previous `Template not found` failure.
+3. PASS — Default Digital Marketing Dashboard rendered demo content instead of blank state.
+4. P1 — Mobile layout is still not launch-ready; desktop navigation remains visible on mobile.
+5. P1 — Billing still shows `null - 5 Clients` and confusing trial/renewal copy.
+6. P2 — Direct top-level routes are still misread as client IDs.
+7. P2 — Template preview still triggers a missing theme 404.
+8. P2 — Template library still contains duplicate-looking templates.
+9. P2/P3 — Dashboard/chart container warnings appear in console.
+10. P3 — Several dialogs have missing accessibility descriptions.
 
 ## Launch gate
 
