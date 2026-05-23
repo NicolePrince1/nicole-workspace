@@ -1,0 +1,256 @@
+# Oviond
+
+## Docs
+
+- [Delete Account](https://docs.oviond.com/account/delete.md): Permanently delete your Oviond account and all associated data.
+- [Account](https://docs.oviond.com/account/overview.md): Your Oviond account — the agency workspace that holds every client, project, and team member.
+- [Usage](https://docs.oviond.com/account/usage.md): See what your agency has used against your plan's limits.
+- [Activity Log](https://docs.oviond.com/activity-log/overview.md): Audit every meaningful action taken in your account.
+- [Add Project](https://docs.oviond.com/agency/add.md): Create an account-level agency report or dashboard.
+- [Archive Project](https://docs.oviond.com/agency/archive.md): Soft-delete an agency report with full restore within the retention window.
+- [Bulk Delete](https://docs.oviond.com/agency/bulk-delete.md): Remove multiple agency reports at once.
+- [Duplicate Project](https://docs.oviond.com/agency/duplicate.md): Copy an agency report — pages, widgets, and settings — under a new name.
+- [List Projects](https://docs.oviond.com/agency/list.md): Browse every account-level agency report.
+- [Pages](https://docs.oviond.com/agency/pages.md): Organize an agency report into tabs — one page per section.
+- [Share Project](https://docs.oviond.com/agency/share.md): Publish an agency report via a shareable public link.
+- [Update Project](https://docs.oviond.com/agency/update.md): Rename and configure settings on an agency report.
+- [Widgets](https://docs.oviond.com/agency/widgets.md): Charts, KPI tiles, tables, and text blocks that populate every page of an agency report.
+- [Add API Key](https://docs.oviond.com/api-keys/add.md): Generate a new API key to authenticate REST API calls.
+- [Delete API Key](https://docs.oviond.com/api-keys/delete.md): Permanently remove an API key from the list.
+- [List API Keys](https://docs.oviond.com/api-keys/list.md): Every API key issued for your Oviond account.
+- [Revoke API Key](https://docs.oviond.com/api-keys/revoke.md): Immediately disable an API key without deleting its audit record.
+- [Delete Account](https://docs.oviond.com/api/account/delete-account.md): Irreversible. Cancels the active Stripe subscription, deletes all data across every table for this account, removes all team members from the users table, purges all S3 media files, and deletes all Supabase Auth users. Requires the account owner's current password as a confirmation gate.
+- [Get Account](https://docs.oviond.com/api/account/get-account.md): Get the accounts row for the current account
+- [Get Account Usage](https://docs.oviond.com/api/account/get-account-usage.md): Get account usage statistics vs plan limits
+- [List Activity](https://docs.oviond.com/api/activity/list-activity.md): List activity logs for the current account
+- [Delete Permanently](https://docs.oviond.com/api/archive/delete-permanently.md): Permanently delete archived items
+- [Get Archive Counts](https://docs.oviond.com/api/archive/get-archive-counts.md): Archived item counts per type
+- [List Archive](https://docs.oviond.com/api/archive/list-archive.md): List archived items (paginated)
+- [Restore Items](https://docs.oviond.com/api/archive/restore-items.md): Restore soft-deleted items
+- [Create Asset](https://docs.oviond.com/api/assets/create-asset.md): Create a new asset
+- [Delete Asset](https://docs.oviond.com/api/assets/delete-asset.md): Delete an asset
+- [Duplicate Asset](https://docs.oviond.com/api/assets/duplicate-asset.md): Duplicate an asset with a new name
+- [Get Asset](https://docs.oviond.com/api/assets/get-asset.md): Get a single asset by ID
+- [List Asset Tags](https://docs.oviond.com/api/assets/list-asset-tags.md): List all unique tags across assets for the current account
+- [List Asset Widgets](https://docs.oviond.com/api/assets/list-asset-widgets.md): List the widgets that belong to an asset
+- [List Assets](https://docs.oviond.com/api/assets/list-assets.md): List assets for the current account
+- [Update Asset](https://docs.oviond.com/api/assets/update-asset.md): Update an asset
+- [Bulk Delete Automations](https://docs.oviond.com/api/automations/bulk-delete-automations.md): Soft-delete multiple automations and remove them from the cron scheduler
+- [Create Automation](https://docs.oviond.com/api/automations/create-automation.md): Create a new automation for a project
+- [Delete Automation](https://docs.oviond.com/api/automations/delete-automation.md): Soft-delete an automation and remove it from the cron scheduler
+- [Get Automation History](https://docs.oviond.com/api/automations/get-automation-history.md): Get execution history for an automation
+- [List Automations](https://docs.oviond.com/api/automations/list-automations.md): List automations across all projects for the current account
+- [Pause Automation](https://docs.oviond.com/api/automations/pause-automation.md): Pause an automation (removes the cron job but retains the config)
+- [Test Automation](https://docs.oviond.com/api/automations/test-automation.md): Trigger a test execution of an automation
+- [Unpause Automation](https://docs.oviond.com/api/automations/unpause-automation.md): Resume a paused automation (re-registers the cron job)
+- [Update Automation](https://docs.oviond.com/api/automations/update-automation.md): Update automation schedule and notification settings
+- [List Invoices](https://docs.oviond.com/api/billing/list-invoices.md): List Stripe invoices for a customer
+- [List Plans](https://docs.oviond.com/api/billing/list-plans.md): List available subscription plans from Stripe
+- [Get Branding](https://docs.oviond.com/api/branding/get-branding.md): Get branding settings
+- [Update Branding](https://docs.oviond.com/api/branding/update-branding.md): Update branding settings
+- [Create Calculated Metric](https://docs.oviond.com/api/calculated-metrics/create-calculated-metric.md): Create a new calculated metric
+- [Delete Calculated Metric](https://docs.oviond.com/api/calculated-metrics/delete-calculated-metric.md): Delete a calculated metric
+- [Duplicate Calculated Metric](https://docs.oviond.com/api/calculated-metrics/duplicate-calculated-metric.md): Duplicate a calculated metric
+- [List Calculated Metrics](https://docs.oviond.com/api/calculated-metrics/list-calculated-metrics.md): List all calculated metrics for the current account
+- [Update Calculated Metric](https://docs.oviond.com/api/calculated-metrics/update-calculated-metric.md): Update a calculated metric
+- [Bulk Delete Clients](https://docs.oviond.com/api/clients/bulk-delete-clients.md): Delete multiple clients by ID
+- [Count Clients](https://docs.oviond.com/api/clients/count-clients.md): Count total clients for the current account
+- [Create Client](https://docs.oviond.com/api/clients/create-client.md): Create a new client
+- [Delete Client](https://docs.oviond.com/api/clients/delete-client.md): Delete a client and all its associated projects and widgets
+- [Get Client](https://docs.oviond.com/api/clients/get-client.md): Get a single client by ID
+- [List All Clients](https://docs.oviond.com/api/clients/list-all-clients.md): List all clients with optional field selection
+- [List Client Integrations](https://docs.oviond.com/api/clients/list-client-integrations.md): List integrations connected to a client
+- [List Clients](https://docs.oviond.com/api/clients/list-clients.md): List clients for the current account
+- [Move Client Folder](https://docs.oviond.com/api/clients/move-client-folder.md): Move a client to one or more folders
+- [Refresh Screenshot](https://docs.oviond.com/api/clients/refresh-screenshot.md): Re-fetches the screenshot synchronously using the client's stored website and returns the new URL. Use this for user-triggered refresh on the dashboard card.
+- [Update Client](https://docs.oviond.com/api/clients/update-client.md): Update a client
+- [Get Company](https://docs.oviond.com/api/company/get-company.md): Get company settings for the current account
+- [Update Company](https://docs.oviond.com/api/company/update-company.md): Update company settings
+- [Create Custom Data](https://docs.oviond.com/api/custom-data/create-custom-data.md): Create a new custom dataset (max 10,000 rows)
+- [Delete Custom Data](https://docs.oviond.com/api/custom-data/delete-custom-data.md): Delete a custom dataset
+- [Duplicate Custom Data](https://docs.oviond.com/api/custom-data/duplicate-custom-data.md): Duplicate a custom dataset
+- [Get Custom Data](https://docs.oviond.com/api/custom-data/get-custom-data.md): Get a single custom dataset by ID (includes raw_data)
+- [List Custom Data](https://docs.oviond.com/api/custom-data/list-custom-data.md): List custom datasets for the current account (no raw_data)
+- [Update Custom Data](https://docs.oviond.com/api/custom-data/update-custom-data.md): Update a custom dataset
+- [Fetch Resource Data](https://docs.oviond.com/api/data/fetch-resource-data.md): Proxy a resource data fetch (campaigns, videos, etc.) to api.oviond.com
+- [List Integration Accounts](https://docs.oviond.com/api/data/list-integration-accounts.md): Proxy an integration accounts listing to api.oviond.com
+- [Query Data](https://docs.oviond.com/api/data/query-data.md): Proxy an integration data query to api.oviond.com
+- [Test Connection](https://docs.oviond.com/api/data/test-connection.md): Proxy an integration connection test to api.oviond.com
+- [Add Email Domain](https://docs.oviond.com/api/email/add-email-domain.md): Add and register a sending domain with Resend
+- [Add Email Sender](https://docs.oviond.com/api/email/add-email-sender.md): Add a sender to the email setup configuration
+- [Delete Email Domain](https://docs.oviond.com/api/email/delete-email-domain.md): Remove a sending domain from Resend and the account config
+- [Delete SMTP Config](https://docs.oviond.com/api/email/delete-smtp-config.md): Remove SMTP configuration from the account
+- [Get Email Setup](https://docs.oviond.com/api/email/get-email-setup.md): Get email setup configuration for the current account
+- [List Email Logs](https://docs.oviond.com/api/email/list-email-logs.md): Get email logs
+- [Queue Emails](https://docs.oviond.com/api/email/queue-emails.md): Enqueue a batch of emails to SQS for async delivery, falling back to direct Resend when SQS is not configured
+- [Send Email](https://docs.oviond.com/api/email/send-email.md): Send a transactional email via Resend
+- [Test SMTP](https://docs.oviond.com/api/email/test-smtp.md): Send a test email using the account SMTP configuration
+- [Update Email Setup](https://docs.oviond.com/api/email/update-email-setup.md): Update email setup configuration
+- [Update SMTP Config](https://docs.oviond.com/api/email/update-smtp-config.md): Store SMTP configuration for the account
+- [Verify Email Domain](https://docs.oviond.com/api/email/verify-email-domain.md): Trigger domain DNS verification check with Resend
+- [Create Folder](https://docs.oviond.com/api/folders/create-folder.md): Create a new client folder
+- [Delete Folder](https://docs.oviond.com/api/folders/delete-folder.md): Delete a client folder and unassign all clients from it
+- [List Folders](https://docs.oviond.com/api/folders/list-folders.md): List all client folders for the current account
+- [Update Folder](https://docs.oviond.com/api/folders/update-folder.md): Rename a client folder
+- [Health Check](https://docs.oviond.com/api/health/health-check.md)
+- [Delete Integration](https://docs.oviond.com/api/integrations/delete-integration.md): Delete an integration auth entry
+- [Delete Profile](https://docs.oviond.com/api/integrations/delete-profile.md): Delete an auth connection
+- [Link Datasource](https://docs.oviond.com/api/integrations/link-datasource.md): Link a datasource to a client
+- [List All Profiles](https://docs.oviond.com/api/integrations/list-all-profiles.md): List all auth profiles for every integration
+- [List Integration Profiles](https://docs.oviond.com/api/integrations/list-integration-profiles.md): List auth profiles for a specific integration
+- [List Integrations](https://docs.oviond.com/api/integrations/list-integrations.md): List all OAuth integrations stored for the current account
+- [Rename Integration](https://docs.oviond.com/api/integrations/rename-integration.md): Rename an integration auth entry
+- [Rename Profile](https://docs.oviond.com/api/integrations/rename-profile.md): Rename an auth connection
+- [Test Auth Connection](https://docs.oviond.com/api/integrations/test-auth-connection.md): Test whether a stored auth connection is valid
+- [Unlink Datasource](https://docs.oviond.com/api/integrations/unlink-datasource.md): Unlink a datasource from a client
+- [Update Client Integrations](https://docs.oviond.com/api/integrations/update-client-integrations.md): Replace the integration rows for a client in client_integrations
+- [Overview](https://docs.oviond.com/api/introduction.md): Explore the Oviond REST API. Authenticate with a Bearer token, manage reports, integrations, automations, and access public shared report data.
+- [Bulk Delete Media](https://docs.oviond.com/api/media/bulk-delete-media.md): Soft-delete multiple media items.
+- [Create Media Folder](https://docs.oviond.com/api/media/create-media-folder.md): Create a new media folder.
+- [Delete Media](https://docs.oviond.com/api/media/delete-media.md): Soft-delete a media item. The underlying file is retained in S3 for potential restore.
+- [Delete Media Folder](https://docs.oviond.com/api/media/delete-media-folder.md): Delete a media folder. Media items in the folder are not deleted.
+- [Group Media](https://docs.oviond.com/api/media/group-media.md): Move multiple media items to a folder
+- [List Media](https://docs.oviond.com/api/media/list-media.md): List media assets for the current account (paginated)
+- [List Media Folders](https://docs.oviond.com/api/media/list-media-folders.md): List media folders for the current account.
+- [Rename Media Folder](https://docs.oviond.com/api/media/rename-media-folder.md): Rename a media folder.
+- [Update Media](https://docs.oviond.com/api/media/update-media.md): Update media metadata (e.g. rename).
+- [Create Page](https://docs.oviond.com/api/pages/create-page.md): Create a page on a project or template.
+- [Delete Page](https://docs.oviond.com/api/pages/delete-page.md): Delete a page.
+- [List Pages](https://docs.oviond.com/api/pages/list-pages.md): List pages for a project or template.
+- [Update Page](https://docs.oviond.com/api/pages/update-page.md): Update a page.
+- [Generate PDF](https://docs.oviond.com/api/pdf/generate-pdf.md): Enqueue a PDF generation job for a report.
+- [Get PDF Status](https://docs.oviond.com/api/pdf/get-pdf-status.md): Poll the status of a PDF generation job.
+- [Bulk Delete Projects](https://docs.oviond.com/api/projects/bulk-delete-projects.md): Delete multiple projects by ID.
+- [Create Project](https://docs.oviond.com/api/projects/create-project.md): Create a new project.
+- [Delete PDF Notification](https://docs.oviond.com/api/projects/delete-pdf-notification.md): Remove a PDF notification entry from a project.
+- [Delete Project](https://docs.oviond.com/api/projects/delete-project.md): Delete a project and all its widgets.
+- [Duplicate Project](https://docs.oviond.com/api/projects/duplicate-project.md): Duplicate a project — deep copy of pages, widgets, and settings.
+- [Get Project](https://docs.oviond.com/api/projects/get-project.md): Get a single project by ID.
+- [List All Projects](https://docs.oviond.com/api/projects/list-all-projects.md): List all projects (id + name only) for dropdown selectors.
+- [List Projects](https://docs.oviond.com/api/projects/list-projects.md): List projects for the current account (optionally filtered by client).
+- [Update Project](https://docs.oviond.com/api/projects/update-project.md): Update a project.
+- [Create Saved Metric](https://docs.oviond.com/api/saved-metrics/create-saved-metric.md): Create a new saved metric.
+- [Delete Saved Metric](https://docs.oviond.com/api/saved-metrics/delete-saved-metric.md): Delete a saved metric.
+- [Duplicate Saved Metric](https://docs.oviond.com/api/saved-metrics/duplicate-saved-metric.md): Clone a saved metric.
+- [List Saved Metrics](https://docs.oviond.com/api/saved-metrics/list-saved-metrics.md): List all saved metrics for the current account.
+- [Update Saved Metric](https://docs.oviond.com/api/saved-metrics/update-saved-metric.md): Update a saved metric.
+- [Search](https://docs.oviond.com/api/search/search.md): Search clients and projects by name (powers the command palette).
+- [Create Template](https://docs.oviond.com/api/templates/create-template.md): Create a new template, optionally copying pages and widgets from a project.
+- [Delete Template](https://docs.oviond.com/api/templates/delete-template.md): Delete a template.
+- [Get Template](https://docs.oviond.com/api/templates/get-template.md): Get a single template by ID.
+- [List Templates](https://docs.oviond.com/api/templates/list-templates.md): List templates for the current account.
+- [Update Template](https://docs.oviond.com/api/templates/update-template.md): Update a template.
+- [Create Theme](https://docs.oviond.com/api/themes/create-theme.md): Create a new theme.
+- [Delete Theme](https://docs.oviond.com/api/themes/delete-theme.md): Delete a theme.
+- [Get Theme](https://docs.oviond.com/api/themes/get-theme.md): Get a single theme by ID.
+- [List Themes](https://docs.oviond.com/api/themes/list-themes.md): List themes for the current account.
+- [Update Theme](https://docs.oviond.com/api/themes/update-theme.md): Update a theme.
+- [Change Email](https://docs.oviond.com/api/users/change-email.md): Change the current user email address.
+- [Delete User](https://docs.oviond.com/api/users/delete-user.md): Remove a team member from the account.
+- [Get User](https://docs.oviond.com/api/users/get-user.md): Get the currently authenticated user profile.
+- [Invite User](https://docs.oviond.com/api/users/invite-user.md): Invite a new user to the account.
+- [List Users](https://docs.oviond.com/api/users/list-users.md): List all team members for the authenticated account.
+- [Update Avatar](https://docs.oviond.com/api/users/update-avatar.md): Update the current user profile picture.
+- [Update Profile](https://docs.oviond.com/api/users/update-profile.md): Update the current user profile name, language, and theme.
+- [Update User](https://docs.oviond.com/api/users/update-user.md): Edit a team member (role, allowed projects, name).
+- [Add Domain](https://docs.oviond.com/api/white-label/add-domain.md): Add a custom domain. Detects the DNS provider and registers the domain on Vercel.
+- [Check Domain Status](https://docs.oviond.com/api/white-label/check-domain-status.md): Check domain verification status via Vercel.
+- [Delete Domain](https://docs.oviond.com/api/white-label/delete-domain.md): Remove a custom domain.
+- [List Domains](https://docs.oviond.com/api/white-label/list-domains.md): List custom domains for the current account.
+- [Bulk Delete Widgets](https://docs.oviond.com/api/widgets/bulk-delete-widgets.md): Delete multiple widgets by ID.
+- [Create Widgets](https://docs.oviond.com/api/widgets/create-widgets.md): Batch create widgets via upsert.
+- [Delete Widget](https://docs.oviond.com/api/widgets/delete-widget.md): Delete a single widget by ID.
+- [Get Widget](https://docs.oviond.com/api/widgets/get-widget.md): Get a single widget by ID.
+- [List Widget IDs](https://docs.oviond.com/api/widgets/list-widget-ids.md): Get widget IDs for a source.
+- [List Widgets](https://docs.oviond.com/api/widgets/list-widgets.md): List widgets for a source.
+- [Update Widget](https://docs.oviond.com/api/widgets/update-widget.md): Update a single widget (partial update).
+- [Permanently Delete](https://docs.oviond.com/archive/delete.md): Remove archived items from your account forever.
+- [Restore](https://docs.oviond.com/archive/restore.md): Bring a soft-deleted item back to your active workspace.
+- [View Archive](https://docs.oviond.com/archive/view.md): Browse every soft-deleted client, project, and media item.
+- [Authentication](https://docs.oviond.com/authentication.md): Oviond authenticates API requests with Bearer tokens. Learn how to generate an API key, set the Authorization header, and handle auth errors.
+- [Add Automation](https://docs.oviond.com/automations/add.md): Schedule a report or dashboard for recurring email delivery.
+- [Delete Automation](https://docs.oviond.com/automations/delete.md): Permanently remove a scheduled delivery.
+- [Email Delivery](https://docs.oviond.com/automations/email.md): Configure subject, sender, and body of automation emails.
+- [Run History](https://docs.oviond.com/automations/history.md): See every past run of an automation and its status.
+- [List Automations](https://docs.oviond.com/automations/list.md): View, pause, or edit every scheduled delivery.
+- [PDF Export](https://docs.oviond.com/automations/pdf.md): Generate a PDF from a report — on demand or attached to an automation.
+- [Scheduled Delivery](https://docs.oviond.com/automations/scheduled.md): Set the cadence, day, and time an automation fires.
+- [Test Automation](https://docs.oviond.com/automations/test.md): Send an automation immediately to verify its content.
+- [Invoices](https://docs.oviond.com/billing/invoices.md): Download every past invoice for your Oviond subscription.
+- [Plans](https://docs.oviond.com/billing/plans.md): Compare Oviond subscription plans and what's included at each tier.
+- [Subscription](https://docs.oviond.com/billing/subscription.md): Change plan, update payment method, or cancel your Oviond subscription.
+- [April 2026](https://docs.oviond.com/changelog/2026-04.md): Release notes for the Oviond REST API.
+- [Create a Client](https://docs.oviond.com/clients/add.md): Add a new client workspace in a few fields.
+- [Archive Client](https://docs.oviond.com/clients/archive.md): Soft-delete a client with full recovery within the retention window.
+- [Bulk Delete](https://docs.oviond.com/clients/bulk-delete.md): Remove multiple clients at once from your workspace.
+- [Group Clients](https://docs.oviond.com/clients/folders.md): Group clients into folders to keep a large client list navigable.
+- [List Clients](https://docs.oviond.com/clients/list.md): View and filter every client in your workspace.
+- [Customize Report Branding and Appearance](https://docs.oviond.com/company/branding.md): Apply your agency's color palette, fonts, and logo to all client-facing Oviond reports. Use the live preview mode to review changes before saving.
+- [Company](https://docs.oviond.com/company/overview.md): Your agency's identity across every report and email.
+- [Delete Custom Data](https://docs.oviond.com/custom-data/delete.md): Permanently remove an uploaded CSV dataset.
+- [Duplicate Custom Data](https://docs.oviond.com/custom-data/duplicate.md): Copy a dataset under a new name.
+- [List Custom Data](https://docs.oviond.com/custom-data/list.md): Every CSV dataset uploaded to your account.
+- [Update Custom Data](https://docs.oviond.com/custom-data/update.md): Refresh a dataset by re-uploading its CSV.
+- [Upload Custom Data](https://docs.oviond.com/custom-data/upload.md): Upload a CSV dataset to report on data that doesn't live in a connected integration.
+- [Add Domain](https://docs.oviond.com/custom-domains/add.md): Register a custom domain so shared reports load under your agency's URL.
+- [Delete Domain](https://docs.oviond.com/custom-domains/delete.md): Remove a custom domain from your account.
+- [List Domains](https://docs.oviond.com/custom-domains/list.md): Every custom domain registered to your Oviond account.
+- [Verify Domain](https://docs.oviond.com/custom-domains/verify.md): Confirm DNS records are live so your custom domain activates.
+- [Connect](https://docs.oviond.com/data-sources/connect.md): Authorize Oviond to pull data from Google Ads, Facebook, and 30+ other platforms.
+- [Delete Data Source](https://docs.oviond.com/data-sources/delete.md): Remove an OAuth connection from your account.
+- [Link to Client](https://docs.oviond.com/data-sources/link.md): Attach a connected data source to a specific client workspace.
+- [List Data Sources](https://docs.oviond.com/data-sources/list.md): Every marketing platform connected to your Oviond account.
+- [Metrics](https://docs.oviond.com/data-sources/metrics.md): Saved and calculated metrics you can reuse across widgets.
+- [Profiles](https://docs.oviond.com/data-sources/profiles.md): Pick which ad account, property, or page to report on for each connected data source.
+- [Test Connection](https://docs.oviond.com/data-sources/test.md): Verify a data-source authorization is still valid.
+- [Defaults](https://docs.oviond.com/email-settings/defaults.md): Set the default subject, sender, and message for every automation email.
+- [Email Domains](https://docs.oviond.com/email-settings/domains.md): Verify domains so Oviond can send mail on their behalf.
+- [Email Logs](https://docs.oviond.com/email-settings/logs.md): Every automation email Oviond has sent — status, events, and any errors.
+- [Senders](https://docs.oviond.com/email-settings/senders.md): Add verified from-addresses for automation emails.
+- [SMTP](https://docs.oviond.com/email-settings/smtp.md): Route Oviond emails through your own SMTP server.
+- [Connect Google Analytics 4](https://docs.oviond.com/guides/connect-ga4.md): End-to-end GA4 setup for a client — from OAuth to your first widget.
+- [Build Your First Report](https://docs.oviond.com/guides/first-report.md): A complete walkthrough from creating a client to publishing a shared link.
+- [Monthly Client Report](https://docs.oviond.com/guides/monthly-report.md): Automate a recurring monthly report email for a client.
+- [Overview](https://docs.oviond.com/guides/overview.md): End-to-end walkthroughs for the most common Oviond workflows.
+- [Introduction](https://docs.oviond.com/introduction.md): White-label marketing reporting for agencies. Build branded dashboards, connect 30+ data sources, and automate client report delivery.
+- [Authentication](https://docs.oviond.com/mcp/auth.md): How the Oviond MCP server authenticates AI agents — OAuth 2.1 under the hood.
+- [Connect](https://docs.oviond.com/mcp/connect.md): Wire Claude, Cursor, or another MCP client to your Oviond account.
+- [Overview](https://docs.oviond.com/mcp/overview.md): The Oviond MCP server lets Claude and other AI agents manage your Oviond account directly.
+- [Available Tools](https://docs.oviond.com/mcp/tools.md): The full catalog of tools the Oviond MCP server exposes.
+- [Bulk Delete](https://docs.oviond.com/media/bulk-delete.md): Soft-delete multiple media items at once.
+- [Delete Media](https://docs.oviond.com/media/delete.md): Soft-delete a single media item with restore available from the Archive.
+- [Folders](https://docs.oviond.com/media/folders.md): Group related media files into folders.
+- [List Media](https://docs.oviond.com/media/list.md): Browse every file in your Media library.
+- [Rename Media](https://docs.oviond.com/media/update.md): Change the display name of a media file.
+- [Upload Media](https://docs.oviond.com/media/upload.md): Upload images and files into the Oviond Media library.
+- [Preferences](https://docs.oviond.com/notifications/preferences.md): Choose which notifications trigger email delivery.
+- [View Notifications](https://docs.oviond.com/notifications/view.md): In-app alerts and email digests from your Oviond account.
+- [Onboarding](https://docs.oviond.com/onboarding/overview.md): The 4-step account setup shown after your first sign-in.
+- [Add Project](https://docs.oviond.com/projects/add.md): Create a new report or dashboard inside a client's workspace.
+- [Archive Project](https://docs.oviond.com/projects/archive.md): Soft-delete a project with full restore within the retention window.
+- [Bulk Delete](https://docs.oviond.com/projects/bulk-delete.md): Remove multiple projects at once.
+- [Duplicate Project](https://docs.oviond.com/projects/duplicate.md): Copy a project — pages, widgets, and settings — under a new name.
+- [List Projects](https://docs.oviond.com/projects/list.md): Browse, search, and filter every project in your workspace.
+- [Pages](https://docs.oviond.com/projects/pages.md): Organize a project into tabs — one page per section of the report.
+- [Share Project](https://docs.oviond.com/projects/share.md): Publish a project via a shareable public link.
+- [Update Project](https://docs.oviond.com/projects/update.md): Rename, reassign, and configure project settings.
+- [Widgets](https://docs.oviond.com/projects/widgets.md): Charts, KPI tiles, tables, and text blocks that populate every page.
+- [Get Started](https://docs.oviond.com/quickstart.md): Create your Oviond account, connect a marketing data source, and publish your first client report in five steps. Everything you need to get started.
+- [Add Template](https://docs.oviond.com/templates/add.md): Save a project as a reusable starting point.
+- [Apply Template](https://docs.oviond.com/templates/apply.md): Use a template as the starting point for a new project.
+- [Delete Template](https://docs.oviond.com/templates/delete.md): Remove a template from your library.
+- [List Templates](https://docs.oviond.com/templates/list.md): Browse your account's templates and the shared Oviond library.
+- [Add Theme](https://docs.oviond.com/themes/add.md): Create a reusable color + font palette for reports and dashboards.
+- [Apply Theme](https://docs.oviond.com/themes/apply.md): Use a theme on a project or set it as a client's default.
+- [Delete Theme](https://docs.oviond.com/themes/delete.md): Remove a theme from your library.
+- [List Themes](https://docs.oviond.com/themes/list.md): Browse every theme in your account and in the Oviond library.
+- [Update Theme](https://docs.oviond.com/themes/update.md): Edit an existing theme's colors, fonts, or styling tokens.
+- [Invite User](https://docs.oviond.com/users/invite.md): Add a new team member to your Oviond account.
+- [List Users](https://docs.oviond.com/users/list.md): Every team member with access to this Oviond account.
+- [Profile Settings](https://docs.oviond.com/users/profile.md): Update your own name, avatar, email, and preferences.
+- [Remove User](https://docs.oviond.com/users/remove.md): Revoke a team member's access to your Oviond account.
+- [Update User](https://docs.oviond.com/users/update.md): Change a team member's role, name, or allowed projects.
+
+## OpenAPI Specs
+
+- [openapi](https://docs.oviond.com/api/openapi.json)

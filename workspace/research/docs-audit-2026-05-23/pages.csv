@@ -1,0 +1,250 @@
+path,status,title,word_count,h1_count,h2_count,summary,bytes,elapsed_ms
+/authentication,200,Authentication,303,1,5,## Documentation Index,2763,448
+/introduction,200,Introduction,226,1,1,## Documentation Index,2387,92
+/quickstart,200,Get Started,368,1,1,## Documentation Index,3269,424
+/account/delete,200,Delete Account,194,1,2,## Documentation Index,1664,505
+/account/overview,200,Account,671,1,5,## Documentation Index,5836,236
+/account/usage,200,Usage,169,1,2,## Documentation Index,1575,323
+/activity-log/overview,200,Activity Log,97,1,0,## Documentation Index,711,399
+/agency/add,200,Add Project,153,1,1,## Documentation Index,1437,457
+/agency/archive,200,Archive Project,161,1,3,## Documentation Index,1251,356
+/agency/bulk-delete,200,Bulk Delete,122,1,0,## Documentation Index,1083,423
+/agency/duplicate,200,Duplicate Project,145,1,0,## Documentation Index,1247,382
+/agency/list,200,List Projects,128,1,3,## Documentation Index,1171,396
+/agency/pages,200,Pages,187,1,3,## Documentation Index,1404,370
+/agency/share,200,Share Project,188,1,2,## Documentation Index,1572,323
+/agency/update,200,Update Project,129,1,0,## Documentation Index,1232,382
+/agency/widgets,200,Widgets,341,1,6,## Documentation Index,3333,394
+/api-keys/add,200,Add API Key,144,1,0,## Documentation Index,1240,396
+/api-keys/delete,200,Delete API Key,100,1,0,## Documentation Index,870,327
+/api-keys/list,200,List API Keys,272,1,4,## Documentation Index,2163,378
+/api-keys/revoke,200,Revoke API Key,135,1,1,## Documentation Index,1334,381
+/api/introduction,200,Overview,166,1,5,## Documentation Index,1783,310
+/api/openapi.json,200,,13166,0,0,"""title"": ""Oviond Backend API"",",286841,700
+/archive/delete,200,Permanently Delete,155,1,1,## Documentation Index,1297,360
+/archive/restore,200,Restore,190,1,2,## Documentation Index,1544,421
+/archive/view,200,View Archive,97,1,0,## Documentation Index,740,448
+/automations/add,200,Add Automation,151,1,0,## Documentation Index,1468,354
+/automations/delete,200,Delete Automation,122,1,1,## Documentation Index,1106,330
+/automations/email,200,Email Delivery,293,1,3,## Documentation Index,2536,498
+/automations/history,200,Run History,165,1,3,## Documentation Index,1546,350
+/automations/list,200,List Automations,166,1,3,## Documentation Index,1592,401
+/automations/pdf,200,PDF Export,246,1,4,## Documentation Index,2059,360
+/automations/scheduled,200,Scheduled Delivery,286,1,4,## Documentation Index,2294,392
+/automations/test,200,Test Automation,151,1,0,## Documentation Index,1281,364
+/billing/invoices,200,Invoices,149,1,2,## Documentation Index,1243,353
+/billing/plans,200,Plans,234,1,3,## Documentation Index,2069,361
+/billing/subscription,200,Subscription,229,1,4,## Documentation Index,1849,401
+/changelog/2026-04,200,April 2026,759,1,0,## Documentation Index,6881,396
+/clients/add,200,Create a Client,181,1,0,## Documentation Index,1542,352
+/clients/archive,200,Archive Client,162,1,3,## Documentation Index,1344,396
+/clients/bulk-delete,200,Bulk Delete,187,1,1,## Documentation Index,1477,323
+/clients/folders,200,Group Clients,186,1,3,## Documentation Index,1512,387
+/clients/list,200,List Clients,212,1,3,## Documentation Index,2061,358
+/company/branding,200,Customize Report Branding and Appearance,765,1,7,## Documentation Index,6860,403
+/company/overview,200,Company,98,1,0,## Documentation Index,782,370
+/custom-data/delete,200,Delete Custom Data,124,1,1,## Documentation Index,1055,345
+/custom-data/duplicate,200,Duplicate Custom Data,125,1,0,## Documentation Index,1133,318
+/custom-data/list,200,List Custom Data,140,1,3,## Documentation Index,1242,349
+/custom-data/update,200,Update Custom Data,146,1,1,## Documentation Index,1193,494
+/custom-data/upload,200,Upload Custom Data,193,1,2,## Documentation Index,1559,342
+/custom-domains/add,200,Add Domain,165,1,1,## Documentation Index,1457,338
+/custom-domains/delete,200,Delete Domain,115,1,0,## Documentation Index,1039,427
+/custom-domains/list,200,List Domains,689,1,6,## Documentation Index,6253,363
+/custom-domains/verify,200,Verify Domain,173,1,3,## Documentation Index,1690,415
+/data-sources/connect,200,Connect,869,1,5,## Documentation Index,7103,367
+/data-sources/delete,200,Delete Data Source,139,1,0,## Documentation Index,1223,393
+/data-sources/link,200,Link to Client,154,1,1,## Documentation Index,1377,374
+/data-sources/list,200,List Data Sources,634,1,6,## Documentation Index,5315,436
+/data-sources/metrics,200,Metrics,985,1,3,## Documentation Index,7784,443
+/data-sources/profiles,200,Profiles,180,1,2,## Documentation Index,1459,321
+/data-sources/test,200,Test Connection,159,1,1,## Documentation Index,1333,366
+/email-settings/defaults,200,Defaults,148,1,1,## Documentation Index,1502,410
+/email-settings/domains,200,Email Domains,155,1,3,## Documentation Index,1612,353
+/email-settings/logs,200,Email Logs,181,1,4,## Documentation Index,1841,324
+/email-settings/senders,200,Senders,142,1,2,## Documentation Index,1327,372
+/email-settings/smtp,200,SMTP,187,1,3,## Documentation Index,1660,398
+/guides/connect-ga4,200,Connect Google Analytics 4,390,1,7,## Documentation Index,3547,374
+/guides/first-report,200,Build Your First Report,352,1,8,## Documentation Index,3007,367
+/guides/monthly-report,200,Monthly Client Report,403,1,7,## Documentation Index,3752,384
+/guides/overview,200,Overview,149,1,2,## Documentation Index,1459,362
+/mcp/auth,200,Authentication,286,1,4,## Documentation Index,2135,367
+/mcp/connect,200,Connect,212,1,4,## Documentation Index,2061,369
+/mcp/overview,200,Overview,248,1,3,## Documentation Index,1888,383
+/mcp/tools,200,Available Tools,296,1,3,## Documentation Index,3202,370
+/media/bulk-delete,200,Bulk Delete,173,1,1,## Documentation Index,1387,351
+/media/delete,200,Delete Media,151,1,2,## Documentation Index,1233,384
+/media/folders,200,Folders,183,1,4,## Documentation Index,1529,443
+/media/list,200,List Media,174,1,3,## Documentation Index,1577,351
+/media/update,200,Rename Media,134,1,2,## Documentation Index,1100,395
+/media/upload,200,Upload Media,184,1,2,## Documentation Index,1588,375
+/notifications/preferences,200,Preferences,175,1,2,## Documentation Index,1908,370
+/notifications/view,200,View Notifications,87,1,0,## Documentation Index,683,330
+/onboarding/overview,200,Onboarding,333,1,3,## Documentation Index,2532,374
+/projects/add,200,Add Project,165,1,0,## Documentation Index,1504,329
+/projects/archive,200,Archive Project,157,1,3,## Documentation Index,1274,339
+/projects/bulk-delete,200,Bulk Delete,127,1,0,## Documentation Index,1120,342
+/projects/duplicate,200,Duplicate Project,142,1,0,## Documentation Index,1251,639
+/projects/list,200,List Projects,177,1,3,## Documentation Index,1546,318
+/projects/pages,200,Pages,185,1,3,## Documentation Index,1403,328
+/projects/share,200,Share Project,199,1,2,## Documentation Index,1624,333
+/projects/update,200,Update Project,140,1,0,## Documentation Index,1361,334
+/projects/widgets,200,Widgets,321,1,6,## Documentation Index,3164,374
+/templates/add,200,Add Template,184,1,3,## Documentation Index,1576,311
+/templates/apply,200,Apply Template,160,1,0,## Documentation Index,1415,449
+/templates/delete,200,Delete Template,109,1,0,## Documentation Index,1025,355
+/templates/list,200,List Templates,164,1,3,## Documentation Index,1655,346
+/themes/add,200,Add Theme,138,1,0,## Documentation Index,1277,338
+/themes/apply,200,Apply Theme,151,1,2,## Documentation Index,1655,423
+/themes/delete,200,Delete Theme,105,1,0,## Documentation Index,973,455
+/themes/list,200,List Themes,121,1,3,## Documentation Index,1247,353
+/themes/update,200,Update Theme,130,1,0,## Documentation Index,1165,408
+/users/invite,200,Invite User,161,1,0,## Documentation Index,1478,349
+/users/list,200,List Users,563,1,5,## Documentation Index,5067,334
+/users/profile,200,Profile Settings,246,1,3,## Documentation Index,2683,389
+/users/remove,200,Remove User,145,1,1,## Documentation Index,1219,382
+/users/update,200,Update User,132,1,0,## Documentation Index,1249,336
+/api/account/delete-account,200,Delete Account,65,1,1,## Documentation Index,2891,468
+/api/account/get-account,200,Get Account,30,1,1,## Documentation Index,1670,347
+/api/account/get-account-usage,200,Get Account Usage,30,1,1,## Documentation Index,2885,454
+/api/activity/list-activity,200,List Activity,29,1,1,## Documentation Index,2635,580
+/api/archive/delete-permanently,200,Delete Permanently,26,1,1,## Documentation Index,1891,362
+/api/archive/get-archive-counts,200,Get Archive Counts,28,1,1,## Documentation Index,1928,403
+/api/archive/list-archive,200,List Archive,26,1,1,## Documentation Index,3589,425
+/api/archive/restore-items,200,Restore Items,25,1,1,## Documentation Index,1846,377
+/api/assets/create-asset,200,Create Asset,25,1,1,## Documentation Index,2040,815
+/api/assets/delete-asset,200,Delete Asset,25,1,1,## Documentation Index,1657,445
+/api/assets/duplicate-asset,200,Duplicate Asset,28,1,1,## Documentation Index,2389,383
+/api/assets/get-asset,200,Get Asset,27,1,1,## Documentation Index,2301,350
+/api/assets/list-asset-tags,200,List Asset Tags,33,1,1,## Documentation Index,1421,350
+/api/assets/list-asset-widgets,200,List Asset Widgets,31,1,1,## Documentation Index,5291,420
+/api/assets/list-assets,200,List Assets,28,1,1,## Documentation Index,3777,388
+/api/assets/update-asset,200,Update Asset,25,1,1,## Documentation Index,2202,516
+/api/automations/bulk-delete-automations,200,Bulk Delete Automations,33,1,1,## Documentation Index,1732,488
+/api/automations/create-automation,200,Create Automation,27,1,1,## Documentation Index,3290,398
+/api/automations/delete-automation,200,Delete Automation,32,1,1,## Documentation Index,2089,468
+/api/automations/get-automation-history,200,Get Automation History,29,1,1,## Documentation Index,1990,368
+/api/automations/list-automations,200,List Automations,31,1,1,## Documentation Index,2961,378
+/api/automations/pause-automation,200,Pause Automation,33,1,1,## Documentation Index,2096,521
+/api/automations/test-automation,200,Test Automation,28,1,1,## Documentation Index,2001,443
+/api/automations/unpause-automation,200,Unpause Automation,29,1,1,## Documentation Index,2083,366
+/api/automations/update-automation,200,Update Automation,28,1,1,## Documentation Index,2689,347
+/api/billing/list-invoices,200,List Invoices,27,1,1,## Documentation Index,1378,358
+/api/billing/list-plans,200,List Plans,28,1,1,## Documentation Index,1657,587
+/api/branding/get-branding,200,Get Branding,25,1,1,## Documentation Index,1359,370
+/api/branding/update-branding,200,Update Branding,25,1,1,## Documentation Index,1737,390
+/api/calculated-metrics/create-calculated-metric,200,Create Calculated Metric,27,1,1,## Documentation Index,2036,1096
+/api/calculated-metrics/delete-calculated-metric,200,Delete Calculated Metric,26,1,1,## Documentation Index,1743,408
+/api/calculated-metrics/duplicate-calculated-metric,200,Duplicate Calculated Metric,26,1,1,## Documentation Index,2336,485
+/api/calculated-metrics/list-calculated-metrics,200,List Calculated Metrics,31,1,1,## Documentation Index,2005,684
+/api/calculated-metrics/update-calculated-metric,200,Update Calculated Metric,26,1,1,## Documentation Index,2133,379
+/api/clients/bulk-delete-clients,200,Bulk Delete Clients,28,1,1,## Documentation Index,1728,457
+/api/clients/count-clients,200,Count Clients,29,1,1,## Documentation Index,1467,373
+/api/clients/create-client,200,Create Client,25,1,1,## Documentation Index,2403,356
+/api/clients/delete-client,200,Delete Client,31,1,1,## Documentation Index,1752,350
+/api/clients/get-client,200,Get Client,27,1,1,## Documentation Index,2525,395
+/api/clients/list-all-clients,200,List All Clients,30,1,1,## Documentation Index,1662,391
+/api/clients/list-client-integrations,200,List Client Integrations,28,1,1,## Documentation Index,1862,386
+/api/clients/list-clients,200,List Clients,28,1,1,## Documentation Index,3601,395
+/api/clients/move-client-folder,200,Move Client Folder,30,1,1,## Documentation Index,2133,504
+/api/clients/refresh-screenshot,200,Refresh Screenshot,45,1,1,## Documentation Index,2567,425
+/api/clients/update-client,200,Update Client,24,1,1,## Documentation Index,2343,438
+/api/company/get-company,200,Get Company,29,1,1,## Documentation Index,1688,559
+/api/company/update-company,200,Update Company,25,1,1,## Documentation Index,2049,410
+/api/custom-data/create-custom-data,200,Create Custom Data,29,1,1,## Documentation Index,2651,398
+/api/custom-data/delete-custom-data,200,Delete Custom Data,26,1,1,## Documentation Index,1713,355
+/api/custom-data/duplicate-custom-data,200,Duplicate Custom Data,26,1,1,## Documentation Index,2316,447
+/api/custom-data/get-custom-data,200,Get Custom Data,32,1,1,## Documentation Index,2678,414
+/api/custom-data/list-custom-data,200,List Custom Data,33,1,1,## Documentation Index,2084,493
+/api/custom-data/update-custom-data,200,Update Custom Data,26,1,1,## Documentation Index,2784,405
+/api/data/fetch-resource-data,200,Fetch Resource Data,34,1,1,## Documentation Index,2301,344
+/api/data/list-integration-accounts,200,List Integration Accounts,32,1,1,## Documentation Index,2229,348
+/api/data/query-data,200,Query Data,31,1,1,## Documentation Index,3239,376
+/api/data/test-connection,200,Test Connection,31,1,1,## Documentation Index,2154,456
+/api/email/add-email-domain,200,Add Email Domain,30,1,1,## Documentation Index,4107,482
+/api/email/add-email-sender,200,Add Email Sender,30,1,1,## Documentation Index,1968,394
+/api/email/delete-email-domain,200,Delete Email Domain,32,1,1,## Documentation Index,1479,429
+/api/email/delete-smtp-config,200,Delete SMTP Config,29,1,1,## Documentation Index,1312,380
+/api/email/get-email-setup,200,Get Email Setup,31,1,1,## Documentation Index,2548,355
+/api/email/list-email-logs,200,List Email Logs,26,1,1,## Documentation Index,1669,443
+/api/email/queue-emails,200,Queue Emails,41,1,1,## Documentation Index,2953,420
+/api/email/send-email,200,Send Email,27,1,1,## Documentation Index,2253,409
+/api/email/test-smtp,200,Test SMTP,30,1,1,## Documentation Index,1964,484
+/api/email/update-email-setup,200,Update Email Setup,27,1,1,## Documentation Index,1461,438
+/api/email/update-smtp-config,200,Update SMTP Config,29,1,1,## Documentation Index,2276,484
+/api/email/verify-email-domain,200,Verify Email Domain,30,1,1,## Documentation Index,3724,433
+/api/folders/create-folder,200,Create Folder,26,1,1,## Documentation Index,1791,392
+/api/folders/delete-folder,200,Delete Folder,31,1,1,## Documentation Index,1762,716
+/api/folders/list-folders,200,List Folders,30,1,1,## Documentation Index,1783,389
+/api/folders/update-folder,200,Update Folder,25,1,1,## Documentation Index,2044,382
+/api/health/health-check,200,Health Check,22,1,1,## Documentation Index,1780,430
+/api/integrations/delete-integration,200,Delete Integration,27,1,1,## Documentation Index,1731,437
+/api/integrations/delete-profile,200,Delete Profile,26,1,1,## Documentation Index,1601,406
+/api/integrations/link-datasource,200,Link Datasource,26,1,1,## Documentation Index,2141,350
+/api/integrations/list-all-profiles,200,List All Profiles,30,1,1,## Documentation Index,1612,349
+/api/integrations/list-integration-profiles,200,List Integration Profiles,29,1,1,## Documentation Index,1690,421
+/api/integrations/list-integrations,200,List Integrations,31,1,1,## Documentation Index,1858,593
+/api/integrations/rename-integration,200,Rename Integration,27,1,1,## Documentation Index,2091,417
+/api/integrations/rename-profile,200,Rename Profile,26,1,1,## Documentation Index,2171,403
+/api/integrations/test-auth-connection,200,Test Auth Connection,30,1,1,## Documentation Index,2321,366
+/api/integrations/unlink-datasource,200,Unlink Datasource,26,1,1,## Documentation Index,1746,356
+/api/integrations/update-client-integrations,200,Update Client Integrations,32,1,1,## Documentation Index,2332,403
+/api/media/bulk-delete-media,200,Bulk Delete Media,27,1,1,## Documentation Index,1618,405
+/api/media/create-media-folder,200,Create Media Folder,27,1,1,## Documentation Index,1818,368
+/api/media/delete-media,200,Delete Media,35,1,1,## Documentation Index,1815,500
+/api/media/delete-media-folder,200,Delete Media Folder,34,1,1,## Documentation Index,1786,409
+/api/media/group-media,200,Group Media,28,1,1,## Documentation Index,1787,415
+/api/media/list-media,200,List Media,30,1,1,## Documentation Index,2948,427
+/api/media/list-media-folders,200,List Media Folders,30,1,1,## Documentation Index,1702,468
+/api/media/rename-media-folder,200,Rename Media Folder,26,1,1,## Documentation Index,2059,400
+/api/media/update-media,200,Update Media,26,1,1,## Documentation Index,2047,432
+/api/pages/create-page,200,Create Page,28,1,1,## Documentation Index,2325,364
+/api/pages/delete-page,200,Delete Page,24,1,1,## Documentation Index,1665,472
+/api/pages/list-pages,200,List Pages,28,1,1,## Documentation Index,2585,447
+/api/pages/update-page,200,Update Page,24,1,1,## Documentation Index,2030,401
+/api/pdf/generate-pdf,200,Generate PDF,28,1,1,## Documentation Index,2685,359
+/api/pdf/get-pdf-status,200,Get PDF Status,30,1,1,## Documentation Index,2263,351
+/api/projects/bulk-delete-projects,200,Bulk Delete Projects,28,1,1,## Documentation Index,2063,382
+/api/projects/create-project,200,Create Project,25,1,1,## Documentation Index,3939,378
+/api/projects/delete-pdf-notification,200,Delete PDF Notification,29,1,1,## Documentation Index,2090,415
+/api/projects/delete-project,200,Delete Project,28,1,1,## Documentation Index,1717,448
+/api/projects/duplicate-project,200,Duplicate Project,31,1,1,## Documentation Index,2347,457
+/api/projects/get-project,200,Get Project,27,1,1,## Documentation Index,2418,399
+/api/projects/list-all-projects,200,List All Projects,32,1,1,## Documentation Index,1861,385
+/api/projects/list-projects,200,List Projects,32,1,1,## Documentation Index,3160,465
+/api/projects/update-project,200,Update Project,24,1,1,## Documentation Index,3852,545
+/api/saved-metrics/create-saved-metric,200,Create Saved Metric,27,1,1,## Documentation Index,1968,473
+/api/saved-metrics/delete-saved-metric,200,Delete Saved Metric,26,1,1,## Documentation Index,1722,399
+/api/saved-metrics/duplicate-saved-metric,200,Duplicate Saved Metric,26,1,1,## Documentation Index,2358,366
+/api/saved-metrics/list-saved-metrics,200,List Saved Metrics,31,1,1,## Documentation Index,1932,371
+/api/saved-metrics/update-saved-metric,200,Update Saved Metric,26,1,1,## Documentation Index,2159,378
+/api/search/search,200,Search,31,1,1,## Documentation Index,2694,472
+/api/templates/create-template,200,Create Template,32,1,1,## Documentation Index,2581,433
+/api/templates/delete-template,200,Delete Template,24,1,1,## Documentation Index,1684,402
+/api/templates/get-template,200,Get Template,27,1,1,## Documentation Index,2715,423
+/api/templates/list-templates,200,List Templates,28,1,1,## Documentation Index,4447,431
+/api/templates/update-template,200,Update Template,24,1,1,## Documentation Index,2114,374
+/api/themes/create-theme,200,Create Theme,25,1,1,## Documentation Index,2426,803
+/api/themes/delete-theme,200,Delete Theme,24,1,1,## Documentation Index,1657,463
+/api/themes/get-theme,200,Get Theme,27,1,1,## Documentation Index,2549,388
+/api/themes/list-themes,200,List Themes,28,1,1,## Documentation Index,2198,430
+/api/themes/update-theme,200,Update Theme,24,1,1,## Documentation Index,2566,366
+/api/users/change-email,200,Change Email,28,1,1,## Documentation Index,1968,412
+/api/users/delete-user,200,Delete User,28,1,1,## Documentation Index,2025,473
+/api/users/get-user,200,Get User,28,1,1,## Documentation Index,2862,369
+/api/users/invite-user,200,Invite User,28,1,1,## Documentation Index,2651,404
+/api/users/list-users,200,List Users,30,1,1,## Documentation Index,3383,416
+/api/users/update-avatar,200,Update Avatar,28,1,1,## Documentation Index,1663,383
+/api/users/update-profile,200,Update Profile,31,1,1,## Documentation Index,1867,424
+/api/users/update-user,200,Update User,29,1,1,## Documentation Index,2583,399
+/api/white-label/add-domain,200,Add Domain,35,1,1,## Documentation Index,3994,487
+/api/white-label/check-domain-status,200,Check Domain Status,29,1,1,## Documentation Index,3698,395
+/api/white-label/delete-domain,200,Delete Domain,25,1,1,## Documentation Index,1749,454
+/api/white-label/list-domains,200,List Domains,29,1,1,## Documentation Index,3273,369
+/api/widgets/bulk-delete-widgets,200,Bulk Delete Widgets,28,1,1,## Documentation Index,1726,393
+/api/widgets/create-widgets,200,Create Widgets,27,1,1,## Documentation Index,2320,440
+/api/widgets/delete-widget,200,Delete Widget,27,1,1,## Documentation Index,1687,1182
+/api/widgets/get-widget,200,Get Widget,27,1,1,## Documentation Index,5162,437
+/api/widgets/list-widget-ids,200,List Widget IDs,28,1,1,## Documentation Index,1684,423
+/api/widgets/list-widgets,200,List Widgets,26,1,1,## Documentation Index,5251,462
+/api/widgets/update-widget,200,Update Widget,27,1,1,## Documentation Index,1941,415

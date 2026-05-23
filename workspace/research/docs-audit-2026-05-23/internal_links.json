@@ -1,0 +1,1090 @@
+{
+  "refs": [
+    {
+      "source": "/authentication",
+      "label": "API Keys API",
+      "target": "/api-keys/list",
+      "target_path": "/api-keys/list",
+      "known": true
+    },
+    {
+      "source": "/introduction",
+      "label": "href",
+      "target": "/quickstart",
+      "target_path": "/quickstart",
+      "known": true
+    },
+    {
+      "source": "/introduction",
+      "label": "href",
+      "target": "/authentication",
+      "target_path": "/authentication",
+      "known": true
+    },
+    {
+      "source": "/introduction",
+      "label": "href",
+      "target": "/data-sources/list",
+      "target_path": "/data-sources/list",
+      "known": true
+    },
+    {
+      "source": "/introduction",
+      "label": "href",
+      "target": "/custom-domains/list",
+      "target_path": "/custom-domains/list",
+      "known": true
+    },
+    {
+      "source": "/introduction",
+      "label": "href",
+      "target": "/projects/list",
+      "target_path": "/projects/list",
+      "known": true
+    },
+    {
+      "source": "/introduction",
+      "label": "href",
+      "target": "/api/introduction",
+      "target_path": "/api/introduction",
+      "known": true
+    },
+    {
+      "source": "/quickstart",
+      "label": "Onboarding",
+      "target": "/onboarding/overview",
+      "target_path": "/onboarding/overview",
+      "known": true
+    },
+    {
+      "source": "/quickstart",
+      "label": "Connecting Data Sources",
+      "target": "/data-sources/connect",
+      "target_path": "/data-sources/connect",
+      "known": true
+    },
+    {
+      "source": "/quickstart",
+      "label": "White Label Overview",
+      "target": "/custom-domains/list",
+      "target_path": "/custom-domains/list",
+      "known": true
+    },
+    {
+      "source": "/quickstart",
+      "label": "href",
+      "target": "/data-sources/list",
+      "target_path": "/data-sources/list",
+      "known": true
+    },
+    {
+      "source": "/quickstart",
+      "label": "href",
+      "target": "/custom-domains/list",
+      "target_path": "/custom-domains/list",
+      "known": true
+    },
+    {
+      "source": "/quickstart",
+      "label": "href",
+      "target": "/automations/scheduled",
+      "target_path": "/automations/scheduled",
+      "known": true
+    },
+    {
+      "source": "/quickstart",
+      "label": "href",
+      "target": "/users/list",
+      "target_path": "/users/list",
+      "known": true
+    },
+    {
+      "source": "/account/delete",
+      "label": "PDF Export",
+      "target": "/automations/pdf",
+      "target_path": "/automations/pdf",
+      "known": true
+    },
+    {
+      "source": "/account/delete",
+      "label": "Subscription",
+      "target": "/billing/subscription",
+      "target_path": "/billing/subscription",
+      "known": true
+    },
+    {
+      "source": "/account/overview",
+      "label": "Plans and billing",
+      "target": "/billing/plans",
+      "target_path": "/billing/plans",
+      "known": true
+    },
+    {
+      "source": "/account/usage",
+      "label": "Plans",
+      "target": "/billing/plans",
+      "target_path": "/billing/plans",
+      "known": true
+    },
+    {
+      "source": "/account/usage",
+      "label": "Subscription",
+      "target": "/billing/subscription",
+      "target_path": "/billing/subscription",
+      "known": true
+    },
+    {
+      "source": "/agency/add",
+      "label": "Apply Template",
+      "target": "/templates/apply",
+      "target_path": "/templates/apply",
+      "known": true
+    },
+    {
+      "source": "/agency/add",
+      "label": "Data Sources",
+      "target": "/data-sources/list",
+      "target_path": "/data-sources/list",
+      "known": true
+    },
+    {
+      "source": "/agency/archive",
+      "label": "Archive",
+      "target": "/archive/view",
+      "target_path": "/archive/view",
+      "known": true
+    },
+    {
+      "source": "/agency/archive",
+      "label": "Archive",
+      "target": "/archive/view",
+      "target_path": "/archive/view",
+      "known": true
+    },
+    {
+      "source": "/agency/archive",
+      "label": "duplicate",
+      "target": "/agency/duplicate",
+      "target_path": "/agency/duplicate",
+      "known": true
+    },
+    {
+      "source": "/agency/bulk-delete",
+      "label": "Archive",
+      "target": "/archive/view",
+      "target_path": "/archive/view",
+      "known": true
+    },
+    {
+      "source": "/agency/duplicate",
+      "label": "Update Project",
+      "target": "/agency/update",
+      "target_path": "/agency/update",
+      "known": true
+    },
+    {
+      "source": "/agency/duplicate",
+      "label": "create a Template",
+      "target": "/templates/add",
+      "target_path": "/templates/add",
+      "known": true
+    },
+    {
+      "source": "/agency/list",
+      "label": "Duplicate Project",
+      "target": "/agency/duplicate",
+      "target_path": "/agency/duplicate",
+      "known": true
+    },
+    {
+      "source": "/agency/list",
+      "label": "Share Project",
+      "target": "/agency/share",
+      "target_path": "/agency/share",
+      "known": true
+    },
+    {
+      "source": "/agency/list",
+      "label": "Archive Project",
+      "target": "/agency/archive",
+      "target_path": "/agency/archive",
+      "known": true
+    },
+    {
+      "source": "/agency/share",
+      "label": "Custom Domain",
+      "target": "/custom-domains/list",
+      "target_path": "/custom-domains/list",
+      "known": true
+    },
+    {
+      "source": "/agency/share",
+      "label": "PDF Export",
+      "target": "/automations/pdf",
+      "target_path": "/automations/pdf",
+      "known": true
+    },
+    {
+      "source": "/agency/widgets",
+      "label": "Data Source",
+      "target": "/data-sources/list",
+      "target_path": "/data-sources/list",
+      "known": true
+    },
+    {
+      "source": "/api-keys/add",
+      "label": "revoke",
+      "target": "/api-keys/revoke",
+      "target_path": "/api-keys/revoke",
+      "known": true
+    },
+    {
+      "source": "/api-keys/delete",
+      "label": "Revoke",
+      "target": "/api-keys/revoke",
+      "target_path": "/api-keys/revoke",
+      "known": true
+    },
+    {
+      "source": "/api-keys/list",
+      "label": "Authentication",
+      "target": "/authentication",
+      "target_path": "/authentication",
+      "known": true
+    },
+    {
+      "source": "/api-keys/revoke",
+      "label": "Delete API Key",
+      "target": "/api-keys/delete",
+      "target_path": "/api-keys/delete",
+      "known": true
+    },
+    {
+      "source": "/api/introduction",
+      "label": "Authentication",
+      "target": "/authentication",
+      "target_path": "/authentication",
+      "known": true
+    },
+    {
+      "source": "/automations/add",
+      "label": "Scheduled Delivery",
+      "target": "/automations/scheduled",
+      "target_path": "/automations/scheduled",
+      "known": true
+    },
+    {
+      "source": "/automations/add",
+      "label": "Email Delivery",
+      "target": "/automations/email",
+      "target_path": "/automations/email",
+      "known": true
+    },
+    {
+      "source": "/automations/add",
+      "label": "PDF export",
+      "target": "/automations/pdf",
+      "target_path": "/automations/pdf",
+      "known": true
+    },
+    {
+      "source": "/automations/add",
+      "label": "Test",
+      "target": "/automations/test",
+      "target_path": "/automations/test",
+      "known": true
+    },
+    {
+      "source": "/automations/delete",
+      "label": "List Automations",
+      "target": "/automations/list",
+      "target_path": "/automations/list",
+      "known": true
+    },
+    {
+      "source": "/automations/list",
+      "label": "Test Automation",
+      "target": "/automations/test",
+      "target_path": "/automations/test",
+      "known": true
+    },
+    {
+      "source": "/automations/list",
+      "label": "Run History",
+      "target": "/automations/history",
+      "target_path": "/automations/history",
+      "known": true
+    },
+    {
+      "source": "/automations/list",
+      "label": "Delete Automation",
+      "target": "/automations/delete",
+      "target_path": "/automations/delete",
+      "known": true
+    },
+    {
+      "source": "/automations/pdf",
+      "label": "Scheduled Reports",
+      "target": "/automations/scheduled",
+      "target_path": "/automations/scheduled",
+      "known": true
+    },
+    {
+      "source": "/automations/test",
+      "label": "Run History",
+      "target": "/automations/history",
+      "target_path": "/automations/history",
+      "known": true
+    },
+    {
+      "source": "/billing/invoices",
+      "label": "Company",
+      "target": "/company/overview",
+      "target_path": "/company/overview",
+      "known": true
+    },
+    {
+      "source": "/billing/invoices",
+      "label": "Subscription",
+      "target": "/billing/subscription",
+      "target_path": "/billing/subscription",
+      "known": true
+    },
+    {
+      "source": "/clients/add",
+      "label": "Theme",
+      "target": "/themes/list",
+      "target_path": "/themes/list",
+      "known": true
+    },
+    {
+      "source": "/clients/add",
+      "label": "Folder",
+      "target": "/clients/folders",
+      "target_path": "/clients/folders",
+      "known": true
+    },
+    {
+      "source": "/clients/add",
+      "label": "Connect a Data Source",
+      "target": "/data-sources/connect",
+      "target_path": "/data-sources/connect",
+      "known": true
+    },
+    {
+      "source": "/clients/add",
+      "label": "Create your first Project",
+      "target": "/projects/list",
+      "target_path": "/projects/list",
+      "known": true
+    },
+    {
+      "source": "/clients/archive",
+      "label": "Archive",
+      "target": "/archive/view",
+      "target_path": "/archive/view",
+      "known": true
+    },
+    {
+      "source": "/clients/archive",
+      "label": "Archive",
+      "target": "/archive/view",
+      "target_path": "/archive/view",
+      "known": true
+    },
+    {
+      "source": "/clients/archive",
+      "label": "folder",
+      "target": "/clients/folders",
+      "target_path": "/clients/folders",
+      "known": true
+    },
+    {
+      "source": "/clients/bulk-delete",
+      "label": "Archive",
+      "target": "/archive/view",
+      "target_path": "/archive/view",
+      "known": true
+    },
+    {
+      "source": "/clients/bulk-delete",
+      "label": "Archive",
+      "target": "/archive/view",
+      "target_path": "/archive/view",
+      "known": true
+    },
+    {
+      "source": "/clients/list",
+      "label": "Group Clients",
+      "target": "/clients/folders",
+      "target_path": "/clients/folders",
+      "known": true
+    },
+    {
+      "source": "/clients/list",
+      "label": "Archive Client",
+      "target": "/clients/archive",
+      "target_path": "/clients/archive",
+      "known": true
+    },
+    {
+      "source": "/company/branding",
+      "label": "White-Label Reporting for Your Agency",
+      "target": "/custom-domains/list",
+      "target_path": "/custom-domains/list",
+      "known": true
+    },
+    {
+      "source": "/company/branding",
+      "label": "Design Report Themes",
+      "target": "/themes/list",
+      "target_path": "/themes/list",
+      "known": true
+    },
+    {
+      "source": "/custom-data/list",
+      "label": "Update Custom Data",
+      "target": "/custom-data/update",
+      "target_path": "/custom-data/update",
+      "known": true
+    },
+    {
+      "source": "/custom-data/list",
+      "label": "Duplicate Custom Data",
+      "target": "/custom-data/duplicate",
+      "target_path": "/custom-data/duplicate",
+      "known": true
+    },
+    {
+      "source": "/custom-data/list",
+      "label": "Delete Custom Data",
+      "target": "/custom-data/delete",
+      "target_path": "/custom-data/delete",
+      "known": true
+    },
+    {
+      "source": "/custom-data/update",
+      "label": "List Custom Data",
+      "target": "/custom-data/list",
+      "target_path": "/custom-data/list",
+      "known": true
+    },
+    {
+      "source": "/custom-domains/add",
+      "label": "Verify Domain",
+      "target": "/custom-domains/verify",
+      "target_path": "/custom-domains/verify",
+      "known": true
+    },
+    {
+      "source": "/custom-domains/verify",
+      "label": "add a domain",
+      "target": "/custom-domains/add",
+      "target_path": "/custom-domains/add",
+      "known": true
+    },
+    {
+      "source": "/data-sources/delete",
+      "label": "Link to Client",
+      "target": "/data-sources/link",
+      "target_path": "/data-sources/link",
+      "known": true
+    },
+    {
+      "source": "/data-sources/link",
+      "label": "Profiles",
+      "target": "/data-sources/profiles",
+      "target_path": "/data-sources/profiles",
+      "known": true
+    },
+    {
+      "source": "/data-sources/list",
+      "label": "Connect a Data Source to a Client",
+      "target": "/data-sources/connect",
+      "target_path": "/data-sources/connect",
+      "known": true
+    },
+    {
+      "source": "/data-sources/list",
+      "label": "href",
+      "target": "/data-sources/connect",
+      "target_path": "/data-sources/connect",
+      "known": true
+    },
+    {
+      "source": "/data-sources/list",
+      "label": "href",
+      "target": "/data-sources/metrics",
+      "target_path": "/data-sources/metrics",
+      "known": true
+    },
+    {
+      "source": "/email-settings/defaults",
+      "label": "automation",
+      "target": "/automations/add",
+      "target_path": "/automations/add",
+      "known": true
+    },
+    {
+      "source": "/email-settings/defaults",
+      "label": "sender",
+      "target": "/email-settings/senders",
+      "target_path": "/email-settings/senders",
+      "known": true
+    },
+    {
+      "source": "/email-settings/domains",
+      "label": "sender",
+      "target": "/email-settings/senders",
+      "target_path": "/email-settings/senders",
+      "known": true
+    },
+    {
+      "source": "/email-settings/senders",
+      "label": "Email Domains",
+      "target": "/email-settings/domains",
+      "target_path": "/email-settings/domains",
+      "known": true
+    },
+    {
+      "source": "/email-settings/senders",
+      "label": "Email Domains",
+      "target": "/email-settings/domains",
+      "target_path": "/email-settings/domains",
+      "known": true
+    },
+    {
+      "source": "/guides/connect-ga4",
+      "label": "client",
+      "target": "/clients/add",
+      "target_path": "/clients/add",
+      "known": true
+    },
+    {
+      "source": "/guides/connect-ga4",
+      "label": "Profiles",
+      "target": "/data-sources/profiles",
+      "target_path": "/data-sources/profiles",
+      "known": true
+    },
+    {
+      "source": "/guides/connect-ga4",
+      "label": "Test Connection",
+      "target": "/data-sources/test",
+      "target_path": "/data-sources/test",
+      "known": true
+    },
+    {
+      "source": "/guides/connect-ga4",
+      "label": "project",
+      "target": "/projects/add",
+      "target_path": "/projects/add",
+      "known": true
+    },
+    {
+      "source": "/guides/connect-ga4",
+      "label": "Test Connection",
+      "target": "/data-sources/test",
+      "target_path": "/data-sources/test",
+      "known": true
+    },
+    {
+      "source": "/guides/first-report",
+      "label": "onboarding",
+      "target": "/onboarding/overview",
+      "target_path": "/onboarding/overview",
+      "known": true
+    },
+    {
+      "source": "/guides/first-report",
+      "label": "Add Client",
+      "target": "/clients/add",
+      "target_path": "/clients/add",
+      "known": true
+    },
+    {
+      "source": "/guides/first-report",
+      "label": "Connect",
+      "target": "/data-sources/connect",
+      "target_path": "/data-sources/connect",
+      "known": true
+    },
+    {
+      "source": "/guides/first-report",
+      "label": "Profiles",
+      "target": "/data-sources/profiles",
+      "target_path": "/data-sources/profiles",
+      "known": true
+    },
+    {
+      "source": "/guides/first-report",
+      "label": "Add Project",
+      "target": "/projects/add",
+      "target_path": "/projects/add",
+      "known": true
+    },
+    {
+      "source": "/guides/first-report",
+      "label": "template",
+      "target": "/templates/apply",
+      "target_path": "/templates/apply",
+      "known": true
+    },
+    {
+      "source": "/guides/first-report",
+      "label": "Pages",
+      "target": "/projects/pages",
+      "target_path": "/projects/pages",
+      "known": true
+    },
+    {
+      "source": "/guides/first-report",
+      "label": "Widgets",
+      "target": "/projects/widgets",
+      "target_path": "/projects/widgets",
+      "known": true
+    },
+    {
+      "source": "/guides/first-report",
+      "label": "Add Theme",
+      "target": "/themes/add",
+      "target_path": "/themes/add",
+      "known": true
+    },
+    {
+      "source": "/guides/first-report",
+      "label": "Apply Theme",
+      "target": "/themes/apply",
+      "target_path": "/themes/apply",
+      "known": true
+    },
+    {
+      "source": "/guides/first-report",
+      "label": "Share Project",
+      "target": "/projects/share",
+      "target_path": "/projects/share",
+      "known": true
+    },
+    {
+      "source": "/guides/first-report",
+      "label": "Schedule a Monthly Report",
+      "target": "/guides/monthly-report",
+      "target_path": "/guides/monthly-report",
+      "known": true
+    },
+    {
+      "source": "/guides/first-report",
+      "label": "Connect Google Analytics 4",
+      "target": "/guides/connect-ga4",
+      "target_path": "/guides/connect-ga4",
+      "known": true
+    },
+    {
+      "source": "/guides/first-report",
+      "label": "Templates",
+      "target": "/templates/add",
+      "target_path": "/templates/add",
+      "known": true
+    },
+    {
+      "source": "/guides/monthly-report",
+      "label": "project",
+      "target": "/projects/add",
+      "target_path": "/projects/add",
+      "known": true
+    },
+    {
+      "source": "/guides/monthly-report",
+      "label": "configured email sending",
+      "target": "/email-settings/defaults",
+      "target_path": "/email-settings/defaults",
+      "known": true
+    },
+    {
+      "source": "/guides/monthly-report",
+      "label": "Update Project",
+      "target": "/projects/update",
+      "target_path": "/projects/update",
+      "known": true
+    },
+    {
+      "source": "/guides/monthly-report",
+      "label": "PDF Export",
+      "target": "/automations/pdf",
+      "target_path": "/automations/pdf",
+      "known": true
+    },
+    {
+      "source": "/guides/monthly-report",
+      "label": "Add Automation",
+      "target": "/automations/add",
+      "target_path": "/automations/add",
+      "known": true
+    },
+    {
+      "source": "/guides/monthly-report",
+      "label": "Email Settings",
+      "target": "/email-settings/defaults",
+      "target_path": "/email-settings/defaults",
+      "known": true
+    },
+    {
+      "source": "/guides/monthly-report",
+      "label": "Test Automation",
+      "target": "/automations/test",
+      "target_path": "/automations/test",
+      "known": true
+    },
+    {
+      "source": "/guides/monthly-report",
+      "label": "Run History",
+      "target": "/automations/history",
+      "target_path": "/automations/history",
+      "known": true
+    },
+    {
+      "source": "/guides/monthly-report",
+      "label": "Email Logs",
+      "target": "/email-settings/logs",
+      "target_path": "/email-settings/logs",
+      "known": true
+    },
+    {
+      "source": "/guides/monthly-report",
+      "label": "List Automations",
+      "target": "/automations/list",
+      "target_path": "/automations/list",
+      "known": true
+    },
+    {
+      "source": "/guides/overview",
+      "label": "href",
+      "target": "/guides/first-report",
+      "target_path": "/guides/first-report",
+      "known": true
+    },
+    {
+      "source": "/guides/overview",
+      "label": "href",
+      "target": "/guides/connect-ga4",
+      "target_path": "/guides/connect-ga4",
+      "known": true
+    },
+    {
+      "source": "/guides/overview",
+      "label": "href",
+      "target": "/guides/monthly-report",
+      "target_path": "/guides/monthly-report",
+      "known": true
+    },
+    {
+      "source": "/mcp/overview",
+      "label": "Connect",
+      "target": "/mcp/connect",
+      "target_path": "/mcp/connect",
+      "known": true
+    },
+    {
+      "source": "/mcp/overview",
+      "label": "Authentication",
+      "target": "/mcp/auth",
+      "target_path": "/mcp/auth",
+      "known": true
+    },
+    {
+      "source": "/mcp/overview",
+      "label": "Available Tools",
+      "target": "/mcp/tools",
+      "target_path": "/mcp/tools",
+      "known": true
+    },
+    {
+      "source": "/mcp/tools",
+      "label": "API Reference",
+      "target": "/api/introduction",
+      "target_path": "/api/introduction",
+      "known": true
+    },
+    {
+      "source": "/media/bulk-delete",
+      "label": "Archive",
+      "target": "/archive/view",
+      "target_path": "/archive/view",
+      "known": true
+    },
+    {
+      "source": "/media/delete",
+      "label": "Archive",
+      "target": "/archive/view",
+      "target_path": "/archive/view",
+      "known": true
+    },
+    {
+      "source": "/media/delete",
+      "label": "Restore",
+      "target": "/archive/restore",
+      "target_path": "/archive/restore",
+      "known": true
+    },
+    {
+      "source": "/media/folders",
+      "label": "Client folders",
+      "target": "/clients/folders",
+      "target_path": "/clients/folders",
+      "known": true
+    },
+    {
+      "source": "/media/list",
+      "label": "folder",
+      "target": "/media/folders",
+      "target_path": "/media/folders",
+      "known": true
+    },
+    {
+      "source": "/media/list",
+      "label": "Rename",
+      "target": "/media/update",
+      "target_path": "/media/update",
+      "known": true
+    },
+    {
+      "source": "/media/list",
+      "label": "Folders",
+      "target": "/media/folders",
+      "target_path": "/media/folders",
+      "known": true
+    },
+    {
+      "source": "/media/list",
+      "label": "Rename Media",
+      "target": "/media/update",
+      "target_path": "/media/update",
+      "known": true
+    },
+    {
+      "source": "/media/list",
+      "label": "Delete Media",
+      "target": "/media/delete",
+      "target_path": "/media/delete",
+      "known": true
+    },
+    {
+      "source": "/onboarding/overview",
+      "label": "Account",
+      "target": "/account/overview",
+      "target_path": "/account/overview",
+      "known": true
+    },
+    {
+      "source": "/onboarding/overview",
+      "label": "Company",
+      "target": "/company/overview",
+      "target_path": "/company/overview",
+      "known": true
+    },
+    {
+      "source": "/onboarding/overview",
+      "label": "white-label branding",
+      "target": "/company/branding",
+      "target_path": "/company/branding",
+      "known": true
+    },
+    {
+      "source": "/onboarding/overview",
+      "label": "Profile Settings",
+      "target": "/users/profile",
+      "target_path": "/users/profile",
+      "known": true
+    },
+    {
+      "source": "/onboarding/overview",
+      "label": "Company",
+      "target": "/company/overview",
+      "target_path": "/company/overview",
+      "known": true
+    },
+    {
+      "source": "/onboarding/overview",
+      "label": "add your first client",
+      "target": "/clients/add",
+      "target_path": "/clients/add",
+      "known": true
+    },
+    {
+      "source": "/projects/add",
+      "label": "template",
+      "target": "/templates/list",
+      "target_path": "/templates/list",
+      "known": true
+    },
+    {
+      "source": "/projects/add",
+      "label": "Agency → Add Project",
+      "target": "/agency/add",
+      "target_path": "/agency/add",
+      "known": true
+    },
+    {
+      "source": "/projects/archive",
+      "label": "Archive",
+      "target": "/archive/view",
+      "target_path": "/archive/view",
+      "known": true
+    },
+    {
+      "source": "/projects/archive",
+      "label": "Archive",
+      "target": "/archive/view",
+      "target_path": "/archive/view",
+      "known": true
+    },
+    {
+      "source": "/projects/archive",
+      "label": "duplicate",
+      "target": "/projects/duplicate",
+      "target_path": "/projects/duplicate",
+      "known": true
+    },
+    {
+      "source": "/projects/bulk-delete",
+      "label": "Archive",
+      "target": "/archive/view",
+      "target_path": "/archive/view",
+      "known": true
+    },
+    {
+      "source": "/projects/duplicate",
+      "label": "create a Template",
+      "target": "/templates/add",
+      "target_path": "/templates/add",
+      "known": true
+    },
+    {
+      "source": "/projects/list",
+      "label": "Duplicate Project",
+      "target": "/projects/duplicate",
+      "target_path": "/projects/duplicate",
+      "known": true
+    },
+    {
+      "source": "/projects/list",
+      "label": "Share Project",
+      "target": "/projects/share",
+      "target_path": "/projects/share",
+      "known": true
+    },
+    {
+      "source": "/projects/list",
+      "label": "Archive Project",
+      "target": "/projects/archive",
+      "target_path": "/projects/archive",
+      "known": true
+    },
+    {
+      "source": "/projects/share",
+      "label": "Custom Domain",
+      "target": "/custom-domains/list",
+      "target_path": "/custom-domains/list",
+      "known": true
+    },
+    {
+      "source": "/projects/share",
+      "label": "PDF Export",
+      "target": "/automations/pdf",
+      "target_path": "/automations/pdf",
+      "known": true
+    },
+    {
+      "source": "/projects/update",
+      "label": "PDF Export",
+      "target": "/automations/pdf",
+      "target_path": "/automations/pdf",
+      "known": true
+    },
+    {
+      "source": "/projects/widgets",
+      "label": "Data Source",
+      "target": "/data-sources/list",
+      "target_path": "/data-sources/list",
+      "known": true
+    },
+    {
+      "source": "/templates/add",
+      "label": "Templates library",
+      "target": "/templates/list",
+      "target_path": "/templates/list",
+      "known": true
+    },
+    {
+      "source": "/templates/apply",
+      "label": "Add Project",
+      "target": "/projects/add",
+      "target_path": "/projects/add",
+      "known": true
+    },
+    {
+      "source": "/templates/apply",
+      "label": "Connect Data Source",
+      "target": "/data-sources/connect",
+      "target_path": "/data-sources/connect",
+      "known": true
+    },
+    {
+      "source": "/templates/list",
+      "label": "Apply Template",
+      "target": "/templates/apply",
+      "target_path": "/templates/apply",
+      "known": true
+    },
+    {
+      "source": "/themes/list",
+      "label": "Update Theme",
+      "target": "/themes/update",
+      "target_path": "/themes/update",
+      "known": true
+    },
+    {
+      "source": "/themes/list",
+      "label": "Apply Theme",
+      "target": "/themes/apply",
+      "target_path": "/themes/apply",
+      "known": true
+    },
+    {
+      "source": "/themes/list",
+      "label": "Delete Theme",
+      "target": "/themes/delete",
+      "target_path": "/themes/delete",
+      "known": true
+    },
+    {
+      "source": "/users/list",
+      "label": "Plans and billing",
+      "target": "/billing/plans",
+      "target_path": "/billing/plans",
+      "known": true
+    },
+    {
+      "source": "/users/profile",
+      "label": "Update User",
+      "target": "/users/update",
+      "target_path": "/users/update",
+      "known": true
+    },
+    {
+      "source": "/users/remove",
+      "label": "Update User",
+      "target": "/users/update",
+      "target_path": "/users/update",
+      "known": true
+    },
+    {
+      "source": "/users/update",
+      "label": "Invite User",
+      "target": "/users/invite",
+      "target_path": "/users/invite",
+      "known": true
+    }
+  ],
+  "unknown_checks": {}
+}

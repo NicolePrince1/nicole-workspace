@@ -1,0 +1,3554 @@
+[
+  {
+    "severity": "P0",
+    "category": "API reference",
+    "path": "/api-reference/openapi.json",
+    "issue": "Public OpenAPI spec is Mintlify Plant Store sample, not Oviond.",
+    "evidence": "Found title='OpenAPI Plant Store', server='http://sandbox.mintlify.com', /plants paths.",
+    "recommendation": "Replace with the real Oviond OpenAPI JSON or remove/hide the endpoint before launch."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/account/delete",
+    "issue": "Short non-API guide page.",
+    "evidence": "194 words; title='Delete Account'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/account/usage",
+    "issue": "Short non-API guide page.",
+    "evidence": "169 words; title='Usage'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/activity-log/overview",
+    "issue": "Very thin page content.",
+    "evidence": "97 words; title='Activity Log'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/agency/add",
+    "issue": "Short non-API guide page.",
+    "evidence": "153 words; title='Add Project'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/agency/archive",
+    "issue": "Short non-API guide page.",
+    "evidence": "161 words; title='Archive Project'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/agency/bulk-delete",
+    "issue": "Short non-API guide page.",
+    "evidence": "122 words; title='Bulk Delete'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/agency/duplicate",
+    "issue": "Short non-API guide page.",
+    "evidence": "145 words; title='Duplicate Project'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/agency/list",
+    "issue": "Short non-API guide page.",
+    "evidence": "128 words; title='List Projects'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/agency/pages",
+    "issue": "Short non-API guide page.",
+    "evidence": "187 words; title='Pages'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/agency/share",
+    "issue": "Short non-API guide page.",
+    "evidence": "188 words; title='Share Project'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/agency/update",
+    "issue": "Short non-API guide page.",
+    "evidence": "129 words; title='Update Project'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/api-keys/add",
+    "issue": "Short non-API guide page.",
+    "evidence": "144 words; title='Add API Key'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api-keys/delete",
+    "issue": "Very thin page content.",
+    "evidence": "100 words; title='Delete API Key'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/api-keys/revoke",
+    "issue": "Short non-API guide page.",
+    "evidence": "135 words; title='Revoke API Key'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P1",
+    "category": "Content structure",
+    "path": "/api/openapi.json",
+    "issue": "Missing H1 title.",
+    "evidence": "word_count=13166",
+    "recommendation": "Add exactly one H1 that matches the page intent."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/archive/delete",
+    "issue": "Short non-API guide page.",
+    "evidence": "155 words; title='Permanently Delete'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/archive/restore",
+    "issue": "Short non-API guide page.",
+    "evidence": "190 words; title='Restore'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/archive/view",
+    "issue": "Very thin page content.",
+    "evidence": "97 words; title='View Archive'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/automations/add",
+    "issue": "Short non-API guide page.",
+    "evidence": "151 words; title='Add Automation'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/automations/delete",
+    "issue": "Short non-API guide page.",
+    "evidence": "122 words; title='Delete Automation'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/automations/history",
+    "issue": "Short non-API guide page.",
+    "evidence": "165 words; title='Run History'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/automations/list",
+    "issue": "Short non-API guide page.",
+    "evidence": "166 words; title='List Automations'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/automations/test",
+    "issue": "Short non-API guide page.",
+    "evidence": "151 words; title='Test Automation'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/billing/invoices",
+    "issue": "Short non-API guide page.",
+    "evidence": "149 words; title='Invoices'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/clients/add",
+    "issue": "Short non-API guide page.",
+    "evidence": "181 words; title='Create a Client'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/clients/archive",
+    "issue": "Short non-API guide page.",
+    "evidence": "162 words; title='Archive Client'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/clients/bulk-delete",
+    "issue": "Short non-API guide page.",
+    "evidence": "187 words; title='Bulk Delete'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/clients/folders",
+    "issue": "Short non-API guide page.",
+    "evidence": "186 words; title='Group Clients'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/clients/list",
+    "issue": "Short non-API guide page.",
+    "evidence": "212 words; title='List Clients'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/company/overview",
+    "issue": "Very thin page content.",
+    "evidence": "98 words; title='Company'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/custom-data/delete",
+    "issue": "Short non-API guide page.",
+    "evidence": "124 words; title='Delete Custom Data'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/custom-data/duplicate",
+    "issue": "Short non-API guide page.",
+    "evidence": "125 words; title='Duplicate Custom Data'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/custom-data/list",
+    "issue": "Short non-API guide page.",
+    "evidence": "140 words; title='List Custom Data'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/custom-data/update",
+    "issue": "Short non-API guide page.",
+    "evidence": "146 words; title='Update Custom Data'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/custom-data/upload",
+    "issue": "Short non-API guide page.",
+    "evidence": "193 words; title='Upload Custom Data'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/custom-domains/add",
+    "issue": "Short non-API guide page.",
+    "evidence": "165 words; title='Add Domain'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/custom-domains/delete",
+    "issue": "Very thin page content.",
+    "evidence": "115 words; title='Delete Domain'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/custom-domains/verify",
+    "issue": "Short non-API guide page.",
+    "evidence": "173 words; title='Verify Domain'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/data-sources/delete",
+    "issue": "Short non-API guide page.",
+    "evidence": "139 words; title='Delete Data Source'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/data-sources/link",
+    "issue": "Short non-API guide page.",
+    "evidence": "154 words; title='Link to Client'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/data-sources/profiles",
+    "issue": "Short non-API guide page.",
+    "evidence": "180 words; title='Profiles'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/data-sources/test",
+    "issue": "Short non-API guide page.",
+    "evidence": "159 words; title='Test Connection'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/email-settings/defaults",
+    "issue": "Short non-API guide page.",
+    "evidence": "148 words; title='Defaults'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/email-settings/domains",
+    "issue": "Short non-API guide page.",
+    "evidence": "155 words; title='Email Domains'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/email-settings/logs",
+    "issue": "Short non-API guide page.",
+    "evidence": "181 words; title='Email Logs'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/email-settings/senders",
+    "issue": "Short non-API guide page.",
+    "evidence": "142 words; title='Senders'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/email-settings/smtp",
+    "issue": "Short non-API guide page.",
+    "evidence": "187 words; title='SMTP'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/guides/overview",
+    "issue": "Short non-API guide page.",
+    "evidence": "149 words; title='Overview'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/mcp/connect",
+    "issue": "Short non-API guide page.",
+    "evidence": "212 words; title='Connect'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/media/bulk-delete",
+    "issue": "Short non-API guide page.",
+    "evidence": "173 words; title='Bulk Delete'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/media/delete",
+    "issue": "Short non-API guide page.",
+    "evidence": "151 words; title='Delete Media'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/media/folders",
+    "issue": "Short non-API guide page.",
+    "evidence": "183 words; title='Folders'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/media/list",
+    "issue": "Short non-API guide page.",
+    "evidence": "174 words; title='List Media'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/media/update",
+    "issue": "Short non-API guide page.",
+    "evidence": "134 words; title='Rename Media'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/media/upload",
+    "issue": "Short non-API guide page.",
+    "evidence": "184 words; title='Upload Media'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/notifications/preferences",
+    "issue": "Short non-API guide page.",
+    "evidence": "175 words; title='Preferences'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/notifications/view",
+    "issue": "Very thin page content.",
+    "evidence": "87 words; title='View Notifications'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/projects/add",
+    "issue": "Short non-API guide page.",
+    "evidence": "165 words; title='Add Project'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/projects/archive",
+    "issue": "Short non-API guide page.",
+    "evidence": "157 words; title='Archive Project'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/projects/bulk-delete",
+    "issue": "Short non-API guide page.",
+    "evidence": "127 words; title='Bulk Delete'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/projects/duplicate",
+    "issue": "Short non-API guide page.",
+    "evidence": "142 words; title='Duplicate Project'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/projects/list",
+    "issue": "Short non-API guide page.",
+    "evidence": "177 words; title='List Projects'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/projects/pages",
+    "issue": "Short non-API guide page.",
+    "evidence": "185 words; title='Pages'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/projects/share",
+    "issue": "Short non-API guide page.",
+    "evidence": "199 words; title='Share Project'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/projects/update",
+    "issue": "Short non-API guide page.",
+    "evidence": "140 words; title='Update Project'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/templates/add",
+    "issue": "Short non-API guide page.",
+    "evidence": "184 words; title='Add Template'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/templates/apply",
+    "issue": "Short non-API guide page.",
+    "evidence": "160 words; title='Apply Template'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/templates/delete",
+    "issue": "Very thin page content.",
+    "evidence": "109 words; title='Delete Template'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/templates/list",
+    "issue": "Short non-API guide page.",
+    "evidence": "164 words; title='List Templates'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/themes/add",
+    "issue": "Short non-API guide page.",
+    "evidence": "138 words; title='Add Theme'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/themes/apply",
+    "issue": "Short non-API guide page.",
+    "evidence": "151 words; title='Apply Theme'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/themes/delete",
+    "issue": "Very thin page content.",
+    "evidence": "105 words; title='Delete Theme'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/themes/list",
+    "issue": "Short non-API guide page.",
+    "evidence": "121 words; title='List Themes'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/themes/update",
+    "issue": "Short non-API guide page.",
+    "evidence": "130 words; title='Update Theme'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/users/invite",
+    "issue": "Short non-API guide page.",
+    "evidence": "161 words; title='Invite User'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/users/remove",
+    "issue": "Short non-API guide page.",
+    "evidence": "145 words; title='Remove User'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P2",
+    "category": "Thin content",
+    "path": "/users/update",
+    "issue": "Short non-API guide page.",
+    "evidence": "132 words; title='Update User'",
+    "recommendation": "Add stronger task context, edge cases, screenshots/GIFs, and next-step links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/account/delete-account",
+    "issue": "Very thin page content.",
+    "evidence": "65 words; title='Delete Account'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/account/get-account",
+    "issue": "Very thin page content.",
+    "evidence": "30 words; title='Get Account'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/account/get-account-usage",
+    "issue": "Very thin page content.",
+    "evidence": "30 words; title='Get Account Usage'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/activity/list-activity",
+    "issue": "Very thin page content.",
+    "evidence": "29 words; title='List Activity'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/archive/delete-permanently",
+    "issue": "Very thin page content.",
+    "evidence": "26 words; title='Delete Permanently'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/archive/get-archive-counts",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='Get Archive Counts'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/archive/list-archive",
+    "issue": "Very thin page content.",
+    "evidence": "26 words; title='List Archive'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/archive/restore-items",
+    "issue": "Very thin page content.",
+    "evidence": "25 words; title='Restore Items'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/assets/create-asset",
+    "issue": "Very thin page content.",
+    "evidence": "25 words; title='Create Asset'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/assets/delete-asset",
+    "issue": "Very thin page content.",
+    "evidence": "25 words; title='Delete Asset'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/assets/duplicate-asset",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='Duplicate Asset'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/assets/get-asset",
+    "issue": "Very thin page content.",
+    "evidence": "27 words; title='Get Asset'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/assets/list-asset-tags",
+    "issue": "Very thin page content.",
+    "evidence": "33 words; title='List Asset Tags'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/assets/list-asset-widgets",
+    "issue": "Very thin page content.",
+    "evidence": "31 words; title='List Asset Widgets'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/assets/list-assets",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='List Assets'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/assets/update-asset",
+    "issue": "Very thin page content.",
+    "evidence": "25 words; title='Update Asset'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/automations/bulk-delete-automations",
+    "issue": "Very thin page content.",
+    "evidence": "33 words; title='Bulk Delete Automations'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/automations/create-automation",
+    "issue": "Very thin page content.",
+    "evidence": "27 words; title='Create Automation'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/automations/delete-automation",
+    "issue": "Very thin page content.",
+    "evidence": "32 words; title='Delete Automation'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/automations/get-automation-history",
+    "issue": "Very thin page content.",
+    "evidence": "29 words; title='Get Automation History'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/automations/list-automations",
+    "issue": "Very thin page content.",
+    "evidence": "31 words; title='List Automations'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/automations/pause-automation",
+    "issue": "Very thin page content.",
+    "evidence": "33 words; title='Pause Automation'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/automations/test-automation",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='Test Automation'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/automations/unpause-automation",
+    "issue": "Very thin page content.",
+    "evidence": "29 words; title='Unpause Automation'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/automations/update-automation",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='Update Automation'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/billing/list-invoices",
+    "issue": "Very thin page content.",
+    "evidence": "27 words; title='List Invoices'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/billing/list-plans",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='List Plans'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/branding/get-branding",
+    "issue": "Very thin page content.",
+    "evidence": "25 words; title='Get Branding'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/branding/update-branding",
+    "issue": "Very thin page content.",
+    "evidence": "25 words; title='Update Branding'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/calculated-metrics/create-calculated-metric",
+    "issue": "Very thin page content.",
+    "evidence": "27 words; title='Create Calculated Metric'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/calculated-metrics/delete-calculated-metric",
+    "issue": "Very thin page content.",
+    "evidence": "26 words; title='Delete Calculated Metric'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/calculated-metrics/duplicate-calculated-metric",
+    "issue": "Very thin page content.",
+    "evidence": "26 words; title='Duplicate Calculated Metric'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/calculated-metrics/list-calculated-metrics",
+    "issue": "Very thin page content.",
+    "evidence": "31 words; title='List Calculated Metrics'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/calculated-metrics/update-calculated-metric",
+    "issue": "Very thin page content.",
+    "evidence": "26 words; title='Update Calculated Metric'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/clients/bulk-delete-clients",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='Bulk Delete Clients'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/clients/count-clients",
+    "issue": "Very thin page content.",
+    "evidence": "29 words; title='Count Clients'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/clients/create-client",
+    "issue": "Very thin page content.",
+    "evidence": "25 words; title='Create Client'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/clients/delete-client",
+    "issue": "Very thin page content.",
+    "evidence": "31 words; title='Delete Client'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/clients/get-client",
+    "issue": "Very thin page content.",
+    "evidence": "27 words; title='Get Client'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/clients/list-all-clients",
+    "issue": "Very thin page content.",
+    "evidence": "30 words; title='List All Clients'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/clients/list-client-integrations",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='List Client Integrations'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/clients/list-clients",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='List Clients'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/clients/move-client-folder",
+    "issue": "Very thin page content.",
+    "evidence": "30 words; title='Move Client Folder'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/clients/refresh-screenshot",
+    "issue": "Very thin page content.",
+    "evidence": "45 words; title='Refresh Screenshot'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/clients/update-client",
+    "issue": "Very thin page content.",
+    "evidence": "24 words; title='Update Client'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/company/get-company",
+    "issue": "Very thin page content.",
+    "evidence": "29 words; title='Get Company'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/company/update-company",
+    "issue": "Very thin page content.",
+    "evidence": "25 words; title='Update Company'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/custom-data/create-custom-data",
+    "issue": "Very thin page content.",
+    "evidence": "29 words; title='Create Custom Data'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/custom-data/delete-custom-data",
+    "issue": "Very thin page content.",
+    "evidence": "26 words; title='Delete Custom Data'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/custom-data/duplicate-custom-data",
+    "issue": "Very thin page content.",
+    "evidence": "26 words; title='Duplicate Custom Data'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/custom-data/get-custom-data",
+    "issue": "Very thin page content.",
+    "evidence": "32 words; title='Get Custom Data'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/custom-data/list-custom-data",
+    "issue": "Very thin page content.",
+    "evidence": "33 words; title='List Custom Data'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/custom-data/update-custom-data",
+    "issue": "Very thin page content.",
+    "evidence": "26 words; title='Update Custom Data'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/data/fetch-resource-data",
+    "issue": "Very thin page content.",
+    "evidence": "34 words; title='Fetch Resource Data'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/data/list-integration-accounts",
+    "issue": "Very thin page content.",
+    "evidence": "32 words; title='List Integration Accounts'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/data/query-data",
+    "issue": "Very thin page content.",
+    "evidence": "31 words; title='Query Data'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/data/test-connection",
+    "issue": "Very thin page content.",
+    "evidence": "31 words; title='Test Connection'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/email/add-email-domain",
+    "issue": "Very thin page content.",
+    "evidence": "30 words; title='Add Email Domain'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/email/add-email-sender",
+    "issue": "Very thin page content.",
+    "evidence": "30 words; title='Add Email Sender'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/email/delete-email-domain",
+    "issue": "Very thin page content.",
+    "evidence": "32 words; title='Delete Email Domain'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/email/delete-smtp-config",
+    "issue": "Very thin page content.",
+    "evidence": "29 words; title='Delete SMTP Config'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/email/get-email-setup",
+    "issue": "Very thin page content.",
+    "evidence": "31 words; title='Get Email Setup'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/email/list-email-logs",
+    "issue": "Very thin page content.",
+    "evidence": "26 words; title='List Email Logs'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/email/queue-emails",
+    "issue": "Very thin page content.",
+    "evidence": "41 words; title='Queue Emails'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/email/send-email",
+    "issue": "Very thin page content.",
+    "evidence": "27 words; title='Send Email'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/email/test-smtp",
+    "issue": "Very thin page content.",
+    "evidence": "30 words; title='Test SMTP'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/email/update-email-setup",
+    "issue": "Very thin page content.",
+    "evidence": "27 words; title='Update Email Setup'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/email/update-smtp-config",
+    "issue": "Very thin page content.",
+    "evidence": "29 words; title='Update SMTP Config'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/email/verify-email-domain",
+    "issue": "Very thin page content.",
+    "evidence": "30 words; title='Verify Email Domain'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/folders/create-folder",
+    "issue": "Very thin page content.",
+    "evidence": "26 words; title='Create Folder'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/folders/delete-folder",
+    "issue": "Very thin page content.",
+    "evidence": "31 words; title='Delete Folder'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/folders/list-folders",
+    "issue": "Very thin page content.",
+    "evidence": "30 words; title='List Folders'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/folders/update-folder",
+    "issue": "Very thin page content.",
+    "evidence": "25 words; title='Update Folder'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/health/health-check",
+    "issue": "Very thin page content.",
+    "evidence": "22 words; title='Health Check'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/integrations/delete-integration",
+    "issue": "Very thin page content.",
+    "evidence": "27 words; title='Delete Integration'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/integrations/delete-profile",
+    "issue": "Very thin page content.",
+    "evidence": "26 words; title='Delete Profile'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/integrations/link-datasource",
+    "issue": "Very thin page content.",
+    "evidence": "26 words; title='Link Datasource'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/integrations/list-all-profiles",
+    "issue": "Very thin page content.",
+    "evidence": "30 words; title='List All Profiles'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/integrations/list-integration-profiles",
+    "issue": "Very thin page content.",
+    "evidence": "29 words; title='List Integration Profiles'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/integrations/list-integrations",
+    "issue": "Very thin page content.",
+    "evidence": "31 words; title='List Integrations'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/integrations/rename-integration",
+    "issue": "Very thin page content.",
+    "evidence": "27 words; title='Rename Integration'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/integrations/rename-profile",
+    "issue": "Very thin page content.",
+    "evidence": "26 words; title='Rename Profile'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/integrations/test-auth-connection",
+    "issue": "Very thin page content.",
+    "evidence": "30 words; title='Test Auth Connection'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/integrations/unlink-datasource",
+    "issue": "Very thin page content.",
+    "evidence": "26 words; title='Unlink Datasource'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/integrations/update-client-integrations",
+    "issue": "Very thin page content.",
+    "evidence": "32 words; title='Update Client Integrations'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/media/bulk-delete-media",
+    "issue": "Very thin page content.",
+    "evidence": "27 words; title='Bulk Delete Media'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/media/create-media-folder",
+    "issue": "Very thin page content.",
+    "evidence": "27 words; title='Create Media Folder'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/media/delete-media",
+    "issue": "Very thin page content.",
+    "evidence": "35 words; title='Delete Media'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/media/delete-media-folder",
+    "issue": "Very thin page content.",
+    "evidence": "34 words; title='Delete Media Folder'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/media/group-media",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='Group Media'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/media/list-media",
+    "issue": "Very thin page content.",
+    "evidence": "30 words; title='List Media'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/media/list-media-folders",
+    "issue": "Very thin page content.",
+    "evidence": "30 words; title='List Media Folders'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/media/rename-media-folder",
+    "issue": "Very thin page content.",
+    "evidence": "26 words; title='Rename Media Folder'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/media/update-media",
+    "issue": "Very thin page content.",
+    "evidence": "26 words; title='Update Media'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/pages/create-page",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='Create Page'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/pages/delete-page",
+    "issue": "Very thin page content.",
+    "evidence": "24 words; title='Delete Page'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/pages/list-pages",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='List Pages'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/pages/update-page",
+    "issue": "Very thin page content.",
+    "evidence": "24 words; title='Update Page'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/pdf/generate-pdf",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='Generate PDF'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/pdf/get-pdf-status",
+    "issue": "Very thin page content.",
+    "evidence": "30 words; title='Get PDF Status'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/projects/bulk-delete-projects",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='Bulk Delete Projects'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/projects/create-project",
+    "issue": "Very thin page content.",
+    "evidence": "25 words; title='Create Project'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/projects/delete-pdf-notification",
+    "issue": "Very thin page content.",
+    "evidence": "29 words; title='Delete PDF Notification'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/projects/delete-project",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='Delete Project'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/projects/duplicate-project",
+    "issue": "Very thin page content.",
+    "evidence": "31 words; title='Duplicate Project'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/projects/get-project",
+    "issue": "Very thin page content.",
+    "evidence": "27 words; title='Get Project'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/projects/list-all-projects",
+    "issue": "Very thin page content.",
+    "evidence": "32 words; title='List All Projects'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/projects/list-projects",
+    "issue": "Very thin page content.",
+    "evidence": "32 words; title='List Projects'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/projects/update-project",
+    "issue": "Very thin page content.",
+    "evidence": "24 words; title='Update Project'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/saved-metrics/create-saved-metric",
+    "issue": "Very thin page content.",
+    "evidence": "27 words; title='Create Saved Metric'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/saved-metrics/delete-saved-metric",
+    "issue": "Very thin page content.",
+    "evidence": "26 words; title='Delete Saved Metric'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/saved-metrics/duplicate-saved-metric",
+    "issue": "Very thin page content.",
+    "evidence": "26 words; title='Duplicate Saved Metric'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/saved-metrics/list-saved-metrics",
+    "issue": "Very thin page content.",
+    "evidence": "31 words; title='List Saved Metrics'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/saved-metrics/update-saved-metric",
+    "issue": "Very thin page content.",
+    "evidence": "26 words; title='Update Saved Metric'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/search/search",
+    "issue": "Very thin page content.",
+    "evidence": "31 words; title='Search'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/templates/create-template",
+    "issue": "Very thin page content.",
+    "evidence": "32 words; title='Create Template'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/templates/delete-template",
+    "issue": "Very thin page content.",
+    "evidence": "24 words; title='Delete Template'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/templates/get-template",
+    "issue": "Very thin page content.",
+    "evidence": "27 words; title='Get Template'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/templates/list-templates",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='List Templates'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/templates/update-template",
+    "issue": "Very thin page content.",
+    "evidence": "24 words; title='Update Template'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/themes/create-theme",
+    "issue": "Very thin page content.",
+    "evidence": "25 words; title='Create Theme'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/themes/delete-theme",
+    "issue": "Very thin page content.",
+    "evidence": "24 words; title='Delete Theme'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/themes/get-theme",
+    "issue": "Very thin page content.",
+    "evidence": "27 words; title='Get Theme'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/themes/list-themes",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='List Themes'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/themes/update-theme",
+    "issue": "Very thin page content.",
+    "evidence": "24 words; title='Update Theme'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/users/change-email",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='Change Email'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/users/delete-user",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='Delete User'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/users/get-user",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='Get User'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/users/invite-user",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='Invite User'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/users/list-users",
+    "issue": "Very thin page content.",
+    "evidence": "30 words; title='List Users'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/users/update-avatar",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='Update Avatar'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/users/update-profile",
+    "issue": "Very thin page content.",
+    "evidence": "31 words; title='Update Profile'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/users/update-user",
+    "issue": "Very thin page content.",
+    "evidence": "29 words; title='Update User'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/white-label/add-domain",
+    "issue": "Very thin page content.",
+    "evidence": "35 words; title='Add Domain'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/white-label/check-domain-status",
+    "issue": "Very thin page content.",
+    "evidence": "29 words; title='Check Domain Status'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/white-label/delete-domain",
+    "issue": "Very thin page content.",
+    "evidence": "25 words; title='Delete Domain'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/white-label/list-domains",
+    "issue": "Very thin page content.",
+    "evidence": "29 words; title='List Domains'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/widgets/bulk-delete-widgets",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='Bulk Delete Widgets'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/widgets/create-widgets",
+    "issue": "Very thin page content.",
+    "evidence": "27 words; title='Create Widgets'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/widgets/delete-widget",
+    "issue": "Very thin page content.",
+    "evidence": "27 words; title='Delete Widget'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/widgets/get-widget",
+    "issue": "Very thin page content.",
+    "evidence": "27 words; title='Get Widget'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/widgets/list-widget-ids",
+    "issue": "Very thin page content.",
+    "evidence": "28 words; title='List Widget IDs'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/widgets/list-widgets",
+    "issue": "Very thin page content.",
+    "evidence": "26 words; title='List Widgets'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P1",
+    "category": "Thin content",
+    "path": "/api/widgets/update-widget",
+    "issue": "Very thin page content.",
+    "evidence": "27 words; title='Update Widget'",
+    "recommendation": "Expand with purpose, prerequisites, steps, expected outcome, and related links."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/authentication, /mcp/auth",
+    "issue": "Duplicate H1 title 'Authentication' across 2 pages.",
+    "evidence": "/authentication, /mcp/auth",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/account/delete, /api/account/delete-account",
+    "issue": "Duplicate H1 title 'Delete Account' across 2 pages.",
+    "evidence": "/account/delete, /api/account/delete-account",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/agency/add, /projects/add",
+    "issue": "Duplicate H1 title 'Add Project' across 2 pages.",
+    "evidence": "/agency/add, /projects/add",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/agency/archive, /projects/archive",
+    "issue": "Duplicate H1 title 'Archive Project' across 2 pages.",
+    "evidence": "/agency/archive, /projects/archive",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/agency/bulk-delete, /clients/bulk-delete, /media/bulk-delete, /projects/bulk-delete",
+    "issue": "Duplicate H1 title 'Bulk Delete' across 4 pages.",
+    "evidence": "/agency/bulk-delete, /clients/bulk-delete, /media/bulk-delete, /projects/bulk-delete",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/agency/duplicate, /projects/duplicate, /api/projects/duplicate-project",
+    "issue": "Duplicate H1 title 'Duplicate Project' across 3 pages.",
+    "evidence": "/agency/duplicate, /projects/duplicate, /api/projects/duplicate-project",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/agency/list, /projects/list, /api/projects/list-projects",
+    "issue": "Duplicate H1 title 'List Projects' across 3 pages.",
+    "evidence": "/agency/list, /projects/list, /api/projects/list-projects",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/agency/pages, /projects/pages",
+    "issue": "Duplicate H1 title 'Pages' across 2 pages.",
+    "evidence": "/agency/pages, /projects/pages",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/agency/share, /projects/share",
+    "issue": "Duplicate H1 title 'Share Project' across 2 pages.",
+    "evidence": "/agency/share, /projects/share",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/agency/update, /projects/update, /api/projects/update-project",
+    "issue": "Duplicate H1 title 'Update Project' across 3 pages.",
+    "evidence": "/agency/update, /projects/update, /api/projects/update-project",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/agency/widgets, /projects/widgets",
+    "issue": "Duplicate H1 title 'Widgets' across 2 pages.",
+    "evidence": "/agency/widgets, /projects/widgets",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/api/introduction, /guides/overview, /mcp/overview",
+    "issue": "Duplicate H1 title 'Overview' across 3 pages.",
+    "evidence": "/api/introduction, /guides/overview, /mcp/overview",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/automations/delete, /api/automations/delete-automation",
+    "issue": "Duplicate H1 title 'Delete Automation' across 2 pages.",
+    "evidence": "/automations/delete, /api/automations/delete-automation",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/automations/list, /api/automations/list-automations",
+    "issue": "Duplicate H1 title 'List Automations' across 2 pages.",
+    "evidence": "/automations/list, /api/automations/list-automations",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/automations/test, /api/automations/test-automation",
+    "issue": "Duplicate H1 title 'Test Automation' across 2 pages.",
+    "evidence": "/automations/test, /api/automations/test-automation",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/clients/list, /api/clients/list-clients",
+    "issue": "Duplicate H1 title 'List Clients' across 2 pages.",
+    "evidence": "/clients/list, /api/clients/list-clients",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/custom-data/delete, /api/custom-data/delete-custom-data",
+    "issue": "Duplicate H1 title 'Delete Custom Data' across 2 pages.",
+    "evidence": "/custom-data/delete, /api/custom-data/delete-custom-data",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/custom-data/duplicate, /api/custom-data/duplicate-custom-data",
+    "issue": "Duplicate H1 title 'Duplicate Custom Data' across 2 pages.",
+    "evidence": "/custom-data/duplicate, /api/custom-data/duplicate-custom-data",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/custom-data/list, /api/custom-data/list-custom-data",
+    "issue": "Duplicate H1 title 'List Custom Data' across 2 pages.",
+    "evidence": "/custom-data/list, /api/custom-data/list-custom-data",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/custom-data/update, /api/custom-data/update-custom-data",
+    "issue": "Duplicate H1 title 'Update Custom Data' across 2 pages.",
+    "evidence": "/custom-data/update, /api/custom-data/update-custom-data",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/custom-domains/add, /api/white-label/add-domain",
+    "issue": "Duplicate H1 title 'Add Domain' across 2 pages.",
+    "evidence": "/custom-domains/add, /api/white-label/add-domain",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/custom-domains/delete, /api/white-label/delete-domain",
+    "issue": "Duplicate H1 title 'Delete Domain' across 2 pages.",
+    "evidence": "/custom-domains/delete, /api/white-label/delete-domain",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/custom-domains/list, /api/white-label/list-domains",
+    "issue": "Duplicate H1 title 'List Domains' across 2 pages.",
+    "evidence": "/custom-domains/list, /api/white-label/list-domains",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/data-sources/connect, /mcp/connect",
+    "issue": "Duplicate H1 title 'Connect' across 2 pages.",
+    "evidence": "/data-sources/connect, /mcp/connect",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/data-sources/test, /api/data/test-connection",
+    "issue": "Duplicate H1 title 'Test Connection' across 2 pages.",
+    "evidence": "/data-sources/test, /api/data/test-connection",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/media/delete, /api/media/delete-media",
+    "issue": "Duplicate H1 title 'Delete Media' across 2 pages.",
+    "evidence": "/media/delete, /api/media/delete-media",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/media/list, /api/media/list-media",
+    "issue": "Duplicate H1 title 'List Media' across 2 pages.",
+    "evidence": "/media/list, /api/media/list-media",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/templates/delete, /api/templates/delete-template",
+    "issue": "Duplicate H1 title 'Delete Template' across 2 pages.",
+    "evidence": "/templates/delete, /api/templates/delete-template",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/templates/list, /api/templates/list-templates",
+    "issue": "Duplicate H1 title 'List Templates' across 2 pages.",
+    "evidence": "/templates/list, /api/templates/list-templates",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/themes/delete, /api/themes/delete-theme",
+    "issue": "Duplicate H1 title 'Delete Theme' across 2 pages.",
+    "evidence": "/themes/delete, /api/themes/delete-theme",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/themes/list, /api/themes/list-themes",
+    "issue": "Duplicate H1 title 'List Themes' across 2 pages.",
+    "evidence": "/themes/list, /api/themes/list-themes",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/themes/update, /api/themes/update-theme",
+    "issue": "Duplicate H1 title 'Update Theme' across 2 pages.",
+    "evidence": "/themes/update, /api/themes/update-theme",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/users/invite, /api/users/invite-user",
+    "issue": "Duplicate H1 title 'Invite User' across 2 pages.",
+    "evidence": "/users/invite, /api/users/invite-user",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/users/list, /api/users/list-users",
+    "issue": "Duplicate H1 title 'List Users' across 2 pages.",
+    "evidence": "/users/list, /api/users/list-users",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P2",
+    "category": "Title clarity",
+    "path": "/users/update, /api/users/update-user",
+    "issue": "Duplicate H1 title 'Update User' across 2 pages.",
+    "evidence": "/users/update, /api/users/update-user",
+    "recommendation": "Disambiguate API vs UI pages, e.g. 'Delete Account API' vs 'Delete your account'."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/introduction",
+    "issue": "Old billing plan framing",
+    "evidence": "Oviond is a white-label digital marketing reporting platform built for agencies. Connect your clients' marketing accounts — Google Ads, Facebook, and 30+ other platforms — and build professional dashboards and reports th",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P2",
+    "category": "Copy consistency",
+    "path": "/account/overview",
+    "issue": "TODO/TBD placeholder",
+    "evidence": "Click your current avatar image (or the initials placeholder) and select an image file from your computer. Oviond accepts JPG and PNG files. Your avatar is visible to other team members inside the platform.",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P2",
+    "category": "Copy consistency",
+    "path": "/account/overview",
+    "issue": "Uncertain UI language",
+    "evidence": "Your account settings let you control everything personal to your login — your display name, language, avatar, and email address — as well as account-level details that apply across your entire Oviond workspace. You can  | Your profile controls how you appear inside Oviond and, where applicable, in client-facing communications sent from your account. | Click **Save**. Oviond may send a verification email to your new address to confirm the change.",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/account/overview",
+    "issue": "Old billing plan framing",
+    "evidence": "The usage panel displays the following metrics alongside your plan's limits: | If you're approaching a limit, you can upgrade your plan from **Billing** in the sidebar. See [Plans and billing](/billing/plans) for details on what each plan includes.",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/account/usage",
+    "issue": "Old billing plan framing",
+    "evidence": "> See what your agency has used against your plan's limits.",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P2",
+    "category": "Copy consistency",
+    "path": "/api/openapi.json",
+    "issue": "TODO/TBD placeholder",
+    "evidence": "\"description\": \"Optional starting avatar URL; defaults to a placeholder the user can replace.\"",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/api/openapi.json",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "\"resend\": { | \"sqs\", | \"example\": \"sqs\"",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/billing/plans",
+    "issue": "Old billing plan framing",
+    "evidence": "If you need more clients or seats than any listed plan offers, contact Oviond support to ask about enterprise options.",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/billing/subscription",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "Oviond uses Stripe to handle all subscription billing. You can manage your plan, payment method, and invoices directly from your account settings or through the Stripe customer portal. | Go to **Settings → Billing** and click **Manage Billing**. This opens the Stripe customer portal in a new tab, where you can:",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/changelog/2026-04",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "* `GET /v1/white-label/domains/:id/status` — check DNS verification via Vercel | ### Uploads, folders, and S3-backed storage | Upload images and assets, organize them into folders, and reference them directly from widgets. Deletes are soft — files stay in S3 for recovery.",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P2",
+    "category": "Copy consistency",
+    "path": "/clients/folders",
+    "issue": "Uncertain UI language",
+    "evidence": "Folders are purely organizational — they don't affect permissions, billing, or reports. A single client can be assigned to multiple folders if needed.",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/custom-domains/delete",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "Deleting a domain stops it from serving reports and removes it from Vercel on Oviond's side. Shared links that used the custom domain will fall back to `app.oviond.com`.",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P2",
+    "category": "Copy consistency",
+    "path": "/custom-domains/list",
+    "issue": "Uncertain UI language",
+    "evidence": "<Step title=\"Wait if needed\">",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/custom-domains/verify",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "Oviond re-queries DNS and Vercel (the SSL provider) and updates the status immediately. | * **Cloudflare / Vercel DNS** — under 1 minute",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P2",
+    "category": "Copy consistency",
+    "path": "/data-sources/profiles",
+    "issue": "Uncertain UI language",
+    "evidence": "<Step title=\"Rename if needed\">",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/email-settings/smtp",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "By default Oviond sends automation emails via our managed provider (Resend). If your agency needs every email to pass through its own SMTP server — for audit, deliverability isolation, or IP warming — configure SMTP unde",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/media/bulk-delete",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "Deleted media items are **soft-deleted** — the S3 file stays in place and the row is retained until the retention window expires. Widgets that reference a deleted item will show a broken image until the item is restored ",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P2",
+    "category": "Copy consistency",
+    "path": "/media/delete",
+    "issue": "TODO/TBD placeholder",
+    "evidence": "Widgets that referenced the deleted item show a broken-image placeholder with a **Missing Media** badge. Options:",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/media/delete",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "Deleting a single media item removes it from the active library and moves it to the [Archive](/archive/view). The underlying S3 file is retained for the restore window — nothing is permanently destroyed at this step. | Archived media items older than the retention window (90 days by default) are **permanently purged**, including the S3 file. Restore before then if you want to keep it.",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/media/update",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "Renaming a media item updates its display name only. The underlying S3 file keeps the same URL — widgets referencing the item don't need to be re-wired. | * The file's URL (the S3 key is immutable).",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/media/upload",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "The **Media library** is where every image, logo, icon, and file referenced from widgets, reports, and share pages lives. Uploads go straight to S3-backed storage — Oviond generates a pre-signed URL, the file uploads dir",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/onboarding/overview",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "*\"What is your company's website?\"* — your agency's URL. If you don't include `http://` or `https://`, Oviond adds `https://` automatically. Shown on the accounts row and used for the default screenshot on your own compa",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P2",
+    "category": "Copy consistency",
+    "path": "/projects/duplicate",
+    "issue": "Uncertain UI language",
+    "evidence": "Open the copy's settings to give it a new name and, if needed, assign it to a different client.",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/themes/list",
+    "issue": "Old billing plan framing",
+    "evidence": "| **Oviond Library** | Neutral starter themes maintained by Oviond. |",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/users/list",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "Click **Send invitation**. The invitee receives an email with a link to accept the invitation and set up their login. The invitation link expires after a set period — if they don't accept in time, you can resend it from  | ## Resend an invitation | If a pending team member hasn't accepted their invitation, you can resend it.",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/api/account/delete-account",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "> Irreversible. Cancels the active Stripe subscription, deletes all data across every table for this account, removes all team members from the users table, purges all S3 media files, and deletes all Supabase Auth users. | users table, purges all S3 media files, and deletes all Supabase Auth",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/api/account/get-account",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "> Get the accounts row for the current account | description: Get the accounts row for the current account",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/api/automations/bulk-delete-automations",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "> Soft-delete multiple automations and remove them from the cron scheduler | description: Soft-delete multiple automations and remove them from the cron scheduler",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/api/automations/delete-automation",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "> Soft-delete an automation and remove it from the cron scheduler | description: Soft-delete an automation and remove it from the cron scheduler",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/api/email/add-email-domain",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "> Add and register a sending domain with Resend | description: Add and register a sending domain with Resend",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/api/email/delete-email-domain",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "> Remove a sending domain from Resend and the account config | description: Remove a sending domain from Resend and the account config",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/api/email/get-email-setup",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "resend:",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/api/email/queue-emails",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "> Enqueue a batch of emails to SQS for async delivery, falling back to direct Resend when SQS is not configured | Enqueue a batch of emails to SQS for async delivery, falling back to | direct Resend when SQS is not configured",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/api/email/send-email",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "> Send a transactional email via Resend | description: Send a transactional email via Resend",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/api/email/verify-email-domain",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "> Trigger domain DNS verification check with Resend | description: Trigger domain DNS verification check with Resend",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/api/health/health-check",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "supabase: | - supabase",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/api/media/delete-media",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "> Soft-delete a media item. The underlying file is retained in S3 for potential restore. | Soft-delete a media item. The underlying file is retained in S3 for",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/api/pdf/generate-pdf",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "description: S3 not configured",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/api/pdf/get-pdf-status",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "example: https://s3.amazonaws.com/bucket/pdf/report.pdf",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P2",
+    "category": "Copy consistency",
+    "path": "/api/users/invite-user",
+    "issue": "TODO/TBD placeholder",
+    "evidence": "Optional starting avatar URL; defaults to a placeholder the user can",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/api/white-label/add-domain",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "> Add a custom domain. Detects the DNS provider and registers the domain on Vercel. | on Vercel.",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P1",
+    "category": "Copy consistency",
+    "path": "/api/white-label/check-domain-status",
+    "issue": "Supabase/internal implementation leak",
+    "evidence": "> Check domain verification status via Vercel. | description: Check domain verification status via Vercel.",
+    "recommendation": "Rewrite for customer-facing clarity; remove internal implementation details and uncertain wording."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/openapi.json",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=13166",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/account/delete-account",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=65",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P1",
+    "category": "API completeness",
+    "path": "/api/account/get-account",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path, request; words=30",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P1",
+    "category": "API completeness",
+    "path": "/api/account/get-account-usage",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path, request; words=30",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/activity/list-activity",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=29",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/archive/delete-permanently",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=26",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P1",
+    "category": "API completeness",
+    "path": "/api/archive/get-archive-counts",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path, request; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/archive/list-archive",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=26",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/archive/restore-items",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=25",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/assets/create-asset",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=25",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/assets/delete-asset",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=25",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/assets/duplicate-asset",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/assets/get-asset",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=27",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P1",
+    "category": "API completeness",
+    "path": "/api/assets/list-asset-tags",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path, request; words=33",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/assets/list-asset-widgets",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=31",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/assets/list-assets",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/assets/update-asset",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=25",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/automations/bulk-delete-automations",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=33",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/automations/create-automation",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=27",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/automations/delete-automation",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=32",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/automations/get-automation-history",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=29",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/automations/list-automations",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=31",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/automations/pause-automation",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=33",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/automations/test-automation",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/automations/unpause-automation",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=29",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/automations/update-automation",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P1",
+    "category": "API completeness",
+    "path": "/api/billing/list-invoices",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path, request; words=27",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P1",
+    "category": "API completeness",
+    "path": "/api/billing/list-plans",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path, request; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P1",
+    "category": "API completeness",
+    "path": "/api/branding/get-branding",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path, request; words=25",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/branding/update-branding",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=25",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/calculated-metrics/create-calculated-metric",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=27",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/calculated-metrics/delete-calculated-metric",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=26",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/calculated-metrics/duplicate-calculated-metric",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=26",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P1",
+    "category": "API completeness",
+    "path": "/api/calculated-metrics/list-calculated-metrics",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path, request; words=31",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/calculated-metrics/update-calculated-metric",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=26",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/clients/bulk-delete-clients",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P1",
+    "category": "API completeness",
+    "path": "/api/clients/count-clients",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path, request; words=29",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/clients/create-client",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=25",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/clients/delete-client",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=31",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/clients/get-client",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=27",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/clients/list-all-clients",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=30",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/clients/list-client-integrations",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/clients/list-clients",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/clients/move-client-folder",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=30",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/clients/refresh-screenshot",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=45",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/clients/update-client",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=24",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P1",
+    "category": "API completeness",
+    "path": "/api/company/get-company",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path, request; words=29",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/company/update-company",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=25",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/custom-data/create-custom-data",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=29",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/custom-data/delete-custom-data",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=26",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/custom-data/duplicate-custom-data",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=26",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/custom-data/get-custom-data",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=32",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P1",
+    "category": "API completeness",
+    "path": "/api/custom-data/list-custom-data",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path, request; words=33",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/custom-data/update-custom-data",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=26",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/data/fetch-resource-data",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=34",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/data/list-integration-accounts",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=32",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/data/query-data",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=31",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/data/test-connection",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=31",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/email/add-email-domain",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=30",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/email/add-email-sender",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=30",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/email/delete-email-domain",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=32",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P1",
+    "category": "API completeness",
+    "path": "/api/email/delete-smtp-config",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path, request; words=29",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P1",
+    "category": "API completeness",
+    "path": "/api/email/get-email-setup",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path, request; words=31",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/email/list-email-logs",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=26",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/email/queue-emails",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=41",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/email/send-email",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=27",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/email/test-smtp",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=30",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/email/update-email-setup",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=27",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/email/update-smtp-config",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=29",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/email/verify-email-domain",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=30",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/folders/create-folder",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=26",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/folders/delete-folder",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=31",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P1",
+    "category": "API completeness",
+    "path": "/api/folders/list-folders",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path, request; words=30",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/folders/update-folder",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=25",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P1",
+    "category": "API completeness",
+    "path": "/api/health/health-check",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path, request; words=22",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/integrations/delete-integration",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=27",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/integrations/delete-profile",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=26",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/integrations/link-datasource",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=26",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P1",
+    "category": "API completeness",
+    "path": "/api/integrations/list-all-profiles",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path, request; words=30",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/integrations/list-integration-profiles",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=29",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P1",
+    "category": "API completeness",
+    "path": "/api/integrations/list-integrations",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path, request; words=31",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/integrations/rename-integration",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=27",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/integrations/rename-profile",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=26",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/integrations/test-auth-connection",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=30",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/integrations/unlink-datasource",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=26",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/integrations/update-client-integrations",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=32",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/media/bulk-delete-media",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=27",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/media/create-media-folder",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=27",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/media/delete-media",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=35",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/media/delete-media-folder",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=34",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/media/group-media",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/media/list-media",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=30",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P1",
+    "category": "API completeness",
+    "path": "/api/media/list-media-folders",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path, request; words=30",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/media/rename-media-folder",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=26",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/media/update-media",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=26",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/pages/create-page",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/pages/delete-page",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=24",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/pages/list-pages",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/pages/update-page",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=24",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/pdf/generate-pdf",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/pdf/get-pdf-status",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=30",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/projects/bulk-delete-projects",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/projects/create-project",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=25",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/projects/delete-pdf-notification",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=29",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/projects/delete-project",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/projects/duplicate-project",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=31",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/projects/get-project",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=27",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/projects/list-all-projects",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=32",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/projects/list-projects",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=32",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/projects/update-project",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=24",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/saved-metrics/create-saved-metric",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=27",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/saved-metrics/delete-saved-metric",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=26",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/saved-metrics/duplicate-saved-metric",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=26",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/saved-metrics/list-saved-metrics",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=31",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/saved-metrics/update-saved-metric",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=26",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/search/search",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=31",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/templates/create-template",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=32",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/templates/delete-template",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=24",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/templates/get-template",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=27",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/templates/list-templates",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/templates/update-template",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=24",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/themes/create-theme",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=25",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/themes/delete-theme",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=24",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/themes/get-theme",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=27",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P1",
+    "category": "API completeness",
+    "path": "/api/themes/list-themes",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path, request; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/themes/update-theme",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=24",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/users/change-email",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/users/delete-user",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P1",
+    "category": "API completeness",
+    "path": "/api/users/get-user",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path, request; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/users/invite-user",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/users/list-users",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=30",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/users/update-avatar",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/users/update-profile",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=31",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/users/update-user",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=29",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/white-label/add-domain",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=35",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/white-label/check-domain-status",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=29",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/white-label/delete-domain",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=25",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P1",
+    "category": "API completeness",
+    "path": "/api/white-label/list-domains",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path, request; words=29",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/widgets/bulk-delete-widgets",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/widgets/create-widgets",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=27",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/widgets/delete-widget",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=27",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/widgets/get-widget",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=27",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/widgets/list-widget-ids",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=28",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/widgets/list-widgets",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=26",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  },
+  {
+    "severity": "P2",
+    "category": "API completeness",
+    "path": "/api/widgets/update-widget",
+    "issue": "API endpoint doc is missing standard reference elements.",
+    "evidence": "Missing: method, path; words=27",
+    "recommendation": "Use a consistent endpoint template: method/path, auth, params, body schema, response schema, errors, curl/JS example."
+  }
+]

@@ -4,6 +4,14 @@
     "browser-use": {
       "version": "1.0.2",
       "installedAt": 1773132690792
+    },
+    "website-seo": {
+      "version": "1.0.0",
+      "installedAt": 1779496597396
+    },
+    "content-quality-auditor": {
+      "version": "9.9.9",
+      "installedAt": 1779496628819
     }
   }
 }

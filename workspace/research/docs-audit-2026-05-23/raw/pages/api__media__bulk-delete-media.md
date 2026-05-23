@@ -1,0 +1,69 @@
+> ## Documentation Index
+> Fetch the complete documentation index at: https://docs.oviond.com/llms.txt
+> Use this file to discover all available pages before exploring further.
+
+# Bulk Delete Media
+
+> Soft-delete multiple media items.
+
+
+
+## OpenAPI
+
+````yaml /api/openapi.json delete /v1/media/bulk
+openapi: 3.1.0
+info:
+  title: Oviond Backend API
+  version: 1.0.0
+  description: Authentication, account management, billing, and media services for Oviond.
+  x-logo:
+    url: https://app.oviond.com/img/oviond-full-logo.svg
+    altText: Oviond
+servers:
+  - url: https://api.oviond.com
+    description: Production
+security:
+  - BearerAuth: []
+paths:
+  /v1/media/bulk:
+    delete:
+      tags:
+        - Media
+      summary: Bulk Delete Media
+      description: Soft-delete multiple media items.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                ids:
+                  type: array
+                  items:
+                    type: string
+                  minItems: 1
+              required:
+                - ids
+      responses:
+        '200':
+          description: Media deleted
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    enum:
+                      - true
+                required:
+                  - success
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+````
