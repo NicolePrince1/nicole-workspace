@@ -480,3 +480,68 @@ Run a style pass:
 # Bottom line
 
 The site is close enough structurally, but not close enough reputationally. Fix the API/spec/auth/internal-leak issues first — those are the things that make a technical buyer instantly lose trust. Then clean up taxonomy and expand thin user docs so the product feels deliberate, not half-generated.
+
+---
+
+# Mintlify-specific implementation addendum
+
+Chris confirmed the docs are Mintlify-based, so the execution plan should be Mintlify-native.
+
+See the dedicated addendum and starter files:
+
+- `mintlify-agent-implementation-plan.md`
+- `starter-CLAUDE.md`
+- `starter-skill.md`
+
+## Added requirements
+
+1. Install the official Mintlify agent context in the docs repo:
+
+```bash
+npx skills add https://mintlify.com/docs
+```
+
+Also use the official `mintlify/mintlify-claude-plugin` where Claude Code is the editing lane.
+
+2. Add a repo-root `CLAUDE.md` to enforce Oviond voice, terminology, Mintlify component usage, forbidden internal/vendor terms, API endpoint templates, MCP safety rules, and validation gates.
+
+3. Add a custom root `skill.md` or `.mintlify/skills/` modules so generated agent skills understand Oviond-specific concepts: white-label reports, client vs agency reporting, API keys, OAuth/MCP, destructive actions, and integration/data-source language.
+
+4. Treat `llms.txt`, `llms-full.txt`, and `/.well-known/skills/` as launch surfaces, not side effects. They should be checked after every deploy because they directly affect agent-readiness.
+
+5. Use a four-agent workflow:
+
+- Research agent — reads existing docs, OpenAPI, `docs.json`, product truth.
+- Writer agent — applies the writing skill and produces diffs.
+- Reviewer agent — checks consistency, grammar, passive voice, duplicates, internal leaks, component use, and API mismatches.
+- Validator agent — runs Mintlify CLI/build validation and link/spec checks.
+
+6. Use the loop: Generate → Check → Revise → Validate → PR.
+
+7. Require PR-ready output for every fix:
+
+```text
+Severity | File/Page | Issue | Suggested diff
+```
+
+8. Validate with the repo’s Mintlify CLI. Depending on installed version, the commands are likely:
+
+```bash
+mintlify dev
+mintlify validate
+```
+
+or:
+
+```bash
+mint dev
+mint validate
+```
+
+Verify with `--help` inside the docs repo.
+
+## Updated next move
+
+The next implementation step is still **PR 1: remove the Plant Store spec and fix canonical OpenAPI routing**, but now it should be done inside the docs repo with Mintlify validation and a separate review pass.
+
+This audit workspace does not currently contain the Mintlify docs source repo (`docs.json`, MDX files, OpenAPI source). Once that repo is available, start with the PR sequence in `mintlify-agent-implementation-plan.md`.
