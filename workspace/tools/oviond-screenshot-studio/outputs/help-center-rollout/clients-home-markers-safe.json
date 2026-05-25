@@ -1,0 +1,13 @@
+{
+  "input":"outputs/help-center-rollout/raw/clients-home.png",
+  "output":"outputs/help-center-rollout/clients-home-markers-safe.png",
+  "redactions":[
+    {"x":54,"y":17,"w":170,"h":28,"text":"Demo Agency","textX":64,"textY":36,"fill":"#FFFFFF"},
+    {"x":54,"y":920,"w":170,"h":48,"text":"Demo User","subtext":"demo@example.com","textX":66,"textY":940,"subtextX":66,"subtextY":958,"fill":"#FFFFFF"}
+  ],
+  "items":[
+    {"number":1,"x":0,"y":0,"w":235,"h":980,"badgeX":254,"badgeY":48},
+    {"number":2,"x":1280,"y":38,"w":132,"h":44,"badgeX":1266,"badgeY":60},
+    {"number":3,"x":264,"y":102,"w":300,"h":280,"badgeX":250,"badgeY":124}
+  ]
+}

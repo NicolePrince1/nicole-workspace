@@ -13,6 +13,7 @@ Create beautiful, consistent screenshots that help users understand the product 
 ## Annotation rules
 
 - For Gleap/help-center articles, prefer marker-only screenshots plus numbered explanations in the article body.
+- In Gleap, use actual ordered lists for marker explanations; never combine bullet lists with manually typed numbers.
 - Do not place instruction text or right-side explanation panels inside help-center screenshots.
 - Do not add separate “Open screenshot” links below Gleap images; Gleap expands images on click.
 - Side-panel explanation images are for marketing, social, internal QA, and standalone explainers only.

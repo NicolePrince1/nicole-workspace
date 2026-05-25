@@ -34,6 +34,7 @@ Default to **marker-only screenshots for Gleap/help-center articles**:
 
 - Real screenshot with numbered markers only
 - Put the numbered explanations in the article body, not inside the image
+- In Gleap, use a real ordered list for numbered marker explanations; never type `1.` inside a bullet list
 - Do not add “Open screenshot” links below images; Gleap expands images on click
 - Avoid covering UI labels, buttons, form values, or important text with badges
 - Crop tightly when a modal/drawer is the focus
