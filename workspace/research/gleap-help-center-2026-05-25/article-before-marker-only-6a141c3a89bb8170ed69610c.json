@@ -176,69 +176,115 @@
           ]
         },
         {
-          "type": "image",
+          "type": "paragraph",
           "attrs": {
-            "src": "https://raw.githubusercontent.com/NicolePrince1/nicole-workspace/df845eb/workspace/tools/oviond-screenshot-studio/outputs/app-real-product-correction/annotated/real-clients-home-panel-v2.png",
-            "alt": "Real Oviond Clients screen showing the Add Client action",
-            "style": "width: 100%; height: auto; cursor: pointer;",
-            "title": "Real Oviond Clients screen showing the Add Client action",
-            "loading": null,
-            "srcset": null,
-            "sizes": null,
-            "crossorigin": null,
-            "usemap": null,
-            "ismap": null,
-            "width": null,
-            "height": null,
-            "referrerpolicy": null,
-            "longdesc": null,
-            "decoding": null,
-            "class": null,
-            "id": null,
-            "name": null,
-            "draggable": true,
-            "tabindex": null,
-            "aria-label": null,
-            "aria-labelledby": null,
-            "aria-describedby": null
+            "id": "87cb144a-41cb-4e34-aa34-5dafedec1edd",
+            "textAlign": null
           }
         },
         {
-          "type": "paragraph",
+          "type": "heading",
           "attrs": {
-            "id": "ab99c33f-4bad-4aa6-bf70-04e1f93929e9",
-            "textAlign": null
+            "level": 2,
+            "dataSource": "nicole-marker-only-screenshot-pass"
           },
           "content": [
             {
               "type": "text",
-              "marks": [
-                {
-                  "type": "link",
-                  "attrs": {
-                    "href": "https://raw.githubusercontent.com/NicolePrince1/nicole-workspace/df845eb/workspace/tools/oviond-screenshot-studio/outputs/app-real-product-correction/annotated/real-clients-home-panel-v2.png",
-                    "target": "_blank",
-                    "rel": "noopener noreferrer",
-                    "class": null
-                  }
-                }
-              ],
-              "text": "Open screenshot"
+              "text": "Screenshot guide"
             }
           ]
         },
         {
           "type": "paragraph",
           "attrs": {
-            "id": "87cb144a-41cb-4e34-aa34-5dafedec1edd",
-            "textAlign": null
+            "dataSource": "nicole-marker-only-screenshot-pass"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Use the screenshot below as a quick map for the first setup step."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "attrs": {
+            "src": "https://raw.githubusercontent.com/NicolePrince1/nicole-workspace/3ad202b/workspace/tools/oviond-screenshot-studio/outputs/help-center-rollout/clients-home-markers-safe.png",
+            "alt": "Real Oviond Clients screen with numbered markers",
+            "title": "Real Oviond Clients screen with numbered markers",
+            "dataSource": "nicole-marker-only-screenshot-pass"
           }
+        },
+        {
+          "type": "heading",
+          "attrs": {
+            "level": 2,
+            "dataSource": "nicole-marker-only-screenshot-pass"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "What the numbers show"
+            }
+          ]
+        },
+        {
+          "type": "orderedList",
+          "attrs": {
+            "start": 1,
+            "dataSource": "nicole-marker-only-screenshot-pass"
+          },
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "1. Use the left sidebar to open Clients, Templates, Automations, or Settings."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "2. Click Add Client to start creating a new client workspace."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "3. Use the client card to open an existing client and check its website and data-source count."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
   },
   "plainContent": {
-    "en": "Use this checklist when you are setting up Oviond for the first time.\n\n*   Create or join your agency account.\n    \n*   Add your first client.\n    \n*   Connect at least one data source for that client.\n    \n*   Create a report or dashboard.\n    \n*   Add widgets that use the connected data source.\n    \n*   Share the report with your client or test an automation.\n    \n\nIf you get stuck, start by checking whether the client has a connected data source and whether the widget date range contains data.\n\nScreenshots\n-----------\n\nUse this screenshot to find the Clients area and start the setup flow.\n\nReal Oviond Clients screen showing the Add Client action\n\n[Open screenshot](https://raw.githubusercontent.com/NicolePrince1/nicole-workspace/df845eb/workspace/tools/oviond-screenshot-studio/outputs/app-real-product-correction/annotated/real-clients-home-panel-v2.png)"
+    "en": "Use this checklist when you are setting up Oviond for the first time.\n\n*   Create or join your agency account.\n    \n*   Add your first client.\n    \n*   Connect at least one data source for that client.\n    \n*   Create a report or dashboard.\n    \n*   Add widgets that use the connected data source.\n    \n*   Share the report with your client or test an automation.\n    \n\nIf you get stuck, start by checking whether the client has a connected data source and whether the widget date range contains data.\n\nScreenshots\n-----------\n\nUse this screenshot to find the Clients area and start the setup flow.\n\nScreenshot guide\n----------------\n\nUse the screenshot below as a quick map for the first setup step.\n\nReal Oviond Clients screen with numbered markers\n\nWhat the numbers show\n---------------------\n\n1.  1\\. Use the left sidebar to open Clients, Templates, Automations, or Settings.\n    \n2.  2\\. Click Add Client to start creating a new client workspace.\n    \n3.  3\\. Use the client card to open an existing client and check its website and data-source count."
   },
   "helpcenterCollection": "6a141b8ccdbfc01912816cb7",
   "project": "66331f89e61711deca1ba5ad",
@@ -250,10 +296,11 @@
   "baseAudienceFilter": [],
   "tags": [
     "launch-mvp",
+    "marker-only-screenshots",
     "real-product-screenshots"
   ],
   "createdAt": "2026-05-25T09:54:02.979Z",
-  "updatedAt": "2026-05-25T11:39:55.335Z",
+  "updatedAt": "2026-05-25T13:17:41.553Z",
   "__v": 0,
   "author": "66331f725e247d518701f773",
   "_id": "6a141c3a89bb8170ed69610c",

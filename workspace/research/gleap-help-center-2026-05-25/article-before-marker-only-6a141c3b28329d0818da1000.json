@@ -134,63 +134,105 @@
           "type": "heading",
           "attrs": {
             "level": 2,
-            "dataSource": "nicole-real-screenshot-pass"
+            "dataSource": "nicole-marker-only-screenshot-pass"
           },
           "content": [
             {
               "type": "text",
-              "text": "Screenshots"
+              "text": "Start from the Clients screen"
             }
           ]
         },
         {
           "type": "paragraph",
           "attrs": {
-            "dataSource": "nicole-real-screenshot-pass"
+            "dataSource": "nicole-marker-only-screenshot-pass"
           },
           "content": [
             {
               "type": "text",
-              "text": "Start by adding the client from the Clients screen. After the client exists, connect data and build the report under that client."
+              "text": "Your first report starts by adding or opening the client you want to report on."
             }
           ]
         },
         {
           "type": "image",
           "attrs": {
-            "src": "https://raw.githubusercontent.com/NicolePrince1/nicole-workspace/df845eb/workspace/tools/oviond-screenshot-studio/outputs/app-real-product-correction/annotated/real-clients-home-panel-v2.png",
-            "alt": "Real Oviond Clients screen used as the first step in report setup",
-            "title": "Real Oviond Clients screen used as the first step in report setup",
-            "dataSource": "nicole-real-screenshot-pass"
+            "src": "https://raw.githubusercontent.com/NicolePrince1/nicole-workspace/3ad202b/workspace/tools/oviond-screenshot-studio/outputs/help-center-rollout/clients-home-markers-safe.png",
+            "alt": "Real Oviond Clients screen showing where to add or open a client",
+            "title": "Real Oviond Clients screen showing where to add or open a client",
+            "dataSource": "nicole-marker-only-screenshot-pass"
           }
         },
         {
-          "type": "paragraph",
+          "type": "heading",
+          "attrs": {
+            "level": 2,
+            "dataSource": "nicole-marker-only-screenshot-pass"
+          },
           "content": [
             {
               "type": "text",
-              "text": "Open screenshot",
-              "marks": [
+              "text": "What the numbers show"
+            }
+          ]
+        },
+        {
+          "type": "orderedList",
+          "attrs": {
+            "start": 1,
+            "dataSource": "nicole-marker-only-screenshot-pass"
+          },
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
                 {
-                  "type": "link",
-                  "attrs": {
-                    "href": "https://raw.githubusercontent.com/NicolePrince1/nicole-workspace/df845eb/workspace/tools/oviond-screenshot-studio/outputs/app-real-product-correction/annotated/real-clients-home-panel-v2.png",
-                    "target": "_blank",
-                    "rel": "noopener noreferrer"
-                  }
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "1. Use the sidebar to stay in the main Clients area."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "2. Click Add Client if the client does not exist yet."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "3. Open the client card once you are ready to connect data sources and create a report."
+                    }
+                  ]
                 }
               ]
             }
-          ],
-          "attrs": {
-            "dataSource": "nicole-real-screenshot-pass"
-          }
+          ]
         }
       ]
     }
   },
   "plainContent": {
-    "en": "To create your first useful report, work in this order.\n\n*   Open Clients and add the client you want to report on.\n    \n*   Connect at least one data source for that client.\n    \n*   Open the client and create a new project. Choose Report if you want a paged client-ready report.\n    \n*   Start from a template or a blank report.\n    \n*   Add widgets and choose the right data source for each widget.\n    \n*   Preview the report and check the date range.\n    \n*   Share the report link or schedule delivery.\n    \n\nTip: build the report with one client and one data source first. Once that works, add more pages, widgets, and integrations.\n\nScreenshots\n-----------\n\nStart by adding the client from the Clients screen. After the client exists, connect data and build the report under that client.\n\nReal Oviond Clients screen used as the first step in report setup\n\n[Open screenshot](https://raw.githubusercontent.com/NicolePrince1/nicole-workspace/df845eb/workspace/tools/oviond-screenshot-studio/outputs/app-real-product-correction/annotated/real-clients-home-panel-v2.png)"
+    "en": "To create your first useful report, work in this order.\n\n*   Open Clients and add the client you want to report on.\n    \n*   Connect at least one data source for that client.\n    \n*   Open the client and create a new project. Choose Report if you want a paged client-ready report.\n    \n*   Start from a template or a blank report.\n    \n*   Add widgets and choose the right data source for each widget.\n    \n*   Preview the report and check the date range.\n    \n*   Share the report link or schedule delivery.\n    \n\nTip: build the report with one client and one data source first. Once that works, add more pages, widgets, and integrations.\n\nStart from the Clients screen\n-----------------------------\n\nYour first report starts by adding or opening the client you want to report on.\n\nReal Oviond Clients screen showing where to add or open a client\n\nWhat the numbers show\n---------------------\n\n1.  1\\. Use the sidebar to stay in the main Clients area.\n    \n2.  2\\. Click Add Client if the client does not exist yet.\n    \n3.  3\\. Open the client card once you are ready to connect data sources and create a report."
   },
   "helpcenterCollection": "6a141b8ccdbfc01912816cb7",
   "project": "66331f89e61711deca1ba5ad",
@@ -202,10 +244,11 @@
   "baseAudienceFilter": [],
   "tags": [
     "launch-mvp",
+    "marker-only-screenshots",
     "real-product-screenshots"
   ],
   "createdAt": "2026-05-25T09:54:03.416Z",
-  "updatedAt": "2026-05-25T11:30:19.308Z",
+  "updatedAt": "2026-05-25T13:17:42.822Z",
   "__v": 0,
   "_id": "6a141c3b28329d0818da1000",
   "id": "6a141c3b28329d0818da1000"

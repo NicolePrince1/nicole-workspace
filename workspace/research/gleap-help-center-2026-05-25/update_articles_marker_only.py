@@ -8,10 +8,10 @@ API_KEY=os.environ['GLEAP_API_KEY']
 PROJECT_ID=os.environ['GLEAP_PROJECT_ID']
 BASE=os.getenv('GLEAP_BASE_URL','https://api.gleap.io/v3')
 OUT=Path('/data/.openclaw/workspace/research/gleap-help-center-2026-05-25')
-COMMIT='8cbbd9c'
-RAW_BASE=f'https://raw.githubusercontent.com/NicolePrince1/nicole-workspace/{COMMIT}/workspace/tools/oviond-screenshot-studio/outputs/app-real-product-correction/annotated'
-IMG_CLIENTS=f'{RAW_BASE}/real-clients-home-markers.png'
-IMG_ADD_CLIENT=f'{RAW_BASE}/real-add-client-drawer-crop-markers-v3.png'
+COMMIT='3ad202b'
+RAW_BASE=f'https://raw.githubusercontent.com/NicolePrince1/nicole-workspace/{COMMIT}/workspace/tools/oviond-screenshot-studio/outputs/help-center-rollout'
+IMG_CLIENTS=f'{RAW_BASE}/clients-home-markers-safe.png'
+IMG_ADD_CLIENT=f'{RAW_BASE}/add-client-drawer-markers-safe.png'
 SOURCE='nicole-marker-only-screenshot-pass'
 OLD_SOURCE='nicole-real-screenshot-pass'
 
@@ -95,7 +95,7 @@ def heading(text, level=2):
     return {'type':'heading','attrs':{'level':level,'dataSource':SOURCE},'content':[text_node(text)]}
 
 def bullet(items):
-    return {'type':'bulletList','attrs':{'dataSource':SOURCE},'content':[{'type':'listItem','content':[{'type':'paragraph','content':[text_node(x)]}]} for x in items]}
+    return {'type':'orderedList','attrs':{'start':1,'dataSource':SOURCE},'content':[{'type':'listItem','content':[{'type':'paragraph','content':[text_node(__import__('re').sub(r'^\s*\d+\.\s*','',x).strip())]}]} for x in items]}
 
 def image(src, alt):
     return {'type':'image','attrs':{'src':src,'alt':alt,'title':alt,'dataSource':SOURCE}}
@@ -107,23 +107,37 @@ def render(block):
     if block['type']=='image': return image(block['src'], block['alt'])
     raise ValueError(block)
 
+def node_text(n):
+    if not isinstance(n, dict): return ''
+    return ''.join(c.get('text','') for c in n.get('content') or [] if isinstance(c,dict))
+
 def remove_old(nodes):
     clean=[]
+    screenshot_section_heads={
+      'Screenshot guide', 'What the numbers show', 'Start from the Clients screen',
+      'From Clients to Add Client', 'Complete the Add Client drawer'
+    }
+    skip_rest=False
     for n in nodes:
         if not isinstance(n, dict):
-            clean.append(n); continue
+            if not skip_rest: clean.append(n)
+            continue
         attrs=n.get('attrs') or {}
+        txt=node_text(n).strip()
+        if n.get('type')=='heading' and txt in screenshot_section_heads:
+            skip_rest=True
+            continue
+        if skip_rest:
+            continue
         if attrs.get('dataSource') in (SOURCE, OLD_SOURCE):
             continue
         # remove old image/link insertions by URL even if attrs were dropped by Gleap
         if n.get('type')=='image':
             src=(attrs.get('src') or '')
-            if 'real-clients-home-panel' in src or 'real-add-client-panel' in src or 'real-clients-home-markers' in src or 'real-add-client-drawer-crop-markers' in src:
+            if 'real-clients-home-panel' in src or 'real-add-client-panel' in src or 'real-clients-home-markers' in src or 'real-add-client-drawer-crop-markers' in src or 'help-center-rollout' in src:
                 continue
-        if n.get('type')=='paragraph':
-            text=''.join(c.get('text','') for c in n.get('content') or [] if isinstance(c,dict))
-            if text.strip().lower()=='open screenshot':
-                continue
+        if n.get('type')=='paragraph' and txt.lower()=='open screenshot':
+            continue
         clean.append(n)
     return clean
 
