@@ -1,0 +1,149 @@
+{
+  "generated_at": "2026-05-25T06:32:16Z",
+  "all_url_count": 249,
+  "llms_url_count": 249,
+  "sitemap_url_count": 248,
+  "api_pages": 146,
+  "non_api_pages": 103,
+  "findings_total": 240,
+  "findings_by_severity": {
+    "P0": 2,
+    "P2": 7,
+    "P1": 231
+  },
+  "findings_by_type": {
+    "sample_openapi_live": 1,
+    "thin_page": 152,
+    "internal_or_vendor_leak": 43,
+    "destructive_missing_warning": 41,
+    "fetch_failed": 1,
+    "missing_h1": 1,
+    "api_page_lacks_examples": 1
+  },
+  "specs": {
+    "/api-reference/openapi.json": {
+      "status": 200,
+      "content_type": "application/octet-stream, application/json",
+      "body_start": "{\n  \"openapi\": \"3.1.0\",\n  \"info\": {\n    \"title\": \"OpenAPI Plant Store\",\n    \"description\": \"A sample API that uses a plant store as an example to demonstrate features in the OpenAPI specification\",\n    \"license\": {\n      \"name\": \"MIT\"\n    },\n    \"version\": \"1.0.0\"\n  },\n  \"servers\": [\n    {\n      \"url\": \"http://sandbox.mintlify.com\"\n    }\n  ],\n  \"security\": [\n    {\n      \"bearerAuth\": []\n    }\n  ],\n  \"paths\": {\n    \"/plants\": {\n      \"get\": {\n        \"description\": \"Returns all plants from the sy"
+    },
+    "/api/openapi.json": {
+      "status": 200,
+      "content_type": "application/octet-stream, application/json",
+      "body_start": "{\n  \"openapi\": \"3.1.0\",\n  \"info\": {\n    \"title\": \"Oviond Backend API\",\n    \"version\": \"1.0.0\",\n    \"description\": \"Authentication, account management, billing, and media services for Oviond.\",\n    \"x-logo\": {\n      \"url\": \"https://app.oviond.com/img/oviond-full-logo.svg\",\n      \"altText\": \"Oviond\"\n    }\n  },\n  \"servers\": [\n    {\n      \"url\": \"https://api.oviond.com\",\n      \"description\": \"Production\"\n    }\n  ],\n  \"security\": [\n    {\n      \"BearerAuth\": []\n    }\n  ],\n  \"components\": {\n    \"securi"
+    },
+    "/openapi.json": {
+      "status": 404,
+      "content_type": "text/plain;charset=UTF-8",
+      "body_start": "Asset not found"
+    }
+  },
+  "spec_analysis": {
+    "title": "Oviond Backend API",
+    "path_count": 102,
+    "colon_paths": [
+      "/v1/users/:id",
+      "/v1/white-label/domains/:domain_id",
+      "/v1/white-label/domains/:domain_id/status",
+      "/v1/clients/:id",
+      "/v1/clients/:id/screenshot/refresh",
+      "/v1/clients/:id/folder",
+      "/v1/clients/:id/integrations",
+      "/v1/integrations/auths/:id/name",
+      "/v1/integrations/auths/:id",
+      "/v1/integrations/:client_id",
+      "/v1/integrations/:client_id/link",
+      "/v1/integrations/:client_id/unlink",
+      "/v1/integrations/:integrationID/profiles",
+      "/v1/integrations/:integrationID/profiles/:profileName/rename",
+      "/v1/integrations/:integrationID/profiles/:profileName",
+      "/v1/email/domains/:id",
+      "/v1/email/domains/:id/verify",
+      "/v1/media/:id",
+      "/v1/media/folders/:id",
+      "/v1/assets/:id/duplicate",
+      "/v1/assets/:id/widgets",
+      "/v1/assets/:id",
+      "/v1/pdf/status/:job_id",
+      "/v1/templates/:id",
+      "/v1/themes/:id",
+      "/v1/automations/:id/history",
+      "/v1/automations/:id",
+      "/v1/automations/:id/pause",
+      "/v1/automations/:id/unpause",
+      "/v1/automations/:id/test"
+    ],
+    "brace_paths_count": 12,
+    "vendor_terms": [
+      "Supabase",
+      "S3",
+      "SQS",
+      "Resend",
+      "Vercel",
+      "cron scheduler",
+      "accounts row",
+      "users table",
+      "upstream API",
+      "raw_data",
+      "client_integrations",
+      "resource_type",
+      "Stripe"
+    ],
+    "missing_path_params": [],
+    "securitySchemes": {
+      "BearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "html_samples": [
+    {
+      "url": "https://docs.oviond.com/introduction",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Introduction - Oviond",
+      "h1": "Introduction",
+      "description": "White-label marketing reporting for agencies. Build branded dashboards, connect 30+ data sources, and automate client report delivery.",
+      "body_len": 343855
+    },
+    {
+      "url": "https://docs.oviond.com/authentication",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Authentication - Oviond",
+      "h1": "Authentication",
+      "description": "Oviond authenticates API requests with Bearer tokens. Learn how to generate an API key, set the Authorization header, and handle auth errors.",
+      "body_len": 374811
+    },
+    {
+      "url": "https://docs.oviond.com/api/introduction",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Overview - Oviond",
+      "h1": "Overview",
+      "description": "Explore the Oviond REST API. Authenticate with a Bearer token, manage reports, integrations, automations, and access public shared report data.",
+      "body_len": 422019
+    },
+    {
+      "url": "https://docs.oviond.com/quickstart",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Get Started - Oviond",
+      "h1": "Get Started",
+      "description": "Create your Oviond account, connect a marketing data source, and publish your first client report in five steps. Everything you need to get started.",
+      "body_len": 351160
+    },
+    {
+      "url": "https://docs.oviond.com/api/account/delete-account",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "title": "Delete Account - Oviond",
+      "h1": "Delete Account",
+      "description": "Irreversible. Cancels the active Stripe subscription, deletes all data across every table for this account, removes all team members from the users table, purges all S3 media files, and deletes all Supabase Auth users. Requires the account owner's current password as a confirmation gate.",
+      "body_len": 441800
+    }
+  ],
+  "thin_pages_under_120": 152,
+  "pages_with_leaks": 43
+}
