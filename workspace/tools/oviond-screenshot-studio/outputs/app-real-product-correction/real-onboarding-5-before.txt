@@ -1,0 +1,10 @@
+Add your first client
+Client Name *
+Client Website *
+https://
+Select Currency
+United States — USD
+Client Timezone
+UTC
+Back
+Finish

@@ -1,0 +1,11 @@
+{
+  "input":"outputs/app-real-product-correction/raw/real-clients-home.png",
+  "output":"outputs/app-real-product-correction/annotated/real-clients-home-panel-v2.png",
+  "title":"Clients screen in Oviond",
+  "subtitle":"Real product capture, not a mockup. This is the baseline for help-center images.",
+  "items":[
+    {"number":1,"x":0,"y":0,"w":235,"h":980,"label":"Sidebar navigation keeps Clients, Templates, Automations and Settings accessible."},
+    {"number":2,"x":1280,"y":38,"w":132,"h":44,"label":"Add Client starts the client creation flow."},
+    {"number":3,"x":264,"y":102,"w":300,"h":280,"label":"Each client card shows name, website, data-source count and creation date."}
+  ]
+}

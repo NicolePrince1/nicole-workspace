@@ -3,3 +3,5 @@ node_modules/
 .auth/
 playwright-report/
 test-results/
+outputs/**/auth-state.json
+**/auth-state.json

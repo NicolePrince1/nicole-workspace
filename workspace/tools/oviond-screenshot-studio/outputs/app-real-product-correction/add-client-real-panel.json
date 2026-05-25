@@ -1,0 +1,12 @@
+{
+  "input":"outputs/app-real-product-correction/raw/real-add-client-modal.png",
+  "output":"outputs/app-real-product-correction/annotated/real-add-client-panel.png",
+  "title":"Add a client in Oviond",
+  "subtitle":"This is the real product screen from app.oviond.com, captured after logging in as Nicole.",
+  "items":[
+    {"number":1,"x":1056,"y":0,"w":384,"h":980,"label":"The Add Client drawer opens over the client list without leaving the page."},
+    {"number":2,"x":1072,"y":101,"w":352,"h":37,"label":"Enter the client name exactly as it should appear in reports and dashboards."},
+    {"number":3,"x":1072,"y":177,"w":352,"h":36,"label":"Add the client website without needing to type the https prefix."},
+    {"number":4,"x":1254,"y":929,"w":170,"h":35,"label":"Create Client saves the workspace once the required fields are complete."}
+  ]
+}
