@@ -1,0 +1,11 @@
+{
+  "input":"outputs/raw/marketing-card.png",
+  "output":"outputs/annotated/marketing-card-annotated-v2.png",
+  "title":"Static marketing image workflow",
+  "subtitle":"Reusable layout checks for social, ads and launch visuals.",
+  "items":[
+    {"number":1,"x":106,"y":207,"w":560,"h":142,"label":"Campaign headline area stays clean and readable.","labelX":118,"labelY":600},
+    {"number":2,"x":716,"y":146,"w":750,"h":630,"label":"Product-preview frame can use real app screenshots or designed mockups.","labelX":850,"labelY":820},
+    {"number":3,"x":104,"y":454,"w":270,"h":70,"label":"CTA stays clear and easy to reuse across formats.","labelX":420,"labelY":470}
+  ]
+}

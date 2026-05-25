@@ -1,0 +1,7 @@
+{
+  "url":"https://docs.oviond.com/introduction",
+  "output":"outputs/raw/docs-introduction.png",
+  "viewport":{"width":1440,"height":980},
+  "waitUntil":"networkidle",
+  "fullPage":false
+}

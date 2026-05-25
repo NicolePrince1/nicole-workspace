@@ -1,0 +1,11 @@
+{
+  "input":"outputs/raw/docs-introduction.png",
+  "output":"outputs/annotated/docs-introduction-panel.png",
+  "title":"Real browser capture",
+  "subtitle":"Playwright captured this page; annotations are generated separately and repeatably.",
+  "items":[
+    {"number":1,"x":300,"y":165,"w":560,"h":90,"label":"Page title and summary are captured from the live rendered site."},
+    {"number":2,"x":316,"y":318,"w":350,"h":138,"label":"Feature cards can be highlighted for article walkthroughs."},
+    {"number":3,"x":1150,"y":135,"w":238,"h":330,"label":"Right-side navigation can be included or cropped depending on the article."}
+  ]
+}

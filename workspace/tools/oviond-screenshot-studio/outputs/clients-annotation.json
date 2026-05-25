@@ -1,0 +1,12 @@
+{
+  "input":"outputs/raw/mock-clients.png",
+  "output":"outputs/annotated/mock-clients-annotated.png",
+  "title":"Managing clients in Oviond",
+  "subtitle":"Consistent callouts for help center screenshots",
+  "items":[
+    {"number":1,"x":28,"y":100,"w":218,"h":42,"label":"Use the left sidebar to move between Clients, Reports, Data Sources and Automations.","labelX":285,"labelY":102},
+    {"number":2,"x":1210,"y":56,"w":154,"h":52,"label":"Click Add Client to create a new client workspace.","labelX":880,"labelY":55},
+    {"number":3,"x":322,"y":170,"w":388,"h":40,"label":"Search helps teams find a client quickly as accounts grow.","labelX":744,"labelY":160},
+    {"number":4,"x":294,"y":248,"w":352,"h":202,"label":"Each client card shows reporting projects and connected data sources.","labelX":672,"labelY":285}
+  ]
+}

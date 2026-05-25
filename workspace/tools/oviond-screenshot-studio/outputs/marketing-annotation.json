@@ -1,0 +1,11 @@
+{
+  "input":"outputs/raw/marketing-card.png",
+  "output":"outputs/annotated/marketing-card-annotated.png",
+  "title":"Marketing image annotation system",
+  "subtitle":"The same lane can produce polished static explainers, ads and launch visuals.",
+  "items":[
+    {"number":1,"x":106,"y":207,"w":560,"h":142,"label":"Strong headline area for campaign concepts or launch visuals.","labelX":118,"labelY":552},
+    {"number":2,"x":716,"y":146,"w":750,"h":630,"label":"Product-preview frame can be replaced with real app screenshots.","labelX":1050,"labelY":806},
+    {"number":3,"x":104,"y":454,"w":260,"h":66,"label":"Clear CTA area for social and landing-page creative.","labelX":392,"labelY":454}
+  ]
+}

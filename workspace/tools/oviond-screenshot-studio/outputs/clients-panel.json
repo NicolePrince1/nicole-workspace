@@ -1,0 +1,12 @@
+{
+  "input":"outputs/raw/mock-clients.png",
+  "output":"outputs/annotated/mock-clients-panel.png",
+  "title":"Clients overview",
+  "subtitle":"Use this screen to create, find and open client workspaces.",
+  "items":[
+    {"number":1,"x":28,"y":100,"w":218,"h":42,"label":"Main navigation: switch between clients, reports, data sources and automations."},
+    {"number":2,"x":1210,"y":56,"w":154,"h":52,"label":"Add Client: create a new workspace for a customer, store, branch or profile."},
+    {"number":3,"x":322,"y":170,"w":388,"h":40,"label":"Search: quickly find an existing client as your account grows."},
+    {"number":4,"x":294,"y":248,"w":352,"h":202,"label":"Client cards: see project and data-source counts before opening the workspace."}
+  ]
+}

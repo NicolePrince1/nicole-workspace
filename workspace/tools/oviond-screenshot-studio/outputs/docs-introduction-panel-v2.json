@@ -1,0 +1,11 @@
+{
+  "input":"outputs/raw/docs-introduction.png",
+  "output":"outputs/annotated/docs-introduction-panel-v2.png",
+  "title":"Real browser capture",
+  "subtitle":"Playwright capture + deterministic annotations, ready for real product screens.",
+  "items":[
+    {"number":1,"x":300,"y":92,"w":650,"h":185,"label":"Page title, summary and intro copy captured from the live rendered page."},
+    {"number":2,"x":312,"y":390,"w":745,"h":260,"label":"Card groups can be highlighted for step-by-step help articles."},
+    {"number":3,"x":1162,"y":92,"w":220,"h":150,"label":"Right-side page navigation can be included, cropped or hidden per article."}
+  ]
+}

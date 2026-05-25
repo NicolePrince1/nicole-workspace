@@ -1,0 +1,11 @@
+{
+  "input":"outputs/raw/marketing-card.png",
+  "output":"outputs/annotated/marketing-card-panel.png",
+  "title":"Launch creative layout",
+  "subtitle":"The same system can annotate marketing images and product explainers.",
+  "items":[
+    {"number":1,"x":106,"y":207,"w":560,"h":142,"label":"Hero headline: simple, high-contrast message area for campaign concepts."},
+    {"number":2,"x":716,"y":146,"w":750,"h":630,"label":"Product preview: replace with real app screenshots or polished generated UI mockups."},
+    {"number":3,"x":104,"y":454,"w":270,"h":70,"label":"CTA: reusable call-to-action area for ads, landing pages and social posts."}
+  ]
+}

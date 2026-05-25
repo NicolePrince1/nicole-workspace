@@ -1,0 +1,12 @@
+{
+  "input":"outputs/raw/mock-clients.png",
+  "output":"outputs/annotated/mock-clients-annotated-v2.png",
+  "title":"Client workspace overview",
+  "subtitle":"Cleaner spacing for help center callouts",
+  "items":[
+    {"number":1,"x":28,"y":100,"w":218,"h":42,"label":"Sidebar navigation keeps key areas one click away.","labelX":300,"labelY":670},
+    {"number":2,"x":1210,"y":56,"w":154,"h":52,"label":"Create a new client workspace from Add Client.","labelX":860,"labelY":140},
+    {"number":3,"x":322,"y":170,"w":388,"h":40,"label":"Use search to find a client quickly.","labelX":745,"labelY":170},
+    {"number":4,"x":294,"y":248,"w":352,"h":202,"label":"Client cards show reports and connected data sources at a glance.","labelX":700,"labelY":455}
+  ]
+}
