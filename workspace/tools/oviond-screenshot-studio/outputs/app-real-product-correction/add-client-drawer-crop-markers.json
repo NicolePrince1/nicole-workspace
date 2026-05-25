@@ -1,0 +1,10 @@
+{
+  "input":"outputs/app-real-product-correction/raw/real-add-client-drawer-crop.png",
+  "output":"outputs/app-real-product-correction/annotated/real-add-client-drawer-crop-markers.png",
+  "items":[
+    {"number":1,"x":76,"y":45,"w":384,"h":890,"badgeX":56,"badgeY":70},
+    {"number":2,"x":85,"y":94,"w":366,"h":52,"badgeX":65,"badgeY":120},
+    {"number":3,"x":85,"y":170,"w":366,"h":52,"badgeX":65,"badgeY":196},
+    {"number":4,"x":270,"y":922,"w":178,"h":48,"badgeX":250,"badgeY":946}
+  ]
+}

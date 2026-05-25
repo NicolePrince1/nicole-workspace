@@ -12,9 +12,10 @@ Create beautiful, consistent screenshots that help users understand the product 
 
 ## Annotation rules
 
-- Prefer numbered markers plus right-side explanations.
-- Avoid floating text boxes over the app unless the screenshot has empty space.
-- Keep callout labels under 14 words where possible.
+- For Gleap/help-center articles, prefer marker-only screenshots plus numbered explanations in the article body.
+- Do not place instruction text or right-side explanation panels inside help-center screenshots.
+- Do not add separate “Open screenshot” links below Gleap images; Gleap expands images on click.
+- Side-panel explanation images are for marketing, social, internal QA, and standalone explainers only.
 - One screenshot should explain 3–5 things, not 12.
 - Do not cover customer data, totals, email addresses, tokens, billing details, or private account names.
 - Use fake/demo data or blur sensitive areas.

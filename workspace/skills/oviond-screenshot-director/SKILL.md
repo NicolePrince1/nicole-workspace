@@ -30,16 +30,17 @@ It provides:
 
 ## Preferred output style
 
-Default to side-panel annotations for help center images:
+Default to **marker-only screenshots for Gleap/help-center articles**:
 
-- Screenshot on the left
-- Numbered markers on the screenshot
-- Explanations in a clean right-side panel
-- No label boxes over product text unless unavoidable
+- Real screenshot with numbered markers only
+- Put the numbered explanations in the article body, not inside the image
+- Do not add “Open screenshot” links below images; Gleap expands images on click
+- Avoid covering UI labels, buttons, form values, or important text with badges
+- Crop tightly when a modal/drawer is the focus
 - Oviond blue `#5676FF`, cyan `#75D2DA`, ink `#0B1020`
 - Desktop viewport first: `1440x980`
 
-For marketing/static visuals, use the same system but allow wider canvases and product-preview compositions.
+Use side-panel annotations only for marketing explainers, social posts, internal QA summaries, or standalone images that must make sense outside an article.
 
 ## Capture examples
 
@@ -63,7 +64,7 @@ Before final use, check:
 - Does the overlay avoid hiding important product text?
 - Is any real customer/private data visible?
 - Is the crop focused enough for the article?
-- Are title, subtitle, and callouts short enough?
+- Does the article body explain every marker in text?
 - Is the asset regenerated from JSON, not hand-edited?
 
 Read `references/style-guide.md` when designing a new asset family or changing annotation style.
