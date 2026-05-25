@@ -1,0 +1,71 @@
+{
+  "collections": 9,
+  "articles": 46,
+  "issues": [],
+  "article_titles_by_collection": {
+    "Getting Started": [
+      "What is Oviond?",
+      "Quick start checklist",
+      "Key terms in Oviond",
+      "Create your first client report",
+      "Where to get help"
+    ],
+    "Clients": [
+      "Add a client",
+      "Edit client details",
+      "Organize clients with folders",
+      "Refresh a client screenshot",
+      "Archive or delete a client"
+    ],
+    "Data Sources": [
+      "What are data sources?",
+      "Connect a data source",
+      "Choose the right account or profile",
+      "Reconnect an expired data source",
+      "Troubleshoot missing data"
+    ],
+    "Reports & Dashboards": [
+      "Reports vs dashboards",
+      "Create a report or dashboard",
+      "Add and organize pages",
+      "Add widgets",
+      "Share a report",
+      "Export a report as PDF"
+    ],
+    "Templates, Themes & Media": [
+      "Use a template",
+      "Create or update a template",
+      "Apply a theme",
+      "Upload and manage media",
+      "Troubleshoot branding not showing"
+    ],
+    "Automations & Email Delivery": [
+      "Schedule report delivery",
+      "Test an automation",
+      "Pause or resume an automation",
+      "Troubleshoot failed scheduled reports",
+      "Set up branded email sending"
+    ],
+    "White Label & Sharing": [
+      "What white label means in Oviond",
+      "Set up a custom domain",
+      "Check custom domain status",
+      "Remove a custom domain",
+      "Share links safely"
+    ],
+    "Team, Account & Billing": [
+      "Invite a team member",
+      "User roles and permissions",
+      "Update company settings",
+      "View usage and plan limits",
+      "Billing, invoices, and subscription help"
+    ],
+    "Troubleshooting": [
+      "I cannot log in",
+      "My integration account is not appearing",
+      "Widgets are empty or showing zero",
+      "A report link is not working",
+      "PDF export or email delivery failed"
+    ]
+  }
+}

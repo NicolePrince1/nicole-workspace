@@ -1,0 +1,324 @@
+{
+  "collections": 9,
+  "articles": 46,
+  "created": {
+    "collections": [
+      {
+        "id": "6a141b8ccdbfc01912816cb7",
+        "title": "Getting Started"
+      },
+      {
+        "id": "6a141c3c5365e1840c1441f1",
+        "title": "Clients"
+      },
+      {
+        "id": "6a141c3da4aae5893cf54fa1",
+        "title": "Data Sources"
+      },
+      {
+        "id": "6a141c3fa6e5e1d59319986c",
+        "title": "Reports & Dashboards"
+      },
+      {
+        "id": "6a141c41bb2220ff239c8ea7",
+        "title": "Templates, Themes & Media"
+      },
+      {
+        "id": "6a141c433b96a01de17ff5cd",
+        "title": "Automations & Email Delivery"
+      },
+      {
+        "id": "6a141c4482a3b26578fc95ac",
+        "title": "White Label & Sharing"
+      },
+      {
+        "id": "6a141c465365e1840c1447ca",
+        "title": "Team, Account & Billing"
+      },
+      {
+        "id": "6a141c47a6e5e1d593199ba0",
+        "title": "Troubleshooting"
+      }
+    ],
+    "articles": [
+      {
+        "id": "6a141c3a66610956c3454bc2",
+        "collection": "Getting Started",
+        "title": "What is Oviond?"
+      },
+      {
+        "id": "6a141c3a89bb8170ed69610c",
+        "collection": "Getting Started",
+        "title": "Quick start checklist"
+      },
+      {
+        "id": "6a141c3b7259594776c11a7c",
+        "collection": "Getting Started",
+        "title": "Key terms in Oviond"
+      },
+      {
+        "id": "6a141c3b28329d0818da1000",
+        "collection": "Getting Started",
+        "title": "Create your first client report"
+      },
+      {
+        "id": "6a141c3b28329d0818da1167",
+        "collection": "Getting Started",
+        "title": "Where to get help"
+      },
+      {
+        "id": "6a141c3ca4aae5893cf54de3",
+        "collection": "Clients",
+        "title": "Add a client"
+      },
+      {
+        "id": "6a141c3cb64ae8589d816814",
+        "collection": "Clients",
+        "title": "Edit client details"
+      },
+      {
+        "id": "6a141c3c82a3b26578fc9095",
+        "collection": "Clients",
+        "title": "Organize clients with folders"
+      },
+      {
+        "id": "6a141c3db62fa4984b890d27",
+        "collection": "Clients",
+        "title": "Refresh a client screenshot"
+      },
+      {
+        "id": "6a141c3dd52ed32840fd416d",
+        "collection": "Clients",
+        "title": "Archive or delete a client"
+      },
+      {
+        "id": "6a141c3e129e70f23e2c06d8",
+        "collection": "Data Sources",
+        "title": "What are data sources?"
+      },
+      {
+        "id": "6a141c3e28329d0818da1337",
+        "collection": "Data Sources",
+        "title": "Connect a data source"
+      },
+      {
+        "id": "6a141c3e82a3b26578fc925c",
+        "collection": "Data Sources",
+        "title": "Choose the right account or profile"
+      },
+      {
+        "id": "6a141c3fe20843f01a3db031",
+        "collection": "Data Sources",
+        "title": "Reconnect an expired data source"
+      },
+      {
+        "id": "6a141c3f7acc23e001f86d72",
+        "collection": "Data Sources",
+        "title": "Troubleshoot missing data"
+      },
+      {
+        "id": "6a141c405bbcb4252dc80700",
+        "collection": "Reports & Dashboards",
+        "title": "Reports vs dashboards"
+      },
+      {
+        "id": "6a141c4081a839ddd8c64e89",
+        "collection": "Reports & Dashboards",
+        "title": "Create a report or dashboard"
+      },
+      {
+        "id": "6a141c40a4aae5893cf551f5",
+        "collection": "Reports & Dashboards",
+        "title": "Add and organize pages"
+      },
+      {
+        "id": "6a141c402bcb9fb3b8ec6708",
+        "collection": "Reports & Dashboards",
+        "title": "Add widgets"
+      },
+      {
+        "id": "6a141c4154150164ae28255c",
+        "collection": "Reports & Dashboards",
+        "title": "Share a report"
+      },
+      {
+        "id": "6a141c41fee515d9d792dd77",
+        "collection": "Reports & Dashboards",
+        "title": "Export a report as PDF"
+      },
+      {
+        "id": "6a141c4182a3b26578fc93f5",
+        "collection": "Templates, Themes & Media",
+        "title": "Use a template"
+      },
+      {
+        "id": "6a141c429f90fe8400cf4281",
+        "collection": "Templates, Themes & Media",
+        "title": "Create or update a template"
+      },
+      {
+        "id": "6a141c4248c455644e21285a",
+        "collection": "Templates, Themes & Media",
+        "title": "Apply a theme"
+      },
+      {
+        "id": "6a141c428ebcb44a63928c0d",
+        "collection": "Templates, Themes & Media",
+        "title": "Upload and manage media"
+      },
+      {
+        "id": "6a141c428e9a7d212f1ce521",
+        "collection": "Templates, Themes & Media",
+        "title": "Troubleshoot branding not showing"
+      },
+      {
+        "id": "6a141c432bcb9fb3b8ec68c5",
+        "collection": "Automations & Email Delivery",
+        "title": "Schedule report delivery"
+      },
+      {
+        "id": "6a141c43d928b425b26bcc8a",
+        "collection": "Automations & Email Delivery",
+        "title": "Test an automation"
+      },
+      {
+        "id": "6a141c433b96a01de17ff793",
+        "collection": "Automations & Email Delivery",
+        "title": "Pause or resume an automation"
+      },
+      {
+        "id": "6a141c44227424d50ca6fb71",
+        "collection": "Automations & Email Delivery",
+        "title": "Troubleshoot failed scheduled reports"
+      },
+      {
+        "id": "6a141c446ebadb473b3ba058",
+        "collection": "Automations & Email Delivery",
+        "title": "Set up branded email sending"
+      },
+      {
+        "id": "6a141c4401c3254c0967767f",
+        "collection": "White Label & Sharing",
+        "title": "What white label means in Oviond"
+      },
+      {
+        "id": "6a141c45f19b0590e2624ab3",
+        "collection": "White Label & Sharing",
+        "title": "Set up a custom domain"
+      },
+      {
+        "id": "6a141c4554150164ae28275b",
+        "collection": "White Label & Sharing",
+        "title": "Check custom domain status"
+      },
+      {
+        "id": "6a141c4581a839ddd8c65107",
+        "collection": "White Label & Sharing",
+        "title": "Remove a custom domain"
+      },
+      {
+        "id": "6a141c45e54d08b644795f62",
+        "collection": "White Label & Sharing",
+        "title": "Share links safely"
+      },
+      {
+        "id": "6a141c467259594776c11f04",
+        "collection": "Team, Account & Billing",
+        "title": "Invite a team member"
+      },
+      {
+        "id": "6a141c46c37040ec6488a300",
+        "collection": "Team, Account & Billing",
+        "title": "User roles and permissions"
+      },
+      {
+        "id": "6a141c4628329d0818da183d",
+        "collection": "Team, Account & Billing",
+        "title": "Update company settings"
+      },
+      {
+        "id": "6a141c46be5997d2776876a9",
+        "collection": "Team, Account & Billing",
+        "title": "View usage and plan limits"
+      },
+      {
+        "id": "6a141c47a3be534757d123e7",
+        "collection": "Team, Account & Billing",
+        "title": "Billing, invoices, and subscription help"
+      },
+      {
+        "id": "6a141c47129e70f23e2c0b18",
+        "collection": "Troubleshooting",
+        "title": "I cannot log in"
+      },
+      {
+        "id": "6a141c47e54d08b64479623d",
+        "collection": "Troubleshooting",
+        "title": "My integration account is not appearing"
+      },
+      {
+        "id": "6a141c4881a839ddd8c652c7",
+        "collection": "Troubleshooting",
+        "title": "Widgets are empty or showing zero"
+      },
+      {
+        "id": "6a141c485365e1840c144a29",
+        "collection": "Troubleshooting",
+        "title": "A report link is not working"
+      },
+      {
+        "id": "6a141c48be5997d277688d72",
+        "collection": "Troubleshooting",
+        "title": "PDF export or email delivery failed"
+      }
+    ],
+    "skipped_articles": []
+  },
+  "verify": [
+    {
+      "id": "6a141b8ccdbfc01912816cb7",
+      "title": "Getting Started",
+      "articles": 5
+    },
+    {
+      "id": "6a141c3c5365e1840c1441f1",
+      "title": "Clients",
+      "articles": 5
+    },
+    {
+      "id": "6a141c3da4aae5893cf54fa1",
+      "title": "Data Sources",
+      "articles": 5
+    },
+    {
+      "id": "6a141c3fa6e5e1d59319986c",
+      "title": "Reports & Dashboards",
+      "articles": 6
+    },
+    {
+      "id": "6a141c41bb2220ff239c8ea7",
+      "title": "Templates, Themes & Media",
+      "articles": 5
+    },
+    {
+      "id": "6a141c433b96a01de17ff5cd",
+      "title": "Automations & Email Delivery",
+      "articles": 5
+    },
+    {
+      "id": "6a141c4482a3b26578fc95ac",
+      "title": "White Label & Sharing",
+      "articles": 5
+    },
+    {
+      "id": "6a141c465365e1840c1447ca",
+      "title": "Team, Account & Billing",
+      "articles": 5
+    },
+    {
+      "id": "6a141c47a6e5e1d593199ba0",
+      "title": "Troubleshooting",
+      "articles": 5
+    }
+  ]
+}
