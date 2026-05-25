@@ -1,0 +1,301 @@
+{
+  "title": {
+    "en": "Add a client"
+  },
+  "description": {
+    "en": "Create a new client workspace."
+  },
+  "content": {
+    "en": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "A client is the top-level workspace for a customer, brand, store, branch, or profile you report on."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "To add one:"
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Open Clients."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Click Add Client."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Enter the client name."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Add optional details such as website, timezone, currency, manager, folder, and theme."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Save the client."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Only the client name is usually required. You can add the rest later from the client settings."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": {
+            "level": 2,
+            "dataSource": "nicole-real-screenshot-pass"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Screenshots"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "dataSource": "nicole-real-screenshot-pass"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "The screenshots below show the live Add Client flow inside Oviond."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "attrs": {
+            "src": "https://raw.githubusercontent.com/NicolePrince1/nicole-workspace/df845eb/workspace/tools/oviond-screenshot-studio/outputs/app-real-product-correction/annotated/real-clients-home-panel-v2.png",
+            "alt": "Real Oviond Clients screen with the Add Client action",
+            "title": "Real Oviond Clients screen with the Add Client action",
+            "dataSource": "nicole-real-screenshot-pass"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Open screenshot",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://raw.githubusercontent.com/NicolePrince1/nicole-workspace/df845eb/workspace/tools/oviond-screenshot-studio/outputs/app-real-product-correction/annotated/real-clients-home-panel-v2.png",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer"
+                  }
+                }
+              ]
+            }
+          ],
+          "attrs": {
+            "dataSource": "nicole-real-screenshot-pass"
+          }
+        },
+        {
+          "type": "image",
+          "attrs": {
+            "src": "https://raw.githubusercontent.com/NicolePrince1/nicole-workspace/df845eb/workspace/tools/oviond-screenshot-studio/outputs/app-real-product-correction/annotated/real-add-client-panel-v2.png",
+            "alt": "Real Oviond Add Client drawer with required fields",
+            "title": "Real Oviond Add Client drawer with required fields",
+            "dataSource": "nicole-real-screenshot-pass"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Open screenshot",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://raw.githubusercontent.com/NicolePrince1/nicole-workspace/df845eb/workspace/tools/oviond-screenshot-studio/outputs/app-real-product-correction/annotated/real-add-client-panel-v2.png",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer"
+                  }
+                }
+              ]
+            }
+          ],
+          "attrs": {
+            "dataSource": "nicole-real-screenshot-pass"
+          }
+        },
+        {
+          "type": "heading",
+          "attrs": {
+            "level": 2,
+            "dataSource": "nicole-real-screenshot-pass"
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Step-by-step"
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "From Clients, click Add Client in the top-right corner."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Fill in Client Name and Client Website."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Check currency, timezone, and manager if your account uses those fields."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Click Create Client when the required details are correct."
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "attrs": {
+            "dataSource": "nicole-real-screenshot-pass"
+          }
+        }
+      ]
+    }
+  },
+  "plainContent": {
+    "en": "A client is the top-level workspace for a customer, brand, store, branch, or profile you report on.\n\nTo add one:\n\n*   Open Clients.\n    \n*   Click Add Client.\n    \n*   Enter the client name.\n    \n*   Add optional details such as website, timezone, currency, manager, folder, and theme.\n    \n*   Save the client.\n    \n\nOnly the client name is usually required. You can add the rest later from the client settings.\n\nScreenshots\n-----------\n\nThe screenshots below show the live Add Client flow inside Oviond.\n\nReal Oviond Clients screen with the Add Client action\n\n[Open screenshot](https://raw.githubusercontent.com/NicolePrince1/nicole-workspace/df845eb/workspace/tools/oviond-screenshot-studio/outputs/app-real-product-correction/annotated/real-clients-home-panel-v2.png)\n\nReal Oviond Add Client drawer with required fields\n\n[Open screenshot](https://raw.githubusercontent.com/NicolePrince1/nicole-workspace/df845eb/workspace/tools/oviond-screenshot-studio/outputs/app-real-product-correction/annotated/real-add-client-panel-v2.png)\n\nStep-by-step\n------------\n\n*   From Clients, click Add Client in the top-right corner.\n    \n*   Fill in Client Name and Client Website.\n    \n*   Check currency, timezone, and manager if your account uses those fields.\n    \n*   Click Create Client when the required details are correct."
+  },
+  "helpcenterCollection": "6a141c3c5365e1840c1441f1",
+  "project": "66331f89e61711deca1ba5ad",
+  "isDraft": false,
+  "docId": 6,
+  "lexorank": "0|i00013:",
+  "sourceUsage": 0,
+  "targetAudience": "all",
+  "baseAudienceFilter": [],
+  "tags": [
+    "launch-mvp",
+    "real-product-screenshots"
+  ],
+  "createdAt": "2026-05-25T09:54:04.332Z",
+  "updatedAt": "2026-05-25T11:30:19.627Z",
+  "__v": 0,
+  "_id": "6a141c3ca4aae5893cf54de3",
+  "id": "6a141c3ca4aae5893cf54de3"
+}

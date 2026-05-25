@@ -1,0 +1,261 @@
+{
+  "title": {
+    "en": "Quick start checklist"
+  },
+  "description": {
+    "en": "The shortest path to your first useful Oviond report."
+  },
+  "content": {
+    "en": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "attrs": {
+            "id": "139323ce-0e01-4103-8aa4-17510d655fbd",
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Use this checklist when you are setting up Oviond for the first time."
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "id": "e270e4ca-8a34-41cb-8be5-b240f465fe31",
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Create or join your agency account."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "id": "2581ab6a-b348-49f3-976a-e3ec0b1bc274",
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Add your first client."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "id": "a20edd7e-a245-412b-9c7f-ab6fb2bf81b1",
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Connect at least one data source for that client."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "id": "2e88707e-b89f-4721-825d-faa219b44a42",
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Create a report or dashboard."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "id": "9c64e410-6ceb-4d0f-bc35-b25d50651557",
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Add widgets that use the connected data source."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "attrs": {
+                    "id": "3faa64e8-7fdf-42f3-ba10-e836120e381c",
+                    "textAlign": null
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Share the report with your client or test an automation."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "id": "3435bc15-cccd-4aa4-962c-deb5e6998b4c",
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "If you get stuck, start by checking whether the client has a connected data source and whether the widget date range contains data."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "attrs": {
+            "id": "3e4b7ce4-0ccf-4c95-8198-e48cbfd34b81",
+            "textAlign": null,
+            "level": 2
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Screenshots"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "id": "6e909261-ebeb-46c4-b207-f6a4bd0d0a56",
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "Use this screenshot to find the Clients area and start the setup flow."
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "attrs": {
+            "src": "https://raw.githubusercontent.com/NicolePrince1/nicole-workspace/df845eb/workspace/tools/oviond-screenshot-studio/outputs/app-real-product-correction/annotated/real-clients-home-panel-v2.png",
+            "alt": "Real Oviond Clients screen showing the Add Client action",
+            "style": "width: 100%; height: auto; cursor: pointer;",
+            "title": "Real Oviond Clients screen showing the Add Client action",
+            "loading": null,
+            "srcset": null,
+            "sizes": null,
+            "crossorigin": null,
+            "usemap": null,
+            "ismap": null,
+            "width": null,
+            "height": null,
+            "referrerpolicy": null,
+            "longdesc": null,
+            "decoding": null,
+            "class": null,
+            "id": null,
+            "name": null,
+            "draggable": true,
+            "tabindex": null,
+            "aria-label": null,
+            "aria-labelledby": null,
+            "aria-describedby": null
+          }
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "id": "ab99c33f-4bad-4aa6-bf70-04e1f93929e9",
+            "textAlign": null
+          },
+          "content": [
+            {
+              "type": "text",
+              "marks": [
+                {
+                  "type": "link",
+                  "attrs": {
+                    "href": "https://raw.githubusercontent.com/NicolePrince1/nicole-workspace/df845eb/workspace/tools/oviond-screenshot-studio/outputs/app-real-product-correction/annotated/real-clients-home-panel-v2.png",
+                    "target": "_blank",
+                    "rel": "noopener noreferrer",
+                    "class": null
+                  }
+                }
+              ],
+              "text": "Open screenshot"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "attrs": {
+            "id": "87cb144a-41cb-4e34-aa34-5dafedec1edd",
+            "textAlign": null
+          }
+        }
+      ]
+    }
+  },
+  "plainContent": {
+    "en": "Use this checklist when you are setting up Oviond for the first time.\n\n*   Create or join your agency account.\n    \n*   Add your first client.\n    \n*   Connect at least one data source for that client.\n    \n*   Create a report or dashboard.\n    \n*   Add widgets that use the connected data source.\n    \n*   Share the report with your client or test an automation.\n    \n\nIf you get stuck, start by checking whether the client has a connected data source and whether the widget date range contains data.\n\nScreenshots\n-----------\n\nUse this screenshot to find the Clients area and start the setup flow.\n\nReal Oviond Clients screen showing the Add Client action\n\n[Open screenshot](https://raw.githubusercontent.com/NicolePrince1/nicole-workspace/df845eb/workspace/tools/oviond-screenshot-studio/outputs/app-real-product-correction/annotated/real-clients-home-panel-v2.png)"
+  },
+  "helpcenterCollection": "6a141b8ccdbfc01912816cb7",
+  "project": "66331f89e61711deca1ba5ad",
+  "isDraft": false,
+  "docId": 2,
+  "lexorank": "0|i00007:",
+  "sourceUsage": 0,
+  "targetAudience": "all",
+  "baseAudienceFilter": [],
+  "tags": [
+    "launch-mvp",
+    "real-product-screenshots"
+  ],
+  "createdAt": "2026-05-25T09:54:02.979Z",
+  "updatedAt": "2026-05-25T11:39:55.335Z",
+  "__v": 0,
+  "author": "66331f725e247d518701f773",
+  "_id": "6a141c3a89bb8170ed69610c",
+  "id": "6a141c3a89bb8170ed69610c"
+}
