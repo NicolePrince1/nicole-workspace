@@ -1,0 +1,434 @@
+{
+  "source": "/data/.openclaw/workspace/research/gleap-help-center-2026-05-25/gleap-help-center-live-export.json",
+  "standard": "Marker-only screenshots; explanations as ordered/numbered lists in article body; no bullet+manual numbers; no Open screenshot links; screenshot only when it supports the article.",
+  "totals": {
+    "categories": 9,
+    "articles": 46,
+    "screenshotsRecommended": 36,
+    "screenshotsNotRecommended": 10
+  },
+  "categories": [
+    {
+      "categoryId": "6a141b8ccdbfc01912816cb7",
+      "categoryTitle": "Getting Started",
+      "articles": [
+        {
+          "articleId": "6a141c3a66610956c3454bc2",
+          "articleTitle": "What is Oviond?",
+          "screenshotNeeded": false,
+          "recommendedAppSurface": "None",
+          "why": "Conceptual overview; a screenshot would add decoration rather than clarify a task.",
+          "standard": "No screenshot recommended."
+        },
+        {
+          "articleId": "6a141c3a89bb8170ed69610c",
+          "articleTitle": "Quick start checklist",
+          "screenshotNeeded": false,
+          "recommendedAppSurface": "None",
+          "why": "Checklist spans multiple workflows; better as text until split into task-specific articles.",
+          "standard": "No screenshot recommended."
+        },
+        {
+          "articleId": "6a141c3b7259594776c11a7c",
+          "articleTitle": "Key terms in Oviond",
+          "screenshotNeeded": false,
+          "recommendedAppSurface": "None",
+          "why": "Glossary content; no single UI surface explains the terms better than concise definitions.",
+          "standard": "No screenshot recommended."
+        },
+        {
+          "articleId": "6a141c3b28329d0818da1000",
+          "articleTitle": "Create your first client report",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Client workspace → Projects → new report/template flow",
+          "why": "A marker-only screenshot can orient new users to the exact path from client to project creation.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c3b28329d0818da1167",
+          "articleTitle": "Where to get help",
+          "screenshotNeeded": false,
+          "recommendedAppSurface": "None",
+          "why": "Support-prep checklist; screenshots should come from the user’s issue, not the article.",
+          "standard": "No screenshot recommended."
+        }
+      ]
+    },
+    {
+      "categoryId": "6a141c3c5365e1840c1441f1",
+      "categoryTitle": "Clients",
+      "articles": [
+        {
+          "articleId": "6a141c3ca4aae5893cf54de3",
+          "articleTitle": "Add a client",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Clients list → Add Client modal/form",
+          "why": "Shows where Add Client lives and which fields matter without over-explaining.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c3cb64ae8589d816814",
+          "articleTitle": "Edit client details",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Client settings/details page",
+          "why": "Helps users locate editable fields like website, timezone, currency, manager, folder, and theme.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c3c82a3b26578fc9095",
+          "articleTitle": "Organize clients with folders",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Clients list → folder/sidebar controls",
+          "why": "Useful for showing the folder control and where client organization happens.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c3db62fa4984b890d27",
+          "articleTitle": "Refresh a client screenshot",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Client settings or client card screenshot/thumbnail action",
+          "why": "The action is visual and easy to miss; a marker can identify the refresh/update control.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c3dd52ed32840fd416d",
+          "articleTitle": "Archive or delete a client",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Client settings → archive/delete danger area",
+          "why": "Supports a high-risk action by showing the exact location while article text carries the warnings.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        }
+      ]
+    },
+    {
+      "categoryId": "6a141c3da4aae5893cf54fa1",
+      "categoryTitle": "Data Sources",
+      "articles": [
+        {
+          "articleId": "6a141c3e129e70f23e2c06d8",
+          "articleTitle": "What are data sources?",
+          "screenshotNeeded": false,
+          "recommendedAppSurface": "None",
+          "why": "Conceptual definition; avoid unnecessary integration screenshots.",
+          "standard": "No screenshot recommended."
+        },
+        {
+          "articleId": "6a141c3e28329d0818da1337",
+          "articleTitle": "Connect a data source",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Client integrations or global Integrations → platform connect flow",
+          "why": "Shows the connect entry point and where account/profile selection begins.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c3e82a3b26578fc925c",
+          "articleTitle": "Choose the right account or profile",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Integration account/profile selection screen",
+          "why": "A screenshot can mark account name/ID/profile selectors, which directly supports avoiding wrong connections.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c3fe20843f01a3db031",
+          "articleTitle": "Reconnect an expired data source",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Integrations list → connected account status/reconnect action",
+          "why": "Users need to find the affected connection and Reconnect control.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c3f7acc23e001f86d72",
+          "articleTitle": "Troubleshoot missing data",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Widget settings/data source selector plus integration status area",
+          "why": "Supports the diagnostic path: confirm selected source/date range, then test the connection.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        }
+      ]
+    },
+    {
+      "categoryId": "6a141c3fa6e5e1d59319986c",
+      "categoryTitle": "Reports & Dashboards",
+      "articles": [
+        {
+          "articleId": "6a141c405bbcb4252dc80700",
+          "articleTitle": "Reports vs dashboards",
+          "screenshotNeeded": false,
+          "recommendedAppSurface": "None",
+          "why": "Decision guidance; UI screenshot would be redundant unless article expands into project creation.",
+          "standard": "No screenshot recommended."
+        },
+        {
+          "articleId": "6a141c4081a839ddd8c64e89",
+          "articleTitle": "Create a report or dashboard",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Client workspace → Projects → New Project modal",
+          "why": "Shows project type choice, naming, and template/blank entry points.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c40a4aae5893cf551f5",
+          "articleTitle": "Add and organize pages",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Report editor → pages/sidebar/page controls",
+          "why": "Page controls are spatial; markers can show add, rename, and reorder areas.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c402bcb9fb3b8ec6708",
+          "articleTitle": "Add widgets",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Report/dashboard editor → Add Widget panel",
+          "why": "Directly supports finding widget types, data source, metric, and settings controls.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c4154150164ae28255c",
+          "articleTitle": "Share a report",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Report editor/preview → Share dialog",
+          "why": "Shows share link, public/private state, and preview/test controls.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c41fee515d9d792dd77",
+          "articleTitle": "Export a report as PDF",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Report editor/preview → Export/PDF control",
+          "why": "Helps users find the PDF export action and preview/download step.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        }
+      ]
+    },
+    {
+      "categoryId": "6a141c41bb2220ff239c8ea7",
+      "categoryTitle": "Templates, Themes & Media",
+      "articles": [
+        {
+          "articleId": "6a141c4182a3b26578fc93f5",
+          "articleTitle": "Use a template",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "New project/template gallery or template picker",
+          "why": "Shows where templates are selected and reinforces review-after-apply.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c429f90fe8400cf4281",
+          "articleTitle": "Create or update a template",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Report editor/template save or Templates area",
+          "why": "Useful because saving/updating templates is app-specific and easy to confuse with normal report edits.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c4248c455644e21285a",
+          "articleTitle": "Apply a theme",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Report/client theme selector or branding panel",
+          "why": "Shows where theme selection happens and what to preview afterward.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c428ebcb44a63928c0d",
+          "articleTitle": "Upload and manage media",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Media library/uploader inside report or account settings",
+          "why": "Visual task; screenshot can mark upload, file list, and insert/manage controls.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c428e9a7d212f1ce521",
+          "articleTitle": "Troubleshoot branding not showing",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Branding/theme settings with logo and domain status visible",
+          "why": "A focused screenshot helps users check theme, logo, report refresh, and domain status locations.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        }
+      ]
+    },
+    {
+      "categoryId": "6a141c433b96a01de17ff5cd",
+      "categoryTitle": "Automations & Email Delivery",
+      "articles": [
+        {
+          "articleId": "6a141c432bcb9fb3b8ec68c5",
+          "articleTitle": "Schedule report delivery",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Automation creation screen for a report",
+          "why": "Shows schedule, recipients, sender/subject, PDF attachment, and test controls.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c43d928b425b26bcc8a",
+          "articleTitle": "Test an automation",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Automation detail screen → Test/send now action",
+          "why": "The core action is a specific button/status area; screenshot prevents hunting.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c433b96a01de17ff793",
+          "articleTitle": "Pause or resume an automation",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Automation list/detail screen → active toggle/status",
+          "why": "Shows the automation status and pause/resume control clearly.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c44227424d50ca6fb71",
+          "articleTitle": "Troubleshoot failed scheduled reports",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Automation history/detail screen plus email setup status",
+          "why": "Supports checking active state, schedule, recipients, history, and sender setup.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c446ebadb473b3ba058",
+          "articleTitle": "Set up branded email sending",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Email sending/domain verification settings",
+          "why": "Verification states and sender configuration benefit from markers.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        }
+      ]
+    },
+    {
+      "categoryId": "6a141c4482a3b26578fc95ac",
+      "categoryTitle": "White Label & Sharing",
+      "articles": [
+        {
+          "articleId": "6a141c4401c3254c0967767f",
+          "articleTitle": "What white label means in Oviond",
+          "screenshotNeeded": false,
+          "recommendedAppSurface": "None",
+          "why": "Conceptual positioning; screenshots belong in theme/domain/email setup articles.",
+          "standard": "No screenshot recommended."
+        },
+        {
+          "articleId": "6a141c45f19b0590e2624ab3",
+          "articleTitle": "Set up a custom domain",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "White label/domain settings → add domain/DNS instructions",
+          "why": "DNS setup is procedural; screenshot can mark domain field, required records, and status.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c4554150164ae28275b",
+          "articleTitle": "Check custom domain status",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "White label/domain settings → domain status table/card",
+          "why": "Article is about interpreting the status; screenshot should show where status appears.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c4581a839ddd8c65107",
+          "articleTitle": "Remove a custom domain",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "White label/domain settings → domain menu/remove action",
+          "why": "High-risk action; screenshot supports finding the correct domain and remove area while warnings stay in text.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c45e54d08b644795f62",
+          "articleTitle": "Share links safely",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Report Share dialog/link settings",
+          "why": "Shows where to copy/test the link and verify the correct client/report before sending.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        }
+      ]
+    },
+    {
+      "categoryId": "6a141c465365e1840c1447ca",
+      "categoryTitle": "Team, Account & Billing",
+      "articles": [
+        {
+          "articleId": "6a141c467259594776c11f04",
+          "articleTitle": "Invite a team member",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Team/users settings → Invite user modal",
+          "why": "Shows invite email, role, and access controls.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c46c37040ec6488a300",
+          "articleTitle": "User roles and permissions",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Team/users settings → role/permission selector",
+          "why": "Permissions are UI-specific; screenshot can mark role and client-access controls.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c4628329d0818da183d",
+          "articleTitle": "Update company settings",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Company/account settings page",
+          "why": "Shows company profile, logo, timezone, and default branding locations.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c46be5997d2776876a9",
+          "articleTitle": "View usage and plan limits",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Billing/account usage page",
+          "why": "Usage meters/limits are visual and worth showing if no sensitive account data is exposed.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c47a3be534757d123e7",
+          "articleTitle": "Billing, invoices, and subscription help",
+          "screenshotNeeded": false,
+          "recommendedAppSurface": "None",
+          "why": "Billing pages may expose sensitive payment/customer data; text checklist is safer unless a sanitized mock exists.",
+          "standard": "No screenshot recommended."
+        }
+      ]
+    },
+    {
+      "categoryId": "6a141c47a6e5e1d593199ba0",
+      "categoryTitle": "Troubleshooting",
+      "articles": [
+        {
+          "articleId": "6a141c47129e70f23e2c0b18",
+          "articleTitle": "I cannot log in",
+          "screenshotNeeded": false,
+          "recommendedAppSurface": "None",
+          "why": "Logged-out troubleshooting is generic; article should stay text-first and avoid stale login-screen captures.",
+          "standard": "No screenshot recommended."
+        },
+        {
+          "articleId": "6a141c47e54d08b64479623d",
+          "articleTitle": "My integration account is not appearing",
+          "screenshotNeeded": false,
+          "recommendedAppSurface": "None",
+          "why": "OAuth/account lists can expose sensitive external accounts; text checklist is safer than screenshots.",
+          "standard": "No screenshot recommended."
+        },
+        {
+          "articleId": "6a141c4881a839ddd8c652c7",
+          "articleTitle": "Widgets are empty or showing zero",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Report editor → widget settings/date range/data source selector",
+          "why": "Shows the exact places to verify date range, selected source, and widget configuration.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c485365e1840c144a29",
+          "articleTitle": "A report link is not working",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Report Share dialog/settings and preview/open-link controls",
+          "why": "Supports checking sharing enabled, link copied, and private-window testing path.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        },
+        {
+          "articleId": "6a141c48be5997d277688d72",
+          "articleTitle": "PDF export or email delivery failed",
+          "screenshotNeeded": true,
+          "recommendedAppSurface": "Report export controls and/or automation delivery history",
+          "why": "A screenshot can orient users to export status, delivery history, and manual test controls.",
+          "standard": "If produced: marker-only screenshot; ordered/numbered explanation list in article body; no bullet+manual numbers; no Open screenshot links."
+        }
+      ]
+    }
+  ]
+}
