@@ -5,11 +5,12 @@ description: Audit, diagnose, and manage Oviond's Google Tag Manager account, co
 
 # Google Tag Manager Skill — Oviond
 
-Operate Oviond's Google Tag Manager setup with a durable **service-account-impersonation primary path** and an explicit **OAuth refresh-token fallback**.
+Operate Oviond's Google Tag Manager setup through the durable **Google Workspace service-account impersonation path**.
 
 Default rule:
-- prefer impersonating `nicole@oviond.com` through the existing Google Workspace service account once Tag Manager scopes are granted
-- keep a human OAuth refresh-token fallback configured so GTM work does not die when domain-wide delegation or scope grants drift
+- impersonate `nicole@oviond.com` through `/data/.openclaw/secrets/gws-token.js`
+- use read-only GTM checks first
+- require explicit `--apply` for non-GET requests
 
 ## Core workflow
 
@@ -26,12 +27,6 @@ If auth is blocked, read:
 - `references/api-recipes.md`
 
 Do not pretend GTM management works if the auth doctor fails.
-
-Optional auth-mode override when testing fallback auth:
-
-```bash
-node /data/.openclaw/workspace/skills/google-tag-manager/scripts/gtm_auth_doctor.js --auth-mode oauth-refresh-token --json
-```
 
 ### 2) Discover the GTM structure
 
@@ -87,10 +82,9 @@ Use `references/api-recipes.md` for common request patterns, including workspace
 ### `gtm_auth_doctor.js`
 
 Purpose:
-- verify which auth mode is usable
+- verify Google Workspace service-account impersonation can mint a GTM readonly token
 - test `accounts` visibility
-- optionally test account, container, or workspace paths when env defaults are configured
-- explain the likely fix when service-account or refresh-token auth is blocked
+- report account count and failure details
 
 ### `gtm_discover.js`
 
@@ -116,8 +110,7 @@ Purpose:
 
 ## Guardrails
 
-- prefer the service-account impersonation path once it is correctly scoped, because it is the cleanest durable automation path in this workspace
-- keep an OAuth refresh-token fallback configured anyway, because GTM access is user-centric and fallback resilience matters
+- prefer the service-account impersonation path because it is the cleanest durable automation path in this workspace
 - do not assume a GTM invitation email alone is enough; the invited user must be active, not pending
 - do not publish or mutate live containers without first auditing the affected workspace or container state
 - do not take delete actions casually; GTM has enough rope to hang reporting and conversion measurement in one bad publish
