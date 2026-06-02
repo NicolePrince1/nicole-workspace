@@ -2,9 +2,9 @@
   "lastChecks": {
     "trial_health": 1780410879,
     "revenue_pulse": 1780410879,
-    "seo_movement": 1780403661,
+    "seo_movement": 1780418063,
     "email_health": 1780405487,
-    "ad_spend": 1780401918
+    "ad_spend": 1780418063
   },
   "lastMetrics": {
     "trial_health": {
@@ -57,7 +57,7 @@
     "seo_movement": {
       "status": "ok",
       "window": {
-        "startDate": "2026-05-28",
+        "startDate": "2026-05-29",
         "endDate": "2026-06-02"
       },
       "flagged_drops_gt3": [],
