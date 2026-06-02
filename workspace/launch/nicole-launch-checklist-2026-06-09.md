@@ -79,6 +79,61 @@ What we need to make clear:
 5. **Reliable foundation.**  
    Rebuilt for cleaner setup, better trust, stronger reporting workflows, and future automation.
 
+### Gleap customer-sentiment read — 2026-06-02
+
+Read-only sweep source: 500 most recently updated non-archived Gleap tickets, targeted searches for API/MCP/AI/reporting themes, and manual filtering of obvious internal QA / vendor / newsletter noise. Treat counts as directional because Gleap has noisy inbound email, but the qualitative signal is clear.
+
+Customer tone right now is **practical, impatient, and trust-seeking**. They are not mainly asking for a shiny new dashboard. They are asking:
+
+- [ ] Can I trust the numbers?
+- [ ] Can I connect the sources I need?
+- [ ] Can my reports go out cleanly to clients?
+- [ ] Can I see what failed?
+- [ ] Can I use API/MCP/AI workflows with Oviond?
+- [ ] Can setup/admin be less painful?
+
+Main themes from the sweep:
+
+1. **Data trust and connector confidence.**  
+   Tickets cluster around Meta/Facebook metric mismatches, blank social widgets, deprecated metrics, LinkedIn/TikTok/YouTube/GA-style data-source questions, and Integration API query errors. The launch message must say “rebuilt for cleaner reporting workflows and stronger connector foundations,” not just “new UI.”
+
+2. **Report delivery confidence.**  
+   Customers ask about bounced report emails, recipients, scheduled delivery, PDF/download behavior, and logs. This supports language around “client-ready reports that go out cleanly, with clearer delivery visibility.”
+
+3. **API, MCP, and AI-readiness are live questions.**  
+   Recent/targeted Gleap asks include: “Where can I access the API?”, “Does Oviond have an API?”, API keys/client IDs/rate limits/docs, MCP availability for Claude Code, MCP server issues, and Integration API errors. AI/API/MCP cannot be buried. It should be framed as: **simple UI for humans; API and MCP for ChatGPT, Claude, automation, and AI workflows — no provider lock-in.**
+
+4. **Setup/admin friction.**  
+   Adding/removing clients, extending trials, custom domains, account access, and client/report setup all show up. This reinforces the client-count pricing story: “Pick your client count. Get the full reporting system.”
+
+5. **Dashboard/report polish.**  
+   Widgets, tables, dimensions, filters, templates, custom metrics, PDF/export, and report-view behavior are recurring areas. “Finally simple” must mean operationally simple, not just prettier.
+
+6. **White-label/custom domain remains trust infrastructure.**  
+   Keep white-label delivery high in the hierarchy. For agencies, this is a client-trust feature, not a nice-to-have.
+
+Customer-backed launch answer:
+
+> Oviond has been rebuilt to make agency reporting feel simple again: reliable client-ready reports, clearer setup, straightforward pricing by client count, and AI/API workflows you can use from ChatGPT, Claude, or whichever AI tool your agency already trusts.
+
+Copy angles to test from the sentiment:
+
+- [ ] “Finally, agency reporting you do not have to babysit.”
+- [ ] “Client-ready reports, clearer delivery, and fewer moving parts.”
+- [ ] “Use Oviond from ChatGPT, Claude, or your preferred AI assistant — no AI-provider lock-in.”
+- [ ] “Simple UI for your team. API and MCP for your AI workflows.”
+- [ ] “Pick your client count. Get the full reporting system.”
+- [ ] “Built for agencies that need reporting to be invisible, dependable, and done.”
+
+Do **not** overclaim:
+
+- [ ] Do not say every integration issue is solved.
+- [ ] Do not say AI will do all reporting.
+- [ ] Do not say no setup is required.
+- [ ] Do not say everything is fully automated.
+
+Safer claim: **rebuilt foundations, simpler workflows, clearer delivery, and AI/API-ready access — with support watching launch-week issues closely.**
+
 ---
 
 ## 0B. First-month war room thesis
@@ -518,9 +573,13 @@ What success looks like:
   - login/access issue
   - missing data source
   - report/dashboard discrepancy
+  - report email bounce / recipient visibility question
   - migration question
   - billing/pricing question
   - integration reconnect issue
+  - API access / API credentials / API docs question
+  - MCP / ChatGPT / Claude connection question
+  - custom domain / white-label setup question
 - [ ] Create internal issue labels/tags:
   - launch-bug
   - migration
@@ -528,6 +587,11 @@ What success looks like:
   - billing
   - login
   - report-accuracy
+  - report-delivery
+  - api
+  - mcp
+  - ai-workflow
+  - custom-domain
   - urgent-customer-risk
 - [ ] Monitor Gleap aggressively on launch day.
 - [ ] Summarize recurring issues back to team twice daily in first 72 hours.
