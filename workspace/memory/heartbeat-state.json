@@ -4,7 +4,7 @@
     "revenue_pulse": 1780400077,
     "seo_movement": 1780382912,
     "email_health": 1780382912,
-    "ad_spend": 1780381059
+    "ad_spend": 1780401918
   },
   "lastMetrics": {
     "trial_health": {
@@ -77,15 +77,18 @@
         "until": "2026-06-02",
         "days": 7
       },
-      "comparison_window": {
-        "since": "2026-05-20",
-        "until": "2026-05-26",
-        "days": 7
+      "meta": {
+        "spend": 0,
+        "impressions": 0,
+        "landing_page_views": 0,
+        "cost_per_landing_page_view": null
       },
-      "spend": 0,
-      "landing_page_views": 0,
-      "cost_per_landing_page_view": null,
-      "note": "Meta Ads current 7-day report returned no spend or landing-page views; no CPA above the R200 alert threshold."
+      "google_ads": {
+        "impression_rows": 0,
+        "spend": 0,
+        "note": "Google Ads query for LAST_7_DAYS campaigns with impressions > 0 returned 0 rows."
+      },
+      "note": "Ads-off hold check passed: Meta returned no current spend/delivery and Google Ads returned no campaign rows with impressions in LAST_7_DAYS."
     }
   },
   "lastWeeklyReport": null,
