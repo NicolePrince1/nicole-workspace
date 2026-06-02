@@ -21,10 +21,10 @@ Public posture: confident and positive. Do not lead by attacking named competito
 - [Competitor universe](competitor-universe.csv) — active master list, category, priority, status, and profile path.
 - [Excluded from active list](excluded-from-active-list.md) — items Chris removed as noisy/non-relevant for launch positioning.
 - [Competitor profiles](competitors/_README.md) — active competitor/threat profile index.
-- [Direct agency reporting](categories/direct-agency-reporting.md) — AgencyAnalytics, Whatagraph, DashThis, Swydo, Octoboard, ReportGarden, Raven, Metrics Watch, TapClicks, NinjaCat.
+- [Direct agency reporting](categories/direct-agency-reporting.md) — AgencyAnalytics, Whatagraph, Reporting Ninja, Reportz.io, DashThis, Swydo, Octoboard, ReportGarden, Raven, Metrics Watch, TapClicks, NinjaCat.
 - [BI/dashboard substitutes](categories/bi-dashboard-substitutes.md) — Looker Studio, Databox, Klipfolio, Power BI, Tableau, Geckoboard, Cyfe, Domo.
-- [Connector/report automation](categories/connector-report-automation.md) — Supermetrics, Funnel, Porter, Dataslayer, Coupler, Windsor, Improvado, Adverity.
-- [Channel-specific suites](categories/channel-specific-suites.md) — Semrush, SE Ranking, Ahrefs, Moz, BrightLocal, Sprout, Hootsuite, HubSpot.
+- [Connector/report automation](categories/connector-report-automation.md) — Supermetrics, Power My Analytics, Funnel, Porter, Dataslayer, Coupler, Windsor, Improvado, Adverity.
+- [Channel-specific suites](categories/channel-specific-suites.md) — Semrush, Optmyzr, SE Ranking, Ahrefs, Moz, BrightLocal, Sprout, Hootsuite, HubSpot.
 - [AI-native threats](categories/ai-native-threats.md) — general AI assistants + Sheets/Looker, Julius, Polymer, ThoughtSpot, Copilot, Tableau/Looker AI, Google MCP, Two Minute Reports MCP.
 - [Pricing and gate map](pricing/pricing-and-gate-map.md) — how competitors monetize complexity.
 - [Launch positioning implications](positioning/launch-positioning-implications.md) — the strategic synthesis.
@@ -35,7 +35,7 @@ Public posture: confident and positive. Do not lead by attacking named competito
 
 ### 1. Direct agency reporting platforms
 
-**Primary launch comparison set:** AgencyAnalytics, Whatagraph, DashThis, Swydo.
+**Primary launch comparison set:** AgencyAnalytics, Whatagraph, Reporting Ninja, DashThis, Swydo; Reportz.io as a lower-confidence lightweight KPI/dashboard watch item.
 
 These are the closest alternatives when an agency is actively choosing reporting software. They mostly compete on templates, integrations, client portals, report automation, and agency-specific workflows. The pattern: they often say “simple,” but packaging still creates gates around clients, source credits, dashboards, reports, users, white label, AI, API, or support.
 
@@ -47,13 +47,13 @@ They win when agencies want flexibility, free/low-cost entry, or enterprise BI c
 
 ### 3. Connector/report automation layers
 
-**Primary stack threat:** Supermetrics, Porter Metrics, Dataslayer, Coupler, Windsor, Funnel.
+**Primary stack threat:** Supermetrics, Power My Analytics, Porter Metrics, Dataslayer, Coupler, Windsor, Funnel.
 
 These tools do not usually replace Oviond as a client portal. They replace the data layer and push agencies toward assembling their own reporting stack in Looker Studio, Sheets, Power BI, BigQuery, or AI tools. The strategic threat is not their dashboards; it is that they are racing to own “marketing data into AI.”
 
 ### 4. Channel-specific suites
 
-**Highest risk for narrow agencies:** SE Ranking/BrightLocal for SEO/local SEO, Semrush for SEO/competitive intelligence, HubSpot for CRM-led clients, Sprout/Hootsuite for social-only retainers.
+**Highest risk for narrow agencies:** SE Ranking/BrightLocal for SEO/local SEO, Semrush for SEO/competitive intelligence, Optmyzr for PPC-heavy agencies, HubSpot for CRM-led clients, Sprout/Hootsuite for social-only retainers.
 
 They substitute when the agency lives inside a single channel suite and client reporting does not need a cross-channel, white-labeled reporting layer.
 
@@ -68,13 +68,13 @@ The danger is not one AI startup. The danger is workflow displacement: agencies 
 1. **AgencyAnalytics** — strongest direct agency-reporting benchmark.
 2. **Looker Studio + connector stack** — free/DIY baseline and common switch source.
 3. **Databox** — dashboard/reporting + agency features + MCP/AI posture.
-4. **DashThis** — direct reporting simplicity competitor; dashboard/source pricing contrast.
+4. **DashThis / Reporting Ninja** — direct reporting simplicity and low-cost “all features included” pressure.
 5. **Swydo** — unusually close on “one plan/all features” language; data-source pricing contrast.
-6. **Supermetrics** — connector-layer leader pushing marketing data into BI/AI/MCP workflows.
+6. **Supermetrics / Power My Analytics** — connector-layer pressure from both AI/MCP leadership and lower-cost agency connector economics.
 7. **Klipfolio** — dashboard/white-label/custom-BI substitute for agencies that want control.
 8. **Porter Metrics / Dataslayer / Coupler / Windsor** — lower-cost connector alternatives that feed Looker, Sheets, Power BI, and AI workflows.
 9. **SE Ranking / BrightLocal** — strongest narrow substitutes for SEO/local SEO agencies.
-10. **Semrush / Two Minute Reports** — strategic AI/MCP signal to monitor without treating them as broad direct reporting competitors.
+10. **Semrush / Optmyzr / Two Minute Reports** — strategic channel-suite and AI/MCP signals to monitor without treating them as broad direct reporting competitors.
 
 ## Core market truth
 

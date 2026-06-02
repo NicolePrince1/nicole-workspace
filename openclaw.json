@@ -270,7 +270,6 @@
     "allow": [
       "telegram",
       "usage-tracker",
-      "slack",
       "openai",
       "anthropic",
       "google",

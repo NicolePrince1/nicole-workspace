@@ -37,3 +37,9 @@ skills/**/*.pyc
 secrets/
 # OpenClaw cron runtime state (local only; job definitions stay in cron/jobs.json)
 cron/jobs-state.json
+migration.log*
+migration_full.log*
+memory/dreaming/
+DREAMS.md
+research/competitor-intelligence/tmp-image-view.html
+tools/oviond-screenshot-studio/outputs/help-center-rollout/raw/

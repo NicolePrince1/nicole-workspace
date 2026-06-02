@@ -10,7 +10,7 @@ Source detail also retained at `raw/connector-report-automation.md`.
 
 Last verified: 2026-05-07
 
-Scope: Supermetrics, Funnel.io, Porter Metrics, Dataslayer, Coupler.io, Windsor.ai, Improvado, plus Adverity as an obvious enterprise connector-layer competitor.
+Scope: Supermetrics, Power My Analytics, Funnel.io, Porter Metrics, Dataslayer, Coupler.io, Windsor.ai, Improvado, plus Adverity as an obvious enterprise connector-layer competitor.
 
 Strategic frame: these vendors are not classic agency-reporting platforms. They substitute for Oviond when an agency decides to assemble reporting infrastructure from connectors + Looker Studio / Sheets / Power BI / warehouse + templates / AI. The competitive pressure is strongest where they promise breadth, data freshness, and “bring your own BI.” The exploitable gap is that agencies still own the reporting system design, client delivery layer, QA, white-label experience, and ongoing dashboard maintenance.
 
@@ -20,7 +20,8 @@ Strategic frame: these vendors are not classic agency-reporting platforms. They 
 
 | Vendor | Core wedge | Pricing/scaling metric | Connector breadth | Destinations | Agency/client-reporting relevance | AI/API posture |
 |---|---|---:|---:|---|---|---|
-| Supermetrics | Marketing intelligence/data movement into BI, spreadsheets, warehouses, AI | Package + destination + data sources + accounts/users; extras available | Large marketing connector catalog; premium/early-access connectors visible | Looker Studio, Sheets, Excel, Power BI; Enterprise adds Snowflake/BigQuery and more | Strong DIY agency stack; not white-label client portal-first | Data API/MCP in packages; Management API only Enterprise |
+| Supermetrics | Marketing intelligence/data movement into BI, spreadsheets, warehouses, AI | Package + destination + data sources + accounts/users; extras available | Large marketing connector catalog; premium/early-access connectors visible | ChatGPT/Claude/Copilot, Looker Studio, Sheets, Excel, Power BI; Enterprise adds Snowflake/BigQuery and more | Strong DIY agency stack; not white-label client portal-first | Data API/MCP in packages; Management API only Enterprise |
+| Power My Analytics | Low-cost marketing data hub for Looker Studio/Sheets/warehouses | Sample/Business/Pro/Custom; live sources, accounts/source, admins, exports/API/AI credits | Broad practical agency connectors across ads, analytics, SEO, social, email, CRM, ecommerce | Looker Studio/Data Studio, Sheets, Excel, BigQuery, SQL, FTP, Snowflake, S3, API | Strong price-led connector stack; report delivery still external/DIY | AI Insights credits; API Custom-gated; no MCP found |
 | Funnel.io | Marketing data hub for modeling, reporting, exporting | Plan tiers by connectors, reporting solutions, export solutions | 121 Starter / 579 Business / 590 Enterprise connectors | Funnel dashboards, reporting solutions, export destinations | Strong for data teams/agencies with budget; overkill for simple client reporting | Funnel AI positioning; measurement add-on; custom integrations on higher plans |
 | Porter Metrics | Low-cost marketing connectors for Looker Studio/Sheets/Power BI/BigQuery | Pay per data source account | 26+ / 30+ marketing sources | Looker Studio/Data Studio, Google Sheets, Power BI, BigQuery, Slack, Zapier | Explicitly agency-friendly: multi-account, templates, 1,500+ marketers | AI query builder, alerts, notifications; new MCP signal |
 | Dataslayer | Supermetrics alternative for automated reporting | Plan by destination, users, accounts per connector, enterprise rows | 50+ sources listed | Sheets, Looker Studio, BigQuery, API Query Manager, Power BI, S3, Redshift, Excel, Snowflake, DBs, GCS | Good DIY stack; less native agency reporting/white-label emphasis | AI Chat, Alerts Agent, Looker Analyzer, MCP, GPT |
@@ -33,63 +34,140 @@ Strategic frame: these vendors are not classic agency-reporting platforms. They 
 
 ## 1. Supermetrics
 
-Sources: pricing, connectors, API/product pages.
+Last verified: 2026-05-07
+Priority: Tier 1
+Category: Connector/report automation / marketing data infrastructure
+Website: https://supermetrics.com
+
+## Quick read
+
+- **What they are:** Leading connector and marketing-data movement platform for pushing marketing data into BI, spreadsheets, warehouses, APIs, and AI workflows.
+- **Best-fit customer:** Data-savvy agencies and marketing teams building their own reporting stack in Looker Studio, Sheets, Excel, Power BI, ChatGPT/Claude/Copilot, BigQuery/Snowflake, or custom apps.
+- **Core promise:** Reliable marketing data everywhere the team wants to analyze/report with it.
+- **Main Oviond relevance:** The connector-layer leader and one of the clearest “marketing data into AI/MCP” threats.
+
+## Pricing and packaging
+
+- **Pricing model:** Package + destination + data sources + accounts/users + refresh frequency.
+- **Starter:** from **€39/mo yearly / €49 monthly**; 1 core destination, 3 data sources, 1 user, 3 accounts/source, weekly Google Sheets refresh, Data API access.
+- **Growth:** from **€159/mo yearly / €199 monthly**; 1 core destination, 7 data sources, 2 users, 7 accounts/source, daily Sheets refresh, custom data import.
+- **Pro:** from **€399/mo yearly / €499 monthly**; 1 core destination, 10 data sources, 3 users, 10 accounts/source, hourly Sheets refresh, Storage Basic add-on.
+- **Enterprise:** custom; core + DWH destinations, all sources, custom limits, on-demand refreshes, warehousing, Management API, multiple teams, residency, premium support.
+- **Key gates:** destination count/type, selected data sources, accounts per source, users, refresh, storage/warehousing, Management API, teams, support.
+
+## Product and capability map
+
+- Connectors: broad marketing catalog across paid media, SEO, social, app/web analytics, ecommerce, email/SMS, sales, affiliate, retail media, reviews and more; some connectors marked premium/early access.
+- Destinations: ChatGPT, Claude, Microsoft Copilot, Looker Studio, Google Sheets, Excel, Power BI; Enterprise adds DWH destinations such as BigQuery/Snowflake.
+- API: Supermetrics API for custom applications and AI workflows; Data API access appears in package posture; Management API is Enterprise.
+- MCP: official Supermetrics MCP product/docs; standalone product for valid subscriptions with Supermetrics API access; works with Claude, ChatGPT, Copilot, n8n and MCP-compatible hosts. Public row-limit references include Starter 50k, Growth 250k, Pro 500k, Enterprise custom.
+- White label/custom domain: not a client portal/white-label reporting product; branding lives in the destination layer.
+- Agency templates/reporting: useful for agencies in Looker/Sheets/Power BI stacks, but client delivery remains assembled elsewhere.
+
+## Strengths
+
+- Category awareness and trust.
+- Deep connector breadth.
+- Familiar reporting destinations.
+- Strong API/MCP/AI-ready data narrative.
+- Enterprise governance, storage, residency and support options.
+
+## Weaknesses / exploitable gaps
+
+- Pricing has many dimensions: package, destination, source, accounts, users, refresh, extras.
+- Starter/Growth/Pro are constrained around destination/source/account limits.
+- Agencies still build and maintain the reporting layer elsewhere.
+- No native agency client portal/white-label delivery loop.
+
+## Oviond counter-position
+
+“Supermetrics moves data. Oviond turns reporting into a client-ready system. If an agency wants to build a BI stack, Supermetrics is credible. If it wants reporting that is branded, scheduled, permissioned, archived, explained, and easy to buy, Oviond should win.”
+
+## Sources
 
 - https://supermetrics.com/pricing
 - https://supermetrics.com/connectors
 - https://supermetrics.com/products/supermetrics-api
+- https://supermetrics.com/products/supermetrics-mcp
+- https://docs.supermetrics.com/docs/supermetrics-mcp-server
+- https://supermetrics.com/blog/march-2026-product-updates
 - https://supermetrics.com/blog/ai-ready-marketing-data
-
-### Positioning
-Supermetrics positions as a leading “Marketing Intelligence Platform” and a simple way to gather granular data from marketing sources into reporting, BI, warehouse, and AI workflows. Its API page says users can “pull live data from all your marketing platforms into your own tools, dashboards, and AI workflows — through a single, consistent API.”
-
-### Pricing / scaling metric
-Pricing is package-led with multiple gates:
-
-- Starter: from €39/mo yearly / €49 monthly; 1 core destination, 3 data sources, 1 user, 3 accounts per data source, weekly Google Sheets refresh.
-- Growth: from €159/mo yearly / €199 monthly; 1 core destination, 7 data sources, 2 users, 7 accounts per data source, daily Sheets refresh, one custom data import config.
-- Pro: from €399/mo yearly / €499 monthly; 1 core destination, 10 data sources, 3 users, 10 accounts per data source, hourly Sheets refresh, Storage Basic add-on.
-- Enterprise: custom; choose core and DWH destinations, all data sources, custom user/account limits, on-demand refreshes, warehousing/storage, Management API, multiple teams, residency controls, premium support.
-
-Important gates: destinations, selected data sources, accounts per source, users, refresh frequency, data warehousing, Management API, custom import, teams, support.
-
-### Source/connectors limits
-The connectors page lists a large catalog across SEO, paid media, social, app analytics, web analytics, ecommerce, email/SMS, sales, affiliate, retail media, reviews, and other categories. It marks some connectors as “Premium” or “Early access,” reinforcing that connector access can be gated by package/extra.
-
-### Destination support
-Core destination choices surfaced on pricing include ChatGPT/Claude/Microsoft Copilot, Looker Studio, Google Sheets, Excel, Power BI. Enterprise adds DWH destinations such as Snowflake and BigQuery. Pricing also references Data API & MCP access.
-
-### Agency templates / white-label / client reporting relevance
-Supermetrics is highly relevant to agencies already comfortable with Looker Studio/Sheets/Power BI. It supplies the data layer and some dashboards/templates, but it is not primarily a client-reporting portal or white-label agency reporting platform. Agencies still need to design templates, handle client access, manage report QA, and maintain BI assets.
-
-### API posture
-Strong. “Data API access” appears across packages, while “Management API access” is Enterprise. Supermetrics API is explicitly positioned for custom applications and AI workflows.
-
-### AI / automation posture
-Strong and current. Pricing includes AI destinations (ChatGPT, Claude, Copilot) and “Data API & MCP access.” Its AI-ready marketing-data content frames Supermetrics as the foundation for trusted AI outputs through centralization, freshness, governance, and quality checks.
-
-### Strengths
-- Category awareness and trust; claims 200,000+ companies.
-- Deep marketing connector breadth.
-- Familiar destinations for marketers and analysts.
-- Strong API/MCP/AI story.
-- Enterprise controls for governance, storage, data residency, support.
-
-### Weaknesses / exploitable gaps
-- Pricing is multi-dimensional and potentially confusing: package + destination + data sources + accounts + users + extras.
-- Starter/Growth/Pro include only one core destination by default.
-- Agencies still need to operate the reporting layer in external tools.
-- White-label/client-portal experience is not the center of the product.
-
-### DIY-workflow implications
-Supermetrics is a powerful “build your own stack” choice. It lowers connector pain but leaves agencies with dashboard architecture, branding, client permissions, insight narration, and maintenance burden.
-
-### Oviond counter-position
-“Supermetrics is great if your agency wants to build and maintain a BI stack. Oviond is for agencies that want client reporting infrastructure already packaged: client-count pricing, core features included, white label and custom domains without plan archaeology, and reporting that feels done rather than assembled.”
 
 ---
 
-## 2. Funnel.io
+---
+
+## 2. Power My Analytics
+
+Last verified: 2026-05-07
+Priority: Tier 2
+Category: Connector/report automation / low-cost marketing data hub
+Website: https://www.powermyanalytics.com/
+
+## Quick read
+
+- **What they are:** Connector/report automation and marketing data hub focused on Looker Studio/Data Studio, Sheets/Excel, warehouses, exports, and API access.
+- **Best-fit customer:** Agencies that want low-cost connector infrastructure and are happy to build reporting in Looker Studio/Sheets/Excel or external BI tools.
+- **Core promise:** A complete marketing data hub that is cheaper and easier than heavier connector/data-pipeline vendors.
+- **Main Oviond relevance:** Price-led connector threat, especially for agencies comparing the cost of DIY Looker Studio stacks.
+
+## Positioning and messaging
+
+- Claims agency savings such as 50–80% cheaper and less than $5/client in agency-oriented copy.
+- Emphasizes scaling from 1 to 1000 clients and saving hours per client/month.
+- Messaging centers on data connectors, Data Builder, data warehousing, destinations, and automated reports rather than a native client portal.
+
+## Pricing and packaging
+
+- **Sample Data:** Free forever; unlimited sample sources, Data Builder, 1 admin; no live connections, spreadsheets, exports/API, or AI Insights.
+- **Business:** from **$49.95/mo billed annually**; 5 live sources, 5 accounts total, 2 admins, 5 Google Business Profile locations, 50 AI Insights credits; extra account/admin/location fees; no spreadsheets/exports/API.
+- **Pro:** from **$199.95/mo billed annually**; unlimited sources, 10 accounts/source, unlimited admins, 100 GBP locations, 100 AI Insights credits, Google Sheets/Microsoft Excel, hourly refreshes, priority support; account/source expansion via volume pricing.
+- **Custom:** custom pricing; unlimited everything, exports to BigQuery/SQL/FTP, full API access, hourly refresh, sovereign warehouse, dedicated rep, SLAs/NDAs/contracts.
+- **Key gates:** live account counts, accounts/source, spreadsheets/Excel, exports, API access, AI Insights credits, admin/location limits, support/SLA.
+
+## Product and capability map
+
+- Data connectors: advertising, ecommerce, email, sales, SEO, social, web analytics; examples include Google Ads, GA4, Google Business Profile, Google Search Console, Meta/Facebook, Instagram, LinkedIn, TikTok, Shopify, HubSpot, Salesforce, Stripe, Mailchimp, Klaviyo, Ahrefs and Moz.
+- Destinations: Looker Studio/Data Studio, Google Sheets, Microsoft Excel, BigQuery, SQL, FTP, Snowflake, Amazon S3, API.
+- Data Builder: blend/transform data and create custom metrics without SQL/coding.
+- Warehousing: PMA-hosted warehouse / outage protection and export options.
+- API: official API page for JSON output, unlimited queries, historical export, outage protection, Power BI/Tableau/custom apps; appears Custom-gated in pricing.
+- AI: AI Insights credits in paid plans; warehouse/data foundation language for AI.
+- White label/custom domain: no native white-label portal found; branding likely happens inside Looker Studio/templates/PDFs rather than PMA-hosted client delivery.
+- MCP: no public MCP product found.
+
+## Strengths
+
+- Very agency-friendly connector pricing story.
+- Pro plan’s unlimited sources + 10 accounts/source is strong for agencies.
+- Broad practical connector/destination coverage.
+- Useful Data Builder for no-code blending/transformation.
+
+## Weaknesses / exploitable gaps
+
+- It is still a data layer; agencies must create, QA, brand, permission, schedule, and maintain reports elsewhere.
+- White-label/client portal delivery is not the center of the product.
+- API/exports sit in higher/custom packaging.
+- AI is insight-credit/supporting layer, not a full agency reporting assistant narrative.
+
+## Oviond counter-position
+
+“Power My Analytics can make a DIY reporting stack cheaper. Oviond should make the stack unnecessary for agencies that want the complete reporting loop: data, templates, client portals, white label/custom domains, scheduled delivery, narrative, archive, and simple client-count pricing.”
+
+## Sources
+
+- https://www.powermyanalytics.com/pricing/
+- https://www.powermyanalytics.com/connectors/
+- https://www.powermyanalytics.com/solutions/agencies/
+- https://www.powermyanalytics.com/integrations/api/
+- https://www.powermyanalytics.com/data-warehouses/
+- https://www.powermyanalytics.com/data-builder/
+
+---
+
+---
+
+## 3. Funnel.io
 
 Sources: pricing, connectors, templates.
 
@@ -144,7 +222,7 @@ Funnel is a serious DIY reporting-infrastructure path: strong for teams that wan
 
 ---
 
-## 3. Porter Metrics
+## 4. Porter Metrics
 
 Sources: pricing, connectors, templates.
 
@@ -200,7 +278,7 @@ Porter makes the DIY path cheaper and simpler, especially for Looker Studio agen
 
 ---
 
-## 4. Dataslayer
+## 5. Dataslayer
 
 Sources: pricing, connectors, destinations, AI.
 
@@ -264,7 +342,7 @@ Dataslayer is a modern DIY connector+AI layer. It gives agencies more data/AI ca
 
 ---
 
-## 5. Coupler.io
+## 6. Coupler.io
 
 Sources: pricing.
 
@@ -322,7 +400,7 @@ Coupler is a good “cheap-to-start, broad-to-scale” DIY option. It can become
 
 ---
 
-## 6. Windsor.ai
+## 7. Windsor.ai
 
 Sources: pricing, homepage/data-source positioning.
 
@@ -382,7 +460,7 @@ Windsor is one of the strongest substitutes because it combines breadth, transpa
 
 ---
 
-## 7. Improvado
+## 8. Improvado
 
 Sources: pricing, agencies page.
 
@@ -440,7 +518,7 @@ Improvado is the “enterprise build it properly” substitute. It helps agencie
 
 ---
 
-## 8. Adverity (obvious additional competitor)
+## 9. Adverity (obvious additional competitor)
 
 Sources: pricing, connectors, destinations, AI/intelligence pages.
 

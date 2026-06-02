@@ -16,71 +16,68 @@ Website: https://agencyanalytics.com
 
 ## Quick read
 
-- **What they are:** All-in-one client reporting platform for marketing agencies, with dashboards, automated reports, white label, client access, and many marketing integrations.
-- **Best-fit customer:** Small-to-growing agencies that want a mature, agency-specific reporting product and are comfortable paying by client/campaign tier.
+- **What they are:** Mature all-in-one client reporting platform for marketing agencies: dashboards, automated reports, client portals, white label, AI summaries, goals/alerts/tasks, and broad marketing integrations.
+- **Best-fit customer:** Small-to-growing agencies that want a proven agency reporting platform and accept plan/client-based gates.
 - **Core promise:** Flexible agency reporting that scales as the agency grows.
-- **Main Oviond relevance:** Strongest direct benchmark because their public pricing already uses clients as a major scaling unit.
+- **Main Oviond relevance:** The strongest direct benchmark because pricing is already client-count anchored, but meaningful capabilities still move by tier.
 
 ## Positioning and messaging
 
-- Homepage/pricing promise: “Flexible AgencyAnalytics Pricing for Growing Agencies.”
-- Target audience: Marketing agencies.
-- Key language/claims: Client reporting, agency dashboards, white label, 85+ integrations, scaling agencies.
-- Emotional angle: Professionalize reporting, save account-manager time, keep clients informed.
+- Pricing promise: “Flexible AgencyAnalytics Pricing for Growing Agencies.”
+- Target audience: marketing agencies.
+- Key language/claims: client reporting, agency dashboards, 85+ integrations, white-label reporting, client portal, automated reports, AI reporting.
+- Emotional angle: save account-manager time, professionalize client communication, and reduce manual reporting.
 
 ## Pricing and packaging
 
-- **Pricing model:** Plan tiers with included clients, plus per-additional-client pricing shown in page schema.
-- **Entry price:** Public schema on pricing page shows Freelancer at **$59/mo**, 5 included clients, **$20/additional client/month**. Agency is **$179/mo** with 10 included clients; Agency Pro is **$349/mo** with 15 included clients.
-- **Scaling metric:** Clients/campaigns, plus plan tier.
-- **Free trial/demo:** Start Trial CTA is public.
-- **Annual-pressure:** Public page emphasizes pricing; annual/monthly detail was not fully extractable from rendered page, but plan pricing is public.
+- **Pricing model:** Plan tiers with included clients plus per-additional-client economics.
+- **Public plan data:** Freelancer **$59/mo** with 5 clients; Agency **$179/mo** with 10 clients; Agency Pro **$349/mo** with 15 clients; **$20/additional client/month** in public schema.
+- **Trial/demo:** 14-day free trial, no credit card.
+- **Enterprise:** Custom packaging for larger teams.
+- **Add-ons / adjacent gates:** Rank Tracker and Database Connectors are add-ons / higher-tier capabilities in the public pricing surface.
 - **Key gates:**
-  - Clients/accounts: Yes — included clients by tier; additional clients charged.
-  - Data sources/connectors: 85+ integrations claimed.
-  - Dashboards/reports: Core platform feature.
-  - White label: Available on selected plans; white-label page says selected plans provide multiple white-label profiles.
-  - Custom domains: White-label dashboard page describes custom dashboard domain.
-  - Users/seats: Plan-gated in public market positioning; exact limits not fully extracted.
-  - AI: Mentioned on pricing HTML; specific plan gates need deeper verification.
-  - API/MCP: API references found in page HTML; exact public API packaging not verified from accessible extraction.
-  - Refresh rate: Not verified.
-  - Support/implementation: Likely tiered; exact gates not verified.
+  - Clients: included clients by plan, then extra-client charge.
+  - White label/custom domain/custom email: full branding and deeper white-label controls are plan-gated above the entry posture.
+  - AI: Agency adds Ask AI / AI Summary; Agency Pro adds deeper AI/insight posture such as benchmarks, forecasting/anomaly detection, and metric insights.
+  - API: public API packaging appears on Agency Pro / higher-tier path.
+  - Integrations: 85+ integrations claimed; multiple integrations per client; some limits exist around multiple accounts per client by plan.
+  - Support/onboarding: stronger support/onboarding posture moves upward, with Enterprise for priority/custom support.
 
 ## Product and capability map
 
-- Dashboards/reports: Client dashboards and scheduled reporting.
-- Templates: Agency reporting templates implied.
-- Integrations: 85+ integrations.
-- White label/client portals: White-label reports, dashboards, custom dashboard domain, logos, color schemes, email domain.
-- Data transformation/blending: Not deeply verified.
-- Automation/scheduling: Automated client reports.
-- AI/narratives/insights: Present in pricing HTML, details not extracted.
-- API/docs/MCP: API posture exists but packaging unclear from fetch.
-- Onboarding/setup: Trial-first.
+- Dashboards/reports: client dashboards, scheduled/automated reports, templates, goals/alerts/tasks.
+- Integrations: 85+ marketing integrations across ads, SEO, social, web analytics, ecommerce, call tracking, reviews, CRM and more.
+- White label/client portals: logos, colors, custom domains, branded dashboards/reports, client access portal, white-label profiles.
+- Automation/scheduling: recurring client reports and dashboard/report automation.
+- AI/narratives/insights: Ask AI, AI summaries, forecasting/anomaly/benchmark style capabilities on higher tiers.
+- API/docs: AgencyAnalytics API exists but is not entry-plan/simple-public-core.
+- MCP: no public MCP posture found.
 
 ## Strengths
 
-- Very agency-specific and mature.
-- Client-count economics are easy for agencies to understand at first glance.
-- Broad integration footprint and strong white-label story.
-- High brand recognition in agency reporting.
+- Category awareness and agency trust.
+- Client-count pricing is easy to understand at first glance.
+- Broad integration footprint.
+- Strong client portal + white-label agency story.
+- Increasingly modern AI/insight features.
 
 ## Weaknesses / exploitable gaps
 
-- Plan structure still requires understanding which tier unlocks which capabilities.
-- Additional client pricing can make marginal growth feel metered.
-- White label/custom domains and advanced capabilities appear plan-dependent.
-- For Oviond, “client-count pricing” is not enough alone; the differentiation must be **client-count pricing with fewer feature gates**.
+- The pricing model looks familiar, but the buyer still has to decode plan gates.
+- Extra-client pricing makes marginal growth feel metered.
+- AI/API/full branding/custom domain depth is not simply “included everywhere.”
+- Add-ons such as rank tracking/database connectors create expansion complexity.
 
 ## Oviond counter-position
 
-“AgencyAnalytics made agency reporting mainstream. Oviond makes it simpler to buy and scale: one clear client-count slider, core reporting and white-label capability included, and fewer plan-gate surprises as the agency grows.”
+“AgencyAnalytics made agency reporting mainstream. Oviond should make it calmer to buy and scale: choose the number of clients, get the reporting system, and avoid plan archaeology around essentials like white label, custom domains, API/MCP access, and scheduled reports.”
 
 ## Sources
 
 - https://agencyanalytics.com/pricing
-- https://agencyanalytics.com/features/white-label
 - https://agencyanalytics.com/integrations
+- https://agencyanalytics.com/features/white-label
+- https://agencyanalytics.com/features/agencyanalytics-api
+- https://agencyanalytics.com/features/ai-reporting-tools
 
 ---

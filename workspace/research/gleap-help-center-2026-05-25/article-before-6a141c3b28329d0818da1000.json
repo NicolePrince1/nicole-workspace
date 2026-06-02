@@ -1,0 +1,155 @@
+{
+  "title": {
+    "en": "Create your first client report"
+  },
+  "description": {
+    "en": "A beginner-friendly flow for creating a report."
+  },
+  "content": {
+    "en": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "To create your first useful report, work in this order."
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Open Clients and add the client you want to report on."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Connect at least one data source for that client."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Open the client and create a new project. Choose Report if you want a paged client-ready report."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Start from a template or a blank report."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Add widgets and choose the right data source for each widget."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Preview the report and check the date range."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Share the report link or schedule delivery."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Tip: build the report with one client and one data source first. Once that works, add more pages, widgets, and integrations."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "plainContent": {
+    "en": "To create your first useful report, work in this order.\n\n*   Open Clients and add the client you want to report on.\n    \n*   Connect at least one data source for that client.\n    \n*   Open the client and create a new project. Choose Report if you want a paged client-ready report.\n    \n*   Start from a template or a blank report.\n    \n*   Add widgets and choose the right data source for each widget.\n    \n*   Preview the report and check the date range.\n    \n*   Share the report link or schedule delivery.\n    \n\nTip: build the report with one client and one data source first. Once that works, add more pages, widgets, and integrations."
+  },
+  "helpcenterCollection": "6a141b8ccdbfc01912816cb7",
+  "project": "66331f89e61711deca1ba5ad",
+  "isDraft": false,
+  "docId": 4,
+  "lexorank": "0|i0000n:",
+  "sourceUsage": 0,
+  "targetAudience": "all",
+  "baseAudienceFilter": [],
+  "tags": [
+    "launch-mvp"
+  ],
+  "createdAt": "2026-05-25T09:54:03.416Z",
+  "updatedAt": "2026-05-25T09:54:03.416Z",
+  "__v": 0,
+  "_id": "6a141c3b28329d0818da1000",
+  "id": "6a141c3b28329d0818da1000"
+}

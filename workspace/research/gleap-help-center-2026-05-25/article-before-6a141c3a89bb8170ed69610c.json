@@ -1,0 +1,141 @@
+{
+  "title": {
+    "en": "Quick start checklist"
+  },
+  "description": {
+    "en": "The shortest path to your first useful Oviond report."
+  },
+  "content": {
+    "en": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Use this checklist when you are setting up Oviond for the first time."
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Create or join your agency account."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Add your first client."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Connect at least one data source for that client."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Create a report or dashboard."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Add widgets that use the connected data source."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Share the report with your client or test an automation."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "If you get stuck, start by checking whether the client has a connected data source and whether the widget date range contains data."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "plainContent": {
+    "en": "Use this checklist when you are setting up Oviond for the first time.\n\n*   Create or join your agency account.\n    \n*   Add your first client.\n    \n*   Connect at least one data source for that client.\n    \n*   Create a report or dashboard.\n    \n*   Add widgets that use the connected data source.\n    \n*   Share the report with your client or test an automation.\n    \n\nIf you get stuck, start by checking whether the client has a connected data source and whether the widget date range contains data."
+  },
+  "helpcenterCollection": "6a141b8ccdbfc01912816cb7",
+  "project": "66331f89e61711deca1ba5ad",
+  "isDraft": false,
+  "docId": 2,
+  "lexorank": "0|i00007:",
+  "sourceUsage": 0,
+  "targetAudience": "all",
+  "baseAudienceFilter": [],
+  "tags": [
+    "launch-mvp"
+  ],
+  "createdAt": "2026-05-25T09:54:02.979Z",
+  "updatedAt": "2026-05-25T09:54:02.979Z",
+  "__v": 0,
+  "_id": "6a141c3a89bb8170ed69610c",
+  "id": "6a141c3a89bb8170ed69610c"
+}

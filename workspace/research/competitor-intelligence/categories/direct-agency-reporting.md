@@ -22,8 +22,10 @@ Oviond’s cleanest wedge is not “we have reporting too.” It is: **agency re
 
 | Competitor | Primary scale metric | Public entry price | Trial/demo | Main packaging tension Oviond can exploit |
 |---|---:|---:|---|---|
-| AgencyAnalytics | Included clients + extra clients | $59/mo public from schema | Start trial | Client-count pricing is familiar, but plan gates and add-on economics create comparison complexity. |
+| AgencyAnalytics | Included clients + extra clients | $59/mo public from schema | 14-day trial, no card | Client-count pricing is familiar, but plan gates and add-on economics create comparison complexity. |
 | Whatagraph | Source credits | Free; paid from €199/mo billed annually | Start free; demo for Max | Powerful but credit-based and annual-first; public API/enterprise features gated high. |
+| Reporting Ninja | Reports + users + accounts of each type | $25/mo monthly / $20/mo annual | 15-day trial, no card | Very low-cost “all features included” wedge; scaling still counts reports/users/accounts and breadth is narrower. |
+| Reportz.io | Dashboards/KPI reporting; exact current pricing unverified | Search-result-only: around $9.98/mo/dashboard | Not verified | Lightweight/cheap, but current direct-site transparency and source verification are weaker. |
 | DashThis | Dashboards/reports + sources | $54/mo monthly / $44/mo annual for 3 dashboards | Free trial | Dashboard/source counting can become awkward when each client needs multiple reports/views. |
 | Swydo | Active data sources | $69/mo / €69/mo incl. 10 sources | 14-day trial; demo optional | “One plan/all features” is strong, but data-source billing is hard to predict for multi-channel agencies. |
 | Octoboard | Public pricing unclear in fetched source; agency feature suite | Not verified from accessible primary page | Trial | Broad feature set can feel sprawling; less obviously simple for agencies that only need client reporting. |
@@ -44,72 +46,71 @@ Website: https://agencyanalytics.com
 
 ## Quick read
 
-- **What they are:** All-in-one client reporting platform for marketing agencies, with dashboards, automated reports, white label, client access, and many marketing integrations.
-- **Best-fit customer:** Small-to-growing agencies that want a mature, agency-specific reporting product and are comfortable paying by client/campaign tier.
+- **What they are:** Mature all-in-one client reporting platform for marketing agencies: dashboards, automated reports, client portals, white label, AI summaries, goals/alerts/tasks, and broad marketing integrations.
+- **Best-fit customer:** Small-to-growing agencies that want a proven agency reporting platform and accept plan/client-based gates.
 - **Core promise:** Flexible agency reporting that scales as the agency grows.
-- **Main Oviond relevance:** Strongest direct benchmark because their public pricing already uses clients as a major scaling unit.
+- **Main Oviond relevance:** The strongest direct benchmark because pricing is already client-count anchored, but meaningful capabilities still move by tier.
 
 ## Positioning and messaging
 
-- Homepage/pricing promise: “Flexible AgencyAnalytics Pricing for Growing Agencies.”
-- Target audience: Marketing agencies.
-- Key language/claims: Client reporting, agency dashboards, white label, 85+ integrations, scaling agencies.
-- Emotional angle: Professionalize reporting, save account-manager time, keep clients informed.
+- Pricing promise: “Flexible AgencyAnalytics Pricing for Growing Agencies.”
+- Target audience: marketing agencies.
+- Key language/claims: client reporting, agency dashboards, 85+ integrations, white-label reporting, client portal, automated reports, AI reporting.
+- Emotional angle: save account-manager time, professionalize client communication, and reduce manual reporting.
 
 ## Pricing and packaging
 
-- **Pricing model:** Plan tiers with included clients, plus per-additional-client pricing shown in page schema.
-- **Entry price:** Public schema on pricing page shows Freelancer at **$59/mo**, 5 included clients, **$20/additional client/month**. Agency is **$179/mo** with 10 included clients; Agency Pro is **$349/mo** with 15 included clients.
-- **Scaling metric:** Clients/campaigns, plus plan tier.
-- **Free trial/demo:** Start Trial CTA is public.
-- **Annual-pressure:** Public page emphasizes pricing; annual/monthly detail was not fully extractable from rendered page, but plan pricing is public.
+- **Pricing model:** Plan tiers with included clients plus per-additional-client economics.
+- **Public plan data:** Freelancer **$59/mo** with 5 clients; Agency **$179/mo** with 10 clients; Agency Pro **$349/mo** with 15 clients; **$20/additional client/month** in public schema.
+- **Trial/demo:** 14-day free trial, no credit card.
+- **Enterprise:** Custom packaging for larger teams.
+- **Add-ons / adjacent gates:** Rank Tracker and Database Connectors are add-ons / higher-tier capabilities in the public pricing surface.
 - **Key gates:**
-  - Clients/accounts: Yes — included clients by tier; additional clients charged.
-  - Data sources/connectors: 85+ integrations claimed.
-  - Dashboards/reports: Core platform feature.
-  - White label: Available on selected plans; white-label page says selected plans provide multiple white-label profiles.
-  - Custom domains: White-label dashboard page describes custom dashboard domain.
-  - Users/seats: Plan-gated in public market positioning; exact limits not fully extracted.
-  - AI: Mentioned on pricing HTML; specific plan gates need deeper verification.
-  - API/MCP: API references found in page HTML; exact public API packaging not verified from accessible extraction.
-  - Refresh rate: Not verified.
-  - Support/implementation: Likely tiered; exact gates not verified.
+  - Clients: included clients by plan, then extra-client charge.
+  - White label/custom domain/custom email: full branding and deeper white-label controls are plan-gated above the entry posture.
+  - AI: Agency adds Ask AI / AI Summary; Agency Pro adds deeper AI/insight posture such as benchmarks, forecasting/anomaly detection, and metric insights.
+  - API: public API packaging appears on Agency Pro / higher-tier path.
+  - Integrations: 85+ integrations claimed; multiple integrations per client; some limits exist around multiple accounts per client by plan.
+  - Support/onboarding: stronger support/onboarding posture moves upward, with Enterprise for priority/custom support.
 
 ## Product and capability map
 
-- Dashboards/reports: Client dashboards and scheduled reporting.
-- Templates: Agency reporting templates implied.
-- Integrations: 85+ integrations.
-- White label/client portals: White-label reports, dashboards, custom dashboard domain, logos, color schemes, email domain.
-- Data transformation/blending: Not deeply verified.
-- Automation/scheduling: Automated client reports.
-- AI/narratives/insights: Present in pricing HTML, details not extracted.
-- API/docs/MCP: API posture exists but packaging unclear from fetch.
-- Onboarding/setup: Trial-first.
+- Dashboards/reports: client dashboards, scheduled/automated reports, templates, goals/alerts/tasks.
+- Integrations: 85+ marketing integrations across ads, SEO, social, web analytics, ecommerce, call tracking, reviews, CRM and more.
+- White label/client portals: logos, colors, custom domains, branded dashboards/reports, client access portal, white-label profiles.
+- Automation/scheduling: recurring client reports and dashboard/report automation.
+- AI/narratives/insights: Ask AI, AI summaries, forecasting/anomaly/benchmark style capabilities on higher tiers.
+- API/docs: AgencyAnalytics API exists but is not entry-plan/simple-public-core.
+- MCP: no public MCP posture found.
 
 ## Strengths
 
-- Very agency-specific and mature.
-- Client-count economics are easy for agencies to understand at first glance.
-- Broad integration footprint and strong white-label story.
-- High brand recognition in agency reporting.
+- Category awareness and agency trust.
+- Client-count pricing is easy to understand at first glance.
+- Broad integration footprint.
+- Strong client portal + white-label agency story.
+- Increasingly modern AI/insight features.
 
 ## Weaknesses / exploitable gaps
 
-- Plan structure still requires understanding which tier unlocks which capabilities.
-- Additional client pricing can make marginal growth feel metered.
-- White label/custom domains and advanced capabilities appear plan-dependent.
-- For Oviond, “client-count pricing” is not enough alone; the differentiation must be **client-count pricing with fewer feature gates**.
+- The pricing model looks familiar, but the buyer still has to decode plan gates.
+- Extra-client pricing makes marginal growth feel metered.
+- AI/API/full branding/custom domain depth is not simply “included everywhere.”
+- Add-ons such as rank tracking/database connectors create expansion complexity.
 
 ## Oviond counter-position
 
-“AgencyAnalytics made agency reporting mainstream. Oviond makes it simpler to buy and scale: one clear client-count slider, core reporting and white-label capability included, and fewer plan-gate surprises as the agency grows.”
+“AgencyAnalytics made agency reporting mainstream. Oviond should make it calmer to buy and scale: choose the number of clients, get the reporting system, and avoid plan archaeology around essentials like white label, custom domains, API/MCP access, and scheduled reports.”
 
 ## Sources
 
 - https://agencyanalytics.com/pricing
-- https://agencyanalytics.com/features/white-label
 - https://agencyanalytics.com/integrations
+- https://agencyanalytics.com/features/white-label
+- https://agencyanalytics.com/features/agencyanalytics-api
+- https://agencyanalytics.com/features/ai-reporting-tools
+
+---
 
 ---
 
@@ -122,72 +123,198 @@ Website: https://whatagraph.com
 
 ## Quick read
 
-- **What they are:** Marketing reporting and intelligence platform for agencies and in-house teams.
-- **Best-fit customer:** Agencies or marketing teams needing polished reporting, many connectors, AI-assisted report building, and data transformation/export features.
-- **Core promise:** Flexible plans that grow with reporting needs; AI-powered report creation, themes, summaries, and chat.
-- **Main Oviond relevance:** Strong direct threat with modern AI posture, but pricing is source-credit and plan-gated.
+- **What they are:** Marketing reporting and intelligence platform for agencies and in-house teams with AI-assisted report creation, branded reporting, data transformations, and broad connector coverage.
+- **Best-fit customer:** Agencies or marketing teams needing polished, AI-assisted reports and willing to buy around source credits.
+- **Core promise:** Flexible plans for every stage of the reporting workflow.
+- **Main Oviond relevance:** Strong direct threat with modern AI posture, but packaging is credit/plan-gated rather than client-simple.
 
 ## Positioning and messaging
 
-- Homepage/pricing promise: “Flexible plans for every stage of your workflow.”
-- Target audience: “1,000+ marketing agencies and brands.” FAQ explicitly says agencies use it for automated client reporting and white-label branding.
-- Key language/claims: Whatagraph IQ, marketing intelligence, source credits, reports, custom branding, data transfer.
-- Emotional angle: Speed, polish, smarter insights, less manual reporting.
+- Pricing promise: “Flexible plans for every stage of your workflow.”
+- Audience: “1,000+ marketing agencies and brands”; FAQ explicitly positions automated client reporting and white-label branding for agencies.
+- Key language/claims: Whatagraph IQ, marketing intelligence, source credits, custom branding, report automation, transformations, data transfer.
+- Emotional angle: speed, polish, smarter insights, less manual reporting.
 
 ## Pricing and packaging
 
 - **Pricing model:** Source-credit plans. One source credit = one connected data account.
-- **Entry price:** Free plan with 5 credits. Paid Start is **€199/mo billed annually** with 20 credits. Boost is **€399/mo billed annually** with 50 credits. Max is custom.
-- **Scaling metric:** Source credits / connected data accounts.
-- **Free trial/demo:** “Start free”; Max has “Get a demo.” FAQ says Free is freemium, not a trial.
-- **Annual-pressure:** Paid public prices are presented as billed annually.
-- **Key gates:**
-  - Clients/accounts: Indirectly gated by source credits.
-  - Data sources/connectors: Essential / Advanced / Premium integration groups by plan.
-  - Dashboards/reports: Unlimited reports and users across listed plans.
-  - White label: Custom branding listed as white-label customization; appears plan-gated above basic reporting.
-  - Custom domains: Custom report domain listed in plan comparison; appears plan-gated.
-  - Users/seats: Unlimited users public across plans.
-  - AI: Whatagraph IQ included broadly; IQ+ custom prompts/dimension creation appears higher-tier.
-  - API/MCP: Public API listed under Admin; appears Max/enterprise gated.
-  - Refresh/storage: Whatagraph Storage and transfers to BigQuery / Looker Studio are gated.
-  - Support/implementation: Live chat all plans; dedicated CSM, tailored onboarding, priority support are higher-tier.
+- **Free:** Free forever with 5 source credits.
+- **Start:** **€199/mo billed annually**, 20 source credits.
+- **Boost:** **€399/mo billed annually**, 50 source credits.
+- **Max:** Custom pricing.
+- **Extra credits:** purchasable until the next threshold.
+- **Key gates:** Essential/Advanced/Premium integration groups, custom branding/domain, Whatagraph Storage, transfers to BigQuery/Looker Studio, custom transformations, API/SSO/CSM, support/onboarding, IQ+ capabilities.
 
 ## Product and capability map
 
-- Dashboards/reports: Unlimited reports; automated emails with PDF.
-- Templates/themes: Pre-made themes; IQ themes; linked report templates.
-- Integrations: 62 listed integrations; native integrations plus custom API, Google Sheets, BigQuery.
-- White label/client portals: Custom branding and custom report domain.
-- Data transformation/blending: Pre-made transformations, custom transformations, custom aggregations, source groups/blends.
-- Automation/scheduling: Automated PDF emails; data storage/sync features.
-- AI/narratives/insights: IQ report creation, tab/widget creation, themes, summaries, chat; IQ+ for advanced AI capabilities.
-- API/docs/MCP: Public API listed, likely upper-tier.
-- Onboarding/setup: Start free; demo for Max.
+- Reports/dashboards: unlimited reports/users, automated PDF emails, linked report templates.
+- Integrations: 62 listed integrations across paid ads, social, SEO, email, analytics, ecommerce, CRM, call tracking; also Google Sheets, BigQuery and custom API.
+- White label/custom domain: custom branding and custom report domain are visible plan-gated capabilities.
+- Data prep: pre-made transformations, custom transformations, custom aggregations, source groups/blends.
+- AI: Whatagraph IQ for report/tab/widget creation, themes, summaries and chat; IQ+ adds custom prompts, custom dimensions, stakeholder chat, self-healing widgets.
+- API/MCP: Public API appears Max/enterprise-gated; no MCP found.
 
 ## Strengths
 
-- Strong modern AI story and polished interface.
-- Unlimited users/reports reduces one common agency friction point.
-- Good integration breadth and export/data-warehouse story.
-- Clear enough comparison table, but still feature-gated.
+- Strong modern AI report-building narrative.
+- Polished reporting and agency-friendly visual output.
+- Unlimited users/reports removes one common agency friction point.
+- Good integration/export/data-warehouse story.
 
 ## Weaknesses / exploitable gaps
 
-- Source-credit pricing makes cost forecasting harder for multi-channel client portfolios.
-- Annual-first paid pricing raises commitment friction for smaller agencies.
-- Core agency items like custom domain, premium integrations, API, and dedicated support appear gated.
-- AI breadth is attractive, but IQ/IQ+ distinctions add another layer to explain.
+- Source credits make cost forecasting harder for multi-channel client portfolios.
+- Paid pricing is annual-first and relatively high at entry.
+- Core agency/technical items such as custom domain, advanced/premium integrations, API and CSM are gated.
+- IQ vs IQ+ adds another buying dimension.
 
 ## Oviond counter-position
 
-“Oviond keeps the AI/reporting value without making agencies count every connected account. If an agency thinks in clients, pricing should think in clients too.”
+“Oviond keeps the AI/reporting value without asking agencies to count every connected account. If an agency thinks in clients, pricing should think in clients too.”
 
 ## Sources
 
 - https://whatagraph.com/pricing
 - https://whatagraph.com/integrations
 - https://whatagraph.com/whatagraph-iq
+
+---
+
+---
+
+# Reporting Ninja
+
+Last verified: 2026-05-07
+Priority: Tier 2
+Category: Direct agency reporting / low-cost connector-reporting hybrid
+Website: https://www.reportingninja.com/
+
+## Quick read
+
+- **What they are:** Low-cost marketing reporting platform with three bundled products: custom reports platform, Looker Studio connectors, and Google Sheets add-on.
+- **Best-fit customer:** Price-sensitive agencies and freelancers who need branded client reports, scheduling, dashboards/templates, and connector access without enterprise packaging.
+- **Core promise:** Every plan includes all features, with pricing scaled mainly by report/user/account capacity.
+- **Main Oviond relevance:** Aggressively priced direct threat at the low end; unusually sharp “all features included” messaging.
+
+## Positioning and messaging
+
+- Pricing page leads with “3 products in 1,” “15-day free trial,” and “No credit card required.”
+- Messaging directly attacks feature gating in alternatives and says every plan includes all features.
+- Emotional angle: avoid paying agency-platform prices just to unlock basics like branding, custom metrics, custom domains or multiple ad accounts.
+
+## Pricing and packaging
+
+- **Pricing model:** Plan tiers by reports, users, and accounts of each type for Looker Studio / Google Sheets; all listed features included.
+- **Starter:** **$25/mo monthly**, **$22/mo quarterly**, **$20/mo annually**; 10 custom reports, 4 users, 10 accounts of each type for Looker Studio connectors and Google Sheets add-on; unlimited Looker/Sheets reports.
+- **Small:** **$50/mo monthly**, **$45/mo quarterly**, **$40/mo annually**; 30 custom reports, 8 users, 30 accounts of each type.
+- **Medium:** **$88/mo monthly**, **$79/mo quarterly**, **$70/mo annually**; 70 custom reports, 12 users, 70 accounts of each type.
+- **Large:** **$150/mo monthly**, **$135/mo quarterly**, **$120/mo annually**; 150 custom reports, 16 users, 150 accounts of each type.
+- **Custom:** bespoke for larger needs.
+- **Trial:** 15-day free trial, no credit card.
+
+## Product and capability map
+
+- Reports/dashboards: custom report builder, dashboards, templates, scheduling/email delivery, client portal.
+- Data handling: data blending into a single table/chart; custom metrics and markup-style reporting mentioned in comparison copy.
+- Integrations: official integrations include GA4, Google Ads, Google Search Console, Google Business/Profile, Microsoft Ads, Meta Ads, Facebook Insights, Instagram Insights, LinkedIn Ads, Reddit Ads, Excel, Google Sheets.
+- Looker Studio: dedicated connectors with account allowances by plan.
+- Google Sheets: add-on with account allowances by plan.
+- White label/custom domain: official feature page confirms white-label reports, branded email reports, branded client portal on custom domain.
+- API/AI/MCP: no public API, AI, or MCP posture found.
+
+## Strengths
+
+- Very low public price points.
+- “All features included” is a clean wedge.
+- Combines hosted reporting with Looker Studio and Sheets connector workflows.
+- Strong for agencies already comfortable with Google reporting ecosystems.
+
+## Weaknesses / exploitable gaps
+
+- Lower-price posture may imply less enterprise polish, onboarding, support depth, governance, or reliability confidence.
+- Connector breadth is narrower than Oviond’s intended broad agency reporting story.
+- No visible API/MCP/AI roadmap from public sources.
+- Report/user/account allowances still create scaling counters.
+
+## Oviond counter-position
+
+“Reporting Ninja is a sharp low-cost option. Oviond should not race it to the bottom; the counter is broader agency-grade reporting, smoother onboarding, stronger product polish, reliable support, API/MCP-ready infrastructure, and simple client-count pricing.”
+
+## Sources
+
+- https://www.reportingninja.com/
+- https://www.reportingninja.com/pricing
+- https://www.reportingninja.com/custom-reports-platform
+- https://www.reportingninja.com/looker-studio
+- https://www.reportingninja.com/google-sheets
+- https://www.reportingninja.com/integrations
+
+---
+
+---
+
+# Reportz.io
+
+Last verified: 2026-05-07
+Priority: Tier 2
+Category: Lightweight KPI dashboard/reporting tool
+Website: https://reportz.io/
+
+## Quick read
+
+- **What they are:** Lightweight KPI dashboard/reporting tool historically positioned for agencies, SEO/PPC/social/ecommerce reporting, shareable dashboards, white-label-friendly delivery, and automated reporting.
+- **Best-fit customer:** Budget-conscious agencies or consultants that need simple client KPI dashboards rather than a full agency reporting operations layer.
+- **Core promise:** Simple, customizable KPI dashboards with automated reporting and shareable/password-protected client links.
+- **Main Oviond relevance:** Low-cost simplicity threat, but public source transparency was weaker during verification.
+
+## Verification caveat
+
+The direct `reportz.io` site returned a SiteGround captcha/security block during fetches in this run. Facts below rely on accessible public/AppSumo material and search-result snippets where noted. Do **not** use exact Reportz pricing in public copy until the live site is manually verified in a browser.
+
+## Pricing and packaging
+
+- **Current SaaS pricing:** Not reliably verified from the direct site.
+- **Search-result-only / uncertain:** per-dashboard pricing reportedly starts around **$9.98/mo**.
+- **Public AppSumo evidence:** Confirms lifetime-deal-style posture and a value proposition around customizable marketing KPI dashboards, unlimited users, shareable/password-protected links, automated reports, and white-label-friendly dashboards.
+- **Trial/demo:** Not reliably verified from primary site during this run.
+
+## Product and capability map
+
+- Dashboards/reports: customizable KPI dashboards, pre-made templates, real-time marketing data, automated reporting.
+- Use-case templates: SEO, PPC, social media, ecommerce dashboards mentioned in public marketplace copy.
+- Sharing: password-protected/shareable dashboard links; unlimited users confirmed in public AppSumo material.
+- Integrations: **uncertain/search-result-only** sources mention Google Analytics 4, Ahrefs, Rank Ranger, Google Search Console, LinkedIn Social, AccuRanker, WooCommerce, Mailchimp beta, Salesflare, Google Sheets, and “22+ specialized API integrations.” Verify before publishing.
+- White label/custom domain: AppSumo/public material supports white-label-friendly dashboards; custom domain/custom sender claims remain search-result-only until direct-site verification.
+- API/AI/MCP: no confirmed public API, AI, or MCP posture found.
+
+## Strengths
+
+- Simple KPI dashboard promise.
+- Likely low-cost entry.
+- Unlimited-user/shareable-link framing is agency-friendly.
+- Lightweight enough for clients who only need quick visibility.
+
+## Weaknesses / exploitable gaps
+
+- Public site access/verification friction reduces buyer confidence.
+- Less visible current product momentum than stronger competitors.
+- Limited confirmed API/AI/MCP posture.
+- Likely narrower reporting operations depth than Oviond should offer.
+
+## Oviond counter-position
+
+“Reportz.io looks like a lightweight KPI dashboard option. Oviond should win when agencies need a more complete, current, supportable, white-labeled reporting system with reliable onboarding, broader integrations, and future-ready API/MCP access.”
+
+## Sources
+
+- https://reportz.io/
+- https://reportz.io/features/
+- https://reportz.io/integrations/
+- https://reportz.io/white-label-seo-kpi-reporting-tool/
+- https://reportz.io/reportz-as-an-alternative/
+- https://appsumo.com/products/reportz/
+
+---
 
 ---
 

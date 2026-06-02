@@ -5,7 +5,10 @@ Klipfolio,BI/dashboard substitute,Tier 1,https://www.klipfolio.com,researched_20
 Looker Studio,BI/dashboard substitute,Tier 1,https://lookerstudio.google.com,researched_2026-05-07,competitors/looker-studio.md,Free DIY baseline and common substitute/switch source.
 Funnel.io,Connector/marketing data hub,Tier 1,https://funnel.io,researched_2026-05-07,competitors/funnel-io.md,See canonical profile and category research.
 Supermetrics,Connector/report automation,Tier 1,https://supermetrics.com,researched_2026-05-07,competitors/supermetrics.md,Connector-layer leader pushing data into BI/AI/MCP workflows.
+Power My Analytics,Connector/report automation,Tier 2,https://www.powermyanalytics.com,researched_2026-05-07,competitors/power-my-analytics.md,"Low-cost agency connector/data-hub threat; strong Looker Studio/Sheets value, no native client portal."
 AgencyAnalytics,Direct agency reporting,Tier 1,https://agencyanalytics.com,researched_2026-05-07,competitors/agencyanalytics.md,Core direct agency-reporting benchmark; watch API/AI/white-label gates.
+Whatagraph,Direct agency reporting,Tier 1,https://whatagraph.com,researched_2026-05-07,competitors/whatagraph.md,Direct agency reporting / marketing intelligence threat with source-credit pricing and strong Whatagraph IQ story.
+Reporting Ninja,Direct agency reporting,Tier 2,https://www.reportingninja.com,researched_2026-05-07,competitors/reporting-ninja.md,Low-cost reporting + Looker Studio/Sheets connector hybrid; all-features-included pricing wedge.
 DashThis,Direct agency reporting,Tier 1,https://dashthis.com,researched_2026-05-07,competitors/dashthis.md,Dashboard/source pricing; simplicity competitor.
 Swydo,Direct agency reporting,Tier 1,https://www.swydo.com,researched_2026-05-07,competitors/swydo.md,Closest simplicity language; data-source pricing contrast.
 Microsoft Power BI,BI/dashboard substitute,Tier 2,https://powerbi.microsoft.com,researched_2026-05-07,competitors/microsoft-power-bi.md,See canonical profile and category research.
@@ -19,12 +22,14 @@ Geckoboard,Dashboard substitute,Tier 2,https://www.geckoboard.com,researched_202
 Raven Tools,Direct / SEO agency reporting,Tier 2,https://raventools.com,researched_2026-05-07,competitors/raven-tools.md,See canonical profile and category research.
 Octoboard,Direct agency reporting,Tier 2,https://www.octoboard.com,researched_2026-05-07,competitors/octoboard.md,See canonical profile and category research.
 ReportGarden,Direct agency reporting,Tier 2,https://reportgarden.com,researched_2026-05-07,competitors/reportgarden.md,See canonical profile and category research.
+Reportz.io,Direct agency reporting,Tier 2,https://reportz.io,researched_2026-05-07,competitors/reportz-io.md,Lightweight KPI dashboard/reporting tool; pricing/details lower confidence due direct-site fetch block.
 Metrics Watch,Email/report automation,Tier 2,https://metricswatch.com,researched_2026-05-07,competitors/metrics-watch.md,See canonical profile and category research.
 Domo,Enterprise BI,Tier 2,https://www.domo.com,researched_2026-05-07,competitors/domo.md,See canonical profile and category research.
 BrightLocal,Local SEO reporting,Tier 2,https://www.brightlocal.com,researched_2026-05-07,competitors/brightlocal.md,See canonical profile and category research.
 Two Minute Reports,MCP/report automation threat,Tier 2,https://twominutereports.com,researched_2026-05-07,competitors/two-minute-reports.md,Most directly agency-relevant low-cost MCP/connector threat found.
 SE Ranking,SEO suite with agency reporting,Tier 2,https://seranking.com,researched_2026-05-07,competitors/se-ranking.md,"Strong SEO agency reporting with white label, AI summaries, API/MCP."
 Semrush,SEO/PPC suite with reporting,Tier 2,https://www.semrush.com,researched_2026-05-07,competitors/semrush.md,SEO/competitive suite with live Semrush MCP; strategic AI-agent signal.
+Optmyzr,PPC suite with reporting,Tier 2,https://www.optmyzr.com,researched_2026-05-07,competitors/optmyzr.md,PPC optimization/automation suite with white-label reporting; not broad reporting but strong PPC-agency substitute.
 Tableau Agent / Tableau Next / Salesforce analytics,AI/BI analytics threat,Watchlist,https://www.salesforce.com/analytics/,researched_2026-05-07,competitors/tableau-agent-tableau-next-salesforce-analytics.md,See canonical profile and category research.
 ThoughtSpot / Spotter,AI/BI analytics threat,Watchlist,https://www.thoughtspot.com,researched_2026-05-07,competitors/thoughtspot-spotter.md,See canonical profile and category research.
 Polymer,AI/dashboard analytics threat,Watchlist,https://www.polymersearch.com,researched_2026-05-07,competitors/polymer.md,See canonical profile and category research.

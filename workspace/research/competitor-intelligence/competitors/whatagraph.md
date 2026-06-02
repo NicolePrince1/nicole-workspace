@@ -16,66 +16,54 @@ Website: https://whatagraph.com
 
 ## Quick read
 
-- **What they are:** Marketing reporting and intelligence platform for agencies and in-house teams.
-- **Best-fit customer:** Agencies or marketing teams needing polished reporting, many connectors, AI-assisted report building, and data transformation/export features.
-- **Core promise:** Flexible plans that grow with reporting needs; AI-powered report creation, themes, summaries, and chat.
-- **Main Oviond relevance:** Strong direct threat with modern AI posture, but pricing is source-credit and plan-gated.
+- **What they are:** Marketing reporting and intelligence platform for agencies and in-house teams with AI-assisted report creation, branded reporting, data transformations, and broad connector coverage.
+- **Best-fit customer:** Agencies or marketing teams needing polished, AI-assisted reports and willing to buy around source credits.
+- **Core promise:** Flexible plans for every stage of the reporting workflow.
+- **Main Oviond relevance:** Strong direct threat with modern AI posture, but packaging is credit/plan-gated rather than client-simple.
 
 ## Positioning and messaging
 
-- Homepage/pricing promise: “Flexible plans for every stage of your workflow.”
-- Target audience: “1,000+ marketing agencies and brands.” FAQ explicitly says agencies use it for automated client reporting and white-label branding.
-- Key language/claims: Whatagraph IQ, marketing intelligence, source credits, reports, custom branding, data transfer.
-- Emotional angle: Speed, polish, smarter insights, less manual reporting.
+- Pricing promise: “Flexible plans for every stage of your workflow.”
+- Audience: “1,000+ marketing agencies and brands”; FAQ explicitly positions automated client reporting and white-label branding for agencies.
+- Key language/claims: Whatagraph IQ, marketing intelligence, source credits, custom branding, report automation, transformations, data transfer.
+- Emotional angle: speed, polish, smarter insights, less manual reporting.
 
 ## Pricing and packaging
 
 - **Pricing model:** Source-credit plans. One source credit = one connected data account.
-- **Entry price:** Free plan with 5 credits. Paid Start is **€199/mo billed annually** with 20 credits. Boost is **€399/mo billed annually** with 50 credits. Max is custom.
-- **Scaling metric:** Source credits / connected data accounts.
-- **Free trial/demo:** “Start free”; Max has “Get a demo.” FAQ says Free is freemium, not a trial.
-- **Annual-pressure:** Paid public prices are presented as billed annually.
-- **Key gates:**
-  - Clients/accounts: Indirectly gated by source credits.
-  - Data sources/connectors: Essential / Advanced / Premium integration groups by plan.
-  - Dashboards/reports: Unlimited reports and users across listed plans.
-  - White label: Custom branding listed as white-label customization; appears plan-gated above basic reporting.
-  - Custom domains: Custom report domain listed in plan comparison; appears plan-gated.
-  - Users/seats: Unlimited users public across plans.
-  - AI: Whatagraph IQ included broadly; IQ+ custom prompts/dimension creation appears higher-tier.
-  - API/MCP: Public API listed under Admin; appears Max/enterprise gated.
-  - Refresh/storage: Whatagraph Storage and transfers to BigQuery / Looker Studio are gated.
-  - Support/implementation: Live chat all plans; dedicated CSM, tailored onboarding, priority support are higher-tier.
+- **Free:** Free forever with 5 source credits.
+- **Start:** **€199/mo billed annually**, 20 source credits.
+- **Boost:** **€399/mo billed annually**, 50 source credits.
+- **Max:** Custom pricing.
+- **Extra credits:** purchasable until the next threshold.
+- **Key gates:** Essential/Advanced/Premium integration groups, custom branding/domain, Whatagraph Storage, transfers to BigQuery/Looker Studio, custom transformations, API/SSO/CSM, support/onboarding, IQ+ capabilities.
 
 ## Product and capability map
 
-- Dashboards/reports: Unlimited reports; automated emails with PDF.
-- Templates/themes: Pre-made themes; IQ themes; linked report templates.
-- Integrations: 62 listed integrations; native integrations plus custom API, Google Sheets, BigQuery.
-- White label/client portals: Custom branding and custom report domain.
-- Data transformation/blending: Pre-made transformations, custom transformations, custom aggregations, source groups/blends.
-- Automation/scheduling: Automated PDF emails; data storage/sync features.
-- AI/narratives/insights: IQ report creation, tab/widget creation, themes, summaries, chat; IQ+ for advanced AI capabilities.
-- API/docs/MCP: Public API listed, likely upper-tier.
-- Onboarding/setup: Start free; demo for Max.
+- Reports/dashboards: unlimited reports/users, automated PDF emails, linked report templates.
+- Integrations: 62 listed integrations across paid ads, social, SEO, email, analytics, ecommerce, CRM, call tracking; also Google Sheets, BigQuery and custom API.
+- White label/custom domain: custom branding and custom report domain are visible plan-gated capabilities.
+- Data prep: pre-made transformations, custom transformations, custom aggregations, source groups/blends.
+- AI: Whatagraph IQ for report/tab/widget creation, themes, summaries and chat; IQ+ adds custom prompts, custom dimensions, stakeholder chat, self-healing widgets.
+- API/MCP: Public API appears Max/enterprise-gated; no MCP found.
 
 ## Strengths
 
-- Strong modern AI story and polished interface.
-- Unlimited users/reports reduces one common agency friction point.
-- Good integration breadth and export/data-warehouse story.
-- Clear enough comparison table, but still feature-gated.
+- Strong modern AI report-building narrative.
+- Polished reporting and agency-friendly visual output.
+- Unlimited users/reports removes one common agency friction point.
+- Good integration/export/data-warehouse story.
 
 ## Weaknesses / exploitable gaps
 
-- Source-credit pricing makes cost forecasting harder for multi-channel client portfolios.
-- Annual-first paid pricing raises commitment friction for smaller agencies.
-- Core agency items like custom domain, premium integrations, API, and dedicated support appear gated.
-- AI breadth is attractive, but IQ/IQ+ distinctions add another layer to explain.
+- Source credits make cost forecasting harder for multi-channel client portfolios.
+- Paid pricing is annual-first and relatively high at entry.
+- Core agency/technical items such as custom domain, advanced/premium integrations, API and CSM are gated.
+- IQ vs IQ+ adds another buying dimension.
 
 ## Oviond counter-position
 
-“Oviond keeps the AI/reporting value without making agencies count every connected account. If an agency thinks in clients, pricing should think in clients too.”
+“Oviond keeps the AI/reporting value without asking agencies to count every connected account. If an agency thinks in clients, pricing should think in clients too.”
 
 ## Sources
 

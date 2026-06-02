@@ -14,35 +14,129 @@ Lens: these tools are not all direct agency-reporting platforms, but agencies ca
 
 ## Looker Studio
 
-- **Positioning:** Free Google reporting/dashboard builder for “easy to read, easy to share, and fully customizable dashboards and reports.” Strongest pull is that many agencies already use Google Ads, GA4, Search Console, BigQuery, and Sheets. Sources: https://docs.cloud.google.com/data-studio, https://lookerstudio.google.com/
-- **Pricing model:** Core Looker Studio/Data Studio is no-cost; Looker Studio Pro adds enterprise collaboration/admin features (Google positions Pro training as “enterprise-grade collaboration and administration”). Hidden cost is connector subscriptions, BigQuery/query costs, and build/maintenance labor. Source: https://docs.cloud.google.com/data-studio
-- **Gates / add-ons:** No traditional seat/client dashboard pricing in free product, but serious marketing use often requires paid partner connectors for non-Google platforms, BigQuery billing for data warehousing, or Pro for governance.
-- **Templates / reports:** Large public gallery ecosystem; agencies can clone templates quickly, especially Google marketing templates. Source: https://lookerstudio.google.com/gallery
-- **Agency / client sharing:** Strong share/link/embed model: Google says reports and dashboards can be shared with individuals, teams, or the world and embedded on any web page. Source: https://lookerstudio.google.com/
-- **White label / custom domain posture:** Not a true white-label client portal. You can style reports and embed them, but the product remains Google-hosted / Google-shaped; custom client domains are not the native model.
-- **Connectors / data blending:** Built-in Google connectors plus Community Connectors for “any internet accessible data source”; BigQuery connector supports tables, views, custom SQL, embedded/reusable data sources. Sources: https://developers.google.com/data-studio/connector, https://docs.cloud.google.com/data-studio/connect-to-google-bigquery
-- **AI / API posture:** Connector developer framework is strong; no agency-facing AI narrative comparable to newer BI vendors. Google ecosystem AI can sit around it, but it is not packaged as “AI client reporting.”
-- **Setup complexity:** Low for one Google-source dashboard; medium/high for multi-client agency reporting because permissions, blended data, partner connector limits, refresh quirks, and template governance become operational work.
-- **Strengths:** Free entry, familiar Google UX, huge template/community ecosystem, flexible embedding, strong Google-source coverage.
-- **Weaknesses:** Not purpose-built for recurring agency reporting; weak white-label/custom domain story; non-Google data often means third-party connector cost and fragility; client-account operations are DIY.
-- **Why an agency picks it instead of Oviond:** “It’s free, clients recognize Google, and we can make any dashboard we want.” Especially attractive to solo consultants and agencies with heavy Google Ads/GA4 reporting.
-- **Oviond counter-position:** Looker Studio is a report canvas; Oviond should own “agency reporting operations”: client setup, recurring reports, white-label delivery, custom domains/API/MCP included, and predictable client-count pricing without connector/plugin anxiety.
+Last verified: 2026-05-07
+Priority: Tier 1
+Category: BI/dashboard substitute / free report canvas
+Website: https://lookerstudio.google.com/
+
+## Quick read
+
+- **What they are:** Google’s no-cost dashboard/report canvas with strong built-in Google connectors and a broad Community Connector ecosystem.
+- **Best-fit customer:** DIY agencies, consultants, Google-heavy teams, and analysts willing to manage templates/connectors/permissions themselves.
+- **Core promise:** Easy-to-read, easy-to-share, customizable dashboards and reports.
+- **Main Oviond relevance:** The default “free” objection and common substitute/switch source.
+
+## Pricing and packaging
+
+- **Core pricing:** Official Google docs describe Looker Studio/Data Studio as a **no-cost** tool.
+- **Looker Studio Pro:** Enterprise collaboration/admin layer with team workspaces, Pro assets, Google Cloud project linkage, admin/procurement paths, and subscription-style purchase through Google/Workspace admin routes. Clean public dollar pricing was not exposed in the sources checked; treat Pro as admin/billing-gated unless verified in-console.
+- **Hidden costs:** Third-party connectors, BigQuery/query/storage costs, build/maintenance labor, permission management, template QA, and agency process overhead.
+
+## Product and capability map
+
+- Reports/dashboards: drag-and-drop reports, interactive charts, filters, sharing, embedding, gallery/templates.
+- Connectors: built-in Google connectors and Community Connectors that can connect to “any internet accessible data source.”
+- BigQuery: supported through tables, views, custom SQL, embedded/reusable data sources.
+- Sharing: share with people/teams/world and embed on websites.
+- White label/custom domain: not a true native white-label agency portal; reports can be styled/embedded, but the delivery model remains Google-shaped.
+- API/developer posture: strong connector developer framework.
+- AI: Google ecosystem AI/Gemini and Conversational Analytics can sit around Looker/Google Cloud, but Looker Studio itself is not packaged as an out-of-box agency AI reporting product.
+- MCP: no native Looker Studio MCP posture found.
+
+## Strengths
+
+- Free entry and massive familiarity.
+- Natural fit for GA4, Google Ads, Search Console, BigQuery, and Sheets.
+- Large template/gallery/community ecosystem.
+- Highly flexible for custom one-off dashboards.
+
+## Weaknesses / exploitable gaps
+
+- Not purpose-built for recurring multi-client agency reporting operations.
+- Non-Google data usually means third-party connectors and fragility.
+- Client portals, branded domains, review workflows, commentary, archive, and report QA are DIY.
+- Permissions and template governance become painful at scale.
+
+## Oviond counter-position
+
+“Looker Studio is a canvas. Oviond is the reporting operation: client setup, branded delivery, scheduled reporting, white-label/custom-domain experience, API/MCP-ready data access, and predictable client-count pricing.”
+
+## Sources
+
+- https://lookerstudio.google.com/
+- https://datastudio.google.com/overview
+- https://docs.cloud.google.com/data-studio
+- https://docs.cloud.google.com/looker/docs/studio
+- https://developers.google.com/data-studio/connector
+- https://lookerstudio.google.com/gallery
+- https://support.google.com/looker-studio/answer/11521624?hl=en
+
+---
 
 ## Databox
 
-- **Positioning:** Performance dashboards/reports for teams and agencies; current message leans into AI-powered analytics, goals, dashboards, reports, and “BI as a Service” for agencies/consultants. Sources: https://databox.com/pricing, https://developers.databox.com/
-- **Pricing model:** Plan + data-source model. Current pricing page shows Free, Pro ($159/mo billed annually, 3 data sources), Growth ($399/mo billed annually, 3 data sources), Premium ($799/mo billed annually, 50 data sources), with additional data sources priced separately ($5.60/mo in annual display). Source: https://databox.com/pricing
-- **Gates / add-ons:** Gated by data sources, sync frequency, datasets, data storage/history, onboarding/support, advanced security, white label, OKRs, email activity, dedicated reporting specialist, and custom metric/dashboard creation. Pricing page marks several features as add-ons and Premium bundles selected add-ons. Source: https://databox.com/pricing
-- **Templates / reports:** Hundreds of dashboard templates, report templates, custom account/report templates, and ability to push template changes to client dashboards/reports. Source: https://databox.com/pricing
-- **Agency / client sharing:** Dedicated agency features: create client accounts, client performance/goals overview, account templates, template push, bulk actions, email activity, and Solutions Partner pathway. Sharing includes secure links, scheduled snapshots, Slack/email scorecards, and automated reports. Source: https://databox.com/pricing
-- **White label / custom domain posture:** White label exists but is explicitly a plan/add-on/value item: “White label Databox to offer clients your own custom branded reporting solution.” Remove branding is also listed for reports. Source: https://databox.com/pricing
-- **Connectors / data blending:** 130+ cloud integrations, Zapier/Make, API, spreadsheet, database/warehouse, custom datasets, dataset merging across sources via unique identifiers. Source: https://databox.com/pricing
-- **AI / API posture:** Strong current posture: AI Analyst, AI performance summaries, MCP server, REST API for custom data, datasets, metrics ingestion, and MCP for Claude/n8n/Cursor. Sources: https://databox.com/pricing, https://developers.databox.com/
-- **Setup complexity:** Easier than general BI for standard KPIs; complexity appears when agencies scale data sources/client accounts or need data blending/datasets. Pricing complexity rises with data-source count and add-ons.
-- **Strengths:** Very close substitute for agency performance reporting; strong templates; good client-account concepts; modern AI/MCP positioning; robust data prep relative to lightweight tools.
-- **Weaknesses:** Pricing anxiety around data sources/add-ons; agency white label is not “quietly included”; broader performance-management features can feel heavier than reporting-only needs.
-- **Why an agency picks it instead of Oviond:** They want dashboards + goals + AI analyst + agency account structures, and are willing to pay for a more BI/performance-management platform.
-- **Oviond counter-position:** Databox is a strong threat, but Oviond can undercut with simpler client-count pricing, all-included agency essentials, less data-source math, and “reporting that disappears” rather than a platform the agency has to manage.
+Last verified: 2026-05-07
+Priority: Tier 1
+Category: BI/dashboard substitute / agency performance management
+Website: https://databox.com
+
+## Quick read
+
+- **What they are:** Dashboard/reporting and performance-management platform with strong agency packaging, templates, client accounts, AI analyst features, API docs, and MCP posture.
+- **Best-fit customer:** Agencies and consultants who want dashboards + goals + AI analysis and are willing to manage data-source pricing.
+- **Core promise:** Performance insights, dashboards, reports, goals, and AI analytics in one system.
+- **Main Oviond relevance:** One of the most dangerous modern substitutes because it combines agency features with AI/MCP credibility.
+
+## Positioning and messaging
+
+- Leans into dashboards, reports, goals, AI-powered analytics, and “BI as a Service” for agencies/consultants.
+- Strong template and performance-management language rather than pure monthly reporting.
+- Emotional angle: turn data into visible performance management, not just static client reports.
+
+## Pricing and packaging
+
+- **Pricing model:** Plan + data-source model.
+- **Free plan:** 3 data sources, 1 dashboard, 3 users, 10 custom metrics.
+- **Paid public pricing:** Pro **$159/mo billed annually** with 3 data sources; Growth **$399/mo billed annually** with 3 data sources; Premium **$799/mo billed annually** with 50 data sources.
+- **Extra data sources:** Public annual display shows **$5.60/mo/additional data source**.
+- **Trial:** 14-day Growth trial.
+- **Key gates/add-ons:** data-source count, sync frequency, datasets, data history/storage, onboarding/support, advanced security, white label, OKRs, email activity, dedicated reporting specialist, custom metric/dashboard creation.
+
+## Product and capability map
+
+- Dashboards/reports: dashboards, automated reports, scorecards, scheduled snapshots, Slack/email sharing, templates.
+- Agency features: client accounts, client performance/goals overview, account/report templates, template push, bulk actions, email activity, Solutions Partner pathway.
+- Integrations: 130+ cloud integrations plus Zapier/Make, API, spreadsheets, databases/warehouses.
+- Data prep: datasets, metric creation, custom data, dataset merging via identifiers.
+- White label: explicit add-on/value item; bundled into Premium posture rather than default-core.
+- AI: Genie / AI Analyst / AI summaries and performance explanation posture.
+- API/MCP: public developer docs, REST API, custom data/metrics ingestion, and MCP server documentation.
+
+## Strengths
+
+- Strong templates and client-account concepts.
+- Modern AI/MCP/API narrative.
+- Broad connector/data-source coverage.
+- Good fit for agencies selling performance management or BI-as-a-service.
+
+## Weaknesses / exploitable gaps
+
+- Data-source math creates pricing anxiety for multi-channel agencies.
+- White label and specialist help are not “quietly included.”
+- Broader performance-management surface can feel heavier than a simple agency reporting job.
+- Add-ons make the buying story less clean than the landing-page promise.
+
+## Oviond counter-position
+
+“Databox is a strong dashboard/performance platform. Oviond should feel calmer: client-count pricing, included agency essentials, white-label delivery, and reporting that disappears into the monthly operating rhythm instead of becoming another platform to manage.”
+
+## Sources
+
+- https://databox.com/pricing
+- https://developers.databox.com/
+- https://developers.databox.com/docs/introduction
+
+---
 
 ## Klipfolio
 

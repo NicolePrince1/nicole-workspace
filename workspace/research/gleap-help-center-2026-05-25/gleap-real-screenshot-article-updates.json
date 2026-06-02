@@ -1,0 +1,26 @@
+[
+  {
+    "collection": "Getting Started",
+    "article": "Quick start checklist",
+    "collectionId": "6a141b8ccdbfc01912816cb7",
+    "articleId": "6a141c3a89bb8170ed69610c",
+    "images": 1,
+    "resultTitle": "Quick start checklist"
+  },
+  {
+    "collection": "Getting Started",
+    "article": "Create your first client report",
+    "collectionId": "6a141b8ccdbfc01912816cb7",
+    "articleId": "6a141c3b28329d0818da1000",
+    "images": 1,
+    "resultTitle": "Create your first client report"
+  },
+  {
+    "collection": "Clients",
+    "article": "Add a client",
+    "collectionId": "6a141c3c5365e1840c1441f1",
+    "articleId": "6a141c3ca4aae5893cf54de3",
+    "images": 2,
+    "resultTitle": "Add a client"
+  }
+]

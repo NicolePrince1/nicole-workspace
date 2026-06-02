@@ -34,6 +34,18 @@ Use these internally for positioning, sales responses, pricing-page logic, and l
 - **Pressure point:** data-source pricing can still force account-level forecasting.
 - **Oviond line:** “Swydo is close on simplicity. Oviond’s sharper promise is client-count pricing plus a broader reporting system.”
 
+### Reporting Ninja
+
+- **They win on:** very low pricing, “all features included” language, 3-in-1 hosted reporting + Looker Studio + Google Sheets connector value.
+- **Pressure point:** narrower connector/product depth, report/user/account counters, weaker visible API/MCP/AI posture, and possible lower-polish perception.
+- **Oviond line:** “Reporting Ninja is a sharp budget tool. Oviond is the more complete agency reporting system: broader, more polished, better supported, and future-ready.”
+
+### Reportz.io
+
+- **They win on:** lightweight KPI dashboards, low-cost simplicity, shareable/password-protected client visibility.
+- **Pressure point:** current direct-site verification was blocked; pricing/product transparency and modern API/AI/MCP posture are weaker.
+- **Oviond line:** “Good for simple KPI links. Oviond is for agencies that need a reliable branded reporting operation.”
+
 ### Octoboard / ReportGarden / Raven / Metrics Watch
 
 - **They win on:** niche fit — white-label dashboards, agency reporting, SEO reporting, email-first reporting.
@@ -74,6 +86,12 @@ Use these internally for positioning, sales responses, pricing-page logic, and l
 - **Pressure point:** package + destination + data source + accounts + users + refresh + API tiers; still leaves agencies building reports elsewhere.
 - **Oviond line:** “Supermetrics moves data. Oviond turns reporting into a client-ready system.”
 
+### Power My Analytics
+
+- **They win on:** low-cost agency connector economics, Looker Studio/Sheets/Excel focus, Data Builder, broad practical sources, Pro plan value.
+- **Pressure point:** still a data layer; agencies maintain external dashboards, branding, permissions, QA, delivery, and commentary.
+- **Oviond line:** “Power My Analytics makes DIY reporting cheaper. Oviond makes DIY reporting unnecessary.”
+
 ### Funnel / Improvado / Adverity
 
 - **They win on:** marketing data hub, modeling, governance, enterprise data operations.
@@ -93,6 +111,12 @@ Use these internally for positioning, sales responses, pricing-page logic, and l
 - **They win on:** SEO/competitive intelligence, brand, data depth, API/MCP now live.
 - **Pressure point:** modular pricing/toolkits/API units; not a broad client-reporting portal for all agency channels.
 - **Oviond line:** “Use Semrush for SEO intelligence. Use Oviond to deliver the client reporting experience across every channel.”
+
+### Optmyzr
+
+- **They win on:** deep PPC optimization, automation, budget pacing, Shopping/PMax/feed workflows, white-label paid-media reporting, practical AI.
+- **Pressure point:** PPC-first and ad-spend priced; API/custom data is Enterprise/on-request; it does not solve full-client cross-channel reporting.
+- **Oviond line:** “Use Optmyzr to optimize paid media. Use Oviond to report the whole client relationship.”
 
 ### SE Ranking / BrightLocal
 

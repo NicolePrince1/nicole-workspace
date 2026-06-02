@@ -1,0 +1,136 @@
+{
+  "title": {
+    "en": "Add a client"
+  },
+  "description": {
+    "en": "Create a new client workspace."
+  },
+  "content": {
+    "en": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "A client is the top-level workspace for a customer, brand, store, branch, or profile you report on."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "To add one:"
+            }
+          ]
+        },
+        {
+          "type": "bulletList",
+          "content": [
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Open Clients."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Click Add Client."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Enter the client name."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Add optional details such as website, timezone, currency, manager, folder, and theme."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "listItem",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Save the client."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Only the client name is usually required. You can add the rest later from the client settings."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "plainContent": {
+    "en": "A client is the top-level workspace for a customer, brand, store, branch, or profile you report on.\n\nTo add one:\n\n*   Open Clients.\n    \n*   Click Add Client.\n    \n*   Enter the client name.\n    \n*   Add optional details such as website, timezone, currency, manager, folder, and theme.\n    \n*   Save the client.\n    \n\nOnly the client name is usually required. You can add the rest later from the client settings."
+  },
+  "helpcenterCollection": "6a141c3c5365e1840c1441f1",
+  "project": "66331f89e61711deca1ba5ad",
+  "isDraft": false,
+  "docId": 6,
+  "lexorank": "0|i00013:",
+  "sourceUsage": 0,
+  "targetAudience": "all",
+  "baseAudienceFilter": [],
+  "tags": [
+    "launch-mvp"
+  ],
+  "createdAt": "2026-05-25T09:54:04.332Z",
+  "updatedAt": "2026-05-25T09:54:04.332Z",
+  "__v": 0,
+  "_id": "6a141c3ca4aae5893cf54de3",
+  "id": "6a141c3ca4aae5893cf54de3"
+}
