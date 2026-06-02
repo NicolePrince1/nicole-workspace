@@ -1,6 +1,6 @@
 ---
 name: github-vercel-builder
-description: Build and ship small web projects, landing pages, microsites, demos, and lightweight tools using a Codex ACP coding session pinned to openai-codex/gpt-5.4, then publish the result to GitHub and deploy it to Vercel. Use when a user wants a new little project delivered end-to-end with a testable URL. Best for static sites, marketing pages, small Next.js apps, MVPs, and simple internal tools. Not for one-line edits inside an existing repo, non-web projects with no Vercel target, or work that should remain local only.
+description: Build and ship small web projects, landing pages, microsites, demos, and lightweight tools using an isolated OpenClaw subagent pinned to openai-codex/gpt-5.4 when available, then publish the result to GitHub and deploy it to Vercel. Use when a user wants a new little project delivered end-to-end with a testable URL. Best for static sites, marketing pages, small Next.js apps, MVPs, and simple internal tools. Not for one-line edits inside an existing repo, non-web projects with no Vercel target, or work that should remain local only.
 ---
 
 # GitHub + Vercel Builder
@@ -43,7 +43,7 @@ Avoid overbuilding. A scary hello-world page does not need a full framework.
    - required pages
    - visual direction
    - launch assumptions
-3. For substantial builds, spawn a Codex ACP session pinned to `openai-codex/gpt-5.4` with `runtime: "acp"`, `agentId: "codex"`, and `cwd` set to the project folder.
+3. For substantial builds, spawn an isolated OpenClaw subagent pinned to `openai-codex/gpt-5.4` with `runtime: "subagent"`, `agentId: "codex"`, and `cwd` set to the project folder.
 4. Build the project files.
 5. Run the smallest sensible smoke test:
    - static site: open locally or inspect files
@@ -53,23 +53,23 @@ Avoid overbuilding. A scary hello-world page does not need a full framework.
 8. Deploy to Vercel.
 9. Return the repo URL and the live deployment URL.
 
-## ACP spawn template
+## Subagent spawn template
 
 Use this shape for substantial implementation work:
 
 ```json
 {
-  "task": "Build the requested web project in the current cwd. Keep the stack minimal, finish the files, and leave the repo ready to publish and deploy.",
-  "runtime": "acp",
+  "task": "Build the requested web project in the current cwd. Keep the stack minimal, finish the files, run the smallest meaningful verification, and leave the repo ready to publish and deploy.",
+  "runtime": "subagent",
   "agentId": "codex",
   "model": "openai-codex/gpt-5.4",
   "cwd": "/data/.openclaw/workspace/projects/<slug>",
   "mode": "run",
-  "streamTo": "parent"
+  "cleanup": "keep"
 }
 ```
 
-If ACP is unavailable, build directly in the current session and keep the same folder + publish/deploy workflow.
+If a Codex subagent is unavailable, use the default `subagent` runtime without `agentId`; if spawning is unavailable, build directly in the current session and keep the same folder + publish/deploy workflow.
 
 ## Brief discipline
 
