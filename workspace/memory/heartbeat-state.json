@@ -1,7 +1,7 @@
 {
   "lastChecks": {
-    "trial_health": 1778481720,
-    "revenue_pulse": 1778481720,
+    "trial_health": 1780384015,
+    "revenue_pulse": 1780384015,
     "seo_movement": 1780382912,
     "email_health": 1780382912,
     "ad_spend": 1780381059
@@ -9,55 +9,55 @@
   "lastMetrics": {
     "trial_health": {
       "status": "attention",
-      "trialing_count": 35,
-      "previous_trialing_count": 59,
-      "delta_trialing_count": -24,
+      "trialing_count": 20,
+      "previous_trialing_count": 35,
+      "delta_trialing_count": -15,
       "near_expiry_count_next_3_days": 5,
       "near_expiry_sample": [
         {
-          "subscription_id": "sub_1TQjl9EV1Q8wnLquYjgMUCWH",
-          "customer_id": "cus_UPYsajhVzyx0aL",
-          "current_period_end": "2026-05-12T07:39:14+00:00"
+          "subscription_id": "sub_1TYNsPEV1Q8wnLqu2xCZeV2s",
+          "customer_id": "cus_UXSobLVRcldFyE",
+          "current_period_end": "2026-06-02T09:54:21+00:00"
         },
         {
-          "subscription_id": "sub_1TQmKOEV1Q8wnLqu87XLvsx4",
-          "customer_id": "cus_UPbX3Qpqe8fvLL",
-          "current_period_end": "2026-05-12T10:23:48+00:00"
+          "subscription_id": "sub_1TYTHQEV1Q8wnLquAN73h9ju",
+          "customer_id": "cus_UXYOkxrgPcbwFB",
+          "current_period_end": "2026-06-02T15:40:32+00:00"
         },
         {
-          "subscription_id": "sub_1TQrNSEV1Q8wnLquwdelNIfz",
-          "customer_id": "cus_UPgkVdDQlbEKuR",
-          "current_period_end": "2026-05-12T15:47:18+00:00"
+          "subscription_id": "sub_1TYY3pEV1Q8wnLqusc96lfW7",
+          "customer_id": "cus_UXdKxZDgQH76JK",
+          "current_period_end": "2026-06-02T20:46:49+00:00"
         },
         {
-          "subscription_id": "sub_1TQzZdEV1Q8wnLquhuxuSdju",
-          "customer_id": "cus_UPpERDNLtr1zRI",
-          "current_period_end": "2026-05-13T00:32:25+00:00"
+          "subscription_id": "sub_1TYnSbEV1Q8wnLquEdvrwiE0",
+          "customer_id": "cus_UXtFZoJo5ZyFm9",
+          "current_period_end": "2026-06-03T13:13:24+00:00"
         },
         {
-          "subscription_id": "sub_1TR8H0EV1Q8wnLqueQHy8VpN",
-          "customer_id": "cus_UPyD2yARuxrpFp",
-          "current_period_end": "2026-05-13T09:49:46+00:00"
+          "subscription_id": "sub_1TZ5tyEV1Q8wnLqusmPdMmsg",
+          "customer_id": "cus_UYCINqbG2E8tlD",
+          "current_period_end": "2026-06-04T08:54:54+00:00"
         }
       ],
-      "note": "Stripe trialing subscriptions fell to 35 versus the last heartbeat count, and 5 active trials expire within the next 3 days."
+      "note": "Stripe trialing subscriptions fell to 20 versus the last heartbeat count, and 5 active trials expire within the next 3 days."
     },
     "revenue_pulse": {
       "status": "attention",
       "window": {
-        "last_7_start": "2026-05-04T06:42:00+00:00",
-        "last_7_end": "2026-05-11T06:42:00+00:00",
-        "prior_7_start": "2026-04-27T06:42:00+00:00",
-        "prior_7_end": "2026-05-04T06:42:00+00:00"
+        "last_7_start": "2026-05-26T07:06:55+00:00",
+        "last_7_end": "2026-06-02T07:06:55+00:00",
+        "prior_7_start": "2026-05-19T07:06:55+00:00",
+        "prior_7_end": "2026-05-26T07:06:55+00:00"
       },
-      "last_7_days_paid_revenue": 4841.76,
-      "last_7_days_paid_invoices": 96,
-      "prior_7_days_paid_revenue": 8637.66,
-      "prior_7_days_paid_invoices": 123,
-      "delta_revenue": -3795.9,
-      "delta_invoices": -27,
-      "past_due_count": 43,
-      "note": "Stripe rolling 7-day paid invoice revenue is down sharply versus the prior 7-day window and delinquent subscription count remains above the >20 alert threshold at 43."
+      "last_7_days_paid_revenue": 6212.25,
+      "last_7_days_paid_invoices": 92,
+      "prior_7_days_paid_revenue": 3850.24,
+      "prior_7_days_paid_invoices": 67,
+      "delta_revenue": 2362.01,
+      "delta_invoices": 25,
+      "past_due_count": 42,
+      "note": "Stripe rolling 7-day paid invoice revenue is up versus the prior 7-day window, but delinquent subscription count remains above the >20 alert threshold at 42."
     },
     "seo_movement": {
       "status": "ok",
