@@ -1,0 +1,593 @@
+{
+  "generated_at": "2026-06-02T08:52:08Z",
+  "all_url_count": 249,
+  "llms_url_count": 249,
+  "sitemap_url_count": 248,
+  "llms_minus_sitemap": [
+    "https://docs.oviond.com/api/openapi.json"
+  ],
+  "sitemap_minus_llms": [],
+  "api_pages": 155,
+  "non_api_pages": 94,
+  "findings_total": 490,
+  "findings_by_severity": {
+    "P0": 3,
+    "P2": 249,
+    "P1": 238
+  },
+  "findings_by_type": {
+    "sample_openapi_live": 1,
+    "weak_meta_description": 232,
+    "thin_page": 162,
+    "internal_or_vendor_leak": 44,
+    "destructive_missing_warning": 41,
+    "api_page_lacks_examples": 4,
+    "markdown_fetch_failed": 1,
+    "openapi_invalid_colon_paths": 1,
+    "openapi_internal_or_vendor_leak": 1,
+    "auth_scheme_mismatch_risk": 1,
+    "openapi_operations_missing_examples": 1,
+    "introduction_too_light": 1
+  },
+  "thin_pages_under_120": 152,
+  "pages_with_leaks": 44,
+  "pages_with_placeholder_or_sample": 0,
+  "destructive_pages_missing_warning": 41,
+  "broken_internal_links": 0,
+  "questionable_external_links": 0,
+  "specs": {
+    "/api-reference/openapi.json": {
+      "status": 200,
+      "content_type": "application/octet-stream, application/json",
+      "location": "",
+      "body_start": "{\n  \"openapi\": \"3.1.0\",\n  \"info\": {\n    \"title\": \"OpenAPI Plant Store\",\n    \"description\": \"A sample API that uses a plant store as an example to demonstrate features in the OpenAPI specification\",\n    \"license\": {\n      \"name\": \"MIT\"\n    },\n    \"version\": \"1.0.0\"\n  },\n  \"servers\": [\n    {\n      \"url\": \"http://sandbox.mintlify.com\"\n    }\n  ],\n  \"security\": [\n    {\n      \"bearerAuth\": []\n    }\n  ],\n  \"paths\": {\n    \"/plants\": {\n      \"get\": {\n        \"description\": \"Returns all plants from the system that the user has access to\",\n        \"parameters\": [\n          {\n            \"name\": \"limit\",\n            \"in\": \"query\",\n            \"description\": \"The maximum number of results to return\",\n            \"schema\": {\n              \"type\": \"integer\",\n              \"format\": \"int32\"\n            }\n"
+    },
+    "/api/openapi.json": {
+      "status": 200,
+      "content_type": "application/octet-stream, application/json",
+      "location": "",
+      "body_start": "{\n  \"openapi\": \"3.1.0\",\n  \"info\": {\n    \"title\": \"Oviond Backend API\",\n    \"version\": \"1.0.0\",\n    \"description\": \"Authentication, account management, billing, and media services for Oviond.\",\n    \"x-logo\": {\n      \"url\": \"https://app.oviond.com/img/oviond-full-logo.svg\",\n      \"altText\": \"Oviond\"\n    }\n  },\n  \"servers\": [\n    {\n      \"url\": \"https://api.oviond.com\",\n      \"description\": \"Production\"\n    }\n  ],\n  \"security\": [\n    {\n      \"BearerAuth\": []\n    }\n  ],\n  \"components\": {\n    \"securitySchemes\": {\n      \"BearerAuth\": {\n        \"type\": \"http\",\n        \"scheme\": \"bearer\",\n        \"bearerFormat\": \"JWT\"\n      }\n    },\n    \"schemas\": {\n      \"TeamMember\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"id\": {\n            \"type\": \"string\",\n            \"example\": \"abc123"
+    },
+    "/openapi.json": {
+      "status": 404,
+      "content_type": "text/plain;charset=UTF-8",
+      "location": "",
+      "body_start": "Asset not found"
+    },
+    "/api-reference/openapi.json.md": {
+      "status": 404,
+      "content_type": "application/json",
+      "location": "",
+      "body_start": "null"
+    },
+    "/api/openapi.json.md": {
+      "status": 404,
+      "content_type": "application/json",
+      "location": "",
+      "body_start": "null"
+    }
+  },
+  "spec_analysis": {
+    "sample_title": "OpenAPI Plant Store",
+    "sample_paths": [
+      "/plants",
+      "/plants/{id}"
+    ],
+    "real_title": "Oviond Backend API",
+    "real_version": "1.0.0",
+    "path_count": 102,
+    "operation_count": 144,
+    "colon_paths": [
+      "/v1/users/:id",
+      "/v1/white-label/domains/:domain_id",
+      "/v1/white-label/domains/:domain_id/status",
+      "/v1/clients/:id",
+      "/v1/clients/:id/screenshot/refresh",
+      "/v1/clients/:id/folder",
+      "/v1/clients/:id/integrations",
+      "/v1/integrations/auths/:id/name",
+      "/v1/integrations/auths/:id",
+      "/v1/integrations/:client_id",
+      "/v1/integrations/:client_id/link",
+      "/v1/integrations/:client_id/unlink",
+      "/v1/integrations/:integrationID/profiles",
+      "/v1/integrations/:integrationID/profiles/:profileName/rename",
+      "/v1/integrations/:integrationID/profiles/:profileName",
+      "/v1/email/domains/:id",
+      "/v1/email/domains/:id/verify",
+      "/v1/media/:id",
+      "/v1/media/folders/:id",
+      "/v1/assets/:id/duplicate",
+      "/v1/assets/:id/widgets",
+      "/v1/assets/:id",
+      "/v1/pdf/status/:job_id",
+      "/v1/templates/:id",
+      "/v1/themes/:id",
+      "/v1/automations/:id/history",
+      "/v1/automations/:id",
+      "/v1/automations/:id/pause",
+      "/v1/automations/:id/unpause",
+      "/v1/automations/:id/test"
+    ],
+    "colon_paths_count": 30,
+    "brace_paths_count": 12,
+    "vendor_terms": [
+      "Resend",
+      "S3",
+      "SQS",
+      "Stripe",
+      "Supabase",
+      "Vercel",
+      "accounts row",
+      "bucket",
+      "client_integrations",
+      "cron scheduler",
+      "raw_data",
+      "resource_type",
+      "upstream API",
+      "users table"
+    ],
+    "missing_path_params": [],
+    "invalid_path_param_declarations": [],
+    "securitySchemes": {
+      "BearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    },
+    "bearer_jwt_declared": true,
+    "operations_missing_examples": 130,
+    "operations_missing_error_responses": 66
+  },
+  "intro_assessment": {
+    "word_count": 237,
+    "h1": "Introduction",
+    "h2s": [
+      "How Oviond works"
+    ],
+    "has_cardgroup": true,
+    "has_steps": true,
+    "has_primary_ctas": true,
+    "internal_links": [
+      {
+        "href": "/quickstart",
+        "target": "https://docs.oviond.com/quickstart"
+      },
+      {
+        "href": "/authentication",
+        "target": "https://docs.oviond.com/authentication"
+      },
+      {
+        "href": "/data-sources/list",
+        "target": "https://docs.oviond.com/data-sources/list"
+      },
+      {
+        "href": "/custom-domains/list",
+        "target": "https://docs.oviond.com/custom-domains/list"
+      },
+      {
+        "href": "/projects/list",
+        "target": "https://docs.oviond.com/projects/list"
+      },
+      {
+        "href": "/api/introduction",
+        "target": "https://docs.oviond.com/api/introduction"
+      },
+      {
+        "href": "/",
+        "target": "https://docs.oviond.com"
+      },
+      {
+        "href": "/introduction",
+        "target": "https://docs.oviond.com/introduction"
+      },
+      {
+        "href": "/guides/overview",
+        "target": "https://docs.oviond.com/guides/overview"
+      },
+      {
+        "href": "/api/introduction",
+        "target": "https://docs.oviond.com/api/introduction"
+      },
+      {
+        "href": "/mcp/overview",
+        "target": "https://docs.oviond.com/mcp/overview"
+      },
+      {
+        "href": "/changelog/2026-04",
+        "target": "https://docs.oviond.com/changelog/2026-04"
+      },
+      {
+        "href": "/",
+        "target": "https://docs.oviond.com"
+      },
+      {
+        "href": "/introduction",
+        "target": "https://docs.oviond.com/introduction"
+      },
+      {
+        "href": "/quickstart",
+        "target": "https://docs.oviond.com/quickstart"
+      },
+      {
+        "href": "/onboarding/overview",
+        "target": "https://docs.oviond.com/onboarding/overview"
+      },
+      {
+        "href": "/authentication",
+        "target": "https://docs.oviond.com/authentication"
+      },
+      {
+        "href": "/clients/add",
+        "target": "https://docs.oviond.com/clients/add"
+      },
+      {
+        "href": "/clients/list",
+        "target": "https://docs.oviond.com/clients/list"
+      },
+      {
+        "href": "/clients/folders",
+        "target": "https://docs.oviond.com/clients/folders"
+      },
+      {
+        "href": "/clients/bulk-delete",
+        "target": "https://docs.oviond.com/clients/bulk-delete"
+      },
+      {
+        "href": "/clients/archive",
+        "target": "https://docs.oviond.com/clients/archive"
+      },
+      {
+        "href": "/projects/add",
+        "target": "https://docs.oviond.com/projects/add"
+      },
+      {
+        "href": "/projects/list",
+        "target": "https://docs.oviond.com/projects/list"
+      },
+      {
+        "href": "/projects/update",
+        "target": "https://docs.oviond.com/projects/update"
+      },
+      {
+        "href": "/projects/duplicate",
+        "target": "https://docs.oviond.com/projects/duplicate"
+      },
+      {
+        "href": "/projects/bulk-delete",
+        "target": "https://docs.oviond.com/projects/bulk-delete"
+      },
+      {
+        "href": "/projects/archive",
+        "target": "https://docs.oviond.com/projects/archive"
+      },
+      {
+        "href": "/projects/share",
+        "target": "https://docs.oviond.com/projects/share"
+      },
+      {
+        "href": "/projects/pages",
+        "target": "https://docs.oviond.com/projects/pages"
+      },
+      {
+        "href": "/projects/widgets",
+        "target": "https://docs.oviond.com/projects/widgets"
+      },
+      {
+        "href": "/agency/add",
+        "target": "https://docs.oviond.com/agency/add"
+      },
+      {
+        "href": "/agency/list",
+        "target": "https://docs.oviond.com/agency/list"
+      },
+      {
+        "href": "/agency/update",
+        "target": "https://docs.oviond.com/agency/update"
+      },
+      {
+        "href": "/agency/duplicate",
+        "target": "https://docs.oviond.com/agency/duplicate"
+      },
+      {
+        "href": "/agency/bulk-delete",
+        "target": "https://docs.oviond.com/agency/bulk-delete"
+      },
+      {
+        "href": "/agency/archive",
+        "target": "https://docs.oviond.com/agency/archive"
+      },
+      {
+        "href": "/agency/share",
+        "target": "https://docs.oviond.com/agency/share"
+      },
+      {
+        "href": "/agency/pages",
+        "target": "https://docs.oviond.com/agency/pages"
+      },
+      {
+        "href": "/agency/widgets",
+        "target": "https://docs.oviond.com/agency/widgets"
+      },
+      {
+        "href": "/templates/add",
+        "target": "https://docs.oviond.com/templates/add"
+      },
+      {
+        "href": "/templates/list",
+        "target": "https://docs.oviond.com/templates/list"
+      },
+      {
+        "href": "/templates/apply",
+        "target": "https://docs.oviond.com/templates/apply"
+      },
+      {
+        "href": "/templates/delete",
+        "target": "https://docs.oviond.com/templates/delete"
+      },
+      {
+        "href": "/themes/add",
+        "target": "https://docs.oviond.com/themes/add"
+      },
+      {
+        "href": "/themes/list",
+        "target": "https://docs.oviond.com/themes/list"
+      },
+      {
+        "href": "/themes/apply",
+        "target": "https://docs.oviond.com/themes/apply"
+      },
+      {
+        "href": "/themes/update",
+        "target": "https://docs.oviond.com/themes/update"
+      },
+      {
+        "href": "/themes/delete",
+        "target": "https://docs.oviond.com/themes/delete"
+      },
+      {
+        "href": "/automations/add",
+        "target": "https://docs.oviond.com/automations/add"
+      },
+      {
+        "href": "/automations/list",
+        "target": "https://docs.oviond.com/automations/list"
+      },
+      {
+        "href": "/automations/scheduled",
+        "target": "https://docs.oviond.com/automations/scheduled"
+      },
+      {
+        "href": "/automations/email",
+        "target": "https://docs.oviond.com/automations/email"
+      },
+      {
+        "href": "/automations/pdf",
+        "target": "https://docs.oviond.com/automations/pdf"
+      },
+      {
+        "href": "/automations/test",
+        "target": "https://docs.oviond.com/automations/test"
+      },
+      {
+        "href": "/automations/history",
+        "target": "https://docs.oviond.com/automations/history"
+      },
+      {
+        "href": "/automations/delete",
+        "target": "https://docs.oviond.com/automations/delete"
+      },
+      {
+        "href": "/account/overview",
+        "target": "https://docs.oviond.com/account/overview"
+      },
+      {
+        "href": "/account/usage",
+        "target": "https://docs.oviond.com/account/usage"
+      },
+      {
+        "href": "/account/delete",
+        "target": "https://docs.oviond.com/account/delete"
+      },
+      {
+        "href": "/users/invite",
+        "target": "https://docs.oviond.com/users/invite"
+      },
+      {
+        "href": "/users/list",
+        "target": "https://docs.oviond.com/users/list"
+      },
+      {
+        "href": "/users/update",
+        "target": "https://docs.oviond.com/users/update"
+      },
+      {
+        "href": "/users/remove",
+        "target": "https://docs.oviond.com/users/remove"
+      },
+      {
+        "href": "/users/profile",
+        "target": "https://docs.oviond.com/users/profile"
+      },
+      {
+        "href": "/company/overview",
+        "target": "https://docs.oviond.com/company/overview"
+      },
+      {
+        "href": "/company/branding",
+        "target": "https://docs.oviond.com/company/branding"
+      },
+      {
+        "href": "/billing/plans",
+        "target": "https://docs.oviond.com/billing/plans"
+      },
+      {
+        "href": "/billing/subscription",
+        "target": "https://docs.oviond.com/billing/subscription"
+      },
+      {
+        "href": "/billing/invoices",
+        "target": "https://docs.oviond.com/billing/invoices"
+      },
+      {
+        "href": "/api-keys/add",
+        "target": "https://docs.oviond.com/api-keys/add"
+      },
+      {
+        "href": "/api-keys/list",
+        "target": "https://docs.oviond.com/api-keys/list"
+      },
+      {
+        "href": "/api-keys/revoke",
+        "target": "https://docs.oviond.com/api-keys/revoke"
+      },
+      {
+        "href": "/api-keys/delete",
+        "target": "https://docs.oviond.com/api-keys/delete"
+      },
+      {
+        "href": "/activity-log/overview",
+        "target": "https://docs.oviond.com/activity-log/overview"
+      },
+      {
+        "href": "/custom-domains/add",
+        "target": "https://docs.oviond.com/custom-domains/add"
+      },
+      {
+        "href": "/custom-domains/list",
+        "target": "https://docs.oviond.com/custom-domains/list"
+      },
+      {
+        "href": "/custom-domains/verify",
+        "target": "https://docs.oviond.com/custom-domains/verify"
+      },
+      {
+        "href": "/custom-domains/delete",
+        "target": "https://docs.oviond.com/custom-domains/delete"
+      },
+      {
+        "href": "/email-settings/defaults",
+        "target": "https://docs.oviond.com/email-settings/defaults"
+      },
+      {
+        "href": "/email-settings/senders",
+        "target": "https://docs.oviond.com/email-settings/senders"
+      },
+      {
+        "href": "/email-settings/smtp",
+        "target": "https://docs.oviond.com/email-settings/smtp"
+      },
+      {
+        "href": "/email-settings/domains",
+        "target": "https://docs.oviond.com/email-settings/domains"
+      },
+      {
+        "href": "/email-settings/logs",
+        "target": "https://docs.oviond.com/email-settings/logs"
+      },
+      {
+        "href": "/data-sources/connect",
+        "target": "https://docs.oviond.com/data-sources/connect"
+      },
+      {
+        "href": "/data-sources/list",
+        "target": "https://docs.oviond.com/data-sources/list"
+      },
+      {
+        "href": "/data-sources/profiles",
+        "target": "https://docs.oviond.com/data-sources/profiles"
+      },
+      {
+        "href": "/data-sources/test",
+        "target": "https://docs.oviond.com/data-sources/test"
+      },
+      {
+        "href": "/data-sources/link",
+        "target": "https://docs.oviond.com/data-sources/link"
+      },
+      {
+        "href": "/data-sources/delete",
+        "target": "https://docs.oviond.com/data-sources/delete"
+      },
+      {
+        "href": "/data-sources/metrics",
+        "target": "https://docs.oviond.com/data-sources/metrics"
+      },
+      {
+        "href": "/custom-data/upload",
+        "target": "https://docs.oviond.com/custom-data/upload"
+      },
+      {
+        "href": "/custom-data/list",
+        "target": "https://docs.oviond.com/custom-data/list"
+      },
+      {
+        "href": "/custom-data/update",
+        "target": "https://docs.oviond.com/custom-data/update"
+      },
+      {
+        "href": "/custom-data/duplicate",
+        "target": "https://docs.oviond.com/custom-data/duplicate"
+      },
+      {
+        "href": "/custom-data/delete",
+        "target": "https://docs.oviond.com/custom-data/delete"
+      },
+      {
+        "href": "/media/upload",
+        "target": "https://docs.oviond.com/media/upload"
+      },
+      {
+        "href": "/media/list",
+        "target": "https://docs.oviond.com/media/list"
+      },
+      {
+        "href": "/media/folders",
+        "target": "https://docs.oviond.com/media/folders"
+      },
+      {
+        "href": "/media/update",
+        "target": "https://docs.oviond.com/media/update"
+      },
+      {
+        "href": "/media/bulk-delete",
+        "target": "https://docs.oviond.com/media/bulk-delete"
+      },
+      {
+        "href": "/media/delete",
+        "target": "https://docs.oviond.com/media/delete"
+      },
+      {
+        "href": "/archive/view",
+        "target": "https://docs.oviond.com/archive/view"
+      },
+      {
+        "href": "/archive/restore",
+        "target": "https://docs.oviond.com/archive/restore"
+      },
+      {
+        "href": "/archive/delete",
+        "target": "https://docs.oviond.com/archive/delete"
+      },
+      {
+        "href": "/notifications/view",
+        "target": "https://docs.oviond.com/notifications/view"
+      },
+      {
+        "href": "/notifications/preferences",
+        "target": "https://docs.oviond.com/notifications/preferences"
+      },
+      {
+        "href": "https://docs.oviond.com/llms.txt",
+        "target": "https://docs.oviond.com/llms.txt"
+      },
+      {
+        "href": "/quickstart",
+        "target": "https://docs.oviond.com/quickstart"
+      }
+    ],
+    "mentions": [],
+    "placeholders": []
+  }
+}

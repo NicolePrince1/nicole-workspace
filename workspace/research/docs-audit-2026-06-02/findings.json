@@ -1,0 +1,2942 @@
+[
+  {
+    "severity": "P0",
+    "type": "sample_openapi_live",
+    "url": "https://docs.oviond.com/api-reference/openapi.json",
+    "detail": "Still serves Mintlify OpenAPI Plant Store sample spec"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/account/delete",
+    "detail": "63 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/account/usage",
+    "detail": "57 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/activity-log/overview",
+    "detail": "102 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/activity-log/overview",
+    "detail": "resource_id, resource_type, user_id"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/activity-log/overview",
+    "detail": "52 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/agency/add",
+    "detail": "51 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/agency/archive",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/agency/archive",
+    "detail": "75 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/agency/bulk-delete",
+    "detail": "126 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/agency/bulk-delete",
+    "detail": "39 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/agency/duplicate",
+    "detail": "72 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/agency/list",
+    "detail": "133 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/agency/list",
+    "detail": "41 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/agency/pages",
+    "detail": "59 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/agency/share",
+    "detail": "53 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/agency/update",
+    "detail": "137 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/agency/update",
+    "detail": "50 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "api_page_lacks_examples",
+    "url": "https://docs.oviond.com/api-keys/add",
+    "detail": "API page is short and has no fenced example"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api-keys/add",
+    "detail": "54 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "api_page_lacks_examples",
+    "url": "https://docs.oviond.com/api-keys/delete",
+    "detail": "API page is short and has no fenced example"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api-keys/delete",
+    "detail": "44 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api-keys/list",
+    "detail": "45 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api-keys/revoke",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P1",
+    "type": "api_page_lacks_examples",
+    "url": "https://docs.oviond.com/api-keys/revoke",
+    "detail": "API page is short and has no fenced example"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api-keys/revoke",
+    "detail": "65 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/account/delete-account",
+    "detail": "66 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/account/delete-account",
+    "detail": "S3, Stripe, Supabase, users table"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/account/delete-account",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/account/get-account",
+    "detail": "30 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/account/get-account",
+    "detail": "accounts row"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/account/get-account",
+    "detail": "44 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/account/get-account-usage",
+    "detail": "30 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/account/get-account-usage",
+    "detail": "43 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/activity/list-activity",
+    "detail": "29 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/activity/list-activity",
+    "detail": "resource_type"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/activity/list-activity",
+    "detail": "42 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/archive/delete-permanently",
+    "detail": "26 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/archive/delete-permanently",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/archive/delete-permanently",
+    "detail": "33 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/archive/get-archive-counts",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/archive/get-archive-counts",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/archive/get-archive-counts",
+    "detail": "29 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/archive/list-archive",
+    "detail": "26 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/archive/list-archive",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/archive/list-archive",
+    "detail": "31 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/archive/restore-items",
+    "detail": "26 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/archive/restore-items",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/archive/restore-items",
+    "detail": "26 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/assets/create-asset",
+    "detail": "26 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/assets/create-asset",
+    "detail": "18 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/assets/delete-asset",
+    "detail": "25 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/assets/delete-asset",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/assets/delete-asset",
+    "detail": "15 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/assets/duplicate-asset",
+    "detail": "29 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/assets/duplicate-asset",
+    "detail": "34 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/assets/get-asset",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/assets/get-asset",
+    "detail": "24 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/assets/list-asset-tags",
+    "detail": "33 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/assets/list-asset-tags",
+    "detail": "58 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/assets/list-asset-widgets",
+    "detail": "31 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/assets/list-asset-widgets",
+    "detail": "40 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/assets/list-assets",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/assets/list-assets",
+    "detail": "35 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/assets/update-asset",
+    "detail": "25 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/assets/update-asset",
+    "detail": "15 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/automations/bulk-delete-automations",
+    "detail": "34 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/automations/bulk-delete-automations",
+    "detail": "cron scheduler"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/automations/bulk-delete-automations",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/automations/bulk-delete-automations",
+    "detail": "72 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/automations/create-automation",
+    "detail": "29 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/automations/create-automation",
+    "detail": "37 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/automations/delete-automation",
+    "detail": "33 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/automations/delete-automation",
+    "detail": "cron scheduler"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/automations/delete-automation",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/automations/delete-automation",
+    "detail": "63 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/automations/get-automation-history",
+    "detail": "29 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/automations/get-automation-history",
+    "detail": "39 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/automations/list-automations",
+    "detail": "31 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/automations/list-automations",
+    "detail": "60 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/automations/pause-automation",
+    "detail": "33 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/automations/pause-automation",
+    "detail": "65 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/automations/test-automation",
+    "detail": "29 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/automations/test-automation",
+    "detail": "41 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/automations/unpause-automation",
+    "detail": "31 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/automations/unpause-automation",
+    "detail": "54 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/automations/update-automation",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/automations/update-automation",
+    "detail": "52 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/billing/list-invoices",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/billing/list-invoices",
+    "detail": "Stripe"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/billing/list-invoices",
+    "detail": "35 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/billing/list-plans",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/billing/list-plans",
+    "detail": "Stripe"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/billing/list-plans",
+    "detail": "45 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/branding/get-branding",
+    "detail": "25 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/branding/get-branding",
+    "detail": "21 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/branding/update-branding",
+    "detail": "25 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/branding/update-branding",
+    "detail": "24 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/calculated-metrics/create-calculated-metric",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/calculated-metrics/create-calculated-metric",
+    "detail": "30 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/calculated-metrics/delete-calculated-metric",
+    "detail": "27 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/calculated-metrics/delete-calculated-metric",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/calculated-metrics/delete-calculated-metric",
+    "detail": "26 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/calculated-metrics/duplicate-calculated-metric",
+    "detail": "27 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/calculated-metrics/duplicate-calculated-metric",
+    "detail": "29 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/calculated-metrics/list-calculated-metrics",
+    "detail": "31 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/calculated-metrics/list-calculated-metrics",
+    "detail": "51 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/calculated-metrics/update-calculated-metric",
+    "detail": "27 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/calculated-metrics/update-calculated-metric",
+    "detail": "26 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/clients/bulk-delete-clients",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/clients/bulk-delete-clients",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/clients/bulk-delete-clients",
+    "detail": "29 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/clients/count-clients",
+    "detail": "29 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/clients/count-clients",
+    "detail": "43 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/clients/create-client",
+    "detail": "26 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/clients/create-client",
+    "detail": "19 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/clients/delete-client",
+    "detail": "32 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/clients/delete-client",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/clients/delete-client",
+    "detail": "59 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/clients/get-client",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/clients/get-client",
+    "detail": "25 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/clients/list-all-clients",
+    "detail": "30 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/clients/list-all-clients",
+    "detail": "client_integrations"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/clients/list-all-clients",
+    "detail": "46 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/clients/list-client-integrations",
+    "detail": "29 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/clients/list-client-integrations",
+    "detail": "39 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/clients/list-clients",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/clients/list-clients",
+    "detail": "36 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/clients/move-client-folder",
+    "detail": "31 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/clients/move-client-folder",
+    "detail": "36 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/clients/refresh-screenshot",
+    "detail": "47 words"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/clients/update-client",
+    "detail": "25 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/clients/update-client",
+    "detail": "15 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/company/get-company",
+    "detail": "29 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/company/get-company",
+    "detail": "44 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/company/update-company",
+    "detail": "25 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/company/update-company",
+    "detail": "23 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/custom-data/create-custom-data",
+    "detail": "30 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/custom-data/create-custom-data",
+    "detail": "raw_data"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/custom-data/create-custom-data",
+    "detail": "45 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/custom-data/delete-custom-data",
+    "detail": "27 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/custom-data/delete-custom-data",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/custom-data/delete-custom-data",
+    "detail": "23 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/custom-data/duplicate-custom-data",
+    "detail": "27 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/custom-data/duplicate-custom-data",
+    "detail": "26 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/custom-data/get-custom-data",
+    "detail": "33 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/custom-data/get-custom-data",
+    "detail": "raw_data"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/custom-data/get-custom-data",
+    "detail": "53 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/custom-data/list-custom-data",
+    "detail": "33 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/custom-data/list-custom-data",
+    "detail": "raw_data"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/custom-data/list-custom-data",
+    "detail": "58 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/custom-data/update-custom-data",
+    "detail": "27 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/custom-data/update-custom-data",
+    "detail": "raw_data"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/custom-data/update-custom-data",
+    "detail": "23 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/data/fetch-resource-data",
+    "detail": "35 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/data/fetch-resource-data",
+    "detail": "upstream API"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/data/fetch-resource-data",
+    "detail": "71 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/data/list-integration-accounts",
+    "detail": "32 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/data/list-integration-accounts",
+    "detail": "upstream API"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/data/list-integration-accounts",
+    "detail": "55 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/data/query-data",
+    "detail": "31 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/data/query-data",
+    "detail": "upstream API"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/data/query-data",
+    "detail": "49 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/data/test-connection",
+    "detail": "31 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/data/test-connection",
+    "detail": "upstream API"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/data/test-connection",
+    "detail": "54 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/email/add-email-domain",
+    "detail": "31 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/email/add-email-domain",
+    "detail": "Resend, Vercel"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/email/add-email-domain",
+    "detail": "45 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/email/add-email-sender",
+    "detail": "31 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/email/add-email-sender",
+    "detail": "45 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/email/delete-email-domain",
+    "detail": "33 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/email/delete-email-domain",
+    "detail": "Resend"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/email/delete-email-domain",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/email/delete-email-domain",
+    "detail": "58 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/email/delete-smtp-config",
+    "detail": "29 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/email/delete-smtp-config",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/email/delete-smtp-config",
+    "detail": "42 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/email/get-email-setup",
+    "detail": "31 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/email/get-email-setup",
+    "detail": "Resend"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/email/get-email-setup",
+    "detail": "53 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/email/list-email-logs",
+    "detail": "26 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/email/list-email-logs",
+    "detail": "14 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/email/queue-emails",
+    "detail": "42 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/email/queue-emails",
+    "detail": "Resend, SQS"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/email/send-email",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/email/send-email",
+    "detail": "Resend"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/email/send-email",
+    "detail": "37 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/email/test-smtp",
+    "detail": "31 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/email/test-smtp",
+    "detail": "54 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/email/update-email-setup",
+    "detail": "27 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/email/update-email-setup",
+    "detail": "32 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/email/update-smtp-config",
+    "detail": "29 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/email/update-smtp-config",
+    "detail": "40 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/email/verify-email-domain",
+    "detail": "30 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/email/verify-email-domain",
+    "detail": "Resend, Vercel"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/email/verify-email-domain",
+    "detail": "49 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/folders/create-folder",
+    "detail": "27 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/folders/create-folder",
+    "detail": "26 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/folders/delete-folder",
+    "detail": "32 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/folders/delete-folder",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/folders/delete-folder",
+    "detail": "55 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/folders/list-folders",
+    "detail": "30 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/folders/list-folders",
+    "detail": "47 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/folders/update-folder",
+    "detail": "26 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/folders/update-folder",
+    "detail": "22 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/health/health-check",
+    "detail": "22 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/health/health-check",
+    "detail": "Supabase"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/health/health-check",
+    "detail": "0 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/integrations/delete-integration",
+    "detail": "27 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/integrations/delete-integration",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/integrations/delete-integration",
+    "detail": "32 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/integrations/delete-profile",
+    "detail": "26 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/integrations/delete-profile",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/integrations/delete-profile",
+    "detail": "25 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/integrations/link-datasource",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/integrations/link-datasource",
+    "detail": "29 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/integrations/list-all-profiles",
+    "detail": "30 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/integrations/list-all-profiles",
+    "detail": "44 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/integrations/list-integration-profiles",
+    "detail": "30 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/integrations/list-integration-profiles",
+    "detail": "45 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/integrations/list-integrations",
+    "detail": "31 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/integrations/list-integrations",
+    "detail": "58 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/integrations/rename-integration",
+    "detail": "27 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/integrations/rename-integration",
+    "detail": "32 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/integrations/rename-profile",
+    "detail": "26 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/integrations/rename-profile",
+    "detail": "25 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/integrations/test-auth-connection",
+    "detail": "31 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/integrations/test-auth-connection",
+    "detail": "46 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/integrations/unlink-datasource",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/integrations/unlink-datasource",
+    "detail": "33 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/integrations/update-client-integrations",
+    "detail": "33 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/integrations/update-client-integrations",
+    "detail": "client_integrations"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/integrations/update-client-integrations",
+    "detail": "64 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/media/bulk-delete-media",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/media/bulk-delete-media",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/media/bulk-delete-media",
+    "detail": "33 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/media/create-media-folder",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/media/create-media-folder",
+    "detail": "26 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/media/delete-media",
+    "detail": "37 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/media/delete-media",
+    "detail": "S3"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/media/delete-media",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/media/delete-media-folder",
+    "detail": "35 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/media/delete-media-folder",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/media/delete-media-folder",
+    "detail": "65 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/media/group-media",
+    "detail": "29 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/media/group-media",
+    "detail": "37 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/media/list-media",
+    "detail": "30 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/media/list-media",
+    "detail": "53 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/media/list-media-folders",
+    "detail": "30 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/media/list-media-folders",
+    "detail": "43 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/media/rename-media-folder",
+    "detail": "27 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/media/rename-media-folder",
+    "detail": "22 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/media/update-media",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/media/update-media",
+    "detail": "36 chars"
+  },
+  {
+    "severity": "P0",
+    "type": "markdown_fetch_failed",
+    "url": "https://docs.oviond.com/api/openapi.json",
+    "detail": "markdown endpoint returned 404"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/openapi.json",
+    "detail": "0 words"
+  },
+  {
+    "severity": "P1",
+    "type": "api_page_lacks_examples",
+    "url": "https://docs.oviond.com/api/openapi.json",
+    "detail": "API page is short and has no fenced example"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/pages/create-page",
+    "detail": "30 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/pages/create-page",
+    "detail": "39 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/pages/delete-page",
+    "detail": "25 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/pages/delete-page",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/pages/delete-page",
+    "detail": "14 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/pages/list-pages",
+    "detail": "29 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/pages/list-pages",
+    "detail": "37 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/pages/update-page",
+    "detail": "25 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/pages/update-page",
+    "detail": "14 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/pdf/generate-pdf",
+    "detail": "30 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/pdf/generate-pdf",
+    "detail": "S3"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/pdf/generate-pdf",
+    "detail": "42 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/pdf/get-pdf-status",
+    "detail": "31 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/pdf/get-pdf-status",
+    "detail": "S3, bucket"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/pdf/get-pdf-status",
+    "detail": "40 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/projects/bulk-delete-projects",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/projects/bulk-delete-projects",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/projects/bulk-delete-projects",
+    "detail": "31 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/projects/create-project",
+    "detail": "26 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/projects/create-project",
+    "detail": "21 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/projects/delete-pdf-notification",
+    "detail": "31 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/projects/delete-pdf-notification",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/projects/delete-pdf-notification",
+    "detail": "47 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/projects/delete-project",
+    "detail": "29 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/projects/delete-project",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/projects/delete-project",
+    "detail": "37 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/projects/duplicate-project",
+    "detail": "32 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/projects/duplicate-project",
+    "detail": "64 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/projects/get-project",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/projects/get-project",
+    "detail": "27 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/projects/list-all-projects",
+    "detail": "32 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/projects/list-all-projects",
+    "detail": "58 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/projects/list-projects",
+    "detail": "32 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/projects/list-projects",
+    "detail": "70 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/projects/update-project",
+    "detail": "25 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/projects/update-project",
+    "detail": "17 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/saved-metrics/create-saved-metric",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/saved-metrics/create-saved-metric",
+    "detail": "26 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/saved-metrics/delete-saved-metric",
+    "detail": "27 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/saved-metrics/delete-saved-metric",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/saved-metrics/delete-saved-metric",
+    "detail": "22 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/saved-metrics/duplicate-saved-metric",
+    "detail": "27 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/saved-metrics/duplicate-saved-metric",
+    "detail": "21 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/saved-metrics/list-saved-metrics",
+    "detail": "31 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/saved-metrics/list-saved-metrics",
+    "detail": "47 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/saved-metrics/update-saved-metric",
+    "detail": "27 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/saved-metrics/update-saved-metric",
+    "detail": "22 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/search/search",
+    "detail": "31 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/search/search",
+    "detail": "65 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/templates/create-template",
+    "detail": "34 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/templates/create-template",
+    "detail": "75 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/templates/delete-template",
+    "detail": "25 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/templates/delete-template",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/templates/delete-template",
+    "detail": "18 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/templates/get-template",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/templates/get-template",
+    "detail": "28 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/templates/list-templates",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/templates/list-templates",
+    "detail": "39 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/templates/update-template",
+    "detail": "25 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/templates/update-template",
+    "detail": "18 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/themes/create-theme",
+    "detail": "26 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/themes/create-theme",
+    "detail": "19 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/themes/delete-theme",
+    "detail": "25 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/themes/delete-theme",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/themes/delete-theme",
+    "detail": "15 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/themes/get-theme",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/themes/get-theme",
+    "detail": "25 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/themes/list-themes",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/themes/list-themes",
+    "detail": "36 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/themes/update-theme",
+    "detail": "25 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/themes/update-theme",
+    "detail": "15 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/users/change-email",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/users/change-email",
+    "detail": "38 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/users/delete-user",
+    "detail": "29 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/users/delete-user",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/users/delete-user",
+    "detail": "38 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/users/get-user",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/users/get-user",
+    "detail": "45 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/users/invite-user",
+    "detail": "29 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/users/invite-user",
+    "detail": "33 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/users/list-users",
+    "detail": "30 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/users/list-users",
+    "detail": "52 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/users/update-avatar",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/users/update-avatar",
+    "detail": "40 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/users/update-profile",
+    "detail": "31 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/users/update-profile",
+    "detail": "58 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/users/update-user",
+    "detail": "30 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/users/update-user",
+    "detail": "50 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/white-label/add-domain",
+    "detail": "36 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/white-label/add-domain",
+    "detail": "Vercel"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/white-label/check-domain-status",
+    "detail": "29 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/white-label/check-domain-status",
+    "detail": "Vercel"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/white-label/check-domain-status",
+    "detail": "44 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/white-label/delete-domain",
+    "detail": "26 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/white-label/delete-domain",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/white-label/delete-domain",
+    "detail": "23 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/white-label/list-domains",
+    "detail": "29 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/white-label/list-domains",
+    "detail": "Vercel"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/white-label/list-domains",
+    "detail": "44 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/widgets/bulk-delete-widgets",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/widgets/bulk-delete-widgets",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/widgets/bulk-delete-widgets",
+    "detail": "30 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/widgets/create-widgets",
+    "detail": "27 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/widgets/create-widgets",
+    "detail": "32 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/widgets/delete-widget",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/api/widgets/delete-widget",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/widgets/delete-widget",
+    "detail": "29 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/widgets/get-widget",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/widgets/get-widget",
+    "detail": "26 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/widgets/list-widget-ids",
+    "detail": "29 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/widgets/list-widget-ids",
+    "detail": "28 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/widgets/list-widgets",
+    "detail": "27 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/widgets/list-widgets",
+    "detail": "26 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/api/widgets/update-widget",
+    "detail": "28 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/api/widgets/update-widget",
+    "detail": "40 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/archive/delete",
+    "detail": "48 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/archive/restore",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/archive/restore",
+    "detail": "56 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/archive/view",
+    "detail": "99 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/archive/view",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/archive/view",
+    "detail": "58 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/automations/add",
+    "detail": "60 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/automations/delete",
+    "detail": "126 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/automations/delete",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/automations/delete",
+    "detail": "40 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/automations/email",
+    "detail": "57 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/automations/history",
+    "detail": "51 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/automations/list",
+    "detail": "46 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/automations/pdf",
+    "detail": "70 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/automations/scheduled",
+    "detail": "51 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/automations/test",
+    "detail": "53 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/billing/invoices",
+    "detail": "57 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/billing/plans",
+    "detail": "Stripe"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/billing/plans",
+    "detail": "67 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/billing/subscription",
+    "detail": "Stripe"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/billing/subscription",
+    "detail": "71 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/changelog/2026-04",
+    "detail": "S3, Vercel"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/changelog/2026-04",
+    "detail": "38 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/clients/add",
+    "detail": "43 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/clients/archive",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/clients/archive",
+    "detail": "68 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/clients/bulk-delete",
+    "detail": "52 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/clients/folders",
+    "detail": "bucket"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/clients/folders",
+    "detail": "65 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/clients/list",
+    "detail": "47 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/company/overview",
+    "detail": "102 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/company/overview",
+    "detail": "53 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/custom-data/delete",
+    "detail": "129 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/custom-data/delete",
+    "detail": "43 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/custom-data/duplicate",
+    "detail": "138 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/custom-data/duplicate",
+    "detail": "32 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/custom-data/list",
+    "detail": "43 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/custom-data/update",
+    "detail": "42 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/custom-domains/add",
+    "detail": "72 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/custom-domains/delete",
+    "detail": "120 words"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/custom-domains/delete",
+    "detail": "Vercel"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/custom-domains/delete",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/custom-domains/delete",
+    "detail": "41 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/custom-domains/list",
+    "detail": "54 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/custom-domains/verify",
+    "detail": "Vercel"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/custom-domains/verify",
+    "detail": "61 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/data-sources/delete",
+    "detail": "45 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/data-sources/link",
+    "detail": "62 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/data-sources/list",
+    "detail": "58 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/data-sources/metrics",
+    "detail": "58 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/data-sources/test",
+    "detail": "50 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/email-settings/defaults",
+    "detail": "72 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/email-settings/domains",
+    "detail": "55 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/email-settings/logs",
+    "detail": "72 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/email-settings/senders",
+    "detail": "50 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/email-settings/smtp",
+    "detail": "Resend"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/email-settings/smtp",
+    "detail": "49 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/guides/connect-ga4",
+    "detail": "68 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/guides/first-report",
+    "detail": "74 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/guides/monthly-report",
+    "detail": "55 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/guides/overview",
+    "detail": "61 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/mcp/auth",
+    "detail": "77 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/mcp/connect",
+    "detail": "66 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/mcp/tools",
+    "detail": "56 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/media/bulk-delete",
+    "detail": "S3"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/media/bulk-delete",
+    "detail": "41 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/media/delete",
+    "detail": "S3"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/media/delete",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/media/delete",
+    "detail": "72 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/media/folders",
+    "detail": "39 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/media/list",
+    "detail": "40 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/media/update",
+    "detail": "S3"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/media/update",
+    "detail": "40 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/media/upload",
+    "detail": "S3"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/media/upload",
+    "detail": "54 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/notifications/preferences",
+    "detail": "50 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/notifications/view",
+    "detail": "95 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/notifications/view",
+    "detail": "57 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/onboarding/overview",
+    "detail": "account.onboarding, accounts row, bucket"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/onboarding/overview",
+    "detail": "56 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/projects/add",
+    "detail": "61 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/projects/archive",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/projects/archive",
+    "detail": "68 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/projects/bulk-delete",
+    "detail": "131 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/projects/bulk-delete",
+    "detail": "33 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/projects/duplicate",
+    "detail": "65 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/projects/list",
+    "detail": "59 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/projects/pages",
+    "detail": "66 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/projects/share",
+    "detail": "46 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/projects/update",
+    "detail": "49 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/projects/widgets",
+    "detail": "68 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/templates/add",
+    "detail": "44 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/templates/apply",
+    "detail": "55 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/templates/delete",
+    "detail": "112 words"
+  },
+  {
+    "severity": "P1",
+    "type": "destructive_missing_warning",
+    "url": "https://docs.oviond.com/templates/delete",
+    "detail": "Destructive/risky page has no Mintlify Warning component"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/templates/delete",
+    "detail": "36 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/templates/list",
+    "detail": "62 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/themes/add",
+    "detail": "66 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/themes/apply",
+    "detail": "57 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/themes/delete",
+    "detail": "110 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/themes/delete",
+    "detail": "33 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/themes/list",
+    "detail": "126 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/themes/list",
+    "detail": "61 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/themes/update",
+    "detail": "136 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/themes/update",
+    "detail": "58 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/users/invite",
+    "detail": "45 chars"
+  },
+  {
+    "severity": "P1",
+    "type": "internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/users/list",
+    "detail": "Resend"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/users/list",
+    "detail": "53 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/users/profile",
+    "detail": "53 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/users/remove",
+    "detail": "53 chars"
+  },
+  {
+    "severity": "P2",
+    "type": "thin_page",
+    "url": "https://docs.oviond.com/users/update",
+    "detail": "136 words"
+  },
+  {
+    "severity": "P2",
+    "type": "weak_meta_description",
+    "url": "https://docs.oviond.com/users/update",
+    "detail": "55 chars"
+  },
+  {
+    "severity": "P0",
+    "type": "openapi_invalid_colon_paths",
+    "url": "https://docs.oviond.com/api/openapi.json",
+    "detail": "30 colon-style paths still present"
+  },
+  {
+    "severity": "P1",
+    "type": "openapi_internal_or_vendor_leak",
+    "url": "https://docs.oviond.com/api/openapi.json",
+    "detail": "Resend, S3, SQS, Stripe, Supabase, Vercel, accounts row, bucket, client_integrations, cron scheduler, raw_data, resource_type, upstream API, users table"
+  },
+  {
+    "severity": "P1",
+    "type": "auth_scheme_mismatch_risk",
+    "url": "https://docs.oviond.com/api/openapi.json",
+    "detail": "BearerAuth still declares bearerFormat JWT; docs also use API key language"
+  },
+  {
+    "severity": "P1",
+    "type": "openapi_operations_missing_examples",
+    "url": "https://docs.oviond.com/api/openapi.json",
+    "detail": "130/144 operations appear to lack examples"
+  },
+  {
+    "severity": "P1",
+    "type": "introduction_too_light",
+    "url": "https://docs.oviond.com/introduction",
+    "detail": "237 words; needs stronger product/use-case framing"
+  }
+]

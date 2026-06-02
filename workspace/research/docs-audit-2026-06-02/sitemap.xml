@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+    
+  <url>
+    <loc>https://docs.oviond.com/account/delete</loc>
+    <lastmod>2026-04-20T16:42:07.707Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/account/overview</loc>
+    <lastmod>2026-04-20T16:42:07.706Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/account/usage</loc>
+    <lastmod>2026-04-20T16:42:07.700Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/activity-log/overview</loc>
+    <lastmod>2026-04-20T16:42:07.704Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/agency/add</loc>
+    <lastmod>2026-04-20T17:10:41.202Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/agency/archive</loc>
+    <lastmod>2026-04-20T17:10:41.186Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/agency/bulk-delete</loc>
+    <lastmod>2026-04-20T17:10:41.192Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/agency/duplicate</loc>
+    <lastmod>2026-04-20T17:10:41.189Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/agency/list</loc>
+    <lastmod>2026-04-20T17:10:41.203Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/agency/pages</loc>
+    <lastmod>2026-04-20T17:10:41.476Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/agency/share</loc>
+    <lastmod>2026-04-20T17:10:41.481Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/agency/update</loc>
+    <lastmod>2026-04-20T17:10:41.480Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/agency/widgets</loc>
+    <lastmod>2026-04-20T17:10:41.478Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api-keys/add</loc>
+    <lastmod>2026-04-20T16:42:07.698Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api-keys/delete</loc>
+    <lastmod>2026-04-20T16:42:07.704Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api-keys/list</loc>
+    <lastmod>2026-04-20T16:42:07.702Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api-keys/revoke</loc>
+    <lastmod>2026-04-20T16:42:08.123Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/account/delete-account</loc>
+    <lastmod>2026-04-20T16:41:58.758Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/account/get-account</loc>
+    <lastmod>2026-04-20T16:41:58.744Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/account/get-account-usage</loc>
+    <lastmod>2026-04-20T16:41:58.771Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/activity/list-activity</loc>
+    <lastmod>2026-04-20T16:42:00.679Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/archive/delete-permanently</loc>
+    <lastmod>2026-04-20T16:42:00.659Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/archive/get-archive-counts</loc>
+    <lastmod>2026-04-20T16:42:00.627Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/archive/list-archive</loc>
+    <lastmod>2026-04-20T16:42:00.614Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/archive/restore-items</loc>
+    <lastmod>2026-04-20T16:42:00.643Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/assets/create-asset</loc>
+    <lastmod>2026-04-20T16:42:00.228Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/assets/delete-asset</loc>
+    <lastmod>2026-04-20T16:42:00.297Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/assets/duplicate-asset</loc>
+    <lastmod>2026-04-20T16:42:00.242Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/assets/get-asset</loc>
+    <lastmod>2026-04-20T16:42:00.269Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/assets/list-asset-tags</loc>
+    <lastmod>2026-04-20T16:42:00.200Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/assets/list-asset-widgets</loc>
+    <lastmod>2026-04-20T16:42:00.256Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/assets/list-assets</loc>
+    <lastmod>2026-04-20T16:42:00.214Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/assets/update-asset</loc>
+    <lastmod>2026-04-20T16:42:00.283Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/automations/bulk-delete-automations</loc>
+    <lastmod>2026-04-20T16:42:00.550Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/automations/create-automation</loc>
+    <lastmod>2026-04-20T16:42:00.492Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/automations/delete-automation</loc>
+    <lastmod>2026-04-20T16:42:00.536Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/automations/get-automation-history</loc>
+    <lastmod>2026-04-20T16:42:00.506Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/automations/list-automations</loc>
+    <lastmod>2026-04-20T16:42:00.478Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/automations/pause-automation</loc>
+    <lastmod>2026-04-20T16:42:00.571Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/automations/test-automation</loc>
+    <lastmod>2026-04-20T16:42:00.600Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/automations/unpause-automation</loc>
+    <lastmod>2026-04-20T16:42:00.586Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/automations/update-automation</loc>
+    <lastmod>2026-04-20T16:42:00.522Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/billing/list-invoices</loc>
+    <lastmod>2026-04-20T16:41:59.718Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/billing/list-plans</loc>
+    <lastmod>2026-04-20T16:41:59.703Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/branding/get-branding</loc>
+    <lastmod>2026-04-20T16:41:58.871Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/branding/update-branding</loc>
+    <lastmod>2026-04-20T16:41:58.885Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/calculated-metrics/create-calculated-metric</loc>
+    <lastmod>2026-04-20T16:41:59.480Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/calculated-metrics/delete-calculated-metric</loc>
+    <lastmod>2026-04-20T16:41:59.508Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/calculated-metrics/duplicate-calculated-metric</loc>
+    <lastmod>2026-04-20T16:41:59.522Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/calculated-metrics/list-calculated-metrics</loc>
+    <lastmod>2026-04-20T16:41:59.467Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/calculated-metrics/update-calculated-metric</loc>
+    <lastmod>2026-04-20T16:41:59.494Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/clients/bulk-delete-clients</loc>
+    <lastmod>2026-04-20T16:41:58.956Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/clients/count-clients</loc>
+    <lastmod>2026-04-20T16:41:58.928Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/clients/create-client</loc>
+    <lastmod>2026-04-20T16:41:58.914Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/clients/delete-client</loc>
+    <lastmod>2026-04-20T16:41:58.997Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/clients/get-client</loc>
+    <lastmod>2026-04-20T16:41:58.969Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/clients/list-all-clients</loc>
+    <lastmod>2026-04-20T16:41:58.942Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/clients/list-client-integrations</loc>
+    <lastmod>2026-04-20T16:41:59.049Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/clients/list-clients</loc>
+    <lastmod>2026-04-20T16:41:58.899Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/clients/move-client-folder</loc>
+    <lastmod>2026-04-20T16:41:59.035Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/clients/refresh-screenshot</loc>
+    <lastmod>2026-04-20T16:41:59.011Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/clients/update-client</loc>
+    <lastmod>2026-04-20T16:41:58.983Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/company/get-company</loc>
+    <lastmod>2026-04-20T16:41:58.786Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/company/update-company</loc>
+    <lastmod>2026-04-20T16:41:58.800Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/custom-data/create-custom-data</loc>
+    <lastmod>2026-04-20T16:41:59.625Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/custom-data/delete-custom-data</loc>
+    <lastmod>2026-04-20T16:41:59.667Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/custom-data/duplicate-custom-data</loc>
+    <lastmod>2026-04-20T16:41:59.689Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/custom-data/get-custom-data</loc>
+    <lastmod>2026-04-20T16:41:59.639Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/custom-data/list-custom-data</loc>
+    <lastmod>2026-04-20T16:41:59.610Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/custom-data/update-custom-data</loc>
+    <lastmod>2026-04-20T16:41:59.653Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/data/fetch-resource-data</loc>
+    <lastmod>2026-04-20T16:41:59.452Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/data/list-integration-accounts</loc>
+    <lastmod>2026-04-20T16:41:59.439Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/data/query-data</loc>
+    <lastmod>2026-04-20T16:41:59.412Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/data/test-connection</loc>
+    <lastmod>2026-04-20T16:41:59.425Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/email/add-email-domain</loc>
+    <lastmod>2026-04-20T16:41:59.982Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/email/add-email-sender</loc>
+    <lastmod>2026-04-20T16:41:59.915Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/email/delete-email-domain</loc>
+    <lastmod>2026-04-20T16:41:59.995Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/email/delete-smtp-config</loc>
+    <lastmod>2026-04-20T16:41:59.941Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/email/get-email-setup</loc>
+    <lastmod>2026-04-20T16:41:59.887Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/email/list-email-logs</loc>
+    <lastmod>2026-04-20T16:42:00.049Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/email/queue-emails</loc>
+    <lastmod>2026-04-20T16:42:00.035Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/email/send-email</loc>
+    <lastmod>2026-04-20T16:41:59.969Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/email/test-smtp</loc>
+    <lastmod>2026-04-20T16:41:59.955Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/email/update-email-setup</loc>
+    <lastmod>2026-04-20T16:41:59.901Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/email/update-smtp-config</loc>
+    <lastmod>2026-04-20T16:41:59.928Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/email/verify-email-domain</loc>
+    <lastmod>2026-04-20T16:42:00.011Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/folders/create-folder</loc>
+    <lastmod>2026-04-20T16:41:59.077Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/folders/delete-folder</loc>
+    <lastmod>2026-04-20T16:41:59.105Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/folders/list-folders</loc>
+    <lastmod>2026-04-20T16:41:59.063Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/folders/update-folder</loc>
+    <lastmod>2026-04-20T16:41:59.091Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/health/health-check</loc>
+    <lastmod>2026-04-20T17:10:33.433Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/integrations/delete-integration</loc>
+    <lastmod>2026-04-20T16:41:59.762Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/integrations/delete-profile</loc>
+    <lastmod>2026-04-20T16:41:59.873Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/integrations/link-datasource</loc>
+    <lastmod>2026-04-20T16:41:59.789Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/integrations/list-all-profiles</loc>
+    <lastmod>2026-04-20T16:41:59.832Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/integrations/list-integration-profiles</loc>
+    <lastmod>2026-04-20T16:41:59.846Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/integrations/list-integrations</loc>
+    <lastmod>2026-04-20T16:41:59.733Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/integrations/rename-integration</loc>
+    <lastmod>2026-04-20T16:41:59.748Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/integrations/rename-profile</loc>
+    <lastmod>2026-04-20T16:41:59.860Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/integrations/test-auth-connection</loc>
+    <lastmod>2026-04-20T16:41:59.817Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/integrations/unlink-datasource</loc>
+    <lastmod>2026-04-20T16:41:59.803Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/integrations/update-client-integrations</loc>
+    <lastmod>2026-04-20T16:41:59.776Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/introduction</loc>
+    <lastmod>2026-04-20T16:42:08.126Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/media/bulk-delete-media</loc>
+    <lastmod>2026-04-20T16:42:00.128Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/media/create-media-folder</loc>
+    <lastmod>2026-04-20T16:42:00.156Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/media/delete-media</loc>
+    <lastmod>2026-04-20T16:42:00.114Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/media/delete-media-folder</loc>
+    <lastmod>2026-04-20T16:42:00.187Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/media/group-media</loc>
+    <lastmod>2026-04-20T16:42:00.082Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/media/list-media</loc>
+    <lastmod>2026-04-20T16:42:00.065Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/media/list-media-folders</loc>
+    <lastmod>2026-04-20T16:42:00.142Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/media/rename-media-folder</loc>
+    <lastmod>2026-04-20T16:42:00.172Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/media/update-media</loc>
+    <lastmod>2026-04-20T16:42:00.097Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/pages/create-page</loc>
+    <lastmod>2026-04-20T16:41:59.260Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/pages/delete-page</loc>
+    <lastmod>2026-04-20T16:41:59.288Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/pages/list-pages</loc>
+    <lastmod>2026-04-20T16:41:59.245Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/pages/update-page</loc>
+    <lastmod>2026-04-20T16:41:59.274Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/pdf/generate-pdf</loc>
+    <lastmod>2026-04-20T16:42:00.311Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/pdf/get-pdf-status</loc>
+    <lastmod>2026-04-20T16:42:00.325Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/projects/bulk-delete-projects</loc>
+    <lastmod>2026-04-20T16:41:59.161Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/projects/create-project</loc>
+    <lastmod>2026-04-20T16:41:59.132Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/projects/delete-pdf-notification</loc>
+    <lastmod>2026-04-20T16:41:59.230Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/projects/delete-project</loc>
+    <lastmod>2026-04-20T16:41:59.202Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/projects/duplicate-project</loc>
+    <lastmod>2026-04-20T16:41:59.216Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/projects/get-project</loc>
+    <lastmod>2026-04-20T16:41:59.175Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/projects/list-all-projects</loc>
+    <lastmod>2026-04-20T16:41:59.147Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/projects/list-projects</loc>
+    <lastmod>2026-04-20T16:41:59.118Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/projects/update-project</loc>
+    <lastmod>2026-04-20T16:41:59.188Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/saved-metrics/create-saved-metric</loc>
+    <lastmod>2026-04-20T16:41:59.550Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/saved-metrics/delete-saved-metric</loc>
+    <lastmod>2026-04-20T16:41:59.582Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/saved-metrics/duplicate-saved-metric</loc>
+    <lastmod>2026-04-20T16:41:59.596Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/saved-metrics/list-saved-metrics</loc>
+    <lastmod>2026-04-20T16:41:59.536Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/saved-metrics/update-saved-metric</loc>
+    <lastmod>2026-04-20T16:41:59.564Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/search/search</loc>
+    <lastmod>2026-04-20T16:41:59.302Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/templates/create-template</loc>
+    <lastmod>2026-04-20T16:42:00.353Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/templates/delete-template</loc>
+    <lastmod>2026-04-20T16:42:00.394Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/templates/get-template</loc>
+    <lastmod>2026-04-20T16:42:00.367Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/templates/list-templates</loc>
+    <lastmod>2026-04-20T16:42:00.339Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/templates/update-template</loc>
+    <lastmod>2026-04-20T16:42:00.380Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/themes/create-theme</loc>
+    <lastmod>2026-04-20T16:42:00.422Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/themes/delete-theme</loc>
+    <lastmod>2026-04-20T16:42:00.464Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/themes/get-theme</loc>
+    <lastmod>2026-04-20T16:42:00.436Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/themes/list-themes</loc>
+    <lastmod>2026-04-20T16:42:00.407Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/themes/update-theme</loc>
+    <lastmod>2026-04-20T16:42:00.450Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/users/change-email</loc>
+    <lastmod>2026-04-20T16:41:58.667Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/users/delete-user</loc>
+    <lastmod>2026-04-20T16:41:58.730Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/users/get-user</loc>
+    <lastmod>2026-04-20T16:41:58.624Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/users/invite-user</loc>
+    <lastmod>2026-04-20T16:41:58.701Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/users/list-users</loc>
+    <lastmod>2026-04-20T16:41:58.687Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/users/update-avatar</loc>
+    <lastmod>2026-04-20T16:41:58.653Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/users/update-profile</loc>
+    <lastmod>2026-04-20T16:41:58.638Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/users/update-user</loc>
+    <lastmod>2026-04-20T16:41:58.716Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/white-label/add-domain</loc>
+    <lastmod>2026-04-20T16:41:58.828Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/white-label/check-domain-status</loc>
+    <lastmod>2026-04-20T16:41:58.857Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/white-label/delete-domain</loc>
+    <lastmod>2026-04-20T16:41:58.841Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/white-label/list-domains</loc>
+    <lastmod>2026-04-20T16:41:58.814Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/widgets/bulk-delete-widgets</loc>
+    <lastmod>2026-04-20T16:41:59.398Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/widgets/create-widgets</loc>
+    <lastmod>2026-04-20T16:41:59.344Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/widgets/delete-widget</loc>
+    <lastmod>2026-04-20T16:41:59.385Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/widgets/get-widget</loc>
+    <lastmod>2026-04-20T16:41:59.357Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/widgets/list-widget-ids</loc>
+    <lastmod>2026-04-20T16:41:59.316Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/widgets/list-widgets</loc>
+    <lastmod>2026-04-20T16:41:59.330Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/api/widgets/update-widget</loc>
+    <lastmod>2026-04-20T16:41:59.371Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/archive/delete</loc>
+    <lastmod>2026-04-20T16:42:08.122Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/archive/restore</loc>
+    <lastmod>2026-04-20T16:42:08.125Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/archive/view</loc>
+    <lastmod>2026-04-20T16:42:08.124Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/authentication</loc>
+    <lastmod>2026-04-20T16:42:08.121Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/automations/add</loc>
+    <lastmod>2026-04-20T16:42:08.119Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/automations/delete</loc>
+    <lastmod>2026-04-20T16:42:08.124Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/automations/email</loc>
+    <lastmod>2026-04-20T16:42:08.122Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/automations/history</loc>
+    <lastmod>2026-04-20T16:42:08.120Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/automations/list</loc>
+    <lastmod>2026-04-20T16:42:08.596Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/automations/pdf</loc>
+    <lastmod>2026-04-20T16:42:08.595Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/automations/scheduled</loc>
+    <lastmod>2026-04-20T16:42:08.589Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/automations/test</loc>
+    <lastmod>2026-04-20T16:42:08.588Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/billing/invoices</loc>
+    <lastmod>2026-04-20T16:42:08.590Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/billing/plans</loc>
+    <lastmod>2026-04-20T16:42:08.593Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/billing/subscription</loc>
+    <lastmod>2026-04-20T16:42:08.585Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/changelog/2026-04</loc>
+    <lastmod>2026-04-20T16:42:08.584Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/clients/add</loc>
+    <lastmod>2026-04-20T16:42:08.586Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/clients/archive</loc>
+    <lastmod>2026-04-20T16:42:08.587Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/clients/bulk-delete</loc>
+    <lastmod>2026-04-20T16:42:09.381Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/clients/folders</loc>
+    <lastmod>2026-04-20T16:42:09.379Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/clients/list</loc>
+    <lastmod>2026-04-20T16:42:09.372Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/company/branding</loc>
+    <lastmod>2026-04-20T16:42:09.374Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/company/overview</loc>
+    <lastmod>2026-04-20T16:42:09.378Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/custom-data/delete</loc>
+    <lastmod>2026-04-20T16:42:09.373Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/custom-data/duplicate</loc>
+    <lastmod>2026-04-20T16:42:09.367Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/custom-data/list</loc>
+    <lastmod>2026-04-20T16:42:09.369Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/custom-data/update</loc>
+    <lastmod>2026-04-20T16:42:09.371Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/custom-data/upload</loc>
+    <lastmod>2026-04-20T16:42:09.368Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/custom-domains/add</loc>
+    <lastmod>2026-04-20T16:42:09.801Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/custom-domains/delete</loc>
+    <lastmod>2026-04-20T16:42:09.799Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/custom-domains/list</loc>
+    <lastmod>2026-04-20T16:42:09.790Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/custom-domains/verify</loc>
+    <lastmod>2026-04-20T16:42:09.789Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/data-sources/connect</loc>
+    <lastmod>2026-04-20T16:42:09.798Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/data-sources/delete</loc>
+    <lastmod>2026-04-20T16:42:09.788Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/data-sources/link</loc>
+    <lastmod>2026-04-20T16:42:09.785Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/data-sources/list</loc>
+    <lastmod>2026-04-20T16:42:09.786Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/data-sources/metrics</loc>
+    <lastmod>2026-04-20T16:42:09.787Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/data-sources/profiles</loc>
+    <lastmod>2026-04-20T16:42:09.786Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/data-sources/test</loc>
+    <lastmod>2026-04-20T16:42:10.238Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/email-settings/defaults</loc>
+    <lastmod>2026-04-20T16:42:10.237Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/email-settings/domains</loc>
+    <lastmod>2026-04-20T16:42:10.235Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/email-settings/logs</loc>
+    <lastmod>2026-04-20T16:42:10.228Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/email-settings/senders</loc>
+    <lastmod>2026-04-20T16:42:10.229Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/email-settings/smtp</loc>
+    <lastmod>2026-04-20T16:42:10.229Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/guides/connect-ga4</loc>
+    <lastmod>2026-04-20T16:42:10.226Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/guides/first-report</loc>
+    <lastmod>2026-04-20T17:10:41.954Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/guides/monthly-report</loc>
+    <lastmod>2026-04-20T16:42:10.236Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/guides/overview</loc>
+    <lastmod>2026-04-20T16:42:10.227Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/introduction</loc>
+    <lastmod>2026-04-20T16:42:10.590Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/mcp/auth</loc>
+    <lastmod>2026-04-20T16:42:10.589Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/mcp/connect</loc>
+    <lastmod>2026-04-20T16:42:10.588Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/mcp/overview</loc>
+    <lastmod>2026-04-20T16:42:10.588Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/mcp/tools</loc>
+    <lastmod>2026-04-20T16:42:10.586Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/media/bulk-delete</loc>
+    <lastmod>2026-04-20T17:10:42.213Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/media/delete</loc>
+    <lastmod>2026-04-20T17:10:42.212Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/media/folders</loc>
+    <lastmod>2026-04-20T17:10:42.210Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/media/list</loc>
+    <lastmod>2026-04-20T17:10:42.214Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/media/update</loc>
+    <lastmod>2026-04-20T17:10:42.211Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/media/upload</loc>
+    <lastmod>2026-04-20T17:10:42.207Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/notifications/preferences</loc>
+    <lastmod>2026-04-20T16:42:10.586Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/notifications/view</loc>
+    <lastmod>2026-04-20T16:42:10.585Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/onboarding/overview</loc>
+    <lastmod>2026-04-20T17:10:42.470Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/projects/add</loc>
+    <lastmod>2026-04-20T17:10:42.471Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/projects/archive</loc>
+    <lastmod>2026-04-20T16:42:10.583Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/projects/bulk-delete</loc>
+    <lastmod>2026-04-20T16:42:10.584Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/projects/duplicate</loc>
+    <lastmod>2026-04-20T16:42:10.898Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/projects/list</loc>
+    <lastmod>2026-04-20T16:42:10.897Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/projects/pages</loc>
+    <lastmod>2026-04-20T16:42:10.896Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/projects/share</loc>
+    <lastmod>2026-04-20T16:42:10.895Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/projects/update</loc>
+    <lastmod>2026-04-20T16:42:10.893Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/projects/widgets</loc>
+    <lastmod>2026-04-20T16:42:10.891Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/quickstart</loc>
+    <lastmod>2026-04-20T17:10:42.709Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/templates/add</loc>
+    <lastmod>2026-04-20T16:42:10.892Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/templates/apply</loc>
+    <lastmod>2026-04-20T16:42:10.888Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/templates/delete</loc>
+    <lastmod>2026-04-20T16:42:10.889Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/templates/list</loc>
+    <lastmod>2026-04-20T16:42:11.216Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/themes/add</loc>
+    <lastmod>2026-04-20T16:42:11.215Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/themes/apply</loc>
+    <lastmod>2026-04-20T16:42:11.214Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/themes/delete</loc>
+    <lastmod>2026-04-20T16:42:11.214Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/themes/list</loc>
+    <lastmod>2026-04-20T16:42:11.212Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/themes/update</loc>
+    <lastmod>2026-04-20T16:42:11.213Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/users/invite</loc>
+    <lastmod>2026-04-20T16:42:11.209Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/users/list</loc>
+    <lastmod>2026-04-20T16:42:11.210Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/users/profile</loc>
+    <lastmod>2026-04-20T16:42:11.212Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/users/remove</loc>
+    <lastmod>2026-04-20T16:42:11.211Z</lastmod>
+  </url>
+
+  <url>
+    <loc>https://docs.oviond.com/users/update</loc>
+    <lastmod>2026-04-20T16:42:11.536Z</lastmod>
+  </url>
+</urlset>

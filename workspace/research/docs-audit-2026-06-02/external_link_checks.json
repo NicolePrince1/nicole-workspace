@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://app.oviond.com",
+    "status": 200,
+    "content_type": "",
+    "location": ""
+  },
+  {
+    "url": "https://www.mintlify.com?utm_campaign=poweredBy&utm_medium=referral&utm_source=oviond-4b019b21",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "location": ""
+  },
+  {
+    "url": "https://www.oviond.com/contact/",
+    "status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "location": ""
+  }
+]

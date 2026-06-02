@@ -1,0 +1,491 @@
+severity,type,url,detail
+P0,sample_openapi_live,https://docs.oviond.com/api-reference/openapi.json,Still serves Mintlify OpenAPI Plant Store sample spec
+P2,weak_meta_description,https://docs.oviond.com/account/delete,63 chars
+P2,weak_meta_description,https://docs.oviond.com/account/usage,57 chars
+P2,thin_page,https://docs.oviond.com/activity-log/overview,102 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/activity-log/overview,"resource_id, resource_type, user_id"
+P2,weak_meta_description,https://docs.oviond.com/activity-log/overview,52 chars
+P2,weak_meta_description,https://docs.oviond.com/agency/add,51 chars
+P1,destructive_missing_warning,https://docs.oviond.com/agency/archive,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/agency/archive,75 chars
+P2,thin_page,https://docs.oviond.com/agency/bulk-delete,126 words
+P2,weak_meta_description,https://docs.oviond.com/agency/bulk-delete,39 chars
+P2,weak_meta_description,https://docs.oviond.com/agency/duplicate,72 chars
+P2,thin_page,https://docs.oviond.com/agency/list,133 words
+P2,weak_meta_description,https://docs.oviond.com/agency/list,41 chars
+P2,weak_meta_description,https://docs.oviond.com/agency/pages,59 chars
+P2,weak_meta_description,https://docs.oviond.com/agency/share,53 chars
+P2,thin_page,https://docs.oviond.com/agency/update,137 words
+P2,weak_meta_description,https://docs.oviond.com/agency/update,50 chars
+P1,api_page_lacks_examples,https://docs.oviond.com/api-keys/add,API page is short and has no fenced example
+P2,weak_meta_description,https://docs.oviond.com/api-keys/add,54 chars
+P1,api_page_lacks_examples,https://docs.oviond.com/api-keys/delete,API page is short and has no fenced example
+P2,weak_meta_description,https://docs.oviond.com/api-keys/delete,44 chars
+P2,weak_meta_description,https://docs.oviond.com/api-keys/list,45 chars
+P1,destructive_missing_warning,https://docs.oviond.com/api-keys/revoke,Destructive/risky page has no Mintlify Warning component
+P1,api_page_lacks_examples,https://docs.oviond.com/api-keys/revoke,API page is short and has no fenced example
+P2,weak_meta_description,https://docs.oviond.com/api-keys/revoke,65 chars
+P1,thin_page,https://docs.oviond.com/api/account/delete-account,66 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/account/delete-account,"S3, Stripe, Supabase, users table"
+P1,destructive_missing_warning,https://docs.oviond.com/api/account/delete-account,Destructive/risky page has no Mintlify Warning component
+P1,thin_page,https://docs.oviond.com/api/account/get-account,30 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/account/get-account,accounts row
+P2,weak_meta_description,https://docs.oviond.com/api/account/get-account,44 chars
+P1,thin_page,https://docs.oviond.com/api/account/get-account-usage,30 words
+P2,weak_meta_description,https://docs.oviond.com/api/account/get-account-usage,43 chars
+P1,thin_page,https://docs.oviond.com/api/activity/list-activity,29 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/activity/list-activity,resource_type
+P2,weak_meta_description,https://docs.oviond.com/api/activity/list-activity,42 chars
+P1,thin_page,https://docs.oviond.com/api/archive/delete-permanently,26 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/archive/delete-permanently,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/archive/delete-permanently,33 chars
+P1,thin_page,https://docs.oviond.com/api/archive/get-archive-counts,28 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/archive/get-archive-counts,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/archive/get-archive-counts,29 chars
+P1,thin_page,https://docs.oviond.com/api/archive/list-archive,26 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/archive/list-archive,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/archive/list-archive,31 chars
+P1,thin_page,https://docs.oviond.com/api/archive/restore-items,26 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/archive/restore-items,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/archive/restore-items,26 chars
+P1,thin_page,https://docs.oviond.com/api/assets/create-asset,26 words
+P2,weak_meta_description,https://docs.oviond.com/api/assets/create-asset,18 chars
+P1,thin_page,https://docs.oviond.com/api/assets/delete-asset,25 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/assets/delete-asset,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/assets/delete-asset,15 chars
+P1,thin_page,https://docs.oviond.com/api/assets/duplicate-asset,29 words
+P2,weak_meta_description,https://docs.oviond.com/api/assets/duplicate-asset,34 chars
+P1,thin_page,https://docs.oviond.com/api/assets/get-asset,28 words
+P2,weak_meta_description,https://docs.oviond.com/api/assets/get-asset,24 chars
+P1,thin_page,https://docs.oviond.com/api/assets/list-asset-tags,33 words
+P2,weak_meta_description,https://docs.oviond.com/api/assets/list-asset-tags,58 chars
+P1,thin_page,https://docs.oviond.com/api/assets/list-asset-widgets,31 words
+P2,weak_meta_description,https://docs.oviond.com/api/assets/list-asset-widgets,40 chars
+P1,thin_page,https://docs.oviond.com/api/assets/list-assets,28 words
+P2,weak_meta_description,https://docs.oviond.com/api/assets/list-assets,35 chars
+P1,thin_page,https://docs.oviond.com/api/assets/update-asset,25 words
+P2,weak_meta_description,https://docs.oviond.com/api/assets/update-asset,15 chars
+P1,thin_page,https://docs.oviond.com/api/automations/bulk-delete-automations,34 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/automations/bulk-delete-automations,cron scheduler
+P1,destructive_missing_warning,https://docs.oviond.com/api/automations/bulk-delete-automations,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/automations/bulk-delete-automations,72 chars
+P1,thin_page,https://docs.oviond.com/api/automations/create-automation,29 words
+P2,weak_meta_description,https://docs.oviond.com/api/automations/create-automation,37 chars
+P1,thin_page,https://docs.oviond.com/api/automations/delete-automation,33 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/automations/delete-automation,cron scheduler
+P1,destructive_missing_warning,https://docs.oviond.com/api/automations/delete-automation,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/automations/delete-automation,63 chars
+P1,thin_page,https://docs.oviond.com/api/automations/get-automation-history,29 words
+P2,weak_meta_description,https://docs.oviond.com/api/automations/get-automation-history,39 chars
+P1,thin_page,https://docs.oviond.com/api/automations/list-automations,31 words
+P2,weak_meta_description,https://docs.oviond.com/api/automations/list-automations,60 chars
+P1,thin_page,https://docs.oviond.com/api/automations/pause-automation,33 words
+P2,weak_meta_description,https://docs.oviond.com/api/automations/pause-automation,65 chars
+P1,thin_page,https://docs.oviond.com/api/automations/test-automation,29 words
+P2,weak_meta_description,https://docs.oviond.com/api/automations/test-automation,41 chars
+P1,thin_page,https://docs.oviond.com/api/automations/unpause-automation,31 words
+P2,weak_meta_description,https://docs.oviond.com/api/automations/unpause-automation,54 chars
+P1,thin_page,https://docs.oviond.com/api/automations/update-automation,28 words
+P2,weak_meta_description,https://docs.oviond.com/api/automations/update-automation,52 chars
+P1,thin_page,https://docs.oviond.com/api/billing/list-invoices,28 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/billing/list-invoices,Stripe
+P2,weak_meta_description,https://docs.oviond.com/api/billing/list-invoices,35 chars
+P1,thin_page,https://docs.oviond.com/api/billing/list-plans,28 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/billing/list-plans,Stripe
+P2,weak_meta_description,https://docs.oviond.com/api/billing/list-plans,45 chars
+P1,thin_page,https://docs.oviond.com/api/branding/get-branding,25 words
+P2,weak_meta_description,https://docs.oviond.com/api/branding/get-branding,21 chars
+P1,thin_page,https://docs.oviond.com/api/branding/update-branding,25 words
+P2,weak_meta_description,https://docs.oviond.com/api/branding/update-branding,24 chars
+P1,thin_page,https://docs.oviond.com/api/calculated-metrics/create-calculated-metric,28 words
+P2,weak_meta_description,https://docs.oviond.com/api/calculated-metrics/create-calculated-metric,30 chars
+P1,thin_page,https://docs.oviond.com/api/calculated-metrics/delete-calculated-metric,27 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/calculated-metrics/delete-calculated-metric,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/calculated-metrics/delete-calculated-metric,26 chars
+P1,thin_page,https://docs.oviond.com/api/calculated-metrics/duplicate-calculated-metric,27 words
+P2,weak_meta_description,https://docs.oviond.com/api/calculated-metrics/duplicate-calculated-metric,29 chars
+P1,thin_page,https://docs.oviond.com/api/calculated-metrics/list-calculated-metrics,31 words
+P2,weak_meta_description,https://docs.oviond.com/api/calculated-metrics/list-calculated-metrics,51 chars
+P1,thin_page,https://docs.oviond.com/api/calculated-metrics/update-calculated-metric,27 words
+P2,weak_meta_description,https://docs.oviond.com/api/calculated-metrics/update-calculated-metric,26 chars
+P1,thin_page,https://docs.oviond.com/api/clients/bulk-delete-clients,28 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/clients/bulk-delete-clients,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/clients/bulk-delete-clients,29 chars
+P1,thin_page,https://docs.oviond.com/api/clients/count-clients,29 words
+P2,weak_meta_description,https://docs.oviond.com/api/clients/count-clients,43 chars
+P1,thin_page,https://docs.oviond.com/api/clients/create-client,26 words
+P2,weak_meta_description,https://docs.oviond.com/api/clients/create-client,19 chars
+P1,thin_page,https://docs.oviond.com/api/clients/delete-client,32 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/clients/delete-client,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/clients/delete-client,59 chars
+P1,thin_page,https://docs.oviond.com/api/clients/get-client,28 words
+P2,weak_meta_description,https://docs.oviond.com/api/clients/get-client,25 chars
+P1,thin_page,https://docs.oviond.com/api/clients/list-all-clients,30 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/clients/list-all-clients,client_integrations
+P2,weak_meta_description,https://docs.oviond.com/api/clients/list-all-clients,46 chars
+P1,thin_page,https://docs.oviond.com/api/clients/list-client-integrations,29 words
+P2,weak_meta_description,https://docs.oviond.com/api/clients/list-client-integrations,39 chars
+P1,thin_page,https://docs.oviond.com/api/clients/list-clients,28 words
+P2,weak_meta_description,https://docs.oviond.com/api/clients/list-clients,36 chars
+P1,thin_page,https://docs.oviond.com/api/clients/move-client-folder,31 words
+P2,weak_meta_description,https://docs.oviond.com/api/clients/move-client-folder,36 chars
+P1,thin_page,https://docs.oviond.com/api/clients/refresh-screenshot,47 words
+P1,thin_page,https://docs.oviond.com/api/clients/update-client,25 words
+P2,weak_meta_description,https://docs.oviond.com/api/clients/update-client,15 chars
+P1,thin_page,https://docs.oviond.com/api/company/get-company,29 words
+P2,weak_meta_description,https://docs.oviond.com/api/company/get-company,44 chars
+P1,thin_page,https://docs.oviond.com/api/company/update-company,25 words
+P2,weak_meta_description,https://docs.oviond.com/api/company/update-company,23 chars
+P1,thin_page,https://docs.oviond.com/api/custom-data/create-custom-data,30 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/custom-data/create-custom-data,raw_data
+P2,weak_meta_description,https://docs.oviond.com/api/custom-data/create-custom-data,45 chars
+P1,thin_page,https://docs.oviond.com/api/custom-data/delete-custom-data,27 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/custom-data/delete-custom-data,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/custom-data/delete-custom-data,23 chars
+P1,thin_page,https://docs.oviond.com/api/custom-data/duplicate-custom-data,27 words
+P2,weak_meta_description,https://docs.oviond.com/api/custom-data/duplicate-custom-data,26 chars
+P1,thin_page,https://docs.oviond.com/api/custom-data/get-custom-data,33 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/custom-data/get-custom-data,raw_data
+P2,weak_meta_description,https://docs.oviond.com/api/custom-data/get-custom-data,53 chars
+P1,thin_page,https://docs.oviond.com/api/custom-data/list-custom-data,33 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/custom-data/list-custom-data,raw_data
+P2,weak_meta_description,https://docs.oviond.com/api/custom-data/list-custom-data,58 chars
+P1,thin_page,https://docs.oviond.com/api/custom-data/update-custom-data,27 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/custom-data/update-custom-data,raw_data
+P2,weak_meta_description,https://docs.oviond.com/api/custom-data/update-custom-data,23 chars
+P1,thin_page,https://docs.oviond.com/api/data/fetch-resource-data,35 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/data/fetch-resource-data,upstream API
+P2,weak_meta_description,https://docs.oviond.com/api/data/fetch-resource-data,71 chars
+P1,thin_page,https://docs.oviond.com/api/data/list-integration-accounts,32 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/data/list-integration-accounts,upstream API
+P2,weak_meta_description,https://docs.oviond.com/api/data/list-integration-accounts,55 chars
+P1,thin_page,https://docs.oviond.com/api/data/query-data,31 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/data/query-data,upstream API
+P2,weak_meta_description,https://docs.oviond.com/api/data/query-data,49 chars
+P1,thin_page,https://docs.oviond.com/api/data/test-connection,31 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/data/test-connection,upstream API
+P2,weak_meta_description,https://docs.oviond.com/api/data/test-connection,54 chars
+P1,thin_page,https://docs.oviond.com/api/email/add-email-domain,31 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/email/add-email-domain,"Resend, Vercel"
+P2,weak_meta_description,https://docs.oviond.com/api/email/add-email-domain,45 chars
+P1,thin_page,https://docs.oviond.com/api/email/add-email-sender,31 words
+P2,weak_meta_description,https://docs.oviond.com/api/email/add-email-sender,45 chars
+P1,thin_page,https://docs.oviond.com/api/email/delete-email-domain,33 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/email/delete-email-domain,Resend
+P1,destructive_missing_warning,https://docs.oviond.com/api/email/delete-email-domain,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/email/delete-email-domain,58 chars
+P1,thin_page,https://docs.oviond.com/api/email/delete-smtp-config,29 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/email/delete-smtp-config,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/email/delete-smtp-config,42 chars
+P1,thin_page,https://docs.oviond.com/api/email/get-email-setup,31 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/email/get-email-setup,Resend
+P2,weak_meta_description,https://docs.oviond.com/api/email/get-email-setup,53 chars
+P1,thin_page,https://docs.oviond.com/api/email/list-email-logs,26 words
+P2,weak_meta_description,https://docs.oviond.com/api/email/list-email-logs,14 chars
+P1,thin_page,https://docs.oviond.com/api/email/queue-emails,42 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/email/queue-emails,"Resend, SQS"
+P1,thin_page,https://docs.oviond.com/api/email/send-email,28 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/email/send-email,Resend
+P2,weak_meta_description,https://docs.oviond.com/api/email/send-email,37 chars
+P1,thin_page,https://docs.oviond.com/api/email/test-smtp,31 words
+P2,weak_meta_description,https://docs.oviond.com/api/email/test-smtp,54 chars
+P1,thin_page,https://docs.oviond.com/api/email/update-email-setup,27 words
+P2,weak_meta_description,https://docs.oviond.com/api/email/update-email-setup,32 chars
+P1,thin_page,https://docs.oviond.com/api/email/update-smtp-config,29 words
+P2,weak_meta_description,https://docs.oviond.com/api/email/update-smtp-config,40 chars
+P1,thin_page,https://docs.oviond.com/api/email/verify-email-domain,30 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/email/verify-email-domain,"Resend, Vercel"
+P2,weak_meta_description,https://docs.oviond.com/api/email/verify-email-domain,49 chars
+P1,thin_page,https://docs.oviond.com/api/folders/create-folder,27 words
+P2,weak_meta_description,https://docs.oviond.com/api/folders/create-folder,26 chars
+P1,thin_page,https://docs.oviond.com/api/folders/delete-folder,32 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/folders/delete-folder,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/folders/delete-folder,55 chars
+P1,thin_page,https://docs.oviond.com/api/folders/list-folders,30 words
+P2,weak_meta_description,https://docs.oviond.com/api/folders/list-folders,47 chars
+P1,thin_page,https://docs.oviond.com/api/folders/update-folder,26 words
+P2,weak_meta_description,https://docs.oviond.com/api/folders/update-folder,22 chars
+P1,thin_page,https://docs.oviond.com/api/health/health-check,22 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/health/health-check,Supabase
+P2,weak_meta_description,https://docs.oviond.com/api/health/health-check,0 chars
+P1,thin_page,https://docs.oviond.com/api/integrations/delete-integration,27 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/integrations/delete-integration,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/integrations/delete-integration,32 chars
+P1,thin_page,https://docs.oviond.com/api/integrations/delete-profile,26 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/integrations/delete-profile,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/integrations/delete-profile,25 chars
+P1,thin_page,https://docs.oviond.com/api/integrations/link-datasource,28 words
+P2,weak_meta_description,https://docs.oviond.com/api/integrations/link-datasource,29 chars
+P1,thin_page,https://docs.oviond.com/api/integrations/list-all-profiles,30 words
+P2,weak_meta_description,https://docs.oviond.com/api/integrations/list-all-profiles,44 chars
+P1,thin_page,https://docs.oviond.com/api/integrations/list-integration-profiles,30 words
+P2,weak_meta_description,https://docs.oviond.com/api/integrations/list-integration-profiles,45 chars
+P1,thin_page,https://docs.oviond.com/api/integrations/list-integrations,31 words
+P2,weak_meta_description,https://docs.oviond.com/api/integrations/list-integrations,58 chars
+P1,thin_page,https://docs.oviond.com/api/integrations/rename-integration,27 words
+P2,weak_meta_description,https://docs.oviond.com/api/integrations/rename-integration,32 chars
+P1,thin_page,https://docs.oviond.com/api/integrations/rename-profile,26 words
+P2,weak_meta_description,https://docs.oviond.com/api/integrations/rename-profile,25 chars
+P1,thin_page,https://docs.oviond.com/api/integrations/test-auth-connection,31 words
+P2,weak_meta_description,https://docs.oviond.com/api/integrations/test-auth-connection,46 chars
+P1,thin_page,https://docs.oviond.com/api/integrations/unlink-datasource,28 words
+P2,weak_meta_description,https://docs.oviond.com/api/integrations/unlink-datasource,33 chars
+P1,thin_page,https://docs.oviond.com/api/integrations/update-client-integrations,33 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/integrations/update-client-integrations,client_integrations
+P2,weak_meta_description,https://docs.oviond.com/api/integrations/update-client-integrations,64 chars
+P1,thin_page,https://docs.oviond.com/api/media/bulk-delete-media,28 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/media/bulk-delete-media,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/media/bulk-delete-media,33 chars
+P1,thin_page,https://docs.oviond.com/api/media/create-media-folder,28 words
+P2,weak_meta_description,https://docs.oviond.com/api/media/create-media-folder,26 chars
+P1,thin_page,https://docs.oviond.com/api/media/delete-media,37 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/media/delete-media,S3
+P1,destructive_missing_warning,https://docs.oviond.com/api/media/delete-media,Destructive/risky page has no Mintlify Warning component
+P1,thin_page,https://docs.oviond.com/api/media/delete-media-folder,35 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/media/delete-media-folder,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/media/delete-media-folder,65 chars
+P1,thin_page,https://docs.oviond.com/api/media/group-media,29 words
+P2,weak_meta_description,https://docs.oviond.com/api/media/group-media,37 chars
+P1,thin_page,https://docs.oviond.com/api/media/list-media,30 words
+P2,weak_meta_description,https://docs.oviond.com/api/media/list-media,53 chars
+P1,thin_page,https://docs.oviond.com/api/media/list-media-folders,30 words
+P2,weak_meta_description,https://docs.oviond.com/api/media/list-media-folders,43 chars
+P1,thin_page,https://docs.oviond.com/api/media/rename-media-folder,27 words
+P2,weak_meta_description,https://docs.oviond.com/api/media/rename-media-folder,22 chars
+P1,thin_page,https://docs.oviond.com/api/media/update-media,28 words
+P2,weak_meta_description,https://docs.oviond.com/api/media/update-media,36 chars
+P0,markdown_fetch_failed,https://docs.oviond.com/api/openapi.json,markdown endpoint returned 404
+P1,thin_page,https://docs.oviond.com/api/openapi.json,0 words
+P1,api_page_lacks_examples,https://docs.oviond.com/api/openapi.json,API page is short and has no fenced example
+P1,thin_page,https://docs.oviond.com/api/pages/create-page,30 words
+P2,weak_meta_description,https://docs.oviond.com/api/pages/create-page,39 chars
+P1,thin_page,https://docs.oviond.com/api/pages/delete-page,25 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/pages/delete-page,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/pages/delete-page,14 chars
+P1,thin_page,https://docs.oviond.com/api/pages/list-pages,29 words
+P2,weak_meta_description,https://docs.oviond.com/api/pages/list-pages,37 chars
+P1,thin_page,https://docs.oviond.com/api/pages/update-page,25 words
+P2,weak_meta_description,https://docs.oviond.com/api/pages/update-page,14 chars
+P1,thin_page,https://docs.oviond.com/api/pdf/generate-pdf,30 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/pdf/generate-pdf,S3
+P2,weak_meta_description,https://docs.oviond.com/api/pdf/generate-pdf,42 chars
+P1,thin_page,https://docs.oviond.com/api/pdf/get-pdf-status,31 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/pdf/get-pdf-status,"S3, bucket"
+P2,weak_meta_description,https://docs.oviond.com/api/pdf/get-pdf-status,40 chars
+P1,thin_page,https://docs.oviond.com/api/projects/bulk-delete-projects,28 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/projects/bulk-delete-projects,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/projects/bulk-delete-projects,31 chars
+P1,thin_page,https://docs.oviond.com/api/projects/create-project,26 words
+P2,weak_meta_description,https://docs.oviond.com/api/projects/create-project,21 chars
+P1,thin_page,https://docs.oviond.com/api/projects/delete-pdf-notification,31 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/projects/delete-pdf-notification,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/projects/delete-pdf-notification,47 chars
+P1,thin_page,https://docs.oviond.com/api/projects/delete-project,29 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/projects/delete-project,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/projects/delete-project,37 chars
+P1,thin_page,https://docs.oviond.com/api/projects/duplicate-project,32 words
+P2,weak_meta_description,https://docs.oviond.com/api/projects/duplicate-project,64 chars
+P1,thin_page,https://docs.oviond.com/api/projects/get-project,28 words
+P2,weak_meta_description,https://docs.oviond.com/api/projects/get-project,27 chars
+P1,thin_page,https://docs.oviond.com/api/projects/list-all-projects,32 words
+P2,weak_meta_description,https://docs.oviond.com/api/projects/list-all-projects,58 chars
+P1,thin_page,https://docs.oviond.com/api/projects/list-projects,32 words
+P2,weak_meta_description,https://docs.oviond.com/api/projects/list-projects,70 chars
+P1,thin_page,https://docs.oviond.com/api/projects/update-project,25 words
+P2,weak_meta_description,https://docs.oviond.com/api/projects/update-project,17 chars
+P1,thin_page,https://docs.oviond.com/api/saved-metrics/create-saved-metric,28 words
+P2,weak_meta_description,https://docs.oviond.com/api/saved-metrics/create-saved-metric,26 chars
+P1,thin_page,https://docs.oviond.com/api/saved-metrics/delete-saved-metric,27 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/saved-metrics/delete-saved-metric,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/saved-metrics/delete-saved-metric,22 chars
+P1,thin_page,https://docs.oviond.com/api/saved-metrics/duplicate-saved-metric,27 words
+P2,weak_meta_description,https://docs.oviond.com/api/saved-metrics/duplicate-saved-metric,21 chars
+P1,thin_page,https://docs.oviond.com/api/saved-metrics/list-saved-metrics,31 words
+P2,weak_meta_description,https://docs.oviond.com/api/saved-metrics/list-saved-metrics,47 chars
+P1,thin_page,https://docs.oviond.com/api/saved-metrics/update-saved-metric,27 words
+P2,weak_meta_description,https://docs.oviond.com/api/saved-metrics/update-saved-metric,22 chars
+P1,thin_page,https://docs.oviond.com/api/search/search,31 words
+P2,weak_meta_description,https://docs.oviond.com/api/search/search,65 chars
+P1,thin_page,https://docs.oviond.com/api/templates/create-template,34 words
+P2,weak_meta_description,https://docs.oviond.com/api/templates/create-template,75 chars
+P1,thin_page,https://docs.oviond.com/api/templates/delete-template,25 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/templates/delete-template,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/templates/delete-template,18 chars
+P1,thin_page,https://docs.oviond.com/api/templates/get-template,28 words
+P2,weak_meta_description,https://docs.oviond.com/api/templates/get-template,28 chars
+P1,thin_page,https://docs.oviond.com/api/templates/list-templates,28 words
+P2,weak_meta_description,https://docs.oviond.com/api/templates/list-templates,39 chars
+P1,thin_page,https://docs.oviond.com/api/templates/update-template,25 words
+P2,weak_meta_description,https://docs.oviond.com/api/templates/update-template,18 chars
+P1,thin_page,https://docs.oviond.com/api/themes/create-theme,26 words
+P2,weak_meta_description,https://docs.oviond.com/api/themes/create-theme,19 chars
+P1,thin_page,https://docs.oviond.com/api/themes/delete-theme,25 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/themes/delete-theme,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/themes/delete-theme,15 chars
+P1,thin_page,https://docs.oviond.com/api/themes/get-theme,28 words
+P2,weak_meta_description,https://docs.oviond.com/api/themes/get-theme,25 chars
+P1,thin_page,https://docs.oviond.com/api/themes/list-themes,28 words
+P2,weak_meta_description,https://docs.oviond.com/api/themes/list-themes,36 chars
+P1,thin_page,https://docs.oviond.com/api/themes/update-theme,25 words
+P2,weak_meta_description,https://docs.oviond.com/api/themes/update-theme,15 chars
+P1,thin_page,https://docs.oviond.com/api/users/change-email,28 words
+P2,weak_meta_description,https://docs.oviond.com/api/users/change-email,38 chars
+P1,thin_page,https://docs.oviond.com/api/users/delete-user,29 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/users/delete-user,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/users/delete-user,38 chars
+P1,thin_page,https://docs.oviond.com/api/users/get-user,28 words
+P2,weak_meta_description,https://docs.oviond.com/api/users/get-user,45 chars
+P1,thin_page,https://docs.oviond.com/api/users/invite-user,29 words
+P2,weak_meta_description,https://docs.oviond.com/api/users/invite-user,33 chars
+P1,thin_page,https://docs.oviond.com/api/users/list-users,30 words
+P2,weak_meta_description,https://docs.oviond.com/api/users/list-users,52 chars
+P1,thin_page,https://docs.oviond.com/api/users/update-avatar,28 words
+P2,weak_meta_description,https://docs.oviond.com/api/users/update-avatar,40 chars
+P1,thin_page,https://docs.oviond.com/api/users/update-profile,31 words
+P2,weak_meta_description,https://docs.oviond.com/api/users/update-profile,58 chars
+P1,thin_page,https://docs.oviond.com/api/users/update-user,30 words
+P2,weak_meta_description,https://docs.oviond.com/api/users/update-user,50 chars
+P1,thin_page,https://docs.oviond.com/api/white-label/add-domain,36 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/white-label/add-domain,Vercel
+P1,thin_page,https://docs.oviond.com/api/white-label/check-domain-status,29 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/white-label/check-domain-status,Vercel
+P2,weak_meta_description,https://docs.oviond.com/api/white-label/check-domain-status,44 chars
+P1,thin_page,https://docs.oviond.com/api/white-label/delete-domain,26 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/white-label/delete-domain,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/white-label/delete-domain,23 chars
+P1,thin_page,https://docs.oviond.com/api/white-label/list-domains,29 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/api/white-label/list-domains,Vercel
+P2,weak_meta_description,https://docs.oviond.com/api/white-label/list-domains,44 chars
+P1,thin_page,https://docs.oviond.com/api/widgets/bulk-delete-widgets,28 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/widgets/bulk-delete-widgets,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/widgets/bulk-delete-widgets,30 chars
+P1,thin_page,https://docs.oviond.com/api/widgets/create-widgets,27 words
+P2,weak_meta_description,https://docs.oviond.com/api/widgets/create-widgets,32 chars
+P1,thin_page,https://docs.oviond.com/api/widgets/delete-widget,28 words
+P1,destructive_missing_warning,https://docs.oviond.com/api/widgets/delete-widget,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/api/widgets/delete-widget,29 chars
+P1,thin_page,https://docs.oviond.com/api/widgets/get-widget,28 words
+P2,weak_meta_description,https://docs.oviond.com/api/widgets/get-widget,26 chars
+P1,thin_page,https://docs.oviond.com/api/widgets/list-widget-ids,29 words
+P2,weak_meta_description,https://docs.oviond.com/api/widgets/list-widget-ids,28 chars
+P1,thin_page,https://docs.oviond.com/api/widgets/list-widgets,27 words
+P2,weak_meta_description,https://docs.oviond.com/api/widgets/list-widgets,26 chars
+P1,thin_page,https://docs.oviond.com/api/widgets/update-widget,28 words
+P2,weak_meta_description,https://docs.oviond.com/api/widgets/update-widget,40 chars
+P2,weak_meta_description,https://docs.oviond.com/archive/delete,48 chars
+P1,destructive_missing_warning,https://docs.oviond.com/archive/restore,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/archive/restore,56 chars
+P2,thin_page,https://docs.oviond.com/archive/view,99 words
+P1,destructive_missing_warning,https://docs.oviond.com/archive/view,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/archive/view,58 chars
+P2,weak_meta_description,https://docs.oviond.com/automations/add,60 chars
+P2,thin_page,https://docs.oviond.com/automations/delete,126 words
+P1,destructive_missing_warning,https://docs.oviond.com/automations/delete,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/automations/delete,40 chars
+P2,weak_meta_description,https://docs.oviond.com/automations/email,57 chars
+P2,weak_meta_description,https://docs.oviond.com/automations/history,51 chars
+P2,weak_meta_description,https://docs.oviond.com/automations/list,46 chars
+P2,weak_meta_description,https://docs.oviond.com/automations/pdf,70 chars
+P2,weak_meta_description,https://docs.oviond.com/automations/scheduled,51 chars
+P2,weak_meta_description,https://docs.oviond.com/automations/test,53 chars
+P2,weak_meta_description,https://docs.oviond.com/billing/invoices,57 chars
+P1,internal_or_vendor_leak,https://docs.oviond.com/billing/plans,Stripe
+P2,weak_meta_description,https://docs.oviond.com/billing/plans,67 chars
+P1,internal_or_vendor_leak,https://docs.oviond.com/billing/subscription,Stripe
+P2,weak_meta_description,https://docs.oviond.com/billing/subscription,71 chars
+P1,internal_or_vendor_leak,https://docs.oviond.com/changelog/2026-04,"S3, Vercel"
+P2,weak_meta_description,https://docs.oviond.com/changelog/2026-04,38 chars
+P2,weak_meta_description,https://docs.oviond.com/clients/add,43 chars
+P1,destructive_missing_warning,https://docs.oviond.com/clients/archive,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/clients/archive,68 chars
+P2,weak_meta_description,https://docs.oviond.com/clients/bulk-delete,52 chars
+P1,internal_or_vendor_leak,https://docs.oviond.com/clients/folders,bucket
+P2,weak_meta_description,https://docs.oviond.com/clients/folders,65 chars
+P2,weak_meta_description,https://docs.oviond.com/clients/list,47 chars
+P2,thin_page,https://docs.oviond.com/company/overview,102 words
+P2,weak_meta_description,https://docs.oviond.com/company/overview,53 chars
+P2,thin_page,https://docs.oviond.com/custom-data/delete,129 words
+P2,weak_meta_description,https://docs.oviond.com/custom-data/delete,43 chars
+P2,thin_page,https://docs.oviond.com/custom-data/duplicate,138 words
+P2,weak_meta_description,https://docs.oviond.com/custom-data/duplicate,32 chars
+P2,weak_meta_description,https://docs.oviond.com/custom-data/list,43 chars
+P2,weak_meta_description,https://docs.oviond.com/custom-data/update,42 chars
+P2,weak_meta_description,https://docs.oviond.com/custom-domains/add,72 chars
+P2,thin_page,https://docs.oviond.com/custom-domains/delete,120 words
+P1,internal_or_vendor_leak,https://docs.oviond.com/custom-domains/delete,Vercel
+P1,destructive_missing_warning,https://docs.oviond.com/custom-domains/delete,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/custom-domains/delete,41 chars
+P2,weak_meta_description,https://docs.oviond.com/custom-domains/list,54 chars
+P1,internal_or_vendor_leak,https://docs.oviond.com/custom-domains/verify,Vercel
+P2,weak_meta_description,https://docs.oviond.com/custom-domains/verify,61 chars
+P2,weak_meta_description,https://docs.oviond.com/data-sources/delete,45 chars
+P2,weak_meta_description,https://docs.oviond.com/data-sources/link,62 chars
+P2,weak_meta_description,https://docs.oviond.com/data-sources/list,58 chars
+P2,weak_meta_description,https://docs.oviond.com/data-sources/metrics,58 chars
+P2,weak_meta_description,https://docs.oviond.com/data-sources/test,50 chars
+P2,weak_meta_description,https://docs.oviond.com/email-settings/defaults,72 chars
+P2,weak_meta_description,https://docs.oviond.com/email-settings/domains,55 chars
+P2,weak_meta_description,https://docs.oviond.com/email-settings/logs,72 chars
+P2,weak_meta_description,https://docs.oviond.com/email-settings/senders,50 chars
+P1,internal_or_vendor_leak,https://docs.oviond.com/email-settings/smtp,Resend
+P2,weak_meta_description,https://docs.oviond.com/email-settings/smtp,49 chars
+P2,weak_meta_description,https://docs.oviond.com/guides/connect-ga4,68 chars
+P2,weak_meta_description,https://docs.oviond.com/guides/first-report,74 chars
+P2,weak_meta_description,https://docs.oviond.com/guides/monthly-report,55 chars
+P2,weak_meta_description,https://docs.oviond.com/guides/overview,61 chars
+P2,weak_meta_description,https://docs.oviond.com/mcp/auth,77 chars
+P2,weak_meta_description,https://docs.oviond.com/mcp/connect,66 chars
+P2,weak_meta_description,https://docs.oviond.com/mcp/tools,56 chars
+P1,internal_or_vendor_leak,https://docs.oviond.com/media/bulk-delete,S3
+P2,weak_meta_description,https://docs.oviond.com/media/bulk-delete,41 chars
+P1,internal_or_vendor_leak,https://docs.oviond.com/media/delete,S3
+P1,destructive_missing_warning,https://docs.oviond.com/media/delete,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/media/delete,72 chars
+P2,weak_meta_description,https://docs.oviond.com/media/folders,39 chars
+P2,weak_meta_description,https://docs.oviond.com/media/list,40 chars
+P1,internal_or_vendor_leak,https://docs.oviond.com/media/update,S3
+P2,weak_meta_description,https://docs.oviond.com/media/update,40 chars
+P1,internal_or_vendor_leak,https://docs.oviond.com/media/upload,S3
+P2,weak_meta_description,https://docs.oviond.com/media/upload,54 chars
+P2,weak_meta_description,https://docs.oviond.com/notifications/preferences,50 chars
+P2,thin_page,https://docs.oviond.com/notifications/view,95 words
+P2,weak_meta_description,https://docs.oviond.com/notifications/view,57 chars
+P1,internal_or_vendor_leak,https://docs.oviond.com/onboarding/overview,"account.onboarding, accounts row, bucket"
+P2,weak_meta_description,https://docs.oviond.com/onboarding/overview,56 chars
+P2,weak_meta_description,https://docs.oviond.com/projects/add,61 chars
+P1,destructive_missing_warning,https://docs.oviond.com/projects/archive,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/projects/archive,68 chars
+P2,thin_page,https://docs.oviond.com/projects/bulk-delete,131 words
+P2,weak_meta_description,https://docs.oviond.com/projects/bulk-delete,33 chars
+P2,weak_meta_description,https://docs.oviond.com/projects/duplicate,65 chars
+P2,weak_meta_description,https://docs.oviond.com/projects/list,59 chars
+P2,weak_meta_description,https://docs.oviond.com/projects/pages,66 chars
+P2,weak_meta_description,https://docs.oviond.com/projects/share,46 chars
+P2,weak_meta_description,https://docs.oviond.com/projects/update,49 chars
+P2,weak_meta_description,https://docs.oviond.com/projects/widgets,68 chars
+P2,weak_meta_description,https://docs.oviond.com/templates/add,44 chars
+P2,weak_meta_description,https://docs.oviond.com/templates/apply,55 chars
+P2,thin_page,https://docs.oviond.com/templates/delete,112 words
+P1,destructive_missing_warning,https://docs.oviond.com/templates/delete,Destructive/risky page has no Mintlify Warning component
+P2,weak_meta_description,https://docs.oviond.com/templates/delete,36 chars
+P2,weak_meta_description,https://docs.oviond.com/templates/list,62 chars
+P2,weak_meta_description,https://docs.oviond.com/themes/add,66 chars
+P2,weak_meta_description,https://docs.oviond.com/themes/apply,57 chars
+P2,thin_page,https://docs.oviond.com/themes/delete,110 words
+P2,weak_meta_description,https://docs.oviond.com/themes/delete,33 chars
+P2,thin_page,https://docs.oviond.com/themes/list,126 words
+P2,weak_meta_description,https://docs.oviond.com/themes/list,61 chars
+P2,thin_page,https://docs.oviond.com/themes/update,136 words
+P2,weak_meta_description,https://docs.oviond.com/themes/update,58 chars
+P2,weak_meta_description,https://docs.oviond.com/users/invite,45 chars
+P1,internal_or_vendor_leak,https://docs.oviond.com/users/list,Resend
+P2,weak_meta_description,https://docs.oviond.com/users/list,53 chars
+P2,weak_meta_description,https://docs.oviond.com/users/profile,53 chars
+P2,weak_meta_description,https://docs.oviond.com/users/remove,53 chars
+P2,thin_page,https://docs.oviond.com/users/update,136 words
+P2,weak_meta_description,https://docs.oviond.com/users/update,55 chars
+P0,openapi_invalid_colon_paths,https://docs.oviond.com/api/openapi.json,30 colon-style paths still present
+P1,openapi_internal_or_vendor_leak,https://docs.oviond.com/api/openapi.json,"Resend, S3, SQS, Stripe, Supabase, Vercel, accounts row, bucket, client_integrations, cron scheduler, raw_data, resource_type, upstream API, users table"
+P1,auth_scheme_mismatch_risk,https://docs.oviond.com/api/openapi.json,BearerAuth still declares bearerFormat JWT; docs also use API key language
+P1,openapi_operations_missing_examples,https://docs.oviond.com/api/openapi.json,130/144 operations appear to lack examples
+P1,introduction_too_light,https://docs.oviond.com/introduction,237 words; needs stronger product/use-case framing
