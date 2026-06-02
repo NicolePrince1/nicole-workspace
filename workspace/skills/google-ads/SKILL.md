@@ -107,6 +107,8 @@ Purpose:
 
 ## Guardrails
 
+- **Standing ads-off hold:** until the new website is live, tracking is confirmed, and Chris explicitly reauthorizes ads, Google Ads work must stay read-only or validate-only/paused draft only. Do not enable, relaunch, unpause, increase active delivery, or apply spend-driving mutations during the hold.
+- If a protective change is needed during the hold, it may only reduce/stop delivery or fix measurement safety; validate first, keep it surgical, and explain the blast radius.
 - prefer the service-account path over human refresh tokens unless the service-account route proves impossible after proper setup
 - treat `GOOGLE_ADS_SERVICE_ACCOUNT_JSON_CONTENT` as the canonical credential entry point unless a specific task proves otherwise
 - if you need the fallback path, force it explicitly with `GOOGLE_ADS_AUTH_MODE=oauth-refresh-token`

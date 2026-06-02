@@ -14,6 +14,16 @@ metadata:
 
 Query Oviond's GA4 property via the Google Analytics Data API v1beta.
 
+## Measurement warning — read this first
+
+Oviond's GA4 property is **not clean acquisition truth** by default. `Oviond Website + App` mixes marketing-site traffic, app usage, white-label customer report domains, and some dev/localhost traffic. The top-line GA4 `conversions` metric has also looked polluted since early March 2026.
+
+Default interpretation rules:
+- segment by `hostName` before making channel, geo, landing-page, or conversion claims
+- prefer specific signup-style events such as `ads_conversion_signup`, `sign_up`, or confirmed backend/signup events over raw `conversions`
+- triangulate acquisition claims with Google Ads, Stripe, and backend/app truth when decisions matter
+- if a report uses raw `conversions`, label it directional/noisy and do not treat it as finance-grade or acquisition truth
+
 ## Account Details
 
 - **GA4 Property ID:** stored in env `GA4_PROPERTY_ID` (discover via admin API if needed)
@@ -53,31 +63,37 @@ node /data/.openclaw/workspace/skills/google-analytics/scripts/ga_discover.js
 }
 ```
 
-### Traffic by Channel (Last 30 Days)
+### Traffic by Channel, segmented by host (Last 30 Days)
+Use this before making acquisition claims; inspect `hostName` and separate marketing-site traffic from app / white-label / dev traffic.
+
 ```json
 {
   "dateRanges": [{ "startDate": "30daysAgo", "endDate": "today" }],
-  "dimensions": [{ "name": "sessionDefaultChannelGroup" }],
+  "dimensions": [
+    { "name": "hostName" },
+    { "name": "sessionDefaultChannelGroup" }
+  ],
   "metrics": [
     { "name": "sessions" },
     { "name": "totalUsers" },
-    { "name": "conversions" },
     { "name": "engagementRate" }
   ],
   "orderBys": [{ "metric": { "metricName": "sessions" }, "desc": true }]
 }
 ```
 
-### Top Landing Pages
+### Top Landing Pages, segmented by host
 ```json
 {
   "dateRanges": [{ "startDate": "30daysAgo", "endDate": "today" }],
-  "dimensions": [{ "name": "landingPagePlusQueryString" }],
+  "dimensions": [
+    { "name": "hostName" },
+    { "name": "landingPagePlusQueryString" }
+  ],
   "metrics": [
     { "name": "sessions" },
     { "name": "totalUsers" },
     { "name": "bounceRate" },
-    { "name": "conversions" },
     { "name": "averageSessionDuration" }
   ],
   "orderBys": [{ "metric": { "metricName": "sessions" }, "desc": true }],
@@ -85,77 +101,97 @@ node /data/.openclaw/workspace/skills/google-analytics/scripts/ga_discover.js
 }
 ```
 
-### Conversions by Source/Medium
+### Signup-style events by Source/Medium and host
+Use event-specific reads instead of raw `conversions`.
+
 ```json
 {
   "dateRanges": [{ "startDate": "30daysAgo", "endDate": "today" }],
   "dimensions": [
-    { "name": "sessionSourceMedium" }
+    { "name": "hostName" },
+    { "name": "sessionSourceMedium" },
+    { "name": "eventName" }
   ],
   "metrics": [
     { "name": "sessions" },
-    { "name": "conversions" },
+    { "name": "eventCount" },
     { "name": "totalUsers" },
     { "name": "engagementRate" }
   ],
-  "orderBys": [{ "metric": { "metricName": "conversions" }, "desc": true }],
+  "dimensionFilter": {
+    "filter": {
+      "fieldName": "eventName",
+      "inListFilter": {
+        "values": ["ads_conversion_signup", "sign_up", "generate_lead"]
+      }
+    }
+  },
+  "orderBys": [{ "metric": { "metricName": "eventCount" }, "desc": true }],
   "limit": "20"
 }
 ```
 
-### Daily Traffic Trend
+### Daily Traffic Trend by host
 ```json
 {
   "dateRanges": [{ "startDate": "30daysAgo", "endDate": "today" }],
-  "dimensions": [{ "name": "date" }],
+  "dimensions": [
+    { "name": "date" },
+    { "name": "hostName" }
+  ],
   "metrics": [
     { "name": "sessions" },
-    { "name": "totalUsers" },
-    { "name": "conversions" }
+    { "name": "totalUsers" }
   ],
   "orderBys": [{ "dimension": { "dimensionName": "date" }, "desc": true }]
 }
 ```
 
-### Geographic Distribution
+### Geographic Distribution by host
 ```json
 {
   "dateRanges": [{ "startDate": "30daysAgo", "endDate": "today" }],
-  "dimensions": [{ "name": "country" }],
+  "dimensions": [
+    { "name": "hostName" },
+    { "name": "country" }
+  ],
   "metrics": [
     { "name": "sessions" },
-    { "name": "totalUsers" },
-    { "name": "conversions" }
+    { "name": "totalUsers" }
   ],
   "orderBys": [{ "metric": { "metricName": "sessions" }, "desc": true }],
   "limit": "20"
 }
 ```
 
-### Device Category Breakdown
+### Device Category Breakdown by host
 ```json
 {
   "dateRanges": [{ "startDate": "30daysAgo", "endDate": "today" }],
-  "dimensions": [{ "name": "deviceCategory" }],
+  "dimensions": [
+    { "name": "hostName" },
+    { "name": "deviceCategory" }
+  ],
   "metrics": [
     { "name": "sessions" },
     { "name": "totalUsers" },
     { "name": "bounceRate" },
-    { "name": "conversions" },
     { "name": "averageSessionDuration" }
   ]
 }
 ```
 
-### New vs Returning Users
+### New vs Returning Users by host
 ```json
 {
   "dateRanges": [{ "startDate": "30daysAgo", "endDate": "today" }],
-  "dimensions": [{ "name": "newVsReturning" }],
+  "dimensions": [
+    { "name": "hostName" },
+    { "name": "newVsReturning" }
+  ],
   "metrics": [
     { "name": "sessions" },
     { "name": "totalUsers" },
-    { "name": "conversions" },
     { "name": "engagementRate" }
   ]
 }
@@ -178,16 +214,18 @@ node /data/.openclaw/workspace/skills/google-analytics/scripts/ga_discover.js
 ```
 
 ### Week-over-Week Comparison
+For acquisition reads, add `hostName` as a dimension or filter to the marketing host before interpreting movement.
+
 ```json
 {
   "dateRanges": [
     { "startDate": "7daysAgo", "endDate": "today", "name": "this_week" },
     { "startDate": "14daysAgo", "endDate": "7daysAgo", "name": "last_week" }
   ],
+  "dimensions": [{ "name": "hostName" }],
   "metrics": [
     { "name": "sessions" },
     { "name": "totalUsers" },
-    { "name": "conversions" },
     { "name": "bounceRate" }
   ]
 }

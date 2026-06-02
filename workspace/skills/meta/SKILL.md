@@ -129,6 +129,8 @@ Purpose:
 
 ## Guardrails
 
+- **Standing ads-off hold:** until the new website is live, tracking is confirmed, and Chris explicitly reauthorizes ads, Meta/Facebook Ads work must stay read-only or validate-only/paused draft only. Do not enable, relaunch, unpause, increase active delivery, or apply spend-driving mutations during the hold.
+- If a protective change is needed during the hold, it may only reduce/stop delivery or fix measurement safety; preview first, keep it surgical, and explain the blast radius.
 - Diagnose access before trusting data.
 - Prefer `meta_report.py` over raw curl for repeatable analysis.
 - Treat Page endpoints differently from ad-account endpoints; Page reads/publishes use a page token.
