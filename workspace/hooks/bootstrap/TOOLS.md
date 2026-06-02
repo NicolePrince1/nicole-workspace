@@ -56,4 +56,4 @@ Webhook transform files must follow this convention:
 
 ## Available Google Accounts
 
-No Google accounts are currently configured.
+Google Workspace is operational for Nicole/Oviond through the live `gog` operator path using delegated impersonation. If AlphaClaw cannot populate account status reliably, trust `MEMORY.md` and `TOOLS.md` live operator notes over stale setup text.

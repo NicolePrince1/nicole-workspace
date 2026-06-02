@@ -23,8 +23,9 @@
 - Flag any automation with >5% bounce rate or <15% open rate
 
 ### 5. Ad Spend Check
-- Pull Meta ads spend for current week
-- If CPA is >R200 per landing page view, flag it
+- While Chris's ads-off hold is active, verify Google Ads and Meta/Facebook campaigns remain off.
+- Alert Chris on **any paid-ad spend or active delivery** before the new website is live, tracking is confirmed, and Chris explicitly reauthorizes ads.
+- Only after reauthorization: pull Meta ads spend for current week and flag CPA >R200 per landing page view.
 
 ## Rules
 - Only check items not checked in last 4 hours
