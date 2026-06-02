@@ -126,11 +126,11 @@ Audit my content vs competitor: [your content] vs [competitor content]
 
 **Gate verdict**: **SHIP** (no critical issues, dimension scores above threshold) / **FIX** (issues found but none critical) / **BLOCK** (a critical trust issue failed — see "Critical Issue to Fix" in the report). Always state the verdict prominently at the top of the report using plain language, not item IDs.
 
-**Expected output**: a CORE-EEAT audit report, a publish-readiness verdict, and a short handoff summary ready for `memory/audits/content/`.
+**Expected output**: a CORE-EEAT audit report, a publish-readiness verdict, and a short handoff summary suitable for a scoped project/audit artifact path.
 
 - **Reads**: the target content, content type, supporting evidence, and any prior decisions from [CLAUDE.md](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/CLAUDE.md) and the shared [State Model](https://github.com/aaron-he-zhu/seo-geo-claude-skills/blob/main/references/state-model.md) when available.
-- **Writes**: a user-facing audit report plus a reusable summary that can be stored under `memory/audits/content/`.
-- **Promotes**: veto items and publish blockers to `memory/hot-cache.md` (auto-saved, no user confirmation needed). Top improvement priorities to `memory/open-loops.md`.
+- **Writes**: a user-facing audit report plus a reusable summary. Store artifacts under a clearly scoped project path such as `research/content-quality-audits/<date>-<topic>/` unless the user asks for a different durable location.
+- **Promotes**: do **not** auto-write `memory/hot-cache.md`, `memory/open-loops.md`, or loose files under `memory/`. If a durable lesson matters, summarize it intentionally into the canonical daily note `memory/YYYY-MM-DD.md` or curated `MEMORY.md` following this workspace's memory model.
 - **Primary next skill**: use the `Next Best Skill` below once the verdict is clear.
 
 ## Data Sources
@@ -233,7 +233,7 @@ See [references/item-reference.md](https://github.com/aaron-he-zhu/seo-geo-claud
 <!-- runbook-sync start: source_sha256=6920bed5f82fd3fe0d6538d71e797e35823385fecfeabdfd81257d2c9d7922d3 block_sha256=be2750a3a71e6e1158c336ae276a2f0c74473b0cf02e1a40b7292d31c7517b12 -->
 ## §1 · Handoff Schema (authoritative)
 
-Every auditor-class handoff MUST follow this shape. Emitted audit artifact files (e.g., `memory/audits/**/*.md`) MUST include `class: auditor-output` in their YAML frontmatter so the PostToolUse Artifact Gate and guarded auditor archive checks can detect them by frontmatter class instead of prose pattern-matching. Files lacking this marker are not treated as audit artifacts regardless of body content.
+Every auditor-class handoff MUST follow this shape. Emitted audit artifact files (e.g., `research/content-quality-audits/**/*.md`) MUST include `class: auditor-output` in their YAML frontmatter so audit archive checks can detect them by frontmatter class instead of prose pattern-matching. Files lacking this marker are not treated as audit artifacts regardless of body content.
 
 ```yaml
 ---
@@ -376,7 +376,7 @@ Handoff:
       evidence: "..."
 ```
 
-**Why BLOCKED, not "capped at 40"**: the 40-tier cap number is unvalidated. Blocking forces manual review, which is more honest than publishing an eyeballed number. Calibration trigger: 30+ real multi-veto audits in `memory/audits/`, reviewed through `/aaron:guard --evals` plus maintainer calibration.
+**Why BLOCKED, not "capped at 40"**: the 40-tier cap number is unvalidated. Blocking forces manual review, which is more honest than publishing an eyeballed number. Calibration trigger: 30+ real multi-veto audits in `research/content-quality-audits/`, reviewed through the applicable evaluator plus maintainer calibration.
 
 **Note on dimension vs count**: the 2+ veto threshold counts **total veto failures across all dimensions**, not per-dimension. Example 3 shows T04 (Trust dim) + R10 (Referenceability dim) on different dimensions, but T03 + T09 both on the Trust dimension would also trigger BLOCKED. The veto count is dimension-agnostic.
 
@@ -463,7 +463,7 @@ Fix these, then rerun the audit for a score.
 
 ### Cross-version context (rerun after upgrade)
 
-Before rendering the score to the user, check `memory/audits/` for any prior audit of the same URL (by `target` field match). If a prior audit exists AND the new `final_overall_score` differs from the prior `final_overall_score` by more than 10 points, AND the prior audit was produced by a Runbook version earlier than the current one, **prepend a one-line explainer** to the user output.
+Before rendering the score to the user, check `research/content-quality-audits/` for any prior audit of the same URL (by `target` field match). If a prior audit exists AND the new `final_overall_score` differs from the prior `final_overall_score` by more than 10 points, AND the prior audit was produced by a Runbook version earlier than the current one, **prepend a one-line explainer** to the user output.
 
 **Version detection logic** (process in order):
 1. If prior archive has `runbook_version` field → compare directly
@@ -533,7 +533,7 @@ When rendering a multi-finding report, group by tier (critical first, should-fix
 
 Auditor-emitted audit files MUST satisfy these structural invariants for the PostToolUse Artifact Gate hook (`hooks/hooks.json`) to validate them:
 
-1. **Location**: write to `memory/audits/<YYYY-MM-DD>-<topic>.md` (or the monthly archive file `memory/audits/YYYY-MM.md`)
+1. **Location**: write to `research/content-quality-audits/<YYYY-MM-DD>-<topic>.md` (or a scoped project subdirectory such as `research/content-quality-audits/<date>-<topic>/report.md`)
 2. **Frontmatter**: include `class: auditor-output` in YAML frontmatter (enforced by Runbook §1)
 3. **Scope**: YAML handoff blocks appearing elsewhere (blog posts, README examples, skill documentation) are NOT audit artifacts and MUST NOT be treated as such by downstream skills — the path + frontmatter combination is the authoritative filter
 
@@ -669,7 +669,7 @@ Execute in order, referring to the `## Scoring Runbook (authoritative)` block ea
 
 ### Save Results
 
-Ask "Save these results for future sessions?" — if yes, write `YYYY-MM-DD-<topic>.md` to `memory/`. Auto-save veto issues to `memory/hot-cache.md`.
+Ask "Save these results for future sessions?" — if yes, write the audit artifact under a scoped project path such as `research/content-quality-audits/<date>-<topic>/`. Do not create loose non-canonical memory files. Only summarize durable lessons into `memory/YYYY-MM-DD.md` or `MEMORY.md` when they genuinely belong there.
 
 ## Validation Checkpoints
 
