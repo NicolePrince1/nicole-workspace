@@ -9,11 +9,79 @@ Standing rule: no Google Ads, Meta Ads, Sequenzy blast, or public launch push go
 1. **Trust first, traffic second.** Paid traffic only matters if the product, signup path, and tracking are clean.
 2. **No vanity metrics.** Judge the launch on real trial starts, activation, Stripe/app truth, retention signal, and support friction.
 3. **Move fast, but not messy.** Every external action gets a pre-flight check, owner, rollback path, and post-launch read.
-4. **One clear message.** Oviond is simple agency reporting: invisible, dependable, and done.
+4. **One clear message.** Oviond is simple agency reporting: invisible, dependable, and done — now with AI-native workflows through API/MCP so agencies can work with Oviond from ChatGPT, Claude, or the AI tool they already use.
 5. **Do not overload the team.** Product stability is the launch asset. Marketing must support it, not create chaos.
 6. **The first month is the launch.** June cannot be treated as a launch day plus cleanup. It needs a revenue war room: daily truth, fast rescue, and ruthless channel decisions.
 
-## 0. First-month war room thesis
+## 0. Market message and AI priority
+
+### Main market message
+
+**Agency reporting that finally feels simple.**
+
+Supporting line:
+
+**One client-count plan. Every core reporting feature included. Built for agencies that want reporting to be invisible, dependable, and done — with AI-native workflows ready from the tools they already use.**
+
+### What the rebuild is really about
+
+The rebuild is not just a prettier app. It is Oviond rebuilt into a calmer, more reliable agency reporting system with a simpler UI, stronger foundations, clearer pricing, white-label reporting, dashboards, reports, templates, scheduling, API, and MCP.
+
+The market story:
+
+- [ ] Reporting used to be messy; Oviond makes it feel simple.
+- [ ] Pricing used to be confusing; Oviond prices by client count.
+- [ ] Core features used to be gated across the market; Oviond includes the core reporting system.
+- [ ] Agencies used to duct-tape reporting across spreadsheets, Looker Studio, connector tools, screenshots, and manual updates; Oviond gives them one client-ready reporting layer.
+- [ ] AI is now part of how agencies work; Oviond lets them use their preferred AI tools with their reporting system instead of forcing them into a weak in-product chatbot.
+
+### AI positioning correction
+
+AI should not be the only headline, but it **must sit near the top as a major launch proof point**.
+
+The public message is not “Oviond is an AI reporting platform.” That sounds like hype and blends into the market noise. The sharper message is:
+
+> Use Oviond from the AI tools your agency already works in.
+
+What we need to make clear:
+
+- [ ] AI is a huge product priority for Oviond.
+- [ ] Agencies are not locked into one AI provider.
+- [ ] Users can work with Oviond through ChatGPT, Claude, and other AI tools that support the workflow.
+- [ ] Oviond is not trying to trap users inside a half-baked in-app chatbot.
+- [ ] The product stays simple; AI work happens where the user already works.
+- [ ] API/MCP makes Oviond usable by humans, automations, and AI assistants.
+- [ ] The user should be able to connect Oviond to ChatGPT/Claude quickly and start asking, building, or working in natural language.
+
+### AI copy angles to test
+
+- [ ] “Use Oviond from ChatGPT, Claude, or the AI tools your agency already uses.”
+- [ ] “Ask your AI assistant to work with your Oviond reporting data.”
+- [ ] “Build, update, and understand reports through natural language.”
+- [ ] “AI-ready reporting without locking your agency into one AI provider.”
+- [ ] “Simple UI for your team. API and MCP for your AI workflows.”
+- [ ] “Connect Oviond to your AI assistant and work with your reporting system in seconds.”
+
+### Messaging hierarchy
+
+1. **Simple agency reporting.**  
+   Agency reporting that finally feels simple.
+
+2. **Transparent pricing.**  
+   Pick your client count. Get the full reporting system.
+
+3. **White-label client-ready delivery.**  
+   Reports, dashboards, templates, branding, custom domains, and scheduling.
+
+4. **AI-native workflows.**  
+   Use Oviond from ChatGPT, Claude, or the AI tools your agency already uses — without being locked into one provider.
+
+5. **Reliable foundation.**  
+   Rebuilt for cleaner setup, better trust, stronger reporting workflows, and future automation.
+
+---
+
+## 0B. First-month war room thesis
 
 The launch goal is not “new website/app live.” The launch goal is **net MRR movement**: more qualified trials, faster activation, saved churn, reactivated warm contacts, and cleaner acquisition decisions.
 
