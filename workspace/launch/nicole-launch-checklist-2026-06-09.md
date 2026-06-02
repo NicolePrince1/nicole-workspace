@@ -83,6 +83,55 @@ Standing rule: no Google Ads, Meta Ads, Sequenzy blast, or public launch push go
 
 ## 3. Sequenzy launch plan
 
+### Broadcast vs sequence strategy for ~10,000 warm contacts
+
+Nicole's recommendation: **do both, but not as one blunt blast.**
+
+The ~10,000 warm contacts — mostly expired trials, churned users, old leads, and prior evaluators — are one of the highest-leverage launch assets. But treating them as one list would be risky: different people left for different reasons, at different times, with different levels of trust. The right move is a **controlled reactivation program**: one launch broadcast to create awareness, followed by segmented Sequenzy sequences to reel the right people back in.
+
+Launch posture:
+
+- [ ] Do **not** send one generic email to all 10,000 contacts on launch day.
+- [ ] Clean and segment the list before any send.
+- [ ] Use a controlled first broadcast wave only after launch/tracking is stable and Chris approves.
+- [ ] Follow with short, segmented sequences based on who they are and how they respond.
+- [ ] Watch deliverability, unsubscribes, spam complaints, replies, and trial starts before scaling to the full list.
+
+Recommended segmentation:
+
+- [ ] **Expired trials, never activated:** simple “Oviond is easier now — try again” sequence.
+- [ ] **Expired trials, partially activated:** “You were close — here is what changed” sequence.
+- [ ] **Churned customers:** more careful “we rebuilt what frustrated you” win-back sequence.
+- [ ] **High-value churned customers:** manual/personal outreach before generic automation.
+- [ ] **Old leads / newsletter contacts:** lighter launch announcement and education sequence.
+- [ ] **Dormant/unengaged contacts:** slow re-permission/reactivation wave, not aggressive sales pressure.
+
+Recommended flow:
+
+1. **Launch announcement broadcast**  
+   A controlled campaign announcing that the new Oviond is live, framed around simplicity, reliability, and rebuilt foundations — not hype.
+
+2. **Behavior-based branching**  
+   - Opened/clicked → enter relevant reactivation sequence.
+   - Did not open → resend once with a different subject after a few days, then cool down.
+   - Replied → route to support/sales/manual follow-up.
+   - Started trial → suppress from win-back and enter trial activation sequence.
+   - Unsubscribed/complained → suppress immediately.
+
+3. **Segmented Sequenzy sequences**  
+   3–5 emails max per segment. Keep the copy sharp, honest, and benefit-led. No long “we are excited” nonsense.
+
+4. **Stop-loss rules**  
+   Pause if bounce/spam complaints spike, if unsubscribes are ugly, if tracking is not clean, or if support starts seeing confusion from the email.
+
+What success looks like:
+
+- [ ] Reactivated trials from old expired trials.
+- [ ] Win-back replies from churned customers.
+- [ ] Real trial starts attributed to email.
+- [ ] Activation quality, not just opens/clicks.
+- [ ] Clear objections we can feed back into website/product/comms.
+
 ### Pre-launch audit
 
 - [ ] Run/read-only audit of Sequenzy account state.
