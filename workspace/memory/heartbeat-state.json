@@ -1,7 +1,7 @@
 {
   "lastChecks": {
-    "trial_health": 1780400077,
-    "revenue_pulse": 1780400077,
+    "trial_health": 1780410879,
+    "revenue_pulse": 1780410879,
     "seo_movement": 1780403661,
     "email_health": 1780405487,
     "ad_spend": 1780401918
@@ -10,8 +10,8 @@
     "trial_health": {
       "status": "attention",
       "trialing_count": 19,
-      "previous_trialing_count": 20,
-      "delta_trialing_count": -1,
+      "previous_trialing_count": 19,
+      "delta_trialing_count": 0,
       "near_expiry_count_next_3_days": 4,
       "near_expiry_sample": [
         {
@@ -35,21 +35,21 @@
           "current_period_end": "2026-06-04T08:54:54+00:00"
         }
       ],
-      "note": "Stripe trialing subscriptions fell to 19 versus the last heartbeat count, and 4 active trials expire within the next 3 days."
+      "note": "Stripe trialing subscriptions stayed at 19 versus the last heartbeat count, and 4 active trials expire within the next 3 days."
     },
     "revenue_pulse": {
       "status": "attention",
       "window": {
-        "last_7_start": "2026-05-26T11:34:37+00:00",
-        "last_7_end": "2026-06-02T11:34:37+00:00",
-        "prior_7_start": "2026-05-19T11:34:37+00:00",
-        "prior_7_end": "2026-05-26T11:34:37+00:00"
+        "last_7_start": "2026-05-26T14:34:39+00:00",
+        "last_7_end": "2026-06-02T14:34:39+00:00",
+        "prior_7_start": "2026-05-19T14:34:39+00:00",
+        "prior_7_end": "2026-05-26T14:34:39+00:00"
       },
-      "last_7_days_paid_revenue": 5968.25,
+      "last_7_days_paid_revenue": 5978.25,
       "last_7_days_paid_invoices": 89,
-      "prior_7_days_paid_revenue": 4025.24,
+      "prior_7_days_paid_revenue": 4064.24,
       "prior_7_days_paid_invoices": 68,
-      "delta_revenue": 1943.01,
+      "delta_revenue": 1914.01,
       "delta_invoices": 21,
       "past_due_count": 41,
       "note": "Stripe rolling 7-day paid invoice revenue is up versus the prior 7-day window, but delinquent subscription count remains above the >20 alert threshold at 41."
