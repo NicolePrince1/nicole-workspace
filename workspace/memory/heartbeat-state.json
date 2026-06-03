@@ -4,7 +4,7 @@
     "revenue_pulse": 1780463075,
     "seo_movement": 1780418063,
     "email_health": 1780405487,
-    "ad_spend": 1780418063
+    "ad_spend": 1780470309
   },
   "lastMetrics": {
     "trial_health": {
@@ -63,8 +63,8 @@
     "ad_spend": {
       "status": "ok",
       "window": {
-        "since": "2026-05-27",
-        "until": "2026-06-02",
+        "since": "2026-05-28",
+        "until": "2026-06-03",
         "days": 7
       },
       "meta": {
