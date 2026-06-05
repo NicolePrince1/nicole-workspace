@@ -2,9 +2,9 @@
   "lastChecks": {
     "trial_health": 1780596279,
     "revenue_pulse": 1780596279,
-    "seo_movement": 1780473931,
+    "seo_movement": 1780635862,
     "email_health": 1780473931,
-    "ad_spend": 1780470309
+    "ad_spend": 1780635862
   },
   "lastMetrics": {
     "trial_health": {
@@ -47,8 +47,8 @@
     "seo_movement": {
       "status": "ok",
       "window": {
-        "startDate": "2026-05-30",
-        "endDate": "2026-06-03"
+        "startDate": "2026-05-31",
+        "endDate": "2026-06-04"
       },
       "flagged_drops_gt3": [],
       "note": "Current top non-brand GSC window shows no exact overlapping query position drops greater than 3 versus the last stored SEO baseline."
@@ -63,8 +63,8 @@
     "ad_spend": {
       "status": "ok",
       "window": {
-        "since": "2026-05-28",
-        "until": "2026-06-03",
+        "since": "2026-05-30",
+        "until": "2026-06-05",
         "days": 7
       },
       "meta": {

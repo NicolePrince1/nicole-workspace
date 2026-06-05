@@ -1,34 +1,34 @@
 {
-  "captured_at": "2026-06-03T08:05:31Z",
+  "captured_at": "2026-06-05T05:04:22Z",
   "window": {
-    "startDate": "2026-05-30",
-    "endDate": "2026-06-03"
+    "startDate": "2026-05-31",
+    "endDate": "2026-06-04"
   },
   "baseline_window": {
-    "startDate": "2026-05-29",
-    "endDate": "2026-06-02"
+    "startDate": "2026-05-30",
+    "endDate": "2026-06-03"
   },
   "top10": [
     {
       "query": "ai marketing bot free",
       "clicks": 1,
-      "impressions": 2,
-      "ctr": 0.5,
-      "position": 12.0
+      "impressions": 1,
+      "ctr": 1.0,
+      "position": 13.0
     },
     {
       "query": "digital marketing pillars",
       "clicks": 1,
-      "impressions": 9,
-      "ctr": 0.1111111111111111,
-      "position": 2.333333333333333
+      "impressions": 7,
+      "ctr": 0.14285714285714285,
+      "position": 1.7142857142857144
     },
     {
       "query": "google ads performance report template",
       "clicks": 1,
-      "impressions": 10,
-      "ctr": 0.1,
-      "position": 37.2
+      "impressions": 6,
+      "ctr": 0.16666666666666666,
+      "position": 35.333333333333336
     },
     {
       "query": "marketing kpi dashboard excel template",
@@ -40,16 +40,16 @@
     {
       "query": "performance report",
       "clicks": 1,
-      "impressions": 117,
-      "ctr": 0.008547008547008548,
-      "position": 6.111111111111111
+      "impressions": 92,
+      "ctr": 0.010869565217391304,
+      "position": 6.576086956521739
     },
     {
       "query": "pros and cons of influencer marketing",
       "clicks": 1,
-      "impressions": 19,
-      "ctr": 0.05263157894736842,
-      "position": 3.210526315789474
+      "impressions": 15,
+      "ctr": 0.06666666666666667,
+      "position": 3.1333333333333333
     },
     {
       "query": "\"19037\" \"internet contents providing company\" blog",
@@ -64,20 +64,6 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 8.0
-    },
-    {
-      "query": "\"adobe marketing stack",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 16.0
-    },
-    {
-      "query": "\"local marketing\"",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 33.0
     }
   ],
   "flagged_drops_gt3": [],
