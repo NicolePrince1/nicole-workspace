@@ -1,7 +1,7 @@
 {
   "lastChecks": {
-    "trial_health": 1780743879,
-    "revenue_pulse": 1780743879,
+    "trial_health": 1780758283,
+    "revenue_pulse": 1780758283,
     "seo_movement": 1780751151,
     "email_health": 1780749295,
     "ad_spend": 1780751151
@@ -10,8 +10,8 @@
     "trial_health": {
       "status": "attention",
       "trialing_count": 23,
-      "previous_trialing_count": 22,
-      "delta_trialing_count": 1,
+      "previous_trialing_count": 23,
+      "delta_trialing_count": 0,
       "near_expiry_count_next_3_days": 3,
       "near_expiry_sample": [
         {
@@ -30,21 +30,21 @@
           "current_period_end": "2026-06-09T06:27:02+00:00"
         }
       ],
-      "note": "Stripe trialing subscriptions rose to 23 versus the last heartbeat count, and 3 active trials expire within the next 3 days."
+      "note": "Stripe trialing subscriptions stayed at 23 versus the last heartbeat count, and 3 active trials expire within the next 3 days."
     },
     "revenue_pulse": {
       "status": "attention",
       "window": {
-        "last_7_start": "2026-05-30T11:04:39+00:00",
-        "last_7_end": "2026-06-06T11:04:39+00:00",
-        "prior_7_start": "2026-05-23T11:04:39+00:00",
-        "prior_7_end": "2026-05-30T11:04:39+00:00"
+        "last_7_start": "2026-05-30T15:04:43+00:00",
+        "last_7_end": "2026-06-06T15:04:43+00:00",
+        "prior_7_start": "2026-05-23T15:04:43+00:00",
+        "prior_7_end": "2026-05-30T15:04:43+00:00"
       },
-      "last_7_days_paid_revenue": 4758.34,
+      "last_7_days_paid_revenue": 4782.34,
       "last_7_days_paid_invoices": 92,
-      "prior_7_days_paid_revenue": 6490.19,
+      "prior_7_days_paid_revenue": 6425.19,
       "prior_7_days_paid_invoices": 90,
-      "delta_revenue": -1731.85,
+      "delta_revenue": -1642.85,
       "delta_invoices": 2,
       "past_due_count": 42,
       "note": "Stripe rolling 7-day paid invoice revenue is down versus the prior 7-day window and delinquent subscription count remains above the >20 alert threshold at 42."
