@@ -1,8 +1,8 @@
 {
-  "captured_at": "2026-06-06T05:34:22Z",
+  "captured_at": "2026-06-06T13:05:51Z",
   "window": {
-    "startDate": "2026-06-01",
-    "endDate": "2026-06-05"
+    "startDate": "2026-06-02",
+    "endDate": "2026-06-06"
   },
   "baseline_window": {
     "startDate": "2026-06-01",
@@ -10,60 +10,67 @@
   },
   "top10": [
     {
-      "query": "digital marketing pillars",
+      "query": "advantages and disadvantages of influencer marketing",
       "clicks": 1,
-      "impressions": 5,
-      "ctr": 0.2,
-      "position": 1.8
-    },
-    {
-      "query": "google ads performance report template",
-      "clicks": 1,
-      "impressions": 2,
-      "ctr": 0.5,
-      "position": 22.0
-    },
-    {
-      "query": "performance report",
-      "clicks": 1,
-      "impressions": 59,
-      "ctr": 0.01694915254237288,
-      "position": 5.406779661016949
+      "impressions": 3,
+      "ctr": 0.3333333333333333,
+      "position": 1.0
     },
     {
       "query": "\"19037\" \"internet contents providing company\" blog",
       "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 9.5
-    },
-    {
-      "query": "\"adobe campaign\" \"data insights\" audiences",
-      "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 8.0
-    },
-    {
-      "query": "\"local marketing\"",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 33.0
-    },
-    {
-      "query": "\"marketing reporting template\"",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 13.5
+      "position": 9.0
     },
     {
       "query": "\"marketing reporting\"",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 46.0
+      "position": 42.0
+    },
+    {
+      "query": "\"x ads (twitter)\" official website homepage",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0.0,
+      "position": 8.25
+    },
+    {
+      "query": "### occasion / use case",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 85.0
+    },
+    {
+      "query": "#paid marketing",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 22.5
+    },
+    {
+      "query": "+social +media +content +marketing",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 26.0
+    },
+    {
+      "query": "11022 seo and analytics",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 34.0
+    },
+    {
+      "query": "11122: seo report bulk keywords",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 13.0
     }
   ],
   "flagged_drops_gt3": [],
