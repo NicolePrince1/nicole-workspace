@@ -1,7 +1,7 @@
 {
   "lastChecks": {
-    "trial_health": 1780808687,
-    "revenue_pulse": 1780808687,
+    "trial_health": 1780824879,
+    "revenue_pulse": 1780824879,
     "seo_movement": 1780751151,
     "email_health": 1780823062,
     "ad_spend": 1780821300
@@ -9,10 +9,10 @@
   "lastMetrics": {
     "trial_health": {
       "status": "attention",
-      "trialing_count": 22,
+      "trialing_count": 23,
       "previous_trialing_count": 22,
-      "delta_trialing_count": 0,
-      "near_expiry_count_next_3_days": 2,
+      "delta_trialing_count": 1,
+      "near_expiry_count_next_3_days": 3,
       "near_expiry_sample": [
         {
           "subscription_id": "sub_1TarycEV1Q8wnLquosJYn7g0",
@@ -23,24 +23,29 @@
           "subscription_id": "sub_1TbC6GEV1Q8wnLqujh34f5aJ",
           "customer_id": "cus_UaMprRJhSENjWr",
           "current_period_end": "2026-06-10T03:56:16+00:00"
+        },
+        {
+          "subscription_id": "sub_1TbH0dEV1Q8wnLquvDT7uXvM",
+          "customer_id": "cus_UaRuQ5Cy0HRqoa",
+          "current_period_end": "2026-06-10T09:10:47+00:00"
         }
       ],
-      "note": "Stripe trialing subscriptions stayed at 22 versus the last heartbeat count, and 2 active trials expire within the next 3 days."
+      "note": "Stripe trialing subscriptions rose to 23 versus the last heartbeat count, and 3 active trials expire within the next 3 days."
     },
     "revenue_pulse": {
       "status": "attention",
       "window": {
-        "last_7_start": "2026-05-31T05:04:47+00:00",
-        "last_7_end": "2026-06-07T05:04:47+00:00",
-        "prior_7_start": "2026-05-24T05:04:47+00:00",
-        "prior_7_end": "2026-05-31T05:04:47+00:00"
+        "last_7_start": "2026-05-31T09:34:39+00:00",
+        "last_7_end": "2026-06-07T09:34:39+00:00",
+        "prior_7_start": "2026-05-24T09:34:39+00:00",
+        "prior_7_end": "2026-05-31T09:34:39+00:00"
       },
-      "last_7_days_paid_revenue": 4593.34,
-      "last_7_days_paid_invoices": 89,
-      "prior_7_days_paid_revenue": 6940.19,
-      "prior_7_days_paid_invoices": 95,
-      "delta_revenue": -2346.85,
-      "delta_invoices": -6,
+      "last_7_days_paid_revenue": 4722.34,
+      "last_7_days_paid_invoices": 91,
+      "prior_7_days_paid_revenue": 6758.19,
+      "prior_7_days_paid_invoices": 91,
+      "delta_revenue": -2035.85,
+      "delta_invoices": 0,
       "past_due_count": 42,
       "note": "Stripe rolling 7-day paid invoice revenue is down sharply versus the prior 7-day window and delinquent subscription count remains above the >20 alert threshold at 42."
     },
