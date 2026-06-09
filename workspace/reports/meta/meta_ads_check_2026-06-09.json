@@ -1,0 +1,2715 @@
+{
+  "states": {
+    "ok": true,
+    "data": {
+      "campaigns": [
+        {
+          "id": "120234146733660563",
+          "name": "Remarketing USA",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "configured_status": "PAUSED",
+          "objective": "OUTCOME_TRAFFIC",
+          "daily_budget": "50000",
+          "created_time": "2025-09-17T18:09:53+0200",
+          "updated_time": "2026-04-24T15:52:15+0200"
+        },
+        {
+          "id": "120242845828470563",
+          "name": "Remarketing USA - Free Trial Test",
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "configured_status": "PAUSED",
+          "objective": "OUTCOME_LEADS",
+          "daily_budget": "50000",
+          "created_time": "2026-03-25T15:14:24+0200",
+          "updated_time": "2026-04-24T15:52:11+0200"
+        }
+      ],
+      "adsets": [
+        {
+          "id": "120242846203880563",
+          "name": "United States",
+          "campaign_id": "120242845828470563",
+          "campaign": {
+            "name": "Remarketing USA - Free Trial Test",
+            "id": "120242845828470563"
+          },
+          "status": "ACTIVE",
+          "effective_status": "CAMPAIGN_PAUSED",
+          "configured_status": "ACTIVE",
+          "optimization_goal": "OFFSITE_CONVERSIONS",
+          "billing_event": "IMPRESSIONS",
+          "targeting": {
+            "age_max": 65,
+            "age_min": 18,
+            "custom_audiences": [
+              {
+                "id": "120211418879260563",
+                "name": "All Website Visitors 120 Days"
+              }
+            ],
+            "geo_locations": {
+              "countries": [
+                "US"
+              ],
+              "location_types": [
+                "home",
+                "recent"
+              ]
+            },
+            "targeting_relaxation_types": {
+              "lookalike": 0,
+              "custom_audience": 0
+            },
+            "targeting_automation": {
+              "advantage_audience": 0
+            },
+            "publisher_platforms": [
+              "facebook"
+            ],
+            "facebook_positions": [
+              "feed",
+              "right_hand_column"
+            ],
+            "device_platforms": [
+              "mobile",
+              "desktop"
+            ]
+          },
+          "created_time": "2026-03-25T15:16:32+0200",
+          "updated_time": "2026-04-07T09:06:24+0200"
+        },
+        {
+          "id": "120234146733780563",
+          "name": "United States",
+          "campaign_id": "120234146733660563",
+          "campaign": {
+            "name": "Remarketing USA",
+            "id": "120234146733660563"
+          },
+          "status": "ACTIVE",
+          "effective_status": "CAMPAIGN_PAUSED",
+          "configured_status": "ACTIVE",
+          "optimization_goal": "LANDING_PAGE_VIEWS",
+          "billing_event": "IMPRESSIONS",
+          "targeting": {
+            "age_max": 65,
+            "age_min": 18,
+            "custom_audiences": [
+              {
+                "id": "120211418879260563",
+                "name": "All Website Visitors 120 Days"
+              }
+            ],
+            "genders": [
+              0
+            ],
+            "geo_locations": {
+              "countries": [
+                "US"
+              ],
+              "location_types": [
+                "home",
+                "recent"
+              ]
+            },
+            "brand_safety_content_filter_levels": [
+              "FACEBOOK_RELAXED",
+              "AN_RELAXED"
+            ],
+            "targeting_relaxation_types": {
+              "lookalike": 0,
+              "custom_audience": 0
+            },
+            "targeting_automation": {
+              "advantage_audience": 0
+            },
+            "publisher_platforms": [
+              "facebook"
+            ],
+            "facebook_positions": [
+              "feed",
+              "right_hand_column"
+            ],
+            "device_platforms": [
+              "mobile",
+              "desktop"
+            ]
+          },
+          "created_time": "2025-09-17T18:09:54+0200",
+          "updated_time": "2026-04-03T07:05:32+0200"
+        }
+      ],
+      "ads": [
+        {
+          "id": "120242846210870563",
+          "name": "Images - Product",
+          "campaign_id": "120242845828470563",
+          "campaign": {
+            "name": "Remarketing USA - Free Trial Test",
+            "id": "120242845828470563"
+          },
+          "adset_id": "120242846203880563",
+          "adset": {
+            "name": "United States",
+            "id": "120242846203880563"
+          },
+          "status": "ACTIVE",
+          "effective_status": "CAMPAIGN_PAUSED",
+          "configured_status": "ACTIVE",
+          "created_time": "2026-03-25T15:16:41+0200",
+          "updated_time": "2026-04-17T09:06:30+0200",
+          "creative": {
+            "id": "1350368409807052",
+            "name": "{{product.name}} 2026-03-27-c093fe3219b0f2bc652dfc7a929cf578",
+            "object_type": "SHARE"
+          }
+        },
+        {
+          "id": "120242846212370563",
+          "name": "Carousels - Product",
+          "campaign_id": "120242845828470563",
+          "campaign": {
+            "name": "Remarketing USA - Free Trial Test",
+            "id": "120242845828470563"
+          },
+          "adset_id": "120242846203880563",
+          "adset": {
+            "name": "United States",
+            "id": "120242846203880563"
+          },
+          "status": "PAUSED",
+          "effective_status": "PAUSED",
+          "configured_status": "PAUSED",
+          "created_time": "2026-03-25T15:16:44+0200",
+          "updated_time": "2026-04-17T09:06:29+0200",
+          "creative": {
+            "id": "825715109862293",
+            "name": "OVIOND 2026-03-27-3de4649db2d0dc09c7126719ae61f26f",
+            "object_type": "SHARE"
+          }
+        },
+        {
+          "id": "120243374907550563",
+          "name": "Images - Product (recovery 2026-04-03)",
+          "campaign_id": "120234146733660563",
+          "campaign": {
+            "name": "Remarketing USA",
+            "id": "120234146733660563"
+          },
+          "adset_id": "120234146733780563",
+          "adset": {
+            "name": "United States",
+            "id": "120234146733780563"
+          },
+          "status": "ACTIVE",
+          "effective_status": "CAMPAIGN_PAUSED",
+          "configured_status": "ACTIVE",
+          "created_time": "2026-04-03T11:42:41+0200",
+          "updated_time": "2026-04-03T11:44:59+0200",
+          "creative": {
+            "id": "1350368409807052",
+            "name": "{{product.name}} 2026-03-27-c093fe3219b0f2bc652dfc7a929cf578",
+            "object_type": "SHARE"
+          }
+        },
+        {
+          "id": "120234146733690563",
+          "name": "Images - Product",
+          "campaign_id": "120234146733660563",
+          "campaign": {
+            "name": "Remarketing USA",
+            "id": "120234146733660563"
+          },
+          "adset_id": "120234146733780563",
+          "adset": {
+            "name": "United States",
+            "id": "120234146733780563"
+          },
+          "status": "PAUSED",
+          "effective_status": "WITH_ISSUES",
+          "configured_status": "PAUSED",
+          "created_time": "2025-09-17T20:34:03+0200",
+          "updated_time": "2026-04-03T10:07:10+0200",
+          "creative": {
+            "id": "960151773624812",
+            "name": "{{product.name}} 2026-04-02-3cfc486741443f9910733d149fea06b1",
+            "object_type": "SHARE"
+          },
+          "issues_info": [
+            {
+              "level": "AD",
+              "error_code": 2643069,
+              "error_summary": "Ad processing error",
+              "error_message": "Ad processing error: We are having trouble with processing your request. To resolve the issue, please try to publish again. If you continue to experience issues, please contact support. We apologise for the inconvenience.",
+              "error_type": "HARD_ERROR",
+              "mid": "1e03cccb4e43874734297de8a48f736c"
+            }
+          ],
+          "recommendations": [
+            {
+              "title": "Ad isn't optimised for conversions",
+              "message": "Your tracking pixel is active, but your ad isn't optimised for off-site conversions. You may get better results if you choose off-site conversions as your optimisation goal.",
+              "code": 1942006,
+              "importance": "HIGH",
+              "confidence": "HIGH",
+              "blame_field": "tracking_specs"
+            }
+          ]
+        },
+        {
+          "id": "120234146733680563",
+          "name": "Carousels - Product",
+          "campaign_id": "120234146733660563",
+          "campaign": {
+            "name": "Remarketing USA",
+            "id": "120234146733660563"
+          },
+          "adset_id": "120234146733780563",
+          "adset": {
+            "name": "United States",
+            "id": "120234146733780563"
+          },
+          "status": "PAUSED",
+          "effective_status": "WITH_ISSUES",
+          "configured_status": "PAUSED",
+          "created_time": "2025-09-17T20:20:49+0200",
+          "updated_time": "2026-04-03T10:07:04+0200",
+          "creative": {
+            "id": "4398431757151973",
+            "name": "OVIOND 2026-04-02-d1ee912516152f3926dd0660139497fe",
+            "object_type": "SHARE"
+          },
+          "issues_info": [
+            {
+              "level": "AD",
+              "error_code": 2643069,
+              "error_summary": "Ad processing error",
+              "error_message": "Ad processing error: We are having trouble with processing your request. To resolve the issue, please try to publish again. If you continue to experience issues, please contact support. We apologise for the inconvenience.",
+              "error_type": "HARD_ERROR",
+              "mid": "1e03cccb4e43874734297de8a48f736c"
+            }
+          ],
+          "recommendations": [
+            {
+              "title": "Ad isn't optimised for conversions",
+              "message": "Your tracking pixel is active, but your ad isn't optimised for off-site conversions. You may get better results if you choose off-site conversions as your optimisation goal.",
+              "code": 1942006,
+              "importance": "HIGH",
+              "confidence": "HIGH",
+              "blame_field": "tracking_specs"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "insights": {
+    "last_2_days": {
+      "campaign": {
+        "ok": true,
+        "data": []
+      },
+      "adset": {
+        "ok": true,
+        "data": []
+      },
+      "ad": {
+        "ok": true,
+        "data": []
+      },
+      "platform_campaign": {
+        "ok": true,
+        "data": []
+      },
+      "platform_ad": {
+        "ok": true,
+        "data": []
+      }
+    },
+    "last_7_days": {
+      "campaign": {
+        "ok": true,
+        "data": []
+      },
+      "adset": {
+        "ok": true,
+        "data": []
+      },
+      "ad": {
+        "ok": true,
+        "data": []
+      },
+      "platform_campaign": {
+        "ok": true,
+        "data": []
+      },
+      "platform_ad": {
+        "ok": true,
+        "data": []
+      }
+    },
+    "test_since_launch": {
+      "campaign": {
+        "ok": true,
+        "data": [
+          {
+            "campaign_id": "120234146733660563",
+            "campaign_name": "Remarketing USA",
+            "spend": "11357.27",
+            "clicks": "274",
+            "ctr": "0.45014",
+            "impressions": "60870",
+            "inline_link_clicks": "175",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "175"
+              },
+              {
+                "action_type": "post_reaction",
+                "value": "8"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "69"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "69"
+              },
+              {
+                "action_type": "onsite_conversion.post_unlike",
+                "value": "1"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "247"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "9"
+              },
+              {
+                "action_type": "comment",
+                "value": "1"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "247"
+              },
+              {
+                "action_type": "post_interaction_net",
+                "value": "11"
+              },
+              {
+                "action_type": "post_uncomment",
+                "value": "1"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_comment",
+                "value": "2"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_like",
+                "value": "7"
+              },
+              {
+                "action_type": "video_view",
+                "value": "63"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "399"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "video_view",
+                "value": "180.274127"
+              },
+              {
+                "action_type": "link_click",
+                "value": "64.898686"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "1261.918889"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "45.98085"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "45.98085"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "164.598116"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "164.598116"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "28.464336"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09"
+          },
+          {
+            "campaign_id": "120242845828470563",
+            "campaign_name": "Remarketing USA - Free Trial Test",
+            "spend": "8665.64",
+            "clicks": "103",
+            "ctr": "0.942102",
+            "impressions": "10933",
+            "inline_link_clicks": "78",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "78"
+              },
+              {
+                "action_type": "post_reaction",
+                "value": "5"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "43"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "43"
+              },
+              {
+                "action_type": "onsite_conversion.post_unlike",
+                "value": "1"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "83"
+              },
+              {
+                "action_type": "like",
+                "value": "1"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "5"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "84"
+              },
+              {
+                "action_type": "post_interaction_net",
+                "value": "6"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_like",
+                "value": "4"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "352"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "111.097949"
+              },
+              {
+                "action_type": "like",
+                "value": "8665.64"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "1733.128"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "104.405301"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "103.162381"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "201.526512"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "201.526512"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "24.618295"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09"
+          }
+        ]
+      },
+      "adset": {
+        "ok": true,
+        "data": [
+          {
+            "campaign_id": "120234146733660563",
+            "campaign_name": "Remarketing USA",
+            "adset_id": "120234146733780563",
+            "adset_name": "United States",
+            "spend": "11357.27",
+            "clicks": "274",
+            "ctr": "0.45014",
+            "impressions": "60870",
+            "inline_link_clicks": "175",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "175"
+              },
+              {
+                "action_type": "post_reaction",
+                "value": "8"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "69"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "69"
+              },
+              {
+                "action_type": "onsite_conversion.post_unlike",
+                "value": "1"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "247"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "9"
+              },
+              {
+                "action_type": "comment",
+                "value": "1"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "247"
+              },
+              {
+                "action_type": "post_interaction_net",
+                "value": "11"
+              },
+              {
+                "action_type": "post_uncomment",
+                "value": "1"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_comment",
+                "value": "2"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_like",
+                "value": "7"
+              },
+              {
+                "action_type": "video_view",
+                "value": "63"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "399"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "video_view",
+                "value": "180.274127"
+              },
+              {
+                "action_type": "link_click",
+                "value": "64.898686"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "1261.918889"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "45.98085"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "45.98085"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "164.598116"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "164.598116"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "28.464336"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09"
+          },
+          {
+            "campaign_id": "120242845828470563",
+            "campaign_name": "Remarketing USA - Free Trial Test",
+            "adset_id": "120242846203880563",
+            "adset_name": "United States",
+            "spend": "8665.64",
+            "clicks": "103",
+            "ctr": "0.942102",
+            "impressions": "10933",
+            "inline_link_clicks": "78",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "78"
+              },
+              {
+                "action_type": "post_reaction",
+                "value": "5"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "43"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "43"
+              },
+              {
+                "action_type": "onsite_conversion.post_unlike",
+                "value": "1"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "83"
+              },
+              {
+                "action_type": "like",
+                "value": "1"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "5"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "84"
+              },
+              {
+                "action_type": "post_interaction_net",
+                "value": "6"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_like",
+                "value": "4"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "352"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "111.097949"
+              },
+              {
+                "action_type": "like",
+                "value": "8665.64"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "1733.128"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "104.405301"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "103.162381"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "201.526512"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "201.526512"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "24.618295"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09"
+          }
+        ]
+      },
+      "ad": {
+        "ok": true,
+        "data": [
+          {
+            "campaign_id": "120234146733660563",
+            "campaign_name": "Remarketing USA",
+            "adset_id": "120234146733780563",
+            "adset_name": "United States",
+            "ad_id": "120234146733680563",
+            "ad_name": "Carousels - Product",
+            "spend": "385.86",
+            "clicks": "9",
+            "ctr": "0.200356",
+            "impressions": "4492",
+            "inline_link_clicks": "5",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "5"
+              },
+              {
+                "action_type": "post_reaction",
+                "value": "1"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "1"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "1"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "69"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "1"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "69"
+              },
+              {
+                "action_type": "post_interaction_net",
+                "value": "1"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_like",
+                "value": "1"
+              },
+              {
+                "action_type": "video_view",
+                "value": "63"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "79"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "video_view",
+                "value": "6.124762"
+              },
+              {
+                "action_type": "link_click",
+                "value": "77.172"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "385.86"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "5.592174"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "5.592174"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "385.86"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "385.86"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "4.884304"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09"
+          },
+          {
+            "campaign_id": "120234146733660563",
+            "campaign_name": "Remarketing USA",
+            "adset_id": "120234146733780563",
+            "adset_name": "United States",
+            "ad_id": "120234146733690563",
+            "ad_name": "Images - Product",
+            "spend": "2357.66",
+            "clicks": "58",
+            "ctr": "0.216176",
+            "impressions": "26830",
+            "inline_link_clicks": "48",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "48"
+              },
+              {
+                "action_type": "post_reaction",
+                "value": "3"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "22"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "22"
+              },
+              {
+                "action_type": "onsite_conversion.post_unlike",
+                "value": "1"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "51"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "3"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "51"
+              },
+              {
+                "action_type": "post_interaction_net",
+                "value": "4"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_like",
+                "value": "2"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "320"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "49.117917"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "785.886667"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "46.228627"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "46.228627"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "107.166364"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "107.166364"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "7.367688"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09"
+          },
+          {
+            "campaign_id": "120242845828470563",
+            "campaign_name": "Remarketing USA - Free Trial Test",
+            "adset_id": "120242846203880563",
+            "adset_name": "United States",
+            "ad_id": "120242846210870563",
+            "ad_name": "Images - Product",
+            "spend": "7433.42",
+            "clicks": "93",
+            "ctr": "0.966435",
+            "impressions": "9623",
+            "inline_link_clicks": "72",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "72"
+              },
+              {
+                "action_type": "post_reaction",
+                "value": "5"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "41"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "41"
+              },
+              {
+                "action_type": "onsite_conversion.post_unlike",
+                "value": "1"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "77"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "5"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "77"
+              },
+              {
+                "action_type": "post_interaction_net",
+                "value": "6"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_like",
+                "value": "4"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "337"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "103.241944"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "1486.684"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "96.537922"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "96.537922"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "181.302927"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "181.302927"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "22.057626"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09"
+          },
+          {
+            "campaign_id": "120242845828470563",
+            "campaign_name": "Remarketing USA - Free Trial Test",
+            "adset_id": "120242846203880563",
+            "adset_name": "United States",
+            "ad_id": "120242846212370563",
+            "ad_name": "Carousels - Product",
+            "spend": "1232.22",
+            "clicks": "10",
+            "ctr": "0.763359",
+            "impressions": "1310",
+            "inline_link_clicks": "6",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "6"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "2"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "2"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "6"
+              },
+              {
+                "action_type": "like",
+                "value": "1"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "7"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "15"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "205.37"
+              },
+              {
+                "action_type": "like",
+                "value": "1232.22"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "205.37"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "176.031429"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "616.11"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "616.11"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "82.148"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09"
+          },
+          {
+            "campaign_id": "120234146733660563",
+            "campaign_name": "Remarketing USA",
+            "adset_id": "120234146733780563",
+            "adset_name": "United States",
+            "ad_id": "120243374907550563",
+            "ad_name": "Images - Product (recovery 2026-04-03)",
+            "spend": "8613.75",
+            "clicks": "207",
+            "ctr": "0.700555",
+            "impressions": "29548",
+            "inline_link_clicks": "122",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "122"
+              },
+              {
+                "action_type": "post_reaction",
+                "value": "4"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "46"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "46"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "127"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "5"
+              },
+              {
+                "action_type": "comment",
+                "value": "1"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "127"
+              },
+              {
+                "action_type": "post_interaction_net",
+                "value": "6"
+              },
+              {
+                "action_type": "post_uncomment",
+                "value": "1"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_comment",
+                "value": "2"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_like",
+                "value": "4"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "70.604508"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "1722.75"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "67.824803"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "67.824803"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "187.255435"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "187.255435"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09"
+          }
+        ]
+      },
+      "platform_campaign": {
+        "ok": true,
+        "data": [
+          {
+            "campaign_id": "120234146733660563",
+            "campaign_name": "Remarketing USA",
+            "spend": "9991.234155",
+            "clicks": "246",
+            "ctr": "0.520492",
+            "impressions": "47263",
+            "inline_link_clicks": "150",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "150"
+              },
+              {
+                "action_type": "post_reaction",
+                "value": "8"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "61"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "61"
+              },
+              {
+                "action_type": "onsite_conversion.post_unlike",
+                "value": "1"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "209"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "9"
+              },
+              {
+                "action_type": "comment",
+                "value": "1"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "209"
+              },
+              {
+                "action_type": "post_interaction_net",
+                "value": "11"
+              },
+              {
+                "action_type": "post_uncomment",
+                "value": "1"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_comment",
+                "value": "2"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_like",
+                "value": "7"
+              },
+              {
+                "action_type": "video_view",
+                "value": "50"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "218"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "video_view",
+                "value": "199.824683"
+              },
+              {
+                "action_type": "link_click",
+                "value": "66.608228"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "1110.137128"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "47.804948"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "47.804948"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "163.790724"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "163.790724"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "45.831349"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "facebook"
+          },
+          {
+            "campaign_id": "120234146733660563",
+            "campaign_name": "Remarketing USA",
+            "spend": "1362.915603",
+            "clicks": "28",
+            "ctr": "0.206201",
+            "impressions": "13579",
+            "inline_link_clicks": "25",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "25"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "8"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "8"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "38"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "38"
+              },
+              {
+                "action_type": "video_view",
+                "value": "13"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "147"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "video_view",
+                "value": "104.839662"
+              },
+              {
+                "action_type": "link_click",
+                "value": "54.516624"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "35.8662"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "35.8662"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "170.36445"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "170.36445"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "9.271535"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "instagram"
+          },
+          {
+            "campaign_id": "120234146733660563",
+            "campaign_name": "Remarketing USA",
+            "spend": "2.920226",
+            "clicks": "0",
+            "ctr": "0",
+            "impressions": "26",
+            "inline_link_clicks": "0",
+            "actions": [
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "1"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "2.920226"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "threads"
+          },
+          {
+            "campaign_id": "120234146733660563",
+            "campaign_name": "Remarketing USA",
+            "spend": "0.200016",
+            "clicks": "0",
+            "ctr": "0",
+            "impressions": "2",
+            "inline_link_clicks": "0",
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "unknown"
+          },
+          {
+            "campaign_id": "120242845828470563",
+            "campaign_name": "Remarketing USA - Free Trial Test",
+            "spend": "76.58",
+            "clicks": "34",
+            "ctr": "6.367041",
+            "impressions": "534",
+            "inline_link_clicks": "44",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "44"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "26"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "26"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "44"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "44"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "32"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "1.740455"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "1.740455"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "1.740455"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "2.945385"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "2.945385"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "2.393125"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "audience_network"
+          },
+          {
+            "campaign_id": "120242845828470563",
+            "campaign_name": "Remarketing USA - Free Trial Test",
+            "spend": "8377.99",
+            "clicks": "67",
+            "ctr": "0.669598",
+            "impressions": "10006",
+            "inline_link_clicks": "32",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "32"
+              },
+              {
+                "action_type": "post_reaction",
+                "value": "5"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "17"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "17"
+              },
+              {
+                "action_type": "onsite_conversion.post_unlike",
+                "value": "1"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "37"
+              },
+              {
+                "action_type": "like",
+                "value": "1"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "5"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "38"
+              },
+              {
+                "action_type": "post_interaction_net",
+                "value": "6"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_like",
+                "value": "4"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "305"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "261.812188"
+              },
+              {
+                "action_type": "like",
+                "value": "8377.99"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "1675.598"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "226.432162"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "220.473421"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "492.822941"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "492.822941"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "27.46882"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "facebook"
+          },
+          {
+            "campaign_id": "120242845828470563",
+            "campaign_name": "Remarketing USA - Free Trial Test",
+            "spend": "208.85",
+            "clicks": "2",
+            "ctr": "0.515464",
+            "impressions": "388",
+            "inline_link_clicks": "2",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "2"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "2"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "2"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "15"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "104.425"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "104.425"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "104.425"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "13.923333"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "instagram"
+          },
+          {
+            "campaign_id": "120242845828470563",
+            "campaign_name": "Remarketing USA - Free Trial Test",
+            "spend": "2.22",
+            "clicks": "0",
+            "ctr": "0",
+            "impressions": "5",
+            "inline_link_clicks": "0",
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "threads"
+          }
+        ]
+      },
+      "platform_ad": {
+        "ok": true,
+        "data": [
+          {
+            "campaign_id": "120234146733660563",
+            "campaign_name": "Remarketing USA",
+            "adset_id": "120234146733780563",
+            "adset_name": "United States",
+            "ad_id": "120234146733680563",
+            "ad_name": "Carousels - Product",
+            "spend": "227.02",
+            "clicks": "5",
+            "ctr": "0.169377",
+            "impressions": "2952",
+            "inline_link_clicks": "2",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "2"
+              },
+              {
+                "action_type": "post_reaction",
+                "value": "1"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "53"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "1"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "53"
+              },
+              {
+                "action_type": "post_interaction_net",
+                "value": "1"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_like",
+                "value": "1"
+              },
+              {
+                "action_type": "video_view",
+                "value": "50"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "49"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "video_view",
+                "value": "4.5404"
+              },
+              {
+                "action_type": "link_click",
+                "value": "113.51"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "227.02"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "4.283396"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "4.283396"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "4.633061"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "facebook"
+          },
+          {
+            "campaign_id": "120234146733660563",
+            "campaign_name": "Remarketing USA",
+            "adset_id": "120234146733780563",
+            "adset_name": "United States",
+            "ad_id": "120234146733680563",
+            "ad_name": "Carousels - Product",
+            "spend": "158.66",
+            "clicks": "4",
+            "ctr": "0.260078",
+            "impressions": "1538",
+            "inline_link_clicks": "3",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "3"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "1"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "1"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "16"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "16"
+              },
+              {
+                "action_type": "video_view",
+                "value": "13"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "11"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "video_view",
+                "value": "12.204615"
+              },
+              {
+                "action_type": "link_click",
+                "value": "52.886667"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "9.91625"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "9.91625"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "158.66"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "158.66"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "14.423636"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "instagram"
+          },
+          {
+            "campaign_id": "120234146733660563",
+            "campaign_name": "Remarketing USA",
+            "adset_id": "120234146733780563",
+            "adset_name": "United States",
+            "ad_id": "120234146733680563",
+            "ad_name": "Carousels - Product",
+            "spend": "0.18",
+            "clicks": "0",
+            "ctr": "0",
+            "impressions": "2",
+            "inline_link_clicks": "0",
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "threads"
+          },
+          {
+            "campaign_id": "120234146733660563",
+            "campaign_name": "Remarketing USA",
+            "adset_id": "120234146733780563",
+            "adset_name": "United States",
+            "ad_id": "120234146733690563",
+            "ad_name": "Images - Product",
+            "spend": "1150.77",
+            "clicks": "34",
+            "ctr": "0.230259",
+            "impressions": "14766",
+            "inline_link_clicks": "26",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "26"
+              },
+              {
+                "action_type": "post_reaction",
+                "value": "3"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "15"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "15"
+              },
+              {
+                "action_type": "onsite_conversion.post_unlike",
+                "value": "1"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "29"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "3"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "29"
+              },
+              {
+                "action_type": "post_interaction_net",
+                "value": "4"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_like",
+                "value": "2"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "169"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "44.260385"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "383.59"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "39.681724"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "39.681724"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "76.718"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "76.718"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "6.80929"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "facebook"
+          },
+          {
+            "campaign_id": "120234146733660563",
+            "campaign_name": "Remarketing USA",
+            "adset_id": "120234146733780563",
+            "adset_name": "United States",
+            "ad_id": "120234146733690563",
+            "ad_name": "Images - Product",
+            "spend": "1204.15",
+            "clicks": "24",
+            "ctr": "0.199336",
+            "impressions": "12040",
+            "inline_link_clicks": "22",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "22"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "7"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "7"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "22"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "22"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "136"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "54.734091"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "54.734091"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "54.734091"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "172.021429"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "172.021429"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "8.854044"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "instagram"
+          },
+          {
+            "campaign_id": "120234146733660563",
+            "campaign_name": "Remarketing USA",
+            "adset_id": "120234146733780563",
+            "adset_name": "United States",
+            "ad_id": "120234146733690563",
+            "ad_name": "Images - Product",
+            "spend": "2.74",
+            "clicks": "0",
+            "ctr": "0",
+            "impressions": "24",
+            "inline_link_clicks": "0",
+            "actions": [
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "1"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "2.74"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "threads"
+          },
+          {
+            "campaign_id": "120242845828470563",
+            "campaign_name": "Remarketing USA - Free Trial Test",
+            "adset_id": "120242846203880563",
+            "adset_name": "United States",
+            "ad_id": "120242846210870563",
+            "ad_name": "Images - Product",
+            "spend": "74.62",
+            "clicks": "34",
+            "ctr": "6.451613",
+            "impressions": "527",
+            "inline_link_clicks": "44",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "44"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "26"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "26"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "44"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "44"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "32"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "1.695909"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "1.695909"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "1.695909"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "2.87"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "2.87"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "2.331875"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "audience_network"
+          },
+          {
+            "campaign_id": "120242845828470563",
+            "campaign_name": "Remarketing USA - Free Trial Test",
+            "adset_id": "120242846203880563",
+            "adset_name": "United States",
+            "ad_id": "120242846210870563",
+            "ad_name": "Images - Product",
+            "spend": "7198.25",
+            "clicks": "58",
+            "ctr": "0.658343",
+            "impressions": "8810",
+            "inline_link_clicks": "27",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "27"
+              },
+              {
+                "action_type": "post_reaction",
+                "value": "5"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "15"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "15"
+              },
+              {
+                "action_type": "onsite_conversion.post_unlike",
+                "value": "1"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "32"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "5"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "32"
+              },
+              {
+                "action_type": "post_interaction_net",
+                "value": "6"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_like",
+                "value": "4"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "297"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "266.601852"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "1439.65"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "224.945313"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "224.945313"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "479.883333"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "479.883333"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "24.236532"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "facebook"
+          },
+          {
+            "campaign_id": "120242845828470563",
+            "campaign_name": "Remarketing USA - Free Trial Test",
+            "adset_id": "120242846203880563",
+            "adset_name": "United States",
+            "ad_id": "120242846210870563",
+            "ad_name": "Images - Product",
+            "spend": "158.33",
+            "clicks": "1",
+            "ctr": "0.355872",
+            "impressions": "281",
+            "inline_link_clicks": "1",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "1"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "1"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "1"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "8"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "158.33"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "158.33"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "158.33"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "19.79125"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "instagram"
+          },
+          {
+            "campaign_id": "120242845828470563",
+            "campaign_name": "Remarketing USA - Free Trial Test",
+            "adset_id": "120242846203880563",
+            "adset_name": "United States",
+            "ad_id": "120242846210870563",
+            "ad_name": "Images - Product",
+            "spend": "2.22",
+            "clicks": "0",
+            "ctr": "0",
+            "impressions": "5",
+            "inline_link_clicks": "0",
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "threads"
+          },
+          {
+            "campaign_id": "120242845828470563",
+            "campaign_name": "Remarketing USA - Free Trial Test",
+            "adset_id": "120242846203880563",
+            "adset_name": "United States",
+            "ad_id": "120242846212370563",
+            "ad_name": "Carousels - Product",
+            "spend": "1.96",
+            "clicks": "0",
+            "ctr": "0",
+            "impressions": "7",
+            "inline_link_clicks": "0",
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "audience_network"
+          },
+          {
+            "campaign_id": "120242845828470563",
+            "campaign_name": "Remarketing USA - Free Trial Test",
+            "adset_id": "120242846203880563",
+            "adset_name": "United States",
+            "ad_id": "120242846212370563",
+            "ad_name": "Carousels - Product",
+            "spend": "1179.74",
+            "clicks": "9",
+            "ctr": "0.752508",
+            "impressions": "1196",
+            "inline_link_clicks": "5",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "5"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "2"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "2"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "5"
+              },
+              {
+                "action_type": "like",
+                "value": "1"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "6"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "8"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "235.948"
+              },
+              {
+                "action_type": "like",
+                "value": "1179.74"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "235.948"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "196.623333"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "589.87"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "589.87"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "147.4675"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "facebook"
+          },
+          {
+            "campaign_id": "120242845828470563",
+            "campaign_name": "Remarketing USA - Free Trial Test",
+            "adset_id": "120242846203880563",
+            "adset_name": "United States",
+            "ad_id": "120242846212370563",
+            "ad_name": "Carousels - Product",
+            "spend": "50.52",
+            "clicks": "1",
+            "ctr": "0.934579",
+            "impressions": "107",
+            "inline_link_clicks": "1",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "1"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "1"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "1"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "7"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "50.52"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "50.52"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "50.52"
+              },
+              {
+                "action_type": "offsite_conversion.custom.936973485167575",
+                "value": "7.217143"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "instagram"
+          },
+          {
+            "campaign_id": "120234146733660563",
+            "campaign_name": "Remarketing USA",
+            "adset_id": "120234146733780563",
+            "adset_name": "United States",
+            "ad_id": "120243374907550563",
+            "ad_name": "Images - Product (recovery 2026-04-03)",
+            "spend": "8613.54998",
+            "clicks": "207",
+            "ctr": "0.700602",
+            "impressions": "29546",
+            "inline_link_clicks": "122",
+            "actions": [
+              {
+                "action_type": "link_click",
+                "value": "122"
+              },
+              {
+                "action_type": "post_reaction",
+                "value": "4"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "46"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "46"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "127"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "5"
+              },
+              {
+                "action_type": "comment",
+                "value": "1"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "127"
+              },
+              {
+                "action_type": "post_interaction_net",
+                "value": "6"
+              },
+              {
+                "action_type": "post_uncomment",
+                "value": "1"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_comment",
+                "value": "2"
+              },
+              {
+                "action_type": "onsite_conversion.post_net_like",
+                "value": "4"
+              }
+            ],
+            "cost_per_action_type": [
+              {
+                "action_type": "link_click",
+                "value": "70.602869"
+              },
+              {
+                "action_type": "post_interaction_gross",
+                "value": "1722.709996"
+              },
+              {
+                "action_type": "post_engagement",
+                "value": "67.823228"
+              },
+              {
+                "action_type": "page_engagement",
+                "value": "67.823228"
+              },
+              {
+                "action_type": "omni_landing_page_view",
+                "value": "187.251087"
+              },
+              {
+                "action_type": "landing_page_view",
+                "value": "187.251087"
+              }
+            ],
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "facebook"
+          },
+          {
+            "campaign_id": "120234146733660563",
+            "campaign_name": "Remarketing USA",
+            "adset_id": "120234146733780563",
+            "adset_name": "United States",
+            "ad_id": "120243374907550563",
+            "ad_name": "Images - Product (recovery 2026-04-03)",
+            "spend": "0.20002",
+            "clicks": "0",
+            "ctr": "0",
+            "impressions": "2",
+            "inline_link_clicks": "0",
+            "date_start": "2026-03-25",
+            "date_stop": "2026-06-09",
+            "publisher_platform": "unknown"
+          }
+        ]
+      }
+    }
+  },
+  "action_types_90d": {
+    "ok": true,
+    "data": [
+      {
+        "campaign_id": "120234146733660563",
+        "campaign_name": "Remarketing USA",
+        "spend": "19768.48",
+        "clicks": "459",
+        "ctr": "0.273835",
+        "impressions": "167619",
+        "inline_link_clicks": "307",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "307"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "19"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "120"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "120"
+          },
+          {
+            "action_type": "onsite_conversion.post_unlike",
+            "value": "3"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "1216"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "20"
+          },
+          {
+            "action_type": "comment",
+            "value": "1"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "1216"
+          },
+          {
+            "action_type": "post_interaction_net",
+            "value": "24"
+          },
+          {
+            "action_type": "post_uncomment",
+            "value": "1"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_comment",
+            "value": "2"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "16"
+          },
+          {
+            "action_type": "video_view",
+            "value": "889"
+          },
+          {
+            "action_type": "offsite_conversion.custom.936973485167575",
+            "value": "1849"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "video_view",
+            "value": "22.23676"
+          },
+          {
+            "action_type": "link_click",
+            "value": "64.392443"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "988.424"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "16.256974"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "16.256974"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "164.737333"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "164.737333"
+          },
+          {
+            "action_type": "offsite_conversion.custom.936973485167575",
+            "value": "10.691444"
+          }
+        ],
+        "date_start": "2026-03-01",
+        "date_stop": "2026-06-09"
+      },
+      {
+        "campaign_id": "120242845828470563",
+        "campaign_name": "Remarketing USA - Free Trial Test",
+        "spend": "8665.64",
+        "clicks": "103",
+        "ctr": "0.942102",
+        "impressions": "10933",
+        "inline_link_clicks": "78",
+        "actions": [
+          {
+            "action_type": "link_click",
+            "value": "78"
+          },
+          {
+            "action_type": "post_reaction",
+            "value": "5"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "43"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "43"
+          },
+          {
+            "action_type": "onsite_conversion.post_unlike",
+            "value": "1"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "83"
+          },
+          {
+            "action_type": "like",
+            "value": "1"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "5"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "84"
+          },
+          {
+            "action_type": "post_interaction_net",
+            "value": "6"
+          },
+          {
+            "action_type": "onsite_conversion.post_net_like",
+            "value": "4"
+          },
+          {
+            "action_type": "offsite_conversion.custom.936973485167575",
+            "value": "352"
+          }
+        ],
+        "cost_per_action_type": [
+          {
+            "action_type": "link_click",
+            "value": "111.097949"
+          },
+          {
+            "action_type": "like",
+            "value": "8665.64"
+          },
+          {
+            "action_type": "post_interaction_gross",
+            "value": "1733.128"
+          },
+          {
+            "action_type": "post_engagement",
+            "value": "104.405301"
+          },
+          {
+            "action_type": "page_engagement",
+            "value": "103.162381"
+          },
+          {
+            "action_type": "omni_landing_page_view",
+            "value": "201.526512"
+          },
+          {
+            "action_type": "landing_page_view",
+            "value": "201.526512"
+          },
+          {
+            "action_type": "offsite_conversion.custom.936973485167575",
+            "value": "24.618295"
+          }
+        ],
+        "date_start": "2026-03-01",
+        "date_stop": "2026-06-09"
+      }
+    ]
+  }
+}
